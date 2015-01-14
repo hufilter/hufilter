@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!R edirect: http://www.hufilter.hu/hufilter.txt
+!R edirect: https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt
 !Homepage: http://www.hufilter.hu/hufilter.html
 !Title: hufilter
-!Expires: 14 days
-!Version: 20141216
+!Expires: 6 hours
+!Version: 20150115
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
