@@ -1,0 +1,50 @@
+[Adblock Plus 2.0]
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!R edirect: https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt
+!Homepage: http://www.hufilter.hu/hufilter.html
+!Title: hufilter
+!Expires: 6 hours
+!Version: 20150115
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Magyar Adblock Plus szurolista
+! 
+! Hibakat a pete !*! teamlupus pont hu cimre kerem jelezni.
+! Karbantarto: Szabo Peter
+!
+! szabaly optimalizalas / rule optimization
+! 
+! -   RTFM - http://adblockplus.org/en/filters
+! -   site.hu##TYPE[src*="something"]  ==> ||site.hu/something
+! -   ##IFRAME[src*="site.hu"] ==> ||site.hu^$third-party
+! -   killing slow rules by fast-matching => all blocking rules must have 
+!     1 word of min 3 chars surrounded by separators, no regex. Eg:
+!     "/testad" bad, "/testad." good;   "example.com" bad, 
+!     "||example.com^" good
+! -   || and element hiding (##) does not mix at all
+! -   || best to closed by ^ if whole domain is blocked, w/o url part
+! -   Redundancy checker: https://arestwo.org/famlam/redundantRuleChecker.html
+!
+! A szuresi iranyelvek, felhasznalasi feltetelek a lenti honlapon /
+! About filter policy and usage terms please see the homepage below
+!
+! http://www.hufilter.hu/hufilter.html
+! http://pete.teamlupus.hu/hufilter.html
+!
+! A szuro hasznalata a feltetelek automatikus elfogadasat jelenti.
+! By using the filter you automatically accept the terms of use.
+!
+! Koszonet a kozremukodoknek / thanks for the contributors
+!
+! Erdos Arpad 
+! hdc 
+! Keresztfalvi Bela 
+! S. L.
+! Kovi
+! Bortnya'k Roland
+! zamiere
+! Famlam
+! Ares2
+! 
+! ... es nevtelenseget kero kozremukodok  /
+! ... and contributrors who wish to remain unnamed 
+!

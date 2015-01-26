@@ -1,0 +1,25 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Felnott / meghivasos / fizetos oldalak                                 !
+! A szabaly bekuldoje vallalja erte teljes felelosseget                  !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+!||ncore.cc/art/index.php
+ncore.cc##IFRAME
+ncore.cc##DIV[id="fej_csik_felso"]
+ncore.cc##A[href*="2coal.com"]
+!ncore.cc##OBJECT[id="ncore_banner"]
+!ncore.cc##[id="hirdetes"]
+!ncore.cc##IMG[src*="yayo.hu/static/banner"]
+!||ncore.cc/images/banner/
+!ncore.cc##IMG[width="800"]
+!
+teracod.com##DIV[class*="banner"]
+!
+||diablotorrent.hu/*banner
+diablotorrent.hu##[id*="hirdetes"]
+!
+||microbit.eu/banners/
+microbit.eu##OBJECT
+!
+the1st.be##TABLE[id="banners"]
+!
