@@ -3,8 +3,8 @@
 !R edirect: https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt
 !Homepage: http://www.hufilter.hu/hufilter.html
 !Title: hufilter
-!Expires: 6 hours
-!Version: 20150115
+!Expires: 16 hours
+!Version: #VERSION#
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
