@@ -1,12 +1,11 @@
-
-!##################### 0000-header.txt ##################### 
 [Adblock Plus 2.0]
+!##################### 0000-header.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !R edirect: https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt
 !Homepage: http://www.hufilter.hu/hufilter.html
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201501301240
+!Version: 201501301243
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 

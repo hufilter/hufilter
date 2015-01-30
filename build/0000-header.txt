@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !R edirect: https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt
 !Homepage: http://www.hufilter.hu/hufilter.html

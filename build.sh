@@ -2,7 +2,7 @@
 
 BUILDFN="./hufilter.tmp"
 
-echo -e > $BUILDFN;
+echo "[Adblock Plus 2.0]" > $BUILDFN;
 for x in ` ls -1 ./build/ `;
     do
         echo "!##################### $x ##################### " >> $BUILDFN;
