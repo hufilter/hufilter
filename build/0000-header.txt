@@ -1,14 +1,14 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !R edirect: https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt
-!Homepage: http://www.hufilter.hu/hufilter.html
+!Homepage: https://github.com/szpeter80/hufilter/wiki
 !Title: hufilter
 !Expires: 16 hours
 !Version: #VERSION#
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
-! Hibakat a pete !*! teamlupus pont hu cimre kerem jelezni.
-! Karbantarto: Szabo Peter
+! Eszreveteleket az Adblock Plus beepitett bejelentojevel lehet jelezni.
+! Karbantarto: Szabo Peter ( pete!teamlupus.hu )
 !
 ! szabaly optimalizalas / rule optimization
 ! 
@@ -23,11 +23,8 @@
 ! -   || best to closed by ^ if whole domain is blocked, w/o url part
 ! -   Redundancy checker: https://arestwo.org/famlam/redundantRuleChecker.html
 !
-! A szuresi iranyelvek, felhasznalasi feltetelek a lenti honlapon /
-! About filter policy and usage terms please see the homepage below
-!
-! http://www.hufilter.hu/hufilter.html
-! http://pete.teamlupus.hu/hufilter.html
+! A szuresi iranyelvek, felhasznalasi feltetelek a fenti honlapon /
+! About filter policy and usage terms please see the homepage above
 !
 ! A szuro hasznalata a feltetelek automatikus elfogadasat jelenti.
 ! By using the filter you automatically accept the terms of use.
