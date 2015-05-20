@@ -1,4 +1,3 @@
-[Adblock Plus 2.0]
 !##################### 0000-header.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !R edirect: https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt
@@ -1493,7 +1492,6 @@ the1st.be##TABLE[id="banners"]
 ||napiaszhirdetesek^$third-party
 ||affiliate.hu^$third-party
 ||ads.sg.hu^$third-party
-||adscendmedia.com^$third-party
 ||9klikk.com^$third-party
 ||banner.aqua.hu^$third-party
 !!!
@@ -1580,7 +1578,6 @@ the1st.be##TABLE[id="banners"]
 !!!
 !!! Kulfoldi reklamszerverek vegyesen
 !!!
-||adslidango.com^$third-party
 ||boxzsak.kirowski.com^
 ||up-banner.wavecdn.de^
 ||smartadserver.com^
@@ -1615,12 +1612,9 @@ dictzone.com##P[id="a1"]
 dictzone.com##P[id="a2"]
 ||streameye.net^$third-party
 ||betfair.com^$third-party
-||exoclick.com^$third-party
 ||bongacash.com^$third-party
 ||ads.ventivmedia.com^$third-party
 ||iitech.dk^$third-party
 ||bannerserver.hu$subdocument
 ||affiliate.hu$subdocument
-||onclickads.net^$third-party
-||traffichaus.com^$third-party
 !##################### END 0500-nonhungarian.txt ##################### 
