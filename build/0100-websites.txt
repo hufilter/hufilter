@@ -350,7 +350,6 @@ life.hu##[id="top"]
 life.hu##[class="ad"]
 !
 manna.ro##[id*="banner"]
-manna.ro##TD[id="hir-right"]
 manna.ro##DIV[class*="advert"]
 !
 idokep.hu##DIV[class*="hird_"]
@@ -432,7 +431,6 @@ nemzetisport.hu##div#wallpaper_right
 nemzetisport.hu##.bet365_connect
 !
 nso.hu##[class^="ad_"]
-nso.hu##[class$=" ad"]
 nso.hu/*/sponsoration/*.*
 !
 farm.hu##[class*="banner"]
@@ -515,7 +513,6 @@ impulzus.ro##[id*="banner"]
 medicalonline.hu##[class*="tBanner"]
 !
 postr.hu##[class*="banner"]
-postr.hu##[class^="hird_"]
 !
 komment.hu##[class*="banner"]
 komment.hu##[id*="banner"]
@@ -796,7 +793,6 @@ mobilarena.hu##[class="adbox"]
 fovarosi-hirhatar.hu##[href*="hirdetesek"]
 fovarosi-hirhatar.hu##[class*="banners"]
 !
-quart.hu##[id="magnum"]
 quart.hu##[class*="hirdetes"]
 quart.hu##[class*="banner"]
 !
