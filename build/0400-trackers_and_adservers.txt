@@ -1,13 +1,11 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !                        trackerek                                       !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-||ctag.origo.hu^
 ||audit.median.hu^
 ||best-top.hu/banner.php*
 ||websas.hu/statistics/
 ||hungariantop1000.com/cgi-bin/counter.cgi*
 ||*.hit.gemius.pl^
-||stat.carussel.hu^
 ||ctag.hu/dc/
 ||google-analytics.com^$third-party
 ||analytics.yahoo.com^$third-party
@@ -51,8 +49,6 @@
 /xgemius.js^
 /xgemius.min.js^
 ||ad.hu/g3t.js
-||adflan.com^
-||ads.monster.com^
 ||juicyads.com^
 ||net-solutions.hu/banner/
 ||olx.hu/hirdetes/

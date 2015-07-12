@@ -6,9 +6,6 @@
 ||up-banner.wavecdn.de^
 ||smartadserver.com^
 ||calivary.com^$third-party
-||weeklyprizewinner.com-net.info^
-||globalconsumerwinner.com^
-||supremeadsonline.com^
 ||googlesyndication.com/pagead/
 ||etargetnet.*
 ||content.yieldmanager.edgesuite.net/*.swf 
@@ -20,9 +17,7 @@
 ||zanox.com^
 ||ad.yieldmanager.com^
 ||fastclick.net^
-||msads.net^
 ||netadclick.com^
-||interneshka.net^
 ||preissuchmaschine.de/banner/
 ||pornolize.com/*?clickTAG=*
 ||flashkit.com/RealMedia/ads/

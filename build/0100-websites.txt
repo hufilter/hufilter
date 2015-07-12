@@ -35,13 +35,6 @@ velvet.hu##[class="adszoveg"]
 velvet.hu##[class*="ad_container"]
 velvet.hu##[class*="guestbox"]
 !
-technet.hu##DIV[class="wrp"]
-technet.hu##[class*="adbox"]
-technet.hu##[class*="textad"]
-technet.hu##[id*="Banner"]
-technet.hu##[class*="Advert"]
-technet.hu##DIV[class="box telko_ajanlo"]
-technet.hu##[class^="ad_"]
 !
 ||chat.hu/Client/banner
 ||chat.hu/imgadverts*
@@ -160,8 +153,6 @@ citromail.hu##TR[id="hir2"]
 ||mandiner.hu/images/design/*-bg.*
 mandiner.hu##DIV[class*="banner"]
 mandiner.hu##DIV[id*="Banner"]
-mandinersport.hu##DIV[class*="banner"]
-mandinersport.hu##DIV[id*="Banner"]
 mandiner.hu##div[style*="fiskars"]
 mandiner.hu##html body div#all div#mainbgbg div#mainbg > div[style^="width: 125px"]
 mandiner.hu##[class*="hirdetes"]
@@ -192,7 +183,6 @@ blog.hu##DIV[class="share"]
 blog.hu##[class="ad"]
 blog.hu##[class*="follow_promo_figure"]
 !
-||ad.otomoto.pl^
 vatera.hu##DIV[id*="advert-container"]
 vatera.hu##DIV[class="page-rightside-advert"]
 ||vatera.hu/affiliate/images/banner/
@@ -308,8 +298,6 @@ hwsw.hu##[class*="hirdetes"]
 harmonet.hu##DIV[id*="banner"]
 harmonet.hu##DIV[id="lightwindow_overlay"]
 !
-nana.hu##DIV[class*="ads"]
-nana.hu##DIV[class="box links"]
 !
 ||ad*.gyaloglo.hu^
 gyaloglo.hu##DIV[class*="Advert"]
@@ -349,8 +337,6 @@ life.hu##DIV[class="pr-item"]
 life.hu##[id="top"]
 life.hu##[class="ad"]
 !
-manna.ro##[id*="banner"]
-manna.ro##DIV[class*="advert"]
 !
 idokep.hu##DIV[class*="hird_"]
 !
@@ -430,7 +416,6 @@ nemzetisport.hu##div#wallpaper_left
 nemzetisport.hu##div#wallpaper_right
 nemzetisport.hu##.bet365_connect
 !
-nso.hu##[class^="ad_"]
 nso.hu/*/sponsoration/*.*
 !
 farm.hu##[class*="banner"]
@@ -463,14 +448,10 @@ divany.hu##[class*="hirdetes"]
 divany.hu##[id*="hirdetes"]
 divany.hu##[class="guestbox"]
 !
-||u3.hazipatika.com^
 hazipatika.com##TD[id*="l_sponsor"]
 hazipatika.com##[class*="advert"]
 hazipatika.com##[class*="adv_"]
 hazipatika.com##DIV[class="wrap"]
-!
-hetivalasz.hu##[class*="szponzoracio"]
-hetivalasz.hu##DIV[class*="ad_"]
 !
 ||ipon.hu/banner
 ipon.hu##[id*="banner"]
@@ -499,26 +480,19 @@ sonline.hu##DIV[class*="ad "]
 sonline.hu##[class*="hirdetes"]
 sonline.hu##[id*="ctnet_ad_"]
 !
-mtv.hu##[class*="banner"]
-mtv.hu##[id*="Advert"]
-mtv.hu##[id*="Banner"]
 !
 logout.hu##[class*="adbox"]
 logout.hu##[class*="xabre"]
 !
-impulzus.ro##[class*="banner"]
-impulzus.ro##[id*="banner"]
 !
 ||medicalonline.hu/*hirdetes
 medicalonline.hu##[class*="tBanner"]
 !
-postr.hu##[class*="banner"]
 !
 komment.hu##[class*="banner"]
 komment.hu##[id*="banner"]
 komment.hu##[class*="hirdetes"]
 !
-||hirdetes.napiaszonline.hu^
 ||napiaszonline.hu/*hirdetesek
 napiaszonline.hu##[class*="hirdetes"]
 napiaszonline.hu##[name*="hirdetes"]
@@ -592,8 +566,6 @@ eletmod.hu##[id*="etarget"]
 eletmod.hu##[id*="banner"]
 eletmod.hu##[class="rckaexclude"]
 !
-||tabutv.hu/*hirdetesek/
-tabutv.hu##[class*="hirdetes"]
 !
 baon.hu##[class*="hirdetes"]
 baon.hu##[class*="ad "]
@@ -662,8 +634,6 @@ egeszsegkalauz.hu##[id*="banner"]
 egeszsegtukor.hu##[id^="ad_"]
 egeszsegtukor.hu##[class="ad"]
 !
-kulturport.hu##[class*="hirdetes"]
-kulturport.hu##[class="rckaexclude"]
 !
 kulturpart.hu##[name*="banner"]
 kulturpart.hu##[class="hird"]
@@ -699,9 +669,6 @@ vezess.hu##[id*="Banner"]
 vezess.hu##[class*="szponzor"]
 vezess.hu##[class*="Hirdetes"]
 !
-webbulvar.hu##[class*="banner"]
-webbulvar.hu##[class="rcclass"]
-webbulvar.hu##[class*="Advert"]
 !
 eduline.hu##[id*="_ad"]
 eduline.hu##[id*="ad_"]
@@ -752,9 +719,6 @@ moly.hu##DIV[class="ad"]
 kiskegyed.hu##[class*="ads"]
 kiskegyed.hu##[id*="banner"]
 !
-||blogter.hu/*banner*.*
-blogter.hu##DIV[id="bb-banner"]
-!
 szoftverbazis.hu##[id="magnum"]
 szoftverbazis.hu##[class*="banner"]
 !
@@ -771,8 +735,6 @@ donna.hu##[class*="banner"]
 infogyor.hu##[class*="banner"]
 ||infogyor.hu/*_banners/*
 !
-iphonehungary.hu##[class*="felsoad"]
-iphonehungary.hu##[class^="ad"]
 !
 usernet.hu##[id="blanket"]
 usernet.hu##[id="popUpDiv"]
@@ -793,8 +755,6 @@ mobilarena.hu##[class="adbox"]
 fovarosi-hirhatar.hu##[href*="hirdetesek"]
 fovarosi-hirhatar.hu##[class*="banners"]
 !
-quart.hu##[class*="hirdetes"]
-quart.hu##[class*="banner"]
 !
 olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]

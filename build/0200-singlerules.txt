@@ -9,7 +9,6 @@ bankmonitor.hu##DIV[id="vodafone-red"]
 pcguru.hu##DIV[class="banner-content"]
 !!! blokkolta a menut gaborbarta.blogspot.hu
 !!! blogspot.hu##[id^="crosscol"]
-siccpasik.hu##[class*="hirdetes"]
 pdafanclub.com##[id*="banner"]
 ingatlanmagazin.com##[class*="banner"]
 eoldal.hu/*eoldal_banner*
@@ -24,17 +23,13 @@ tutitippek.hu##[class*="adsense"]
 adoforum.hu##[class^="zone_"]
 5perc.es##[class*="banner"]
 zene.hu##DIV[class="etarget"]
-kep-vilag.hu##[class*="banner"]
 napocska.hu/images/*_advert*.*
 onlinecegjegyzek.hu##[class*="hirdetes"]
 CegMarketing.hu/banner*
-6perc.eu##[id="slider"]
 site88.net##DIV[class="popup"]
 deres.tv##[class*="banner"]
-trollfesz.net##DIV[id="instance-text-3"]
 bumm.sk##[id*="banner"]
 eron.hu##[id*="banner"]
-mommo.hu##[class*="Advert"]
 5mp.eu##DIV[id="alsobox"]
 travelo.hu##[class*="hirdetes"]
 ||pcworld.hu/bannerek/
@@ -52,21 +47,16 @@ politaktika.hu##[id="popup"]
 ||nokiaprogramok.hu/bannerek
 haziallat.hu##[id*="_ads"]
 nokiaprogramok.hu##TABLE[style="background-image:url('bannerek/nokiaprogramok_hatter_1600x132.jpg');"]
-ingyenfilmek.eu##div[class*="banner_top"]
 infoajka.hu##[class^="banner"]
-mindent-a-szemnek.hu##[class*="banner"]
 mitortent.hu##[class^="adv"]
 helyitipp.hu##[id*="hirdet"]
 trademagazin.hu##[id*="banner"]
-zalaihirlap.hu##[class*="banner"]
 manus.hu##[class*="articleBanner"]
 hir6.hu##[class*="banner"]
 kamaszpanasz.hu##[data*="banner"]
 kamaszpanasz.hu##[class*="banner"]
 nyest.hu##[class*="banner"]
 lajkgyar.fbcert.com##DIV[id="showcase"]
-torzsasztal.hu##TABLE[id="site_header"]
-naplo-online.hu##[class*="banner"]
 torrenthound.com##[class="topspot"]
 betegvagyok.hu##[id*="banner"]
 ||ketyerepark.hu/banner/
@@ -76,13 +66,11 @@ hrportal.hu##[class*="banner"]
 ||szepsegbroker.hu/banner/
 bookline.hu##[class*="advert"]
 netfirms.com##A[href*="=banner"]
-hirtv.hu##[id*="ctnet"]
 hogyankell.hu##[id^="advert"]
 myvip.com##[id*="banner"]
 astronet.hu##[class*="ads-"]
 ||pcpult.hu/*/banner/
 storyonline.hu##DIV[id*="kirakat"]
-webbulvar.hu##[class*="hirdetes"]
 noitema.hu##[class*="hirdetes"]
 mmonline.hu##[class*="banner"]
 ||amiotthonunk.hu/images/banners/
@@ -94,18 +82,14 @@ autopro.hu##[class*="banner"]
 adozona.hu##[class*="ads"]
 babanet.hu##[class*="hirdetes"]
 lajkold.hu##[class^="ad "]
-napilajk.eu##[id*="banner"] 
-nyitvatartas.hu##[class*="banner"]
 figyelo.hu##[class*="adbox"]
 bonuszbrigad.hu##[id="popup_landing_container"]
 ||borsonline.hu/*hirdetes
 ||bs.idg.hu/phpad/adimage.php?*
-digiport.hu##DIV[id*="banner"]
 estihirlap.hu##[class*="banner"]
 f1vilag.hu##[class*="adzone"]
 ||felnigumi.hu/kepek/*.swf
 filmoldal.hu##DIV[class*="reklam"]
-fmh.hu##[class*="banner"]
 galamus.hu##[class*="banner"]
 gamestar.hu##DIV[class="article_left_banner"]
 gloria.tv##[id*="advert"]
@@ -158,19 +142,15 @@ torte-net.hu##DIV[id="hirdetes"]
 ||tudatosvasarlo.hu/images/*.swf
 ||utcakereso.hu/hirdetes/
 ||utvonalterv.hu/images/*.swf
-vasnepe.hu##[class*="banner"]
 videoklinika.hu##DIV[id*="Banner"]
 webforditas.hu##[id*="AdFrame"]
 ||webminute.hu/bannerek/
 ||webtraffic.hu/banner/
-||x-banner.hu/click.php
 lakberendezes.hu##[class="adbg"]
 hir.ma##[id="sidebad"]
 telefonkonyv.hu##[class*=" adH"]
 abbcenter.com##[class*="banner"]
 napifilm.com##[class*="banner"]
-hokum.hu##[class="videoad"]
-bit-tos.hu##[class*="hirdetes"]
 bitport.hu##[class*="banner"]
 hotdog.hu##DIV[id="tetszett"]
 ||static.lhp.hu/lhp.hu/bannerek/
@@ -192,10 +172,8 @@ hazipatika.com##[class*="adtext"]
 ##[id*="google_ads"]
 femcafe.hu##[class*="_ad "]
 csongradihirek.hu##[class*="banner"]
-trollers.eu##[id="slider"]
 withssl.com##[id="popup"]
 indavideo.hu##[class*="billboard"]
-misze.com##[class*="banner"]
 vilagszam.hu##[class^="adv"]
 vilagszam.hu##[id*="-ad-"]
 femcafe.hu##[id*="_ad-"]
@@ -284,8 +262,6 @@ metropol.hu/*/images/sponsor_*.*
 gyoricegregiszter.hu##[class*="banner"]
 @@||update1.hu/$document
 kisalfold.hu##[class="billboard"]
-ilovesor.hu##[id*="-ads"]
-ilovesor.hu##[src*="/banner/"]
 ##[id*="overlayBg"]
 ##[class*="overlayBg"]
 ||ad.napilapcsoport.hu
@@ -359,16 +335,10 @@ trollfesz.cc##[src*="/banner/"]
 ||femcafe.hu/*/spike_ad/*
 hirstart.hu##[class*="hirdetes"]
 chat.hu##[id="stvipcontainer"]
-6perc.net##[id="slider"]
-ilix.in##[class="backk"]
-ilix.in##[id="blockMsg"]
 mult-kor.hu##[class^="ui-dialog"]
-humorforras.eu##[id="slider"]
 szervuszausztria.hu##[id*="etarget"]
 szervuszausztria.hu##[class^="ads"]
-humorforras.com##[id="slider"]
 szingliportal.hu##[class="article_contiune_link"]
-ezutos.com##[class="hirdetes"]
 !x-message 20130607 
 168ora.hu##[class^="ads"]
 c-press.hu##[id="bef_mainbody_mod_2"]
@@ -387,12 +357,10 @@ kisalfold.hu##[class="vippr"]
 ricsajok.hu##[class*="banner"]
 mellbimbo.eu##[id="topnod"]
 mellbimbo.eu##[class="a_d"]
-trollmaffia.info##[id="slider"]
 nlcafe.hu##[class*="adsense"]
 444.hu##[class*="banner"]
 ||ad.pphungary.hu
 sorozataddict.hu##[id="colorbox"]
-osztod.hu##[class*="banner"]
 hir.ma##[class*="PostAd"]
 hvg.hu##[class="hvg-layer"]
 kaposvarmost.hu##[class*="banner"]
@@ -435,8 +403,6 @@ wellnesscafe.hu##[id*="AdZone"]
 !||scarabresearch.com/banners/
 superiorhirek.hu##[class*="-ad"]
 kisalfold.hu##[class^="pr-"]
-humormaffia.hu##[id="ugyespopup"]
-humormaffia.hu##[class*="Popup"]
 samsungsport.hu##[class*="banner"]
 szoljon.hu##[class*="hirdetes"]
 szoljon.hu##[class^="ad "]
@@ -467,7 +433,6 @@ infodunaujvaros.hu##[class*="banner"]
 kronika.ro##[class*="banner"]
 nemzetisport.hu##[id^="ad_"]
 ##[id^="ad_zone_"]
-postr.hu##[id="magnum"]
 propeller.hu##[id^="overlay"]
 mozinezo.hu##[id="header"]
 ||est.hu/design/img/szponzoracio/
@@ -486,7 +451,6 @@ evamagazin.hu##[class="popupunderlay"]
 figyelo.hu##[class*="banner"]
 ||media.netpositive.hu
 hir24.hu##[id="sticky"]
-postr.hu##[class*="hirdetes"]
 penzcentrum.hu##[class^="f10"]
 penzcentrum.hu##[class^="grbox"]
 okcupid.com##[id="profile_ad"]
@@ -503,7 +467,6 @@ sportorvos.hu##[class*="ad_"]
 !----------- 
 !----------- 
 turmixvilag.hu##DIV[class="adsense"]
-fogabc.hu##[class="banner"]
 mobilport.hu##[class*="ad_"]
 likeyou.hu##[id*="_rek_"]
 likeyou.hu/*/reklamok/*.*
@@ -511,12 +474,10 @@ hirek.sk##[class*="hirdetes"]
 ||hirek.sk/banner/
 ||szegedma.hu/*banners/*.*
 storyonline.hu##[class*="hirdetes"]
-||technet.hu/*promo/*.*
 blog.hu##DIV[id="taft"]
 vilagszammagazin.hu##[class^="adv"]
 cotcot.hu##[class*="hirdetes"]
 cotcot.hu##[class*="banner"]
-noltv.hu##[class^="ad-"]
 ||ezoterikus.hu/*banner*/*
 ingyenweb.hu/felso/*.*
 millamedia.hu##[id*="banner"]
@@ -542,6 +503,5 @@ lifemagazin.hu/ads/
 tvn.hu/tvn/kepek/xpoker.hu/
 wellnesscafe.hu##[id*="Banner"]
 wellnesscafe.hu##[class*="banner"]
-napihumor.co##[class="like-locker"]
 epresso.hu##[class*="banner"]
 !

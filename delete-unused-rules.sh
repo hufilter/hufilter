@@ -14,7 +14,8 @@ do
     OUTFN=`basename $x`
     diff $x ./unused.txt --new-line-format="" --old-line-format="%L" --unchanged-line-format="" > ./new/$OUTFN;
 
-    echo "Diff: $OUTFN"
+    echo "Showing diff: $OUTFN (press enter for diff, then \"q\" to quit the viewer )"
+    read DUMMY
     diff -Naur ./build/$OUTFN ./new/$OUTFN | less;
 done;
 
