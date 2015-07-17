@@ -82,6 +82,7 @@
 ||rc.rc.hu^
 ||ads.geeks.hu^
 ||ad.depo.hu^
+||netexs.com/click
 !!!
 !!! elemelrejtes
 !!! az ilyen formaju szabalyok a reklam

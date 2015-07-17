@@ -5,7 +5,7 @@
 !Homepage: https://github.com/szpeter80/hufilter/wiki
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201507121745
+!Version: 201507171539
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1445,6 +1445,7 @@ the1st.be##TABLE[id="banners"]
 ||rc.rc.hu^
 ||ads.geeks.hu^
 ||ad.depo.hu^
+||netexs.com/click
 !!!
 !!! elemelrejtes
 !!! az ilyen formaju szabalyok a reklam
