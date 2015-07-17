@@ -11,6 +11,7 @@
 ||analytics.yahoo.com^$third-party
 ||counter.hitslink.com^$third-party
 ||myroitracking.com/newServing/
+||fruitflan.com
 !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !                      reklamszerverek                                   ! 
@@ -82,7 +83,7 @@
 ||rc.rc.hu^
 ||ads.geeks.hu^
 ||ad.depo.hu^
-||netexs.com/click
+||netexs.com^
 !!!
 !!! elemelrejtes
 !!! az ilyen formaju szabalyok a reklam
