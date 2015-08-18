@@ -52,7 +52,6 @@
 ||ad.hu/g3t.js
 ||juicyads.com^
 ||net-solutions.hu/banner/
-||olx.hu/hirdetes/
 ||ad*.mediaweb.hu/adimage.php?*
 ||ad*.mellesleg.hu^
 ||ad.gyermekevek.hu^
@@ -84,6 +83,7 @@
 ||ads.geeks.hu^
 ||ad.depo.hu^
 ||netexs.com^
+||vid4u.org^
 !!!
 !!! elemelrejtes
 !!! az ilyen formaju szabalyok a reklam

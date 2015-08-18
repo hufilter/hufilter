@@ -5,7 +5,7 @@
 !Homepage: https://github.com/szpeter80/hufilter/wiki
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201507171543
+!Version: 201508181833
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -72,6 +72,9 @@ index.hu##[id="cemp_doboz"]
 index.hu##[class*="Advert"]
 index.hu##A[id="closeWindow"]
 forum.index.hu##TABLE[id="site_header"]
+index.hu,velvet.hu,totalcar.hu##.travelo-box
+index.hu,velvet.hu,totalcar.hu##.shopline-box
+index.hu,velvet.hu##.flash-fullscreen-wrapper
 !
 velvet.hu##DIV[id="ads"]
 velvet.hu##DIV[id*="microsite"]
@@ -84,6 +87,13 @@ velvet.hu##[id="cemp_doboz"]
 velvet.hu##[class="adszoveg"]
 velvet.hu##[class*="ad_container"]
 velvet.hu##[class*="guestbox"]
+!
+!
+totalcar.hu##[id*="adocean"]
+totalcar.hu##[class*="hirdetes"]
+totalcar.hu##[class*="adblokk"]
+totalcar.hu##[class="microsite"]
+totalcar.hu##DIV[id="ads"]
 !
 !
 ||chat.hu/Client/banner
@@ -176,7 +186,7 @@ origo.hu##[id*="-hird"]
 origo.hu##[id="adZone"]
 origo.hu##[id="inter-in"]
 origo.hu##[id="flashContent"]
-!origo.hu##[id^="szponz-"]
+origo.hu,gphirek.hu##[id^="zone"]
 !
 ||fn.hu/*szponzor*/*.*
 fn.hu##DIV[id^="sky_"][id$="_side"]
@@ -627,13 +637,6 @@ beol.hu##[class*="adcikk"]
 beol.hu##[class="hirdetes"]
 !
 demotivalo.net##[id*="adview"]
-!
-totalcar.hu##[id*="adocean"]
-totalcar.hu##[class*="hirdetes"]
-totalcar.hu##[class*="adblokk"]
-totalcar.hu##[class="microsite"]
-totalcar.hu##DIV[id="ads"]
-!
 vehir.hu##[id*="reklam_"]
 vehir.hu##[class*="szovegkozi"]
 vehir.hu##[class^="ad_"]
@@ -726,11 +729,6 @@ eduline.hu##[class="adtxt"]
 eduline.hu##[class*="ads"]
 eduline.hu##[class*="ad_"]
 eduline.hu##[class*="Advert"]
-!
-sportgeza.hu##[id*="adocean"]
-sportgeza.hu##[class*="hirdetes"]
-sportgeza.hu##[id*="banner"]
-sportgeza.hu##[class="guestbox"]
 !
 kisalfold.hu##[id*="advert"]
 kisalfold.hu##[class*="advert"]
@@ -1316,7 +1314,6 @@ cotcot.hu##[class*="banner"]
 ingyenweb.hu/felso/*.*
 millamedia.hu##[id*="banner"]
 utajovobe.eu##[class="bannergroup"]
-olx.hu##[class="vtop"]
 !-----------   
 ||okmanyiroda.hu/banner.html
 !
@@ -1415,7 +1412,6 @@ the1st.be##TABLE[id="banners"]
 ||ad.hu/g3t.js
 ||juicyads.com^
 ||net-solutions.hu/banner/
-||olx.hu/hirdetes/
 ||ad*.mediaweb.hu/adimage.php?*
 ||ad*.mellesleg.hu^
 ||ad.gyermekevek.hu^
@@ -1447,6 +1443,7 @@ the1st.be##TABLE[id="banners"]
 ||ads.geeks.hu^
 ||ad.depo.hu^
 ||netexs.com^
+||vid4u.org^
 !!!
 !!! elemelrejtes
 !!! az ilyen formaju szabalyok a reklam

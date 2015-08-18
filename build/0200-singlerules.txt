@@ -482,7 +482,6 @@ cotcot.hu##[class*="banner"]
 ingyenweb.hu/felso/*.*
 millamedia.hu##[id*="banner"]
 utajovobe.eu##[class="bannergroup"]
-olx.hu##[class="vtop"]
 !-----------   
 ||okmanyiroda.hu/banner.html
 !
