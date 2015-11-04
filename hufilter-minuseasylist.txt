@@ -4,7 +4,7 @@
 !Homepage: https://github.com/szpeter80/hufilter/wiki
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201508181833
+!Version: 201511040931
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1506,4 +1506,6 @@ dictzone.com##P[id="a2"]
 ||iitech.dk^$third-party
 ||bannerserver.hu$subdocument
 ||affiliate.hu$subdocument
+||premads.info^$third-party
+
 !##################### END 0500-nonhungarian.txt ##################### 

@@ -36,3 +36,5 @@ dictzone.com##P[id="a2"]
 ||affiliate.hu$subdocument
 ||onclickads.net^$third-party
 ||traffichaus.com^$third-party
+||premads.info^$third-party
+
