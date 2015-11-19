@@ -440,7 +440,6 @@ est.hu##[class*="banner"]
 est.hu##[class*="_adv "]
 kakukk.ro##[id*="banner"]
 origo.hu##[id*="banner"]
-profession.hu##[id="jqibox"]
 citromail.hu##[id="jatekcsik"]
 ||blog.hu/ad/
 turizmusonline.hu##[class*="Banner"]

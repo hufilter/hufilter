@@ -4,7 +4,7 @@
 !Homepage: https://github.com/szpeter80/hufilter/wiki
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201511040931
+!Version: 201511191109
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1271,7 +1271,6 @@ est.hu##[class*="banner"]
 est.hu##[class*="_adv "]
 kakukk.ro##[id*="banner"]
 origo.hu##[id*="banner"]
-profession.hu##[id="jqibox"]
 citromail.hu##[id="jatekcsik"]
 ||blog.hu/ad/
 turizmusonline.hu##[class*="Banner"]
