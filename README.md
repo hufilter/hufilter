@@ -4,7 +4,10 @@ hufilter
 Magyar Adblock szűrőlista
 
 
-A hufilter projekt a "Creative Commons Attribution-ShareAlike 4.0" licenszfeltételek mellett használható fel.
-The project hufilter is distributed under the "Creative Commons Attribution-ShareAlike 4.0" license.
+A hufilter projekt a "Creative Commons Attribution 4.0" licenszfeltételek mellett használható fel. 
+A közreműködők vállalják ugyanezen feltételek melletti licenszelését a munkájuknak.
 
-http://creativecommons.org/licenses/by-sa/4.0/
+The project hufilter is distributed under the "Creative Commons Attribution 4.0" license. 
+Contributors are licensing their work under the very same terms and conditions.
+
+http://creativecommons.org/licenses/by/4.0/
