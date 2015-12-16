@@ -76,11 +76,6 @@ hirszerzo.hu##[class*="Adverticum"]
 hirszerzo.hu##[class^="ads"]
 hirszerzo.hu##[id*="_ad"]
 !
-blikk.hu##[class*="hirdetes"]
-blikk.hu##[id*="banner"]
-blikk.hu##[id*="ecommerce"]
-blikk.hu##[class*="banner"]
-!
 hirado.hu##DIV[id*="Banner"]
 hirado.hu##DIV[id*="zone-wallbanner-header"]
 hirado.hu*/microsites/*wallpaper*.*

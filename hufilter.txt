@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201512161603
+!Version: 201512161611
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -126,11 +126,6 @@ hirszerzo.hu##P[class="adcloud"]
 hirszerzo.hu##[class*="Adverticum"]
 hirszerzo.hu##[class^="ads"]
 hirszerzo.hu##[id*="_ad"]
-!
-blikk.hu##[class*="hirdetes"]
-blikk.hu##[id*="banner"]
-blikk.hu##[id*="ecommerce"]
-blikk.hu##[class*="banner"]
 !
 hirado.hu##DIV[id*="Banner"]
 hirado.hu##DIV[id*="zone-wallbanner-header"]
