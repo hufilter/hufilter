@@ -106,7 +106,8 @@
 ##A[href*="adcloud.hvg.hu"]
 ##A[href*="adverticum.net"]
 ##A[href*="etargetnet.com"]
-##A[href*="gemius.pl"]
+!!! gemius.pl/gstream.js whitelistazasa helyett
+!!!##A[href*="gemius.pl"]
 ##A[href*="dealcent.com"]
 ##DIV[id="cenmg"]
 ##DIV[href*="ad.adverticum.net"]

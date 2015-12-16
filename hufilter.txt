@@ -3,14 +3,15 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !R edirect: https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt
 !Homepage: https://github.com/szpeter80/hufilter/wiki
+!Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201511191109
+!Version: 201512161603
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
 ! Eszreveteleket az Adblock Plus beepitett bejelentojevel lehet jelezni.
-! Karbantarto: Szabo Peter ( pete!teamlupus.hu )
+! Karbantarto: Szabo Peter ( hufilter.adblock!gmail.com )
 !
 ! szabaly optimalizalas / rule optimization
 ! 
@@ -1465,7 +1466,8 @@ the1st.be##TABLE[id="banners"]
 ##A[href*="adcloud.hvg.hu"]
 ##A[href*="adverticum.net"]
 ##A[href*="etargetnet.com"]
-##A[href*="gemius.pl"]
+!!! gemius.pl/gstream.js whitelistazasa helyett
+!!!##A[href*="gemius.pl"]
 ##A[href*="dealcent.com"]
 ##DIV[id="cenmg"]
 ##DIV[href*="ad.adverticum.net"]
