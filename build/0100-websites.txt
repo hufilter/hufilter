@@ -22,6 +22,7 @@ index.hu##[id="cemp_doboz"]
 index.hu##[class*="Advert"]
 index.hu##A[id="closeWindow"]
 forum.index.hu##TABLE[id="site_header"]
+forum.index.hu##IFRAME
 index.hu,velvet.hu,totalcar.hu##.travelo-box
 index.hu,velvet.hu,totalcar.hu##.shopline-box
 index.hu,velvet.hu##.flash-fullscreen-wrapper
