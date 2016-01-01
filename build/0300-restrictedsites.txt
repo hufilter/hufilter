@@ -5,6 +5,12 @@
 !
 ncore.cc##DIV[id="fej_csik_felso"]
 ncore.cc##A[href*="2coal.com"]
+||ncore.cc/temp/*.swf
+||ncore.cc/images/warning.png
+b.office42.hu^$domain=ncore.cc
+ncore.cc##.banner
+ncore.cc##.hr_stuff
+!!ncore.cc##DIV[style="text-shadow:none;background-image: url('/images/warning.png');border-radius: 5px;color: #9F6000;background-color: #FEEFB3;border: 1px solid;margin: 10px 0px;padding:15px 10px 15px 70px;background-repeat: no-repeat;background-position: 10px center;"]
 !
 teracod.com##DIV[class*="banner"]
 !
