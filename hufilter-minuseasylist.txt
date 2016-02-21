@@ -5,7 +5,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201601142315
+!Version: 201602211133
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1322,6 +1322,7 @@ yayo.hu/static/banner/
 rosszlanyok.hu##[id*="advs"]
 rosszlanyok.hu/banners/
 rosszlanyok.hu/bannerek/
+||talilap.hu/banner/
 adultpixie.com/banner/
 lifemagazin.hu##[id="page-top"]
 lifemagazin.hu##[class*="banner"]
