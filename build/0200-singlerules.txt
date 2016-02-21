@@ -493,6 +493,7 @@ yayo.hu/static/banner/
 rosszlanyok.hu##[id*="advs"]
 rosszlanyok.hu/banners/
 rosszlanyok.hu/bannerek/
+||talilap.hu/banner/
 adultpixie.com/banner/
 lifemagazin.hu##[id="page-top"]
 lifemagazin.hu##[class*="banner"]
