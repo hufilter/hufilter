@@ -4,7 +4,8 @@
 !
 ||sher.*.hu^
 ||rehs.*.hu^
-||index.hu/assets/import
+!!! fix gitgub issue #12 
+!!!||index.hu/assets/import
 index.hu##.adocean
 index.hu##.microsite_dummy
 index.hu##.microsite

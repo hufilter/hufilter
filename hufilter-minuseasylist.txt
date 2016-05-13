@@ -5,7 +5,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201602211133
+!Version: 201605131243
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -54,7 +54,8 @@
 !
 ||sher.*.hu^
 ||rehs.*.hu^
-||index.hu/assets/import
+!!! fix gitgub issue #12 
+!!!||index.hu/assets/import
 index.hu##.adocean
 index.hu##.microsite_dummy
 index.hu##.microsite
