@@ -5,7 +5,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201605131243
+!Version: 201605131309
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1462,7 +1462,8 @@ the1st.be##TABLE[id="banners"]
 !!! celszeruen parban all a ^$third-party -val
 !!! igy a tiltas resze megsporolja a tartalom letolteset
 !!!
-##div[class="ego_section"]
+!!! Facebbokon blokkolta a jobb hasabot
+!!!##div[class="ego_section"]
 ##div[class="canvasRecommended"]
 ##DIV[id="google_hirdetesek"]
 ##IFRAME[id*="ETARGET-hu-"]

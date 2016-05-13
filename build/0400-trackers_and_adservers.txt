@@ -91,7 +91,8 @@
 !!! celszeruen parban all a ^$third-party -val
 !!! igy a tiltas resze megsporolja a tartalom letolteset
 !!!
-##div[class="ego_section"]
+!!! Facebbokon blokkolta a jobb hasabot
+!!!##div[class="ego_section"]
 ##div[class="canvasRecommended"]
 ##DIV[id="google_hirdetesek"]
 ##IFRAME[id*="ETARGET-hu-"]
