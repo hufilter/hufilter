@@ -777,3 +777,6 @@ zeneszoveg.hu/gfx/skin-*/*.*
 mfor.hu##[class*="banner"]
 mfor.hu##[class="article-textlinkbox"]
 !
+kuruc.info###cikkcontent > div > .listafriss.mh40.hirdbox.cikkbanner:nth-of-type(2)
+kuruc.info###cikkcontent > div > .listafriss.mh40.hirdbox.cikkbanner:nth-of-type(4)
+kuruc.info##body > div:nth-of-type(7) > .tblot > div > .cikkbanner:nth-of-type(6)

@@ -5,7 +5,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201605131410
+!Version: 201605131420
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -827,6 +827,9 @@ zeneszoveg.hu/gfx/skin-*/*.*
 mfor.hu##[class*="banner"]
 mfor.hu##[class="article-textlinkbox"]
 !
+kuruc.info###cikkcontent > div > .listafriss.mh40.hirdbox.cikkbanner:nth-of-type(2)
+kuruc.info###cikkcontent > div > .listafriss.mh40.hirdbox.cikkbanner:nth-of-type(4)
+kuruc.info##body > div:nth-of-type(7) > .tblot > div > .cikkbanner:nth-of-type(6)
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
