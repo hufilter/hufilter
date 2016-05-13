@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201605131309
+!Version: 201605131410
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -586,10 +586,11 @@ mon.hu##[id*="Banner"]
 !
 ||ad.love.hu^
 ||static.love.hu/design/ad/*
-love.hu##DIV[class=base_header]
+!!! tiltotta a navigaciot
+!!!love.hu##DIV[class=base_header]
 love.hu##[id^="banner_"]
-||love.hu/design/*hirdetes*.*
 love.hu##[class^="banner_"]
+||love.hu/design/*hirdetes*.*
 !
 alkupiac.hu##DIV[class=fulllayerw90]
 alkupiac.hu##DIV[class=FullLayerBanner2]
