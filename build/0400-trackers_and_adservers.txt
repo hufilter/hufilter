@@ -84,6 +84,7 @@
 ||ad.depo.hu^
 ||netexs.com^
 ||vid4u.org^
+||statsector.hu^$third-party
 !!!
 !!! elemelrejtes
 !!! az ilyen formaju szabalyok a reklam
