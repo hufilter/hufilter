@@ -784,3 +784,7 @@ kuruc.info##body > div:nth-of-type(7) > .tblot > div > .cikkbanner:nth-of-type(6
 oprend.hu##small > .ad-blocked.ad
 oprend.hu###body > .main-content > .main-body:nth-of-type(2) > .main-padding > .floatfix.comments > .comment-main > .ad-blocked.ad
 oprend.hu###body > .main-content > .main-body:nth-of-type(2) > .main-padding > hr
+!
+estone.cc###kozep_hatter:nth-of-type(126)
+estone.cc###sotet_hatter_kozep
+estone.cc###kozep_hatter:nth-of-type(12)

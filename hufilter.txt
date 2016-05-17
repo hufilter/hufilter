@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201605141445
+!Version: 201605171018
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -835,6 +835,10 @@ kuruc.info##body > div:nth-of-type(7) > .tblot > div > .cikkbanner:nth-of-type(6
 oprend.hu##small > .ad-blocked.ad
 oprend.hu###body > .main-content > .main-body:nth-of-type(2) > .main-padding > .floatfix.comments > .comment-main > .ad-blocked.ad
 oprend.hu###body > .main-content > .main-body:nth-of-type(2) > .main-padding > hr
+!
+estone.cc###kozep_hatter:nth-of-type(126)
+estone.cc###sotet_hatter_kozep
+estone.cc###kozep_hatter:nth-of-type(12)
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
