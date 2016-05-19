@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201605171018
+!Version: 201605192026
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -591,6 +591,7 @@ mon.hu##[id*="Banner"]
 love.hu##[id^="banner_"]
 love.hu##[class^="banner_"]
 ||love.hu/design/*hirdetes*.*
+love.hu##.nobanner
 !
 alkupiac.hu##DIV[class=fulllayerw90]
 alkupiac.hu##DIV[class=FullLayerBanner2]
@@ -1366,9 +1367,6 @@ ncore.cc###\31 923869 > .torrent_lenyilo_tartalom > center > .banner
 ncore.cc###bf1445940949335 > div > div
 ncore.cc###main_tartalom > center:nth-of-type(1) > div
 ncore.cc###main_tartalom > center:nth-of-type(2) > div
-||ncore.cc/static/images/mafab_logo.png
-ncore.cc###\31 919157 > .torrent_lenyilo_lehetoseg > .t_mafab
-ncore.cc## .torrent_lenyilo_lehetoseg > .t_mafab
 ncore.cc###ape-container
 !
 teracod.com##DIV[class*="banner"]
@@ -1379,8 +1377,10 @@ diablotorrent.hu##[id*="hirdetes"]
 ||microbit.eu/banners/
 microbit.eu##OBJECT
 !
-the1st.be##TABLE[id="banners"]
+utorrent.hu###dgd_scrollbox-1926
+utorrent.hu###art-main > .clearfix.art-footer
 !
+estone.cc###kozep_hatter:nth-of-type(30)
 !##################### END 0300-restrictedsites.txt ##################### 
 !##################### 0400-trackers_and_adservers.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1426,6 +1426,12 @@ the1st.be##TABLE[id="banners"]
 ||adscendmedia.com^$third-party
 ||9klikk.com^$third-party
 ||banner.aqua.hu^$third-party
+||ad4mat.net^$third-party
+||ads.linkedin.com^$third-party
+||atdmt.com^$third-party
+||gravity.com^$third-party
+||match.rundsp.com^$third-party
+||widgets.outbrain.com^$third-party
 !!!
 !!! altalanos domain tiltas
 !!!

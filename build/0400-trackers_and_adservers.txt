@@ -41,6 +41,12 @@
 ||adscendmedia.com^$third-party
 ||9klikk.com^$third-party
 ||banner.aqua.hu^$third-party
+||ad4mat.net^$third-party
+||ads.linkedin.com^$third-party
+||atdmt.com^$third-party
+||gravity.com^$third-party
+||match.rundsp.com^$third-party
+||widgets.outbrain.com^$third-party
 !!!
 !!! altalanos domain tiltas
 !!!

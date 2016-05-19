@@ -540,6 +540,7 @@ mon.hu##[id*="Banner"]
 love.hu##[id^="banner_"]
 love.hu##[class^="banner_"]
 ||love.hu/design/*hirdetes*.*
+love.hu##.nobanner
 !
 alkupiac.hu##DIV[class=fulllayerw90]
 alkupiac.hu##DIV[class=FullLayerBanner2]
