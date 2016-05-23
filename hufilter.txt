@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201605192026
+!Version: 201605231119
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -43,6 +43,7 @@
 ! zamiere
 ! Famlam
 ! Ares2
+! Kovacs Attila
 ! 
 ! ... es nevtelenseget kero kozremukodok  /
 ! ... and contributrors who wish to remain unnamed 
@@ -213,7 +214,7 @@ citromail.hu##TR[id="hir2"]
 mandiner.hu##DIV[class*="banner"]
 mandiner.hu##DIV[id*="Banner"]
 mandiner.hu##div[style*="fiskars"]
-mandiner.hu##html body div#all div#mainbgbg div#mainbg > div[style^="width: 125px"]
+mandiner.hu##html body div#all div#mainbgbg div#mainbg>div[style^="width: 125px"]
 mandiner.hu##[class*="hirdetes"]
 !
 ||port-network.com/sponsoration_elements/
@@ -239,7 +240,8 @@ blog.hu##DIV[class="share"]
 !! kepet tiltott: http://subba.blog.hu/2012/06/14/subba_eb_2012_talald_meg_ozil-t
 !blog.hu##DIV[class*="_share"]
 ||blog.hu/*/hird/*.*
-blog.hu##[class="ad"]
+!!! Elrontja a tartalmat pl. http://adwyw.blog.hu/2016/05/18/neked_mi_a_szeretetnyelved
+!!!blog.hu##[class="ad"]
 blog.hu##[class*="follow_promo_figure"]
 !
 vatera.hu##DIV[id*="advert-container"]
@@ -614,6 +616,11 @@ noplaza.hu##[class*="banner"]
 prohardver.hu##[class*="adw"]
 prohardver.hu##DIV[class="partners"]
 prohardver.hu##[class="adbox"]
+prohardver.hu###center>.xabre468.boxxabre.border.box
+prohardver.hu###right>.xabrew300.box:nth-of-type(3)
+prohardver.hu###right>.xabrew300.box:nth-of-type(1)
+prohardver.hu###page>.nohead.xabre728
+prohardver.hu###right>.xabrew300.box
 !
 medizona.hu##[class*="banner"]
 medizona.hu##[class="adcloud"]
@@ -653,6 +660,8 @@ automenedzser.hu##[class*="ad_"]
 !||mobilarena.hu/design/sp/forum-*.*
 ||mobilarena.hu/design/sp/*
 mobilarena.hu##[class*="adw"]
+mobilarena.hu###page>.nohead.xabre728>.xabrebox
+mobilarena.hu##[class*="boxad "]
 !
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
@@ -829,17 +838,23 @@ zeneszoveg.hu/gfx/skin-*/*.*
 mfor.hu##[class*="banner"]
 mfor.hu##[class="article-textlinkbox"]
 !
-kuruc.info###cikkcontent > div > .listafriss.mh40.hirdbox.cikkbanner:nth-of-type(2)
-kuruc.info###cikkcontent > div > .listafriss.mh40.hirdbox.cikkbanner:nth-of-type(4)
-kuruc.info##body > div:nth-of-type(7) > .tblot > div > .cikkbanner:nth-of-type(6)
+kuruc.info###cikkcontent>div>.listafriss.mh40.hirdbox.cikkbanner:nth-of-type(2)
+kuruc.info###cikkcontent>div>.listafriss.mh40.hirdbox.cikkbanner:nth-of-type(4)
+kuruc.info##body>div:nth-of-type(7)>.tblot>div>.cikkbanner:nth-of-type(6)
 !
-oprend.hu##small > .ad-blocked.ad
-oprend.hu###body > .main-content > .main-body:nth-of-type(2) > .main-padding > .floatfix.comments > .comment-main > .ad-blocked.ad
-oprend.hu###body > .main-content > .main-body:nth-of-type(2) > .main-padding > hr
+oprend.hu##small>.ad-blocked.ad
+oprend.hu###body>.main-content>.main-body:nth-of-type(2)>.main-padding>.floatfix.comments>.comment-main>.ad-blocked.ad
+oprend.hu###body>.main-content>.main-body:nth-of-type(2)>.main-padding>hr
 !
-estone.cc###kozep_hatter:nth-of-type(126)
-estone.cc###sotet_hatter_kozep
-estone.cc###kozep_hatter:nth-of-type(12)
+profession.hu###jqi
+profession.hu###jqifade
+!
+! Infopapa.hu reklammentesites:
+infopapa.hu###sidebar > .banner_300_600
+infopapa.hu###main > .read > .banner_468_120
+infopapa.hu###main > .banner_468_120:nth-of-type(2)
+infopapa.hu###main > .banner_468_120:nth-of-type(4)
+!
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1099,7 +1114,6 @@ demotivalo.net##[id*="banner"]
 demotivalo.net/*banner_*.*
 !-----------   
 !x-message-20130325
-mobilarena.hu##[class*="boxad "]
 hwsw.hu/images/*_hatter_*.*
 bithumen.be##[id="spoon"]
 metropol.hu/*/images/sponsor_*.*
@@ -1348,6 +1362,7 @@ wellnesscafe.hu##[id*="Banner"]
 wellnesscafe.hu##[class*="banner"]
 epresso.hu##[class*="banner"]
 !
+gamepod.hu###right > .xabrew300.box
 !##################### END 0200-singlerules.txt ##################### 
 !##################### 0300-restrictedsites.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1380,6 +1395,9 @@ microbit.eu##OBJECT
 utorrent.hu###dgd_scrollbox-1926
 utorrent.hu###art-main > .clearfix.art-footer
 !
+estone.cc###kozep_hatter:nth-of-type(126)
+estone.cc###sotet_hatter_kozep
+estone.cc###kozep_hatter:nth-of-type(12)
 estone.cc###kozep_hatter:nth-of-type(30)
 !##################### END 0300-restrictedsites.txt ##################### 
 !##################### 0400-trackers_and_adservers.txt ##################### 
@@ -1432,6 +1450,23 @@ estone.cc###kozep_hatter:nth-of-type(30)
 ||gravity.com^$third-party
 ||match.rundsp.com^$third-party
 ||widgets.outbrain.com^$third-party
+||a.rvttrack.com^$third-party
+||abmr.net^$third-party
+||clickadu.com^$third-party
+||crtracklink.com^$third-party
+||go.trafficshop.com^$third-party
+||hilltopads.net^$third-party
+||po.st^$third-party
+||popcash.net^$third-party
+||syndication.trafficreps.com^$third-party
+||traffichaus.com^$third-party
+||va.v.liveperson.net^$third-party,script
+||wstat.ozon.ru^
+||a.adnium.com^
+||trib.al^$third-party
+||track306.info^$third-party
+||tracking.tchibo.hu^
+||trafficshop.com^$third-party
 !!!
 !!! altalanos domain tiltas
 !!!
