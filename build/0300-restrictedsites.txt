@@ -28,4 +28,7 @@ microbit.eu##OBJECT
 utorrent.hu###dgd_scrollbox-1926
 utorrent.hu###art-main > .clearfix.art-footer
 !
+estone.cc###kozep_hatter:nth-of-type(126)
+estone.cc###sotet_hatter_kozep
+estone.cc###kozep_hatter:nth-of-type(12)
 estone.cc###kozep_hatter:nth-of-type(30)

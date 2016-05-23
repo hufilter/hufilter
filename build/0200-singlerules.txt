@@ -255,7 +255,6 @@ demotivalo.net##[id*="banner"]
 demotivalo.net/*banner_*.*
 !-----------   
 !x-message-20130325
-mobilarena.hu##[class*="boxad "]
 hwsw.hu/images/*_hatter_*.*
 bithumen.be##[id="spoon"]
 metropol.hu/*/images/sponsor_*.*
