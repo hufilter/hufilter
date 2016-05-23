@@ -568,6 +568,7 @@ prohardver.hu###center>.xabre468.boxxabre.border.box
 prohardver.hu###right>.xabrew300.box:nth-of-type(3)
 prohardver.hu###right>.xabrew300.box:nth-of-type(1)
 prohardver.hu###page>.nohead.xabre728
+prohardver.hu###right>.xabrew300.box
 !
 medizona.hu##[class*="banner"]
 medizona.hu##[class="adcloud"]
@@ -795,3 +796,10 @@ oprend.hu###body>.main-content>.main-body:nth-of-type(2)>.main-padding>hr
 !
 profession.hu###jqi
 profession.hu###jqifade
+!
+! Infopapa.hu reklammentesites:
+infopapa.hu###sidebar > .banner_300_600
+infopapa.hu###main > .read > .banner_468_120
+infopapa.hu###main > .banner_468_120:nth-of-type(2)
+infopapa.hu###main > .banner_468_120:nth-of-type(4)
+!

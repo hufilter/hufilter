@@ -503,3 +503,4 @@ wellnesscafe.hu##[id*="Banner"]
 wellnesscafe.hu##[class*="banner"]
 epresso.hu##[class*="banner"]
 !
+gamepod.hu###right > .xabrew300.box
