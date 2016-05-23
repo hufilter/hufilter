@@ -341,7 +341,6 @@ szingliportal.hu##[class="article_contiune_link"]
 !x-message 20130607 
 168ora.hu##[class^="ads"]
 c-press.hu##[id="bef_mainbody_mod_2"]
-blog.hu##[class="box widget_html ad"]
 ||stylemagazin.hu/static/template_settings/
 ||hatarido-szamitas.hu/partnerek/
 stop.hu##[src*="hirdetes_"]
@@ -440,7 +439,6 @@ est.hu##[class*="_adv "]
 kakukk.ro##[id*="banner"]
 origo.hu##[id*="banner"]
 citromail.hu##[id="jatekcsik"]
-||blog.hu/ad/
 turizmusonline.hu##[class*="Banner"]
 !----------- 
 !x-message-20140115
@@ -472,7 +470,6 @@ hirek.sk##[class*="hirdetes"]
 ||hirek.sk/banner/
 ||szegedma.hu/*banners/*.*
 storyonline.hu##[class*="hirdetes"]
-blog.hu##DIV[id="taft"]
 vilagszammagazin.hu##[class^="adv"]
 cotcot.hu##[class*="hirdetes"]
 cotcot.hu##[class*="banner"]

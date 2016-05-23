@@ -5,7 +5,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201605231119
+!Version: 201605231127
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -239,9 +239,10 @@ blog.hu##DIV[class="share"]
 !! kepet tiltott: http://subba.blog.hu/2012/06/14/subba_eb_2012_talald_meg_ozil-t
 !blog.hu##DIV[class*="_share"]
 ||blog.hu/*/hird/*.*
-!!! Elrontja a tartalmat pl. http://adwyw.blog.hu/2016/05/18/neked_mi_a_szeretetnyelved
-!!!blog.hu##[class="ad"]
+blog.hu##[class="ad"]
 blog.hu##[class*="follow_promo_figure"]
+blog.hu##[class="box widget_html ad"]
+blog.hu##DIV[id="taft"]
 !
 vatera.hu##DIV[id*="advert-container"]
 vatera.hu##DIV[class="page-rightside-advert"]
@@ -1199,7 +1200,6 @@ szingliportal.hu##[class="article_contiune_link"]
 !x-message 20130607 
 168ora.hu##[class^="ads"]
 c-press.hu##[id="bef_mainbody_mod_2"]
-blog.hu##[class="box widget_html ad"]
 ||stylemagazin.hu/static/template_settings/
 ||hatarido-szamitas.hu/partnerek/
 stop.hu##[src*="hirdetes_"]
@@ -1298,7 +1298,6 @@ est.hu##[class*="_adv "]
 kakukk.ro##[id*="banner"]
 origo.hu##[id*="banner"]
 citromail.hu##[id="jatekcsik"]
-||blog.hu/ad/
 turizmusonline.hu##[class*="Banner"]
 !----------- 
 !x-message-20140115
@@ -1330,7 +1329,6 @@ hirek.sk##[class*="hirdetes"]
 ||hirek.sk/banner/
 ||szegedma.hu/*banners/*.*
 storyonline.hu##[class*="hirdetes"]
-blog.hu##DIV[id="taft"]
 vilagszammagazin.hu##[class^="adv"]
 cotcot.hu##[class*="hirdetes"]
 cotcot.hu##[class*="banner"]

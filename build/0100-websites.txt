@@ -188,9 +188,10 @@ blog.hu##DIV[class="share"]
 !! kepet tiltott: http://subba.blog.hu/2012/06/14/subba_eb_2012_talald_meg_ozil-t
 !blog.hu##DIV[class*="_share"]
 ||blog.hu/*/hird/*.*
-!!! Elrontja a tartalmat pl. http://adwyw.blog.hu/2016/05/18/neked_mi_a_szeretetnyelved
-!!!blog.hu##[class="ad"]
+blog.hu##[class="ad"]
 blog.hu##[class*="follow_promo_figure"]
+blog.hu##[class="box widget_html ad"]
+blog.hu##DIV[id="taft"]
 !
 vatera.hu##DIV[id*="advert-container"]
 vatera.hu##DIV[class="page-rightside-advert"]
