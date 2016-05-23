@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201605231127
+!Version: 201605231205
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -856,6 +856,8 @@ infopapa.hu###main > .read > .banner_468_120
 infopapa.hu###main > .banner_468_120:nth-of-type(2)
 infopapa.hu###main > .banner_468_120:nth-of-type(4)
 !
+alfahir.hu###hirnode > .panel-col.panel-panel > div > .hirdetes.pane-2.pane-custom.panel-pane
+alfahir.hu###hirnode > .panel-col.panel-panel > div > .hirdetes.pane-hirdetesi-blokkok.pane-views.panel-pane
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
