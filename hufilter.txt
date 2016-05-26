@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201605231205
+!Version: 201605262254
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -663,6 +663,7 @@ automenedzser.hu##[class*="ad_"]
 mobilarena.hu##[class*="adw"]
 mobilarena.hu###page>.nohead.xabre728>.xabrebox
 mobilarena.hu##[class*="boxad "]
+mobilarena.hu##[class="box xabrew300"]
 !
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]

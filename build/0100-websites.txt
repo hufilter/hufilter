@@ -611,6 +611,7 @@ automenedzser.hu##[class*="ad_"]
 mobilarena.hu##[class*="adw"]
 mobilarena.hu###page>.nohead.xabre728>.xabrebox
 mobilarena.hu##[class*="boxad "]
+mobilarena.hu##[class="box xabrew300"]
 !
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
