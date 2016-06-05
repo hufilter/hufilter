@@ -325,6 +325,7 @@ es.hu##IFRAME
 !
 hasznaltauto.hu##[class*="Advert"]
 hasznaltauto.hu##DIV[id="superbox"]
+hasznaltauto.hu###player
 !
 myvip.com##DIV[class*="etarget"]
 myvip.com##DIV[class*="banner"]
@@ -805,5 +806,4 @@ infopapa.hu###main > .read > .banner_468_120
 infopapa.hu###main > .banner_468_120:nth-of-type(2)
 infopapa.hu###main > .banner_468_120:nth-of-type(4)
 !
-alfahir.hu###hirnode > .panel-col.panel-panel > div > .hirdetes.pane-2.pane-custom.panel-pane
-alfahir.hu###hirnode > .panel-col.panel-panel > div > .hirdetes.pane-hirdetesi-blokkok.pane-views.panel-pane
+||alfahir.hu^*/hirdetesfoto/$image
