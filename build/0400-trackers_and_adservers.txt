@@ -54,11 +54,9 @@
 ||hilltopads.net^$third-party
 ||po.st^$third-party
 ||popcash.net^$third-party
-||traffichaus.com^$third-party
 ||va.v.liveperson.net^$third-party,script
 ||wstat.ozon.ru^
 ||a.adnium.com^
-||trib.al^$third-party
 ||track306.info^$third-party
 ||tracking.tchibo.hu^
 ||sumome.com^$third-party
@@ -118,6 +116,7 @@
 ||imprsngl.info^
 ||syndication.trafficreps.com^
 ||trafficshop.com^
+||trib.al^
 !!!
 !!! elemelrejtes
 !!! az ilyen formaju szabalyok a reklam
