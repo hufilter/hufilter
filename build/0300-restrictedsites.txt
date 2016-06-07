@@ -11,7 +11,6 @@ b.office42.hu^$domain=ncore.cc
 ncore.cc##.banner
 ncore.cc##.hr_stuff
 !
-ncore.cc###\31 923869 > .torrent_lenyilo_tartalom > center > .banner
 ncore.cc###bf1445940949335 > div > div
 ncore.cc###main_tartalom > center:nth-of-type(1) > div
 ncore.cc###main_tartalom > center:nth-of-type(2) > div
@@ -29,3 +28,5 @@ utorrent.hu###dgd_scrollbox-1926
 utorrent.hu###art-main > .clearfix.art-footer
 !
 estone.cc###container
+estone.cc###kozep_hatter:nth-of-type(12)
+!

@@ -567,8 +567,6 @@ prohardver.hu##[class*="adw"]
 prohardver.hu##DIV[class="partners"]
 prohardver.hu##[class="adbox"]
 prohardver.hu###center>.xabre468.boxxabre.border.box
-prohardver.hu###right>.xabrew300.box:nth-of-type(3)
-prohardver.hu###right>.xabrew300.box:nth-of-type(1)
 prohardver.hu###page>.nohead.xabre728
 prohardver.hu###right>.xabrew300.box
 !
