@@ -276,9 +276,6 @@ linkcenter.hu##[id*="hirdetes"]
 ingatlan.com##DIV[id*="banner"]
 ||hirdetes.ingatlan.com/banner/*
 !
-||t-kabel.hu/*clickTag*
-||t-kabel.hu/resource.aspx*
-!
 transindex.ro##DIV[id*="anner"]
 transindex.ro##[class*="Banner"]
 transindex.ro##DIV[id*="Reklam"]
@@ -592,7 +589,6 @@ bama.hu##[class^="ad "]
 beol.hu##[class*="adcikk"]
 beol.hu##[class="hirdetes"]
 !
-demotivalo.net##[id*="adview"]
 vehir.hu##[id*="reklam_"]
 vehir.hu##[class*="szovegkozi"]
 vehir.hu##[class^="ad_"]
@@ -637,8 +633,6 @@ autonavigator.hu##[id*="etarget"]
 autonavigator.hu##[class*="etarget"]
 autonavigator.hu##[class*="hirdetes"]
 !
-klonok.com##[class="ead"]
-!
 egeszsegkalauz.hu##[class^="ads "]
 egeszsegkalauz.hu##[class*="ad-"]
 egeszsegkalauz.hu##[id*="banner"]
@@ -650,15 +644,10 @@ egeszsegtukor.hu##[class="ad"]
 kulturpart.hu##[name*="banner"]
 kulturpart.hu##[class="hird"]
 !
-trollfesz.hu##[id="instance-text-3"]
-!
 noinetcafe.hu##[class*="banner"]
 !
 partyponty.hu##[id*="banner"]
 partyponty.hu##[class*="banner"]
-!
-pink.hu##[class*="ad_"]
-pink.hu##[class*="Advert"]
 !
 drinfo.hu##[class="reklam"]
 !

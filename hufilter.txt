@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201606071055
+!Version: 201606082129
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -328,9 +328,6 @@ linkcenter.hu##[id*="hirdetes"]
 ingatlan.com##DIV[id*="banner"]
 ||hirdetes.ingatlan.com/banner/*
 !
-||t-kabel.hu/*clickTag*
-||t-kabel.hu/resource.aspx*
-!
 transindex.ro##DIV[id*="anner"]
 transindex.ro##[class*="Banner"]
 transindex.ro##DIV[id*="Reklam"]
@@ -644,7 +641,6 @@ bama.hu##[class^="ad "]
 beol.hu##[class*="adcikk"]
 beol.hu##[class="hirdetes"]
 !
-demotivalo.net##[id*="adview"]
 vehir.hu##[id*="reklam_"]
 vehir.hu##[class*="szovegkozi"]
 vehir.hu##[class^="ad_"]
@@ -689,8 +685,6 @@ autonavigator.hu##[id*="etarget"]
 autonavigator.hu##[class*="etarget"]
 autonavigator.hu##[class*="hirdetes"]
 !
-klonok.com##[class="ead"]
-!
 egeszsegkalauz.hu##[class^="ads "]
 egeszsegkalauz.hu##[class*="ad-"]
 egeszsegkalauz.hu##[id*="banner"]
@@ -702,15 +696,10 @@ egeszsegtukor.hu##[class="ad"]
 kulturpart.hu##[name*="banner"]
 kulturpart.hu##[class="hird"]
 !
-trollfesz.hu##[id="instance-text-3"]
-!
 noinetcafe.hu##[class*="banner"]
 !
 partyponty.hu##[id*="banner"]
 partyponty.hu##[class*="banner"]
-!
-pink.hu##[class*="ad_"]
-pink.hu##[class*="Advert"]
 !
 drinfo.hu##[class="reklam"]
 !
@@ -1396,6 +1385,7 @@ utorrent.hu###art-main > .clearfix.art-footer
 !
 estone.cc###container
 estone.cc###kozep_hatter:nth-of-type(12)
+||estone.cc/pic/bannerek/$image
 !!##################### END 0300-restrictedsites.txt ##################### 
 !##################### 0400-trackers_and_adservers.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1487,17 +1477,13 @@ estone.cc###kozep_hatter:nth-of-type(12)
 ||ads.kepfeltoltes.hu^
 ||ads.waxum.hu/adimage.php
 ||adsfac.eu/*.asp
-||adstorage.jamba.net^
 ||adv-adserver.com^
 ||adv.forpsi.hu^
 ||adv.hu^
 ||adverbs.napilapcsoport.hu^
 ||adversalservers.com^
-||advert.hu^
 ||adverticum.*
 ||aori.hu/banner*
-||banner.hinora.hu^
-||banner.theam.hu^
 ||bannerserver.hu^
 ||bedia.hu/banners/
 ||gstatic.com/ads/
@@ -1593,4 +1579,8 @@ dictzone.com##P[id="a2"]
 ||authorizedsex.com^
 ||fourtwentytradingcompany.net^
 ||avatraffic.com^
+||advertshot.ru^$third-party
+||insticator.com^$third-party
+||seedr.com^$third-party
+||seedr.ru^$third-part
 !!##################### END 0500-nonhungarian.txt ##################### 

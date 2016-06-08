@@ -29,4 +29,5 @@ utorrent.hu###art-main > .clearfix.art-footer
 !
 estone.cc###container
 estone.cc###kozep_hatter:nth-of-type(12)
+||estone.cc/pic/bannerek/$image
 !

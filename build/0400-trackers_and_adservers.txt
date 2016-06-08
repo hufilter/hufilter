@@ -87,17 +87,13 @@
 ||ads.kepfeltoltes.hu^
 ||ads.waxum.hu/adimage.php
 ||adsfac.eu/*.asp
-||adstorage.jamba.net^
 ||adv-adserver.com^
 ||adv.forpsi.hu^
 ||adv.hu^
 ||adverbs.napilapcsoport.hu^
 ||adversalservers.com^
-||advert.hu^
 ||adverticum.*
 ||aori.hu/banner*
-||banner.hinora.hu^
-||banner.theam.hu^
 ||bannerserver.hu^
 ||bedia.hu/banners/
 ||gstatic.com/ads/

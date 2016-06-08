@@ -43,4 +43,8 @@ dictzone.com##P[id="a2"]
 ||authorizedsex.com^
 ||fourtwentytradingcompany.net^
 ||avatraffic.com^
+||advertshot.ru^$third-party
+||insticator.com^$third-party
+||seedr.com^$third-party
+||seedr.ru^$third-part
 !
