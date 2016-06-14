@@ -5,7 +5,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201606142234
+!Version: 201606142256
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -47,6 +47,7 @@
 ! ... es nevtelenseget kero kozremukodok  /
 ! ... and contributrors who wish to remain unnamed 
 !
+
 !##################### END 0000-header.txt ##################### 
 !##################### 0100-websites.txt ##################### 
 
@@ -843,6 +844,8 @@ infopapa.hu###main > .banner_468_120:nth-of-type(2)
 infopapa.hu###main > .banner_468_120:nth-of-type(4)
 !
 ||alfahir.hu^*/hirdetesfoto/$image
+
+
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
 
@@ -1386,7 +1389,8 @@ utorrent.hu###art-main > .clearfix.art-footer
 estone.cc###container
 estone.cc###kozep_hatter:nth-of-type(12)
 ||estone.cc/pic/bannerek/$image
-!!##################### END 0300-restrictedsites.txt ##################### 
+!
+!##################### END 0300-restrictedsites.txt ##################### 
 !##################### 0400-trackers_and_adservers.txt ##################### 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1530,7 +1534,10 @@ estone.cc###kozep_hatter:nth-of-type(12)
 ##A[href*="ad.netmedia.hu"]
 ##[id^="adocean"]
 ! idegesito cookie consent sav tiltasa
-###_iph_cp_popup!##################### END 0400-trackers_and_adservers.txt ##################### 
+###_iph_cp_popup
+
+
+!##################### END 0400-trackers_and_adservers.txt ##################### 
 !##################### 0500-nonhungarian.txt ##################### 
 
 !!!
@@ -1578,4 +1585,7 @@ dictzone.com##P[id="a2"]
 ||insticator.com^$third-party
 ||seedr.com^$third-party
 ||seedr.ru^$third-party
-!!##################### END 0500-nonhungarian.txt ##################### 
+!
+
+
+!##################### END 0500-nonhungarian.txt ##################### 

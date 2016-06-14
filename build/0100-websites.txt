@@ -792,3 +792,5 @@ infopapa.hu###main > .banner_468_120:nth-of-type(2)
 infopapa.hu###main > .banner_468_120:nth-of-type(4)
 !
 ||alfahir.hu^*/hirdetesfoto/$image
+
+
