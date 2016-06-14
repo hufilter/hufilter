@@ -1,6 +1,8 @@
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!    egyszabalyos oldalak          !!!!
+!!!!    Egyszabalyos oldalak          !!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 ketkes.com##A[href^="http://goo.gl"]
 ||filmvilag.com/style/rl-szexpartner-970x60szolid.gif
 gphirek.hu##DIV.ad

@@ -1,6 +1,8 @@
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !                        trackerek                                       !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 ||audit.median.hu^
 ||best-top.hu/banner.php*
 ||websas.hu/statistics/
@@ -12,14 +14,15 @@
 ||counter.hitslink.com^$third-party
 ||myroitracking.com/newServing/
 ||fruitflan.com
-!
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !                      reklamszerverek                                   ! 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 !!!
 !!! kulso forrasbol betoltes tiltasa
 !!!
-!!!||megaclick.com/ad.code*^$third-party
+
 ||megaclick.com/ad.code*$third-party
 ||tulajdonostol.com^$third-party
 ||data.bookline.hu^$third-party

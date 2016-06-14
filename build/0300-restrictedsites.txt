@@ -1,8 +1,9 @@
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Felnott / meghivasos / fizetos oldalak                                 !
 ! A szabaly bekuldoje vallalja erte teljes felelosseget                  !
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
+
 ncore.cc##DIV[id="fej_csik_felso"]
 ncore.cc##A[href*="2coal.com"]
 ||ncore.cc/temp/*.swf

@@ -1,11 +1,10 @@
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!                       weboldalak                                       ! 
+!                       Weboldalak                                       ! 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
+
 ||sher.*.hu^
 ||rehs.*.hu^
-!!! fix gitgub issue #12 
-!!!||index.hu/assets/import
 index.hu##.adocean
 index.hu##.microsite_dummy
 index.hu##.microsite
@@ -23,7 +22,6 @@ index.hu##[id="cemp_doboz"]
 index.hu##[class*="Advert"]
 index.hu##A[id="closeWindow"]
 forum.index.hu##TABLE[id="site_header"]
-!!!forum.index.hu##IFRAME
 forum.index.hu###rightcoltd
 index.hu,velvet.hu,totalcar.hu##.travelo-box
 index.hu,velvet.hu,totalcar.hu##.shopline-box
