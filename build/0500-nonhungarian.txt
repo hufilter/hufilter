@@ -1,12 +1,10 @@
 !!!
 !!! Kulfoldi reklamszerverek vegyesen
 !!!
-||adslidango.com^$third-party
 ||boxzsak.kirowski.com^
 ||up-banner.wavecdn.de^
 ||smartadserver.com^
 ||calivary.com^$third-party
-||googlesyndication.com/pagead/
 ||etargetnet.*
 ||content.yieldmanager.edgesuite.net/*.swf 
 ||emediate.apmmedia.net^
@@ -28,14 +26,11 @@ dictzone.com##P[id="a1"]
 dictzone.com##P[id="a2"]
 ||streameye.net^$third-party
 ||betfair.com^$third-party
-||exoclick.com^$third-party
 ||bongacash.com^$third-party
 ||ads.ventivmedia.com^$third-party
 ||iitech.dk^$third-party
 ||bannerserver.hu$subdocument
 ||affiliate.hu$subdocument
-||onclickads.net^$third-party
-||traffichaus.com^$third-party
 ||premads.info^$third-party
 ||smartcj.com^
 ||webtraffichub.net^
@@ -46,5 +41,5 @@ dictzone.com##P[id="a2"]
 ||advertshot.ru^$third-party
 ||insticator.com^$third-party
 ||seedr.com^$third-party
-||seedr.ru^$third-part
+||seedr.ru^$third-party
 !

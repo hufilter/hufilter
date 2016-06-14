@@ -23,7 +23,6 @@
 ||megaclick.com/ad.code*$third-party
 ||tulajdonostol.com^$third-party
 ||data.bookline.hu^$third-party
-||bbelements.com^$third-party
 ||advantage.as^$third-party
 ||iforex.com^$third-party
 ||klix.hu^$third-party
@@ -38,7 +37,6 @@
 ||napiaszhirdetesek^$third-party
 ||affiliate.hu^$third-party
 ||ads.sg.hu^$third-party
-||adscendmedia.com^$third-party
 ||9klikk.com^$third-party
 ||banner.aqua.hu^$third-party
 ||ad4mat.net^$third-party
@@ -50,10 +48,7 @@
 ||a.rvttrack.com^$third-party
 ||abmr.net^$third-party
 ||clickadu.com^$third-party
-||crtracklink.com^$third-party
-||hilltopads.net^$third-party
 ||po.st^$third-party
-||popcash.net^$third-party
 ||va.v.liveperson.net^$third-party,script
 ||wstat.ozon.ru^
 ||a.adnium.com^
@@ -72,7 +67,6 @@
 /xgemius.js^
 /xgemius.min.js^
 ||ad.hu/g3t.js
-||juicyads.com^
 ||net-solutions.hu/banner/
 ||ad*.mediaweb.hu/adimage.php?*
 ||ad*.mellesleg.hu^
@@ -142,3 +136,5 @@
 ##DIV[href*="ad.adverticum.net"]
 ##A[href*="ad.netmedia.hu"]
 ##[id^="adocean"]
+! idegesito cookie consent sav tiltasa
+###_iph_cp_popup
