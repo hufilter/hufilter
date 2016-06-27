@@ -14,6 +14,8 @@
 ||counter.hitslink.com^$third-party
 ||myroitracking.com/newServing/
 ||fruitflan.com
+||tracker.azet.sk^
+||trackingterrorism.org^$third-party
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !                      reklamszerverek                                   ! 
@@ -23,6 +25,7 @@
 !!! kulso forrasbol betoltes tiltasa
 !!!
 
+
 ||megaclick.com/ad.code*$third-party
 ||tulajdonostol.com^$third-party
 ||data.bookline.hu^$third-party
@@ -31,7 +34,6 @@
 ||klix.hu^$third-party
 ||hitelkereso.hu^$third-party
 ||ad.hu^$third-party
-!!!||ad.emgmedia.hu^$third-party
 ||ctnetwork.hu^$third-party
 ||feeds.videosz.com^$third-party
 ||ingatlannet.hu^$third-party
@@ -116,8 +118,6 @@
 !!! celszeruen parban all a ^$third-party -val
 !!! igy a tiltas resze megsporolja a tartalom letolteset
 !!!
-!!! Facebbokon blokkolta a jobb hasabot
-!!!##div[class="ego_section"]
 ##div[class="canvasRecommended"]
 ##DIV[id="google_hirdetesek"]
 ##IFRAME[id*="ETARGET-hu-"]
@@ -128,11 +128,8 @@
 ##[id^="aswift_"]
 ##[href*="kuponmania.hu"]
 ##A[href*="ad.eval.hu"]
-##A[href*="adcloud.hvg.hu"]
 ##A[href*="adverticum.net"]
 ##A[href*="etargetnet.com"]
-!!! gemius.pl/gstream.js whitelistazasa helyett
-!!!##A[href*="gemius.pl"]
 ##A[href*="dealcent.com"]
 ##DIV[id="cenmg"]
 ##DIV[href*="ad.adverticum.net"]
@@ -140,5 +137,6 @@
 ##[id^="adocean"]
 ! idegesito cookie consent sav tiltasa
 ###_iph_cp_popup
-
+###adBlockAlert
+###abAlert
 

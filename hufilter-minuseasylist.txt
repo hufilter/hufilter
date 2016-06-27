@@ -5,7 +5,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201606142256
+!Version: 201606271634
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -106,13 +106,22 @@ chat.hu##[class*="banner"]
 chat.hu##DIV[class="box rightbox"]
 chat.hu##[id*="banner"]
 !
-hvg.hu##DIV[class="boxcontainer pr-article"]
-hvg.hu##[class*="banner"]
-hvg.hu##[class*="adcloud"]
-!hvg.hu##[class*="ad_"]
-hvg.hu##[class="ad"]
-hvg.hu##TABLE[class*="monocle"]
-hvg.hu##DIV[id="debugMode"]
+!!!hvg.hu##DIV[class="boxcontainer pr-article"]
+!!!hvg.hu##[class*="banner"]
+!!!hvg.hu##[class*="adcloud"]
+!!!hvg.hu##[class="ad"]
+!!!hvg.hu##TABLE[class*="monocle"]
+!!!hvg.hu##DIV[id="debugMode"]
+!!!##A[href*="adcloud.hvg.hu"]
+!!!hvg.hu##[class="hvg-layer"]
+!
+hvg.hu##[class="advert-item"]
+hvg.hu##[class="adsense-placeholder teljesszeles"]
+hvg.hu##[class="adsense-placeholder jobbhasab"]
+hvg.hu##[class="articlebox clear sidebar-ajanlat"]
+hvg.hu##[class="articleitem clear smallimage imgleft"]
+hvg.hu##[class="cimlap-grid-elem elem-1180 cimlap-ajanlat"]
+hvg.hu##[class="site-scarab-bottom open"]
 !
 vg.hu##DIV[class*="-ad"]
 vg.hu##DIV[class*="hirdetes"]
@@ -826,25 +835,26 @@ zeneszoveg.hu/gfx/skin-*/*.*
 mfor.hu##[class*="banner"]
 mfor.hu##[class="article-textlinkbox"]
 !
-kuruc.info###cikkcontent>div>.listafriss.mh40.hirdbox.cikkbanner:nth-of-type(2)
-kuruc.info###cikkcontent>div>.listafriss.mh40.hirdbox.cikkbanner:nth-of-type(4)
-kuruc.info##body>div:nth-of-type(7)>.tblot>div>.cikkbanner:nth-of-type(6)
+kuruc.info##[class="cikkbanner hirdbox mh40 listafriss"]
 !
-oprend.hu##small>.ad-blocked.ad
-oprend.hu###body>.main-content>.main-body:nth-of-type(2)>.main-padding>.floatfix.comments>.comment-main>.ad-blocked.ad
-oprend.hu###body>.main-content>.main-body:nth-of-type(2)>.main-padding>hr
+oprend.hu##[class="ad ad-blocked"]
 !
 profession.hu###jqi
 profession.hu###jqifade
 !
 ! Infopapa.hu reklammentesites:
-infopapa.hu###sidebar > .banner_300_600
-infopapa.hu###main > .read > .banner_468_120
-infopapa.hu###main > .banner_468_120:nth-of-type(2)
-infopapa.hu###main > .banner_468_120:nth-of-type(4)
+infopapa.hu##[class="banner_300_600"]
+infopapa.hu##[class="banner_468_120"]
 !
 ||alfahir.hu^*/hirdetesfoto/$image
-
+alfahir.hu###block-views-ajanlo-block
+!
+online.filmek-sorozatok.info##[class="videoBanner"]
+online.filmek-sorozatok.info##[class="adsListItem"]
+||0i.hu/files/images/$image
+!
+hirkosar.com###fanback
+||facebook.com^$domain=hirkosar.com,popup
 
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
@@ -1212,7 +1222,6 @@ nlcafe.hu##[class*="adsense"]
 ||ad.pphungary.hu
 sorozataddict.hu##[id="colorbox"]
 hir.ma##[class*="PostAd"]
-hvg.hu##[class="hvg-layer"]
 kaposvarmost.hu##[class*="banner"]
 maszol.ro##[class*="banner"]
 maszol.ro##[class*="hirdetes"]
@@ -1383,8 +1392,8 @@ diablotorrent.hu##[id*="hirdetes"]
 ||microbit.eu/banners/
 microbit.eu##OBJECT
 !
-utorrent.hu###dgd_scrollbox-1926
-utorrent.hu###art-main > .clearfix.art-footer
+utorrent.hu##[id="dgd_scrollbox-1926"]
+utorrent.hu##[class="art-footer clearfix"]
 !
 estone.cc###container
 estone.cc###kozep_hatter:nth-of-type(12)
@@ -1408,6 +1417,8 @@ estone.cc###kozep_hatter:nth-of-type(12)
 ||counter.hitslink.com^$third-party
 ||myroitracking.com/newServing/
 ||fruitflan.com
+||tracker.azet.sk^
+||trackingterrorism.org^$third-party
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !                      reklamszerverek                                   ! 
@@ -1417,6 +1428,7 @@ estone.cc###kozep_hatter:nth-of-type(12)
 !!! kulso forrasbol betoltes tiltasa
 !!!
 
+
 ||megaclick.com/ad.code*$third-party
 ||tulajdonostol.com^$third-party
 ||data.bookline.hu^$third-party
@@ -1425,7 +1437,6 @@ estone.cc###kozep_hatter:nth-of-type(12)
 ||klix.hu^$third-party
 ||hitelkereso.hu^$third-party
 ||ad.hu^$third-party
-!!!||ad.emgmedia.hu^$third-party
 ||ctnetwork.hu^$third-party
 ||feeds.videosz.com^$third-party
 ||ingatlannet.hu^$third-party
@@ -1503,7 +1514,6 @@ estone.cc###kozep_hatter:nth-of-type(12)
 ||imprsngl.info^
 ||syndication.trafficreps.com^
 ||trafficshop.com^
-||trib.al^
 !!!
 !!! elemelrejtes
 !!! az ilyen formaju szabalyok a reklam
@@ -1511,8 +1521,6 @@ estone.cc###kozep_hatter:nth-of-type(12)
 !!! celszeruen parban all a ^$third-party -val
 !!! igy a tiltas resze megsporolja a tartalom letolteset
 !!!
-!!! Facebbokon blokkolta a jobb hasabot
-!!!##div[class="ego_section"]
 ##div[class="canvasRecommended"]
 ##DIV[id="google_hirdetesek"]
 ##IFRAME[id*="ETARGET-hu-"]
@@ -1523,11 +1531,8 @@ estone.cc###kozep_hatter:nth-of-type(12)
 ##[id^="aswift_"]
 ##[href*="kuponmania.hu"]
 ##A[href*="ad.eval.hu"]
-##A[href*="adcloud.hvg.hu"]
 ##A[href*="adverticum.net"]
 ##A[href*="etargetnet.com"]
-!!! gemius.pl/gstream.js whitelistazasa helyett
-!!!##A[href*="gemius.pl"]
 ##A[href*="dealcent.com"]
 ##DIV[id="cenmg"]
 ##DIV[href*="ad.adverticum.net"]
@@ -1535,7 +1540,8 @@ estone.cc###kozep_hatter:nth-of-type(12)
 ##[id^="adocean"]
 ! idegesito cookie consent sav tiltasa
 ###_iph_cp_popup
-
+###adBlockAlert
+###abAlert
 
 !##################### END 0400-trackers_and_adservers.txt ##################### 
 !##################### 0500-nonhungarian.txt ##################### 

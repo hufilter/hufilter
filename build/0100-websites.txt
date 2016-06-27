@@ -54,13 +54,22 @@ chat.hu##[class*="banner"]
 chat.hu##DIV[class="box rightbox"]
 chat.hu##[id*="banner"]
 !
-hvg.hu##DIV[class="boxcontainer pr-article"]
-hvg.hu##[class*="banner"]
-hvg.hu##[class*="adcloud"]
-!hvg.hu##[class*="ad_"]
-hvg.hu##[class="ad"]
-hvg.hu##TABLE[class*="monocle"]
-hvg.hu##DIV[id="debugMode"]
+!!!hvg.hu##DIV[class="boxcontainer pr-article"]
+!!!hvg.hu##[class*="banner"]
+!!!hvg.hu##[class*="adcloud"]
+!!!hvg.hu##[class="ad"]
+!!!hvg.hu##TABLE[class*="monocle"]
+!!!hvg.hu##DIV[id="debugMode"]
+!!!##A[href*="adcloud.hvg.hu"]
+!!!hvg.hu##[class="hvg-layer"]
+!
+hvg.hu##[class="advert-item"]
+hvg.hu##[class="adsense-placeholder teljesszeles"]
+hvg.hu##[class="adsense-placeholder jobbhasab"]
+hvg.hu##[class="articlebox clear sidebar-ajanlat"]
+hvg.hu##[class="articleitem clear smallimage imgleft"]
+hvg.hu##[class="cimlap-grid-elem elem-1180 cimlap-ajanlat"]
+hvg.hu##[class="site-scarab-bottom open"]
 !
 vg.hu##DIV[class*="-ad"]
 vg.hu##DIV[class*="hirdetes"]
@@ -774,23 +783,24 @@ zeneszoveg.hu/gfx/skin-*/*.*
 mfor.hu##[class*="banner"]
 mfor.hu##[class="article-textlinkbox"]
 !
-kuruc.info###cikkcontent>div>.listafriss.mh40.hirdbox.cikkbanner:nth-of-type(2)
-kuruc.info###cikkcontent>div>.listafriss.mh40.hirdbox.cikkbanner:nth-of-type(4)
-kuruc.info##body>div:nth-of-type(7)>.tblot>div>.cikkbanner:nth-of-type(6)
+kuruc.info##[class="cikkbanner hirdbox mh40 listafriss"]
 !
-oprend.hu##small>.ad-blocked.ad
-oprend.hu###body>.main-content>.main-body:nth-of-type(2)>.main-padding>.floatfix.comments>.comment-main>.ad-blocked.ad
-oprend.hu###body>.main-content>.main-body:nth-of-type(2)>.main-padding>hr
+oprend.hu##[class="ad ad-blocked"]
 !
 profession.hu###jqi
 profession.hu###jqifade
 !
 ! Infopapa.hu reklammentesites:
-infopapa.hu###sidebar > .banner_300_600
-infopapa.hu###main > .read > .banner_468_120
-infopapa.hu###main > .banner_468_120:nth-of-type(2)
-infopapa.hu###main > .banner_468_120:nth-of-type(4)
+infopapa.hu##[class="banner_300_600"]
+infopapa.hu##[class="banner_468_120"]
 !
 ||alfahir.hu^*/hirdetesfoto/$image
-
+alfahir.hu###block-views-ajanlo-block
+!
+online.filmek-sorozatok.info##[class="videoBanner"]
+online.filmek-sorozatok.info##[class="adsListItem"]
+||0i.hu/files/images/$image
+!
+hirkosar.com###fanback
+||facebook.com^$domain=hirkosar.com,popup
 

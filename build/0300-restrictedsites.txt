@@ -25,8 +25,8 @@ diablotorrent.hu##[id*="hirdetes"]
 ||microbit.eu/banners/
 microbit.eu##OBJECT
 !
-utorrent.hu###dgd_scrollbox-1926
-utorrent.hu###art-main > .clearfix.art-footer
+utorrent.hu##[id="dgd_scrollbox-1926"]
+utorrent.hu##[class="art-footer clearfix"]
 !
 estone.cc###container
 estone.cc###kozep_hatter:nth-of-type(12)

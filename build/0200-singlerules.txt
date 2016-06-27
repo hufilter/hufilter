@@ -362,7 +362,6 @@ nlcafe.hu##[class*="adsense"]
 ||ad.pphungary.hu
 sorozataddict.hu##[id="colorbox"]
 hir.ma##[class*="PostAd"]
-hvg.hu##[class="hvg-layer"]
 kaposvarmost.hu##[class*="banner"]
 maszol.ro##[class*="banner"]
 maszol.ro##[class*="hirdetes"]
