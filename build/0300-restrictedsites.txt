@@ -23,7 +23,6 @@ teracod.com##DIV[class*="banner"]
 diablotorrent.hu##[id*="hirdetes"]
 !
 ||microbit.eu/banners/
-microbit.eu##OBJECT
 !
 utorrent.hu##[id="dgd_scrollbox-1926"]
 utorrent.hu##[class="art-footer clearfix"]

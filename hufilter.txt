@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201606271634
+!Version: 201606281039
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -551,6 +551,8 @@ sonline.hu##[id*="ctnet_ad_"]
 !
 logout.hu##[class*="adbox"]
 logout.hu##[class*="xabre"]
+logout.hu##[style="width: 980px; height: 139px;"]
+logout.hu/design/sp/autoalkatreszek24_300x60.png
 !
 !
 ||medicalonline.hu/*hirdetes
@@ -849,14 +851,21 @@ infopapa.hu##[class="banner_468_120"]
 !
 ||alfahir.hu^*/hirdetesfoto/$image
 alfahir.hu###block-views-ajanlo-block
+alfahir.hu##[id="block-block-16"]
 !
 online.filmek-sorozatok.info##[class="videoBanner"]
 online.filmek-sorozatok.info##[class="adsListItem"]
 ||0i.hu/files/images/$image
 !
-hirkosar.com###fanback
-||facebook.com^$domain=hirkosar.com,popup
-
+gyulaihirlap.hu##[id="banner2016kormanyhu"]
+gyulaihirlap.hu##[id*="banner_1_29_"]
+!
+player.hu##[class*="placeholder"]
+player.hu##[class="ph ph-responsive-wrap"]
+player.hu##[class="ph-flexi-box-wrap"]
+!
+polusonline.com##[id="HTML5"]
+polusonline.com##[id="HTML9"]
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
 
@@ -1364,6 +1373,9 @@ epresso.hu##[class*="banner"]
 !
 gamepod.hu###right > .xabrew300.box
 vilaglato.info##.state-fb-pop-up
+hungliaonline.com##script:contains(adblocker)
+hiros.hu##[class="banner_widget"]
+hirkosar.com###fanback
 !##################### END 0200-singlerules.txt ##################### 
 !##################### 0300-restrictedsites.txt ##################### 
 
@@ -1391,7 +1403,6 @@ teracod.com##DIV[class*="banner"]
 diablotorrent.hu##[id*="hirdetes"]
 !
 ||microbit.eu/banners/
-microbit.eu##OBJECT
 !
 utorrent.hu##[id="dgd_scrollbox-1926"]
 utorrent.hu##[class="art-footer clearfix"]
@@ -1420,6 +1431,16 @@ estone.cc###kozep_hatter:nth-of-type(12)
 ||fruitflan.com
 ||tracker.azet.sk^
 ||trackingterrorism.org^$third-party
+static.kepfeltoltes.hu/pixel.gif
+||targetix.net^$third-party
+||tripod.com^$third-party
+||tripod.lycos.com^$third-party
+||audtd.com^$third-party
+||picclick.com^$third-party
+||iofferphoto.com^$third-party
+||xxxshort.com^$third-party
+||shortlink.sex^$third-party
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !                      reklamszerverek                                   ! 
@@ -1543,7 +1564,7 @@ estone.cc###kozep_hatter:nth-of-type(12)
 ###_iph_cp_popup
 ###adBlockAlert
 ###abAlert
-
+||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|tenyek-online.com|napi-hirek.net,popup
 !##################### END 0400-trackers_and_adservers.txt ##################### 
 !##################### 0500-nonhungarian.txt ##################### 
 

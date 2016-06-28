@@ -503,3 +503,6 @@ epresso.hu##[class*="banner"]
 !
 gamepod.hu###right > .xabrew300.box
 vilaglato.info##.state-fb-pop-up
+hungliaonline.com##script:contains(adblocker)
+hiros.hu##[class="banner_widget"]
+hirkosar.com###fanback

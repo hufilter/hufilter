@@ -498,6 +498,8 @@ sonline.hu##[id*="ctnet_ad_"]
 !
 logout.hu##[class*="adbox"]
 logout.hu##[class*="xabre"]
+logout.hu##[style="width: 980px; height: 139px;"]
+logout.hu/design/sp/autoalkatreszek24_300x60.png
 !
 !
 ||medicalonline.hu/*hirdetes
@@ -796,11 +798,18 @@ infopapa.hu##[class="banner_468_120"]
 !
 ||alfahir.hu^*/hirdetesfoto/$image
 alfahir.hu###block-views-ajanlo-block
+alfahir.hu##[id="block-block-16"]
 !
 online.filmek-sorozatok.info##[class="videoBanner"]
 online.filmek-sorozatok.info##[class="adsListItem"]
 ||0i.hu/files/images/$image
 !
-hirkosar.com###fanback
-||facebook.com^$domain=hirkosar.com,popup
-
+gyulaihirlap.hu##[id="banner2016kormanyhu"]
+gyulaihirlap.hu##[id*="banner_1_29_"]
+!
+player.hu##[class*="placeholder"]
+player.hu##[class="ph ph-responsive-wrap"]
+player.hu##[class="ph-flexi-box-wrap"]
+!
+polusonline.com##[id="HTML5"]
+polusonline.com##[id="HTML9"]
