@@ -5,6 +5,9 @@
 
 ||sher.*.hu^
 ||rehs.*.hu^
+index.hu##[class*="adblokk"]
+index.hu##[class*="hirdetes"]
+index.hu##[class="ajanlatok box scrollbox"]
 index.hu##.adocean
 index.hu##.microsite_dummy
 index.hu##.microsite
@@ -121,8 +124,6 @@ sporthirado.hu##[id*="banner"]
 !
 ||origo.hu/banner/
 ||origo.hu/p/sales/
-||origo.hu/*/jquery.jcarousel.pack.js
-||origos.hu/*/tibikem/$image
 origo.hu##[id="origo_offers"]
 origo.hu##[class*="banner"]
 origo.hu##[class*="hirdetes"]
@@ -141,6 +142,17 @@ origo.hu##[id*="-hird"]
 origo.hu##[id="adZone"]
 origo.hu##[id="inter-in"]
 origo.hu##[id="flashContent"]
+origo.hu##[class="afc"]
+origo.hu##[id="advert"]
+origo.hu##[id="pr-box"]
+origo.hu##[class="pr-blokk"]
+origo.hu##[class^="ad "]
+origo.hu##[class*="adbox"]
+origo.hu##[class^="ad-"]
+origo.hu##[class="pr-item"]
+origo.hu##[id="inter"]
+origo.hu##[class="ad"]
+origo.hu##[id*="banner"]
 origo.hu,gphirek.hu##[id^="zone"]
 !
 ||fn.hu/*szponzor*/*.*
@@ -200,6 +212,7 @@ blog.hu##[class*="follow_promo_figure"]
 blog.hu##[class="box widget_html ad"]
 blog.hu##DIV[id="taft"]
 !
+vatera.hu##script:contains(Licitaljon)
 vatera.hu##DIV[id*="advert-container"]
 vatera.hu##DIV[class="page-rightside-advert"]
 ||vatera.hu/affiliate/images/banner/
@@ -264,9 +277,6 @@ mobilport.hu##[class*="promobox"]
 rtlklub.hu##DIV[class="hird"]
 rtlklub.hu##[class*="banner"]
 !
-tomcatpolo.hu##[class^="banner"]
-tomcatpolo.hu##[id*="banner"]
-!
 startlap.hu##DIV[class*="adv-"]
 startlap.hu##[id*="banner"]
 startlap.hu##[class*="adsense"]
@@ -296,21 +306,24 @@ femina.hu##[id*="etarget"]
 femina.hu##[class*="hirdetes"]
 femina.hu##[class*="kepeslinkes"]
 femina.hu##[class="doboz_harmados"]
-!! ez miatt, tiltas volt a videon is
-!! http://www.femina.hu/terasz/videogaleria/onelatrajz_f
 femina.hu#@#[class="goAdverticum"]
 !
 hwsw.hu##DIV[class="billboard"]
 hwsw.hu##DIV[class="cikkszovegakcio"]
 hwsw.hu##DIV[id*="hirdetes"]
 hwsw.hu##[class*="hirdetes"]
-||hwsw.hu/images/*_HWSW_*.*
-||hwsw.hu/images/bg-*.*
-||hwsw.hu/images/*-prodterv.*
+hwsw.hu/images/*_HWSW_*.*
+hwsw.hu/images/bg-*.*
+hwsw.hu/images/*-prodterv.*
+hwsw.hu/*_skin*hwsw.*
+hwsw.hu/images/*-*tab.*
+hwsw.hu/images/*_hatter_*.*
+
 !
 ||harmonet.hu/*hirdetes
 harmonet.hu##DIV[id*="banner"]
 harmonet.hu##DIV[id="lightwindow_overlay"]
+harmonet.hu##[class*="hirdetes"]
 !
 !
 ||ad*.gyaloglo.hu^
@@ -405,6 +418,8 @@ hir24.hu##[class*="banner"]
 hir24.hu##[id*="Banner"]
 hir24.hu##[id*="interstitial"]
 hir24.hu##[id*="magnum"]
+hir24.hu##[id*="vid4"]
+hir24.hu##[id="sticky"]
 !
 ||revizoronline.com/*banner
 revizoronline.com##[class*="banner"]
@@ -616,6 +631,8 @@ mobilarena.hu##[class*="adw"]
 mobilarena.hu###page>.nohead.xabre728>.xabrebox
 mobilarena.hu##[class*="boxad "]
 mobilarena.hu##[class="box xabrew300"]
+mobilarena.hu##[style="width: 970px; height: 250px;"]
+mobilarena.hu##[style="width: 400px; height: 400px;"]
 !
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
@@ -788,6 +805,7 @@ mfor.hu##[class="article-textlinkbox"]
 kuruc.info##[class="cikkbanner hirdbox mh40 listafriss"]
 !
 oprend.hu##[class="ad ad-blocked"]
+oprend.hu##[class="ad p-t-10 ad-blocked"]
 !
 profession.hu###jqi
 profession.hu###jqifade
@@ -799,6 +817,7 @@ infopapa.hu##[class="banner_468_120"]
 ||alfahir.hu^*/hirdetesfoto/$image
 alfahir.hu###block-views-ajanlo-block
 alfahir.hu##[id="block-block-16"]
+alfahir.hu##[id="sticky_footer"]
 !
 online.filmek-sorozatok.info##[class="videoBanner"]
 online.filmek-sorozatok.info##[class="adsListItem"]
@@ -813,3 +832,8 @@ player.hu##[class="ph-flexi-box-wrap"]
 !
 polusonline.com##[id="HTML5"]
 polusonline.com##[id="HTML9"]
+!
+hir.ma##[class="e3lan e3lan-top"]
+hir.ma##[id="text-html-widget-6"]
+
+

@@ -1,6 +1,54 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!            Kulfoldi reklamszerverek vegyesen                       !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+||boxzsak.kirowski.com^
+||up-banner.wavecdn.de^
+||smartadserver.com^
+||calivary.com^$third-party
+||etargetnet.*
+||content.yieldmanager.edgesuite.net/*.swf 
+||emediate.apmmedia.net^
+||rc.rootclick.com^
+||i.i.com.com/cnwk.1d/Ads/
+||doubleclick.net^
+||2mdn.net^
+||zanox.com^
+||ad.yieldmanager.com^
+||fastclick.net^
+||netadclick.com^
+||preissuchmaschine.de/banner/
+||pornolize.com/*?clickTAG=*
+||flashkit.com/RealMedia/ads/
+||spe.atdmt.com^
+||clicksor.net/newServing/
+||ggo.directrev.com^
+dictzone.com##P[id="a1"]
+dictzone.com##P[id="a2"]
+||streameye.net^$third-party
+||betfair.com^$third-party
+||bongacash.com^$third-party
+||ads.ventivmedia.com^$third-party
+||iitech.dk^$third-party
+||bannerserver.hu$subdocument
+||affiliate.hu$subdocument
+||premads.info^$third-party
+||smartcj.com^
+||webtraffichub.net^
+||stat.adultium.com^
+||authorizedsex.com^
+||fourtwentytradingcompany.net^
+||avatraffic.com^
+||advertshot.ru^$third-party
+||insticator.com^$third-party
+||seedr.com^$third-party
+||seedr.ru^$third-party
+||sojern.com^$third-party
+||pornedup.com^$third-party
+||viglink.com^
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!                        trackerek                                       !
+!!!                        trackerek                                   !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ||audit.median.hu^
@@ -112,7 +160,7 @@ static.kepfeltoltes.hu/pixel.gif
 ||netexs.com^
 ||vid4u.org^
 ||stats.badoostats.com^
-||advertiserurl.com^
+||advertiserurl.com^$popup
 ||brostraffic.com^
 ||redwolfmoon.com^
 ||sexoffshore.com^
@@ -121,6 +169,12 @@ static.kepfeltoltes.hu/pixel.gif
 ||imprsngl.info^
 ||syndication.trafficreps.com^
 ||trafficshop.com^
+||embedly.com^$third-party
+||embed.ly^$third-party
+||out.pladform.ru^$third-party
+||counter.megagroup.ru^$third-party
+||targetix.net^$third-party
+||zemanta.com^$third-party
 !!!
 !!! elemelrejtes
 !!! az ilyen formaju szabalyok a reklam
@@ -150,3 +204,7 @@ static.kepfeltoltes.hu/pixel.gif
 ###adBlockAlert
 ###abAlert
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|tenyek-online.com|napi-hirek.net,popup
+##[id*="overlayBg"]
+##[class*="overlayBg"]
+##[id*="banner"]
+##[id*="adzone"]
