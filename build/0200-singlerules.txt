@@ -378,3 +378,5 @@ hungliaonline.com##script:contains(adblocker)
 hiros.hu##[class="banner_widget"]
 hirkosar.com###fanback
 androbit.net###RedUserNotification
+notonlyporn.net##[id*="warning"]
+gondolnad.info###aff

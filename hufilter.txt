@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201607261524
+!Version: 201607261842
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1272,7 +1272,8 @@ hungliaonline.com##script:contains(adblocker)
 hiros.hu##[class="banner_widget"]
 hirkosar.com###fanback
 androbit.net###RedUserNotification
-!##################### END 0200-singlerules.txt ##################### 
+notonlyporn.net##[id*="warning"]
+gondolnad.info###aff!##################### END 0200-singlerules.txt ##################### 
 !##################### 0300-restrictedsites.txt ##################### 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1432,6 +1433,11 @@ static.kepfeltoltes.hu/pixel.gif
 ||lo.v.liveperson.net^$third-party
 ||statsector.hu^$third-party
 ||adfox.ru^$third-party
+||embedly.com^$third-party
+||embed.ly^$third-party
+||out.pladform.ru^$third-party
+||targetix.net^$third-party
+||zemanta.com^$third-party
 
 !!!
 !!! altalanos domain tiltas
@@ -1482,14 +1488,12 @@ static.kepfeltoltes.hu/pixel.gif
 ||adk2x.com^
 ||new-bigpenn.com^
 ||imprsngl.info^
+||loading-delivery2.com^
+||trib.al^
 ||syndication.trafficreps.com^
 ||trafficshop.com^
-||embedly.com^$third-party
-||embed.ly^$third-party
-||out.pladform.ru^$third-party
-||counter.megagroup.ru^$third-party
-||targetix.net^$third-party
-||zemanta.com^$third-party
+||counter.megagroup.ru
+
 !!!
 !!! elemelrejtes
 !!! az ilyen formaju szabalyok a reklam
@@ -1497,6 +1501,7 @@ static.kepfeltoltes.hu/pixel.gif
 !!! celszeruen parban all a ^$third-party -val
 !!! igy a tiltas resze megsporolja a tartalom letolteset
 !!!
+
 ##div[class="canvasRecommended"]
 ##DIV[id="google_hirdetesek"]
 ##IFRAME[id*="ETARGET-hu-"]
