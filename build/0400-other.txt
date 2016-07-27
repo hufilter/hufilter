@@ -63,7 +63,7 @@ dictzone.com##P[id="a2"]
 ||fruitflan.com
 ||tracker.azet.sk^
 ||trackingterrorism.org^$third-party
-static.kepfeltoltes.hu/pixel.gif
+||kepfeltoltes.hu^*/pixel.gif
 ||targetix.net^$third-party
 ||tripod.com^$third-party
 ||tripod.lycos.com^$third-party
@@ -190,23 +190,33 @@ static.kepfeltoltes.hu/pixel.gif
 !!! igy a tiltas resze megsporolja a tartalom letolteset
 !!!
 
-##div[class="canvasRecommended"]
-##DIV[id="google_hirdetesek"]
-##IFRAME[id*="ETARGET-hu-"]
-##DIV[id^="googlead"]
-##DIV[id="cemp_doboz"]
-##IFRAME[id^="ETARGET-"]
-##A[href*="internetespenzkereses.net"]
-##[id^="aswift_"]
-##[href*="kuponmania.hu"]
+
 ##A[href*="ad.eval.hu"]
-##A[href*="adverticum.net"]
-##A[href*="etargetnet.com"]
-##A[href*="dealcent.com"]
-##DIV[id="cenmg"]
-##DIV[href*="ad.adverticum.net"]
 ##A[href*="ad.netmedia.hu"]
+##A[href*="adverticum.net"]
+##A[href*="daserver.ultraweb.hu"]
+##A[href*="dealcent.com"]
+##A[href*="etargetnet.com"]
+##A[href*="internetespenzkereses.net"]
+##DIV[href*="ad.adverticum.net"]
+##DIV[id="cemp_doboz"]
+##DIV[id="cenmg"]
+##DIV[id="google_hirdetesek"]
+##DIV[id^="googlead"]
+##IFRAME[id*="ETARGET-hu-"]
+##IFRAME[id^="ETARGET-"]
+##[class*="GoogleAds"]
+##[class="google_ad"]
+##[href*="addtoany.com"]
+##[href*="kuponmania.hu"]
+##[id*="GoogleAds"]
+##[id*="ad-google"]
+##[id*="google_ads"]
+##[id^="ad_zone_"]
 ##[id^="adocean"]
+##[id^="aswift_"]
+##[name*="google_ads"]
+##div[class="canvasRecommended"]
 ! idegesito cookie consent sav tiltasa
 ###_iph_cp_popup
 ###adBlockAlert
