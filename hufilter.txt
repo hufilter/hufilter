@@ -12,7 +12,7 @@
 ! 
 ! Eszreveteleket az Adblock Plus beepitett bejelentojevel lehet jelezni.
 ! Karbantarto: Szabo Peter ( hufilter.adblock!gmail.com )
-!
+! 
 ! szabaly optimalizalas / rule optimization
 ! 
 ! -   RTFM - http://adblockplus.org/en/filters
