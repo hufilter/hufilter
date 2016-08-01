@@ -5,7 +5,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201607271222
+!Version: 201608012318
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -76,6 +76,8 @@ index.hu##[id="ads"]
 index.hu##[id="cemp_doboz"]
 index.hu##[class*="Advert"]
 index.hu##A[id="closeWindow"]
+index.hu##[class*="ad-container"]
+index.hu##[class="glr_advert"]
 forum.index.hu##TABLE[id="site_header"]
 forum.index.hu###rightcoltd
 index.hu,velvet.hu,totalcar.hu##.travelo-box
@@ -93,6 +95,7 @@ velvet.hu##[id="cemp_doboz"]
 velvet.hu##[class="adszoveg"]
 velvet.hu##[class*="ad_container"]
 velvet.hu##[class*="guestbox"]
+velvet.hu##[class*="ad-container"]
 !
 !
 totalcar.hu##[id*="adocean"]
@@ -109,6 +112,9 @@ chat.hu##[class*="banner"]
 chat.hu##DIV[class="box rightbox"]
 chat.hu##[id*="banner"]
 !
+||stylemagazin.hu/static/template_settings/
+stylemagazin.hu##[class="wp-container wp-top"]
+!
 !!!hvg.hu##DIV[class="boxcontainer pr-article"]
 !!!hvg.hu##[class*="banner"]
 !!!hvg.hu##[class*="adcloud"]
@@ -118,6 +124,10 @@ chat.hu##[id*="banner"]
 !!!##A[href*="adcloud.hvg.hu"]
 !!!hvg.hu##[class="hvg-layer"]
 !
+hvg.hu##IFRAME[id="video"]
+hvg.hu##[class*="adsense-"]
+hvg.hu##[class*="adtype-"]
+hvg.hu##[class="adcaption"]
 hvg.hu##[class*="adsense-"]
 hvg.hu##[class="adcaption"]
 hvg.hu##[class="advert-item"]
@@ -249,6 +259,9 @@ mandiner.hu##[class*="hirdetes"]
 port.hu##[class*="_spon"]
 port.hu##DIV[class="articleMetadata"]
 !
+pharmaonline.hu##[class*="contentBanner"]
+pharmaonline.hu##[class="justClassBanner"]
+!
 nol.hu##[class*="Banner"]
 nol.hu##THEAD[class="noprint"]
 nol.hu##DIV[class*="ad-container"]
@@ -324,6 +337,9 @@ inforadio.hu##DIV[id*="adocean"]
 inforadio.hu##DIV[class="spacer"]
 inforadio.hu##[class="billboard"]
 !
+kisalfold.hu##[class*="banner-"]
+kisalfold.hu##[class*="offer prbox"]
+kisalfold.hu##[class*="pr--"]
 kisalfold.hu##DIV[id*="billboard"]
 kisalfold.hu##DIV[id*="banner"]
 kisalfold.hu##DIV[id*="linkbox"]
@@ -369,6 +385,7 @@ linkcenter.hu##[id*="hirdetes"]
 ingatlan.com##DIV[id*="banner"]
 ||hirdetes.ingatlan.com/banner/*
 !
+transindex.ro##[class*=" ad"]
 transindex.ro##DIV[id*="anner"]
 transindex.ro##[class*="Banner"]
 transindex.ro##DIV[id*="Reklam"]
@@ -376,7 +393,6 @@ transindex.ro##[class*="Reklam"]
 transindex.ro##DIV[id="Promolecek"]
 transindex.ro##[id*="hirdetes"]
 transindex.ro##DIV[class="header-1"]
-transindex.ro##[class="no-smartphone ad"]
 !
 femina.hu##[class*="banner"]
 femina.hu##[id*="etarget"]
@@ -578,6 +594,7 @@ tech.hu##[class*="banner"]
 !
 webbeteg.hu##DIV[class*="banner"]
 webbeteg.hu##[id*="_ajanlatunk_"]
+webbeteg.hu##[id^="hirdetes"]
 !
 gondola.hu##DIV[id="partnerek"]
 gondola.hu##[class*="banner"]
@@ -628,6 +645,14 @@ borsa.hu##DIV[class="google"]
 borsonline.hu##A[href="/jatek"]
 borsonline.hu##A[href="/nyarimagazin"]
 borsonline.hu##[class*="__ad"]
+!
+cosmopolitan.hu##[class*="banner"]
+cosmopolitan.hu/*/sponsor/*
+cosmopolitan.hu##[class="ctsGadx"]
+!
+evamagazin.hu##[class="popupunderlay"]
+evamagazin.hu##[class*="adPlace"]
+evamagazin.hu##[class^="goAdverticum"]
 !
 mindmegette.hu##DIV[class="billboard-cikk"]
 mindmegette.hu##DIV[class="hir-fekvo"]
@@ -683,6 +708,7 @@ prohardver.hu###center>.xabre468.boxxabre.border.box
 prohardver.hu###page>.nohead.xabre728
 prohardver.hu###right>.xabrew300.box
 prohardver.hu##[class="xabrebox"]
+prohardver.hu##[class*="boxxabre"]
 !
 medizona.hu##[class*="banner"]
 medizona.hu##[class="adcloud"]
@@ -726,8 +752,9 @@ mobilarena.hu##[class*="boxad "]
 mobilarena.hu##[class="box xabrew300"]
 mobilarena.hu##[style="width: 970px; height: 250px;"]
 mobilarena.hu##[style="width: 400px; height: 400px;"]
-mobilarena.hu##[class="xabrebox"]
-
+mobilarena.hu##[class*="boxxabre"]
+mobilarena.hu##[class^="xabre"]
+mobilarena.hu##[id="bl_container"]
 !
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
@@ -838,6 +865,7 @@ ingatlanmenedzser.hu##[id*="ad_"]
 bien.hu##[class*="hirdetes"]
 bien.hu##[id*="banner"]
 bien.hu##[class*="banner"]
+
 !
 moly.hu##[class*="banner"]
 moly.hu##DIV[class="ad"]
@@ -934,6 +962,7 @@ gyulaihirlap.hu##[id*="banner_1_29_"]
 player.hu##[class*="placeholder"]
 player.hu##[class="ph ph-responsive-wrap"]
 player.hu##[class="ph-flexi-box-wrap"]
+player.hu##[class*="adbreak"]
 !
 polusonline.com##[id="HTML5"]
 polusonline.com##[id="HTML9"]
@@ -945,6 +974,7 @@ hir.ma##[id="text-html-widget-6"]
 444.hu##DIV[class="b-image-highlight b-image-highlight-article"]
 444.hu##[class="ad"]
 444.hu##[class="d36-top"]
+444.hu##[id*="-banner-"]
 !
 hazipatika.com##[class*="adtext"]
 hazipatika.com##[id="webaruhaz-ajanlo"]
@@ -960,7 +990,19 @@ storyonline.hu##[class*="hirdetes"]
 !
 stylemagazin.hu##[id*="banner"]
 stylemagazin.hu##[class="wp-container wp-top"]
-
+!
+joy.hu##[id="joylike"]
+joy.hu##[class*="Adverticum"]
+joy.hu##[class^="ad-"]
+joy.hu##[class^="adIn"]
+joy.hu##[class^="adPlace"]
+!
+wellnesscafe.hu##[class*="banner"]
+wellnesscafe.hu##[class="ad"]
+wellnesscafe.hu##[class="wc_content wc_contentwide"]
+wellnesscafe.hu##[id*="AdZone"]
+wellnesscafe.hu##[id*="Banner"]
+!
 
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
@@ -975,8 +1017,10 @@ stylemagazin.hu##[class="wp-container wp-top"]
 
 
 
-
-
+vs.hu##[class="no_banner"]
+sztarklikk.hu##[class="banner"]
+retikul.hu##[class*="banner"]
+netbulvar.eu##[id*="advertisment"]
 168ora.hu##[class^="ads"]
 168ora.hu##[id*="etarget"]
 24.hu##[class*="banner-"]
@@ -1016,8 +1060,6 @@ builder.hu##[class*="banner"]
 c-press.hu##[id="bef_mainbody_mod_2"]
 chat.hu##[class^="vippol_"]
 chat.hu##[id="stvipcontainer"]
-cosmopolitan.hu##[class*="banner"]
-cosmopolitan.hu/*/sponsor/*
 cotcot.hu##[class*="banner"]
 cotcot.hu##[class*="card_box_"]
 cotcot.hu##[class*="hirdetes"]
@@ -1036,7 +1078,6 @@ eropolis.hu##[class*="banner"]
 est.hu##[class*="_adv "]
 est.hu##[class*="banner"]
 estihirlap.hu##[class*="banner"]
-evamagazin.hu##[class="popupunderlay"]
 f1vilag.hu##[class*="adzone"]
 feliratok.info##DIV#advert
 figyelo.hu##[class*="adbox"]
@@ -1101,7 +1142,6 @@ itcafe.hu##[class*="box ad"]
 itcafe.hu##[class*="boxad"]
 ize.hu##DIV[class="banner"]
 jogiforum.hu##[class*="banner"]
-joy.hu##[id="joylike"]
 juj.hu##DIV[class="layout_top"]
 kakukk.ro##[id*="banner"]
 kamaszpanasz.hu##DIV[id="header"]
@@ -1247,11 +1287,6 @@ vilagszam.hu##[class^="adv"]
 vilagszam.hu##[id*="-ad-"]
 vilagszammagazin.hu##[class^="adv"]
 webforditas.hu##[id*="AdFrame"]
-wellnesscafe.hu##[class*="banner"]
-wellnesscafe.hu##[class="ad"]
-wellnesscafe.hu##[class="wc_content wc_contentwide"]
-wellnesscafe.hu##[id*="AdZone"]
-wellnesscafe.hu##[id*="Banner"]
 yayo.hu/static/banner/
 zene.hu##DIV[class="etarget"]
 !
@@ -1302,7 +1337,6 @@ zene.hu##DIV[class="etarget"]
 ||playertise.com^$third-party
 ||salsa.hu/adserver/
 ||static.lhp.hu/lhp.hu/bannerek/
-||stylemagazin.hu/static/template_settings/
 ||szegedma.hu/*banners/*.*
 ||szepsegbroker.hu/banner/
 ||talalka.hu/hirdetes/
@@ -1367,77 +1401,82 @@ teracod.com/*banner*.*
 !!!            Kulfoldi reklamszerverek vegyesen                       !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-||boxzsak.kirowski.com^
-||up-banner.wavecdn.de^
-||smartadserver.com^
-||calivary.com^$third-party
-||etargetnet.*
-||content.yieldmanager.edgesuite.net/*.swf 
-||emediate.apmmedia.net^
-||rc.rootclick.com^
-||i.i.com.com/cnwk.1d/Ads/
-||doubleclick.net^
-||2mdn.net^
-||zanox.com^
-||ad.yieldmanager.com^
-||fastclick.net^
-||netadclick.com^
-||preissuchmaschine.de/banner/
-||pornolize.com/*?clickTAG=*
-||flashkit.com/RealMedia/ads/
-||spe.atdmt.com^
-||clicksor.net/newServing/
-||ggo.directrev.com^
+
 dictzone.com##P[id="a1"]
 dictzone.com##P[id="a2"]
-||streameye.net^$third-party
+||2mdn.net^
+||ad.yieldmanager.com^
+||ads.ventivmedia.com^$third-party
+||advertshot.ru^$third-party
+||affiliate.hu$subdocument
+||authorizedsex.com^
+||avatraffic.com^
+||bannerserver.hu$subdocument
 ||betfair.com^$third-party
 ||bongacash.com^$third-party
-||ads.ventivmedia.com^$third-party
-||iitech.dk^$third-party
-||bannerserver.hu$subdocument
-||affiliate.hu$subdocument
-||premads.info^$third-party
-||smartcj.com^
-||webtraffichub.net^
-||stat.adultium.com^
-||authorizedsex.com^
+||boxzsak.kirowski.com^
+||calivary.com^$third-party
+||clicksor.net/newServing/
+||content.yieldmanager.edgesuite.net/*.swf 
+||doubleclick.net^
+||emediate.apmmedia.net^
+||etargetnet.*
+||fastclick.net^
+||flashkit.com/RealMedia/ads/
 ||fourtwentytradingcompany.net^
-||avatraffic.com^
-||advertshot.ru^$third-party
+||ggo.directrev.com^
+||i.i.com.com/cnwk.1d/Ads/
+||iitech.dk^$third-party
 ||insticator.com^$third-party
+||netadclick.com^
+||pornedup.com^$third-party
+||pornolize.com/*?clickTAG=*
+||preissuchmaschine.de/banner/
+||premads.info^$third-party
+||rc.rootclick.com^
 ||seedr.com^$third-party
 ||seedr.ru^$third-party
-||pornedup.com^$third-party
+||smartadserver.com^
+||smartcj.com^
+||spe.atdmt.com^
+||stat.adultium.com^
+||streameye.net^$third-party
+||up-banner.wavecdn.de^
 ||viglink.com^
-
+||webtraffichub.net^
+||zanox.com^
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                        trackerek                                   !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-||audit.median.hu^
-||best-top.hu/banner.php*
-||websas.hu/statistics/
-||hungariantop1000.com/cgi-bin/counter.cgi*
+
 ||*.hit.gemius.pl^
-||ctag.hu/dc/
-||google-analytics.com^$third-party
 ||analytics.yahoo.com^$third-party
+||audit.median.hu^
+||audtd.com^$third-party
+||best-top.hu/banner.php*
 ||counter.hitslink.com^$third-party
-||myroitracking.com/newServing/
+||ctag.hu/dc/
 ||fruitflan.com
+||fwmrm.net^
+||google-analytics.com^$third-party
+||hungariantop1000.com/cgi-bin/counter.cgi*
+||iofferphoto.com^$third-party
+||kepfeltoltes.hu^*/pixel.gif
+||myroitracking.com/newServing/
+||picclick.com^$third-party
+||pixel.sojern.com^
+||shortlink.sex^$third-party
+||srv1.srv-stat.com^
+||targetix.net^$third-party
+||track.calithornia.com^
+||track.superbro.com^
 ||tracker.azet.sk^
 ||trackingterrorism.org^$third-party
-||kepfeltoltes.hu^*/pixel.gif
-||targetix.net^$third-party
 ||tripod.com^$third-party
 ||tripod.lycos.com^$third-party
-||audtd.com^$third-party
-||picclick.com^$third-party
-||iofferphoto.com^$third-party
+||websas.hu/statistics/
 ||xxxshort.com^$third-party
-||shortlink.sex^$third-party
-||pixel.sojern.com^
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !                      reklamszerverek                                   ! 
@@ -1513,6 +1552,7 @@ dictzone.com##P[id="a2"]
 ||ad.onadozo.hu^
 ||ad.parom.hu^
 ||ad.supportal.hu^
+||ad.szexneked.hu^
 ||adocean.pl^
 ||ads.kepfeltoltes.hu^
 ||ads.waxum.hu/adimage.php

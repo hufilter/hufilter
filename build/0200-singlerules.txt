@@ -9,8 +9,10 @@
 
 
 
-
-
+vs.hu##[class="no_banner"]
+sztarklikk.hu##[class="banner"]
+retikul.hu##[class*="banner"]
+netbulvar.eu##[id*="advertisment"]
 168ora.hu##[class^="ads"]
 168ora.hu##[id*="etarget"]
 24.hu##[class*="banner-"]
@@ -50,8 +52,6 @@ builder.hu##[class*="banner"]
 c-press.hu##[id="bef_mainbody_mod_2"]
 chat.hu##[class^="vippol_"]
 chat.hu##[id="stvipcontainer"]
-cosmopolitan.hu##[class*="banner"]
-cosmopolitan.hu/*/sponsor/*
 cotcot.hu##[class*="banner"]
 cotcot.hu##[class*="card_box_"]
 cotcot.hu##[class*="hirdetes"]
@@ -70,7 +70,6 @@ eropolis.hu##[class*="banner"]
 est.hu##[class*="_adv "]
 est.hu##[class*="banner"]
 estihirlap.hu##[class*="banner"]
-evamagazin.hu##[class="popupunderlay"]
 f1vilag.hu##[class*="adzone"]
 feliratok.info##DIV#advert
 figyelo.hu##[class*="adbox"]
@@ -135,7 +134,6 @@ itcafe.hu##[class*="box ad"]
 itcafe.hu##[class*="boxad"]
 ize.hu##DIV[class="banner"]
 jogiforum.hu##[class*="banner"]
-joy.hu##[id="joylike"]
 juj.hu##DIV[class="layout_top"]
 kakukk.ro##[id*="banner"]
 kamaszpanasz.hu##DIV[id="header"]
@@ -281,11 +279,6 @@ vilagszam.hu##[class^="adv"]
 vilagszam.hu##[id*="-ad-"]
 vilagszammagazin.hu##[class^="adv"]
 webforditas.hu##[id*="AdFrame"]
-wellnesscafe.hu##[class*="banner"]
-wellnesscafe.hu##[class="ad"]
-wellnesscafe.hu##[class="wc_content wc_contentwide"]
-wellnesscafe.hu##[id*="AdZone"]
-wellnesscafe.hu##[id*="Banner"]
 yayo.hu/static/banner/
 zene.hu##DIV[class="etarget"]
 !
@@ -336,7 +329,6 @@ zene.hu##DIV[class="etarget"]
 ||playertise.com^$third-party
 ||salsa.hu/adserver/
 ||static.lhp.hu/lhp.hu/bannerek/
-||stylemagazin.hu/static/template_settings/
 ||szegedma.hu/*banners/*.*
 ||szepsegbroker.hu/banner/
 ||talalka.hu/hirdetes/
