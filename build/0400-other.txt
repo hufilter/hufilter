@@ -126,8 +126,12 @@ dictzone.com##P[id="a2"]
 ||lo.v.liveperson.net^$third-party
 ||statsector.hu^$third-party
 ||adfox.ru^$third-party
-||embedly.com^$third-party
-||embed.ly^$third-party
+!
+! Tartalmat blokkolt, pl 444
+!
+!||embedly.com^$third-party
+!||embed.ly^$third-party
+!
 ||out.pladform.ru^$third-party
 ||targetix.net^$third-party
 ||zemanta.com^$third-party

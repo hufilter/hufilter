@@ -5,7 +5,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201608012318
+!Version: 201608031512
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1525,10 +1525,15 @@ dictzone.com##P[id="a2"]
 ||lo.v.liveperson.net^$third-party
 ||statsector.hu^$third-party
 ||adfox.ru^$third-party
-||embedly.com^$third-party
-||embed.ly^$third-party
+!
+! Tartalmat blokkolt, pl 444
+!
+!||embedly.com^$third-party
+!||embed.ly^$third-party
+!
 ||out.pladform.ru^$third-party
 ||targetix.net^$third-party
+||zemanta.com^$third-party
 
 !!!
 !!! altalanos domain tiltas
