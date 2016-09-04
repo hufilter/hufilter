@@ -5,7 +5,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201609042040
+!Version: 201609042043
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1376,7 +1376,8 @@ ncore.cc###bf1445940949335 > div > div
 ncore.cc###main_tartalom > center:nth-of-type(1) > div
 ncore.cc###main_tartalom > center:nth-of-type(2) > div
 ncore.cc###ape-container
-ncore.cc##A[href*="bekerdezo.hu"]
+ncore.cc###main_tartalom a[href*="bekerdezo"]
+ncore.cc###bekerdezo-ad
 !
 teracod.com##DIV[class*="banner"]
 !
