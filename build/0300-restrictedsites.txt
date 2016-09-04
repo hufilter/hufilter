@@ -16,6 +16,7 @@ ncore.cc###bf1445940949335 > div > div
 ncore.cc###main_tartalom > center:nth-of-type(1) > div
 ncore.cc###main_tartalom > center:nth-of-type(2) > div
 ncore.cc###ape-container
+ncore.cc##A[href*="bekerdezo.hu"]
 !
 teracod.com##DIV[class*="banner"]
 !

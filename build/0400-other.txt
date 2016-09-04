@@ -78,6 +78,9 @@ dictzone.com##P[id="a2"]
 ||tripod.lycos.com^$third-party
 ||websas.hu/statistics/
 ||xxxshort.com^$third-party
+||onesignal.com^$third-party
+||salesmanago.pl^$third-party
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !                      reklamszerverek                                   ! 
