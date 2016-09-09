@@ -80,7 +80,7 @@ dictzone.com##P[id="a2"]
 ||xxxshort.com^$third-party
 ||onesignal.com^$third-party
 ||salesmanago.pl^$third-party
-
+||picclick.ca^$third-party
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !                      reklamszerverek                                   ! 
