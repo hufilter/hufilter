@@ -16,5 +16,6 @@ mv hufilter.new hufilter.txt
 rm -f $BUILDFN
 
 wget https://easylist-downloads.adblockplus.org/easylist.txt
-diff hufilter.txt easylist.txt --new-line-format="" --old-line-format="%L" --unchanged-line-format="" > hufilter-minuseasylist.txt
+echo '[Adblock Plus 2.0]' > hufilter-minuseasylist.txt
+diff hufilter.txt easylist.txt --new-line-format="" --old-line-format="%L" --unchanged-line-format="" >> hufilter-minuseasylist.txt
 rm -f ./easylist.txt
