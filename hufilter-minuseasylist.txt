@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201609111131
+!Version: 201609161557
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1604,6 +1604,7 @@ dictzone.com##P[id="a2"]
 ||syndication.trafficreps.com^
 ||trafficshop.com^
 ||counter.megagroup.ru
+||syndication.globaltraffico.com^
 
 !!!
 !!! elemelrejtes
