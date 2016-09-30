@@ -236,9 +236,10 @@ dictzone.com##P[id="a2"]
 ###_iph_cp_popup
 ###adBlockAlert
 ###abAlert
-||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|tenyek-online.com|napi-hirek.net|hiroldal.com,popup
+||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|tenyek-online.com|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 ##[id*="overlayBg"]
 ##[class*="overlayBg"]
 ! disabled temporarily due to #15
 !##[id*="banner"]
 ##[id*="adzone"]
+openspeedtest.com##script:contains(testadblock)
