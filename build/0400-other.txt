@@ -197,6 +197,7 @@ dictzone.com##P[id="a2"]
 ||trafficshop.com^
 ||counter.megagroup.ru
 ||syndication.globaltraffico.com^
+||webeatyouradblocker.com^
 
 !!!
 !!! elemelrejtes
