@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201609302331
+!Version: 201610231314
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -943,6 +943,7 @@ mfor.hu##[class*="banner"]
 mfor.hu##[class="article-textlinkbox"]
 !
 kuruc.info##[class="cikkbanner hirdbox mh40 listafriss"]
+kuruc.info/galeriaN/banner/gedetsa.jpg
 !
 oprend.hu##[class="ad ad-blocked"]
 oprend.hu##[class="ad p-t-10 ad-blocked"]
@@ -950,6 +951,7 @@ oprend.hu##[class="ad p-t-10 ad-blocked"]
 ! utkozik a layer kezelessel - ideiglenesen inaktivalva
 !profession.hu###jqi
 !profession.hu###jqifade
+profession.hu###twister-banner
 !
 ! Infopapa.hu reklammentesites:
 infopapa.hu##[class="banner_300_600"]
@@ -1019,7 +1021,7 @@ wellnesscafe.hu##[id*="Banner"]
 !!!!    Egyszabalyos oldalak          !!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-! 2016-07-27: OK, tudom. Eelg sok a tobbszabalyos 
+! 2016-07-27: OK, tudom. Eleg sok a tobbszabalyos 
 ! oldal is, ezeknek az osszerendezese, atrakasa a 
 ! masik szekcioba folyamatban van :)
 
@@ -1471,7 +1473,7 @@ dictzone.com##P[id="a2"]
 ||fwmrm.net^
 ||google-analytics.com^$third-party
 ||hungariantop1000.com/cgi-bin/counter.cgi*
-||iofferphoto.com^$third-party
+||iofferphoto.com^
 ||kepfeltoltes.hu^*/pixel.gif
 ||myroitracking.com/newServing/
 ||picclick.com^$third-party
@@ -1593,6 +1595,7 @@ dictzone.com##P[id="a2"]
 ||vid4u.org^
 ||stats.badoostats.com^
 ||advertiserurl.com^$popup
+||advertiserurl.com^
 ||brostraffic.com^
 ||redwolfmoon.com^
 ||sexoffshore.com^

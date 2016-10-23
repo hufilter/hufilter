@@ -3,7 +3,7 @@
 !!!!    Egyszabalyos oldalak          !!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-! 2016-07-27: OK, tudom. Eelg sok a tobbszabalyos 
+! 2016-07-27: OK, tudom. Eleg sok a tobbszabalyos 
 ! oldal is, ezeknek az osszerendezese, atrakasa a 
 ! masik szekcioba folyamatban van :)
 

@@ -890,6 +890,7 @@ mfor.hu##[class*="banner"]
 mfor.hu##[class="article-textlinkbox"]
 !
 kuruc.info##[class="cikkbanner hirdbox mh40 listafriss"]
+kuruc.info/galeriaN/banner/gedetsa.jpg
 !
 oprend.hu##[class="ad ad-blocked"]
 oprend.hu##[class="ad p-t-10 ad-blocked"]
@@ -897,6 +898,7 @@ oprend.hu##[class="ad p-t-10 ad-blocked"]
 ! utkozik a layer kezelessel - ideiglenesen inaktivalva
 !profession.hu###jqi
 !profession.hu###jqifade
+profession.hu###twister-banner
 !
 ! Infopapa.hu reklammentesites:
 infopapa.hu##[class="banner_300_600"]

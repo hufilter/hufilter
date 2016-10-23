@@ -62,7 +62,7 @@ dictzone.com##P[id="a2"]
 ||fwmrm.net^
 ||google-analytics.com^$third-party
 ||hungariantop1000.com/cgi-bin/counter.cgi*
-||iofferphoto.com^$third-party
+||iofferphoto.com^
 ||kepfeltoltes.hu^*/pixel.gif
 ||myroitracking.com/newServing/
 ||picclick.com^$third-party
@@ -184,6 +184,7 @@ dictzone.com##P[id="a2"]
 ||vid4u.org^
 ||stats.badoostats.com^
 ||advertiserurl.com^$popup
+||advertiserurl.com^
 ||brostraffic.com^
 ||redwolfmoon.com^
 ||sexoffshore.com^
