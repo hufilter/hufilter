@@ -933,6 +933,8 @@ hir.ma##[id="text-html-widget-6"]
 444.hu##[class="d36-top"]
 444.hu##[id*="-banner-"]
 !
+||888.hu^*/autoalkatreszek24$image
+!
 hazipatika.com##[class*="adtext"]
 hazipatika.com##[id="webaruhaz-ajanlo"]
 hazipatika.com/sponsoredbys/

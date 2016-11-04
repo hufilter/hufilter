@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201610231337
+!Version: 201611041535
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -986,6 +986,8 @@ hir.ma##[id="text-html-widget-6"]
 444.hu##[class="d36-top"]
 444.hu##[id*="-banner-"]
 !
+||888.hu^*/autoalkatreszek24$image
+!
 hazipatika.com##[class*="adtext"]
 hazipatika.com##[id="webaruhaz-ajanlo"]
 hazipatika.com/sponsoredbys/
@@ -1603,12 +1605,12 @@ dictzone.com##P[id="a2"]
 ||new-bigpenn.com^
 ||imprsngl.info^
 ||loading-delivery2.com^
-||trib.al^
 ||syndication.trafficreps.com^
 ||trafficshop.com^
 ||counter.megagroup.ru
 ||syndication.globaltraffico.com^
 ||webeatyouradblocker.com^
+||track.rtb-media.me^
 
 !!!
 !!! elemelrejtes

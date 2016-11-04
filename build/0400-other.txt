@@ -192,12 +192,12 @@ dictzone.com##P[id="a2"]
 ||new-bigpenn.com^
 ||imprsngl.info^
 ||loading-delivery2.com^
-||trib.al^
 ||syndication.trafficreps.com^
 ||trafficshop.com^
 ||counter.megagroup.ru
 ||syndication.globaltraffico.com^
 ||webeatyouradblocker.com^
+||track.rtb-media.me^
 
 !!!
 !!! elemelrejtes
