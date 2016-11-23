@@ -308,6 +308,7 @@ zene.hu##DIV[class="etarget"]
 ||hatarido-szamitas.hu/partnerek/
 ||hirek.sk/banner/
 ||hu-swingers.com/img/banners/
+||image.arukereso.hu/ad$image
 ||informed.hu/*banner
 ||ingyenweb.hu/smsbanner/
 ||jogiforum.hu/files/partner/
