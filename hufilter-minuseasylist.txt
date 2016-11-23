@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201611041535
+!Version: 201611230922
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1328,6 +1328,7 @@ zene.hu##DIV[class="etarget"]
 ||hatarido-szamitas.hu/partnerek/
 ||hirek.sk/banner/
 ||hu-swingers.com/img/banners/
+||image.arukereso.hu/ad$image
 ||informed.hu/*banner
 ||ingyenweb.hu/smsbanner/
 ||jogiforum.hu/files/partner/
@@ -1441,7 +1442,6 @@ dictzone.com##P[id="a2"]
 ||ggo.directrev.com^
 ||i.i.com.com/cnwk.1d/Ads/
 ||iitech.dk^$third-party
-||insticator.com^$third-party
 ||netadclick.com^
 ||pornedup.com^$third-party
 ||pornolize.com/*?clickTAG=*
