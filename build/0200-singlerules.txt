@@ -212,6 +212,7 @@ nyest.hu##[class*="banner"]
 nyest.hu/media/ad/
 offline.hu##[class="ad"]
 onlinecegjegyzek.hu##[class*="hirdetes"]
+online.filmek-sorozatok.info/java.js
 otvenentul.hu##[class^="ad"]
 p3k.hu/*_hatter*.*
 p3k.hu/*szponz*.*

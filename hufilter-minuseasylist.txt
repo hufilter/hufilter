@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201611230922
+!Version: 201612032111
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -943,7 +943,6 @@ mfor.hu##[class*="banner"]
 mfor.hu##[class="article-textlinkbox"]
 !
 kuruc.info##[class="cikkbanner hirdbox mh40 listafriss"]
-kuruc.info/galeriaN/banner/gedetsa.jpg
 !
 oprend.hu##[class="ad ad-blocked"]
 oprend.hu##[class="ad p-t-10 ad-blocked"]
@@ -1015,7 +1014,10 @@ wellnesscafe.hu##[class="wc_content wc_contentwide"]
 wellnesscafe.hu##[id*="AdZone"]
 wellnesscafe.hu##[id*="Banner"]
 !
-
+hungliaonline.com##.sAET8jJeN7t4-default
+hungliaonline.com##.sAET8jJeN7t4-bg
+hungliaonline.com##.close-sAET8jJeN7t4.close-modal
+!
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
 
@@ -1232,6 +1234,7 @@ nyest.hu##[class*="banner"]
 nyest.hu/media/ad/
 offline.hu##[class="ad"]
 onlinecegjegyzek.hu##[class*="hirdetes"]
+online.filmek-sorozatok.info/java.js
 otvenentul.hu##[class^="ad"]
 p3k.hu/*_hatter*.*
 p3k.hu/*szponz*.*
@@ -1478,7 +1481,6 @@ dictzone.com##P[id="a2"]
 ||iofferphoto.com^
 ||kepfeltoltes.hu^*/pixel.gif
 ||myroitracking.com/newServing/
-||picclick.com^$third-party
 ||pixel.sojern.com^
 ||shortlink.sex^$third-party
 ||srv1.srv-stat.com^
@@ -1493,7 +1495,6 @@ dictzone.com##P[id="a2"]
 ||xxxshort.com^$third-party
 ||onesignal.com^$third-party
 ||salesmanago.pl^$third-party
-||picclick.ca^$third-party
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !                      reklamszerverek                                   ! 
@@ -1552,11 +1553,19 @@ dictzone.com##P[id="a2"]
 ||out.pladform.ru^$third-party
 ||targetix.net^$third-party
 ||zemanta.com^$third-party
+||clicksure.com^$third-party
+||clickspromos.com^$third-party
+
 
 !!!
 !!! altalanos domain tiltas
 !!!
 
+||track.trackbyme.info^
+||trackingpro.net^
+||tracking.binarypromos.com^
+||adtrackeraa.com^
+||predictivadnetwork.com^
 ||et.twyn.com^
 ||choice.microsoft.com^
 ||affiliation.arukereso.hu/pbox/*

@@ -890,7 +890,6 @@ mfor.hu##[class*="banner"]
 mfor.hu##[class="article-textlinkbox"]
 !
 kuruc.info##[class="cikkbanner hirdbox mh40 listafriss"]
-kuruc.info/galeriaN/banner/gedetsa.jpg
 !
 oprend.hu##[class="ad ad-blocked"]
 oprend.hu##[class="ad p-t-10 ad-blocked"]
@@ -962,4 +961,7 @@ wellnesscafe.hu##[class="wc_content wc_contentwide"]
 wellnesscafe.hu##[id*="AdZone"]
 wellnesscafe.hu##[id*="Banner"]
 !
-
+hungliaonline.com##.sAET8jJeN7t4-default
+hungliaonline.com##.sAET8jJeN7t4-bg
+hungliaonline.com##.close-sAET8jJeN7t4.close-modal
+!

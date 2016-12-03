@@ -65,7 +65,6 @@ dictzone.com##P[id="a2"]
 ||iofferphoto.com^
 ||kepfeltoltes.hu^*/pixel.gif
 ||myroitracking.com/newServing/
-||picclick.com^$third-party
 ||pixel.sojern.com^
 ||shortlink.sex^$third-party
 ||srv1.srv-stat.com^
@@ -80,7 +79,6 @@ dictzone.com##P[id="a2"]
 ||xxxshort.com^$third-party
 ||onesignal.com^$third-party
 ||salesmanago.pl^$third-party
-||picclick.ca^$third-party
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !                      reklamszerverek                                   ! 
@@ -139,11 +137,19 @@ dictzone.com##P[id="a2"]
 ||out.pladform.ru^$third-party
 ||targetix.net^$third-party
 ||zemanta.com^$third-party
+||clicksure.com^$third-party
+||clickspromos.com^$third-party
+
 
 !!!
 !!! altalanos domain tiltas
 !!!
 
+||track.trackbyme.info^
+||trackingpro.net^
+||tracking.binarypromos.com^
+||adtrackeraa.com^
+||predictivadnetwork.com^
 ||et.twyn.com^
 ||choice.microsoft.com^
 ||affiliation.arukereso.hu/pbox/*
