@@ -11,7 +11,6 @@ ncore.cc##A[href*="2coal.com"]
 b.office42.hu^$domain=ncore.cc
 ncore.cc##.banner
 ncore.cc##.hr_stuff
-ncore.cc##[class="banner"]
 ncore.cc###bf1445940949335 > div > div
 ncore.cc###main_tartalom > center:nth-of-type(1) > div
 ncore.cc###main_tartalom > center:nth-of-type(2) > div
@@ -35,12 +34,5 @@ estone.cc###kozep_hatter:nth-of-type(12)
 !
 !
 teracod.com/*banner*.*
-
-
-
-
-
-
-
 
 
