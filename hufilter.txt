@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201612121808
+!Version: 201612151423
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1391,7 +1391,7 @@ teracod.com/*banner*.*
 ##[class*="GoogleAds"]
 ##[class*="overlayBg"]
 ##[class="google_ad"]
-##[class*="hirdetes"]
+! tul altalanos szabaly: ##[class*="hirdetes"]
 ##[href*="addtoany.com"]
 ##[href*="kuponmania.hu"]
 ##[id*="GoogleAds"]

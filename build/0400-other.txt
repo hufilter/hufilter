@@ -22,7 +22,7 @@
 ##[class*="GoogleAds"]
 ##[class*="overlayBg"]
 ##[class="google_ad"]
-##[class*="hirdetes"]
+! tul altalanos szabaly: ##[class*="hirdetes"]
 ##[href*="addtoany.com"]
 ##[href*="kuponmania.hu"]
 ##[id*="GoogleAds"]
