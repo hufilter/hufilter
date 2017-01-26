@@ -1044,3 +1044,8 @@ adozona.hu##[class*="ads"]
 adozona.hu##[class="az-layer"]
 adozona.hu##[id="g0"]
 !
+||img.hunbasket.webpont.com/kosarsport/art/2017/*hirdetes*
+||kosarsport.hu/popup.html^$popup
+||kosarsport.hu/##body>a:first-child
+!
+

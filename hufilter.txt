@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201701031230
+!Version: 201701262228
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1097,6 +1097,11 @@ adozona.hu##[class*="ads"]
 adozona.hu##[class="az-layer"]
 adozona.hu##[id="g0"]
 !
+||img.hunbasket.webpont.com/kosarsport/art/2017/*hirdetes*
+||kosarsport.hu/popup.html^$popup
+||kosarsport.hu/##body>a:first-child
+!
+
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
 
