@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201702151928
+!Version: 201702181923
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -922,6 +922,7 @@ infopapa.hu##[class="banner_468_120"]
 alfahir.hu###block-views-ajanlo-block
 alfahir.hu##[id="block-block-16"]
 alfahir.hu##[id="sticky_footer"]
+alfahir.hu###block-block-22
 !
 online.filmek-sorozatok.info##[class="videoBanner"]
 online.filmek-sorozatok.info##[class="adsListItem"]
