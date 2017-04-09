@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201702181923
+!Version: 201704091156
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1414,7 +1414,7 @@ dictzone.com##P[id="a1"]
 dictzone.com##P[id="a2"]
 openspeedtest.com##script:contains(testadblock)
 ||*.hit.gemius.pl^
-||2mdn.net^
+||2mdn.net^$third-party
 ||9klikk.com^$third-party
 ||a.adnium.com^
 ||a.rvttrack.com^$third-party
