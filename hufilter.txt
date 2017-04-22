@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201704091156
+!Version: 201704220932
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -680,6 +680,8 @@ prohardver.hu##[class*="boxxabre"]
 prohardver.hu##[class="adbox"]
 prohardver.hu##[class="xabrebox"]
 prohardver.hu##a[href*="gemius.pl"]
+prohardver.hu##.xabre-responsive-300px-60px
+prohardver.hu##.xabre-responsive-640px-360px
 
 !
 medizona.hu##[class*="banner"]
