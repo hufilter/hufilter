@@ -486,10 +486,6 @@ nepszava.hu##[class*="adlabel"]
 novagyok.hu##[class*="banner"]
 novagyok.hu##[id*="banner"]
 !
-||stop.hu/images/banners/
-||stop.hu/data/public/banners/
-||stop.hu/adserver/click.php
-!
 anyuci.hu##[id*="banner"]
 anyuci.hu##[class*="banner"]
 !
@@ -811,12 +807,6 @@ infogyor.hu##[class*="banner"]
 !
 usernet.hu##[id="blanket"]
 usernet.hu##[id="popUpDiv"]
-!
-lifenetwork.hu##[id*="banner"]
-lifenetwork.hu##[class*="hirdetes"]
-lifenetwork.hu##[class*="banner"]
-lifenetwork.hu##[id="magnum"]
-lifenetwork.hu##[id="szoveges"]
 !
 hajdupress.hu##[class*="hirdetes"]
 hajdupress.hu##[id*="banner"]

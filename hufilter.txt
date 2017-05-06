@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201705061817
+!Version: 201705061932
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -539,10 +539,6 @@ nepszava.hu##[class*="adlabel"]
 novagyok.hu##[class*="banner"]
 novagyok.hu##[id*="banner"]
 !
-||stop.hu/images/banners/
-||stop.hu/data/public/banners/
-||stop.hu/adserver/click.php
-!
 anyuci.hu##[id*="banner"]
 anyuci.hu##[class*="banner"]
 !
@@ -865,12 +861,6 @@ infogyor.hu##[class*="banner"]
 usernet.hu##[id="blanket"]
 usernet.hu##[id="popUpDiv"]
 !
-lifenetwork.hu##[id*="banner"]
-lifenetwork.hu##[class*="hirdetes"]
-lifenetwork.hu##[class*="banner"]
-lifenetwork.hu##[id="magnum"]
-lifenetwork.hu##[id="szoveges"]
-!
 hajdupress.hu##[class*="hirdetes"]
 hajdupress.hu##[id*="banner"]
 hajdupress.hu##A[class="catch-click"]
@@ -1149,7 +1139,6 @@ eoldal.hu/*eoldal_banner*
 epresso.hu##[class*="banner"]
 eron.hu##[id*="banner"]
 eropolis.hu##[class*="banner"]
-estihirlap.hu##[class*="banner"]
 f1vilag.hu##[class*="adzone"]
 feliratok.info##DIV#advert
 figyelo.hu##[class*="adbox"]
@@ -1161,7 +1150,6 @@ galamus.hu##[class*="banner"]
 gamepod.hu###right > .xabrew300.box
 gigasex.hu/bannerek/
 gloria.tv##[id*="advert"]
-gondolnad.info###aff
 gphirek.hu##DIV.ad
 gportal.hu##[class*="banner"]
 gumiszoba.com##[class="wpcnt"]
@@ -1215,7 +1203,6 @@ menshealth.hu##[id="fbpopup"]
 metazin.hu##DIV[class*="etarget"]
 metropol.hu/*/images/sponsor_*.*
 miabonyunk.hu/hirdetesek/
-millamedia.hu##[id*="banner"]
 mindenkilapja.hu##[class*="advert"]
 mitortent.hu##[class^="adv"]
 mixonline.hu##[class*="banner"]
@@ -1230,9 +1217,7 @@ napi.hu##[id*="billboard"]
 napiszar.hu##[class*="banner"]
 napiuzlet.com##[class*="advertisement"]
 napocska.hu/images/*_advert*.*
-negyed.hu##[id="magnum"]
 nemzetisport.hu##[id^="ad_"]
-neon.hu##[class*="banner"]
 netbulvar.eu##[id*="advertisment"]
 netfirms.com##A[href*="=banner"]
 netii.net##[id*="facebox"]
@@ -1275,7 +1260,6 @@ tlap.hu##[id*="_bnr"]
 torte-net.hu##DIV[id="hirdetes"]
 trademagazin.hu##[id*="banner"]
 travelo.hu##[class*="hirdetes"]
-troller.hu##[id="slider"]
 turizmusonline.hu##[class*="Banner"]
 turmixvilag.hu##DIV[class="adsense"]
 tutitippek.hu##[class*="adsense"]
@@ -1401,7 +1385,6 @@ estone.cc###kozep_hatter:nth-of-type(12)
 ##[class*="GoogleAds"]
 ##[class*="overlayBg"]
 ##[class="google_ad"]
-! tul altalanos szabaly: ##[class*="hirdetes"]
 ##[href*="addtoany.com"]
 ##[href*="kuponmania.hu"]
 ##[id*="GoogleAds"]
@@ -1434,7 +1417,6 @@ openspeedtest.com##script:contains(testadblock)
 ||ad.hirekmedia.hu^
 ||ad.hu/g3t.js
 ||ad.hu^$third-party
-||ad.ingatlan.net^
 ||ad.netmedia.hu^
 ||ad.onadozo.hu^
 ||ad.parom.hu^
@@ -1447,7 +1429,6 @@ openspeedtest.com##script:contains(testadblock)
 ||adk2x.com^
 ||adocean.pl^
 ||ads.geeks.hu^
-||ads.kepfeltoltes.hu^
 ||ads.linkedin.com^$third-party
 ||ads.sg.hu^$third-party
 ||ads.ventivmedia.com^$third-party
@@ -1499,14 +1480,13 @@ openspeedtest.com##script:contains(testadblock)
 ||doubleclick.net^
 ||et.twyn.com^
 ||etargetnet.*
-||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|tenyek-online.com|napi-hirek.net|hiroldal.com|hvq-online.com,popup
+||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 ||fastclick.net^
 ||feeds.videosz.com^$third-party
 ||flashkit.com/RealMedia/ads/
 ||fourtwentytradingcompany.net^
 ||fruitflan.com
 ||fwmrm.net^
-||ggo.directrev.com^
 ||google-analytics.com^$third-party
 ||gravity.com^$third-party
 ||gstatic.com/ads/
@@ -1514,12 +1494,10 @@ openspeedtest.com##script:contains(testadblock)
 ||hungariantop1000.com/cgi-bin/counter.cgi*
 ||iforex.com^$third-party
 ||iitech.dk^$third-party
-||imprsngl.info^
 ||ingatlannet.hu^$third-party
 ||insticator.com^$third-party
 ||iofferphoto.com^
 ||js.leadin.com^$third-party
-||kepfeltoltes.hu^*/pixel.gif
 ||klix.hu^$third-party
 ||lo.v.liveperson.net^$third-party
 ||loading-delivery2.com^
@@ -1564,7 +1542,6 @@ openspeedtest.com##script:contains(testadblock)
 ||targetix.net^$third-party
 ||track.calithornia.com^
 ||track.rtb-media.me^
-||track.superbro.com^
 ||track.trackbyme.info^
 ||track306.info^$third-party
 ||tracker.azet.sk^
