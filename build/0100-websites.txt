@@ -1052,4 +1052,9 @@ adozona.hu##[id="g0"]
 ||kosarsport.hu/popup.html^$popup
 ||kosarsport.hu/##body>a:first-child
 !
+||freewaresoftwarenews.blogspot.$first-party,inline-script
+freewaresoftwarenews.blogspot.com##[id*="HTML"]
+freewaresoftwarenews.blogspot.com##[id="column-left-inner"]
+!
+
 

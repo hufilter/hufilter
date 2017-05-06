@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201704281028
+!Version: 201705061817
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1105,6 +1105,11 @@ adozona.hu##[id="g0"]
 ||kosarsport.hu/popup.html^$popup
 ||kosarsport.hu/##body>a:first-child
 !
+||freewaresoftwarenews.blogspot.$first-party,inline-script
+freewaresoftwarenews.blogspot.com##[id*="HTML"]
+freewaresoftwarenews.blogspot.com##[id="column-left-inner"]
+!
+
 
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
@@ -1499,7 +1504,6 @@ openspeedtest.com##script:contains(testadblock)
 ||feeds.videosz.com^$third-party
 ||flashkit.com/RealMedia/ads/
 ||fourtwentytradingcompany.net^
-||freewaresoftwarenews.blogspot.$first-party,inline-script
 ||fruitflan.com
 ||fwmrm.net^
 ||ggo.directrev.com^

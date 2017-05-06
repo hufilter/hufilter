@@ -125,7 +125,6 @@ openspeedtest.com##script:contains(testadblock)
 ||feeds.videosz.com^$third-party
 ||flashkit.com/RealMedia/ads/
 ||fourtwentytradingcompany.net^
-||freewaresoftwarenews.blogspot.$first-party,inline-script
 ||fruitflan.com
 ||fwmrm.net^
 ||ggo.directrev.com^
