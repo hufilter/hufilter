@@ -664,6 +664,7 @@ noplaza.hu##[class*="banner"]
 ||prohardver.hu/design/sp/index_*.*
 ||prohardver.hu/design/*forum_*.*
 ||prohardver.hu/dl/cnt/*/*/background.jpg$image
+||prohardver.hu/dl/cnt/*/*/D167D42E6C45562ACDA8B7DD3CDAA4FE.jpg$image
 !
 prohardver.hu###center > .cntcol > .cikk.anyag > .cntatc.defcnt > div
 prohardver.hu###center > .cntcol > .hir.anyag > .cntnew.defcnt > div
