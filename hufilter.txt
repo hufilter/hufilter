@@ -560,6 +560,10 @@ hazipatika.com##DIV[class="wrap"]
 !
 ||ipon.hu/banner
 ipon.hu##[id*="banner"]
+ipon.hu###leftPoszter-section
+ipon.hu###salePoszter
+ipon.hu##.wedNewsletter
+||icdn.hu/poszter/x403_170306z270steamrefresh728x90-v2.png.pagespeed.ic.9yWHwp_iWn.webp$image
 !
 tech.hu##[id*="banner"]
 tech.hu##[class*="banner"]
