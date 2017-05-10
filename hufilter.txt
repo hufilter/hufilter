@@ -664,12 +664,6 @@ noplaza.hu##[class*="banner"]
 ||prohardver.hu/design/sp/index_*.*
 ||prohardver.hu/design/*forum_*.*
 ||prohardver.hu/dl/cnt/*/*/background.jpg$image
-prohardver.hu##body > a[href="http://www.bosch-career.hu/hu/hu/openday/openday_1.html"]
-prohardver.hu##body > a[href="https://ipon.hu/search/shop/cherry"]
-||prohardver.hu/dl/cnt/2016-11/3547/5A4F7CDF49414096548E701CB1AD4405.jpg$image
-||prohardver.hu/dl/cnt/2016-11/3542/EA972F6ACB85574F51D636D88F15EFA7.jpg$image
-prohardver.hu##.spleft
-prohardver.hu##.spright
 !
 prohardver.hu###center > .cntcol > .cikk.anyag > .cntatc.defcnt > div
 prohardver.hu###center > .cntcol > .hir.anyag > .cntnew.defcnt > div
@@ -684,9 +678,7 @@ prohardver.hu##[class="adbox"]
 prohardver.hu##[class="xabrebox"]
 prohardver.hu##a[href*="gemius.pl"]
 prohardver.hu##.xabre-responsive-300px-60px
-prohardver.hu##.xabre-responsive-300px-600px
 prohardver.hu##.xabre-responsive-640px-360px
-prohardver.hu##.xabre-responsive-982px-90px
 
 !
 medizona.hu##[class*="banner"]
