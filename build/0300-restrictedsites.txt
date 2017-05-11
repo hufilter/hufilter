@@ -13,10 +13,12 @@ ncore.cc##.banner
 ncore.cc###bf1445940949335 > div > div
 ncore.cc###main_tartalom > center:nth-of-type(1) > div
 ncore.cc###main_tartalom > center:nth-of-type(2) > div
+ncore.cc###details1 > .fobox_tartalom > .torrent_leiras:nth-of-type(14)
 ncore.cc###ape-container
 ncore.cc###main_tartalom a[href*="bekerdezo"]
 ncore.cc###bekerdezo-ad
 ncore.cc###hessteg
+ncore.cc##.hessteg-ad-block.news_block_right
 !
 !
 ||microbit.eu/banners/
