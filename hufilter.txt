@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201705101718
+!Version: 201705111112
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -562,7 +562,7 @@ hazipatika.com##DIV[class="wrap"]
 ipon.hu##[id*="banner"]
 ipon.hu###leftPoszter-section
 ipon.hu###salePoszter
-ipon.hu##.wedNewsletter
+||icdn.hu/poszter/x405_am4728x90-q2-aorus.png.pagespeed.ic.RIuHhDf4oX.webp$image
 ||icdn.hu/poszter/x403_170306z270steamrefresh728x90-v2.png.pagespeed.ic.9yWHwp_iWn.webp$image
 !
 tech.hu##[id*="banner"]
@@ -668,10 +668,6 @@ noplaza.hu##[class*="banner"]
 ||prohardver.hu/design/sp/index_*.*
 ||prohardver.hu/design/*forum_*.*
 ||prohardver.hu/dl/cnt/*/*/background.jpg$image
-||prohardver.hu/dl/cnt/*/*/08044A5F52921874E59DEFFFC7B7DACB.jpg$image
-||prohardver.hu/dl/cnt/*/*/5A4F7CDF49414096548E701CB1AD4405.jpg$image
-||prohardver.hu/dl/cnt/*/*/D167D42E6C45562ACDA8B7DD3CDAA4FE.jpg$image
-||prohardver.hu/dl/cnt/*/*/EA972F6ACB85574F51D636D88F15EFA7.jpg$image
 !
 prohardver.hu##body > a[href="https://ipon.hu/search/shop/cherry"]
 prohardver.hu##body > a[href="http://www.bosch-career.hu/hu/hu/openday/openday_1.html"]
@@ -693,8 +689,8 @@ prohardver.hu##a[href*="gemius.pl"]
 prohardver.hu##.xabre-responsive-300px-60px
 prohardver.hu##.xabre-responsive-300px-600px
 prohardver.hu##.xabre-responsive-640px-360px
+prohardver.hu##.xabre-responsive-980px-139px
 prohardver.hu##.xabre-responsive-982px-90px
-
 !
 medizona.hu##[class*="banner"]
 medizona.hu##[class="adcloud"]
@@ -741,6 +737,8 @@ mobilarena.hu##[style="width: 400px; height: 400px;"]
 mobilarena.hu##[class*="boxxabre"]
 mobilarena.hu##[class^="xabre"]
 mobilarena.hu##[id="bl_container"]
+mobilarena.hu##.xabre-responsive-300px-60px
+mobilarena.hu##.xabre-responsive-300px-600px
 !
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
@@ -1114,7 +1112,7 @@ adozona.hu##[id="g0"]
 freewaresoftwarenews.blogspot.com##[id*="HTML"]
 freewaresoftwarenews.blogspot.com##[id="column-left-inner"]
 !
-
+gamepod.hu##.xabre-responsive-300px-60px
 
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
@@ -1355,10 +1353,12 @@ ncore.cc##.banner
 ncore.cc###bf1445940949335 > div > div
 ncore.cc###main_tartalom > center:nth-of-type(1) > div
 ncore.cc###main_tartalom > center:nth-of-type(2) > div
+ncore.cc###details1 > .fobox_tartalom > .torrent_leiras:nth-of-type(14)
 ncore.cc###ape-container
 ncore.cc###main_tartalom a[href*="bekerdezo"]
 ncore.cc###bekerdezo-ad
 ncore.cc###hessteg
+ncore.cc##.hessteg-ad-block.news_block_right
 !
 !
 ||microbit.eu/banners/
