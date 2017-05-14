@@ -1060,4 +1060,7 @@ freewaresoftwarenews.blogspot.com##[id*="HTML"]
 freewaresoftwarenews.blogspot.com##[id="column-left-inner"]
 !
 gamepod.hu##.xabre-responsive-300px-60px
-
+!
+hungliaonline.com##script:contains(adblocker)
+hungliaonline.com##.tqWLsnEEqeEw-bg
+!
