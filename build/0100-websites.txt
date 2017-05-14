@@ -247,6 +247,8 @@ itcafe.hu##DIV[class*="_ad"]
 itcafe.hu##DIV[class*="menu_sp"]
 itcafe.hu##[class="adbox"]
 itcafe.hu##[class*="adw"]
+itcafe.hu###thanks > .nohead.hlist
+itcafe.hu##.partners
 !
 ||klubradio.hu/data/files/banner
 klubradio.hu##DIV[id*="banner"]
@@ -509,6 +511,9 @@ hazipatika.com##DIV[class="wrap"]
 ipon.hu##[id*="banner"]
 ipon.hu###leftPoszter-section
 ipon.hu###salePoszter
+||ipon.hu/poszter/322_ipon_laptop_220x250_300dpi.jpg$image
+||ipon.hu/poszter/267_ozone_promo_iponnak_201608_bannercopy.png$image
+||ipon.hu/temp/artorange-banner/artorange728-90.php
 ||icdn.hu/poszter/x405_am4728x90-q2-aorus.png.pagespeed.ic.RIuHhDf4oX.webp$image
 ||icdn.hu/poszter/x403_170306z270steamrefresh728x90-v2.png.pagespeed.ic.9yWHwp_iWn.webp$image
 !
@@ -534,6 +539,7 @@ sonline.hu##[id*="ctnet_ad_"]
 logout.hu##[class*="adbox"]
 logout.hu##[class*="xabre"]
 logout.hu##[style="width: 980px; height: 139px;"]
+logout.hu###thanks > .nohead.hlist
 logout.hu/design/sp/autoalkatreszek24_300x60.png
 !
 !
@@ -620,6 +626,11 @@ prohardver.hu##body > a[href="https://ipon.hu/search/shop/cherry"]
 prohardver.hu##body > a[href="http://www.bosch-career.hu/hu/hu/openday/openday_1.html"]
 prohardver.hu##.spleft
 prohardver.hu##.spright
+prohardver.hu##.cntatc.defcnt > p:nth-of-type(1)
+prohardver.hu###thanks > .nohead.hlist
+https://prohardver.hu/dl/cnt/2017-04/3688
+https://prohardver.hu/dl/cnt/2016-11/3547
+https://prohardver.hu/dl/cnt/2016-11/3542
 !
 prohardver.hu###center > .cntcol > .cikk.anyag > .cntatc.defcnt > div
 prohardver.hu###center > .cntcol > .hir.anyag > .cntnew.defcnt > div
@@ -684,6 +695,9 @@ mobilarena.hu##[style="width: 400px; height: 400px;"]
 mobilarena.hu##[class*="boxxabre"]
 mobilarena.hu##[class^="xabre"]
 mobilarena.hu##[id="bl_container"]
+mobilarena.hu###thanks > .nohead.hlist
+mobilarena.hu##.partners:nth-of-type(5)
+mobilarena.hu##.partners:nth-of-type(6)
 mobilarena.hu##.xabre-responsive-300px-60px
 mobilarena.hu##.xabre-responsive-300px-600px
 !
@@ -1059,6 +1073,8 @@ adozona.hu##[id="g0"]
 freewaresoftwarenews.blogspot.com##[id*="HTML"]
 freewaresoftwarenews.blogspot.com##[id="column-left-inner"]
 !
+gamepod.hu##.partners
+gamepod.hu###thanks > .nohead.hlist
 gamepod.hu##.xabre-responsive-300px-60px
 !
 hungliaonline.com##script:contains(adblocker)
