@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201704091156
+!Version: 201705140937
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -300,6 +300,8 @@ itcafe.hu##DIV[class*="_ad"]
 itcafe.hu##DIV[class*="menu_sp"]
 itcafe.hu##[class="adbox"]
 itcafe.hu##[class*="adw"]
+itcafe.hu###thanks > .nohead.hlist
+itcafe.hu##.partners
 !
 ||klubradio.hu/data/files/banner
 klubradio.hu##DIV[id*="banner"]
@@ -403,6 +405,7 @@ hwsw.hu##DIV[class="billboard"]
 hwsw.hu##DIV[class="cikkszovegakcio"]
 hwsw.hu##DIV[id*="hirdetes"]
 hwsw.hu##[class*="hirdetes"]
+hwsw.hu##div > a[href^="https://goo.gl/"]
 hwsw.hu/images/*_HWSW_*.*
 ||hwsw.hu/images*bg_*.*
 hwsw.hu/images/bg-*.*
@@ -538,10 +541,6 @@ nepszava.hu##[class*="adlabel"]
 novagyok.hu##[class*="banner"]
 novagyok.hu##[id*="banner"]
 !
-||stop.hu/images/banners/
-||stop.hu/data/public/banners/
-||stop.hu/adserver/click.php
-!
 anyuci.hu##[id*="banner"]
 anyuci.hu##[class*="banner"]
 !
@@ -563,6 +562,13 @@ hazipatika.com##DIV[class="wrap"]
 !
 ||ipon.hu/banner
 ipon.hu##[id*="banner"]
+ipon.hu###leftPoszter-section
+ipon.hu###salePoszter
+||ipon.hu/poszter/322_ipon_laptop_220x250_300dpi.jpg$image
+||ipon.hu/poszter/267_ozone_promo_iponnak_201608_bannercopy.png$image
+||ipon.hu/temp/artorange-banner/artorange728-90.php
+||icdn.hu/poszter/x405_am4728x90-q2-aorus.png.pagespeed.ic.RIuHhDf4oX.webp$image
+||icdn.hu/poszter/x403_170306z270steamrefresh728x90-v2.png.pagespeed.ic.9yWHwp_iWn.webp$image
 !
 tech.hu##[id*="banner"]
 tech.hu##[class*="banner"]
@@ -586,6 +592,7 @@ sonline.hu##[id*="ctnet_ad_"]
 logout.hu##[class*="adbox"]
 logout.hu##[class*="xabre"]
 logout.hu##[style="width: 980px; height: 139px;"]
+logout.hu###thanks > .nohead.hlist
 logout.hu/design/sp/autoalkatreszek24_300x60.png
 !
 !
@@ -668,6 +675,16 @@ noplaza.hu##[class*="banner"]
 ||prohardver.hu/design/*forum_*.*
 ||prohardver.hu/dl/cnt/*/*/background.jpg$image
 !
+prohardver.hu##body > a[href="https://ipon.hu/search/shop/cherry"]
+prohardver.hu##body > a[href="http://www.bosch-career.hu/hu/hu/openday/openday_1.html"]
+prohardver.hu##.spleft
+prohardver.hu##.spright
+prohardver.hu##.cntatc.defcnt > p:nth-of-type(1)
+prohardver.hu###thanks > .nohead.hlist
+https://prohardver.hu/dl/cnt/2017-04/3688
+https://prohardver.hu/dl/cnt/2016-11/3547
+https://prohardver.hu/dl/cnt/2016-11/3542
+!
 prohardver.hu###center > .cntcol > .cikk.anyag > .cntatc.defcnt > div
 prohardver.hu###center > .cntcol > .hir.anyag > .cntnew.defcnt > div
 prohardver.hu###center > .msgblk > .anyagok
@@ -680,7 +697,11 @@ prohardver.hu##[class*="boxxabre"]
 prohardver.hu##[class="adbox"]
 prohardver.hu##[class="xabrebox"]
 prohardver.hu##a[href*="gemius.pl"]
-
+prohardver.hu##.xabre-responsive-300px-60px
+prohardver.hu##.xabre-responsive-300px-600px
+prohardver.hu##.xabre-responsive-640px-360px
+prohardver.hu##.xabre-responsive-980px-139px
+prohardver.hu##.xabre-responsive-982px-90px
 !
 medizona.hu##[class*="banner"]
 medizona.hu##[class="adcloud"]
@@ -727,6 +748,11 @@ mobilarena.hu##[style="width: 400px; height: 400px;"]
 mobilarena.hu##[class*="boxxabre"]
 mobilarena.hu##[class^="xabre"]
 mobilarena.hu##[id="bl_container"]
+mobilarena.hu###thanks > .nohead.hlist
+mobilarena.hu##.partners:nth-of-type(5)
+mobilarena.hu##.partners:nth-of-type(6)
+mobilarena.hu##.xabre-responsive-300px-60px
+mobilarena.hu##.xabre-responsive-300px-600px
 !
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
@@ -861,12 +887,6 @@ infogyor.hu##[class*="banner"]
 !
 usernet.hu##[id="blanket"]
 usernet.hu##[id="popUpDiv"]
-!
-lifenetwork.hu##[id*="banner"]
-lifenetwork.hu##[class*="hirdetes"]
-lifenetwork.hu##[class*="banner"]
-lifenetwork.hu##[id="magnum"]
-lifenetwork.hu##[id="szoveges"]
 !
 hajdupress.hu##[class*="hirdetes"]
 hajdupress.hu##[id*="banner"]
@@ -1102,7 +1122,17 @@ adozona.hu##[id="g0"]
 ||kosarsport.hu/popup.html^$popup
 ||kosarsport.hu/##body>a:first-child
 !
-
+||freewaresoftwarenews.blogspot.$first-party,inline-script
+freewaresoftwarenews.blogspot.com##[id*="HTML"]
+freewaresoftwarenews.blogspot.com##[id="column-left-inner"]
+!
+gamepod.hu##.partners
+gamepod.hu###thanks > .nohead.hlist
+gamepod.hu##.xabre-responsive-300px-60px
+!
+hungliaonline.com##script:contains(adblocker)
+hungliaonline.com##.tqWLsnEEqeEw-bg
+!
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
 
@@ -1141,7 +1171,6 @@ eoldal.hu/*eoldal_banner*
 epresso.hu##[class*="banner"]
 eron.hu##[id*="banner"]
 eropolis.hu##[class*="banner"]
-estihirlap.hu##[class*="banner"]
 f1vilag.hu##[class*="adzone"]
 feliratok.info##DIV#advert
 figyelo.hu##[class*="adbox"]
@@ -1153,7 +1182,6 @@ galamus.hu##[class*="banner"]
 gamepod.hu###right > .xabrew300.box
 gigasex.hu/bannerek/
 gloria.tv##[id*="advert"]
-gondolnad.info###aff
 gphirek.hu##DIV.ad
 gportal.hu##[class*="banner"]
 gumiszoba.com##[class="wpcnt"]
@@ -1207,7 +1235,6 @@ menshealth.hu##[id="fbpopup"]
 metazin.hu##DIV[class*="etarget"]
 metropol.hu/*/images/sponsor_*.*
 miabonyunk.hu/hirdetesek/
-millamedia.hu##[id*="banner"]
 mindenkilapja.hu##[class*="advert"]
 mitortent.hu##[class^="adv"]
 mixonline.hu##[class*="banner"]
@@ -1222,9 +1249,7 @@ napi.hu##[id*="billboard"]
 napiszar.hu##[class*="banner"]
 napiuzlet.com##[class*="advertisement"]
 napocska.hu/images/*_advert*.*
-negyed.hu##[id="magnum"]
 nemzetisport.hu##[id^="ad_"]
-neon.hu##[class*="banner"]
 netbulvar.eu##[id*="advertisment"]
 netfirms.com##A[href*="=banner"]
 netii.net##[id*="facebox"]
@@ -1267,7 +1292,6 @@ tlap.hu##[id*="_bnr"]
 torte-net.hu##DIV[id="hirdetes"]
 trademagazin.hu##[id*="banner"]
 travelo.hu##[class*="hirdetes"]
-troller.hu##[id="slider"]
 turizmusonline.hu##[class*="Banner"]
 turmixvilag.hu##DIV[class="adsense"]
 tutitippek.hu##[class*="adsense"]
@@ -1352,6 +1376,7 @@ ncore.cc###ape-container
 ncore.cc###main_tartalom a[href*="bekerdezo"]
 ncore.cc###bekerdezo-ad
 ncore.cc###hessteg
+ncore.cc##.hessteg-ad-block.news_block_right
 !
 !
 ||microbit.eu/banners/
@@ -1393,7 +1418,6 @@ estone.cc###kozep_hatter:nth-of-type(12)
 ##[class*="GoogleAds"]
 ##[class*="overlayBg"]
 ##[class="google_ad"]
-! tul altalanos szabaly: ##[class*="hirdetes"]
 ##[href*="addtoany.com"]
 ##[href*="kuponmania.hu"]
 ##[id*="GoogleAds"]
@@ -1426,7 +1450,6 @@ openspeedtest.com##script:contains(testadblock)
 ||ad.hirekmedia.hu^
 ||ad.hu/g3t.js
 ||ad.hu^$third-party
-||ad.ingatlan.net^
 ||ad.netmedia.hu^
 ||ad.onadozo.hu^
 ||ad.parom.hu^
@@ -1439,7 +1462,6 @@ openspeedtest.com##script:contains(testadblock)
 ||adk2x.com^
 ||adocean.pl^
 ||ads.geeks.hu^
-||ads.kepfeltoltes.hu^
 ||ads.linkedin.com^$third-party
 ||ads.sg.hu^$third-party
 ||ads.ventivmedia.com^$third-party
@@ -1491,15 +1513,13 @@ openspeedtest.com##script:contains(testadblock)
 ||doubleclick.net^
 ||et.twyn.com^
 ||etargetnet.*
-||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|tenyek-online.com|napi-hirek.net|hiroldal.com|hvq-online.com,popup
+||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 ||fastclick.net^
 ||feeds.videosz.com^$third-party
 ||flashkit.com/RealMedia/ads/
 ||fourtwentytradingcompany.net^
-||freewaresoftwarenews.blogspot.$first-party,inline-script
 ||fruitflan.com
 ||fwmrm.net^
-||ggo.directrev.com^
 ||google-analytics.com^$third-party
 ||gravity.com^$third-party
 ||gstatic.com/ads/
@@ -1507,12 +1527,10 @@ openspeedtest.com##script:contains(testadblock)
 ||hungariantop1000.com/cgi-bin/counter.cgi*
 ||iforex.com^$third-party
 ||iitech.dk^$third-party
-||imprsngl.info^
 ||ingatlannet.hu^$third-party
 ||insticator.com^$third-party
 ||iofferphoto.com^
 ||js.leadin.com^$third-party
-||kepfeltoltes.hu^*/pixel.gif
 ||klix.hu^$third-party
 ||lo.v.liveperson.net^$third-party
 ||loading-delivery2.com^
@@ -1557,7 +1575,6 @@ openspeedtest.com##script:contains(testadblock)
 ||targetix.net^$third-party
 ||track.calithornia.com^
 ||track.rtb-media.me^
-||track.superbro.com^
 ||track.trackbyme.info^
 ||track306.info^$third-party
 ||tracker.azet.sk^

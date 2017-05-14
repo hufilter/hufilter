@@ -17,6 +17,7 @@ ncore.cc###ape-container
 ncore.cc###main_tartalom a[href*="bekerdezo"]
 ncore.cc###bekerdezo-ad
 ncore.cc###hessteg
+ncore.cc##.hessteg-ad-block.news_block_right
 !
 !
 ||microbit.eu/banners/

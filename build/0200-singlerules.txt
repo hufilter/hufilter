@@ -34,7 +34,6 @@ eoldal.hu/*eoldal_banner*
 epresso.hu##[class*="banner"]
 eron.hu##[id*="banner"]
 eropolis.hu##[class*="banner"]
-estihirlap.hu##[class*="banner"]
 f1vilag.hu##[class*="adzone"]
 feliratok.info##DIV#advert
 figyelo.hu##[class*="adbox"]
@@ -46,7 +45,6 @@ galamus.hu##[class*="banner"]
 gamepod.hu###right > .xabrew300.box
 gigasex.hu/bannerek/
 gloria.tv##[id*="advert"]
-gondolnad.info###aff
 gphirek.hu##DIV.ad
 gportal.hu##[class*="banner"]
 gumiszoba.com##[class="wpcnt"]
@@ -100,7 +98,6 @@ menshealth.hu##[id="fbpopup"]
 metazin.hu##DIV[class*="etarget"]
 metropol.hu/*/images/sponsor_*.*
 miabonyunk.hu/hirdetesek/
-millamedia.hu##[id*="banner"]
 mindenkilapja.hu##[class*="advert"]
 mitortent.hu##[class^="adv"]
 mixonline.hu##[class*="banner"]
@@ -115,9 +112,7 @@ napi.hu##[id*="billboard"]
 napiszar.hu##[class*="banner"]
 napiuzlet.com##[class*="advertisement"]
 napocska.hu/images/*_advert*.*
-negyed.hu##[id="magnum"]
 nemzetisport.hu##[id^="ad_"]
-neon.hu##[class*="banner"]
 netbulvar.eu##[id*="advertisment"]
 netfirms.com##A[href*="=banner"]
 netii.net##[id*="facebox"]
@@ -160,7 +155,6 @@ tlap.hu##[id*="_bnr"]
 torte-net.hu##DIV[id="hirdetes"]
 trademagazin.hu##[id*="banner"]
 travelo.hu##[class*="hirdetes"]
-troller.hu##[id="slider"]
 turizmusonline.hu##[class*="Banner"]
 turmixvilag.hu##DIV[class="adsense"]
 tutitippek.hu##[class*="adsense"]
