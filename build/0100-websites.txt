@@ -1080,3 +1080,8 @@ gamepod.hu##.xabre-responsive-300px-60px
 hungliaonline.com##script:contains(adblocker)
 hungliaonline.com##.tqWLsnEEqeEw-bg
 !
+1helyen.eu###tpost>div:nth-child(2)
+1helyen.eu###tpost>div:nth-child(3)
+1helyen.eu###now_jobb
+1helyen.eu###jobb_side_friss
+

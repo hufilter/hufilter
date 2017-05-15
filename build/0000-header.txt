@@ -8,21 +8,10 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
-! Eszreveteleket az Adblock Plus beepitett bejelentojevel lehet jelezni.
+! Eszreveteleket az Adblock Plus beepitett bejelentojevel lehet jelezni, vagy a Github-on.
 ! Karbantarto: Szabo Peter ( hufilter.adblock!gmail.com )
 !
-! szabaly optimalizalas / rule optimization
-! 
-! -   RTFM - http://adblockplus.org/en/filters
-! -   site.hu##TYPE[src*="something"]  ==> ||site.hu/something
-! -   ##IFRAME[src*="site.hu"] ==> ||site.hu^$third-party
-! -   killing slow rules by fast-matching => all blocking rules must have 
-!     1 word of min 3 chars surrounded by separators, no regex. Eg:
-!     "/testad" bad, "/testad." good;   "example.com" bad, 
-!     "||example.com^" good
-! -   || and element hiding (##) does not mix at all
-! -   || best to closed by ^ if whole domain is blocked, w/o url part
-! -   Redundancy checker: https://arestwo.org/famlam/redundantRuleChecker.html
+! Honlap: https://github.com/szpeter80/hufilter/wiki
 !
 ! A szuresi iranyelvek, felhasznalasi feltetelek a fenti honlapon /
 ! About filter policy and usage terms please see the homepage above
@@ -30,10 +19,21 @@
 ! A szuro hasznalata a feltetelek automatikus elfogadasat jelenti.
 ! By using the filter you automatically accept the terms of use.
 !
-! Koszonet a kozremukodoknek / thanks for the contributors
+!
+! szabaly optimalizalas / rule optimization
+!
+! -   RTFM - http://adblockplus.org/en/filters
+! -   Redundancy checker: https://arestwo.org/famlam/redundantRuleChecker.html
+!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+!          Koszonet a kozremukodoknek / thanks for the contributors
+!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
 !
 ! Erdos Arpad 
-! hdc 
+! hdc
 ! Keresztfalvi Bela 
 ! S. L.
 ! Kovi
@@ -42,8 +42,10 @@
 ! Famlam
 ! Ares2
 ! Kovacs Attila
-! 
+!
+! +A Github-on a commit log-ban szereplok
+!
 ! ... es nevtelenseget kero kozremukodok  /
-! ... and contributrors who wish to remain unnamed 
+! ... and contributrors who wish to remain unnamed
 !
 
