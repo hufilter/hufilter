@@ -624,13 +624,15 @@ noplaza.hu##[class*="banner"]
 !
 prohardver.hu##body > a[href="https://ipon.hu/search/shop/cherry"]
 prohardver.hu##body > a[href="http://www.bosch-career.hu/hu/hu/openday/openday_1.html"]
+prohardver.hu##body > a[href="http://itshinspirationboard.com/"]
 prohardver.hu##.spleft
 prohardver.hu##.spright
 prohardver.hu##.cntatc.defcnt > p:nth-of-type(1)
 prohardver.hu###thanks > .nohead.hlist
-https://prohardver.hu/dl/cnt/2017-04/3688
-https://prohardver.hu/dl/cnt/2016-11/3547
 https://prohardver.hu/dl/cnt/2016-11/3542
+https://prohardver.hu/dl/cnt/2016-11/3547
+https://prohardver.hu/dl/cnt/2017-04/3688
+https://prohardver.hu/dl/cnt/2017-05/3703
 !
 prohardver.hu###center > .cntcol > .cikk.anyag > .cntatc.defcnt > div
 prohardver.hu###center > .cntcol > .hir.anyag > .cntnew.defcnt > div
@@ -1076,6 +1078,7 @@ freewaresoftwarenews.blogspot.com##[id="column-left-inner"]
 gamepod.hu##.partners
 gamepod.hu###thanks > .nohead.hlist
 gamepod.hu##.xabre-responsive-300px-60px
+gamepod.hu##.xabre-responsive-640px-360px
 !
 hungliaonline.com##script:contains(adblocker)
 hungliaonline.com##.tqWLsnEEqeEw-bg
