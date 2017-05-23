@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201705151340
+!Version: 201705231129
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -295,9 +295,15 @@ gyakorikerdesek.hu##OBJECT[id="adryf"]
 gyakorikerdesek.hu##[id*="aswift"]
 gyakorikerdesek.hu/reklam/
 gyakorikerdesek.hu/pic/bannerek/
-
 !
-itcafe.hu##DIV[class*="xabre"]
+itcafe.hu##body > a[href="http://itshinspirationboard.com/"]
+itcafe.hu##a[href^="https://track.adform.net/C/"]
+https://itcafe.hu/dl/cnt/2017-05/3701
+https://itcafe.hu/dl/cnt/2017-05/3703
+!
+itcafe.hu##[class*="box ad"]
+itcafe.hu##[class*="boxad"]
+itcafe.hu##[class*="xabre"]
 itcafe.hu##DIV[class*="_ad"]
 itcafe.hu##DIV[class*="menu_sp"]
 itcafe.hu##[class="adbox"]
@@ -590,17 +596,17 @@ sonline.hu##DIV[class*="ad "]
 sonline.hu##[class*="hirdetes"]
 sonline.hu##[id*="ctnet_ad_"]
 !
+logout.hu##body > a[href="http://itshinspirationboard.com/"]
+logout.hu##a[href^="https://track.adform.net/C/"]
+https://logout.hu/dl/cnt/2017-05/3701
+https://logout.hu/dl/cnt/2017-05/3703/
 !
 logout.hu##[class*="adbox"]
 logout.hu##[class*="xabre"]
-logout.hu##[style="width: 980px; height: 139px;"]
 logout.hu###thanks > .nohead.hlist
-logout.hu/design/sp/autoalkatreszek24_300x60.png
-!
 !
 ||medicalonline.hu/*hirdetes
 medicalonline.hu##[class*="tBanner"]
-!
 !
 komment.hu##[class*="banner"]
 komment.hu##[id*="banner"]
@@ -679,6 +685,8 @@ noplaza.hu##[class*="banner"]
 !
 prohardver.hu##body > a[href="https://ipon.hu/search/shop/cherry"]
 prohardver.hu##body > a[href="http://www.bosch-career.hu/hu/hu/openday/openday_1.html"]
+prohardver.hu##body > a[href="http://itshinspirationboard.com/"]
+prohardver.hu##a[href^="https://track.adform.net/C/"]
 prohardver.hu##.spleft
 prohardver.hu##.spright
 prohardver.hu##.cntatc.defcnt > p:nth-of-type(1)
@@ -686,6 +694,8 @@ prohardver.hu###thanks > .nohead.hlist
 https://prohardver.hu/dl/cnt/2017-04/3688
 https://prohardver.hu/dl/cnt/2016-11/3547
 https://prohardver.hu/dl/cnt/2016-11/3542
+https://prohardver.hu/dl/cnt/2017-05/3701
+https://prohardver.hu/dl/cnt/2017-05/3703
 !
 prohardver.hu###center > .cntcol > .cikk.anyag > .cntatc.defcnt > div
 prohardver.hu###center > .cntcol > .hir.anyag > .cntnew.defcnt > div
@@ -695,15 +705,9 @@ prohardver.hu###right>.xabrew300.box
 prohardver.hu###tabscnts1 > .tabs > .anyagok > .flc > div
 prohardver.hu##DIV[class="partners"]
 prohardver.hu##[class*="adw"]
-prohardver.hu##[class*="boxxabre"]
 prohardver.hu##[class="adbox"]
-prohardver.hu##[class="xabrebox"]
+prohardver.hu##[class*="xabre"]
 prohardver.hu##a[href*="gemius.pl"]
-prohardver.hu##.xabre-responsive-300px-60px
-prohardver.hu##.xabre-responsive-300px-600px
-prohardver.hu##.xabre-responsive-640px-360px
-prohardver.hu##.xabre-responsive-980px-139px
-prohardver.hu##.xabre-responsive-982px-90px
 !
 medizona.hu##[class*="banner"]
 medizona.hu##[class="adcloud"]
@@ -738,23 +742,18 @@ automenedzser.hu##[id*="Advert"]
 automenedzser.hu##[class*=" ads"]
 automenedzser.hu##[class*="ad_"]
 !
+mobilarena.hu##a[href^="http://www.gearbest.com/m-promotion-active-317.html"]
+!
 ||mobilarena.hu/design/*szponzor*.*
 !||mobilarena.hu/design/sp/forum-*.*
 ||mobilarena.hu/design/sp/*
 mobilarena.hu##[class*="adw"]
-mobilarena.hu###page>.nohead.xabre728>.xabrebox
 mobilarena.hu##[class*="boxad "]
-mobilarena.hu##[class="box xabrew300"]
-mobilarena.hu##[style="width: 970px; height: 250px;"]
-mobilarena.hu##[style="width: 400px; height: 400px;"]
-mobilarena.hu##[class*="boxxabre"]
-mobilarena.hu##[class^="xabre"]
+mobilarena.hu##[class*="xabre"]
 mobilarena.hu##[id="bl_container"]
 mobilarena.hu###thanks > .nohead.hlist
 mobilarena.hu##.partners:nth-of-type(5)
 mobilarena.hu##.partners:nth-of-type(6)
-mobilarena.hu##.xabre-responsive-300px-60px
-mobilarena.hu##.xabre-responsive-300px-600px
 !
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
@@ -1057,9 +1056,6 @@ kamaszpanasz.hu##DIV[id="header"]
 kamaszpanasz.hu##[class*="banner"]
 kamaszpanasz.hu##[data*="banner"]
 !
-itcafe.hu##[class*="box ad"]
-itcafe.hu##[class*="boxad"]
-!
 indavideo.hu##DIV[class="topAdv"]
 indavideo.hu##[class*="billboard"]
 !
@@ -1128,9 +1124,9 @@ adozona.hu##[id="g0"]
 freewaresoftwarenews.blogspot.com##[id*="HTML"]
 freewaresoftwarenews.blogspot.com##[id="column-left-inner"]
 !
+gamepod.hu##[class*="xabre"]
 gamepod.hu##.partners
 gamepod.hu###thanks > .nohead.hlist
-gamepod.hu##.xabre-responsive-300px-60px
 !
 hungliaonline.com##script:contains(adblocker)
 hungliaonline.com##.tqWLsnEEqeEw-bg
