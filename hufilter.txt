@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201705231129
+!Version: 201705252217
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -414,9 +414,11 @@ hwsw.hu##DIV[class="cikkszovegakcio"]
 hwsw.hu##DIV[id*="hirdetes"]
 hwsw.hu##[class*="hirdetes"]
 hwsw.hu##div > a[href^="https://goo.gl/"]
+hwsw.hu##div > a[href^="http://tinyurl.hu/"]
 hwsw.hu/images/*_HWSW_*.*
 ||hwsw.hu/images*bg_*.*
 hwsw.hu/images/bg-*.*
+hwsw.hu/images/nops/*
 hwsw.hu/images/*-prodterv.*
 hwsw.hu/*_skin*hwsw.*
 hwsw.hu/images/*-*tab.*
