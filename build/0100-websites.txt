@@ -353,7 +353,6 @@ femcafe.hu##[id*="_ad-"]
 femcafe.hu/spike-ad/
 femcafe.hu##[id="darklayer"]
 !
-
 hwsw.hu##DIV[class="billboard"]
 hwsw.hu##DIV[class="cikkszovegakcio"]
 hwsw.hu##DIV[id*="hirdetes"]
@@ -368,7 +367,7 @@ hwsw.hu/images/*-prodterv.*
 hwsw.hu/*_skin*hwsw.*
 hwsw.hu/images/*-*tab.*
 hwsw.hu/images/*_hatter_*.*
-
+hwsw.hu###cookiealert
 !
 ||harmonet.hu/*hirdetes
 harmonet.hu##DIV[id*="banner"]
