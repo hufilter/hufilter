@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201705280832
+!Version: 201705281137
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -408,7 +408,6 @@ femcafe.hu##[id*="_ad-"]
 femcafe.hu/spike-ad/
 femcafe.hu##[id="darklayer"]
 !
-
 hwsw.hu##DIV[class="billboard"]
 hwsw.hu##DIV[class="cikkszovegakcio"]
 hwsw.hu##DIV[id*="hirdetes"]
@@ -423,7 +422,7 @@ hwsw.hu/images/*-prodterv.*
 hwsw.hu/*_skin*hwsw.*
 hwsw.hu/images/*-*tab.*
 hwsw.hu/images/*_hatter_*.*
-
+hwsw.hu###cookiealert
 !
 ||harmonet.hu/*hirdetes
 harmonet.hu##DIV[id*="banner"]
@@ -1312,6 +1311,7 @@ videoklinika.hu##DIV[id*="Banner"]
 vidget.hu##[class*="banner"]
 vilaglato.info##.state-fb-pop-up
 vs.hu##[class="no_banner"]
+wasabi.hu##.footprint_cookie
 webforditas.hu##[id*="AdFrame"]
 yayo.hu/static/banner/
 zene.hu##DIV[class="etarget"]
