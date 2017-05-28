@@ -683,6 +683,7 @@ noplaza.hu##[class*="banner"]
 ||prohardver.hu/design/sp/index_*.*
 ||prohardver.hu/design/*forum_*.*
 ||prohardver.hu/dl/cnt/*/*/background.jpg$image
+||prohardver.hu/dl/cnt/*/*/D167D42E6C45562ACDA8B7DD3CDAA4FE.jpg$image
 !
 prohardver.hu##body > a[href="https://ipon.hu/search/shop/cherry"]
 prohardver.hu##body > a[href="http://www.bosch-career.hu/hu/hu/openday/openday_1.html"]
