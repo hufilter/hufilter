@@ -243,8 +243,19 @@ gyakorikerdesek.hu/pic/bannerek/
 !
 itcafe.hu##body > a[href="http://itshinspirationboard.com/"]
 itcafe.hu##a[href^="https://track.adform.net/C/"]
-https://itcafe.hu/dl/cnt/2017-05/3701
-https://itcafe.hu/dl/cnt/2017-05/3703
+https://itcafe.hu/dl/cnt/2016-11/*/
+https://itcafe.hu/dl/cnt/2017-01/*/
+https://itcafe.hu/dl/cnt/2017-02/*/
+https://itcafe.hu/dl/cnt/2017-03/*/
+https://itcafe.hu/dl/cnt/2017-04/*/
+https://itcafe.hu/dl/cnt/2017-05/*/
+https://itcafe.hu/dl/cnt/2017-06/*/
+https://itcafe.hu/dl/cnt/2017-07/*/
+https://itcafe.hu/dl/cnt/2017-08/*/
+https://itcafe.hu/dl/cnt/2017-09/*/
+https://itcafe.hu/dl/cnt/2017-10/*/
+https://itcafe.hu/dl/cnt/2017-11/*/
+https://itcafe.hu/dl/cnt/2017-12/*/
 !
 itcafe.hu##[class*="box ad"]
 itcafe.hu##[class*="boxad"]
@@ -544,8 +555,18 @@ sonline.hu##[id*="ctnet_ad_"]
 !
 logout.hu##body > a[href="http://itshinspirationboard.com/"]
 logout.hu##a[href^="https://track.adform.net/C/"]
-https://logout.hu/dl/cnt/2017-05/3701
-https://logout.hu/dl/cnt/2017-05/3703/
+https://logout.hu/dl/cnt/2017-01/*/
+https://logout.hu/dl/cnt/2017-02/*/
+https://logout.hu/dl/cnt/2017-03/*/
+https://logout.hu/dl/cnt/2017-04/*/
+https://logout.hu/dl/cnt/2017-05/*/
+https://logout.hu/dl/cnt/2017-06/*/
+https://logout.hu/dl/cnt/2017-07/*/
+https://logout.hu/dl/cnt/2017-08/*/
+https://logout.hu/dl/cnt/2017-09/*/
+https://logout.hu/dl/cnt/2017-10/*/
+https://logout.hu/dl/cnt/2017-11/*/
+https://logout.hu/dl/cnt/2017-12/*/
 !
 logout.hu##[class*="adbox"]
 logout.hu##[class*="xabre"]
@@ -640,14 +661,19 @@ prohardver.hu##.spleft
 prohardver.hu##.spright
 prohardver.hu##.cntatc.defcnt > p:nth-of-type(1)
 prohardver.hu###thanks > .nohead.hlist
-https://prohardver.hu/dl/cnt/2017-04/3688
-https://prohardver.hu/dl/cnt/2016-11/3547
-https://prohardver.hu/dl/cnt/2016-11/3542
-https://prohardver.hu/dl/cnt/2017-05/3696
-https://prohardver.hu/dl/cnt/2017-05/3701
-https://prohardver.hu/dl/cnt/2017-05/3703
-https://prohardver.hu/dl/cnt/2017-05/3709
-https://prohardver.hu/dl/cnt/2017-06/3711
+https://prohardver.hu/dl/cnt/2016-11/*/
+https://prohardver.hu/dl/cnt/2017-01/*/
+https://prohardver.hu/dl/cnt/2017-02/*/
+https://prohardver.hu/dl/cnt/2017-03/*/
+https://prohardver.hu/dl/cnt/2017-04/*/
+https://prohardver.hu/dl/cnt/2017-05/*/
+https://prohardver.hu/dl/cnt/2017-06/*/
+https://prohardver.hu/dl/cnt/2017-07/*/
+https://prohardver.hu/dl/cnt/2017-08/*/
+https://prohardver.hu/dl/cnt/2017-09/*/
+https://prohardver.hu/dl/cnt/2017-10/*/
+https://prohardver.hu/dl/cnt/2017-11/*/
+https://prohardver.hu/dl/cnt/2017-12/*/
 !
 prohardver.hu###center > .cntcol > .cikk.anyag > .cntatc.defcnt > div
 prohardver.hu###center > .cntcol > .hir.anyag > .cntnew.defcnt > div
@@ -697,8 +723,19 @@ automenedzser.hu##[class*="ad_"]
 mobilarena.hu##body > a[href^="http://www.newteq.eu/kereses-eredmenye/search"]
 mobilarena.hu##body > a[href^="http://www.xiaomi.hu/"]
 mobilarena.hu##a[href^="http://www.gearbest.com/m-promotion-active-317.html"]
-https://mobilarena.hu/dl/cnt/2016-06/2251
-https://mobilarena.hu/dl/cnt/2016-06/2252
+https://mobilarena.hu/dl/cnt/2016-06/*/
+https://mobilarena.hu/dl/cnt/2017-01/*/
+https://mobilarena.hu/dl/cnt/2017-02/*/
+https://mobilarena.hu/dl/cnt/2017-03/*/
+https://mobilarena.hu/dl/cnt/2017-04/*/
+https://mobilarena.hu/dl/cnt/2017-05/*/
+https://mobilarena.hu/dl/cnt/2017-06/*/
+https://mobilarena.hu/dl/cnt/2017-07/*/
+https://mobilarena.hu/dl/cnt/2017-08/*/
+https://mobilarena.hu/dl/cnt/2017-09/*/
+https://mobilarena.hu/dl/cnt/2017-10/*/
+https://mobilarena.hu/dl/cnt/2017-11/*/
+https://mobilarena.hu/dl/cnt/2017-12/*/
 !
 ||mobilarena.hu/design/*szponzor*.*
 !||mobilarena.hu/design/sp/forum-*.*
