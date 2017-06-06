@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201705311624
+!Version: 201706060855
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -689,6 +689,7 @@ prohardver.hu##body > a[href="http://www.bosch-career.hu/hu/hu/openday/openday_1
 prohardver.hu##body > a[href="http://itshinspirationboard.com/"]
 prohardver.hu##body > a[href="http://www.lg.com/hu/projektorok"]
 prohardver.hu##body > a[href="http://www.digiprime.hu/laptop/asus-laptop/asus-transformer-3-pro"]
+prohardver.hu##body > a[href="http://radium.hu/acer-aspire-vx5.html"]
 prohardver.hu##a[href^="https://track.adform.net/C/"]
 prohardver.hu##.spleft
 prohardver.hu##.spright
@@ -701,6 +702,7 @@ https://prohardver.hu/dl/cnt/2017-05/3696
 https://prohardver.hu/dl/cnt/2017-05/3701
 https://prohardver.hu/dl/cnt/2017-05/3703
 https://prohardver.hu/dl/cnt/2017-05/3709
+https://prohardver.hu/dl/cnt/2017-06/3711
 !
 prohardver.hu###center > .cntcol > .cikk.anyag > .cntatc.defcnt > div
 prohardver.hu###center > .cntcol > .hir.anyag > .cntnew.defcnt > div
@@ -748,7 +750,9 @@ automenedzser.hu##[class*=" ads"]
 automenedzser.hu##[class*="ad_"]
 !
 mobilarena.hu##body > a[href^="http://www.newteq.eu/kereses-eredmenye/search"]
+mobilarena.hu##body > a[href^="http://www.xiaomi.hu/"]
 mobilarena.hu##a[href^="http://www.gearbest.com/m-promotion-active-317.html"]
+https://mobilarena.hu/dl/cnt/2016-06/2251
 https://mobilarena.hu/dl/cnt/2016-06/2252
 !
 ||mobilarena.hu/design/*szponzor*.*
