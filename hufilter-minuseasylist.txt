@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201706060855
+!Version: 201706090043
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -690,14 +690,16 @@ prohardver.hu##body > a[href="http://itshinspirationboard.com/"]
 prohardver.hu##body > a[href="http://www.lg.com/hu/projektorok"]
 prohardver.hu##body > a[href="http://www.digiprime.hu/laptop/asus-laptop/asus-transformer-3-pro"]
 prohardver.hu##body > a[href="http://radium.hu/acer-aspire-vx5.html"]
+prohardver.hu##body > a[href="http://oaziscomputer.hu/termekek/wacom/intuos-pro"]
 prohardver.hu##a[href^="https://track.adform.net/C/"]
 prohardver.hu##.spleft
 prohardver.hu##.spright
 prohardver.hu##.cntatc.defcnt > p:nth-of-type(1)
 prohardver.hu###thanks > .nohead.hlist
-https://prohardver.hu/dl/cnt/2017-04/3688
 https://prohardver.hu/dl/cnt/2016-11/3547
 https://prohardver.hu/dl/cnt/2016-11/3542
+https://prohardver.hu/dl/cnt/2017-04/3644
+https://prohardver.hu/dl/cnt/2017-04/3688
 https://prohardver.hu/dl/cnt/2017-05/3696
 https://prohardver.hu/dl/cnt/2017-05/3701
 https://prohardver.hu/dl/cnt/2017-05/3703
