@@ -30,6 +30,7 @@ csongradihirek.hu##[class*="banner"]
 dehir.hu##[class*="advert"]
 deres.tv##[class*="banner"]
 dimo.hu##[class*="banner"]
+edubase.hu##.cc-bottom.cc-theme-edgeless.cc-type-info.cc-banner.cc-window
 eoldal.hu/*eoldal_banner*
 epresso.hu##[class*="banner"]
 eron.hu##[id*="banner"]
@@ -137,6 +138,7 @@ randihely.hu/adnews/
 retikul.hu##[class*="banner"]
 ricsajok.hu##[class*="banner"]
 samsungsport.hu##[class*="banner"]
+simple.hu###enableCookieDiv
 site88.net##DIV[class="popup"]
 sportoldal.ro##[class*="banner"]
 sportorvos.hu##[class*="ad_"]

@@ -1093,4 +1093,8 @@ hungliaonline.com##.tqWLsnEEqeEw-bg
 1helyen.eu###tpost>div:nth-child(3)
 1helyen.eu###now_jobb
 1helyen.eu###jobb_side_friss
+!
+budapestpark.hu###cooker_container
+budapestpark.hu##.banner_main_page_wrapper
+!
 
