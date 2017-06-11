@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201706090043
+!Version: 201706110857
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1148,6 +1148,10 @@ hungliaonline.com##.tqWLsnEEqeEw-bg
 1helyen.eu###tpost>div:nth-child(3)
 1helyen.eu###now_jobb
 1helyen.eu###jobb_side_friss
+!
+budapestpark.hu###cooker_container
+budapestpark.hu##.banner_main_page_wrapper
+!
 
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
@@ -1183,6 +1187,7 @@ csongradihirek.hu##[class*="banner"]
 dehir.hu##[class*="advert"]
 deres.tv##[class*="banner"]
 dimo.hu##[class*="banner"]
+edubase.hu##.cc-bottom.cc-theme-edgeless.cc-type-info.cc-banner.cc-window
 eoldal.hu/*eoldal_banner*
 epresso.hu##[class*="banner"]
 eron.hu##[id*="banner"]
@@ -1290,6 +1295,7 @@ randihely.hu/adnews/
 retikul.hu##[class*="banner"]
 ricsajok.hu##[class*="banner"]
 samsungsport.hu##[class*="banner"]
+simple.hu###enableCookieDiv
 site88.net##DIV[class="popup"]
 sportoldal.ro##[class*="banner"]
 sportorvos.hu##[class*="ad_"]
