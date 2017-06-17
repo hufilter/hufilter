@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201706110857
+!Version: 201706171211
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -58,6 +58,10 @@
 !                       Weboldalak                                       ! 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+!
+24.hu##[class*="banner-"]
+24.hu##.cc_container--open.cc_container.cc_gccp
+!
 ||sher.*.hu^
 ||rehs.*.hu^
 index.hu##[class*="adblokk"]
@@ -1160,7 +1164,6 @@ budapestpark.hu##.banner_main_page_wrapper
 !!!!    Egyszabalyos oldalak          !!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-24.hu##[class*="banner-"]
 5mp.eu##DIV[id="alsobox"]
 5perc.es##[class*="banner"]
 CegMarketing.hu/banner*
