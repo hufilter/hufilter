@@ -3,7 +3,6 @@
 !!!!    Egyszabalyos oldalak          !!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-24.hu##[class*="banner-"]
 5mp.eu##DIV[id="alsobox"]
 5perc.es##[class*="banner"]
 CegMarketing.hu/banner*

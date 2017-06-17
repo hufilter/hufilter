@@ -3,6 +3,10 @@
 !                       Weboldalak                                       ! 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+!
+24.hu##[class*="banner-"]
+24.hu##.cc_container--open.cc_container.cc_gccp
+!
 ||sher.*.hu^
 ||rehs.*.hu^
 index.hu##[class*="adblokk"]
