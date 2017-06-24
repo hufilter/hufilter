@@ -1083,7 +1083,8 @@ adozona.hu##[id="g0"]
 !
 ||img.hunbasket.webpont.com/kosarsport/art/2017/*hirdetes*
 ||kosarsport.hu/popup.html^$popup
-||kosarsport.hu/##body>a:first-child
+kosarsport.hu##body>a:first-child
+||img.hunbasket.webpont.com/kosarsport/art/*banner*$image
 !
 ||freewaresoftwarenews.blogspot.$first-party,inline-script
 freewaresoftwarenews.blogspot.com##[id*="HTML"]
