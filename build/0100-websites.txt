@@ -363,8 +363,10 @@ hwsw.hu##DIV[id*="hirdetes"]
 hwsw.hu##[class*="hirdetes"]
 hwsw.hu##div > a[href^="https://goo.gl/"]
 hwsw.hu##div > a[href^="http://tinyurl.hu/"]
+hwsw.hu##div > a[href^="http://bit.ly/"]
 hwsw.hu/images/*_HWSW_*.*
 ||hwsw.hu/images*bg_*.*
+||hwsw.hu/images/bodybgs/*$image
 hwsw.hu/images/bg-*.*
 hwsw.hu/images/nops/*
 hwsw.hu/images/*-prodterv.*
@@ -372,6 +374,7 @@ hwsw.hu/*_skin*hwsw.*
 hwsw.hu/images/*-*tab.*
 hwsw.hu/images/*_hatter_*.*
 hwsw.hu###cookiealert
+hwsw.hu##body:style(padding-top: 0px !important;background-color: #777777 !important;)
 !
 ||harmonet.hu/*hirdetes
 harmonet.hu##DIV[id*="banner"]
@@ -1080,7 +1083,8 @@ adozona.hu##[id="g0"]
 !
 ||img.hunbasket.webpont.com/kosarsport/art/2017/*hirdetes*
 ||kosarsport.hu/popup.html^$popup
-||kosarsport.hu/##body>a:first-child
+kosarsport.hu##body>a:first-child
+||img.hunbasket.webpont.com/kosarsport/art/*banner*$image
 !
 ||freewaresoftwarenews.blogspot.$first-party,inline-script
 freewaresoftwarenews.blogspot.com##[id*="HTML"]
