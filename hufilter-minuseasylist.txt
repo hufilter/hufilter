@@ -6,7 +6,7 @@
 !Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !Title: hufilter
 !Expires: 16 hours
-!Version: 201707031540
+!Version: 201707081819
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -418,20 +418,11 @@ hwsw.hu##DIV[class="billboard"]
 hwsw.hu##DIV[class="cikkszovegakcio"]
 hwsw.hu##DIV[id*="hirdetes"]
 hwsw.hu##[class*="hirdetes"]
-hwsw.hu##div > a[href^="https://goo.gl/"]
-hwsw.hu##div > a[href^="http://tinyurl.hu/"]
-hwsw.hu##div > a[href^="http://bit.ly/"]
-hwsw.hu/images/*_HWSW_*.*
-||hwsw.hu/images*bg_*.*
-||hwsw.hu/images/bodybgs/*$image
-hwsw.hu/images/bg-*.*
-hwsw.hu/images/nops/*
-hwsw.hu/images/*-prodterv.*
-hwsw.hu/*_skin*hwsw.*
-hwsw.hu/images/*-*tab.*
-hwsw.hu/images/*_hatter_*.*
 hwsw.hu###cookiealert
-hwsw.hu,~m.hwsw.hu,~forum.hwsw.hu,~rendezveny.hwsw.hu##body:style(padding-top: 0px !important;background-color: #777 !important;)
+||hwsw.hu/images/bodybgs/*$image
+hwsw.hu##body > div > a[target="_blank"]
+hwsw.hu##body[style*="padding-top"]:style(padding-top: 0px !important; background-color: #777 !important;)
+!hwsw.hu##.adomany
 !
 ||harmonet.hu/*hirdetes
 harmonet.hu##DIV[id*="banner"]
