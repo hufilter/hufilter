@@ -19,6 +19,17 @@ HFVER=`date "+%Y%m%d%H%M"`;
 # Replace placeholder with the actual version
 sed s/#VERSION#/$HFVER/g -i $BUILDFN
 
+# OK, ruleset is compiled. Lets checksum it!
+# UTF-8 encoding and Unix-style line ending is assumed
+# Removing the old chksum and empty lines
+grep -v '! Checksum: ' $BUILDFN | grep -v '^$' > $BUILDFN.chk
+# Getting the checksum... Binary MD5 encoded with Base64
+CHKSUM=`cat $BUILDFN.chk | openssl dgst -md5 -binary | openssl enc -base64 | cut -d "=" -f 1`
+rm -f ./$BUILDFN.chk
+
+# Replace the dummy with the real one
+sed -i "/! Checksum: /c\! Checksum: $CHKSUM" $BUILDFN
+
 # The build is ready, lets replace the filter file with the new version
 mv $BUILDFN hufilter.txt
 
@@ -27,6 +38,5 @@ wget https://easylist-downloads.adblockplus.org/easylist.txt
 echo '[Adblock Plus 2.0]' > hufilter-minuseasylist.txt
 diff hufilter.txt easylist.txt --new-line-format="" --old-line-format="%L" --unchanged-line-format="" >> hufilter-minuseasylist.txt
 rm -f ./easylist.txt
-
 
 # THE END :)

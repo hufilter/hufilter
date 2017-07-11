@@ -1,10 +1,11 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!R edirect: https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt
-!Homepage: https://github.com/szpeter80/hufilter/wiki
-!Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
-!Title: hufilter
-!Expires: 16 hours
-!Version: #VERSION#
+! R edirect: https://raw.githubusercontent.com/szpeter80/hufilter/master/hufilter.txt
+! Homepage: https://github.com/szpeter80/hufilter/wiki
+! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
+! Title: hufilter
+! Expires: 16 hours
+! Version: #VERSION#
+! Checksum: --- DUMMY ---
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
