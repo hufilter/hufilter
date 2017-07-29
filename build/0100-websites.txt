@@ -1100,4 +1100,6 @@ hungliaonline.com##.tqWLsnEEqeEw-bg
 budapestpark.hu###cooker_container
 budapestpark.hu##.banner_main_page_wrapper
 !
-
+||www.hestore.hu/pic/cookie.png$image
+www.hestore.hu###cookiewarnbar
+!
