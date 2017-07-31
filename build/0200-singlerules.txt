@@ -84,6 +84,7 @@ kaposvarmost.hu##[class*="banner"]
 kemma.hu##[class^="ad "]
 ketkes.com##A[href^="http://goo.gl"]
 kezilabda.hu##[id*="banner"]
+www.kh.hu###cookieAcceptanceContainer
 kislexikon.hu/swf/
 kronika.ro##[class*="banner"]
 lajkold.hu##[class^="ad "]
