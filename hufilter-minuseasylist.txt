@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201707112251
-! Checksum: fWtsCNGUKpKjdCu+lJO1xg
+! Version: 201707311410
+! Checksum: 6zKMqfmXmxYpFe9N1vomGA
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1156,7 +1156,9 @@ hungliaonline.com##.tqWLsnEEqeEw-bg
 budapestpark.hu###cooker_container
 budapestpark.hu##.banner_main_page_wrapper
 !
-
+||www.hestore.hu/pic/cookie.png$image
+www.hestore.hu###cookiewarnbar
+!
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
 
@@ -1245,6 +1247,7 @@ kaposvarmost.hu##[class*="banner"]
 kemma.hu##[class^="ad "]
 ketkes.com##A[href^="http://goo.gl"]
 kezilabda.hu##[id*="banner"]
+www.kh.hu###cookieAcceptanceContainer
 kislexikon.hu/swf/
 kronika.ro##[class*="banner"]
 lajkold.hu##[class^="ad "]
