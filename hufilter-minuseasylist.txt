@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201707311410
-! Checksum: 6zKMqfmXmxYpFe9N1vomGA
+! Version: 201708161712
+! Checksum: +BFMvoE440zYGuaDYRsVKQ
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -692,6 +692,7 @@ prohardver.hu##body > a[href="http://www.lg.com/hu/projektorok"]
 prohardver.hu##body > a[href="http://www.digiprime.hu/laptop/asus-laptop/asus-transformer-3-pro"]
 prohardver.hu##body > a[href="http://radium.hu/acer-aspire-vx5.html"]
 prohardver.hu##body > a[href="http://oaziscomputer.hu/termekek/wacom/intuos-pro"]
+prohardver.hu##body > a[href="http://fiskepulver.hu/landingpage/"]
 prohardver.hu##a[href^="https://track.adform.net/C/"]
 prohardver.hu##.spleft
 prohardver.hu##.spright
@@ -707,6 +708,10 @@ https://prohardver.hu/dl/cnt/2017-05/3703
 https://prohardver.hu/dl/cnt/2017-05/3709
 https://prohardver.hu/dl/cnt/2017-06/3711
 https://prohardver.hu/dl/cnt/2017-06/3714
+https://prohardver.hu/dl/cnt/2017-07/3733
+https://prohardver.hu/dl/cnt/2017-07/3739
+https://prohardver.hu/dl/cnt/2017-07/3751
+https://prohardver.hu/dl/cnt/2017-02/3626
 !
 prohardver.hu###center > .cntcol > .cikk.anyag > .cntatc.defcnt > div
 prohardver.hu###center > .cntcol > .hir.anyag > .cntnew.defcnt > div
@@ -759,6 +764,7 @@ mobilarena.hu##a[href^="http://www.gearbest.com/m-promotion-active-317.html"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
 https://mobilarena.hu/dl/cnt/2016-06/2252
 https://mobilarena.hu/dl/cnt/2017-06/3722
+https://mobilarena.hu/dl/cnt/2017-08/3762
 !
 ||mobilarena.hu/design/*szponzor*.*
 !||mobilarena.hu/design/sp/forum-*.*
