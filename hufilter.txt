@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201708161712
-! Checksum: +BFMvoE440zYGuaDYRsVKQ
+! Version: 201708181534
+! Checksum: cO0MlfrYJGorYUcMNMFj6w
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -472,6 +472,7 @@ life.hu##[class="ad"]
 !
 !
 idokep.hu##DIV[class*="hird_"]
+idokep.hu##DIV[class="cam-container"]
 !
 napinemszar.hu##[id*="reklam"]
 napinemszar.hu##DIV[id="sidebar"]

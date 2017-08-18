@@ -416,6 +416,7 @@ life.hu##[class="ad"]
 !
 !
 idokep.hu##DIV[class*="hird_"]
+idokep.hu##DIV[class="cam-container"]
 !
 napinemszar.hu##[id*="reklam"]
 napinemszar.hu##DIV[id="sidebar"]
