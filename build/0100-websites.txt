@@ -630,6 +630,13 @@ noplaza.hu##[class*="banner"]
 ||prohardver.hu/design/*forum_*.*
 ||prohardver.hu/dl/cnt/*/*/background.jpg$image
 !
+prohardver.hu##h1 > a[href="http://www.netgo.hu"]
+prohardver.hu##h4:has-text(Hirdetés)
+prohardver.hu##p:has-text(Amikor a szoftver illeszkedik a meglévő üzleti folyamatokhoz.)
+prohardver.hu##span:has-text(PR)
+prohardver.hu##img[src="/dl/pr/1902.jpg"]
+prohardver.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
+!
 prohardver.hu##body > a[href="https://ipon.hu/search/shop/cherry"]
 prohardver.hu##body > a[href="http://www.bosch-career.hu/hu/hu/openday/openday_1.html"]
 prohardver.hu##body > a[href="http://itshinspirationboard.com/"]
