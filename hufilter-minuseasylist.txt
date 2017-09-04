@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201708192201
-! Checksum: jZ1IBnRTmww2pNwPYhb+eQ
+! Version: 201709041404
+! Checksum: VNX7764AHwtStfHj+UW72Q
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -686,6 +686,13 @@ noplaza.hu##[class*="banner"]
 ||prohardver.hu/design/*forum_*.*
 ||prohardver.hu/dl/cnt/*/*/background.jpg$image
 !
+prohardver.hu##h1 > a[href="http://www.netgo.hu"]
+prohardver.hu##h4:has-text(Hirdetés)
+prohardver.hu##p:has-text(Amikor a szoftver illeszkedik a meglévő üzleti folyamatokhoz.)
+prohardver.hu##span:has-text(PR)
+prohardver.hu##img[src="/dl/pr/1902.jpg"]
+prohardver.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
+!
 prohardver.hu##body > a[href="https://ipon.hu/search/shop/cherry"]
 prohardver.hu##body > a[href="http://www.bosch-career.hu/hu/hu/openday/openday_1.html"]
 prohardver.hu##body > a[href="http://itshinspirationboard.com/"]
@@ -762,10 +769,12 @@ automenedzser.hu##[class*="ad_"]
 mobilarena.hu##body > a[href^="http://www.newteq.eu/kereses-eredmenye/search"]
 mobilarena.hu##body > a[href^="http://www.xiaomi.hu/"]
 mobilarena.hu##a[href^="http://www.gearbest.com/m-promotion-active-317.html"]
+mobilarena.hu##body > a[href="https://www.speedshop.hu/samsung-note8-elorendeles-hnote8.html"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
 https://mobilarena.hu/dl/cnt/2016-06/2252
 https://mobilarena.hu/dl/cnt/2017-06/3722
 https://mobilarena.hu/dl/cnt/2017-08/3762
+https://mobilarena.hu/dl/cnt/2017-08/3781
 !
 ||mobilarena.hu/design/*szponzor*.*
 !||mobilarena.hu/design/sp/forum-*.*
