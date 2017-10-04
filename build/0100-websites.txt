@@ -645,6 +645,7 @@ prohardver.hu##body > a[href="http://www.digiprime.hu/laptop/asus-laptop/asus-tr
 prohardver.hu##body > a[href="http://radium.hu/acer-aspire-vx5.html"]
 prohardver.hu##body > a[href="http://oaziscomputer.hu/termekek/wacom/intuos-pro"]
 prohardver.hu##body > a[href="http://fiskepulver.hu/landingpage/"]
+prohardver.hu##body > a[href="http://tinyurl.hu/7d2q/"]
 prohardver.hu##a[href^="https://track.adform.net/C/"]
 prohardver.hu##.spleft
 prohardver.hu##.spright
@@ -652,6 +653,7 @@ prohardver.hu##.cntatc.defcnt > p:nth-of-type(1)
 prohardver.hu###thanks > .nohead.hlist
 https://prohardver.hu/dl/cnt/2016-11/3547
 https://prohardver.hu/dl/cnt/2016-11/3542
+https://prohardver.hu/dl/cnt/2017-02/3626
 https://prohardver.hu/dl/cnt/2017-04/3644
 https://prohardver.hu/dl/cnt/2017-04/3688
 https://prohardver.hu/dl/cnt/2017-05/3696
@@ -663,7 +665,17 @@ https://prohardver.hu/dl/cnt/2017-06/3714
 https://prohardver.hu/dl/cnt/2017-07/3733
 https://prohardver.hu/dl/cnt/2017-07/3739
 https://prohardver.hu/dl/cnt/2017-07/3751
-https://prohardver.hu/dl/cnt/2017-02/3626
+https://prohardver.hu/dl/cnt/2017-07/3729
+https://prohardver.hu/dl/cnt/2017-09/3790
+https://prohardver.hu/dl/cnt/2017-09/3792
+!
+prohardver.hu##h1 > a[href="http://www.netgo.hu"]
+prohardver.hu##h4:has-text(Hirdetés)
+prohardver.hu##p:has-text(Amikor a szoftver illeszkedik a meglévő üzleti folyamatokhoz.)
+prohardver.hu##span:has-text(PR)
+prohardver.hu##img[src="/dl/pr/1902.jpg"]
+prohardver.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
+prohardver.hu##div[id="center"] > div:has(div):has(a):has-text(Mostantól bármely bank ügyfelének elérhető a mobilfizetés élménye.)
 !
 prohardver.hu###center > .cntcol > .cikk.anyag > .cntatc.defcnt > div
 prohardver.hu###center > .cntcol > .hir.anyag > .cntnew.defcnt > div
