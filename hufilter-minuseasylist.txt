@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201710101212
-! Checksum: l8NSLbYfYsSlj5usfkL4eA
+! Version: 201710101503
+! Checksum: j1LsTCp/OeEp4kJJcSN+eg
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -309,6 +309,11 @@ itcafe.hu##a[href^="https://track.adform.net/C/"]
 https://itcafe.hu/dl/cnt/2017-05/3701
 https://itcafe.hu/dl/cnt/2017-05/3703
 !
+itcafe.hu##a[href="http://www.laptop.hu"]
+itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.laptop.hu"])
+itcafe.hu##a[href="http://www.autoalkatreszonline24.hu/"]
+itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszonline24.hu/"])
+!
 itcafe.hu##[class*="box ad"]
 itcafe.hu##[class*="boxad"]
 itcafe.hu##[class*="xabre"]
@@ -606,6 +611,11 @@ logout.hu##a[href^="https://track.adform.net/C/"]
 https://logout.hu/dl/cnt/2017-05/3701
 https://logout.hu/dl/cnt/2017-05/3703/
 !
+logout.hu##a[href="http://www.laptop.hu"]
+logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.laptop.hu"])
+logout.hu##a[href="http://www.autoalkatreszek24.hu/"]
+logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszek24.hu/"])
+!
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://logout.hu/ajanlo/lapcsalad.html"])
 logout.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
 !
@@ -734,6 +744,11 @@ https://prohardver.hu/dl/cnt/2017-09/3792
 https://prohardver.hu/dl/cnt/2017-10/3751
 https://prohardver.hu/dl/cnt/2017-10/3804
 !
+prohardver.hu##a[href="http://www.laptop.hu"]
+prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.laptop.hu"])
+prohardver.hu##a[href="http://www.autoalkatreszek24.hu/"]
+prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszek24.hu/"])
+!
 prohardver.hu##div:not([id="page"]):has(script[src="https://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=22755871&PluID=0&w=970&h=250&ord=[timestamp]"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href*="http://www.lg.com/hu/projektorok"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href*="https://tinyurl.com/y9wkrrsw"])
@@ -806,6 +821,11 @@ https://mobilarena.hu/dl/cnt/2017-06/3722
 https://mobilarena.hu/dl/cnt/2017-08/3762
 https://mobilarena.hu/dl/cnt/2017-08/3781
 https://mobilarena.hu/dl/cnt/2017-10/3808
+!
+mobilarena.hu##a[href="http://www.laptop.hu"]
+mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.laptop.hu"])
+mobilarena.hu##a[href="http://www.autoalkatreszek24.hu/"]
+mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszek24.hu/"])
 !
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="https://simple.hu/szolgaltatasok/Simple-kartya-Mobilfizetes/"])
 !
@@ -1193,6 +1213,11 @@ kosarsport.hu##body>a:first-child
 ||freewaresoftwarenews.blogspot.$first-party,inline-script
 freewaresoftwarenews.blogspot.com##[id*="HTML"]
 freewaresoftwarenews.blogspot.com##[id="column-left-inner"]
+!
+gamepod.hu##a[href="http://www.laptop.hu"]
+gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.laptop.hu"])
+gamepod.hu##a[href="http://www.autoalkatreszonline24.hu/"]
+gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszonline24.hu/"])
 !
 gamepod.hu##[class*="xabre"]
 gamepod.hu##.partners
