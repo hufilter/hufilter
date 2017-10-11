@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201710101503
-! Checksum: j1LsTCp/OeEp4kJJcSN+eg
+! Version: 201710111022
+! Checksum: xWCGj+TMtsPZyD5d7lJsBA
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -313,6 +313,7 @@ itcafe.hu##a[href="http://www.laptop.hu"]
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.laptop.hu"])
 itcafe.hu##a[href="http://www.autoalkatreszonline24.hu/"]
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszonline24.hu/"])
+itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([class="msgblk"]):has(h4):has-text(Friss! Olvastad már?)
 !
 itcafe.hu##[class*="box ad"]
 itcafe.hu##[class*="boxad"]
@@ -810,23 +811,26 @@ automenedzser.hu##[id*="Advert"]
 automenedzser.hu##[class*=" ads"]
 automenedzser.hu##[class*="ad_"]
 !
+mobilarena.hu##a[href^="http://www.gearbest.com/m-promotion-active-317.html"]
 mobilarena.hu##body > a[href^="http://www.newteq.eu/kereses-eredmenye/search"]
 mobilarena.hu##body > a[href^="http://www.xiaomi.hu/"]
-mobilarena.hu##a[href^="http://www.gearbest.com/m-promotion-active-317.html"]
 mobilarena.hu##body > a[href="https://www.speedshop.hu/samsung-note8-elorendeles-hnote8.html"]
 mobilarena.hu##body > a[href="https://simple.hu/szolgaltatasok/Simple-kartya-Mobilfizetes/"]
+mobilarena.hu##body > a[href="http://www.xprotector.hu"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
 https://mobilarena.hu/dl/cnt/2016-06/2252
 https://mobilarena.hu/dl/cnt/2017-06/3722
 https://mobilarena.hu/dl/cnt/2017-08/3762
 https://mobilarena.hu/dl/cnt/2017-08/3781
 https://mobilarena.hu/dl/cnt/2017-10/3808
+https://mobilarena.hu/dl/cnt/2017-10/3815
 !
 mobilarena.hu##a[href="http://www.laptop.hu"]
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.laptop.hu"])
 mobilarena.hu##a[href="http://www.autoalkatreszek24.hu/"]
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszek24.hu/"])
 !
+mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.xprotector.hu"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="https://simple.hu/szolgaltatasok/Simple-kartya-Mobilfizetes/"])
 !
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://mobilarena.hu/ajanlo/lapcsalad.html"])
@@ -1218,6 +1222,7 @@ gamepod.hu##a[href="http://www.laptop.hu"]
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.laptop.hu"])
 gamepod.hu##a[href="http://www.autoalkatreszonline24.hu/"]
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszonline24.hu/"])
+gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([class="msgblk"]):has(h4):has-text(Friss! Olvastad már?)
 !
 gamepod.hu##[class*="xabre"]
 gamepod.hu##.partners
