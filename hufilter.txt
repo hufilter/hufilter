@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201710130748
-! Checksum: qqslMmMfAe10tMFV1ZsOgw
+! Version: 201710141234
+! Checksum: F5wmCjNPJEMpH2iy+rDFhA
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -720,6 +720,7 @@ prohardver.hu##body > a[href="http://fiskepulver.hu/landingpage/"]
 prohardver.hu##body > a[href="http://tinyurl.hu/7d2q/"]
 prohardver.hu##body > a[href="https://tinyurl.com/y9wkrrsw"]
 prohardver.hu##body > a[href="https://tinyurl.com/ycel9nxw"]
+prohardver.hu##body > a[href="https://tinyurl.com/yb8247wf"]
 prohardver.hu##a[href^="https://track.adform.net/C/"]
 prohardver.hu##a[href^="https://www.javachallenge.hu/"]
 prohardver.hu##.spleft
@@ -744,6 +745,7 @@ https://prohardver.hu/dl/cnt/2017-07/3729
 https://prohardver.hu/dl/cnt/2017-09/3790
 https://prohardver.hu/dl/cnt/2017-09/3792
 https://prohardver.hu/dl/cnt/2017-10/3626
+https://prohardver.hu/dl/cnt/2017-10/3729
 https://prohardver.hu/dl/cnt/2017-10/3751
 https://prohardver.hu/dl/cnt/2017-10/3804
 !
@@ -752,10 +754,11 @@ prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id=
 prohardver.hu##a[href="http://www.autoalkatreszek24.hu/"]
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszek24.hu/"])
 !
-prohardver.hu##div:not([id="page"]):has(script[src="https://bs.serving-sys.com/BurstingPipe/adServer.bs?cn=rsb&c=28&pli=22755871&PluID=0&w=970&h=250&ord=[timestamp]"])
+prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):not([class="anyag cikk"]):has(script[src*="https://bs.serving-sys.com/BurstingPipe"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="http://www.lg.com/hu/projektorok"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="https://tinyurl.com/y9wkrrsw"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="https://tinyurl.com/ycel9nxw"])
+prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="https://tinyurl.com/yb8247wf"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):has(a[href="https://www.javachallenge.hu/?utm_source=prohardver&utm_medium=banner"])
 !
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://prohardver.hu/ajanlo/lapcsalad.html"])
@@ -820,6 +823,7 @@ mobilarena.hu##body > a[href^="http://www.xiaomi.hu/"]
 mobilarena.hu##body > a[href="https://www.speedshop.hu/samsung-note8-elorendeles-hnote8.html"]
 mobilarena.hu##body > a[href="https://simple.hu/szolgaltatasok/Simple-kartya-Mobilfizetes/"]
 mobilarena.hu##body > a[href="http://www.xprotector.hu"]
+mobilarena.hu##body > a[href^="http://www.xiaomi.hu/"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
 https://mobilarena.hu/dl/cnt/2016-06/2252
 https://mobilarena.hu/dl/cnt/2017-06/3722
@@ -835,6 +839,7 @@ mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id=
 !
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.xprotector.hu"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="https://simple.hu/szolgaltatasok/Simple-kartya-Mobilfizetes/"])
+mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="http://www.xiaomi.hu/?utm_source=mobilarena&utm_medium=banner&utm_campaign=forum-full-page-ad-xiaomi-hu"])
 !
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://mobilarena.hu/ajanlo/lapcsalad.html"])
 mobilarena.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
