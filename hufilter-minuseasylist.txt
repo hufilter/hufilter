@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201710141234
-! Checksum: F5wmCjNPJEMpH2iy+rDFhA
+! Version: 201710151847
+! Checksum: sMPIlPKm1d//Ib2N+FG/pA
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -314,6 +314,7 @@ itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="cen
 itcafe.hu##a[href="http://www.autoalkatreszonline24.hu/"]
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszonline24.hu/"])
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([class="msgblk"]):has(h4):has-text(Friss! Olvastad már?)
+itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):not([class="anyag cikk"]):has(script[src*="https://bs.serving-sys.com/BurstingPipe"])
 !
 itcafe.hu##[class*="box ad"]
 itcafe.hu##[class*="boxad"]
@@ -429,6 +430,7 @@ hwsw.hu##DIV[id*="hirdetes"]
 hwsw.hu##[class*="hirdetes"]
 hwsw.hu###cookiealert
 ||hwsw.hu/images/bodybgs/*$image
+||hwsw.hu/images/bodybgs2/hwsw-notebook-white-m1-final.jpg$image
 hwsw.hu##body > div > a[target="_blank"]
 hwsw.hu##body[style*="padding-top"]:style(padding-top: 0px !important; background-color: #777 !important;)
 !hwsw.hu##.adomany
@@ -616,6 +618,7 @@ logout.hu##a[href="http://www.laptop.hu"]
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.laptop.hu"])
 logout.hu##a[href="http://www.autoalkatreszek24.hu/"]
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszek24.hu/"])
+logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):not([class="anyag cikk"]):has(script[src*="https://bs.serving-sys.com/BurstingPipe"])
 !
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://logout.hu/ajanlo/lapcsalad.html"])
 logout.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
@@ -837,9 +840,10 @@ mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id=
 mobilarena.hu##a[href="http://www.autoalkatreszek24.hu/"]
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszek24.hu/"])
 !
-mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.xprotector.hu"])
+mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([id="foot"]):has(a[href="http://www.xprotector.hu"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="https://simple.hu/szolgaltatasok/Simple-kartya-Mobilfizetes/"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="http://www.xiaomi.hu/?utm_source=mobilarena&utm_medium=banner&utm_campaign=forum-full-page-ad-xiaomi-hu"])
+mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):not([class="anyag cikk"]):has(script[src*="https://bs.serving-sys.com/BurstingPipe"])
 !
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://mobilarena.hu/ajanlo/lapcsalad.html"])
 mobilarena.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
@@ -1179,6 +1183,11 @@ hir.ma##[id="spu-main"]
 hg.hu##[id*="banner"]
 hg.hu##[id*="interstitial"]
 !
+gamekapocs.hu###background_ad_top
+gamekapocs.hu###background_ad_left
+gamekapocs.hu###background_ad_right
+gamekapocs.hu/media/special/mcdonalds_201710/McD-Dupla-CH-gamekapocs_2.jpg
+!
 gamestar.hu##DIV[class="article_left_banner"]
 gamestar.hu##[id*="overlay"]
 !
@@ -1231,6 +1240,7 @@ gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="ce
 gamepod.hu##a[href="http://www.autoalkatreszonline24.hu/"]
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszonline24.hu/"])
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([class="msgblk"]):has(h4):has-text(Friss! Olvastad már?)
+gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):not([class="anyag cikk"]):has(script[src*="https://bs.serving-sys.com/BurstingPipe"])
 !
 gamepod.hu##[class*="xabre"]
 gamepod.hu##.partners
