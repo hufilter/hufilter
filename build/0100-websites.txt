@@ -248,7 +248,7 @@ gyakorikerdesek.hu##[id*="aswift"]
 gyakorikerdesek.hu/reklam/
 gyakorikerdesek.hu/pic/bannerek/
 !
-itcafe.hu##body > a[*href="http://itshinspirationboard.com"]
+itcafe.hu##body > a[href*="http://itshinspirationboard.com"]
 itcafe.hu##a[href^="https://track.adform.net/C/"]
 https://itcafe.hu/dl/cnt/2017-05/3701
 https://itcafe.hu/dl/cnt/2017-05/3703
@@ -557,7 +557,7 @@ sonline.hu##DIV[class*="ad "]
 sonline.hu##[class*="hirdetes"]
 sonline.hu##[id*="ctnet_ad_"]
 !
-logout.hu##body > a[*href="http://itshinspirationboard.com"]
+logout.hu##body > a[href*="http://itshinspirationboard.com"]
 logout.hu##a[href^="https://track.adform.net/C/"]
 https://logout.hu/dl/cnt/2017-05/3701
 https://logout.hu/dl/cnt/2017-05/3703/
@@ -672,7 +672,7 @@ prohardver.hu##body > a[href="http://tinyurl.hu/7d2q/"]
 prohardver.hu##body > a[href="https://tinyurl.com/y9wkrrsw"]
 prohardver.hu##body > a[href="https://tinyurl.com/ycel9nxw"]
 prohardver.hu##body > a[href="https://tinyurl.com/yb8247wf"]
-prohardver.hu##body > a[*href="http://itshinspirationboard.com"]
+prohardver.hu##body > a[href*="http://itshinspirationboard.com"]
 prohardver.hu##a[href^="https://track.adform.net/C/"]
 prohardver.hu##a[href^="https://www.javachallenge.hu/"]
 prohardver.hu##.spleft
@@ -798,7 +798,7 @@ mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id=
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="https://simple.hu/szolgaltatasok/Simple-kartya-Mobilfizetes/"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="http://www.xiaomi.hu/?utm_source=mobilarena&utm_medium=banner&utm_campaign=forum-full-page-ad-xiaomi-hu"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href="https://prohardver.hu/nyeremenyjatek/3_napos_villamjatek_fodij_egy_zyxel_nas.html"])
-mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[*href="https://www.speedshop.hu"])
+mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://www.speedshop.hu"])
 !
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://mobilarena.hu/ajanlo/lapcsalad.html"])
 mobilarena.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
