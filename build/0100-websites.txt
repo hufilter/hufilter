@@ -714,7 +714,7 @@ prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id=
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="https://tinyurl.com/yb8247wf"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):has(a[href="https://www.javachallenge.hu/?utm_source=prohardver&utm_medium=banner"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="http://itshinspirationboard.com"])
-
+prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://bank360.hu"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href="https://prohardver.hu/nyeremenyjatek/3_napos_villamjatek_fodij_egy_zyxel_nas.html"])
 !
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://prohardver.hu/ajanlo/lapcsalad.html"])
