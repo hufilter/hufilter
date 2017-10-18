@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201710171025
-! Checksum: movowkDP2vrjEykJllW6dg
+! Version: 201710181849
+! Checksum: o7IQ4OMum9o3Dg3ujEuacw
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -770,7 +770,7 @@ prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id=
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="https://tinyurl.com/yb8247wf"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):has(a[href="https://www.javachallenge.hu/?utm_source=prohardver&utm_medium=banner"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="http://itshinspirationboard.com"])
-
+prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://bank360.hu"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href="https://prohardver.hu/nyeremenyjatek/3_napos_villamjatek_fodij_egy_zyxel_nas.html"])
 !
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://prohardver.hu/ajanlo/lapcsalad.html"])
@@ -836,6 +836,7 @@ mobilarena.hu##body > a[href="https://www.speedshop.hu/samsung-note8-elorendeles
 mobilarena.hu##body > a[href="https://simple.hu/szolgaltatasok/Simple-kartya-Mobilfizetes/"]
 mobilarena.hu##body > a[href="http://www.xprotector.hu"]
 mobilarena.hu##body > a[href^="http://www.xiaomi.hu/"]
+mobilarena.hu##body > a[href^="https://www.speedshop.hu/kereses/pag_egyszerukereses.aspx"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
 https://mobilarena.hu/dl/cnt/2016-06/2252
 https://mobilarena.hu/dl/cnt/2017-06/3722
@@ -843,6 +844,7 @@ https://mobilarena.hu/dl/cnt/2017-08/3762
 https://mobilarena.hu/dl/cnt/2017-08/3781
 https://mobilarena.hu/dl/cnt/2017-10/3808
 https://mobilarena.hu/dl/cnt/2017-10/3815
+https://mobilarena.hu/dl/cnt/2017-10/3830
 !
 mobilarena.hu##a[href="http://www.laptop.hu"]
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.laptop.hu"])
@@ -1271,6 +1273,10 @@ budapestpark.hu##.banner_main_page_wrapper
 !
 ||www.hestore.hu/pic/cookie.png$image
 www.hestore.hu###cookiewarnbar
+!
+rendszerigeny.hu###wallpaper
+rendszerigeny.hu##.wallpaper-link
+https://rendszerigeny.hu/wp-content/uploads/2014/02/msi-twin_frozr_6-beef_up_your_rig-frontpage_banner-1920x550.jpg
 !
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
