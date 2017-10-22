@@ -91,6 +91,7 @@ lajkold.hu##[class^="ad "]
 lakberendezes.hu##[class="adbg"]
 litera.hu##[class*="-ad"]
 lovebox.hu##[class*="banner"]
+mafab.hu##.visible-lg.container
 magyarnarancs.hu##[id*="_ad"]
 mainap.hu##[class*="banner"]
 manus.hu##[class*="articleBanner"]
