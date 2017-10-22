@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201710181849
-! Checksum: o7IQ4OMum9o3Dg3ujEuacw
+! Version: 201710221840
+! Checksum: BledGbqrmVr+s9L+OhipZw
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -837,6 +837,7 @@ mobilarena.hu##body > a[href="https://simple.hu/szolgaltatasok/Simple-kartya-Mob
 mobilarena.hu##body > a[href="http://www.xprotector.hu"]
 mobilarena.hu##body > a[href^="http://www.xiaomi.hu/"]
 mobilarena.hu##body > a[href^="https://www.speedshop.hu/kereses/pag_egyszerukereses.aspx"]
+mobilarena.hu##a[href^="https://bank360.hu/bank360/kattintas"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
 https://mobilarena.hu/dl/cnt/2016-06/2252
 https://mobilarena.hu/dl/cnt/2017-06/3722
@@ -857,6 +858,7 @@ mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id=
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="http://www.xiaomi.hu/?utm_source=mobilarena&utm_medium=banner&utm_campaign=forum-full-page-ad-xiaomi-hu"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href="https://prohardver.hu/nyeremenyjatek/3_napos_villamjatek_fodij_egy_zyxel_nas.html"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://www.speedshop.hu"])
+mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://bank360.hu"])
 !
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://mobilarena.hu/ajanlo/lapcsalad.html"])
 mobilarena.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
@@ -1373,6 +1375,7 @@ lajkold.hu##[class^="ad "]
 lakberendezes.hu##[class="adbg"]
 litera.hu##[class*="-ad"]
 lovebox.hu##[class*="banner"]
+mafab.hu##.visible-lg.container
 magyarnarancs.hu##[id*="_ad"]
 mainap.hu##[class*="banner"]
 manus.hu##[class*="articleBanner"]
