@@ -781,6 +781,7 @@ mobilarena.hu##body > a[href="https://simple.hu/szolgaltatasok/Simple-kartya-Mob
 mobilarena.hu##body > a[href="http://www.xprotector.hu"]
 mobilarena.hu##body > a[href^="http://www.xiaomi.hu/"]
 mobilarena.hu##body > a[href^="https://www.speedshop.hu/kereses/pag_egyszerukereses.aspx"]
+mobilarena.hu##a[href^="https://bank360.hu/bank360/kattintas"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
 https://mobilarena.hu/dl/cnt/2016-06/2252
 https://mobilarena.hu/dl/cnt/2017-06/3722
@@ -801,6 +802,7 @@ mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id=
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="http://www.xiaomi.hu/?utm_source=mobilarena&utm_medium=banner&utm_campaign=forum-full-page-ad-xiaomi-hu"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href="https://prohardver.hu/nyeremenyjatek/3_napos_villamjatek_fodij_egy_zyxel_nas.html"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://www.speedshop.hu"])
+mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://bank360.hu"])
 !
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://mobilarena.hu/ajanlo/lapcsalad.html"])
 mobilarena.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
