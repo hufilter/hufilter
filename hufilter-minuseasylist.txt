@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201711021841
-! Checksum: uX+vHLjCJfXwg0hv537wbA
+! Version: 201711071649
+! Checksum: JvXRxgxHk4HQkho0Evetiw
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -320,6 +320,7 @@ itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="cen
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):has(a[href="http://itshinspirationboard.com"])
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://bank360.hu"])
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.adverticum.net"])
+itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.doubleclick.net"])
 !
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([class="msgblk"]):has(h4):has-text(Friss! Olvastad már?)
 !
@@ -628,12 +629,14 @@ logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="cen
 logout.hu##a[href="http://www.autoalkatreszek24.hu/"]
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszek24.hu/"])
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.adverticum.net"])
+logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.doubleclick.net"])
 !
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):not([class="anyag cikk"]):has(script[src*="https://bs.serving-sys.com/BurstingPipe"])
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://bank360.hu"])
 !
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://logout.hu/ajanlo/lapcsalad.html"])
 logout.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
+logout.hu##.anyagok:has(h4):has-text(Olvastad már, amihez hozzászólsz?)
 !
 logout.hu##[class*="adbox"]
 logout.hu##[class*="xabre"]
@@ -764,6 +767,7 @@ https://prohardver.hu/dl/cnt/2017-10/3729
 https://prohardver.hu/dl/cnt/2017-10/3751
 https://prohardver.hu/dl/cnt/2017-10/3804
 https://prohardver.hu/dl/cnt/2017-10/3816
+https://prohardver.hu/dl/cnt/2017-10/3839
 !
 prohardver.hu##a[href="http://www.laptop.hu"]
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.laptop.hu"])
@@ -780,9 +784,11 @@ prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id=
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://bank360.hu"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href="https://prohardver.hu/nyeremenyjatek/3_napos_villamjatek_fodij_egy_zyxel_nas.html"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.adverticum.net"])
+prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.doubleclick.net"])
 !
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://prohardver.hu/ajanlo/lapcsalad.html"])
 prohardver.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
+prohardver.hu##.anyagok:has(h4):has-text(Olvastad már, amihez hozzászólsz?)
 !
 prohardver.hu##h1 > a[href="http://www.netgo.hu"]
 prohardver.hu##h4:has-text(Hirdetés)
@@ -845,6 +851,7 @@ mobilarena.hu##body > a[href="https://simple.hu/szolgaltatasok/Simple-kartya-Mob
 mobilarena.hu##body > a[href="http://www.xprotector.hu"]
 mobilarena.hu##body > a[href^="http://www.xiaomi.hu/"]
 mobilarena.hu##body > a[href^="https://www.speedshop.hu/kereses/pag_egyszerukereses.aspx"]
+mobilarena.hu##body > a[href="https://www.speedshop.hu/huawei-mate-10pro-elorendeles-hm10pro.html"]
 mobilarena.hu##a[href^="https://bank360.hu/bank360/kattintas"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
 https://mobilarena.hu/dl/cnt/2016-06/2252
@@ -854,6 +861,7 @@ https://mobilarena.hu/dl/cnt/2017-08/3781
 https://mobilarena.hu/dl/cnt/2017-10/3808
 https://mobilarena.hu/dl/cnt/2017-10/3815
 https://mobilarena.hu/dl/cnt/2017-10/3830
+https://mobilarena.hu/dl/cnt/2017-11/3847
 !
 mobilarena.hu##a[href="http://www.laptop.hu"]
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.laptop.hu"])
@@ -868,10 +876,12 @@ mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id=
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://www.speedshop.hu"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://bank360.hu"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.adverticum.net"])
+mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.doubleclick.net"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://www.tomtop.com"])
 !
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://mobilarena.hu/ajanlo/lapcsalad.html"])
 mobilarena.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
+mobilarena.hu##.anyagok:has(h4):has-text(Olvastad már, amihez hozzászólsz?)
 !
 ||mobilarena.hu/design/*szponzor*.*
 !||mobilarena.hu/design/sp/forum-*.*
@@ -1269,6 +1279,7 @@ gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="ce
 gamepod.hu##a[href="http://www.autoalkatreszonline24.hu/"]
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.autoalkatreszonline24.hu/"])
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.adverticum.net"])
+gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.doubleclick.net"])
 !
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):not([class="anyag cikk"]):has(script[src*="https://bs.serving-sys.com/BurstingPipe"])
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([class="msgblk"]):has(h4):has-text(Friss! Olvastad már?)
