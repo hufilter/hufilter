@@ -384,9 +384,14 @@ hwsw.hu##DIV[id*="hirdetes"]
 hwsw.hu##[class*="hirdetes"]
 hwsw.hu###cookiealert
 ||hwsw.hu/images/bodybgs/*$image
-||hwsw.hu/images/bodybgs2/hwsw-notebook-white-m1-final.jpg$image
+||hwsw.hu/images/bodybgs2/
 hwsw.hu##body > div > a[target="_blank"]
 hwsw.hu##body[style*="padding-top"]:style(padding-top: 0px !important; background-color: #777 !important;)
+www.hwsw.hu###announcement
+www.hwsw.hu###cikktoolbaradomany
+www.hwsw.hu##.cikkszovegaction
+www.hwsw.hu###sidebar > table
+www.hwsw.hu##.kommentadomany
 !hwsw.hu##.adomany
 !
 ||harmonet.hu/*hirdetes
