@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201711111155
-! Checksum: NdgWzEVa2AreEHK+N86dKQ
+! Version: 201711141302
+! Checksum: x9QPaqW+ZGu6rYW+xl2c2A
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -795,6 +795,8 @@ prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id=
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.adverticum.net"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.doubleclick.net"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(iframe[src*="m2mzona.hu/ads"])
+prohardver.hu##div:not([id="page"]):not([id="head"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(a[href*="https://prohardver.hu/nyeremenyjatek/oazis_computer-prohardver_nyeremenyjatek_fodij_egy.html"])
+!
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/ )
 !
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://prohardver.hu/ajanlo/lapcsalad.html"])
