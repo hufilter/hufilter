@@ -1280,3 +1280,9 @@ rendszerigeny.hu###wallpaper
 rendszerigeny.hu##.wallpaper-link
 https://rendszerigeny.hu/wp-content/uploads/2014/02/msi-twin_frozr_6-beef_up_your_rig-frontpage_banner-1920x550.jpg
 !
+||video.vid4u.org/ninja/production
+https://i.cdn29.hu/apix_collect/ads
+pcworld.hu##.ad-skin-link
+pcworld.hu##.ad-skin-space
+pcworld.hu##.ad.box
+!
