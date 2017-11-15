@@ -1197,8 +1197,10 @@ gamekapocs.hu/media/special/mcdonalds_201710/McD-Dupla-CH-gamekapocs_2.jpg
 gamestar.hu##DIV[class="article_left_banner"]
 gamestar.hu##[id*="overlay"]
 gamestar.hu##.ad.box
+gamestar.hu##.ad-article-comment.ad
 !
 computerworld.hu##.ad.box
+computerworld.hu##.ad-article-end.ad
 !
 est.hu##[class*="_adv "]
 est.hu##[class*="banner"]
@@ -1289,4 +1291,5 @@ https://i.cdn29.hu/apix_collect/ads
 pcworld.hu##.ad-skin-link
 pcworld.hu##.ad-skin-space
 pcworld.hu##.ad.box
+pcworld.hu##.ad-article-end.ad
 !
