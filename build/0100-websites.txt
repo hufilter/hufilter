@@ -814,6 +814,7 @@ mobilarena.hu##body > a[href^="http://www.xiaomi.hu/"]
 mobilarena.hu##body > a[href^="https://www.speedshop.hu/kereses/pag_egyszerukereses.aspx"]
 mobilarena.hu##body > a[href="https://www.speedshop.hu/huawei-mate-10pro-elorendeles-hm10pro.html"]
 mobilarena.hu##body > a[href="http://www.htc.com/hu/go/buy-htc-u11/"]
+mobilarena.hu##body > a[href="https://www.nokia.com/hu_hu/phones/nokia-8"]
 mobilarena.hu##a[href^="https://bank360.hu/bank360/kattintas"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
 https://mobilarena.hu/dl/cnt/2016-06/2252
