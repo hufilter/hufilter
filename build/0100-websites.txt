@@ -1196,6 +1196,9 @@ gamekapocs.hu/media/special/mcdonalds_201710/McD-Dupla-CH-gamekapocs_2.jpg
 !
 gamestar.hu##DIV[class="article_left_banner"]
 gamestar.hu##[id*="overlay"]
+gamestar.hu##.ad.box
+!
+computerworld.hu##.ad.box
 !
 est.hu##[class*="_adv "]
 est.hu##[class*="banner"]
