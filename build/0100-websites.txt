@@ -276,6 +276,14 @@ itcafe.hu##:xpath(//a[@href="http://veletech.hu"]/parent::li)
 itcafe.hu##div[class="partners"]
 itcafe.hu###thanks > .nohead.hlist > ul
 !
+||itcafe.hu/dl/cnt/2017-04/3663/image.jpg$image
+||itcafe.hu/dl/cnt/2017-11/3879/image.jpg$image
+||itcafe.hu/design/sp/autoalkatreszek24_300x60.png$image
+||itcafe.hu/design/sp/autoalkatreszonline24_300x60.png$image
+!
+itcafe.hu##a[href="http://veletech.hu"]
+itcafe.hu##a[href="https://prohardver.hu/nyeremenyjatek/oazis_computer-prohardver_nyeremenyjatek_fodij_egy.html"]
+!
 itcafe.hu##[class*="box ad"]
 itcafe.hu##[class*="boxad"]
 itcafe.hu##[class*="xabre"]
@@ -601,6 +609,14 @@ logout.hu##:xpath(//a[@href="http://veletech.hu"]/parent::li)
 logout.hu##div[class="partners"]
 logout.hu###thanks > .nohead.hlist > ul
 !
+||logout.hu/dl/cnt/2017-04/3663/image.jpg$image
+||logout.hu/dl/cnt/2017-11/3879/image.jpg$image
+||logout.hu/design/sp/autoalkatreszek24_300x60.png$image
+||logout.hu/design/sp/autoalkatreszonline24_300x60.png$image
+!
+logout.hu##a[href="http://veletech.hu"]
+logout.hu##a[href="https://prohardver.hu/nyeremenyjatek/oazis_computer-prohardver_nyeremenyjatek_fodij_egy.html"]
+!
 logout.hu##[class*="adbox"]
 logout.hu##[class*="xabre"]
 !
@@ -759,6 +775,14 @@ prohardver.hu##:xpath(//a[@href="http://veletech.hu"]/parent::li)
 prohardver.hu##div[class="partners"]
 prohardver.hu###thanks > .nohead.hlist > ul
 !
+||prohardver.hu/dl/cnt/2017-04/3663/image.jpg$image
+||prohardver.hu/dl/cnt/2017-11/3879/image.jpg$image
+||prohardver.hu/design/sp/autoalkatreszek24_300x60.png$image
+||prohardver.hu/design/sp/autoalkatreszonline24_300x60.png$image
+!
+prohardver.hu##a[href="http://veletech.hu"]
+prohardver.hu##a[href="https://prohardver.hu/nyeremenyjatek/oazis_computer-prohardver_nyeremenyjatek_fodij_egy.html"]
+!
 prohardver.hu###center > .cntcol > .cikk.anyag > .cntatc.defcnt > div
 prohardver.hu###center > .cntcol > .hir.anyag > .cntnew.defcnt > div
 prohardver.hu###center > .msgblk > .anyagok
@@ -856,6 +880,14 @@ mobilarena.hu##.anyagok:has(h4):has-text(Olvastad már, amihez hozzászólsz?)
 mobilarena.hu##:xpath(//a[@href="http://veletech.hu"]/parent::li)
 mobilarena.hu##div[class="partners"]
 mobilarena.hu###thanks > .nohead.hlist > ul
+!
+||mobilarena.hu/dl/cnt/2017-04/3663/image.jpg$image
+||mobilarena.hu/dl/cnt/2017-11/3879/image.jpg$image
+||mobilarena.hu/design/sp/autoalkatreszek24_300x60.png$image
+||mobilarena.hu/design/sp/autoalkatreszonline24_300x60.png$image
+!
+mobilarena.hu##a[href="http://veletech.hu"]
+mobilarena.hu##a[href="https://prohardver.hu/nyeremenyjatek/oazis_computer-prohardver_nyeremenyjatek_fodij_egy.html"]
 !
 ||mobilarena.hu/design/*szponzor*.*
 !||mobilarena.hu/design/sp/forum-*.*
@@ -1267,6 +1299,14 @@ gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="ce
 gamepod.hu##:xpath(//a[@href="http://veletech.hu"]/parent::li)
 gamepod.hu##div[class="partners"]
 gamepod.hu###thanks > .nohead.hlist > ul
+!
+||gamepod.hu/dl/cnt/2017-04/3663/image.jpg$image
+||gamepod.hu/dl/cnt/2017-11/3879/image.jpg$image
+||gamepod.hu/design/sp/autoalkatreszek24_300x60.png$image
+||gamepod.hu/design/sp/autoalkatreszonline24_300x60.png$image
+!
+gamepod.hu##a[href="http://veletech.hu"]
+gamepod.hu##a[href="https://prohardver.hu/nyeremenyjatek/oazis_computer-prohardver_nyeremenyjatek_fodij_egy.html"]
 !
 gamepod.hu##[class*="xabre"]
 !
