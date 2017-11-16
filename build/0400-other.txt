@@ -42,6 +42,7 @@ dictzone.com##P[id="a1"]
 dictzone.com##P[id="a2"]
 openspeedtest.com##script:contains(testadblock)
 ||*.hit.gemius.pl^
+||hu.hit.gemius.pl^
 ||2mdn.net^$third-party
 ||9klikk.com^$third-party
 ||a.adnium.com^
@@ -49,7 +50,9 @@ openspeedtest.com##script:contains(testadblock)
 ||abmr.net^$third-party
 ||ad*.mediaweb.hu/adimage.php?*
 ||ad*.mellesleg.hu^
+||ad.adverticum.net^
 ||ad.depo.hu^
+||ad.doubleclick.net^
 ||ad.gyermekevek.hu^
 ||ad.hirekmedia.hu^
 ||ad.hu/g3t.js
@@ -107,7 +110,7 @@ openspeedtest.com##script:contains(testadblock)
 ||clicksor.net/newServing/
 ||clickspromos.com^$third-party
 ||clicksure.com^$third-party
-||content.yieldmanager.edgesuite.net/*.swf 
+||content.yieldmanager.edgesuite.net/*.swf
 ||counter.hitslink.com^$third-party
 ||counter.megagroup.ru
 ||ctag.hu/dc/
@@ -169,6 +172,7 @@ openspeedtest.com##script:contains(testadblock)
 ||smartcj.com^
 ||spe.atdmt.com^
 ||srv1.srv-stat.com^
+||ssl.google-analytics.com^
 ||stat.adultium.com^
 ||stats.badoostats.com^
 ||statsector.hu^$third-party
