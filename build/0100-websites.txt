@@ -266,9 +266,23 @@ itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="hea
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.adverticum.net"])
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.doubleclick.net"])
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(iframe[src*="m2mzona.hu/ads"])
-itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/ )
+!
+itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/)
+itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Köszönjük, hogy teljes értékű, hazai, kézműves tartalmunkat fogyasztod.)
 !
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([class="msgblk"]):has(h4):has-text(Friss! Olvastad már?)
+!
+itcafe.hu##:xpath(//a[@href="http://veletech.hu"]/parent::li)
+itcafe.hu##div[class="partners"]
+itcafe.hu###thanks > .nohead.hlist > ul
+!
+||itcafe.hu/dl/cnt/2017-04/3663/image.jpg$image
+||itcafe.hu/dl/cnt/2017-11/3879/image.jpg$image
+||itcafe.hu/design/sp/autoalkatreszek24_300x60.png$image
+||itcafe.hu/design/sp/autoalkatreszonline24_300x60.png$image
+!
+itcafe.hu##a[href="http://veletech.hu"]
+itcafe.hu##a[href="https://prohardver.hu/nyeremenyjatek/oazis_computer-prohardver_nyeremenyjatek_fodij_egy.html"]
 !
 itcafe.hu##[class*="box ad"]
 itcafe.hu##[class*="boxad"]
@@ -277,8 +291,6 @@ itcafe.hu##DIV[class*="_ad"]
 itcafe.hu##DIV[class*="menu_sp"]
 itcafe.hu##[class="adbox"]
 itcafe.hu##[class*="adw"]
-itcafe.hu###thanks > .nohead.hlist
-itcafe.hu##.partners
 !
 ||klubradio.hu/data/files/banner
 klubradio.hu##DIV[id*="banner"]
@@ -582,7 +594,9 @@ logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="cen
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.adverticum.net"])
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.doubleclick.net"])
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(iframe[src*="m2mzona.hu/ads"])
-logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/ )
+!
+logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/)
+logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Köszönjük, hogy teljes értékű, hazai, kézműves tartalmunkat fogyasztod.)
 !
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):not([class="anyag cikk"]):has(script[src*="https://bs.serving-sys.com/BurstingPipe"])
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://bank360.hu"])
@@ -591,9 +605,20 @@ logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="rig
 logout.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
 logout.hu##.anyagok:has(h4):has-text(Olvastad már, amihez hozzászólsz?)
 !
+logout.hu##:xpath(//a[@href="http://veletech.hu"]/parent::li)
+logout.hu##div[class="partners"]
+logout.hu###thanks > .nohead.hlist > ul
+!
+||logout.hu/dl/cnt/2017-04/3663/image.jpg$image
+||logout.hu/dl/cnt/2017-11/3879/image.jpg$image
+||logout.hu/design/sp/autoalkatreszek24_300x60.png$image
+||logout.hu/design/sp/autoalkatreszonline24_300x60.png$image
+!
+logout.hu##a[href="http://veletech.hu"]
+logout.hu##a[href="https://prohardver.hu/nyeremenyjatek/oazis_computer-prohardver_nyeremenyjatek_fodij_egy.html"]
+!
 logout.hu##[class*="adbox"]
 logout.hu##[class*="xabre"]
-logout.hu###thanks > .nohead.hlist
 !
 ||medicalonline.hu/*hirdetes
 medicalonline.hu##[class*="tBanner"]
@@ -673,13 +698,6 @@ noplaza.hu##[class*="banner"]
 ||prohardver.hu/design/*forum_*.*
 ||prohardver.hu/dl/cnt/*/*/background.jpg$image
 !
-prohardver.hu##h1 > a[href="http://www.netgo.hu"]
-prohardver.hu##h4:has-text(Hirdetés)
-prohardver.hu##p:has-text(Amikor a szoftver illeszkedik a meglévő üzleti folyamatokhoz.)
-prohardver.hu##span:has-text(PR)
-prohardver.hu##img[src="/dl/pr/1902.jpg"]
-prohardver.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
-!
 prohardver.hu##body > a[href="https://ipon.hu/search/shop/cherry"]
 prohardver.hu##body > a[href="http://www.bosch-career.hu/hu/hu/openday/openday_1.html"]
 prohardver.hu##body > a[href="http://www.lg.com/hu/projektorok"]
@@ -739,9 +757,9 @@ prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id=
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.adverticum.net"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.doubleclick.net"])
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(iframe[src*="m2mzona.hu/ads"])
-prohardver.hu##div:not([id="page"]):not([id="head"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(a[href*="https://prohardver.hu/nyeremenyjatek/oazis_computer-prohardver_nyeremenyjatek_fodij_egy.html"])
+prohardver.hu##div:not([id="page"]):not([id="head"]):not([id="shadow"]):not([id="main"]):not([id="navi"]):not([id="menu"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(a[href*="https://prohardver.hu/nyeremenyjatek/oazis_computer-prohardver_nyeremenyjatek_fodij_egy.html"])
 !
-prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/ )
+prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/)
 !
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://prohardver.hu/ajanlo/lapcsalad.html"])
 prohardver.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
@@ -750,10 +768,20 @@ prohardver.hu##.anyagok:has(h4):has-text(Olvastad már, amihez hozzászólsz?)
 prohardver.hu##h1 > a[href="http://www.netgo.hu"]
 prohardver.hu##h4:has-text(Hirdetés)
 prohardver.hu##p:has-text(Amikor a szoftver illeszkedik a meglévő üzleti folyamatokhoz.)
-prohardver.hu##span:has-text(PR)
-prohardver.hu##img[src="/dl/pr/1902.jpg"]
 prohardver.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
 prohardver.hu##div[id="center"] > div:has(div):has(a):has-text(Mostantól bármely bank ügyfelének elérhető a mobilfizetés élménye.)
+!
+prohardver.hu##:xpath(//a[@href="http://veletech.hu"]/parent::li)
+prohardver.hu##div[class="partners"]
+prohardver.hu###thanks > .nohead.hlist > ul
+!
+||prohardver.hu/dl/cnt/2017-04/3663/image.jpg$image
+||prohardver.hu/dl/cnt/2017-11/3879/image.jpg$image
+||prohardver.hu/design/sp/autoalkatreszek24_300x60.png$image
+||prohardver.hu/design/sp/autoalkatreszonline24_300x60.png$image
+!
+prohardver.hu##a[href="http://veletech.hu"]
+prohardver.hu##a[href="https://prohardver.hu/nyeremenyjatek/oazis_computer-prohardver_nyeremenyjatek_fodij_egy.html"]
 !
 prohardver.hu###center > .cntcol > .cikk.anyag > .cntatc.defcnt > div
 prohardver.hu###center > .cntcol > .hir.anyag > .cntnew.defcnt > div
@@ -761,7 +789,6 @@ prohardver.hu###center > .msgblk > .anyagok
 prohardver.hu###page > .xabre728
 prohardver.hu###right>.xabrew300.box
 prohardver.hu###tabscnts1 > .tabs > .anyagok > .flc > div
-prohardver.hu##DIV[class="partners"]
 prohardver.hu##[class*="adw"]
 prohardver.hu##[class="adbox"]
 prohardver.hu##[class*="xabre"]
@@ -810,6 +837,7 @@ mobilarena.hu##body > a[href^="http://www.xiaomi.hu/"]
 mobilarena.hu##body > a[href^="https://www.speedshop.hu/kereses/pag_egyszerukereses.aspx"]
 mobilarena.hu##body > a[href="https://www.speedshop.hu/huawei-mate-10pro-elorendeles-hm10pro.html"]
 mobilarena.hu##body > a[href="http://www.htc.com/hu/go/buy-htc-u11/"]
+mobilarena.hu##body > a[href="https://www.nokia.com/hu_hu/phones/nokia-8"]
 mobilarena.hu##a[href^="https://bank360.hu/bank360/kattintas"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
 https://mobilarena.hu/dl/cnt/2016-06/2252
@@ -821,6 +849,7 @@ https://mobilarena.hu/dl/cnt/2017-10/3815
 https://mobilarena.hu/dl/cnt/2017-10/3830
 https://mobilarena.hu/dl/cnt/2017-11/3847
 https://mobilarena.hu/dl/cnt/2017-11/3869
+https://mobilarena.hu/dl/cnt/2017-11/3880
 !
 mobilarena.hu##a[href="http://www.laptop.hu"]
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):has(a[href="http://www.laptop.hu"])
@@ -839,10 +868,26 @@ mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id=
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(a[href*="htc.com"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="head"]):not([id="navi"]):not([id="center"]):has(a[href*="https://www.tomtop.com"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(iframe[src*="m2mzona.hu/ads"])
+mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(a[href*="https://www.nokia.com/hu_hu/phones/nokia-8"])
+!
+mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/)
+mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Köszönjük, hogy teljes értékű, hazai, kézműves tartalmunkat fogyasztod.)
 !
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://mobilarena.hu/ajanlo/lapcsalad.html"])
 mobilarena.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
 mobilarena.hu##.anyagok:has(h4):has-text(Olvastad már, amihez hozzászólsz?)
+!
+mobilarena.hu##:xpath(//a[@href="http://veletech.hu"]/parent::li)
+mobilarena.hu##div[class="partners"]
+mobilarena.hu###thanks > .nohead.hlist > ul
+!
+||mobilarena.hu/dl/cnt/2017-04/3663/image.jpg$image
+||mobilarena.hu/dl/cnt/2017-11/3879/image.jpg$image
+||mobilarena.hu/design/sp/autoalkatreszek24_300x60.png$image
+||mobilarena.hu/design/sp/autoalkatreszonline24_300x60.png$image
+!
+mobilarena.hu##a[href="http://veletech.hu"]
+mobilarena.hu##a[href="https://prohardver.hu/nyeremenyjatek/oazis_computer-prohardver_nyeremenyjatek_fodij_egy.html"]
 !
 ||mobilarena.hu/design/*szponzor*.*
 !||mobilarena.hu/design/sp/forum-*.*
@@ -851,9 +896,6 @@ mobilarena.hu##[class*="adw"]
 mobilarena.hu##[class*="boxad "]
 mobilarena.hu##[class*="xabre"]
 mobilarena.hu##[id="bl_container"]
-mobilarena.hu###thanks > .nohead.hlist
-mobilarena.hu##.partners:nth-of-type(5)
-mobilarena.hu##.partners:nth-of-type(6)
 !
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
@@ -1186,6 +1228,11 @@ gamekapocs.hu/media/special/mcdonalds_201710/McD-Dupla-CH-gamekapocs_2.jpg
 !
 gamestar.hu##DIV[class="article_left_banner"]
 gamestar.hu##[id*="overlay"]
+gamestar.hu##.ad.box
+gamestar.hu##.ad-article-comment.ad
+!
+computerworld.hu##.ad.box
+computerworld.hu##.ad-article-end.ad
 !
 est.hu##[class*="_adv "]
 est.hu##[class*="banner"]
@@ -1242,14 +1289,26 @@ gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="ce
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.adverticum.net"])
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(script[src*="ad.doubleclick.net"])
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([class="anyag cikk"]):not([itemprop="articleBody"]):has(iframe[src*="m2mzona.hu/ads"])
-gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/ )
+!
+gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/)
+gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Köszönjük, hogy teljes értékű, hazai, kézműves tartalmunkat fogyasztod.)
 !
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):not([class="anyag cikk"]):has(script[src*="https://bs.serving-sys.com/BurstingPipe"])
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([class="msgblk"]):has(h4):has-text(Friss! Olvastad már?)
 !
+gamepod.hu##:xpath(//a[@href="http://veletech.hu"]/parent::li)
+gamepod.hu##div[class="partners"]
+gamepod.hu###thanks > .nohead.hlist > ul
+!
+||gamepod.hu/dl/cnt/2017-04/3663/image.jpg$image
+||gamepod.hu/dl/cnt/2017-11/3879/image.jpg$image
+||gamepod.hu/design/sp/autoalkatreszek24_300x60.png$image
+||gamepod.hu/design/sp/autoalkatreszonline24_300x60.png$image
+!
+gamepod.hu##a[href="http://veletech.hu"]
+gamepod.hu##a[href="https://prohardver.hu/nyeremenyjatek/oazis_computer-prohardver_nyeremenyjatek_fodij_egy.html"]
+!
 gamepod.hu##[class*="xabre"]
-gamepod.hu##.partners
-gamepod.hu###thanks > .nohead.hlist
 !
 hungliaonline.com##script:contains(adblocker)
 hungliaonline.com##.tqWLsnEEqeEw-bg
@@ -1268,4 +1327,11 @@ www.hestore.hu###cookiewarnbar
 rendszerigeny.hu###wallpaper
 rendszerigeny.hu##.wallpaper-link
 https://rendszerigeny.hu/wp-content/uploads/2014/02/msi-twin_frozr_6-beef_up_your_rig-frontpage_banner-1920x550.jpg
+!
+||video.vid4u.org/ninja/production
+https://i.cdn29.hu/apix_collect/ads
+pcworld.hu##.ad-skin-link
+pcworld.hu##.ad-skin-space
+pcworld.hu##.ad.box
+pcworld.hu##.ad-article-end.ad
 !
