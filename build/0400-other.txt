@@ -42,7 +42,6 @@ dictzone.com##P[id="a1"]
 dictzone.com##P[id="a2"]
 openspeedtest.com##script:contains(testadblock)
 ||*.hit.gemius.pl^
-||hu.hit.gemius.pl^
 ||2mdn.net^$third-party
 ||9klikk.com^$third-party
 ||a.adnium.com^
