@@ -677,13 +677,6 @@ noplaza.hu##[class*="banner"]
 ||prohardver.hu/design/*forum_*.*
 ||prohardver.hu/dl/cnt/*/*/background.jpg$image
 !
-prohardver.hu##h1 > a[href="http://www.netgo.hu"]
-prohardver.hu##h4:has-text(Hirdetés)
-prohardver.hu##p:has-text(Amikor a szoftver illeszkedik a meglévő üzleti folyamatokhoz.)
-prohardver.hu##span:has-text(PR)
-prohardver.hu##img[src="/dl/pr/1902.jpg"]
-prohardver.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
-!
 prohardver.hu##body > a[href="https://ipon.hu/search/shop/cherry"]
 prohardver.hu##body > a[href="http://www.bosch-career.hu/hu/hu/openday/openday_1.html"]
 prohardver.hu##body > a[href="http://www.lg.com/hu/projektorok"]
@@ -754,10 +747,11 @@ prohardver.hu##.anyagok:has(h4):has-text(Olvastad már, amihez hozzászólsz?)
 prohardver.hu##h1 > a[href="http://www.netgo.hu"]
 prohardver.hu##h4:has-text(Hirdetés)
 prohardver.hu##p:has-text(Amikor a szoftver illeszkedik a meglévő üzleti folyamatokhoz.)
-prohardver.hu##span:has-text(PR)
-prohardver.hu##img[src="/dl/pr/1902.jpg"]
 prohardver.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
 prohardver.hu##div[id="center"] > div:has(div):has(a):has-text(Mostantól bármely bank ügyfelének elérhető a mobilfizetés élménye.)
+!
+prohardver.hu##div[class="partners"]
+prohardver.hu###thanks > .nohead.hlist > ul
 !
 prohardver.hu###center > .cntcol > .cikk.anyag > .cntatc.defcnt > div
 prohardver.hu###center > .cntcol > .hir.anyag > .cntnew.defcnt > div
@@ -765,7 +759,6 @@ prohardver.hu###center > .msgblk > .anyagok
 prohardver.hu###page > .xabre728
 prohardver.hu###right>.xabrew300.box
 prohardver.hu###tabscnts1 > .tabs > .anyagok > .flc > div
-prohardver.hu##DIV[class="partners"]
 prohardver.hu##[class*="adw"]
 prohardver.hu##[class="adbox"]
 prohardver.hu##[class*="xabre"]
