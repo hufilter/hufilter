@@ -271,7 +271,7 @@ itcafe.hu##div:not([id="page"]):not([id="head"]):not([id="shadow"]):not([id="mai
 itcafe.hu##:xpath(//div[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]])
 itcafe.hu##:xpath(//div[div[p[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]]]])
 !
-itcafe.hu##:xpath(//div[h4[text()="Hirdetés"]])
+itcafe.hu##:xpath(//div[h4[text()="Hirdetés"]]/div[img[@src~="/dl/cnt/2017-11/3885/image.png"]])
 !
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/)
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Köszönjük, hogy teljes értékű, hazai, kézműves tartalmunkat fogyasztod.)
@@ -287,8 +287,9 @@ itcafe.hu##div[class="partners"]
 itcafe.hu###thanks > .nohead.hlist
 !
 !
-itcafe.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-itcafe.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
+!itcafe.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
+!itcafe.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
+!
 ||itcafe.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||itcafe.hu/dl/cnt/2017-11/3879/image.jpg$image
 ||itcafe.hu/design/sp/autoalkatreszek24_300x60.png$image
@@ -612,7 +613,7 @@ logout.hu##div:not([id="page"]):not([id="head"]):not([id="shadow"]):not([id="mai
 logout.hu##:xpath(//div[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]])
 logout.hu##:xpath(//div[div[p[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]]]])
 !
-logout.hu##:xpath(//div[h4[text()="Hirdetés"]])
+logout.hu##:xpath(//div[h4[text()="Hirdetés"]]/div[img[@src~="/dl/cnt/2017-11/3885/image.png"]])
 !
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/)
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Köszönjük, hogy teljes értékű, hazai, kézműves tartalmunkat fogyasztod.)
@@ -632,8 +633,8 @@ logout.hu##:xpath(//li[a[@href="http://veletech.hu"]])
 logout.hu##div[class="partners"]
 logout.hu###thanks > .nohead.hlist
 !
-logout.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-logout.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
+!logout.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
+!logout.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
 !
 ||logout.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||logout.hu/dl/cnt/2017-11/3879/image.jpg$image
@@ -784,7 +785,7 @@ prohardver.hu##div:not([id="page"]):not([id="head"]):not([id="shadow"]):not([id=
 prohardver.hu##:xpath(//div[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]])
 prohardver.hu##:xpath(//div[div[p[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]]]])
 !
-prohardver.hu##:xpath(//div[h4[text()="Hirdetés"]])
+prohardver.hu##:xpath(//div[h4[text()="Hirdetés"]]/div[img[@src~="/dl/cnt/2017-11/3885/image.png"]])
 !
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://prohardver.hu/ajanlo/lapcsalad.html"])
 !
@@ -810,8 +811,8 @@ prohardver.hu##:xpath(//li[a[@href="http://veletech.hu"]])
 prohardver.hu##div[class="partners"]
 prohardver.hu###thanks > .nohead.hlist
 !
-prohardver.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-prohardver.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
+!prohardver.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
+!prohardver.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
 !
 ||prohardver.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||prohardver.hu/dl/cnt/2017-11/3879/image.jpg$image
@@ -908,7 +909,7 @@ mobilarena.hu##div:not([id="page"]):not([id="head"]):not([id="shadow"]):not([id=
 mobilarena.hu##:xpath(//div[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]])
 mobilarena.hu##:xpath(//div[div[p[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]]]])
 !
-mobilarena.hu##:xpath(//div[h4[text()="Hirdetés"]])
+mobilarena.hu##:xpath(//div[h4[text()="Hirdetés"]]/div[img[@src~="/dl/cnt/2017-11/3885/image.png"]])
 !
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://mobilarena.hu/ajanlo/lapcsalad.html"])
 !
@@ -930,8 +931,8 @@ mobilarena.hu##:xpath(//li[a[@href="http://veletech.hu"]])
 mobilarena.hu##div[class="partners"]
 mobilarena.hu###thanks > .nohead.hlist
 !
-mobilarena.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-mobilarena.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
+!mobilarena.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
+!mobilarena.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
 !
 ||mobilarena.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||mobilarena.hu/dl/cnt/2017-11/3879/image.jpg$image
@@ -1348,7 +1349,7 @@ gamepod.hu##div:not([id="page"]):not([id="head"]):not([id="shadow"]):not([id="ma
 gamepod.hu##:xpath(//div[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]])
 gamepod.hu##:xpath(//div[div[p[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]]]])
 !
-gamepod.hu##:xpath(//div[h4[text()="Hirdetés"]])
+gamepod.hu##:xpath(//div[h4[text()="Hirdetés"]]/div[img[@src~="/dl/cnt/2017-11/3885/image.png"]])
 !
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/)
 gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Köszönjük, hogy teljes értékű, hazai, kézműves tartalmunkat fogyasztod.)
@@ -1363,8 +1364,8 @@ gamepod.hu##:xpath(//li[a[@href="http://veletech.hu"]])
 gamepod.hu##div[class="partners"]
 gamepod.hu###thanks > .nohead.hlist
 !
-gamepod.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-gamepod.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
+!gamepod.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
+!gamepod.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
 !
 ||gamepod.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||gamepod.hu/dl/cnt/2017-11/3879/image.jpg$image
