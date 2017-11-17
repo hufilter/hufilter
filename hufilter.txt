@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201711162345
-! Checksum: JQ1pTGTZodL+FQQwtP470g
+! Version: 201711171759
+! Checksum: AY16yEO3dYrs32itqFTsKg
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -327,10 +327,9 @@ itcafe.hu##div:not([id="page"]):not([id="head"]):not([id="shadow"]):not([id="mai
 itcafe.hu##:xpath(//div[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]])
 itcafe.hu##:xpath(//div[div[p[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]]]])
 !
-itcafe.hu##:xpath(//div[h4[text()="Hirdetés"]])
+itcafe.hu##:xpath(//div[h4[text()="Hirdetés"]]/div[img[@src!="/dl/cnt/2017-11/3885/image.png"]])
 !
-itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/)
-itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Köszönjük, hogy teljes értékű, hazai, kézműves tartalmunkat fogyasztod.)
+itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó,):has-text(egy):has-text(reklámszűrő!)
 !
 itcafe.hu##h4:has-text(Hirdetés)
 itcafe.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
@@ -343,8 +342,9 @@ itcafe.hu##div[class="partners"]
 itcafe.hu###thanks > .nohead.hlist
 !
 !
-itcafe.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-itcafe.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
+!itcafe.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
+!itcafe.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
+!
 ||itcafe.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||itcafe.hu/dl/cnt/2017-11/3879/image.jpg$image
 ||itcafe.hu/design/sp/autoalkatreszek24_300x60.png$image
@@ -668,10 +668,9 @@ logout.hu##div:not([id="page"]):not([id="head"]):not([id="shadow"]):not([id="mai
 logout.hu##:xpath(//div[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]])
 logout.hu##:xpath(//div[div[p[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]]]])
 !
-logout.hu##:xpath(//div[h4[text()="Hirdetés"]])
+logout.hu##:xpath(//div[h4[text()="Hirdetés"]]/div[img[@src!="/dl/cnt/2017-11/3885/image.png"]])
 !
-logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/)
-logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Köszönjük, hogy teljes értékű, hazai, kézműves tartalmunkat fogyasztod.)
+logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó,):has-text(egy):has-text(reklámszűrő!)
 !
 logout.hu##h4:has-text(Hirdetés)
 logout.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
@@ -840,12 +839,11 @@ prohardver.hu##div:not([id="page"]):not([id="head"]):not([id="shadow"]):not([id=
 prohardver.hu##:xpath(//div[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]])
 prohardver.hu##:xpath(//div[div[p[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]]]])
 !
-prohardver.hu##:xpath(//div[h4[text()="Hirdetés"]])
+prohardver.hu##:xpath(//div[h4[text()="Hirdetés"]]/div[img[@src!="/dl/cnt/2017-11/3885/image.png"]])
 !
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://prohardver.hu/ajanlo/lapcsalad.html"])
 !
-prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/)
-prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Köszönjük, hogy teljes értékű, hazai, kézműves tartalmunkat fogyasztod.)
+prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó,):has-text(egy):has-text(reklámszűrő!)
 !
 prohardver.hu##h4:has-text(Hirdetés)
 prohardver.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
@@ -866,8 +864,8 @@ prohardver.hu##:xpath(//li[a[@href="http://veletech.hu"]])
 prohardver.hu##div[class="partners"]
 prohardver.hu###thanks > .nohead.hlist
 !
-prohardver.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-prohardver.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
+!prohardver.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
+!prohardver.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
 !
 ||prohardver.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||prohardver.hu/dl/cnt/2017-11/3879/image.jpg$image
@@ -964,12 +962,11 @@ mobilarena.hu##div:not([id="page"]):not([id="head"]):not([id="shadow"]):not([id=
 mobilarena.hu##:xpath(//div[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]])
 mobilarena.hu##:xpath(//div[div[p[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]]]])
 !
-mobilarena.hu##:xpath(//div[h4[text()="Hirdetés"]])
+mobilarena.hu##:xpath(//div[h4[text()="Hirdetés"]]/div[img[@src!="/dl/cnt/2017-11/3885/image.png"]])
 !
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://mobilarena.hu/ajanlo/lapcsalad.html"])
 !
-mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/)
-mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Köszönjük, hogy teljes értékű, hazai, kézműves tartalmunkat fogyasztod.)
+mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó,):has-text(egy):has-text(reklámszűrő!)
 !
 mobilarena.hu##h4:has-text(Hirdetés)
 mobilarena.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
@@ -986,8 +983,8 @@ mobilarena.hu##:xpath(//li[a[@href="http://veletech.hu"]])
 mobilarena.hu##div[class="partners"]
 mobilarena.hu###thanks > .nohead.hlist
 !
-mobilarena.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-mobilarena.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
+!mobilarena.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
+!mobilarena.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
 !
 ||mobilarena.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||mobilarena.hu/dl/cnt/2017-11/3879/image.jpg$image
@@ -1100,6 +1097,7 @@ life-style.hu##DIV[class*="banner"]
 !
 life.hu##[id="pr-box"]
 life.hu##[id^="szponz-"]
+life.hu###beuszoAjanlo
 !
 lifemagazin.hu##[class*="banner"]
 lifemagazin.hu##[id*="banner"]
@@ -1333,11 +1331,14 @@ gamekapocs.hu###background_ad_top
 gamekapocs.hu###background_ad_left
 gamekapocs.hu###background_ad_right
 gamekapocs.hu/media/special/mcdonalds_201710/McD-Dupla-CH-gamekapocs_2.jpg
+||www.gamekapocs.hu/media/special/psplus_201711/GAMEKAPOCS_skin_1920x900.jpg$image
+||www.gamekapocs.hu/media/img/logo_gmedia.png$image
 !
 gamestar.hu##DIV[class="article_left_banner"]
 gamestar.hu##[id*="overlay"]
 gamestar.hu##.ad.box
 gamestar.hu##.ad-article-comment.ad
+gamestar.hu##.ad-article-inside.ad
 !
 computerworld.hu##.ad.box
 computerworld.hu##.ad-article-end.ad
@@ -1404,10 +1405,9 @@ gamepod.hu##div:not([id="page"]):not([id="head"]):not([id="shadow"]):not([id="ma
 gamepod.hu##:xpath(//div[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]])
 gamepod.hu##:xpath(//div[div[p[a[contains(@href, 'prohardver.hu/nyeremenyjatek')]]]])
 !
-gamepod.hu##:xpath(//div[h4[text()="Hirdetés"]])
+gamepod.hu##:xpath(//div[h4[text()="Hirdetés"]]/div[img[@src!="/dl/cnt/2017-11/3885/image.png"]])
 !
-gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó, egy reklámszűrő! :/)
-gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Köszönjük, hogy teljes értékű, hazai, kézműves tartalmunkat fogyasztod.)
+gamepod.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):has(h1):has-text(Ó,):has-text(egy):has-text(reklámszűrő!)
 !
 gamepod.hu##h4:has-text(Hirdetés)
 gamepod.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
@@ -1419,8 +1419,8 @@ gamepod.hu##:xpath(//li[a[@href="http://veletech.hu"]])
 gamepod.hu##div[class="partners"]
 gamepod.hu###thanks > .nohead.hlist
 !
-gamepod.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-gamepod.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
+!gamepod.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
+!gamepod.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
 !
 ||gamepod.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||gamepod.hu/dl/cnt/2017-11/3879/image.jpg$image
