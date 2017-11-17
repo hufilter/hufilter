@@ -372,6 +372,8 @@ startlap.hu##[class*="peelgame"]
 startlap.hu##[class^="adact"]
 startlap.hu##[id*="Advert"]
 !
+www.life.hu###beuszoAjanlo
+!
 linkcenter.hu##[class*="adserver"]
 linkcenter.hu##[id*="hirdetes"]
 !
@@ -1278,11 +1280,14 @@ gamekapocs.hu###background_ad_top
 gamekapocs.hu###background_ad_left
 gamekapocs.hu###background_ad_right
 gamekapocs.hu/media/special/mcdonalds_201710/McD-Dupla-CH-gamekapocs_2.jpg
+||www.gamekapocs.hu/media/special/psplus_201711/GAMEKAPOCS_skin_1920x900.jpg$image
+||www.gamekapocs.hu/media/img/logo_gmedia.png$image
 !
 gamestar.hu##DIV[class="article_left_banner"]
 gamestar.hu##[id*="overlay"]
 gamestar.hu##.ad.box
 gamestar.hu##.ad-article-comment.ad
+www.gamestar.hu##.ad-article-inside.ad
 !
 computerworld.hu##.ad.box
 computerworld.hu##.ad-article-end.ad
