@@ -1406,6 +1406,6 @@ pcworld.hu##.ad.box
 pcworld.hu##.ad-article-end.ad
 pcworld.hu##.ad-header-after.ad.container
 !
-prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[h1[text()[contains(., 'Ó')]]]/p[a[@href="http://prohardver.hu/teszt/kerjuk_kapcsold_ki_az_adblockert/a_helyzet.html"]]])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##div[id="center"]:not([class="flc"])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[contains(@href, 'lg.com/hu/monitorok/lg-34UC79G')]]])
 !
