@@ -879,6 +879,7 @@ mobilarena.hu##body > a[href^="https://www.speedshop.hu/kereses/pag_egyszerukere
 mobilarena.hu##body > a[href="https://www.speedshop.hu/huawei-mate-10pro-elorendeles-hm10pro.html"]
 mobilarena.hu##body > a[href="http://www.htc.com/hu/go/buy-htc-u11/"]
 mobilarena.hu##body > a[href="https://www.nokia.com/hu_hu/phones/nokia-8"]
+mobilarena.hu##body > a[href="https://www.speedshop.hu/black-friday-2017-hbfday.html"]
 mobilarena.hu##a[href^="https://bank360.hu/bank360/kattintas"]
 mobilarena.hu##a[href^="http://www.gearbest.com/m-promotion-active-317.html"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
@@ -892,6 +893,7 @@ https://mobilarena.hu/dl/cnt/2017-10/3830
 https://mobilarena.hu/dl/cnt/2017-11/3847
 https://mobilarena.hu/dl/cnt/2017-11/3869
 https://mobilarena.hu/dl/cnt/2017-11/3880
+https://mobilarena.hu/dl/cnt/2017-11/3894
 !
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):not([class="anyag cikk"]):has(script[src*="https://bs.serving-sys.com/BurstingPipe"])
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([id="foot"]):has(a[href="http://www.xprotector.hu"])
@@ -1402,6 +1404,8 @@ pcworld.hu##.ad-skin-link
 pcworld.hu##.ad-skin-space
 pcworld.hu##.ad.box
 pcworld.hu##.ad-article-end.ad
+pcworld.hu##.ad-header-after.ad.container
 !
-prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[h1[text()[contains(., ':/')]]]/p[a[@href="http://prohardver.hu/teszt/kerjuk_kapcsold_ki_az_adblockert/a_helyzet.html"]]/parent::div/parent::div)
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[h1[text()[contains(., 'Ó')]]]/p[a[@href="http://prohardver.hu/teszt/kerjuk_kapcsold_ki_az_adblockert/a_helyzet.html"]]])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[contains(@href, 'lg.com/hu/monitorok/lg-34UC79G')]]])
 !
