@@ -484,8 +484,6 @@ techline.hu##DIV[class="adcloud"]
 techline.hu##[class*="ads"]
 techline.hu##[id*="_ad"]
 !
-prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center"]/div[p[a[starts-with(@href, 'https://prohardver.hu/teszt/')]]]/parent::div)
-!
 magyarhirlap.hu##[id*="banner"]
 magyarhirlap.hu##[class*="banner"]
 !
@@ -1408,6 +1406,7 @@ pcworld.hu##.ad.box
 pcworld.hu##.ad-article-end.ad
 pcworld.hu##.ad-header-after.ad.container
 !
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center"]/div[p[a]]/parent::div)
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[contains(@href, 'lg.com/hu/monitorok/lg-34UC79G')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[contains(@href, 'http://iknowit.hu')]]])
 !
