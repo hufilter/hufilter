@@ -27,6 +27,7 @@ builder.hu##[class*="banner"]
 c-press.hu##[id="bef_mainbody_mod_2"]
 csongradihirek.hu##[class*="banner"]
 dehir.hu##[class*="advert"]
+demokrata.hu##.region-header.region
 deres.tv##[class*="banner"]
 dimo.hu##[class*="banner"]
 edubase.hu##.cc-bottom.cc-theme-edgeless.cc-type-info.cc-banner.cc-window

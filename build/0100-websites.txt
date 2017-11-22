@@ -1122,13 +1122,13 @@ kuruc.info##[style="margin-left:auto;margin-right:auto;width:980px;text-align:ce
 !
 oprend.hu##[class="ad ad-blocked"]
 oprend.hu##[class="ad p-t-10 ad-blocked"]
+oprend.hu##[class*="ad-warning"]
 !
 ! utkozik a layer kezelessel - ideiglenesen inaktivalva
 !profession.hu###jqi
 !profession.hu###jqifade
 profession.hu###twister-banner
 !
-! Infopapa.hu reklammentesites:
 infopapa.hu##[class="banner_300_600"]
 infopapa.hu##[class="banner_468_120"]
 !
