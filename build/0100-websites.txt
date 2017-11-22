@@ -484,6 +484,8 @@ techline.hu##DIV[class="adcloud"]
 techline.hu##[class*="ads"]
 techline.hu##[id*="_ad"]
 !
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center"]/div[p[a[starts-with(@href, 'https://prohardver.hu/teszt/')]]]/parent::div)
+!
 magyarhirlap.hu##[id*="banner"]
 magyarhirlap.hu##[class*="banner"]
 !
