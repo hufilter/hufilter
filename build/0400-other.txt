@@ -103,6 +103,7 @@ openspeedtest.com##script:contains(testadblock)
 ||bongacash.com^$third-party
 ||boxzsak.kirowski.com^
 ||brostraffic.com^
+||bs.serving-sys.com^
 ||calivary.com^$third-party
 ||choice.microsoft.com^
 ||clickadu.com^$third-party
