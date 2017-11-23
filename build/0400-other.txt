@@ -141,6 +141,7 @@ openspeedtest.com##script:contains(testadblock)
 ||klix.hu^$third-party
 ||lo.v.liveperson.net^$third-party
 ||loading-delivery2.com^
+||m2mzona.hu/ads^$third-party
 ||match.rundsp.com^$third-party
 ||megaclick.com/ad.code*$third-party
 ||myroitracking.com/newServing/
