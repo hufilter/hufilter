@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201711220952
-! Checksum: nK26oMUlTMNxCX56AFiwQg
+! Version: 201711230831
+! Checksum: wdLQO5T66X/VSAsBWyU18g
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1837,6 +1837,7 @@ openspeedtest.com##script:contains(testadblock)
 ||bongacash.com^$third-party
 ||boxzsak.kirowski.com^
 ||brostraffic.com^
+||bs.serving-sys.com^
 ||calivary.com^$third-party
 ||choice.microsoft.com^
 ||clickadu.com^$third-party
@@ -1873,6 +1874,7 @@ openspeedtest.com##script:contains(testadblock)
 ||klix.hu^$third-party
 ||lo.v.liveperson.net^$third-party
 ||loading-delivery2.com^
+||m2mzona.hu/ads^$third-party
 ||match.rundsp.com^$third-party
 ||megaclick.com/ad.code*$third-party
 ||myroitracking.com/newServing/
