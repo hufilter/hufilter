@@ -103,6 +103,7 @@ openspeedtest.com##script:contains(testadblock)
 ||bongacash.com^$third-party
 ||boxzsak.kirowski.com^
 ||brostraffic.com^
+||bs.serving-sys.com^
 ||calivary.com^$third-party
 ||choice.microsoft.com^
 ||clickadu.com^$third-party
@@ -140,6 +141,7 @@ openspeedtest.com##script:contains(testadblock)
 ||klix.hu^$third-party
 ||lo.v.liveperson.net^$third-party
 ||loading-delivery2.com^
+||m2mzona.hu/ads^$third-party
 ||match.rundsp.com^$third-party
 ||megaclick.com/ad.code*$third-party
 ||myroitracking.com/newServing/
