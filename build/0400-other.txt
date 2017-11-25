@@ -128,6 +128,7 @@ openspeedtest.com##script:contains(testadblock)
 ||fruitflan.com
 ||fwmrm.net^
 ||google-analytics.com^$third-party
+||googletagservices.com^
 ||gravity.com^$third-party
 ||gstatic.com/ads/
 ||hitelkereso.hu^$third-party
