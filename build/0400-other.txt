@@ -1,7 +1,7 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!          Trackerek, külföldi reklámszerverek vegyesen              !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+!
 ###_iph_cp_popup
 ###abAlert
 ###adBlockAlert
@@ -34,13 +34,16 @@
 ##[id^="aswift_"]
 ##[name*="google_ads"]
 ##div[class="canvasRecommended"]
+!
 /gemius.js^
 /gemius.min.js^
 /xgemius.js^
 /xgemius.min.js^
+!
 dictzone.com##P[id="a1"]
 dictzone.com##P[id="a2"]
 openspeedtest.com##script:contains(testadblock)
+!
 ||*.hit.gemius.pl^
 ||2mdn.net^$third-party
 ||9klikk.com^$third-party

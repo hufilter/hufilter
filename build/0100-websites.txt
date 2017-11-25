@@ -30,8 +30,10 @@ index.hu##[class*="Advert"]
 index.hu##A[id="closeWindow"]
 index.hu##[class*="ad-container"]
 index.hu##[class="glr_advert"]
+index.hu##[class="docWriteAdverticum"]
 forum.index.hu##TABLE[id="site_header"]
 forum.index.hu###rightcoltd
+forum.index.hu##[id="ot2015"]
 index.hu,velvet.hu,totalcar.hu##.travelo-box
 index.hu,velvet.hu,totalcar.hu##.shopline-box
 index.hu,velvet.hu##.flash-fullscreen-wrapper
@@ -80,7 +82,7 @@ stylemagazin.hu##[id*="banner"]
 !!!hvg.hu##[class="hvg-layer"]
 !
 hvg.hu##IFRAME[id="video"]
-hvg.hu##[class*="adsense-"]
+hvg.hu##[class*="adsense"]
 hvg.hu##[class*="adtype-"]
 hvg.hu##[class="adcaption"]
 hvg.hu##[class="advert-item"]
@@ -215,6 +217,7 @@ mandiner.hu##[class*="hirdetes"]
 ||port-network.com/sponsoration_elements/
 port.hu##[class*="_spon"]
 port.hu##DIV[class="articleMetadata"]
+port.hu##[class="advert fix-advert"]
 !
 pharmaonline.hu##[class*="contentBanner"]
 pharmaonline.hu##[class="justClassBanner"]
@@ -1323,6 +1326,7 @@ bacsmegye.hu##[id="total"]
 !
 168ora.hu##[class^="ads"]
 168ora.hu##[id*="etarget"]
+168ora.hu##[class*="banner"]
 !
 adozona.hu##[class*="ads"]
 adozona.hu##[class="az-layer"]
@@ -1336,6 +1340,12 @@ kosarsport.hu##body>a:first-child
 ||freewaresoftwarenews.blogspot.$first-party,inline-script
 freewaresoftwarenews.blogspot.com##[id*="HTML"]
 freewaresoftwarenews.blogspot.com##[id="column-left-inner"]
+!
+blogspot.hu##[id="fbox-background"]
+!
+blogstar.hu##DIV[id="lightview1"]
+blogstar.hu##[class*="banner"]
+blogstar.hu##[class*="popupBanner"]
 !
 https://gamepod.hu/dl/cnt/2017-10/3837/
 !
@@ -1390,6 +1400,9 @@ hungliaonline.com##.tqWLsnEEqeEw-bg
 !
 budapestpark.hu###cooker_container
 budapestpark.hu##.banner_main_page_wrapper
+!
+privatbankar.hu##[class="lead_alatti_txt"]
+privatbankar.hu##[src*="/banner/"]
 !
 ||www.hestore.hu/pic/cookie.png$image
 www.hestore.hu###cookiewarnbar

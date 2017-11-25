@@ -30,6 +30,7 @@ estone.cc###kozep_hatter:nth-of-type(12)
 ||estone.cc/pic/bannerek/$image
 !
 !
+teracod.net##[href*="rosszlanyok.hu"]
 
 
 

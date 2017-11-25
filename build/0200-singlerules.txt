@@ -2,7 +2,8 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!    Egyszabalyos oldalak          !!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+!
+!
 5mp.eu##DIV[id="alsobox"]
 5perc.es##[class*="banner"]
 CegMarketing.hu/banner*
@@ -44,23 +45,28 @@ filmoldal.hu##DIV[class*="reklam"]
 firstman.hu##[class*="banner"]
 galamus.hu##[class*="banner"]
 gamepod.hu###right > .xabrew300.box
+gentleman.hu##[class="roadblockcont"]
 gigasex.hu/bannerek/
 gloria.tv##[id*="advert"]
 gphirek.hu##DIV.ad
 gportal.hu##[class*="banner"]
 gumiszoba.com##[class="wpcnt"]
+gyartastrend.hu##[class*="contentBanner"]
 gyoricegregiszter.hu##[class*="banner"]
+gyorplusz.hu##[class*="banner"]
 hajokonyha.hu##[class*="hirdetes"]
 hatarido-szamitas.hu##[class="szkozepkis"]
 haziallat.hu##[id*="_ads"]
 helyitipp.hu##[id*="hirdet"]
 hetek.hu##[id*="popup"]
 hir6.hu##[class*="banner"]
+hirado.hu##[class="video_preroll type_swf"]
 hircsarda.hu/ads/
 hirextra.hu##[class*="billboard"]
 hirkosar.com###fanback
 hiros.hu##[class="banner_widget"]
 hirposta.hu##[id*="banner"]
+hirtv.hu##[class*="-ad-container"]
 hoc.hu##P[class*="banner"]
 hogyankell.hu##[id^="advert"]
 hotdog.hu##DIV[id="tetszett"]
@@ -85,7 +91,6 @@ kaposvarmost.hu##[class*="banner"]
 kemma.hu##[class^="ad "]
 ketkes.com##A[href^="http://goo.gl"]
 kezilabda.hu##[id*="banner"]
-www.kh.hu###cookieAcceptanceContainer
 kislexikon.hu/swf/
 kronika.ro##[class*="banner"]
 lajkold.hu##[class^="ad "]
@@ -172,8 +177,10 @@ vilaglato.info##.state-fb-pop-up
 vs.hu##[class="no_banner"]
 wasabi.hu##.footprint_cookie
 webforditas.hu##[id*="AdFrame"]
+www.kh.hu###cookieAcceptanceContainer
 yayo.hu/static/banner/
 zene.hu##DIV[class="etarget"]
+!
 ||ad.kapos.hu
 ||ad.napilapcsoport.hu
 ||ad.pphungary.hu

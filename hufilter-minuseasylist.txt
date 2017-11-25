@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201711251558
-! Checksum: pWF/1SgVDW/JVJMHXk3eBQ
+! Version: 201711251755
+! Checksum: RH1n/V2P2pkdPh+W7fuFWA
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -86,8 +86,10 @@ index.hu##[class*="Advert"]
 index.hu##A[id="closeWindow"]
 index.hu##[class*="ad-container"]
 index.hu##[class="glr_advert"]
+index.hu##[class="docWriteAdverticum"]
 forum.index.hu##TABLE[id="site_header"]
 forum.index.hu###rightcoltd
+forum.index.hu##[id="ot2015"]
 index.hu,velvet.hu,totalcar.hu##.travelo-box
 index.hu,velvet.hu,totalcar.hu##.shopline-box
 index.hu,velvet.hu##.flash-fullscreen-wrapper
@@ -136,7 +138,7 @@ stylemagazin.hu##[id*="banner"]
 !!!hvg.hu##[class="hvg-layer"]
 !
 hvg.hu##IFRAME[id="video"]
-hvg.hu##[class*="adsense-"]
+hvg.hu##[class*="adsense"]
 hvg.hu##[class*="adtype-"]
 hvg.hu##[class="adcaption"]
 hvg.hu##[class="advert-item"]
@@ -271,6 +273,7 @@ mandiner.hu##[class*="hirdetes"]
 ||port-network.com/sponsoration_elements/
 port.hu##[class*="_spon"]
 port.hu##DIV[class="articleMetadata"]
+port.hu##[class="advert fix-advert"]
 !
 pharmaonline.hu##[class*="contentBanner"]
 pharmaonline.hu##[class="justClassBanner"]
@@ -1379,6 +1382,7 @@ bacsmegye.hu##[id="total"]
 !
 168ora.hu##[class^="ads"]
 168ora.hu##[id*="etarget"]
+168ora.hu##[class*="banner"]
 !
 adozona.hu##[class*="ads"]
 adozona.hu##[class="az-layer"]
@@ -1392,6 +1396,12 @@ kosarsport.hu##body>a:first-child
 ||freewaresoftwarenews.blogspot.$first-party,inline-script
 freewaresoftwarenews.blogspot.com##[id*="HTML"]
 freewaresoftwarenews.blogspot.com##[id="column-left-inner"]
+!
+blogspot.hu##[id="fbox-background"]
+!
+blogstar.hu##DIV[id="lightview1"]
+blogstar.hu##[class*="banner"]
+blogstar.hu##[class*="popupBanner"]
 !
 https://gamepod.hu/dl/cnt/2017-10/3837/
 !
@@ -1447,6 +1457,9 @@ hungliaonline.com##.tqWLsnEEqeEw-bg
 budapestpark.hu###cooker_container
 budapestpark.hu##.banner_main_page_wrapper
 !
+privatbankar.hu##[class="lead_alatti_txt"]
+privatbankar.hu##[src*="/banner/"]
+!
 ||www.hestore.hu/pic/cookie.png$image
 www.hestore.hu###cookiewarnbar
 !
@@ -1478,7 +1491,8 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[c
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!    Egyszabalyos oldalak          !!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+!
+!
 5mp.eu##DIV[id="alsobox"]
 5perc.es##[class*="banner"]
 CegMarketing.hu/banner*
@@ -1520,23 +1534,28 @@ filmoldal.hu##DIV[class*="reklam"]
 firstman.hu##[class*="banner"]
 galamus.hu##[class*="banner"]
 gamepod.hu###right > .xabrew300.box
+gentleman.hu##[class="roadblockcont"]
 gigasex.hu/bannerek/
 gloria.tv##[id*="advert"]
 gphirek.hu##DIV.ad
 gportal.hu##[class*="banner"]
 gumiszoba.com##[class="wpcnt"]
+gyartastrend.hu##[class*="contentBanner"]
 gyoricegregiszter.hu##[class*="banner"]
+gyorplusz.hu##[class*="banner"]
 hajokonyha.hu##[class*="hirdetes"]
 hatarido-szamitas.hu##[class="szkozepkis"]
 haziallat.hu##[id*="_ads"]
 helyitipp.hu##[id*="hirdet"]
 hetek.hu##[id*="popup"]
 hir6.hu##[class*="banner"]
+hirado.hu##[class="video_preroll type_swf"]
 hircsarda.hu/ads/
 hirextra.hu##[class*="billboard"]
 hirkosar.com###fanback
 hiros.hu##[class="banner_widget"]
 hirposta.hu##[id*="banner"]
+hirtv.hu##[class*="-ad-container"]
 hoc.hu##P[class*="banner"]
 hogyankell.hu##[id^="advert"]
 hotdog.hu##DIV[id="tetszett"]
@@ -1561,7 +1580,6 @@ kaposvarmost.hu##[class*="banner"]
 kemma.hu##[class^="ad "]
 ketkes.com##A[href^="http://goo.gl"]
 kezilabda.hu##[id*="banner"]
-www.kh.hu###cookieAcceptanceContainer
 kislexikon.hu/swf/
 kronika.ro##[class*="banner"]
 lajkold.hu##[class^="ad "]
@@ -1648,8 +1666,10 @@ vilaglato.info##.state-fb-pop-up
 vs.hu##[class="no_banner"]
 wasabi.hu##.footprint_cookie
 webforditas.hu##[id*="AdFrame"]
+www.kh.hu###cookieAcceptanceContainer
 yayo.hu/static/banner/
 zene.hu##DIV[class="etarget"]
+!
 ||ad.kapos.hu
 ||ad.napilapcsoport.hu
 ||ad.pphungary.hu
@@ -1733,6 +1753,7 @@ estone.cc###kozep_hatter:nth-of-type(12)
 ||estone.cc/pic/bannerek/$image
 !
 !
+teracod.net##[href*="rosszlanyok.hu"]
 
 
 
@@ -1741,7 +1762,7 @@ estone.cc###kozep_hatter:nth-of-type(12)
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!          Trackerek, külföldi reklámszerverek vegyesen              !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
+!
 ###_iph_cp_popup
 ###abAlert
 ###adBlockAlert
@@ -1774,13 +1795,16 @@ estone.cc###kozep_hatter:nth-of-type(12)
 ##[id^="aswift_"]
 ##[name*="google_ads"]
 ##div[class="canvasRecommended"]
+!
 /gemius.js^
 /gemius.min.js^
 /xgemius.js^
 /xgemius.min.js^
+!
 dictzone.com##P[id="a1"]
 dictzone.com##P[id="a2"]
 openspeedtest.com##script:contains(testadblock)
+!
 ||*.hit.gemius.pl^
 ||2mdn.net^$third-party
 ||9klikk.com^$third-party
