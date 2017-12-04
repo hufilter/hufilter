@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201712012338
-! Checksum: vwrKc6kPaJ5QDtl2gcr9pA
+! Version: 201712041705
+! Checksum: 9n2s2w7vWnZWue4llPcwmg
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -837,6 +837,9 @@ https://prohardver.hu/dl/cnt/2017-10/3804
 https://prohardver.hu/dl/cnt/2017-10/3816
 https://prohardver.hu/dl/cnt/2017-10/3839
 https://prohardver.hu/dl/cnt/2017-11/3802
+https://prohardver.hu/dl/cnt/2017-11/3866
+https://prohardver.hu/dl/cnt/2017-11/3867
+https://prohardver.hu/dl/cnt/2017-11/3868
 https://prohardver.hu/dl/cnt/2017-11/3890
 https://prohardver.hu/dl/cnt/2017-11/3903
 https://prohardver.hu/dl/cnt/2017-11/3905
@@ -969,6 +972,7 @@ https://mobilarena.hu/dl/cnt/2017-11/3862
 https://mobilarena.hu/dl/cnt/2017-11/3869
 https://mobilarena.hu/dl/cnt/2017-11/3880
 https://mobilarena.hu/dl/cnt/2017-11/3894
+https://mobilarena.hu/dl/cnt/2017-12/3911
 !
 https://mobilarena.hu/dl/sp/
 https://mobilarena.hu/dl/pr/
@@ -1501,6 +1505,7 @@ pcworld.hu##.ad-header-after.ad.container
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.spleft
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.spright
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##body > style
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div[@class="defcnt" and @style]/p[a]/parent::div/parent::div/parent::div/parent::div)
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div[@class="defcnt cntnew" and @style]/p[a]/parent::div/parent::div/parent::div/parent::div)
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[script[contains(@src, 'bs.serving-sys.com')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[contains(@href, 'bs.serving-sys.com')]]])
