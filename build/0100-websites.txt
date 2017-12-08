@@ -1085,7 +1085,7 @@ ingatlanmenedzser.hu##[id*="ad_"]
 !
 bien.hu##[class*="hirdetes"]
 bien.hu##[id*="banner"]
-bien.hu##[class*="banner"]
+!bien.hu##[class*="banner"]
 www.bien.hu###fejlec_banner_hatter
 www.bien.hu##.fixed.tapeta.hidden-xs > a[href="/redirect/hatter/220"]
 !
