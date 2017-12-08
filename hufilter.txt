@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201712041705
-! Checksum: 9n2s2w7vWnZWue4llPcwmg
+! Version: 201712082047
+! Checksum: tknqSHI5LM/Fdibe8v5VuQ
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1141,7 +1141,7 @@ ingatlanmenedzser.hu##[id*="ad_"]
 !
 bien.hu##[class*="hirdetes"]
 bien.hu##[id*="banner"]
-bien.hu##[class*="banner"]
+!bien.hu##[class*="banner"]
 www.bien.hu###fejlec_banner_hatter
 www.bien.hu##.fixed.tapeta.hidden-xs > a[href="/redirect/hatter/220"]
 !
