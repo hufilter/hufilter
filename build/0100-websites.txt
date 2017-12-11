@@ -760,6 +760,7 @@ https://prohardver.hu/dl/cnt/2016-11/3547
 https://prohardver.hu/dl/cnt/2016-11/3542
 https://prohardver.hu/dl/cnt/2017-02/3626
 https://prohardver.hu/dl/cnt/2017-04/3644
+https://prohardver.hu/dl/cnt/2017-04/3663
 https://prohardver.hu/dl/cnt/2017-04/3688
 https://prohardver.hu/dl/cnt/2017-05/3696
 https://prohardver.hu/dl/cnt/2017-05/3701
@@ -780,6 +781,7 @@ https://prohardver.hu/dl/cnt/2017-10/3751
 https://prohardver.hu/dl/cnt/2017-10/3804
 https://prohardver.hu/dl/cnt/2017-10/3816
 https://prohardver.hu/dl/cnt/2017-10/3839
+https://prohardver.hu/dl/cnt/2017-11/3626
 https://prohardver.hu/dl/cnt/2017-11/3802
 https://prohardver.hu/dl/cnt/2017-11/3866
 https://prohardver.hu/dl/cnt/2017-11/3867
