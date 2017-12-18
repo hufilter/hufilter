@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201712082047
-! Checksum: tknqSHI5LM/Fdibe8v5VuQ
+! Version: 201712181746
+! Checksum: G0DvlNj5sck9C8VyEjVzJg
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -816,6 +816,7 @@ https://prohardver.hu/dl/cnt/2016-11/3547
 https://prohardver.hu/dl/cnt/2016-11/3542
 https://prohardver.hu/dl/cnt/2017-02/3626
 https://prohardver.hu/dl/cnt/2017-04/3644
+https://prohardver.hu/dl/cnt/2017-04/3663
 https://prohardver.hu/dl/cnt/2017-04/3688
 https://prohardver.hu/dl/cnt/2017-05/3696
 https://prohardver.hu/dl/cnt/2017-05/3701
@@ -836,6 +837,7 @@ https://prohardver.hu/dl/cnt/2017-10/3751
 https://prohardver.hu/dl/cnt/2017-10/3804
 https://prohardver.hu/dl/cnt/2017-10/3816
 https://prohardver.hu/dl/cnt/2017-10/3839
+https://prohardver.hu/dl/cnt/2017-11/3626
 https://prohardver.hu/dl/cnt/2017-11/3802
 https://prohardver.hu/dl/cnt/2017-11/3866
 https://prohardver.hu/dl/cnt/2017-11/3867
@@ -956,6 +958,7 @@ mobilarena.hu##body > a[href="https://www.speedshop.hu/huawei-mate-10pro-elorend
 mobilarena.hu##body > a[href="http://www.htc.com/hu/go/buy-htc-u11/"]
 mobilarena.hu##body > a[href="https://www.nokia.com/hu_hu/phones/nokia-8"]
 mobilarena.hu##body > a[href="https://www.speedshop.hu/black-friday-2017-hbfday.html"]
+mobilarena.hu##body > a[href="https://www.speedshop.hu/adventi-akciok-a-speedshopnal-hADVENT.html"]
 mobilarena.hu##a[href^="http://www.gearbest.com/m-promotion-active-317.html"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
 https://mobilarena.hu/dl/cnt/2016-06/2252
@@ -973,6 +976,7 @@ https://mobilarena.hu/dl/cnt/2017-11/3869
 https://mobilarena.hu/dl/cnt/2017-11/3880
 https://mobilarena.hu/dl/cnt/2017-11/3894
 https://mobilarena.hu/dl/cnt/2017-12/3911
+https://mobilarena.hu/dl/cnt/2017-12/3915
 !
 https://mobilarena.hu/dl/sp/
 https://mobilarena.hu/dl/pr/
@@ -1505,6 +1509,7 @@ pcworld.hu##.ad-header-after.ad.container
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.spleft
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.spright
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##body > style
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div/p[a]/parent::div/parent::div/parent::div/parent::div)
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div[@class="defcnt" and @style]/p[a]/parent::div/parent::div/parent::div/parent::div)
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div[@class="defcnt cntnew" and @style]/p[a]/parent::div/parent::div/parent::div/parent::div)
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[script[contains(@src, 'bs.serving-sys.com')]]])
