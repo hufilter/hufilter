@@ -246,6 +246,8 @@ blog.hu##DIV[id="taft"]
 blog.hu##[class="living-earth"]
 blog.hu##[id*="cp_popup"]
 !
+csajoknak.com###rstbox_2
+!
 vatera.hu##script:contains(Licitaljon)
 vatera.hu##DIV[id*="advert-container"]
 vatera.hu##DIV[class="page-rightside-advert"]
@@ -422,6 +424,7 @@ hwsw.hu##[class*="hirdetes"]
 hwsw.hu###cookiealert
 ||hwsw.hu/images/bodybgs/*$image
 ||hwsw.hu/images/bodybgs2/
+||www.hwsw.hu/images/zenfone-selfie-hwsw-skin-bg.jpg.pagespeed.ce.ysKXe6uFay.jpg$image
 hwsw.hu##body > div > a[target="_blank"]
 hwsw.hu##body[style*="padding-top"]:style(padding-top: 0px !important; background-color: #777 !important;)
 www.hwsw.hu###announcement
@@ -1262,6 +1265,7 @@ propeller.hu##[id^="overlay"]
 !
 penzcentrum.hu##[class^="f10"]
 penzcentrum.hu##[class^="grbox"]
+www.penzcentrum.hu##.frame-center
 !
 p3k.hu/*_hatter*.*
 p3k.hu/*szponz*.*
@@ -1311,6 +1315,7 @@ gamekapocs.hu###background_ad_right
 gamekapocs.hu/media/special/mcdonalds_201710/McD-Dupla-CH-gamekapocs_2.jpg
 ||www.gamekapocs.hu/media/special/psplus_201711/GAMEKAPOCS_skin_1920x900.jpg$image
 ||www.gamekapocs.hu/media/img/logo_gmedia.png$image
+||www.gamekapocs.hu/media/special/psplus_201711/gamekapocs-wallpaper-bf.jpg$image
 !
 gamestar.hu##DIV[class="article_left_banner"]
 gamestar.hu##[id*="overlay"]
@@ -1450,12 +1455,16 @@ pcworld.hu##.ad.box
 pcworld.hu##.ad-article-end.ad
 pcworld.hu##.ad-header-after.ad.container
 !
+fototrend.hu##a[href="http://consumer.huawei.com/hu/phones/mate10series/"]
+https://fototrend.hu/design/hatter.jpg
+!
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.spleft
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.spright
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##body > style
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div/p[a]/parent::div/parent::div/parent::div/parent::div)
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div[@class="defcnt" and @style]/p[a]/parent::div/parent::div/parent::div/parent::div)
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div[@class="defcnt cntnew" and @style]/p[a]/parent::div/parent::div/parent::div/parent::div)
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div/div[@style]/p[a]/parent::div/parent::div/parent::div/parent::div)
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[script[contains(@src, 'bs.serving-sys.com')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[contains(@href, 'bs.serving-sys.com')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, 'bs.serving-sys.com')]]])
