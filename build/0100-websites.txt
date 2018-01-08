@@ -1496,3 +1496,5 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href="http://www.u
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href="http://www.compmarket.hu/"]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href="http://www.mobildigital.hu"]
 !
+||iho.hu/img/banner/*
+!
