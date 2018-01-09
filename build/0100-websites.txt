@@ -1455,6 +1455,11 @@ pcworld.hu##.ad.box
 pcworld.hu##.ad-article-end.ad
 pcworld.hu##.ad-header-after.ad.container
 !
+hir444.blogspot.com###header-blog
+hir444.blogspot.com###HTML1
+hir444.blogspot.com###HTML8
+hir444.blogspot.com###SC_TBlock_342633_Table
+!
 fototrend.hu##a[href="http://consumer.huawei.com/hu/phones/mate10series/"]
 https://fototrend.hu/design/hatter.jpg
 !
