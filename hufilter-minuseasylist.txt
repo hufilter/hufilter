@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201712211056
-! Checksum: a9n5x6zYQ2Y4PHHQKvISGQ
+! Version: 201801090932
+! Checksum: 7vhkFTtu7oDP6huhXsn3JA
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1551,6 +1551,8 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href="http://www.f
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href="http://www.usanotebook.hu/"]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href="http://www.compmarket.hu/"]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href="http://www.mobildigital.hu"]
+!
+||iho.hu/img/banner/*
 !
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
