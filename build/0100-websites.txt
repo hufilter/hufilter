@@ -906,6 +906,7 @@ mobilarena.hu##body > a[href="http://www.htc.com/hu/go/buy-htc-u11/"]
 mobilarena.hu##body > a[href="https://www.nokia.com/hu_hu/phones/nokia-8"]
 mobilarena.hu##body > a[href="https://www.speedshop.hu/black-friday-2017-hbfday.html"]
 mobilarena.hu##body > a[href="https://www.speedshop.hu/adventi-akciok-a-speedshopnal-hADVENT.html"]
+mobilarena.hu##body > a[href="https://www.allviewmobile.com/hu/"]
 mobilarena.hu##a[href^="http://www.gearbest.com/m-promotion-active-317.html"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
 https://mobilarena.hu/dl/cnt/2016-06/2252
@@ -1469,11 +1470,13 @@ https://fototrend.hu/design/hatter.jpg
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.spleft
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.spright
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##body > style
-prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div/p[a]/parent::div/parent::div/parent::div/parent::div)
-prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div[@class="defcnt" and @style]/p[a]/parent::div/parent::div/parent::div/parent::div)
-prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div[@class="defcnt cntnew" and @style]/p[a]/parent::div/parent::div/parent::div/parent::div)
-prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div/div[@style]/p[a]/parent::div/parent::div/parent::div/parent::div)
-prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@style]/div/div[@style]/p[a]/parent::div/parent::div/parent::div/parent::div)
+!prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center"]/div/div[h1[ends-with(text(), '/')]]/div[p[a]]/parent::div/parent::div/parent::div)
+!prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div/p[a]/parent::div/parent::div/parent::div/parent::div)
+!prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div[@class="defcnt" and @style]/p[a]/parent::div/parent::div/parent::div/parent::div)
+!prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div[@class="defcnt cntnew" and @style]/p[a]/parent::div/parent::div/parent::div/parent::div)
+!prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div/div[@style]/p[a]/parent::div/parent::div/parent::div/parent::div)
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@style]/div/div[@style]p/a[@style="color: #b42224;"]/parent::p/parent::div/parent::div/parent::div/parent::div)
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div/div/div[@style]/p/a[@style="color: #b42224;"]/parent::p/parent::div/parent::div/parent::div/parent::div)
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[script[contains(@src, 'bs.serving-sys.com')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[contains(@href, 'bs.serving-sys.com')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, 'bs.serving-sys.com')]]])
