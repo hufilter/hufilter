@@ -339,6 +339,7 @@ zene.hu##DIV[class="etarget"]
 ||mindenegybenblog.hu^
 ||mindenegybenblog.net^
 ||mindenegyhelyen.info^
+||mindmeghalunk.com/^
 ||mokavilag.com^
 ||mokuskerek.club^
 ||morickamegpiskota.housefmradio.eu^
