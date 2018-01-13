@@ -265,6 +265,7 @@ itcafe.hu##a[href^="https://track.adform.net/C/"]
 https://itcafe.hu/dl/cnt/2017-05/3701
 https://itcafe.hu/dl/cnt/2017-05/3703
 https://itcafe.hu/dl/cnt/2017-10/3816
+https://itcafe.hu/dl/cnt/2017-11/3885
 https://itcafe.hu/dl/cnt/2017-11/3890
 !
 https://itcafe.hu/dl/sp/
@@ -619,6 +620,7 @@ logout.hu##a[href^="https://track.adform.net/C/"]
 !
 https://logout.hu/dl/cnt/2017-05/3701
 https://logout.hu/dl/cnt/2017-05/3703/
+https://logout.hu/dl/cnt/2017-11/3885
 !
 https://logout.hu/dl/sp/
 !
@@ -755,6 +757,7 @@ prohardver.hu##body > a[href="https://tinyurl.com/yb8247wf"]
 prohardver.hu##body > a[href*="http://itshinspirationboard.com"]
 prohardver.hu##body > a[href="http://oaziscomputer.hu/kategoria/111/uj-dell-s-szeria"]
 prohardver.hu##body > a[href="http://iknowit.hu"]
+prohardver.hu##body > a[href="http://oaziscomputer.hu/kategoria/81/intuos-pro"]
 prohardver.hu##a[href^="https://track.adform.net/C/"]
 prohardver.hu##a[href^="https://www.javachallenge.hu/"]
 prohardver.hu##a[href="http://www.laptop.hu/laptop"]
@@ -785,10 +788,12 @@ https://prohardver.hu/dl/cnt/2017-10/3804
 https://prohardver.hu/dl/cnt/2017-10/3816
 https://prohardver.hu/dl/cnt/2017-10/3839
 https://prohardver.hu/dl/cnt/2017-11/3626
+https://prohardver.hu/dl/cnt/2017-11/3729
 https://prohardver.hu/dl/cnt/2017-11/3802
 https://prohardver.hu/dl/cnt/2017-11/3866
 https://prohardver.hu/dl/cnt/2017-11/3867
 https://prohardver.hu/dl/cnt/2017-11/3868
+https://prohardver.hu/dl/cnt/2017-11/3885
 https://prohardver.hu/dl/cnt/2017-11/3890
 https://prohardver.hu/dl/cnt/2017-11/3903
 https://prohardver.hu/dl/cnt/2017-11/3905
@@ -922,6 +927,7 @@ https://mobilarena.hu/dl/cnt/2017-11/3861
 https://mobilarena.hu/dl/cnt/2017-11/3862
 https://mobilarena.hu/dl/cnt/2017-11/3869
 https://mobilarena.hu/dl/cnt/2017-11/3880
+https://mobilarena.hu/dl/cnt/2017-11/3885
 https://mobilarena.hu/dl/cnt/2017-11/3894
 https://mobilarena.hu/dl/cnt/2017-12/3911
 https://mobilarena.hu/dl/cnt/2017-12/3915
@@ -1379,6 +1385,7 @@ blogstar.hu##[class*="banner"]
 blogstar.hu##[class*="popupBanner"]
 !
 https://gamepod.hu/dl/cnt/2017-10/3837/
+https://gamepod.hu/dl/cnt/2017-11/3885
 !
 https://gamepod.hu/dl/sp/
 !
@@ -1455,6 +1462,10 @@ pcworld.hu##.ad-skin-space
 pcworld.hu##.ad.box
 pcworld.hu##.ad-article-end.ad
 pcworld.hu##.ad-header-after.ad.container
+!
+hir-24.eu###text-3
+!
+tenyek24.eu###text-4
 !
 hir444.blogspot.com###header-blog
 hir444.blogspot.com###HTML1
