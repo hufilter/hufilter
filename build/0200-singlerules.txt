@@ -285,6 +285,7 @@ zene.hu##DIV[class="etarget"]
 ||hir-online.com^
 ||hir-start.com^
 ||hir-start.net^
+||hir22.blogspot.hu^
 ||hir27.in^
 ||hirado-online.net^
 ||hirado.top^
