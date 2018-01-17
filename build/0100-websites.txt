@@ -300,9 +300,6 @@ itcafe.hu###thanks > .nohead.hlist
 !
 https://itcafe.hu/ajanlo/lapcsalad.html
 !
-!itcafe.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-!itcafe.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
-!
 ||itcafe.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||itcafe.hu/dl/cnt/2017-11/3879/image.jpg$image
 ||itcafe.hu/design/sp/autoalkatreszek24_300x60.png$image
@@ -654,9 +651,6 @@ logout.hu###thanks > .nohead.hlist
 !
 https://logout.hu/ajanlo/lapcsalad.html
 !
-logout.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-logout.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
-!
 ||logout.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||logout.hu/dl/cnt/2017-11/3879/image.jpg$image
 ||logout.hu/design/sp/autoalkatreszek24_300x60.png$image
@@ -838,9 +832,6 @@ prohardver.hu###thanks > .nohead.hlist
 !
 https://prohardver.hu/ajanlo/lapcsalad.html
 !
-!prohardver.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-!prohardver.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
-!
 ||prohardver.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||prohardver.hu/dl/cnt/2017-04/3664/image.jpg$image
 ||prohardver.hu/dl/cnt/2017-11/3879/image.jpg$image
@@ -967,9 +958,6 @@ mobilarena.hu##div[class="partners"]
 mobilarena.hu###thanks > .nohead.hlist
 !
 https://mobilarena.hu/ajanlo/lapcsalad.html
-!
-!mobilarena.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-!mobilarena.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
 !
 ||mobilarena.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||mobilarena.hu/dl/cnt/2017-11/3879/image.jpg$image
@@ -1412,9 +1400,6 @@ gamepod.hu##div[class="partners"]
 gamepod.hu###thanks > .nohead.hlist
 !
 https://gamepod.hu/ajanlo/lapcsalad.html
-!
-!gamepod.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-!gamepod.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
 !
 ||gamepod.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||gamepod.hu/dl/cnt/2017-11/3879/image.jpg$image
