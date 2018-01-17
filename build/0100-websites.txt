@@ -291,9 +291,6 @@ itcafe.hu##:xpath(//div[h4[text()="Hirdetés"]]/div[img[@src!="/dl/cnt/2017-11/3
 itcafe.hu##h4:has-text(Hirdetés)
 itcafe.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
 !
-itcafe.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
-itcafe.hu##.anyagok:has(h4):has-text(Olvastad már, amihez hozzászólsz?)
-!
 itcafe.hu##:xpath(//li[a[@href="http://veletech.hu"]])
 itcafe.hu##div[class="partners"]
 itcafe.hu###thanks > .nohead.hlist
@@ -645,9 +642,6 @@ logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="cen
 !
 logout.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="right"]):has(iframe[src="https://logout.hu/ajanlo/lapcsalad.html"])
 !
-logout.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
-logout.hu##.anyagok:has(h4):has-text(Olvastad már, amihez hozzászólsz?)
-!
 logout.hu##:xpath(//li[a[@href="http://veletech.hu"]])
 logout.hu##div[class="partners"]
 logout.hu###thanks > .nohead.hlist
@@ -824,9 +818,6 @@ prohardver.hu##h1 > a[href="http://www.netgo.hu"]
 prohardver.hu##p:has-text(Amikor a szoftver illeszkedik a meglévő üzleti folyamatokhoz.)
 prohardver.hu##div[id="center"] > div:has(div):has(a):has-text(Mostantól bármely bank ügyfelének elérhető a mobilfizetés élménye.)
 !
-prohardver.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
-prohardver.hu##.anyagok:has(h4):has-text(Olvastad már, amihez hozzászólsz?)
-!
 prohardver.hu##a[href="http://www.laptop.hu"]
 prohardver.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):not([class="anyag cikk"]):not([class="defcnt taj"]):has(a[href="http://www.laptop.hu"])
 prohardver.hu##a[href="http://www.autoalkatreszek24.hu/"]
@@ -953,9 +944,6 @@ mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id=
 !
 mobilarena.hu##h4:has-text(Hirdetés)
 mobilarena.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
-!
-mobilarena.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
-mobilarena.hu##.anyagok:has(h4):has-text(Olvastad már, amihez hozzászólsz?)
 !
 mobilarena.hu##a[href="http://www.laptop.hu"]
 mobilarena.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):not([class="anyag cikk"]):not([class="defcnt taj"]):has(a[href="http://www.laptop.hu"])
@@ -1403,9 +1391,6 @@ gamepod.hu##:xpath(//div[h4[text()="Hirdetés"]]/div[img[@src!="/dl/cnt/2017-11/
 !
 gamepod.hu##h4:has-text(Hirdetés)
 gamepod.hu##div[id="right"] > div:has(div):has(h4):has-text(Hirdetés)
-!
-gamepod.hu##.anyagok:has(h4):has-text(Friss! Olvastad már?)
-gamepod.hu##.anyagok:has(h4):has-text(Olvastad már, amihez hozzászólsz?)
 !
 gamepod.hu##:xpath(//li[a[@href="http://veletech.hu"]])
 gamepod.hu##div[class="partners"]
