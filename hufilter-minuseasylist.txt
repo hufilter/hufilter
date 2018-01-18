@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201801101536
-! Checksum: W6ix67hYIc4t2hBrAiDQEA
+! Version: 201801181108
+! Checksum: tSTl0zgoAVxTAqeOVXXyQw
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -2023,6 +2023,7 @@ openspeedtest.com##script:contains(testadblock)
 ||sumome.com^$third-party
 ||syndication.globaltraffico.com^
 ||syndication.trafficreps.com^
+||szv.lsdev.hu
 ||targetix.net^$third-party
 ||track.calithornia.com^
 ||track.rtb-media.me^
