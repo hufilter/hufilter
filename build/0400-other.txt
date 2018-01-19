@@ -185,6 +185,7 @@ openspeedtest.com##script:contains(testadblock)
 ||sumome.com^$third-party
 ||syndication.globaltraffico.com^
 ||syndication.trafficreps.com^
+||szv.lsdev.hu
 ||targetix.net^$third-party
 ||track.calithornia.com^
 ||track.rtb-media.me^
