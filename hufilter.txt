@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201801191414
-! Checksum: rKRJJ4whFIxXEvUauYl6nw
+! Version: 201801191450
+! Checksum: Wu//6Q5O88DcfIkXYN2YWA
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -22,34 +22,6 @@
 ! A szuro hasznalata a feltetelek automatikus elfogadasat jelenti.
 ! By using the filter you automatically accept the terms of use.
 !
-!
-! szabaly optimalizalas / rule optimization
-!
-! -   RTFM - http://adblockplus.org/en/filters
-! -   Redundancy checker: https://arestwo.org/famlam/redundantRuleChecker.html
-!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-!          Koszonet a kozremukodoknek / thanks for the contributors
-!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!
-!
-! Erdos Arpad 
-! hdc
-! Keresztfalvi Bela 
-! S. L.
-! Kovi
-! Bortnya'k Roland
-! zamiere
-! Famlam
-! Ares2
-! Kovacs Attila
-!
-! +A Github-on a commit log-ban szereplok
-!
-! ... es nevtelenseget kero kozremukodok  /
-! ... and contributrors who wish to remain unnamed
 !
 
 !##################### END 0000-header.txt ##################### 
