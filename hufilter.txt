@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201801191358
-! Checksum: hqCohRvQ2qafGJDdSEUd9Q
+! Version: 201801191414
+! Checksum: rKRJJ4whFIxXEvUauYl6nw
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1762,44 +1762,6 @@ zene.hu##DIV[class="etarget"]
 ||webtraffic.hu/banner/
 
 !##################### END 0200-singlerules.txt ##################### 
-!##################### 0300-restrictedsites.txt ##################### 
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Felnott / meghivasos / fizetos oldalak                                 !
-! A szabaly bekuldoje vallalja erte teljes felelosseget                  !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-ncore.cc##DIV[id="fej_csik_felso"]
-ncore.cc##A[href*="2coal.com"]
-||ncore.cc/temp/*.swf
-||ncore.cc/images/warning.png
-b.office42.hu^$domain=ncore.cc
-ncore.cc##.banner
-ncore.cc###bf1445940949335 > div > div
-ncore.cc###main_tartalom > center:nth-of-type(1) > div
-ncore.cc###main_tartalom > center:nth-of-type(2) > div
-ncore.cc###ape-container
-ncore.cc###main_tartalom a[href*="bekerdezo"]
-ncore.cc###bekerdezo-ad
-ncore.cc###hessteg
-ncore.cc##.hessteg-ad-block.news_block_right
-!
-!
-||microbit.eu/banners/
-!
-utorrent.hu##[id="dgd_scrollbox-1926"]
-utorrent.hu##[class="art-footer clearfix"]
-!
-estone.cc###container
-estone.cc###kozep_hatter:nth-of-type(12)
-||estone.cc/pic/bannerek/$image
-!
-!
-teracod.net##[href*="rosszlanyok.hu"]
-
-
-
-!##################### END 0300-restrictedsites.txt ##################### 
 !##################### 0400-other.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!          Trackerek, külföldi reklámszerverek vegyesen              !!!
