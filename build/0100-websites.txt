@@ -1413,13 +1413,6 @@ https://fototrend.hu/design/hatter.jpg
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.spleft
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.spright
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##body > style
-!prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center"]/div/div[h1[ends-with(text(), '/')]]/div[p[a]]/parent::div/parent::div/parent::div)
-!prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div/p[a]/parent::div/parent::div/parent::div/parent::div)
-!prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div[@class="defcnt" and @style]/p[a]/parent::div/parent::div/parent::div/parent::div)
-!prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div[@class="anyag" and @style]/div[@class="defcnt cntnew" and @style]/p[a]/parent::div/parent::div/parent::div/parent::div)
-!prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@class="cntcolumn" and @style]/div/div[@style]/p[a]/parent::div/parent::div/parent::div/parent::div)
-prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div[@style]/div/div[@style]p/a[@style="color: #b42224;"]/parent::p/parent::div/parent::div/parent::div/parent::div)
-prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@id="center" and @style]/div/div/div[@style]/p/a[@style="color: #b42224;"]/parent::p/parent::div/parent::div/parent::div/parent::div)
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[script[contains(@src, 'bs.serving-sys.com')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[contains(@href, 'bs.serving-sys.com')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, 'bs.serving-sys.com')]]])
