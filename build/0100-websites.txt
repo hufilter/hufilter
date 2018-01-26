@@ -265,7 +265,6 @@ itcafe.hu##a[href^="https://track.adform.net/C/"]
 https://itcafe.hu/dl/cnt/2017-05/3701
 https://itcafe.hu/dl/cnt/2017-05/3703
 https://itcafe.hu/dl/cnt/2017-10/3816
-https://itcafe.hu/dl/cnt/2017-11/3885
 https://itcafe.hu/dl/cnt/2017-11/3890
 !
 https://itcafe.hu/dl/sp/
@@ -607,7 +606,6 @@ logout.hu##a[href^="https://track.adform.net/C/"]
 !
 https://logout.hu/dl/cnt/2017-05/3701
 https://logout.hu/dl/cnt/2017-05/3703/
-https://logout.hu/dl/cnt/2017-11/3885
 !
 https://logout.hu/dl/sp/
 !
@@ -632,9 +630,6 @@ logout.hu##div[class="partners"]
 logout.hu###thanks > .nohead.hlist
 !
 https://logout.hu/ajanlo/lapcsalad.html
-!
-logout.hu##:xpath(//div[div[img[contains(@src, 'dl/cnt/2017-11/3885/image.png')]]])
-logout.hu##img[src="/dl/cnt/2017-11/3885/image.png"]
 !
 ||logout.hu/dl/cnt/2017-04/3663/image.jpg$image
 ||logout.hu/dl/cnt/2017-11/3879/image.jpg$image
@@ -767,7 +762,6 @@ https://prohardver.hu/dl/cnt/2017-11/3802
 https://prohardver.hu/dl/cnt/2017-11/3866
 https://prohardver.hu/dl/cnt/2017-11/3867
 https://prohardver.hu/dl/cnt/2017-11/3868
-https://prohardver.hu/dl/cnt/2017-11/3885
 https://prohardver.hu/dl/cnt/2017-11/3890
 https://prohardver.hu/dl/cnt/2017-11/3903
 https://prohardver.hu/dl/cnt/2017-11/3905
@@ -887,7 +881,6 @@ https://mobilarena.hu/dl/cnt/2017-11/3861
 https://mobilarena.hu/dl/cnt/2017-11/3862
 https://mobilarena.hu/dl/cnt/2017-11/3869
 https://mobilarena.hu/dl/cnt/2017-11/3880
-https://mobilarena.hu/dl/cnt/2017-11/3885
 https://mobilarena.hu/dl/cnt/2017-11/3894
 https://mobilarena.hu/dl/cnt/2017-12/3911
 https://mobilarena.hu/dl/cnt/2017-12/3915
@@ -1331,7 +1324,6 @@ blogstar.hu##[class*="banner"]
 blogstar.hu##[class*="popupBanner"]
 !
 https://gamepod.hu/dl/cnt/2017-10/3837/
-https://gamepod.hu/dl/cnt/2017-11/3885
 !
 https://gamepod.hu/dl/sp/
 !
