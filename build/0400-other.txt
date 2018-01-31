@@ -98,6 +98,7 @@ openspeedtest.com##script:contains(testadblock)
 ||audtd.com^$third-party
 ||avatraffic.com^
 ||banner.aqua.hu^$third-party
+||bannerflow.com^$third-party
 ||bannerserver.hu$subdocument
 ||bannerserver.hu^
 ||bedia.hu/banners/
