@@ -101,6 +101,7 @@ openspeedtest.com##script:contains(testadblock)
 ||bannerflow.com^$third-party
 ||bannerserver.hu$subdocument
 ||bannerserver.hu^
+||bbelements.com^$third-party
 ||bedia.hu/banners/
 ||best-top.hu/banner.php*
 ||betfair.com^$third-party
