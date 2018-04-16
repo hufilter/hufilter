@@ -266,8 +266,8 @@ https://itcafe.hu/dl/cnt/2017-05/3701
 https://itcafe.hu/dl/cnt/2017-05/3703
 https://itcafe.hu/dl/cnt/2017-10/3816
 https://itcafe.hu/dl/cnt/2017-11/3890
-!
-https://itcafe.hu/dl/sp/
+https://itcafe.hu/dl/cnt/2018-04/4005
+https://itcafe.hu/dl/cnt/2018-04/4007
 !
 itcafe.hu##a[href="http://www.laptop.hu"]
 itcafe.hu##div:not([id="page"]):not([id="shadow"]):not([id="main"]):not([id="center"]):not([id="right"]):not([class="cntcolumn"]):not([class="anyag hir"]):not([itemprop="articleBody"]):not([class="anyag cikk"]):not([class="defcnt taj"]):has(a[href="http://www.laptop.hu"])
@@ -770,6 +770,8 @@ https://prohardver.hu/dl/cnt/2017-11/3890
 https://prohardver.hu/dl/cnt/2017-11/3903
 https://prohardver.hu/dl/cnt/2017-11/3905
 https://prohardver.hu/dl/cnt/2018-04/3993
+https://prohardver.hu/dl/cnt/2018-04/4005
+https://prohardver.hu/dl/cnt/2018-04/4006
 !
 https://prohardver.hu/dl/sp/
 !
@@ -1442,6 +1444,7 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[c
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[@class="defcnt cntatc"]/p[@align="center"]/a[contains(@href, 'http://www.cedrus.hu/')]/img[contains(@src, 'dl/sp/cedrus.png')]/parent::a/parent::p)
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[script[contains(@src, 'track.adform.net')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[script[contains(@src, 'cdn.doubleverify.com')]]])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[contains(@href, 'hit.gemius.pl')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2017-12/3930/image.gif')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-03/3969/image.jpg')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-03/3968/image.jpg')]]])
