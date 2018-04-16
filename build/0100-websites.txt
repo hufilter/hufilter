@@ -261,7 +261,9 @@ gyakorikerdesek.hu/pic/bannerek/
 !
 itcafe.hu##body > a[href*="http://itshinspirationboard.com"]
 itcafe.hu##body > a[href="http://iknowit.hu"]
+itcafe.hu##body > a[href="http://huomdgde.hit.gemius.pl/hitredir/id=1_1L0uue.HvLCkhtq89oI6Pej8MiTI9ou00xDGK2ufz.e7/fastid=mkrengjaevepzhnpjhboammvvxlj/stparam=rpkmjujnuv/url=https://www.meetup.com/Onjaro-Autokat-Budapesten-Self-Driving-Cars-in-Budapest/events/249593503/"]
 itcafe.hu##a[href^="https://track.adform.net/C/"]
+itcafe.hu##a[href="http://huomdgde.hit.gemius.pl/hitredir/id=1_1L0uue.HvLCkhtq89oI6Pej8MiTI9ou00xDGK2ufz.e7/fastid=dakgyragclmmtjjioeptifpgbnjo/stparam=peftntejdz/url=https://www.meetup.com/Onjaro-Autokat-Budapesten-Self-Driving-Cars-in-Budapest/events/249593503/"]
 https://itcafe.hu/dl/cnt/2017-05/3701
 https://itcafe.hu/dl/cnt/2017-05/3703
 https://itcafe.hu/dl/cnt/2017-10/3816
@@ -728,6 +730,8 @@ prohardver.hu##body > a[href*="http://itshinspirationboard.com"]
 prohardver.hu##body > a[href="http://oaziscomputer.hu/kategoria/111/uj-dell-s-szeria"]
 prohardver.hu##body > a[href="http://iknowit.hu"]
 prohardver.hu##body > a[href="http://oaziscomputer.hu/kategoria/81/intuos-pro"]
+prohardver.hu##body > a[href="http://huomdgde.hit.gemius.pl/hitredir/id=1_1L0uue.HvLCkhtq89oI6Pej8MiTI9ou00xDGK2ufz.e7/fastid=emvodjccbsiunkldnertgjbayskc/stparam=ybqpdmhlek/url=https://www.meetup.com/Onjaro-Autokat-Budapesten-Self-Driving-Cars-in-Budapest/events/249593503/"]
+prohardver.hu##body > a[href="http://huomdgde.hit.gemius.pl/hitredir/id=1_1L0uue.HvLCkhtq89oI6Pej8MiTI9ou00xDGK2ufz.e7/fastid=dakgyragclmmtjjioeptifpgbnjo/stparam=peftntejdz/url=https://www.meetup.com/Onjaro-Autokat-Budapesten-Self-Driving-Cars-in-Budapest/events/249593503/"]
 prohardver.hu##a[href^="https://track.adform.net/C/"]
 prohardver.hu##a[href^="https://www.javachallenge.hu/"]
 prohardver.hu##a[href="http://www.laptop.hu/laptop"]
