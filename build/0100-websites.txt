@@ -732,6 +732,7 @@ prohardver.hu##body > a[href="http://iknowit.hu"]
 prohardver.hu##body > a[href="http://oaziscomputer.hu/kategoria/81/intuos-pro"]
 prohardver.hu##body > a[href="http://huomdgde.hit.gemius.pl/hitredir/id=1_1L0uue.HvLCkhtq89oI6Pej8MiTI9ou00xDGK2ufz.e7/fastid=emvodjccbsiunkldnertgjbayskc/stparam=ybqpdmhlek/url=https://www.meetup.com/Onjaro-Autokat-Budapesten-Self-Driving-Cars-in-Budapest/events/249593503/"]
 prohardver.hu##body > a[href="http://huomdgde.hit.gemius.pl/hitredir/id=1_1L0uue.HvLCkhtq89oI6Pej8MiTI9ou00xDGK2ufz.e7/fastid=dakgyragclmmtjjioeptifpgbnjo/stparam=peftntejdz/url=https://www.meetup.com/Onjaro-Autokat-Budapesten-Self-Driving-Cars-in-Budapest/events/249593503/"]
+prohardver.hu##body > [href="https://oaziscomputer.hu/kereso/p/210-AP"]
 prohardver.hu##a[href^="https://track.adform.net/C/"]
 prohardver.hu##a[href^="https://www.javachallenge.hu/"]
 prohardver.hu##a[href="http://www.laptop.hu/laptop"]
@@ -776,6 +777,8 @@ https://prohardver.hu/dl/cnt/2017-11/3905
 https://prohardver.hu/dl/cnt/2018-04/3993
 https://prohardver.hu/dl/cnt/2018-04/4005
 https://prohardver.hu/dl/cnt/2018-04/4006
+https://prohardver.hu/dl/cnt/2018-05/4025
+https://prohardver.hu/dl/cnt/2018-05/4034
 !
 https://prohardver.hu/dl/sp/
 !
@@ -882,6 +885,7 @@ mobilarena.hu##body > a[href="https://www.speedshop.hu/black-friday-2017-hbfday.
 mobilarena.hu##body > a[href="https://www.speedshop.hu/adventi-akciok-a-speedshopnal-hADVENT.html"]
 mobilarena.hu##body > a[href="https://www.allviewmobile.com/hu/"]
 mobilarena.hu##body > a[href="http://www.veletech.hu"]
+mobilarena.hu##body > [href="https://www.xprotector.hu/tipus/autos-tartok/"]
 mobilarena.hu##a[href="http://firstphone.hu/hu-hu/huaweip20/"]
 mobilarena.hu##a[href^="http://www.gearbest.com/m-promotion-active-317.html"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
@@ -903,6 +907,7 @@ https://mobilarena.hu/dl/cnt/2017-12/3911
 https://mobilarena.hu/dl/cnt/2017-12/3915
 https://mobilarena.hu/dl/cnt/2018-04/3990
 https://mobilarena.hu/dl/cnt/2018-04/3997
+https://mobilarena.hu/dl/cnt/2018-05/4039
 !
 https://mobilarena.hu/dl/sp/
 https://mobilarena.hu/dl/pr/
@@ -1461,6 +1466,10 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-04/3998/image.jpg')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[p[a[contains(@href, 'https://www.xprotector.hu/tipus/magneses-tartok/')]]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//p[a[img[contains(@src, '/dl/cnt/2018-03/144224/foramax_banner.thumb.jpg')]]])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[iframe[contains(@src, 'https://img.prohardver.hu/ad/MM2/iframe_300x600.html')]]])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-05/4034/image.png')]]])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-05/4039/image.gif')]]])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-05/4025/image.png')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href^="https://bank360.hu"]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href="http://www.cedrus.hu/"]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href="http://www.pcx.hu/"]
