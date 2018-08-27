@@ -6,8 +6,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201808211143
-! Checksum: f/lYLgStQ8kehjQlF9VuZA
+! Version: 201808272034
+! Checksum: zbbNpjtVGcIRJlJ7e7zW+Q
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -784,6 +784,7 @@ prohardver.hu##a[href^="http://www.conticup.hu/?utm_source=prohardver&utm_medium
 prohardver.hu##a[href^="http://www.itechchallenge.hu/?utm_source=prohardver&utm_medium=banner"]
 prohardver.hu##[href^="http://www.alza.hu/van-itt-minden"]
 prohardver.hu##[href="https://www.lg.com/hu/monitorok/lg-38WK95C-W"]
+prohardver.hu##[href^="http://www.alza.hu/black-friday"]
 https://prohardver.hu/dl/cnt/2016-11/3547
 https://prohardver.hu/dl/cnt/2016-11/3542
 https://prohardver.hu/dl/cnt/2017-02/3626
@@ -942,6 +943,7 @@ mobilarena.hu##[href^="http://www.alza.hu/van-itt-minden"]
 mobilarena.hu##a[href="http://firstphone.hu/hu-hu/huaweip20/"]
 mobilarena.hu##a[href^="http://www.gearbest.com/m-promotion-active-317.html"]
 mobilarena.hu##[href="http://skillmatch.hu/"]
+mobilarena.hu##[href^="http://www.alza.hu/black-friday"]
 https://mobilarena.hu/dl/cnt/2016-06/2251
 https://mobilarena.hu/dl/cnt/2016-06/2252
 https://mobilarena.hu/dl/cnt/2017-06/3722
@@ -1544,6 +1546,9 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-07/4100/image.jpg')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-07/4101/image.jpg')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-07/4099/image.gif')]]])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-08/4135/image.jpg')]]])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-08/4137/image.jpg')]]])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[iframe[contains(@src, 'https://img.prohardver.hu/ad/MM2/iframe_970x250.html')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href^="https://bank360.hu"]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href="http://www.cedrus.hu/"]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href="http://www.pcx.hu/"]
