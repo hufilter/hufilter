@@ -953,6 +953,8 @@ https://mobilarena.hu/dl/cnt/2018-06/4065
 https://mobilarena.hu/dl/cnt/2018-07/4079
 https://mobilarena.hu/dl/cnt/2018-07/4080
 https://mobilarena.hu/dl/cnt/2018-07/4082
+https://mobilarena.hu/dl/cnt/2018-08/4164
+https://mobilarena.hu/dl/cnt/2018-08/4165
 !
 https://mobilarena.hu/dl/sp/
 https://mobilarena.hu/dl/pr/
@@ -1544,6 +1546,8 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-08/4153/image.jpg')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-09/4164/image.jpg')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-09/4165/image.jpg')]]])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-09/4164/image.png')]]])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##:xpath(//div[div[img[contains(@src, '/dl/cnt/2018-09/4165/image.png')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[iframe[contains(@src, 'https://img.prohardver.hu/ad/MM/iframe_300x600.html')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href^="https://bank360.hu"]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[href="http://www.cedrus.hu/"]
