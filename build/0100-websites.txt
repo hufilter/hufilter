@@ -747,6 +747,7 @@ prohardver.hu##[href="http://www.lg.com/hu/projektorok"]
 prohardver.hu##[href="https://www.asus.com/hu/Laptops/ASUS-ZenBook-Pro-15-UX580GE/"]
 prohardver.hu##[href^="https://www.alza.hu/uj-bemutatotermunk"]
 prohardver.hu##[href^="https://www.alza.hu/ingyenes-vasarlas"]
+prohardver.hu##[href="http://radium.hu/szuper-2018-akcio/"]
 https://prohardver.hu/dl/cnt/2016-11/3547
 https://prohardver.hu/dl/cnt/2016-11/3542
 https://prohardver.hu/dl/cnt/2017-02/3626
