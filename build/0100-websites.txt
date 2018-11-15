@@ -1115,6 +1115,7 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##div[class*="xabre-re
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.xabrecontainer
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##div[class="partners"]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu###thanks > .hlist.nohead
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[onclick*="$.ajax"]
 hardverapro.hu###top > .p-0.container
 !
 ||iho.hu/img/banner/*
