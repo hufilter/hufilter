@@ -556,37 +556,6 @@ sonline.hu##DIV[class*="ad "]
 sonline.hu##[class*="hirdetes"]
 sonline.hu##[id*="ctnet_ad_"]
 !
-logout.hu##body > a[href*="http://itshinspirationboard.com"]
-logout.hu##body > [href="http://skillmatch.hu/"]
-logout.hu##a[href^="https://track.adform.net/C/"]
-logout.hu##a[href="http://www.laptop.hu"]
-logout.hu##a[href="http://www.autoalkatreszek24.hu/"]
-!
-https://logout.hu/dl/cnt/2017-05/3701
-https://logout.hu/dl/cnt/2017-05/3703
-https://logout.hu/dl/cnt/2018-06/4065
-https://logout.hu/dl/cnt/2018-07/4079
-https://logout.hu/dl/cnt/2018-07/4080
-https://logout.hu/dl/cnt/2018-07/4082
-https://logout.hu/dl/cnt/2018-09/4186
-https://logout.hu/dl/cnt/2018-10/4229
-https://logout.hu/dl/cnt/2018-11/4198
-!
-https://logout.hu/dl/sp/
-!
-logout.hu##div[class="partners"]
-logout.hu###thanks > .nohead.hlist
-!
-https://logout.hu/ajanlo/lapcsalad.html
-!
-||logout.hu/dl/cnt/2017-04/3663/image.jpg$image
-||logout.hu/dl/cnt/2017-11/3879/image.jpg$image
-||logout.hu/design/sp/autoalkatreszek24_300x60.png$image
-||logout.hu/design/sp/autoalkatreszonline24_300x60.png$image
-!
-logout.hu##[class*="adbox"]
-logout.hu##[class*="xabre"]
-!
 ||medicalonline.hu/*hirdetes
 medicalonline.hu##[class*="tBanner"]
 !
