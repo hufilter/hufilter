@@ -1270,11 +1270,13 @@ fototrend.hu##.foot-logos.col-md
 !
 https://hardverapro.hu/dl/cnt/2018-09/4164
 https://hardverapro.hu/dl/cnt/2018-09/4165
+hardverapro.hu###top > .p-0.container
 !
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.spleft
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.spright
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##body > style
-prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##div[class*="xabre-responsive"]:not([class*="-980px-139px"])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##div[class*="xabre-responsive"]:not([class*="-980px-139px"])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.xabrecontainer
 
 !
 ||iho.hu/img/banner/*
