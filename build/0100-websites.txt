@@ -1122,3 +1122,8 @@ hardverapro.hu###top > .p-0.container
 ||iho.hu/img/banner/*
 ||iho.hu/img/flash/*
 !
+! Menetrendek.hu, kopopnyeg.hu vs-telenites
+koponyeg.hu###vshu-box
+menetrendek.hu##.articles
+menetrendek.hu##.proposer
+menetrendek.hu##.read_vs
