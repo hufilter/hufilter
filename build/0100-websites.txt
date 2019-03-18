@@ -1172,3 +1172,7 @@ menetrendek.hu##.read_vs
 ||dijnet.hu/ekonto/images/news/*
 ||dijnet.hu/ekonto/images/szolg_logo/hu/adomany_logo.jpg
 ||dijnet.hu/ekonto/images/szolg_logo/adomany_logo.jpg
+!
+bookline.hu###background
+bookline.hu###bg-advert
+bookline.hu###ws-module
