@@ -106,6 +106,18 @@ hvg.hu##.sidebar-ajanlat.clear.articlebox
 hvg.hu##.panelgap > .rubicon-fix.jobbhasab.adsense-placeholder
 hvg.hu##.article-jobline-sidebar-doboz
 hvg.hu##.panelgap > .caption
+hvg.hu###webpushSelctorFormId
+hvg.hu##.hvg_push
+hvg.hu##.article-menu.panelgap
+hvg.hu##.block-ms-box2
+hvg.hu##.articlebox.clear.sidebar-ajanlat
+hvg.hu##.adsense-placeholder.jobbhasab.rubicon-fix
+hvg.hu##.adtype-l-ribbon
+hvg.hu##.article-jobline-sidebar-doboz
+hvg.hu##.article-otherelements-container content
+hvg.hu##.selectWidget
+hvg.hu##.article-jobline-sidebar-doboz
+hvg.hu##.jobline-palyakezdo-feed
 !
 vg.hu##DIV[class*="-ad"]
 vg.hu##DIV[class*="hirdetes"]
