@@ -44,6 +44,10 @@ forum.index.hu##[id="ot2015"]
 index.hu,velvet.hu,totalcar.hu##.travelo-box
 index.hu,velvet.hu,totalcar.hu##.shopline-box
 index.hu,velvet.hu##.flash-fullscreen-wrapper
+index.hu##.keretes_szeles
+index.hu##._iph_brk
+index.hu###ad_null_position
+index.hu##.ad_container
 !
 velvet.hu##DIV[id="ads"]
 velvet.hu##DIV[id*="microsite"]
