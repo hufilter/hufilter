@@ -1176,3 +1176,5 @@ menetrendek.hu##.read_vs
 bookline.hu###background
 bookline.hu###bg-advert
 bookline.hu###ws-module
+!
+merce.hu##.mrc-bnr-plchldr
