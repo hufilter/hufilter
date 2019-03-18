@@ -753,6 +753,9 @@ vezess.hu##[id*="Banner"]
 vezess.hu##[class*="szponzor"]
 vezess.hu##[class*="Hirdetes"]
 vezess.hu##[class*="advert "]
+vezess.hu###best-cars-layer
+vezess.hu###backdrop
+vezess.hu###beta-message-invite
 !
 eduline.hu##[id*="_ad"]
 eduline.hu##[id*="ad_"]
