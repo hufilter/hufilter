@@ -1179,3 +1179,6 @@ bookline.hu###bg-advert
 bookline.hu###ws-module
 !
 merce.hu##.mrc-bnr-plchldr
+!
+kiszamolo.hu###spu-103927
+kiszamolo.hu##.spu-box.spu-centered.spu-total-
