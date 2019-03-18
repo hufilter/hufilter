@@ -1234,3 +1234,6 @@ arukereso.hu##.brandbox
 ! MÁV Stop
 mavcsoport.hu###cboxOverlay
 mavcsoport.hu###colorbox
+!
+! Piac és Profit
+piacesprofit.hu##.inner
