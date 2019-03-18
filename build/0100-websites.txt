@@ -1203,6 +1203,7 @@ mlzphoto.hu###custom_html-3
 mlzphoto.hu##.widget_text.widget.widget_custom_html
 !
 budapestbank.hu##.container
+budapestbank.hu###header_cookie_container
 online.budapestbank.hu##.campaign-item
 online.budapestbank.hu##[id^="ext-gen"]
 online.budapestbank.hu##.ext-el-mask-banner
