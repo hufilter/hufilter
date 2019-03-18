@@ -1161,3 +1161,5 @@ menetrendek.hu##.read_vs
 !
 ! DijNet fallback ads
 ||dijnet.hu/ekonto/images/news/*
+||dijnet.hu/ekonto/images/szolg_logo/hu/adomany_logo.jpg
+||dijnet.hu/ekonto/images/szolg_logo/adomany_logo.jpg
