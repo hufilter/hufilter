@@ -433,6 +433,7 @@ es.hu##IFRAME
 hasznaltauto.hu##[class*="Advert"]
 hasznaltauto.hu##DIV[id="superbox"]
 hasznaltauto.hu###player
+hasznaltauto.hu###CybotCookiebotDialog
 !
 myvip.com##DIV[class*="etarget"]
 myvip.com##DIV[class*="banner"]
