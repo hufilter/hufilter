@@ -1158,3 +1158,6 @@ koponyeg.hu###vshu-box
 menetrendek.hu##.articles
 menetrendek.hu##.proposer
 menetrendek.hu##.read_vs
+!
+! DijNet fallback ads
+||dijnet.hu/ekonto/images/news/*
