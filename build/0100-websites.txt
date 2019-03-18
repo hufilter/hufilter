@@ -1182,3 +1182,11 @@ merce.hu##.mrc-bnr-plchldr
 !
 kiszamolo.hu###spu-103927
 kiszamolo.hu##.spu-box.spu-centered.spu-total-
+!
+elemzeskozpont.hu##.underlay
+elemzeskozpont.hu##.block-ouibounce-exit-modal
+elemzeskozpont.hu##.sidebar
+elemzeskozpont.hu##.region-highlighted
+elemzeskozpont.hu##.node-buttons
+elemzeskozpont.hu##.block-block
+elemzeskozpont.hu##.rtecenter
