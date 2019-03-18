@@ -1209,3 +1209,11 @@ online.budapestbank.hu##[id^="ext-gen"]
 online.budapestbank.hu##.ext-el-mask-banner
 !
 ||magyar-elektronika.hu/images/banners/*
+!
+! Gemius tracking
+||gemius.hu
+||gemius.pl
+*/traffic.js
+*/traffic.min.js
+*/genie.js
+*/genie.min.js
