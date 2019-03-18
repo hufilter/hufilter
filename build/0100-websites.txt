@@ -43,6 +43,7 @@ forum.index.hu###rightcoltd
 forum.index.hu##[id="ot2015"]
 index.hu,velvet.hu,totalcar.hu##.travelo-box
 index.hu,velvet.hu,totalcar.hu##.shopline-box
+index.hu,velvet.hu,totalcar.hu##.keplink
 index.hu,velvet.hu##.flash-fullscreen-wrapper
 index.hu##.keretes_szeles
 index.hu##._iph_brk
