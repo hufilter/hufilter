@@ -306,6 +306,7 @@ automenedzser.hu##DIV[class="adcloud"]
 ||portfolio.hu/img/partner/*
 portfolio.hu##DIV[id*="adocean"]
 portfolio.hu##DIV[id*="banner"]
+portfolio.hu###mymodal2
 !
 holtankoljak.hu##EMBED
 holtankoljak.hu##DIV[class*="banner"]
