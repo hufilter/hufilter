@@ -31,6 +31,13 @@ index.hu##A[id="closeWindow"]
 index.hu##[class*="ad-container"]
 index.hu##[class="glr_advert"]
 index.hu##[class="docWriteAdverticum"]
+index.hu##.nm_header
+index.hu##.nm_widget__wrapper
+index.hu##.nm_sponsored__wrapper
+index.hu##.nm_mini__wrapper
+index.hu##.nm_mini
+index.hu##.nm_supported__wrapper
+index.hu##.nm_supported
 forum.index.hu##TABLE[id="site_header"]
 forum.index.hu###rightcoltd
 forum.index.hu##[id="ot2015"]
