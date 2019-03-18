@@ -1190,3 +1190,8 @@ elemzeskozpont.hu##.region-highlighted
 elemzeskozpont.hu##.node-buttons
 elemzeskozpont.hu##.block-block
 elemzeskozpont.hu##.rtecenter
+!
+grundoajandek.hu###jqi-subfade
+grundoajandek.hu##.jqi-subfade
+grundoajandek.hu###jqi-sub
+grundoajandek.hu##.jqi-sub
