@@ -1227,3 +1227,6 @@ online.budapestbank.hu##.ext-el-mask-banner
 ###optimonk-overlay-campaign-12
 ##.optimonk-container
 ||cdn-dynamic.optimonk.com*
+!
+! Árukereső
+arukereso.hu##.brandbox
