@@ -1197,3 +1197,7 @@ grundoajandek.hu###jqi-subfade
 grundoajandek.hu##.jqi-subfade
 grundoajandek.hu###jqi-sub
 grundoajandek.hu##.jqi-sub
+!
+mlzphoto.hu##.cim-reklam
+mlzphoto.hu###custom_html-3
+mlzphoto.hu##.widget_text.widget.widget_custom_html
