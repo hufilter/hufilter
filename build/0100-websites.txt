@@ -898,8 +898,10 @@ hir.ma##[id="text-html-widget-6"]
 444.hu##[class*="banner"]
 444.hu##DIV[class="b-image-highlight b-image-highlight-article"]
 444.hu##[class="ad"]
-444.hu##[class="d36-top"]
 444.hu##[id*="-banner-"]
+444.hu##.text-center
+444.hu##.d36-top
+||444.hu##.ease-modal
 !
 ||888.hu^*/autoalkatreszek24$image
 !
