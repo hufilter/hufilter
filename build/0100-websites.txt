@@ -1217,3 +1217,11 @@ online.budapestbank.hu##.ext-el-mask-banner
 */traffic.min.js
 */genie.js
 */genie.min.js
+!
+! Optimonk
+###optimonk-iframe-container-campaign-12
+##.optimonk-iframe-container
+##.optimonk-middle
+###optimonk-overlay-campaign-12
+##.optimonk-container
+||cdn-dynamic.optimonk.com*
