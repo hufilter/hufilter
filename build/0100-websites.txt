@@ -945,6 +945,12 @@ vilagunk.hu##[style="z-index: 999999; background: rgba(0, 0, 0, 0.901961); displ
 !
 ||libri.hu/export/prodBann/
 ||libri.hu/html/images/skin/
+||libri.hu###skin-right
+||libri.hu###skin-left
+||libri.hu##.discount.clearfix.nonLpk
+||libri.hu###current_promotions_block
+||libri.hu##.box-general.clearfix
+||libri.hu##.fullwidth.current_promotions_block
 !
 ||femcafe.hu/*/spike_ad/*
 ||femcafe.hu/*/sponsoration/*
