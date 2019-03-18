@@ -1207,3 +1207,5 @@ budapestbank.hu###header_cookie_container
 online.budapestbank.hu##.campaign-item
 online.budapestbank.hu##[id^="ext-gen"]
 online.budapestbank.hu##.ext-el-mask-banner
+!
+||magyar-elektronika.hu/images/banners/*
