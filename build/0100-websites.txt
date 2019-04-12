@@ -50,6 +50,10 @@ index.hu##.keretes_szeles
 index.hu##._iph_brk
 index.hu###ad_null_position
 index.hu##.ad_container
+index.hu##.cikk-vegi-ajanlo-reklamok
+index.hu##.cikk-vegi-ajanlo-reklamok-container
+index.hu###also_bannerek
+index.hu###index_shopline
 !
 velvet.hu##DIV[id="ads"]
 velvet.hu##DIV[id*="microsite"]
