@@ -35,6 +35,10 @@
 ##[name*="google_ads"]
 ##div[class="canvasRecommended"]
 !
+##[class*="banner"]
+##[class*="Banner"]
+##.banner
+!
 /gemius.js^
 /gemius.min.js^
 /xgemius.js^
