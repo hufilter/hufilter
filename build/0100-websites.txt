@@ -1218,8 +1218,6 @@ online.budapestbank.hu##.ext-el-mask-banner
 ||gemius.pl
 */traffic.js
 */traffic.min.js
-*/genie.js
-*/genie.min.js
 !
 ! Optimonk
 ###optimonk-iframe-container-campaign-12
