@@ -177,6 +177,7 @@ vilaglato.info##.state-fb-pop-up
 vs.hu##[class="no_banner"]
 wasabi.hu##.footprint_cookie
 webforditas.hu##[id*="AdFrame"]
+||wik*.org^$script
 www.kh.hu###cookieAcceptanceContainer
 yayo.hu/static/banner/
 zene.hu##DIV[class="etarget"]
