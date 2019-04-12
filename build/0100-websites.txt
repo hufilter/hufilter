@@ -50,6 +50,10 @@ index.hu##.keretes_szeles
 index.hu##._iph_brk
 index.hu###ad_null_position
 index.hu##.ad_container
+index.hu##.cikk-vegi-ajanlo-reklamok
+index.hu##.cikk-vegi-ajanlo-reklamok-container
+index.hu###also_bannerek
+index.hu###index_shopline
 !
 velvet.hu##DIV[id="ads"]
 velvet.hu##DIV[id*="microsite"]
@@ -1238,3 +1242,7 @@ mavcsoport.hu###colorbox
 !
 ! Piac és Profit
 piacesprofit.hu##.inner
+!
+! Prog.hu & tsa.
+prog.hu,pcforum.hu###subscribepopuppanelalign
+prog.hu,pcforum.hu##.slidein.popup.closeablenotification.scripted
