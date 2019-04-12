@@ -176,6 +176,7 @@ tvgo.hu##[class="banner"]
 tvn.hu/tvn/kepek/xpoker.hu/
 utajovobe.eu##[class="bannergroup"]
 valasz.hu##[class*="banner"]
+valaszonline.hu##.hird-cont
 videoklinika.hu##DIV[id*="Banner"]
 vidget.hu##[class*="banner"]
 vilaglato.info##.state-fb-pop-up
