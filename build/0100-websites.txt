@@ -1238,3 +1238,7 @@ mavcsoport.hu###colorbox
 !
 ! Piac és Profit
 piacesprofit.hu##.inner
+!
+! Prog.hu & tsa.
+prog.hu,pcforum.hu###subscribepopuppanelalign
+prog.hu,pcforum.hu##.slidein.popup.closeablenotification.scripted
