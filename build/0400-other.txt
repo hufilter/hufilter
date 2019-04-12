@@ -37,7 +37,8 @@
 !
 ##[class*="banner"]
 ##[class*="Banner"]
-##.banner
+##[id*="banner"]
+##[id*="Banner"]
 !
 /gemius.js^
 /gemius.min.js^
