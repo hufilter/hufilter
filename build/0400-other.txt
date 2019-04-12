@@ -36,6 +36,8 @@
 ##div[class="canvasRecommended"]
 ##.banner
 ##div[data-campaign-name^="ads"]
+##.hirdetes
+##.hirdetes-linkek
 !
 /gemius.js^
 /gemius.min.js^
