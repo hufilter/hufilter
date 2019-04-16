@@ -34,7 +34,6 @@
 ##[id^="aswift_"]
 ##[name*="google_ads"]
 ##div[class="canvasRecommended"]
-##.banner
 ##div[data-campaign-name^="ads"]
 ##.hirdetes
 ##.hirdetes-linkek
