@@ -1,5 +1,5 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Homepage: https://github.com/szpeter80/hufilter/wiki
+! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
@@ -8,10 +8,8 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
-! Eszreveteleket az Adblock Plus beepitett bejelentojevel lehet jelezni, vagy a Github-on.
-! Karbantarto: Szabo Peter ( hufilter.adblock!gmail.com )
-!
-! Honlap: https://github.com/szpeter80/hufilter/wiki
+! Eszreveteleket a Github Issue Tracker-eben lehet bejelenteni.
+! Karbantarto: Hufilter kozremukodok ( hufilter@github )
 !
 ! A szuresi iranyelvek, felhasznalasi feltetelek a fenti honlapon /
 ! About filter policy and usage terms please see the homepage above
