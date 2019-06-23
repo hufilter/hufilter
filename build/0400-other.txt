@@ -31,6 +31,8 @@
 ##[id*="overlayBg"]
 ##[id^="ad_zone_"]
 ##[id^="adocean"]
+! github issue #150
+rp5.ru#@#[id^="aswift_"]
 ##[id^="aswift_"]
 ##[name*="google_ads"]
 ##div[class="canvasRecommended"]
