@@ -44,10 +44,11 @@ forum.index.hu###rightcoltd
 forum.index.hu##[id="ot2015"]
 index.hu,velvet.hu,totalcar.hu##.travelo-box
 index.hu,velvet.hu,totalcar.hu##.shopline-box
-# GH#139
-#index.hu,velvet.hu,totalcar.hu##.keplink
+! GH#139
+!index.hu,velvet.hu,totalcar.hu##.keplink
 index.hu,velvet.hu##.flash-fullscreen-wrapper
-index.hu##.keretes_szeles
+! GH #152
+!index.hu##.keretes_szeles
 index.hu##._iph_brk
 index.hu###ad_null_position
 index.hu##.ad_container
