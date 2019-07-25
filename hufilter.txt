@@ -5,8 +5,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201907252136
-! Checksum: HSJxKyqk9EJGXEH/Hx196Q
+! Version: 201907252140
+! Checksum: ouSuQ6y0z7y0Zl1wmY5dgA
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
