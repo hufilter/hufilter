@@ -14,7 +14,8 @@ index.hu##[class*="hirdetes"]
 index.hu##[class="ajanlatok box scrollbox"]
 index.hu##.adocean
 index.hu##.microsite_dummy
-index.hu##.microsite
+!github#152
+!index.hu##.microsite
 index.hu###ctravelbox
 index.hu###bookline
 index.hu###box_info
