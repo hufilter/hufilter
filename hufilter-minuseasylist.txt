@@ -5,8 +5,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201907252153
-! Checksum: orBpKkQolYeFv0ro16j2fg
+! Version: 201909162013
+! Checksum: Dz4078aKTe+u0znbycXTCQ
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -942,7 +942,7 @@ hir.ma##[id="text-html-widget-6"]
 444.hu##[id*="-banner-"]
 444.hu##.text-center
 444.hu##.d36-top
-||444.hu##.ease-modal
+444.hu##.ease-modal
 444.hu##.donation
 !
 ||888.hu^*/autoalkatreszek24$image
@@ -980,12 +980,12 @@ vilagunk.hu##[style="z-index: 999999; background: rgba(0, 0, 0, 0.901961); displ
 !
 ||libri.hu/export/prodBann/
 ||libri.hu/html/images/skin/
-||libri.hu###skin-right
-||libri.hu###skin-left
-||libri.hu##.discount.clearfix.nonLpk
-||libri.hu###current_promotions_block
-||libri.hu##.box-general.clearfix
-||libri.hu##.fullwidth.current_promotions_block
+libri.hu###skin-right
+libri.hu###skin-left
+libri.hu##.discount.clearfix.nonLpk
+libri.hu###current_promotions_block
+libri.hu##.box-general.clearfix
+libri.hu##.fullwidth.current_promotions_block
 !
 ||femcafe.hu/*/spike_ad/*
 ||femcafe.hu/*/sponsoration/*
@@ -1175,6 +1175,8 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.xabrecontainer
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##div[class="partners"]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu###thanks > .hlist.nohead
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[onclick*="$.ajax"]
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[contains(@href, 'http://www.autoalkatreszek24.hu/')]]])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[contains(@href, 'http://www.autoalkatreszonline24.hu/')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##div#center:-abp-has(div > div > p > a[style="color: #b42223;"])
 hardverapro.hu###top > .p-0.container
 !
