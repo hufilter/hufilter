@@ -236,4 +236,8 @@ zene.hu##DIV[class="etarget"]
 ||utvonalterv.hu/images/*.swf
 ||webminute.hu/bannerek/
 ||webtraffic.hu/banner/
+!
+! Reklamblokkolo detektalasanak meggatolasa
+@@||meszotar.hu/scripts/advertising.js
+szineshir.net/js/vendor/blockadblock.js
 
