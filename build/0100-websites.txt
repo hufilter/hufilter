@@ -921,6 +921,9 @@ hir.ma##[id="text-html-widget-6"]
 444.hu##.d36-top
 444.hu##.ease-modal
 444.hu##.donation
+444.hu###kummanto
+! AdBlock detector - privacy invasion
+||444.hu/js/ease_detector.js
 !
 ||888.hu^*/autoalkatreszek24$image
 !
