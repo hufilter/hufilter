@@ -1284,6 +1284,12 @@ szineshir.net##div.d-xl-block[style*="padding: 10px"]
 szineshir.net##.post_content_box_article_continue + div
 szineshir.net##.post_content_box > .post_content_box_sidebar
 !
+! Magyar Telekom (née: Westel)
+telekom.hu##.device-card
+telekom.hu##.inline-promo-custom-services
+telekom.hu##.main-promo
+telekom.hu##.main-promo-slide
+telekom.hu##.ads
 ! TeleTál
 ! Seems sketchy - TeleTál uses png for actual images, and jpeg for ads
 ||teletal.hu/*/images/*.jpg
