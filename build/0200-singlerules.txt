@@ -16,8 +16,11 @@ astronet.hu##[class*="ads-"]
 ateceged.hu##[class="ad"]
 autobazar.eu##DIV[class="button-ads"]
 autopro.hu##[class*="banner"]
+autoszektor.hu##.view-banner-blokkok
+autoszektor.hu###article-2
 babanet.hu##[class*="hirdetes"]
 babaszoba.hu##[class*="advert"]
+bebiztositva.hu##.widget_media_image
 betegvagyok.hu##[id*="banner"]
 bonuszbrigad.hu##[id="popup_landing_container"]
 bookline.hu##[class*="advert"]
@@ -68,6 +71,7 @@ hiros.hu##[class="banner_widget"]
 hirposta.hu##[id*="banner"]
 hirtv.hu##[class*="-ad-container"]
 hoc.hu##P[class*="banner"]
+hogyan.org##.widget.widget_text
 hogyankell.hu##[id^="advert"]
 hotdog.hu##DIV[id="tetszett"]
 hrportal.hu##[class*="banner"]
@@ -113,6 +117,7 @@ mmonline.hu##[class*="banner"]
 mno.hu##[class*="box ajanlo"]
 motorrevu.hu##[class*="hirdetes"]
 mozinezo.hu##[id="header"]
+mozishop.hu##.om-holder
 mult-kor.hu##[class^="ui-dialog"]
 multiplay.hu##[id*="banner"]
 myvip.com##[id*="banner"]
@@ -159,6 +164,7 @@ sztarklikk.hu##[class="banner"]
 telefonkonyv.hu##[class*=" adH"]
 telekom.hu##DIV[class="ads"]
 teltlanyok.com##[id^="adchange"]
+terhesferfi.hu##div.banner
 titkosrandi.hu##DIV[class="skybanner"]
 tlap.hu##[id*="_bnr"]
 torte-net.hu##DIV[id="hirdetes"]
@@ -171,6 +177,7 @@ tvgo.hu##[class="banner"]
 tvn.hu/tvn/kepek/xpoker.hu/
 utajovobe.eu##[class="bannergroup"]
 valasz.hu##[class*="banner"]
+valaszonline.hu##.hird-cont
 videoklinika.hu##DIV[id*="Banner"]
 vidget.hu##[class*="banner"]
 vilaglato.info##.state-fb-pop-up
@@ -229,4 +236,8 @@ zene.hu##DIV[class="etarget"]
 ||utvonalterv.hu/images/*.swf
 ||webminute.hu/bannerek/
 ||webtraffic.hu/banner/
+!
+! Reklamblokkolo detektalasanak meggatolasa
+@@||meszotar.hu/scripts/advertising.js
+szineshir.net/js/vendor/blockadblock.js
 

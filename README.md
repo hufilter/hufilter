@@ -5,7 +5,7 @@ Magyar Adblock szűrőlista
 
 Alternatív szűrőlistákat, további felhasználási feltételeket és információkat a projekt honlapján (wikijében) találsz:
 
-https://github.com/szpeter80/hufilter/wiki
+https://github.com/hufilter/hufilter/wiki
 
 
 A hufilter projekt a "Creative Commons Attribution 4.0" licenszfeltételek mellett használható fel. 
