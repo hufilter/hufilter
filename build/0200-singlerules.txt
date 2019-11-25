@@ -12,6 +12,7 @@ adoforum.hu##[class^="zone_"]
 androbit.net###RedUserNotification
 angolosan.hu##[id*="etarget"]
 aranyoldalak.hu##[class*=" adH"]
+arukereso.hu##.brandbox
 astronet.hu##[class*="ads-"]
 ateceged.hu##[class="ad"]
 autobazar.eu##DIV[class="button-ads"]
@@ -60,6 +61,7 @@ gyorplusz.hu##[class*="banner"]
 hajokonyha.hu##[class*="hirdetes"]
 hatarido-szamitas.hu##[class="szkozepkis"]
 haziallat.hu##[id*="_ads"]
+hbogo.hu##.cookie-consent
 helyitipp.hu##[id*="hirdet"]
 hetek.hu##[id*="popup"]
 hir6.hu##[class*="banner"]
@@ -107,6 +109,7 @@ mainap.hu##[class*="banner"]
 manus.hu##[class*="articleBanner"]
 marmalade.hu##[class*="Banner"]
 menshealth.hu##[id="fbpopup"]
+meska.hu##.sticky
 metazin.hu##DIV[class*="etarget"]
 metropol.hu/*/images/sponsor_*.*
 miabonyunk.hu/hirdetesek/
@@ -130,6 +133,7 @@ netbulvar.eu##[id*="advertisment"]
 netfirms.com##A[href*="=banner"]
 netii.net##[id*="facebox"]
 nice.hu##[class*="banner"]
+nkmenergia.hu###tab-widget
 noitema.hu##[class*="hirdetes"]
 notonlyporn.net##[id*="warning"]
 offline.hu##[class="ad"]
@@ -141,7 +145,6 @@ pcguru.hu##DIV[class="banner-content"]
 pdafanclub.com##[id*="banner"]
 pecsma.hu##[id="kutu"]
 pestisracok.hu##[class^="ads-"]
-piacesprofit.hu/files/skin/
 pirulapatika.hu##[id*="banner"]
 politaktika.hu##[id="popup"]
 prim.hu##[class*="banner"]
@@ -157,6 +160,7 @@ sportorvos.hu##[class*="ad_"]
 stop.hu##[src*="hirdetes_"]
 superiorhirek.hu##[class*="-ad"]
 szabadfold.hu##[class*="hirdetes"]
+szamoldki.hu##.modal_popup
 szeretlekmagyarorszag.hu##[id="hatterkep"]
 szingliportal.hu##[class="article_contiune_link"]
 sztaki.hu##DIV[id="magnum"]
@@ -165,6 +169,7 @@ telefonkonyv.hu##[class*=" adH"]
 telekom.hu##DIV[class="ads"]
 teltlanyok.com##[id^="adchange"]
 terhesferfi.hu##div.banner
+termalfurdo.hu##.kiemelttartalombox_feher
 titkosrandi.hu##DIV[class="skybanner"]
 tlap.hu##[id*="_bnr"]
 torte-net.hu##DIV[id="hirdetes"]
@@ -218,6 +223,7 @@ zene.hu##DIV[class="etarget"]
 ||lapok.hu/felso/felso.php
 ||lolmarkt.hu/banner/
 ||magyarszo.com/images/banner/*
+||magyar-elektronika.hu/images/banners/*
 ||media.netpositive.hu
 ||napiszar.com/banners/
 ||okmanyiroda.hu/banner.html
