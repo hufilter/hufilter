@@ -14,7 +14,7 @@ angolosan.hu##[id*="etarget"]
 aranyoldalak.hu##[class*=" adH"]
 astronet.hu##[class*="ads-"]
 ateceged.hu##.ad
-autobazar.eu##DIV[class="button-ads"]
+autobazar.eu##.button-ads
 autopro.hu##[class*="banner"]
 autoszektor.hu##.view-banner-blokkok
 autoszektor.hu###article-2
@@ -86,7 +86,7 @@ ingyenweb.hu/felso/*.*
 internet-marketing.hu###bottompopup
 intima.hu##[class*="banner"]
 investor.hu###magnum
-ize.hu##DIV[class="banner"]
+ize.hu##.banner
 jogiforum.hu##[class*="banner"]
 kakukk.ro##[id*="banner"]
 kapcsolat.hu##DIV[class*="banner"]
@@ -137,7 +137,7 @@ online.filmek-sorozatok.info/java.js
 onlinecegjegyzek.hu##[class*="hirdetes"]
 otvenentul.hu##[class^="ad"]
 partyzoo.hu/banner/
-pcguru.hu##DIV[class="banner-content"]
+pcguru.hu##.banner-content
 pdafanclub.com##[id*="banner"]
 pecsma.hu###kutu
 pestisracok.hu##[class^="ads-"]
@@ -151,7 +151,7 @@ retikul.hu##[class*="banner"]
 ricsajok.hu##[class*="banner"]
 samsungsport.hu##[class*="banner"]
 simple.hu###enableCookieDiv
-site88.net##DIV[class="popup"]
+site88.net##.popup
 sportoldal.ro##[class*="banner"]
 sportorvos.hu##[class*="ad_"]
 stop.hu##[src*="hirdetes_"]
@@ -162,16 +162,16 @@ szingliportal.hu##.article_contiune_link
 sztaki.hu###magnum
 sztarklikk.hu##.banner
 telefonkonyv.hu##[class*=" adH"]
-telekom.hu##DIV[class="ads"]
+telekom.hu##.ads
 teltlanyok.com##[id^="adchange"]
 terhesferfi.hu##div.banner
-titkosrandi.hu##DIV[class="skybanner"]
+titkosrandi.hu##.skybanner
 tlap.hu##[id*="_bnr"]
 torte-net.hu###hirdetes
 trademagazin.hu##[id*="banner"]
 travelo.hu##[class*="hirdetes"]
 turizmusonline.hu##[class*="Banner"]
-turmixvilag.hu##DIV[class="adsense"]
+turmixvilag.hu##.adsense
 tutitippek.hu##[class*="adsense"]
 tvgo.hu##.banner
 tvn.hu/tvn/kepek/xpoker.hu/
@@ -186,7 +186,7 @@ wasabi.hu##.footprint_cookie
 webforditas.hu##[id*="AdFrame"]
 www.kh.hu###cookieAcceptanceContainer
 yayo.hu/static/banner/
-zene.hu##DIV[class="etarget"]
+zene.hu##.etarget
 !
 ||ad.kapos.hu
 ||ad.napilapcsoport.hu

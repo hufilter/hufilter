@@ -35,7 +35,7 @@
 rp5.ru#@#[id^="aswift_"]
 ##[id^="aswift_"]
 ##[name*="google_ads"]
-##div[class="canvasRecommended"]
+##.canvasRecommended
 ##div[data-campaign-name^="ads"]
 ##.hirdetes
 ##.hirdetes-linkek
