@@ -21,7 +21,7 @@
 ##IFRAME[id^="ETARGET-"]
 ##[class*="GoogleAds"]
 ##[class*="overlayBg"]
-##[class="google_ad"]
+##.google_ad
 ##[href*="addtoany.com"]
 ##[href*="kuponmania.hu"]
 ##[id*="GoogleAds"]

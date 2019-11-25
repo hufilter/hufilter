@@ -13,7 +13,7 @@ androbit.net###RedUserNotification
 angolosan.hu##[id*="etarget"]
 aranyoldalak.hu##[class*=" adH"]
 astronet.hu##[class*="ads-"]
-ateceged.hu##[class="ad"]
+ateceged.hu##.ad
 autobazar.eu##DIV[class="button-ads"]
 autopro.hu##[class*="banner"]
 autoszektor.hu##.view-banner-blokkok
@@ -24,9 +24,9 @@ bebiztositva.hu##.widget_media_image
 betegvagyok.hu##[id*="banner"]
 bonuszbrigad.hu###popup_landing_container
 bookline.hu##[class*="advert"]
-borsa.hu##[class="blockright"]
+borsa.hu##.blockright
 borsonline.hu##[class*="adContainer"]
-budaorsiinfo.hu##[class="ad"]
+budaorsiinfo.hu##.ad
 builder.hu##[class*="banner"]
 c-press.hu###bef_mainbody_mod_2
 csongradihirek.hu##[class*="banner"]
@@ -48,17 +48,17 @@ filmoldal.hu##DIV[class*="reklam"]
 firstman.hu##[class*="banner"]
 galamus.hu##[class*="banner"]
 gamepod.hu###right > .xabrew300.box
-gentleman.hu##[class="roadblockcont"]
+gentleman.hu##.roadblockcont
 gigasex.hu/bannerek/
 gloria.tv##[id*="advert"]
 gphirek.hu##DIV.ad
 gportal.hu##[class*="banner"]
-gumiszoba.com##[class="wpcnt"]
+gumiszoba.com##.wpcnt
 gyartastrend.hu##[class*="contentBanner"]
 gyoricegregiszter.hu##[class*="banner"]
 gyorplusz.hu##[class*="banner"]
 hajokonyha.hu##[class*="hirdetes"]
-hatarido-szamitas.hu##[class="szkozepkis"]
+hatarido-szamitas.hu##.szkozepkis
 haziallat.hu##[id*="_ads"]
 helyitipp.hu##[id*="hirdet"]
 hetek.hu##[id*="popup"]
@@ -67,7 +67,7 @@ hirado.hu##[class="video_preroll type_swf"]
 hircsarda.hu/ads/
 hirextra.hu##[class*="billboard"]
 hirkosar.com###fanback
-hiros.hu##[class="banner_widget"]
+hiros.hu##.banner_widget
 hirposta.hu##[id*="banner"]
 hirtv.hu##[class*="-ad-container"]
 hoc.hu##P[class*="banner"]
@@ -98,7 +98,7 @@ kezilabda.hu##[id*="banner"]
 kislexikon.hu/swf/
 kronika.ro##[class*="banner"]
 lajkold.hu##[class^="ad "]
-lakberendezes.hu##[class="adbg"]
+lakberendezes.hu##.adbg
 litera.hu##[class*="-ad"]
 lovebox.hu##[class*="banner"]
 mafab.hu##.visible-lg.container
@@ -132,7 +132,7 @@ netii.net##[id*="facebox"]
 nice.hu##[class*="banner"]
 noitema.hu##[class*="hirdetes"]
 notonlyporn.net##[id*="warning"]
-offline.hu##[class="ad"]
+offline.hu##.ad
 online.filmek-sorozatok.info/java.js
 onlinecegjegyzek.hu##[class*="hirdetes"]
 otvenentul.hu##[class^="ad"]
@@ -158,9 +158,9 @@ stop.hu##[src*="hirdetes_"]
 superiorhirek.hu##[class*="-ad"]
 szabadfold.hu##[class*="hirdetes"]
 szeretlekmagyarorszag.hu###hatterkep
-szingliportal.hu##[class="article_contiune_link"]
+szingliportal.hu##.article_contiune_link
 sztaki.hu##DIV[id="magnum"]
-sztarklikk.hu##[class="banner"]
+sztarklikk.hu##.banner
 telefonkonyv.hu##[class*=" adH"]
 telekom.hu##DIV[class="ads"]
 teltlanyok.com##[id^="adchange"]
@@ -173,15 +173,15 @@ travelo.hu##[class*="hirdetes"]
 turizmusonline.hu##[class*="Banner"]
 turmixvilag.hu##DIV[class="adsense"]
 tutitippek.hu##[class*="adsense"]
-tvgo.hu##[class="banner"]
+tvgo.hu##.banner
 tvn.hu/tvn/kepek/xpoker.hu/
-utajovobe.eu##[class="bannergroup"]
+utajovobe.eu##.bannergroup
 valasz.hu##[class*="banner"]
 valaszonline.hu##.hird-cont
 videoklinika.hu##DIV[id*="Banner"]
 vidget.hu##[class*="banner"]
 vilaglato.info##.state-fb-pop-up
-vs.hu##[class="no_banner"]
+vs.hu##.no_banner
 wasabi.hu##.footprint_cookie
 webforditas.hu##[id*="AdFrame"]
 www.kh.hu###cookieAcceptanceContainer
