@@ -912,6 +912,7 @@ polusonline.com##[id="HTML9"]
 !
 hir.ma##[class="e3lan e3lan-top"]
 hir.ma##[id="text-html-widget-6"]
+hir.ma##[class^="ad"]
 !
 444.hu##[class*="banner"]
 444.hu##DIV[class="b-image-highlight b-image-highlight-article"]
