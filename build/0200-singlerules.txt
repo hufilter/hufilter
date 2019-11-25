@@ -12,6 +12,7 @@ adoforum.hu##[class^="zone_"]
 androbit.net###RedUserNotification
 angolosan.hu##[id*="etarget"]
 aranyoldalak.hu##[class*=" adH"]
+arukereso.hu##.brandbox
 astronet.hu##[class*="ads-"]
 ateceged.hu##.ad
 autobazar.eu##.button-ads
@@ -60,6 +61,7 @@ gyorplusz.hu##[class*="banner"]
 hajokonyha.hu##[class*="hirdetes"]
 hatarido-szamitas.hu##.szkozepkis
 haziallat.hu##[id*="_ads"]
+hbogo.hu##.cookie-consent
 helyitipp.hu##[id*="hirdet"]
 hetek.hu##[id*="popup"]
 hir6.hu##[class*="banner"]
@@ -106,6 +108,7 @@ magyarnarancs.hu##[id*="_ad"]
 mainap.hu##[class*="banner"]
 manus.hu##[class*="articleBanner"]
 marmalade.hu##[class*="Banner"]
+meska.hu##.sticky
 menshealth.hu###fbpopup
 metazin.hu##DIV[class*="etarget"]
 metropol.hu/*/images/sponsor_*.*
@@ -130,6 +133,7 @@ netbulvar.eu##[id*="advertisment"]
 netfirms.com##A[href*="=banner"]
 netii.net##[id*="facebox"]
 nice.hu##[class*="banner"]
+nkmenergia.hu###tab-widget
 noitema.hu##[class*="hirdetes"]
 notonlyporn.net##[id*="warning"]
 offline.hu##.ad
@@ -141,7 +145,6 @@ pcguru.hu##.banner-content
 pdafanclub.com##[id*="banner"]
 pecsma.hu###kutu
 pestisracok.hu##[class^="ads-"]
-piacesprofit.hu/files/skin/
 pirulapatika.hu##[id*="banner"]
 politaktika.hu###popup
 prim.hu##[class*="banner"]
@@ -157,14 +160,15 @@ sportorvos.hu##[class*="ad_"]
 stop.hu##[src*="hirdetes_"]
 superiorhirek.hu##[class*="-ad"]
 szabadfold.hu##[class*="hirdetes"]
+szamoldki.hu##.modal_popup
 szeretlekmagyarorszag.hu###hatterkep
 szingliportal.hu##.article_contiune_link
 sztaki.hu###magnum
 sztarklikk.hu##.banner
 telefonkonyv.hu##[class*=" adH"]
-telekom.hu##.ads
 teltlanyok.com##[id^="adchange"]
 terhesferfi.hu##div.banner
+termalfurdo.hu##.kiemelttartalombox_feher
 titkosrandi.hu##.skybanner
 tlap.hu##[id*="_bnr"]
 torte-net.hu###hirdetes
@@ -218,6 +222,7 @@ zene.hu##.etarget
 ||lapok.hu/felso/felso.php
 ||lolmarkt.hu/banner/
 ||magyarszo.com/images/banner/*
+||magyar-elektronika.hu/images/banners/*
 ||media.netpositive.hu
 ||napiszar.com/banners/
 ||okmanyiroda.hu/banner.html

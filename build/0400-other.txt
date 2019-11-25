@@ -39,6 +39,13 @@ rp5.ru#@#[id^="aswift_"]
 ##div[data-campaign-name^="ads"]
 ##.hirdetes
 ##.hirdetes-linkek
+##div[data-campaign-name^="ads"]
+###etarget
+##.ad__main
+##.newsletter
+##.ad
+##.mail-chimp-popup
+##.jwplayer
 !
 /gemius.js^
 /gemius.min.js^
@@ -49,6 +56,10 @@ dictzone.com###a1
 dictzone.com###a2
 openspeedtest.com##script:contains(testadblock)
 !
+||*/userip.php
+||*/advertisement.js
+||*/eu-banned-popup/*
+||*/empty.json
 ||*.hit.gemius.pl^
 ||2mdn.net^$third-party
 ||9klikk.com^$third-party
