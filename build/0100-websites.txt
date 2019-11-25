@@ -24,12 +24,12 @@ index.hu###box_eon
 index.hu###box_energiapedia
 index.hu###box_medicalonline
 index.hu##DIV[id*="banner"]
-index.hu##DIV[id="interstitial"]
+index.hu###interstitial
 index.hu##DIV[class*="guestbox"]
 index.hu###ads
 index.hu###cemp_doboz
 index.hu##[class*="Advert"]
-index.hu##A[id="closeWindow"]
+index.hu###closeWindow
 index.hu##[class*="ad-container"]
 index.hu##.glr_advert
 index.hu##.docWriteAdverticum
@@ -40,7 +40,7 @@ index.hu##.nm_mini__wrapper
 index.hu##.nm_mini
 index.hu##.nm_supported__wrapper
 index.hu##.nm_supported
-forum.index.hu##TABLE[id="site_header"]
+forum.index.hu###site_header
 forum.index.hu###rightcoltd
 forum.index.hu###ot2015
 index.hu,velvet.hu,totalcar.hu##.travelo-box
@@ -58,13 +58,13 @@ index.hu##.cikk-vegi-ajanlo-reklamok-container
 index.hu###also_bannerek
 index.hu###index_shopline
 !
-velvet.hu##DIV[id="ads"]
+velvet.hu###ads
 velvet.hu##DIV[id*="microsite"]
 velvet.hu##DIV[class*="microsite"]
 velvet.hu##[id*="banner"]
 velvet.hu##[class*="hirdetes"]
 velvet.hu##[id*="adocean"]
-velvet.hu##DIV[id="interstitial"]
+velvet.hu###interstitial
 velvet.hu###cemp_doboz
 velvet.hu##.adszoveg
 velvet.hu##[class*="ad_container"]
@@ -75,7 +75,7 @@ totalcar.hu##[id*="adocean"]
 totalcar.hu##[class*="hirdetes"]
 totalcar.hu##[class*="adblokk"]
 totalcar.hu##.microsite
-totalcar.hu##DIV[id="ads"]
+totalcar.hu###ads
 !
 ||chat.hu/Client/banner
 ||chat.hu/imgadverts*
@@ -95,11 +95,11 @@ stylemagazin.hu##[id*="banner"]
 !!!hvg.hu##[class*="adcloud"]
 !!!hvg.hu##.ad
 !!!hvg.hu##TABLE[class*="monocle"]
-!!!hvg.hu##DIV[id="debugMode"]
+!!!hvg.hu###debugMode
 !!!##A[href*="adcloud.hvg.hu"]
 !!!hvg.hu##.hvg-layer
 !
-hvg.hu##IFRAME[id="video"]
+hvg.hu###video
 hvg.hu##[class*="adsense"]
 hvg.hu##[class*="adtype-"]
 hvg.hu##.adcaption
@@ -191,7 +191,7 @@ origo.hu##[class*="origoAjanlat"]
 origo.hu##[id*="ajanlat_"]
 origo.hu##A[href*="xtb.hu"]
 origo.hu##DIV[id*="magnum"]
-origo.hu##DIV[id="szoveges"]
+origo.hu###szoveges
 origo.hu##DIV[class*="Advert"]
 origo.hu##IFRAME[id*="bookline"]
 origo.hu##[id^="edigital_"]
@@ -230,10 +230,10 @@ fn.hu##[class*="banner"]
 fn.hu###felso_tavtarto
 !
 citromail.hu##DIV[class*="hirdetes"]
-citromail.hu##TD[id="oldal"]
-citromail.hu##DIV[id="linkek"]
-citromail.hu##TR[id="hir2"]
-citromail.hu##DIV[id="hir"]
+citromail.hu###oldal
+citromail.hu###linkek
+citromail.hu###hir2
+citromail.hu###hir
 citromail.hu###aHirek
 !
 ||mandiner.hu/*/banner/
@@ -274,7 +274,7 @@ blog.hu##DIV[class="share"]
 blog.hu##.ad
 blog.hu##[class*="follow_promo_figure"]
 blog.hu##[class="box widget_html ad"]
-blog.hu##DIV[id="taft"]
+blog.hu###taft
 blog.hu##.living-earth
 blog.hu##[id*="cp_popup"]
 blog.hu##.meropixel-hide
@@ -289,7 +289,7 @@ vatera.hu##DIV[class="page-rightside-advert"]
 ||vatera.hu/affiliate/images/banner/
 !
 gyakorikerdesek.hu##IFRAME
-gyakorikerdesek.hu##OBJECT[id="adryf"]
+gyakorikerdesek.hu###adryf
 gyakorikerdesek.hu##[id*="aswift"]
 gyakorikerdesek.hu/reklam/
 gyakorikerdesek.hu/pic/bannerek/
@@ -375,7 +375,7 @@ transindex.ro##DIV[id*="anner"]
 transindex.ro##[class*="Banner"]
 transindex.ro##DIV[id*="Reklam"]
 transindex.ro##[class*="Reklam"]
-transindex.ro##DIV[id="Promolecek"]
+transindex.ro###Promolecek
 transindex.ro##[id*="hirdetes"]
 transindex.ro##DIV[class="header-1"]
 !
@@ -413,7 +413,7 @@ www.hwsw.hu##.kommentadomany
 !
 ||harmonet.hu/*hirdetes
 harmonet.hu##DIV[id*="banner"]
-harmonet.hu##DIV[id="lightwindow_overlay"]
+harmonet.hu###lightwindow_overlay
 harmonet.hu##[class*="hirdetes"]
 !
 humormagazin.com##.top-column.col-xs-12 > .recommendation-holder
@@ -439,7 +439,7 @@ es.hu##IFRAME
 ||telefonguru.hu/iframes/
 !
 hasznaltauto.hu##[class*="Advert"]
-hasznaltauto.hu##DIV[id="superbox"]
+hasznaltauto.hu###superbox
 hasznaltauto.hu###player
 hasznaltauto.hu###CybotCookiebotDialog
 !
@@ -456,10 +456,10 @@ life.hu##DIV[class="kiskepes"]
 life.hu##DIV[class="hird300"]
 life.hu##DIV[class="magnum"]
 life.hu##DIV[class*="etarget"]
-life.hu##DIV[id="ovasar"]
+life.hu###ovasar
 life.hu##[id*="banner"]
 life.hu##[class*="Advert"]
-life.hu##DIV[id="cikkalatti"]
+life.hu###cikkalatti
 life.hu##DIV[class="pr-item"]
 life.hu###top
 life.hu##.ad
@@ -469,7 +469,7 @@ idokep.hu##DIV[class="#adContent"]
 idokep.hu##DIV[class="hird-label"]
 !
 napinemszar.hu##[id*="reklam"]
-napinemszar.hu##DIV[id="sidebar"]
+napinemszar.hu###sidebar
 !
 techline.hu##[class*="banner"]
 techline.hu##DIV[class="adcloud"]
@@ -479,14 +479,14 @@ techline.hu##[id*="_ad"]
 magyarhirlap.hu##[id*="banner"]
 magyarhirlap.hu##[class*="banner"]
 !
-napi.hu##DIV[id="interstitial"]
+napi.hu###interstitial
 napi.hu##[class*="banner"]
 napi.hu##[class*="hirdetes"]
 napi.hu##[id*="banner"]
-napi.hu##DIV[id="stickyfooter"]
+napi.hu###stickyfooter
 !
 ||blogol.hu/bannersav.php
-blogol.hu##DIV[id="oszlop4"]
+blogol.hu###oszlop4
 blogol.hu##[class*="banner"]
 !
 ||carstyling.hu/*ads_
@@ -551,7 +551,7 @@ anyuci.hu##[class*="banner"]
 csaladinet.hu##[class*="adv-"]
 csaladinet.hu##[class*="-adv"]
 !
-divany.hu##DIV[id="interstitial"]
+divany.hu###interstitial
 divany.hu##[id*="banner"]
 divany.hu##[id*="szponzoracio"]
 !!divany.hu##[class^="hirdetes "]
@@ -582,7 +582,7 @@ webbeteg.hu##DIV[class*="banner"]
 webbeteg.hu##[id*="_ajanlatunk_"]
 webbeteg.hu##[id^="hirdetes"]
 !
-gondola.hu##DIV[id="partnerek"]
+gondola.hu###partnerek
 gondola.hu##[class*="banner"]
 gondola.hu##[id*="banner"]
 !
@@ -667,7 +667,7 @@ noplaza.hu##[class*="banner"]
 ||asva.info/wp-content/themes/branfordmagazine/images/banners/*
 !
 prohardver.hu##p:-abp-contains(Amikor a szoftver illeszkedik a meglévő üzleti folyamatokhoz.)
-prohardver.hu##div[id="center"] > div:-abp-has(div):-abp-has(a):-abp-has(Mostantól bármely bank ügyfelének elérhető a mobilfizetés élménye.)
+prohardver.hu###center > div:-abp-has(div):-abp-has(a):-abp-has(Mostantól bármely bank ügyfelének elérhető a mobilfizetés élménye.)
 !
 medizona.hu##[class*="banner"]
 medizona.hu##.adcloud
@@ -782,7 +782,7 @@ itmania.hu##[class*="hirdetes"]
 itmania.hu##.rckaexclude
 !
 nemkutya.com##[class^="ad-"]
-nemkutya.com##LI[id="text-3"]
+nemkutya.com###text-3
 nemkutya.com##.hird
 !
 heol.hu##[class^="ad "]
@@ -1012,7 +1012,7 @@ koponyeg.hu##[class*="adsense"]
 koponyeg.hu##[class*="hirdetes"]
 koponyeg.hu##[id*="adsense"]
 !
-kamaszpanasz.hu##DIV[id="header"]
+kamaszpanasz.hu###header
 kamaszpanasz.hu##[class*="banner"]
 kamaszpanasz.hu##[data*="banner"]
 !
@@ -1022,7 +1022,7 @@ indavideo.hu##[class*="billboard"]
 ilovebalaton.hu##[class*=" ad"]
 ilovebalaton.hu##.ad
 !
-hupont.hu##DIV[id="szupertorony"]
+hupont.hu###szupertorony
 hupont.hu##[id*="-reklam"]
 hupont.hu##[id*="fancybox"]
 hupont.hu/hirdetes/
@@ -1094,7 +1094,7 @@ freewaresoftwarenews.blogspot.com###column-left-inner
 !
 blogspot.hu###fbox-background
 !
-blogstar.hu##DIV[id="lightview1"]
+blogstar.hu###lightview1
 blogstar.hu##[class*="banner"]
 blogstar.hu##[class*="popupBanner"]
 !

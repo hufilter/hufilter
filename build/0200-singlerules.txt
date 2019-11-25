@@ -4,7 +4,7 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
 !
-5mp.eu##DIV[id="alsobox"]
+5mp.eu###alsobox
 5perc.es##[class*="banner"]
 CegMarketing.hu/banner*
 account.hu/felso/
@@ -73,7 +73,7 @@ hirtv.hu##[class*="-ad-container"]
 hoc.hu##P[class*="banner"]
 hogyan.org##.widget.widget_text
 hogyankell.hu##[id^="advert"]
-hotdog.hu##DIV[id="tetszett"]
+hotdog.hu###tetszett
 hrportal.hu##[class*="banner"]
 hungliaonline.com##script:contains(adblocker)
 hunhir.hu##[class*="_ad"]
@@ -159,7 +159,7 @@ superiorhirek.hu##[class*="-ad"]
 szabadfold.hu##[class*="hirdetes"]
 szeretlekmagyarorszag.hu###hatterkep
 szingliportal.hu##.article_contiune_link
-sztaki.hu##DIV[id="magnum"]
+sztaki.hu###magnum
 sztarklikk.hu##.banner
 telefonkonyv.hu##[class*=" adH"]
 telekom.hu##DIV[class="ads"]
@@ -167,7 +167,7 @@ teltlanyok.com##[id^="adchange"]
 terhesferfi.hu##div.banner
 titkosrandi.hu##DIV[class="skybanner"]
 tlap.hu##[id*="_bnr"]
-torte-net.hu##DIV[id="hirdetes"]
+torte-net.hu###hirdetes
 trademagazin.hu##[id*="banner"]
 travelo.hu##[class*="hirdetes"]
 turizmusonline.hu##[class*="Banner"]

@@ -13,9 +13,9 @@
 ##A[href*="etargetnet.com"]
 ##A[href*="internetespenzkereses.net"]
 ##DIV[href*="ad.adverticum.net"]
-##DIV[id="cemp_doboz"]
-##DIV[id="cenmg"]
-##DIV[id="google_hirdetesek"]
+###cemp_doboz
+###cenmg
+###google_hirdetesek
 ##DIV[id^="googlead"]
 ##IFRAME[id*="ETARGET-hu-"]
 ##IFRAME[id^="ETARGET-"]
@@ -45,8 +45,8 @@ rp5.ru#@#[id^="aswift_"]
 /xgemius.js^
 /xgemius.min.js^
 !
-dictzone.com##P[id="a1"]
-dictzone.com##P[id="a2"]
+dictzone.com###a1
+dictzone.com###a2
 openspeedtest.com##script:contains(testadblock)
 !
 ||*.hit.gemius.pl^
