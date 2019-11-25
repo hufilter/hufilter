@@ -162,7 +162,6 @@ szingliportal.hu##[class="article_contiune_link"]
 sztaki.hu##DIV[id="magnum"]
 sztarklikk.hu##[class="banner"]
 telefonkonyv.hu##[class*=" adH"]
-telekom.hu##DIV[class="ads"]
 teltlanyok.com##[id^="adchange"]
 terhesferfi.hu##div.banner
 titkosrandi.hu##DIV[class="skybanner"]
