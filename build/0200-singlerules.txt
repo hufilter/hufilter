@@ -22,13 +22,13 @@ babanet.hu##[class*="hirdetes"]
 babaszoba.hu##[class*="advert"]
 bebiztositva.hu##.widget_media_image
 betegvagyok.hu##[id*="banner"]
-bonuszbrigad.hu##[id="popup_landing_container"]
+bonuszbrigad.hu###popup_landing_container
 bookline.hu##[class*="advert"]
 borsa.hu##[class="blockright"]
 borsonline.hu##[class*="adContainer"]
 budaorsiinfo.hu##[class="ad"]
 builder.hu##[class*="banner"]
-c-press.hu##[id="bef_mainbody_mod_2"]
+c-press.hu###bef_mainbody_mod_2
 csongradihirek.hu##[class*="banner"]
 dehir.hu##[class*="advert"]
 demokrata.hu##.region-header.region
@@ -43,7 +43,7 @@ f1vilag.hu##[class*="adzone"]
 feliratok.info##DIV#advert
 figyelo.hu##[class*="adbox"]
 figyelo.hu##[class*="banner"]
-film4u.hu##[id="text-12"]
+film4u.hu###text-12
 filmoldal.hu##DIV[class*="reklam"]
 firstman.hu##[class*="banner"]
 galamus.hu##[class*="banner"]
@@ -83,9 +83,9 @@ infodunaujvaros.hu##[class*="banner"]
 ingatlanmagazin.com##[class*="banner"]
 ingatlanok.hu##[class*="banner"]
 ingyenweb.hu/felso/*.*
-internet-marketing.hu##[id="bottompopup"]
+internet-marketing.hu###bottompopup
 intima.hu##[class*="banner"]
-investor.hu##[id="magnum"]
+investor.hu###magnum
 ize.hu##DIV[class="banner"]
 jogiforum.hu##[class*="banner"]
 kakukk.ro##[id*="banner"]
@@ -106,7 +106,7 @@ magyarnarancs.hu##[id*="_ad"]
 mainap.hu##[class*="banner"]
 manus.hu##[class*="articleBanner"]
 marmalade.hu##[class*="Banner"]
-menshealth.hu##[id="fbpopup"]
+menshealth.hu###fbpopup
 metazin.hu##DIV[class*="etarget"]
 metropol.hu/*/images/sponsor_*.*
 miabonyunk.hu/hirdetesek/
@@ -116,7 +116,7 @@ mixonline.hu##[class*="banner"]
 mmonline.hu##[class*="banner"]
 mno.hu##[class*="box ajanlo"]
 motorrevu.hu##[class*="hirdetes"]
-mozinezo.hu##[id="header"]
+mozinezo.hu###header
 mozishop.hu##.om-holder
 mult-kor.hu##[class^="ui-dialog"]
 multiplay.hu##[id*="banner"]
@@ -139,11 +139,11 @@ otvenentul.hu##[class^="ad"]
 partyzoo.hu/banner/
 pcguru.hu##DIV[class="banner-content"]
 pdafanclub.com##[id*="banner"]
-pecsma.hu##[id="kutu"]
+pecsma.hu###kutu
 pestisracok.hu##[class^="ads-"]
 piacesprofit.hu/files/skin/
 pirulapatika.hu##[id*="banner"]
-politaktika.hu##[id="popup"]
+politaktika.hu###popup
 prim.hu##[class*="banner"]
 puruttya.hu##[class*="reklam"]
 randihely.hu/adnews/
@@ -157,7 +157,7 @@ sportorvos.hu##[class*="ad_"]
 stop.hu##[src*="hirdetes_"]
 superiorhirek.hu##[class*="-ad"]
 szabadfold.hu##[class*="hirdetes"]
-szeretlekmagyarorszag.hu##[id="hatterkep"]
+szeretlekmagyarorszag.hu###hatterkep
 szingliportal.hu##[class="article_contiune_link"]
 sztaki.hu##DIV[id="magnum"]
 sztarklikk.hu##[class="banner"]
