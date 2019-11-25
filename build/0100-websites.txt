@@ -912,6 +912,7 @@ polusonline.com##[id="HTML9"]
 !
 hir.ma##[class="e3lan e3lan-top"]
 hir.ma##[id="text-html-widget-6"]
+hir.ma##[class^="ad"]
 !
 444.hu##[class*="banner"]
 444.hu##DIV[class="b-image-highlight b-image-highlight-article"]
@@ -921,6 +922,9 @@ hir.ma##[id="text-html-widget-6"]
 444.hu##.d36-top
 444.hu##.ease-modal
 444.hu##.donation
+444.hu###kummanto
+! AdBlock detector - privacy invasion
+||444.hu/js/ease_detector.js
 !
 ||888.hu^*/autoalkatreszek24$image
 !
@@ -1285,3 +1289,7 @@ telekom.hu##.inline-promo-custom-services
 telekom.hu##.main-promo
 telekom.hu##.main-promo-slide
 telekom.hu##.ads
+! TeleTál
+! Seems sketchy - TeleTál uses png for actual images, and jpeg for ads
+||teletal.hu/*/images/*.jpg
+||teletal.hu/hirkep/*
