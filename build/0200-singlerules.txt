@@ -69,7 +69,6 @@ hirado.hu##[class="video_preroll type_swf"]
 hircsarda.hu/ads/
 hirextra.hu##[class*="billboard"]
 hirkosar.com###fanback
-hiros.hu##.banner_widget
 hirposta.hu##[id*="banner"]
 hirtv.hu##[class*="-ad-container"]
 hoc.hu##P[class*="banner"]
@@ -94,7 +93,6 @@ kakukk.ro##[id*="banner"]
 kapcsolat.hu##DIV[class*="banner"]
 kapos.hu##[class*="banner"]
 kaposvarmost.hu##[class*="banner"]
-kemma.hu##[class^="ad "]
 ketkes.com##A[href^="http://goo.gl"]
 kezilabda.hu##[id*="banner"]
 kislexikon.hu/swf/
@@ -161,7 +159,6 @@ stop.hu##[src*="hirdetes_"]
 superiorhirek.hu##[class*="-ad"]
 szabadfold.hu##[class*="hirdetes"]
 szamoldki.hu##.modal_popup
-szeretlekmagyarorszag.hu###hatterkep
 szingliportal.hu##.article_contiune_link
 sztaki.hu###magnum
 sztarklikk.hu##.banner
@@ -191,6 +188,10 @@ webforditas.hu##[id*="AdFrame"]
 www.kh.hu###cookieAcceptanceContainer
 yayo.hu/static/banner/
 zene.hu##.etarget
+meszotar.hu##.cc_banner-wrapper
+feliratok.org##.wrapper > .slider
+tarhely.eu###sutik
+
 !
 ||ad.kapos.hu
 ||ad.napilapcsoport.hu
