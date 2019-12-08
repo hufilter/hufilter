@@ -1299,6 +1299,14 @@ szineshir.net##div.d-xl-none[style*="padding: 10px"]
 szineshir.net##div.d-xl-block[style*="padding: 10px"]
 szineshir.net##.post_content_box_article_continue + div
 szineshir.net##.post_content_box > .post_content_box_sidebar
+szineshir.net###cookiebar
+!
+! ZoldMano (FB-on Tudtad-e?)
+zoldmano.info##.d-xl-none[style*="padding: 10px"]
+zoldmano.info##.post_content_box_article_continue + .text-center
+zoldmano.info##.post_content_box_sidebar
+zoldmano.info##.d-none[style*="padding: 10px"]
+zoldmano.info###cookiebar
 !
 ! Autó Pro
 autopro.hu###adds
@@ -1350,6 +1358,7 @@ magyarhang.org##.vc_raw_html
 !telekom.hu##.main-promo
 !telekom.hu##.main-promo-slide
 telekom.hu##.ads
+telekom.hu###app-cookie-policy
 !
 ! TeleTál
 ! Seems sketchy - TeleTál uses png for actual images, and jpeg for ads
