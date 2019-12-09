@@ -191,7 +191,10 @@ zene.hu##.etarget
 meszotar.hu##.cc_banner-wrapper
 feliratok.org##.wrapper > .slider
 tarhely.eu###sutik
-
+tarhely.com###cookie-notice
+ezit.hu###cookie-notice
+mediacenter.hu###cookie-msg
+tarhelypark.hu##.cc-window
 !
 ||ad.kapos.hu
 ||ad.napilapcsoport.hu
@@ -246,3 +249,5 @@ tarhely.eu###sutik
 ! Reklamblokkolo detektalasanak meggatolasa
 @@||meszotar.hu/scripts/advertising.js
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
+@@$generichide,domain=prohardver.hu|mobilarena.hu|gamepod.hu|itcafe.hu|hardverapro.hu|fototrend.hu
+prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu##+js(nobab.js)
