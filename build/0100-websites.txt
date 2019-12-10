@@ -1200,7 +1200,9 @@ fototrend.hu##.foot-logos.col-md
 prohardver.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.spleft
 prohardver.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.spright
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##body > style
-/dl/cnt/\d{4}-\d{2}/\d{4}//$domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu,image
+! issue #172
+/dl/cnt/20[^0]\d-\d{2}/\d{4}//$domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu,image
+!/dl/cnt/\d{4}-\d{2}/\d{4}//$domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu,image
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##div[class*="xabre-responsive"]:not([class*="-980px-139px"])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##:xpath(//div[div[script[contains(@src, 'https://track.adform.net')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[contains(@onclick, '$.ajax')]])
@@ -1357,6 +1359,7 @@ zoldmano.info##.post_content_box_sidebar
 zoldmano.info###cookiebar
 !
 ! Autó Pro
+autopro.hu##[class*="banner"]
 autopro.hu###adds
 autopro.hu##.ads
 ||autopro.hu/uploads/banners/*
@@ -1448,3 +1451,78 @@ szeretlekmagyarorszag.hu##.adslabel
 szeretlekmagyarorszag.hu##[class^="ads_"]
 szeretlekmagyarorszag.hu##[class^="ads_"] + .clear
 !
+pcguru.hu##a[href*="banner_click"]
+||pcguru.hu/uploads/banners/*.jpg
+!
+5mp.eu###alsobox
+5mp.eu##.cc_banner
+!
+adoforum.hu##[class^="zone_"]
+adoforum.hu###cookies-alert
+!
+androbit.net###RedUserNotification
+androbit.net###CookieBar
+!
+aranyoldalak.hu##[class*=" adH"]
+aranyoldalak.hu##.cc-window
+aranyoldalak.hu##.mask
+aranyoldalak.hu##.showLink.reveal
+!
+arukereso.hu###cookie-disclaimer
+arukereso.hu##.brandbox
+!
+astronet.hu##[class*="ads-"]
+astronet.hu###cookie-window
+!
+autobazar.eu##.button-ads
+autobazar.eu###cookieinfo
+!
+autoszektor.hu##.view-banner-blokkok
+autoszektor.hu###article-2
+autoszektor.hu##.region-content-1-1 > div:nth-child(-n+3)
+autoszektor.hu##.region-content-1-1 > div:last-child
+autoszektor.hu##.region-content-1-3 > div:nth-child(-n+2)
+autoszektor.hu##.region-content-1-3 > div:nth-last-child(-n+5)
+autoszektor.hu###block-block-30
+autoszektor.hu###block-block-60
+!
+babanet.hu##[class*="hirdetes"]
+babanet.hu###cookie
+babanet.hu###popupajanlo
+!
+bebiztositva.hu##.widget_media_image
+bebiztositva.hu##.pea_cook_wrapper
+!
+borsonline.hu##.cookie__wrapper
+borsonline.hu##[class*="adContainer"]
+!
+builder.hu##[class*="banner"]
+builder.hu###cookie_warn_text
+!
+figyelo.hu##[class*="adbox"]
+figyelo.hu##[class*="banner"]
+figyelo.hu###cookie-window
+!
+gyorplusz.hu##[class*="banner"]
+gyorplusz.hu###cookie-law-info-bar
+!
+gumiszoba.com##.wpcnt
+gumiszoba.com###eu-cookie-law
+gumiszoba.com###facebook-likebox-8
+!
+gyartastrend.hu##[class*="contentBanner"]
+gyartastrend.hu##.accept-cookies
+gyartastrend.hu##div[id^="jqueryFloating"]
+!
+hircsarda.hu/ads/
+hircsarda.hu###gyuri1
+hircsarda.hu###gyuri2
+!
+f1vilag.hu###elementor-popup-modal-85682
+f1vilag.hu###catapult-cookie-bar
+!
+kezilabda.hu##div[style*="margin-bottom:10px"]:-abp-has(> div:-abp-contains(HIRDETÉS))
+kezilabda.hu##.cc_banner
+kezilabda.hu##.cc_banner-wrapper
+!
+
