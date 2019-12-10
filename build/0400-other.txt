@@ -45,7 +45,8 @@ rp5.ru#@#[id^="aswift_"]
 ##.newsletter
 ##.ad
 ##.mail-chimp-popup
-hu##.jwplayer
+! GH#174
+!hu##.jwplayer
 !
 /gemius.js^
 /gemius.min.js^
