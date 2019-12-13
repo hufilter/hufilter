@@ -5,8 +5,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 201912101329
-! Checksum: nTO+eKpr4DW/y3ggobKBIQ
+! Version: 201912111928
+! Checksum: fbImj2Z0Y6/uZs2mGhLPKA
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -1789,7 +1789,8 @@ tarhelypark.hu##.cc-window
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
 @@$generichide,domain=prohardver.hu|mobilarena.hu|gamepod.hu|itcafe.hu|hardverapro.hu|fototrend.hu|gamepod.hu
 prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu,gamepod.hu##+js(nobab.js)
-prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu,gamepod.hu##+js(nostif.js, /checks\.length|exceptionHook|\{n\[e|setTimeout/)
+! GH#175
+!prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu,gamepod.hu##+js(nostif.js, /checks\.length|exceptionHook|\{n\[e|setTimeout/)
 
 !##################### END 0200-singlerules.txt ##################### 
 !##################### 0400-other.txt ##################### 
@@ -1839,7 +1840,8 @@ rp5.ru#@#[id^="aswift_"]
 ##.newsletter
 ##.ad
 ##.mail-chimp-popup
-hu##.jwplayer
+! GH#174
+!hu##.jwplayer
 !
 /gemius.js^
 /gemius.min.js^

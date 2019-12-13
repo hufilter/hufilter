@@ -234,5 +234,6 @@ tarhelypark.hu##.cc-window
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
 @@$generichide,domain=prohardver.hu|mobilarena.hu|gamepod.hu|itcafe.hu|hardverapro.hu|fototrend.hu|gamepod.hu
 prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu,gamepod.hu##+js(nobab.js)
-prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu,gamepod.hu##+js(nostif.js, /checks\.length|exceptionHook|\{n\[e|setTimeout/)
+! GH#175
+!prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu,gamepod.hu##+js(nostif.js, /checks\.length|exceptionHook|\{n\[e|setTimeout/)
 
