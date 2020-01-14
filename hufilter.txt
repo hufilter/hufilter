@@ -5,8 +5,8 @@
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 ! Title: hufilter
 ! Expires: 16 hours
-! Version: 202001102334
-! Checksum: RR1PpJdyWHRiKWlBUXGcEw
+! Version: 202001142215
+! Checksum: ONRqytYwucG3BK3yiZe+Sg
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -884,6 +884,13 @@ geeks.hu##[id*="banner"]
 !
 automotor.hu##[class^="ad "]
 automotor.hu##[class*="hirdetes"]
+automotor.hu###cookie-window
+automotor.hu##div.mw-banner-zone
+automotor.hu###_aloldali_header_banner
+! Esztetikai javitas, ha tamogatja az adblocker
+automotor.hu#$#div.layoutContent { margin-top: 0 !important; }
+automotor.hu#$##_cikk_tartalom_rb1 { margin-top: 0 !important; }
+automotor.hu#$#div.postContent { margin-top: 0 !important; }
 !
 donna.hu##[id*="banner"]
 donna.hu##[class*="banner"]
@@ -1250,20 +1257,20 @@ prohardver.hu###top > div:first-child
 ||video.vid4u.org/ninja/production/*
 ||i.cdn29.hu/apix_collect/ads
 !
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.background
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-skin-space
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-skin-link
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.box
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-optionless_bottom optionless_bottom_box
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.leporello.leporello-jobbfentrol
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.box.box-html
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after.ad.container
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-inside.ad
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-under-lead.ad
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-comment.ad
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-end.ad
-computerworld.hu##.cc-window
-computerworld.hu#$#.main { margin-top: 100px !important; }
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu###cookie-policy-content
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu###web-push-popup
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-article-under-lead
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-article-inside
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-article-inside-automatic
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-article-comment
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.share-article
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after > *
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-content-top
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.box.ad
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-header-after-article
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-article-end
+! Esztetikai javitas, ha tamogatja az adblocker
+pcworld.hu,gamestar.hu#$#.ad-header-after { margin-top: 70px !important; padding: 0 !important; }
 !
 ||iho.hu/img/banner/*
 ||iho.hu/img/flash/*
@@ -1567,6 +1574,23 @@ calculat.org##+js(nostif.js, adstest, 4000)
 !
 tudtade.blogstar.hu###cookie_policy
 tudtade.blogstar.hu##div[style^="height:"]
+!
+paleomedicina.com###kpopup
+!
+budapestkornyeke.hu###cookie-notice
+budapestkornyeke.hu##div[style="margin-top:20px;"]
+budapestkornyeke.hu##div.bpkad
+budapestkornyeke.hu###upprev_box
+budapestkornyeke.hu###custom_html-11
+budapestkornyeke.hu###custom_html-6
+budapestkornyeke.hu###media_image-17
+budapestkornyeke.hu###custom_html-10
+!
+! InfoVaros oldalak
+infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu##.cc-window
+infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###sidebar > div[class*="banner"]
+infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu##div.read div[class*="banner"]
+infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###main div[class*="banner"]
 !
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
