@@ -14,7 +14,7 @@ for x in ` ls -1 ./build/ `;
     done;
 
 # New version string for the filter
-VERSION=`date "+%Y%m%d%H%M"`;
+VERSION=`date -u "+%Y%m%d%H%M"`;
 # Last modified, check easylist.txt for example
 LAST_MODIFIED=`LC_ALL=en_GB.UTF-8 date -u "+%d %b %Y %H:%M %Z"`;
 
