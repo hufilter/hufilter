@@ -1,12 +1,14 @@
 [Adblock Plus 2.0]
 !##################### 0000-header.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Checksum: xSzzZmZS/6bEHNz7489mkw
+! Version: 202001161405
+! Title: hufilter
+! Last modified: 16 Jan 2020 13:05 UTC
+! Expires: 16 hours (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
-! Title: hufilter
-! Expires: 16 hours
-! Version: 202001161008
-! Checksum: /on1vm46/VjljtKvmo7RbQ
+!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
