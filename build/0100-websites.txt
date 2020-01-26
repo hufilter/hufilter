@@ -1606,3 +1606,7 @@ csupasport.hu##.enews-article-content .endless-shared-area
 !
 fourfourtwo.hu###cookie-window
 !
+! Kapu.hu
+kapu.hu###cookieSpan
+kapu.hu##div.bottom_sticky_banner
+!
