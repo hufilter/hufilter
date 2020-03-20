@@ -23,7 +23,6 @@ eoldal.hu/*eoldal_banner*
 epresso.hu##[class*="banner"]
 eron.hu##[id*="banner"]
 eropolis.hu##[class*="banner"]
-f1vilag.hu##[class*="adzone"]
 feliratok.info##DIV#advert
 filmoldal.hu##DIV[class*="reklam"]
 firstman.hu##[class*="banner"]
@@ -37,8 +36,6 @@ gportal.hu##[class*="banner"]
 gyoricegregiszter.hu##[class*="banner"]
 hajokonyha.hu##[class*="hirdetes"]
 hatarido-szamitas.hu##.szkozepkis
-haziallat.hu##[id*="_ads"]
-haziallat.hu##[id^="cookieconsent"]
 hbogo.hu##.cookie-consent
 helyitipp.hu##[id*="hirdet"]
 helyitipp.hu##.cookie-notice-container
@@ -135,8 +132,6 @@ samsungsport.hu##[class*="banner"]
 simple.hu###enableCookieDiv
 site88.net##.popup
 sportoldal.ro##[class*="banner"]
-sportorvos.hu##[class*="ad_"]
-sportorvos.hu###text-9
 stop.hu##[src*="hirdetes_"]
 superiorhirek.hu##[class*="-ad"]
 szabadfold.hu##[class*="hirdetes"]
