@@ -244,9 +244,13 @@ mandiner.hu##html body div#all div#mainbgbg div#mainbg>div[style^="width: 125px"
 mandiner.hu##[class*="hirdetes"]
 !
 ||port-network.com/sponsoration_elements/
+||port.hu/js/adbd.min.js
+||port.hu/js/advert.min.js
 port.hu##[class*="_spon"]
 port.hu##.articleMetadata
 port.hu##[class="advert fix-advert"]
+port.hu##section.port-adbd
+port.hu##script:contains(ads.js)
 !
 pharmaonline.hu##[class*="contentBanner"]
 pharmaonline.hu##.justClassBanner
