@@ -1681,3 +1681,15 @@ widescreen.hu##div.sgpb-popup-dialog-main-div-theme-wrapper-1
 widescreen.hu##div.sgpb-popup-overlay-42658
 widescreen.hu##div.sgpb-popup-overlay-42657
 !
+eredmenyek.com##div#onetrust-banner-sdk
+!
+nice.hu##div.cookie-message
+nice.hu##div#show_news_box
+!
+ite.hu##div[class="tl-state-root tve-leads-ribbon tve-trigger-hide tve-tl-anim tve-leads-track-ribbon-1 tl-anim-slide_top tve-leads-triggered"]
+!
+karpathir.com##[app="tibrr-cookie-consent"]
+karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
+karpathir.com##script:contains(KillAdBlock)
+||floweryoperation.com/v2/0/$domain=karpathir.com
+!
