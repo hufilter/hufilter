@@ -77,6 +77,9 @@ totalcar.hu##[class*="hirdetes"]
 totalcar.hu##[class*="adblokk"]
 totalcar.hu##.microsite
 totalcar.hu###ads
+! issue #179
+totalcar.hu##section.adbd-layer
+||totalcar.hu/assets/*adbd*
 !
 ||chat.hu/Client/banner
 ||chat.hu/imgadverts*
