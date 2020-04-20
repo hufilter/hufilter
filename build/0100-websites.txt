@@ -255,8 +255,8 @@ mandiner.hu##[class*="hirdetes"]
 port.hu##[class*="_spon"]
 port.hu##.articleMetadata
 port.hu##[class="advert fix-advert"]
-port.hu##section.port-adbd
 port.hu##script:contains(ads.js)
+port.hu##.port-adbd
 !
 pharmaonline.hu##[class*="contentBanner"]
 pharmaonline.hu##.justClassBanner
