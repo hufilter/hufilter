@@ -6,7 +6,9 @@
 !
 cegmarketing.hu/banner*
 babaszoba.hu##[class*="advert"]
+bankmonitor.hu##.askUsSlide
 betegvagyok.hu##[id*="banner"]
+bestmarkt.hu###ddModal
 bonuszbrigad.hu###popup_landing_container
 bonuszbrigad.hu###newASZFLayer
 bookline.hu##[class*="advert"]
@@ -73,11 +75,15 @@ kaposvarmost.hu##[class*="banner"]
 ketkes.com##A[href^="http://goo.gl"]
 kezilabda.hu##[id*="banner"]
 kislexikon.hu/swf/
+kossuth.hu##.mini_slider_div0
+kossuth.hu##.kapu
 kronika.ro##[class*="banner"]
 lajkold.hu##[class^="ad "]
 lakberendezes.hu##.adbg
 litera.hu##[class*="-ad"]
 lovebox.hu##[class*="banner"]
+lumenet.hu###exposeMask
+lumenet.hu###page_PopupContainer
 mafab.hu##.visible-lg.container
 magyarnarancs.hu##[id*="_ad"]
 mainap.hu##[class*="banner"]
@@ -92,6 +98,7 @@ mindenkilapja.hu##[class*="advert"]
 mitortent.hu##[class^="adv"]
 mixonline.hu##[class*="banner"]
 mmonline.hu##[class*="banner"]
+mme.hu##.om-holder
 mno.hu##[class*="box ajanlo"]
 motorrevu.hu##[class*="hirdetes"]
 mozinezo.hu###header
@@ -103,6 +110,7 @@ napi.hu##[id*="billboard"]
 napiszar.hu##[class*="banner"]
 napiuzlet.com##[class*="advertisement"]
 napocska.hu/images/*_advert*.*
+ncore.cc##.banner
 nemzetisport.hu##[id^="ad_"]
 netbulvar.eu##[id*="advertisment"]
 netfirms.com##A[href*="=banner"]

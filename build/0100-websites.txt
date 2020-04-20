@@ -43,6 +43,7 @@ index.hu##.nm_mini
 index.hu##.nm_supported__wrapper
 index.hu##.nm_supported
 index.hu##.nm_thanks
+index.hu##.nm_thanks__wrapper
 forum.index.hu###site_header
 forum.index.hu###rightcoltd
 forum.index.hu###ot2015
@@ -58,6 +59,7 @@ index.hu###also_bannerek
 index.hu###index_shopline
 index.hu##.infoStripe
 index.hu###_iph_cp_popup
+index.hu##.keretes-donate-doboz
 !
 velvet.hu###ads
 velvet.hu##DIV[id*="microsite"]
@@ -253,8 +255,8 @@ mandiner.hu##[class*="hirdetes"]
 port.hu##[class*="_spon"]
 port.hu##.articleMetadata
 port.hu##[class="advert fix-advert"]
-port.hu##section.port-adbd
 port.hu##script:contains(ads.js)
+port.hu##.port-adbd
 !
 pharmaonline.hu##[class*="contentBanner"]
 pharmaonline.hu##.justClassBanner
@@ -1007,6 +1009,10 @@ hir.ma##[class^="ad"]
 444.hu##.support-box
 geekz.444.hu##.ease-modal
 444.hu###kummanto
+444.hu##.d2020kv
+444.hu##.pr-box
+444.hu##.d1912cka
+444.hu##.d1912cza
 ! AdBlock detector - privacy invasion
 ||444.hu/js/ease_detector.js
 !
@@ -1698,3 +1704,6 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 karpathir.com##script:contains(KillAdBlock)
 ||floweryoperation.com/v2/0/$domain=karpathir.com
 !
+topark.hu##.sgpb-theme-3-overlay.sgpb-popup-overlay-1402.sgpb-popup-overlay
+topark.hu##.sgpb-popup-dialog-main-div-wrapper
+topark.hu##img[class*="sgpb-"]
