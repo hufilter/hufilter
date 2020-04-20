@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 !##################### 0000-header.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Checksum: niwArM1yCO7+ksfS5KGyhQ
-! Version: 202004191348
+! Checksum: A0EOQHWCxu/DJGLRmRmtvg
+! Version: 202004201455
 ! Title: hufilter
-! Last modified: 19 Apr 2020 13:48 UTC
+! Last modified: 20 Apr 2020 14:55 UTC
 ! Expires: 16 hours (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -1306,7 +1306,8 @@ computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.box.ad
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-header-after-article
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-article-end
 ! Esztetikai javitas, ha tamogatja az adblocker
-pcworld.hu,gamestar.hu#$#.ad-header-after { margin-top: 70px !important; padding: 0 !important; }
+!pcworld.hu,gamestar.hu#$#.ad-header-after { margin-top: 70px !important; padding: 0 !important; }
+pcworld.hu##+js(rc, have-ad, body)
 !
 ||iho.hu/img/banner/*
 ||iho.hu/img/flash/*

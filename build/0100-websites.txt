@@ -1279,7 +1279,8 @@ computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.box.ad
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-header-after-article
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-article-end
 ! Esztetikai javitas, ha tamogatja az adblocker
-pcworld.hu,gamestar.hu#$#.ad-header-after { margin-top: 70px !important; padding: 0 !important; }
+!pcworld.hu,gamestar.hu#$#.ad-header-after { margin-top: 70px !important; padding: 0 !important; }
+pcworld.hu##+js(rc, have-ad, body)
 !
 ||iho.hu/img/banner/*
 ||iho.hu/img/flash/*
