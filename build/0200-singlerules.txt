@@ -95,6 +95,7 @@ mindenkilapja.hu##[class*="advert"]
 mitortent.hu##[class^="adv"]
 mixonline.hu##[class*="banner"]
 mmonline.hu##[class*="banner"]
+mme.hu##.om-holder
 mno.hu##[class*="box ajanlo"]
 motorrevu.hu##[class*="hirdetes"]
 mozinezo.hu###header
