@@ -1009,6 +1009,10 @@ hir.ma##[class^="ad"]
 444.hu##.support-box
 geekz.444.hu##.ease-modal
 444.hu###kummanto
+444.hu##.d2020kv
+444.hu##.pr-box
+444.hu##.d1912cka
+444.hu##.d1912cza
 ! AdBlock detector - privacy invasion
 ||444.hu/js/ease_detector.js
 !
