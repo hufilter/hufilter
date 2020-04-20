@@ -14,10 +14,12 @@ for x in ` ls -1 ./build/ `;
     done;
 
 # New version string for the filter
-HFVER=`date "+%Y%m%d%H%M"`;
+VERSION=`date -u "+%Y%m%d%H%M"`;
+# Last modified, check easylist.txt for example
+LAST_MODIFIED=`LC_ALL=en_GB.UTF-8 date -u "+%d %b %Y %H:%M %Z"`;
 
 # Replace placeholder with the actual version
-sed s/#VERSION#/$HFVER/g -i $BUILDFN
+sed -i $BUILDFN -e "s/#VERSION#/$VERSION/g; s/#LAST_MODIFIED#/$LAST_MODIFIED/g"
 
 # OK, ruleset is compiled. Lets checksum it!
 # UTF-8 encoding and Unix-style line ending is assumed

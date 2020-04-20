@@ -1,12 +1,14 @@
 [Adblock Plus 2.0]
 !##################### 0000-header.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Checksum: niwArM1yCO7+ksfS5KGyhQ
+! Version: 202004191348
+! Title: hufilter
+! Last modified: 19 Apr 2020 13:48 UTC
+! Expires: 16 hours (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
-! Title: hufilter
-! Expires: 16 hours
-! Version: 201911242319
-! Checksum: YF+8UjCofwZx5L9s9Oa3PQ
+!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Magyar Adblock Plus szurolista
 ! 
@@ -32,6 +34,10 @@
 24.hu##[class*="banner-"]
 24.hu##.cc_container--open.cc_container.cc_gccp
 24.hu###stickyHomePageRecommender
+24.hu##.widget-mini-article
+24.hu##.u-overlayFullScreen
+24.hu##.m-fbExitPopup
+24.hu###stickyMobileNotification
 !
 ||sher.*.hu^
 ||rehs.*.hu^
@@ -40,8 +46,6 @@ index.hu##[class*="hirdetes"]
 index.hu##[class="ajanlatok box scrollbox"]
 index.hu##.adocean
 index.hu##.microsite_dummy
-!github#152
-!index.hu##.microsite
 index.hu###ctravelbox
 index.hu###bookline
 index.hu###box_info
@@ -49,15 +53,15 @@ index.hu###box_eon
 index.hu###box_energiapedia
 index.hu###box_medicalonline
 index.hu##DIV[id*="banner"]
-index.hu##DIV[id="interstitial"]
+index.hu###interstitial
 index.hu##DIV[class*="guestbox"]
-index.hu##[id="ads"]
-index.hu##[id="cemp_doboz"]
+index.hu###ads
+index.hu###cemp_doboz
 index.hu##[class*="Advert"]
-index.hu##A[id="closeWindow"]
+index.hu###closeWindow
 index.hu##[class*="ad-container"]
-index.hu##[class="glr_advert"]
-index.hu##[class="docWriteAdverticum"]
+index.hu##.glr_advert
+index.hu##.docWriteAdverticum
 index.hu##.nm_header
 index.hu##.nm_widget__wrapper
 index.hu##.nm_sponsored__wrapper
@@ -65,16 +69,13 @@ index.hu##.nm_mini__wrapper
 index.hu##.nm_mini
 index.hu##.nm_supported__wrapper
 index.hu##.nm_supported
-forum.index.hu##TABLE[id="site_header"]
+index.hu##.nm_thanks
+forum.index.hu###site_header
 forum.index.hu###rightcoltd
-forum.index.hu##[id="ot2015"]
+forum.index.hu###ot2015
 index.hu,velvet.hu,totalcar.hu##.travelo-box
 index.hu,velvet.hu,totalcar.hu##.shopline-box
-! GH#139
-!index.hu,velvet.hu,totalcar.hu##.keplink
 index.hu,velvet.hu##.flash-fullscreen-wrapper
-! GH #152
-!index.hu##.keretes_szeles
 index.hu##._iph_brk
 index.hu###ad_null_position
 index.hu##.ad_container
@@ -82,16 +83,18 @@ index.hu##.cikk-vegi-ajanlo-reklamok
 index.hu##.cikk-vegi-ajanlo-reklamok-container
 index.hu###also_bannerek
 index.hu###index_shopline
+index.hu##.infoStripe
+index.hu###_iph_cp_popup
 !
-velvet.hu##DIV[id="ads"]
+velvet.hu###ads
 velvet.hu##DIV[id*="microsite"]
 velvet.hu##DIV[class*="microsite"]
 velvet.hu##[id*="banner"]
 velvet.hu##[class*="hirdetes"]
 velvet.hu##[id*="adocean"]
-velvet.hu##DIV[id="interstitial"]
-velvet.hu##[id="cemp_doboz"]
-velvet.hu##[class="adszoveg"]
+velvet.hu###interstitial
+velvet.hu###cemp_doboz
+velvet.hu##.adszoveg
 velvet.hu##[class*="ad_container"]
 velvet.hu##[class*="guestbox"]
 velvet.hu##[class*="ad-container"]
@@ -99,8 +102,11 @@ velvet.hu##[class*="ad-container"]
 totalcar.hu##[id*="adocean"]
 totalcar.hu##[class*="hirdetes"]
 totalcar.hu##[class*="adblokk"]
-totalcar.hu##[class="microsite"]
-totalcar.hu##DIV[id="ads"]
+totalcar.hu##.microsite
+totalcar.hu###ads
+! issue #179
+totalcar.hu##section.adbd-layer
+||totalcar.hu/assets/*adbd*
 !
 ||chat.hu/Client/banner
 ||chat.hu/imgadverts*
@@ -109,26 +115,18 @@ chat.hu##[class*="banner"]
 chat.hu##DIV[class="box rightbox"]
 chat.hu##[id*="banner"]
 !
-www.blikk.hu###footerLogos
+blikk.hu###footerLogos
 !
 ||stylemagazin.hu/static/template_settings/
 stylemagazin.hu##[class="wp-container wp-top"]
 stylemagazin.hu##[id*="banner"]
 !
-!!!hvg.hu##DIV[class="boxcontainer pr-article"]
-!!!hvg.hu##[class*="banner"]
-!!!hvg.hu##[class*="adcloud"]
-!!!hvg.hu##[class="ad"]
-!!!hvg.hu##TABLE[class*="monocle"]
-!!!hvg.hu##DIV[id="debugMode"]
-!!!##A[href*="adcloud.hvg.hu"]
-!!!hvg.hu##[class="hvg-layer"]
-!
-hvg.hu##IFRAME[id="video"]
+! Uncomment below if annoying, it could break videos!
+! hvg.hu###video
 hvg.hu##[class*="adsense"]
 hvg.hu##[class*="adtype-"]
-hvg.hu##[class="adcaption"]
-hvg.hu##[class="advert-item"]
+hvg.hu##.adcaption
+hvg.hu##.advert-item
 hvg.hu##[class="articlebox clear sidebar-ajanlat"]
 hvg.hu##[class="articleitem clear smallimage imgleft"]
 hvg.hu##[class="cimlap-grid-elem elem-1180 cimlap-ajanlat"]
@@ -152,6 +150,7 @@ hvg.hu##.article-otherelements-container content
 hvg.hu##.selectWidget
 hvg.hu##.article-jobline-sidebar-doboz
 hvg.hu##.jobline-palyakezdo-feed
+hvg.hu###webpushSelctorFormId
 !
 vg.hu##DIV[class*="-ad"]
 vg.hu##DIV[class*="hirdetes"]
@@ -160,43 +159,46 @@ vg.hu##DIV[class*="hird-"]
 ||vg.hu/banners/
 vg.hu##DIV[id*="etarget"]
 !
-hirszerzo.hu##DIV[class*="banner"]
-hirszerzo.hu##TD[onclick*="advert"]
-hirszerzo.hu##H6[class="greenboxheaderh6"]
-hirszerzo.hu##P[class="adcloud"]
-hirszerzo.hu##[class*="Adverticum"]
-hirszerzo.hu##[class^="ads"]
-hirszerzo.hu##[id*="_ad"]
+! Megszunt
+!hirszerzo.hu##DIV[class*="banner"]
+!hirszerzo.hu##TD[onclick*="advert"]
+!hirszerzo.hu##.greenboxheaderh6
+!hirszerzo.hu##.adcloud
+!hirszerzo.hu##[class*="Adverticum"]
+!hirszerzo.hu##[class^="ads"]
+!hirszerzo.hu##[id*="_ad"]
 !
 hirado.hu##DIV[id*="Banner"]
 hirado.hu##DIV[id*="zone-wallbanner-header"]
 hirado.hu*/microsites/*wallpaper*.*
 hirado.hu/Newsreel/*_bg_*.*
-
+!
 ||nlcafe.hu/*hirdetes
 ||nlcafe.hu/data/files/rovatszponzoracio/
 nlcafe.hu##H3[class*="adlabel"]
-nlcafe.hu##DIV[class="cikk_vegi_google"]
-nlcafe.hu##DIV[class="boxcontent"]
+nlcafe.hu##.cikk_vegi_google
+nlcafe.hu##.boxcontent
 nlcafe.hu##[class^="ad_"]
 nlcafe.hu##DIV[class^="cikk_hirdetes"][class$="x120"]
 nlcafe.hu##DIV[class^="hirdet"][class$="wrp"]
 nlcafe.hu##[class*="boxhirdetes"]
 nlcafe.hu##[class*="Adverticum"]
 nlcafe.hu##[class*="adlist"]
-nlcafe.hu##[class="ctsGadx"]
+nlcafe.hu##.ctsGadx
 nlcafe.hu##[class*="adsense"]
 nlcafe.hu##[class*="banner"]
-nlcafe.hu##[class="hirdetes"]
-nlcafe.hu##[class="pr"]
+nlcafe.hu##.hirdetes
+nlcafe.hu##.pr
 nlcafe.hu##[id*="hirdetes"]
 nlcafe.hu/data/files/*_hatter*.*
+nlcafe.hu##.m-fbPopup
 !
+sg.hu##.cc-window
 ||sg.hu/adserver/adimage.php
 ||sg.hu/images/hirdetes.gif
 ! this hides the whole img element with border
 sg.hu##IMG[src="images/hirdetes.gif"]
-sg.hu##DIV[class="std0"]
+sg.hu##.std0
 sg.hu/sg.wgt
 sg.hu##[class*="advert"]
 !
@@ -208,7 +210,7 @@ sporthirado.hu##[id*="banner"]
 !
 ||origo.hu/banner/
 ||origo.hu/p/sales/
-origo.hu##[id="origo_offers"]
+origo.hu###origo_offers
 origo.hu##[class*="banner"]
 origo.hu##[class*="hirdetes"]
 origo.hu##[class*="wsz_rotal"]
@@ -216,50 +218,53 @@ origo.hu##[class*="origoAjanlat"]
 origo.hu##[id*="ajanlat_"]
 origo.hu##A[href*="xtb.hu"]
 origo.hu##DIV[id*="magnum"]
-origo.hu##DIV[id="szoveges"]
+origo.hu###szoveges
 origo.hu##DIV[class*="Advert"]
 origo.hu##IFRAME[id*="bookline"]
 origo.hu##[id^="edigital_"]
-origo.hu##[id="top-ad"]
+origo.hu###top-ad
 origo.hu##[id*="hird-"]
 origo.hu##[id*="-hird"]
-origo.hu##[id="adZone"]
-origo.hu##[id="inter-in"]
-origo.hu##[id="flashContent"]
-origo.hu##[class="afc"]
-origo.hu##[id="advert"]
-origo.hu##[id="pr-box"]
-origo.hu##[class="pr-blokk"]
+origo.hu###adZone
+origo.hu###inter-in
+origo.hu###flashContent
+origo.hu##.afc
+origo.hu###advert
+origo.hu###pr-box
+origo.hu##.pr-blokk
 origo.hu##[class^="ad "]
 origo.hu##[class*="adbox"]
 origo.hu##[class^="ad-"]
-origo.hu##[class="pr-item"]
-origo.hu##[id="inter"]
-origo.hu##[class="ad"]
+origo.hu##.pr-item
+origo.hu###inter
+origo.hu##.ad
 origo.hu##[id*="banner"]
-origo.hu##[class="lead-alatti"]
+origo.hu##.lead-alatti
 origo.hu##[id^="szponz-"]
 origo.hu,gphirek.hu##[id^="zone"]
 origo.hu,life.hu,reblog.hu,investor.hu,ok.hu,videa.hu###accept-cookie
 static.origos.hu/s/css/responsive-ads/hangar/hangar-investor-web.css
+origo.hu##.origo-jatek-randi-bottom
+origo.hu###ac
+origo.hu##div.mme-doboz
 !
 ||fn.hu/*szponzor*/*.*
 fn.hu##DIV[id^="sky_"][id$="_side"]
 fn.hu##DIV[class*="adbox"]
-fn.hu##div[class="fn9_separator"]
-fn.hu##DIV[class="rovatszponzor"]
+fn.hu##.fn9_separator
+fn.hu##.rovatszponzor
 fn.hu##DIV[class*="cikk_kirakat"]
 fn.hu##DIV[class*="Etarget"]
 fn.hu##[class*="Advert"]
 fn.hu##[class*="banner"]
-fn.hu##[id="felso_tavtarto"]
+fn.hu###felso_tavtarto
 !
 citromail.hu##DIV[class*="hirdetes"]
-citromail.hu##TD[id="oldal"]
-citromail.hu##DIV[id="linkek"]
-citromail.hu##TR[id="hir2"]
-citromail.hu##DIV[id="hir"]
-citromail.hu##[id="aHirek"]
+citromail.hu###oldal
+citromail.hu###linkek
+citromail.hu###hir2
+citromail.hu###hir
+citromail.hu###aHirek
 !
 ||mandiner.hu/*/banner/
 ||mandiner.hu/images/design/*-bg.*
@@ -270,15 +275,19 @@ mandiner.hu##html body div#all div#mainbgbg div#mainbg>div[style^="width: 125px"
 mandiner.hu##[class*="hirdetes"]
 !
 ||port-network.com/sponsoration_elements/
+||port.hu/js/adbd.min.js
+||port.hu/js/advert.min.js
 port.hu##[class*="_spon"]
-port.hu##DIV[class="articleMetadata"]
+port.hu##.articleMetadata
 port.hu##[class="advert fix-advert"]
+port.hu##section.port-adbd
+port.hu##script:contains(ads.js)
 !
 pharmaonline.hu##[class*="contentBanner"]
-pharmaonline.hu##[class="justClassBanner"]
+pharmaonline.hu##.justClassBanner
 !
 nol.hu##[class*="Banner"]
-nol.hu##THEAD[class="noprint"]
+nol.hu##.noprint
 nol.hu##DIV[class*="ad-container"]
 !
 ||pixel.blog.hu^
@@ -292,15 +301,13 @@ blog.hu##DIV[class*="etarget"]
 blog.hu##DIV[id*="wAdBox"]
 blog.hu##[id*="Banner"]
 blog.hu##[class*="adbox"]
-blog.hu##DIV[class="share"]
-!! kepet tiltott: http://subba.blog.hu/2012/06/14/subba_eb_2012_talald_meg_ozil-t
-!blog.hu##DIV[class*="_share"]
+blog.hu##.share
 ||blog.hu/*/hird/*.*
-blog.hu##[class="ad"]
+blog.hu##.ad
 blog.hu##[class*="follow_promo_figure"]
 blog.hu##[class="box widget_html ad"]
-blog.hu##DIV[id="taft"]
-blog.hu##[class="living-earth"]
+blog.hu###taft
+blog.hu##.living-earth
 blog.hu##[id*="cp_popup"]
 blog.hu##.meropixel-hide
 ||blog.hu/ad/*
@@ -310,46 +317,57 @@ csajoknak.com###rstbox_2
 !
 vatera.hu##script:contains(Licitaljon)
 vatera.hu##DIV[id*="advert-container"]
-vatera.hu##DIV[class="page-rightside-advert"]
+vatera.hu##.page-rightside-advert
 ||vatera.hu/affiliate/images/banner/
 !
+gyakorikerdesek.hu###cookiekezeles
 gyakorikerdesek.hu##IFRAME
-gyakorikerdesek.hu##OBJECT[id="adryf"]
+gyakorikerdesek.hu###adryf
 gyakorikerdesek.hu##[id*="aswift"]
 gyakorikerdesek.hu/reklam/
 gyakorikerdesek.hu/pic/bannerek/
+gyakorikerdesek.hu##div.reklam_jobbra
+gyakorikerdesek.hu##td.txtcenter:-abp-has(> script + ins)
+gyakorikerdesek.hu##td[style="width: 10px;"]:empty
 !
 ||klubradio.hu/data/files/banner
 klubradio.hu##DIV[id*="banner"]
 !
 storyonline.hu##DIV[class*="adserver"]
 storyonline.hu##DIV[id*="rightad"]
-storyonline.hu##DIV[class="cikk-hir"]
+storyonline.hu##.cikk-hir
 !
-ma.hu##[class="super"]
+ma.hu##.super
 ma.hu##[class*="hirdetes"]
 ma.hu##[name*="banner"]
-ma.hu##[class="rckaexclude"]
+ma.hu##.rckaexclude
 !
-automenedzser.hu##TABLE[class="monocle"]
+automenedzser.hu##.monocle
 automenedzser.hu##DIV[class*="banner"]
 automenedzser.hu##DIV[id*="banner"]
 automenedzser.hu##DIV[id*="advert"]
-automenedzser.hu##DIV[class="adcloud"]
+automenedzser.hu##.adcloud
 !
 ||portfolio.hu/img/partner/*
 portfolio.hu##DIV[id*="adocean"]
 portfolio.hu##DIV[id*="banner"]
 portfolio.hu###mymodal2
+portfolio.hu##[data-qa="oil-Layer"]
+portfolio.hu##[data-qa="oil-full"]
+portfolio.hu###BlockCikkajanlo
+portfolio.hu##.footer--partners
 !
 holtankoljak.hu##EMBED
 holtankoljak.hu##DIV[class*="banner"]
 holtankoljak.hu##DIV[class="module noheading"]
 !
-inforadio.hu##DIV[id*="adocean"]
-inforadio.hu##DIV[class="spacer"]
-inforadio.hu##[class="billboard"]
+!inforadio.hu##DIV[id*="adocean"]
+!inforadio.hu##.spacer
+!inforadio.hu##.billboard
+infostart.hu##.cc-window
+infostart.hu###ajanlo
 !
+kisalfold.hu###cookie-window
 kisalfold.hu##[class*="banner-"]
 kisalfold.hu##[class*="offer prbox"]
 kisalfold.hu##[class*="pr--"]
@@ -357,23 +375,30 @@ kisalfold.hu##DIV[id*="billboard"]
 kisalfold.hu##DIV[id*="banner"]
 kisalfold.hu##DIV[id*="linkbox"]
 kisalfold.hu##[class*="hirdetes"]
-kisalfold.hu##[class="billboard"]
-kisalfold.hu##[class="tamogatott"]
-kisalfold.hu##[class="vippr"]
+kisalfold.hu##.billboard
+kisalfold.hu##.tamogatott
+kisalfold.hu##.vippr
 kisalfold.hu##[class^="pr-"]
 kisalfold.hu##[class^="prbox"]
-kisalfold.hu##[id="nap_ajanlata"]
+kisalfold.hu###nap_ajanlata
+!kisalfold.hu##.et_section_regular:-abp-has(.adOffererTitle)
+kisalfold.hu##div.articleInArticleOfferer
+kisalfold.hu##div.endless-shared-area
 !
+kitekinto.hu##.pea_cook_wrapper
 kitekinto.hu##[class*="hirdetes"]
 kitekinto.hu##[id*="hirdetes"]
 !
 kreativ.hu##[class*="Banner"]
 kreativ.hu##[id*="banner"]
+kreativ.hu##div.accept-cookies
+kreativ.hu##div[id^="contentBanner_"][class*="contentBanner"]
 !
-mobilport.hu##DIV[class*="_ad"]
-mobilport.hu##[class*="promobox"]
+! Megszunt
+!mobilport.hu##DIV[class*="_ad"]
+!mobilport.hu##[class*="promobox"]
 !
-rtlklub.hu##DIV[class="hird"]
+rtlklub.hu##.hird
 rtlklub.hu##[class*="banner"]
 !
 startlap.hu##[class^="adx_"]
@@ -386,6 +411,14 @@ startlap.hu##[class*="Adv"]
 startlap.hu##[class*="peelgame"]
 startlap.hu##[class^="adact"]
 startlap.hu##[id*="Advert"]
+startlap.hu###push-notification
+startlap.hu##div.container.banner-container.right
+startlap.hu##div.container.banner-container.left
+startlap.hu##div.container.banner-container.wide > *
+startlap.hu##[box-name="Hirdetés"]
+startlap.hu##.kezdo-kereso
+kereso.startlap.hu###google-display
+startlap.hu#$#div.container.banner-container.wide { min-height: 0!important; height: auto!important; }
 !
 linkcenter.hu##[class*="adserver"]
 linkcenter.hu##[id*="hirdetes"]
@@ -395,51 +428,60 @@ linkcenter.hu##[id*="hirdetes"]
 ingatlan.com##DIV[id*="banner"]
 ||hirdetes.ingatlan.com/banner/*
 !
+transindex.ro###cookie-bar
 transindex.ro##[class*=" ad"]
 transindex.ro##DIV[id*="anner"]
 transindex.ro##[class*="Banner"]
 transindex.ro##DIV[id*="Reklam"]
 transindex.ro##[class*="Reklam"]
-transindex.ro##DIV[id="Promolecek"]
+transindex.ro###Promolecek
 transindex.ro##[id*="hirdetes"]
-transindex.ro##DIV[class="header-1"]
+transindex.ro##.header-1
 !
+femina.hu###_iph_cp_popup
 femina.hu##[class*="banner"]
 femina.hu##[id*="etarget"]
 femina.hu##[class*="hirdetes"]
 femina.hu##[class*="kepeslinkes"]
-femina.hu##[class="doboz_harmados"]
+femina.hu##.doboz_harmados
 femina.hu#@#[class="goAdverticum"]
+femina.hu##.szelso-jobb > div:-abp-has(> a)
+femina.hu##.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
+femina.hu##.cikk-torzs [data-miniapp-id]:-abp-has(.femina-shop-ajanlo-slider-hirdetes)
+femina.hu###femina-shop-ajanlo-slider
 !
 femcafe.hu##[class*="-adv"]
 femcafe.hu##[class*="_ad "]
 femcafe.hu##[class*="hirdetes"]
-femcafe.hu##[class="views-field-nothing"]
+femcafe.hu##.views-field-nothing
 femcafe.hu##[id*="_ad-"]
 femcafe.hu/spike-ad/
-femcafe.hu##[id="darklayer"]
+femcafe.hu###darklayer
+femcafe.hu###sliding-popup
 !
-hwsw.hu##DIV[class="billboard"]
-hwsw.hu##DIV[class="cikkszovegakcio"]
+hwsw.hu##.billboard
+hwsw.hu##.cikkszovegakcio
 hwsw.hu##DIV[id*="hirdetes"]
 hwsw.hu##[class*="hirdetes"]
 hwsw.hu###cookiealert
 ||hwsw.hu/images/bodybgs/*$image
 ||hwsw.hu/images/bodybgs2/
-||www.hwsw.hu/images/zenfone-selfie-hwsw-skin-bg.jpg.pagespeed.ce.ysKXe6uFay.jpg$image
+||hwsw.hu/images/zenfone-selfie-hwsw-skin-bg.jpg.pagespeed.ce.ysKXe6uFay.jpg$image
 hwsw.hu##body > div > a[target="_blank"]
 hwsw.hu##body[style*="padding-top"]:style(padding-top: 0px !important; background-color: #777 !important;)
-www.hwsw.hu###announcement
-www.hwsw.hu###cikktoolbaradomany
-www.hwsw.hu##.cikkszovegaction
-www.hwsw.hu###sidebar > table
-www.hwsw.hu##.kommentadomany
+hwsw.hu###announcement
+hwsw.hu###cikktoolbaradomany
+hwsw.hu##.cikkszovegaction
+hwsw.hu###sidebar > table
+hwsw.hu##.kommentadomany
 !hwsw.hu##.adomany
 !
 ||harmonet.hu/*hirdetes
+harmonet.hu###cookie-bar
 harmonet.hu##DIV[id*="banner"]
-harmonet.hu##DIV[id="lightwindow_overlay"]
+harmonet.hu###lightwindow_overlay
 harmonet.hu##[class*="hirdetes"]
+harmonet.hu###ajanlo_box_ah
 !
 humormagazin.com##.top-column.col-xs-12 > .recommendation-holder
 humormagazin.com##.right-column.text-center.hidden-sm.hidden-xs.col-md-4 > .recommendation-holder:nth-of-type(1)
@@ -452,9 +494,10 @@ humormagazin.com##.left-column.col-md-8.col-sm-12 > .recommendation-holder
 !
 ||ad*.gyaloglo.hu^
 gyaloglo.hu##DIV[class*="Advert"]
-gyaloglo.hu##[id="adSet"]
+gyaloglo.hu###adSet
 gyaloglo.hu/reklam/*
 gyaloglo.hu/beta/reklam/*
+gyaloglo.hu###banner
 !
 es.hu##[id*="banner"]
 es.hu##[class*="banner"]
@@ -464,68 +507,75 @@ es.hu##IFRAME
 ||telefonguru.hu/iframes/
 !
 hasznaltauto.hu##[class*="Advert"]
-hasznaltauto.hu##DIV[id="superbox"]
+hasznaltauto.hu###superbox
 hasznaltauto.hu###player
 hasznaltauto.hu###CybotCookiebotDialog
 !
 myvip.com##DIV[class*="etarget"]
 myvip.com##DIV[class*="banner"]
 !
-zipp.hu##DIV[class*="adcontainer"]
-zipp.hu##DIV[id*="banner"]
-zipp.hu##DIV[class*="blockad"]
-zipp.hu##DIV[class*="_ad"]
-!
-life.hu##DIV[class="szoveges"]
-life.hu##DIV[class="kiskepes"]
-life.hu##DIV[class="hird300"]
-life.hu##DIV[class="magnum"]
+life.hu##.szoveges
+life.hu##.kiskepes
+life.hu##.hird300
+life.hu##.magnum
 life.hu##DIV[class*="etarget"]
-life.hu##DIV[id="ovasar"]
+life.hu###ovasar
 life.hu##[id*="banner"]
 life.hu##[class*="Advert"]
-life.hu##DIV[id="cikkalatti"]
-life.hu##DIV[class="pr-item"]
-life.hu##[id="top"]
-life.hu##[class="ad"]
+life.hu###cikkalatti
+life.hu##.pr-item
+life.hu###top
+life.hu##.ad
+life.hu###pr-box
+life.hu##[id^="szponz-"]
+life.hu###beuszoAjanlo
+life.hu###ac
+life.hu###floating-recommendation
+! A cikk cime elott levo nagy ures helyet szabaditja fel
+life.hu##+js(ra.js, class, section[class="life-section l-section-main article-section l-section-article"])
 !
-idokep.hu##DIV[class*="hird_"]
-idokep.hu##DIV[class="#adContent"]
-idokep.hu##DIV[class="hird-label"]
+idokep.hu##.cc_banner-wrapper
+idokep.hu##[class*="hird_"]
+idokep.hu##[class*="hird-"]
+idokep.hu##.#adContent
+idokep.hu##.hird-label
 !
 napinemszar.hu##[id*="reklam"]
-napinemszar.hu##DIV[id="sidebar"]
+napinemszar.hu###sidebar
 !
-techline.hu##[class*="banner"]
-techline.hu##DIV[class="adcloud"]
-techline.hu##[class*="ads"]
-techline.hu##[id*="_ad"]
-!
+magyarhirlap.hu###eucookielaw
 magyarhirlap.hu##[id*="banner"]
 magyarhirlap.hu##[class*="banner"]
+magyarhirlap.hu##.ad-verticalfull
+magyarhirlap.hu##.ad-magnum
+magyarhirlap.hu##.partners
+magyarhirlap.hu#$#header .container { padding: 10px 10px 0 10px !important; }
 !
-napi.hu##DIV[id="interstitial"]
+napi.hu###_iph_cp_popup
+napi.hu###interstitial
 napi.hu##[class*="banner"]
 napi.hu##[class*="hirdetes"]
 napi.hu##[id*="banner"]
-napi.hu##DIV[id="stickyfooter"]
+napi.hu###stickyfooter
+napi.hu##a[href^="https://bit.ly/"]
+napi.hu##.totalcar
+napi.hu##.cikkajanlo
+napi.hu###mobilinstruments
 !
-||blogol.hu/bannersav.php
-blogol.hu##DIV[id="oszlop4"]
-blogol.hu##[class*="banner"]
-!
-||carstyling.hu/*ads_
-||carstyling.hu/*hirdetes
+carstyling.com##.cc_banner-wrapper
+carstyling.com##.banner.boxed
+carstyling.com###article_end_popup
 !
 cegbongeszo.hu##[class*="hirdetes"]
 cegbongeszo.hu##[id*="Banner"]
+cegbongeszo.hu##[class^="adsense"]
 !
 ||duen.hu/*ad
 duen.hu##[id*="banner"]
 !
 ||koponyeg.hu/skins/k4/hirdetes/
 koponyeg.hu##div[class*="banner"]
-koponyeg.hu##[class="integralt_felso_zona"]
+koponyeg.hu##.integralt_felso_zona
 !
 freemail.hu##[class*="adbox"]
 freemail.hu##.etarget
@@ -536,13 +586,16 @@ revizoronline.com##[class*="banner"]
 revizoronline.com##[id*="banner"]
 revizoronline.hu##[id*="banner"]
 !
+kalohirek.hu###cookie_container
 kalohirek.hu##[class*="banner"]
 kalohirek.hu##[id*="banner"]
 !
-weborvos.hu##DIV[class="ad"]
+weborvos.hu##.ad
 weborvos.hu##[class*="banner"]
 weborvos.hu##[class*="_ad"]
 !
+nemzetisport.hu##.allow-cookie-stripe
+nemzetisport.hu###didyou
 ||static.nemzetisport.hu//style/nso/i/betclic.gif
 ||static.nemzetisport.hu//style/nso/i/*banner*
 nemzetisport.hu##[class*=" ad"]
@@ -575,19 +628,24 @@ anyuci.hu##[class*="banner"]
 !
 csaladinet.hu##[class*="adv-"]
 csaladinet.hu##[class*="-adv"]
+csaladinet.hu###bdism1
+csaladinet.hu###CookieAcceptLayer
 !
-divany.hu##DIV[id="interstitial"]
+divany.hu###interstitial
 divany.hu##[id*="banner"]
 divany.hu##[id*="szponzoracio"]
 !!divany.hu##[class^="hirdetes "]
 divany.hu##[class*="hirdetes"]
 divany.hu##[id*="hirdetes"]
-divany.hu##[class="guestbox"]
+divany.hu##.guestbox
 !
+! HáziPatika
 hazipatika.com##TD[id*="l_sponsor"]
 hazipatika.com##[class*="advert"]
 hazipatika.com##[class*="adv_"]
-hazipatika.com##DIV[class="wrap"]
+hazipatika.com##.hashtags
+hazipatika.com###facebook-sharebar
+hazipatika.com##.wrap
 !
 ipon.hu##.u-hide\@mobile.flag-wrapper--fill.flag-wrapper.grid-col-lg-1-4.grid-col-md-1-2.grid-col-1.article-list__item
 ||ipon.hu/banner
@@ -606,11 +664,14 @@ tech.hu##[class*="banner"]
 webbeteg.hu##DIV[class*="banner"]
 webbeteg.hu##[id*="_ajanlatunk_"]
 webbeteg.hu##[id^="hirdetes"]
+webbeteg.hu##div.floating_share
 !
-gondola.hu##DIV[id="partnerek"]
+gondola.hu###partnerek
 gondola.hu##[class*="banner"]
 gondola.hu##[id*="banner"]
 !
+szatmar.ro##.cookie-consent
+szatmar.ro###st-2
 szatmar.ro##DIV[id*="banner"]
 szatmar.ro##[class*="banner"]
 !
@@ -618,24 +679,24 @@ sonline.hu##DIV[class*="ad "]
 sonline.hu##[class*="hirdetes"]
 sonline.hu##[id*="ctnet_ad_"]
 !
+medicalonline.hu##.accept-cookies
 ||medicalonline.hu/*hirdetes
 medicalonline.hu##[class*="tBanner"]
+medicalonline.hu##.wsp-wrap
+medicalonline.hu###floatingBox
+medicalonline.hu##.ui-floating-message
 !
 komment.hu##[class*="banner"]
 komment.hu##[id*="banner"]
 komment.hu##[class*="hirdetes"]
-!
-||napiaszonline.hu/*hirdetesek
-napiaszonline.hu##[class*="hirdetes"]
-napiaszonline.hu##[name*="hirdetes"]
 !
 romnet.hu##[id*="banner"]
 romnet.hu##[id*="hirdetes"]
 romnet.hu##[class*="hirdetes"]
 !
 borsa.hu##[class*="hirdetes"]
-borsa.hu##DIV[class="parom"]
-borsa.hu##DIV[class="google"]
+borsa.hu##.parom
+borsa.hu##.google
 !
 ||borsonline.hu/*hirdetes
 borsonline.hu##A[href="/jatek"]
@@ -644,14 +705,14 @@ borsonline.hu##[class*="__ad"]
 !
 cosmopolitan.hu##[class*="banner"]
 cosmopolitan.hu/*/sponsor/*
-cosmopolitan.hu##[class="ctsGadx"]
+cosmopolitan.hu##.ctsGadx
 !
-evamagazin.hu##[class="popupunderlay"]
+evamagazin.hu##.popupunderlay
 evamagazin.hu##[class*="adPlace"]
 evamagazin.hu##[class^="goAdverticum"]
 !
-mindmegette.hu##DIV[class="billboard-cikk"]
-mindmegette.hu##DIV[class="hir-fekvo"]
+mindmegette.hu##.billboard-cikk
+mindmegette.hu##.hir-fekvo
 mindmegette.hu##DIV[class="billboard fr"]
 mindmegette.hu##DIV[class="fej-elso-sor cf"]
 !
@@ -661,12 +722,12 @@ atv.hu##DIV[class="block bk_commonitems-swfbox"]
 atv.hu#@#[class*="goAdverticum"]
 !
 haon.hu##DIV[id*="AdContainer"]
-haon.hu##DIV[class="Clear"]
-haon.hu##[class="Ad"]
+haon.hu##.Clear
+haon.hu##.Ad
 haon.hu##[id*="Ad_"]
 haon.hu##[id*="Banner"]
 !
-mon.hu##[class="Ad"]
+mon.hu##.Ad
 mon.hu##[id*="Ad_"]
 mon.hu##[id*="Banner"]
 !
@@ -681,52 +742,39 @@ love.hu##.nobanner
 !
 ||freeweb.hu/*_banner*.*
 !
-bombahir.hu##[class*="banner"]
-bombahir.hu##[id*="ads_"]
-bombahir.hu##DIV[class="ja-content-top clearfix"]
-!
 ||noplaza.hu/banner/
 noplaza.hu##[class*="banner"]
 !
 ||asva.info/tmp/*
 ||asva.info/wp-content/themes/branfordmagazine/images/banners/*
 !
-prohardver.hu##p:-abp-contains(Amikor a szoftver illeszkedik a meglévő üzleti folyamatokhoz.)
-prohardver.hu##div[id="center"] > div:-abp-has(div):-abp-has(a):-abp-has(Mostantól bármely bank ügyfelének elérhető a mobilfizetés élménye.)
-!
-medizona.hu##[class*="banner"]
-medizona.hu##[class="adcloud"]
-!
+data.hu##.cc_banner-wrapper
 data.hu##DIV[id*="banner"]
 data.hu###banner_sav
 !
 eletmod.hu##[class*="hirdetes"]
-eletmod.hu##DIV[class="super"]
+eletmod.hu##.super
 eletmod.hu##[id*="etarget"]
 eletmod.hu##[id*="banner"]
-eletmod.hu##[class="rckaexclude"]
+eletmod.hu##.rckaexclude
 !
-baon.hu##[class*="hirdetes"]
-baon.hu##[class*="ad "]
+! elfeheredik az oldal
+!baon.hu##[class*="hirdetes"]
+!baon.hu##[class*="ad "]
+!baon.hu##.articleInArticleOfferer
+baon.hu##div.enews-article-offerer:-abp-has(div[style*="Tunderszepek"])
 !
-bama.hu##[class="hirdetes"]
+bama.hu##.hirdetes
 bama.hu##[class^="ad "]
 !
 beol.hu##[class*="adcikk"]
-beol.hu##[class="hirdetes"]
+beol.hu##.hirdetes
 !
 vehir.hu##[id*="reklam_"]
 vehir.hu##[class*="szovegkozi"]
 vehir.hu##[class^="ad_"]
 vehir.hu##[id^="ad_"]
-vehir.hu##[class="adBox"]
-!
-automenedzser.hu##[id*="_ad"]
-automenedzser.hu##[id*="Advert"]
-automenedzser.hu##[class*=" ads"]
-automenedzser.hu##[class*="ad_"]
-!
-https://mobilarena.hu/ajanlo/lapcsalad.html
+vehir.hu##.adBox
 !
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
@@ -735,7 +783,7 @@ delmagyar.hu##[class*="hirdetes"]
 delmagyar.hu##[class*="Advert"]
 delmagyar.hu##[class*="advert"]
 delmagyar.hu##[id*="banner"]
-delmagyar.hu##[id="billboard"]
+delmagyar.hu###billboard
 delmagyar.hu##[id^="linkbox_article"]
 !
 mno.hu##[id*="ctnet"]
@@ -744,45 +792,51 @@ mno.hu##[class*="adbox"]
 mno.hu##[class*="ad_"]
 mno.hu##[class*="banner"]
 !
-videa.hu##[id="sitemessage"]
-videa.hu##[class="ad"]
+videa.hu###sitemessage
+videa.hu##.ad
 !
 autonavigator.hu##[class*="Advert"]
 autonavigator.hu##[class*="szamlatabla"]
 autonavigator.hu##[id*="etarget"]
 autonavigator.hu##[class*="etarget"]
 autonavigator.hu##[class*="hirdetes"]
+autonavigator.hu###CybotCookiebotDialog
 !
 egeszsegkalauz.hu##[class^="ads "]
 egeszsegkalauz.hu##[class*="ad-"]
 egeszsegkalauz.hu##[id*="banner"]
+egeszsegkalauz.hu##div.wrapAds
+egeszsegkalauz.hu##div.wrapRectangle:-abp-has(#ad-cikk)
+egeszsegkalauz.hu##.row:-abp-has(> #onet-ad-top)
+egeszsegkalauz.hu##.wrapRectangle:-abp-has(> div > span:-abp-contains(Hirdetés))
 !
 egeszsegtukor.hu##[id^="ad_"]
-egeszsegtukor.hu##[class="ad"]
+egeszsegtukor.hu##.ad
 !
 kulturpart.hu##[name*="banner"]
-kulturpart.hu##[class="hird"]
+kulturpart.hu##.hird
 !
 noinetcafe.hu##[class*="banner"]
 !
 partyponty.hu##[id*="banner"]
 partyponty.hu##[class*="banner"]
 !
-drinfo.hu##[class="reklam"]
+drinfo.hu##.reklam
 !
 elelmiszer.hu##div[class*="contentBanner"]
 elelmiszer.hu##div[style="text-align: center; margin-bottom:10px; position: relative;"]
 !
-travelline.hu##[id*="Banner"]
-travelline.hu##[class*="banner"]
-travelline.hu##[class="adcloud"]
+! Megszunt
+!travelline.hu##[id*="Banner"]
+!travelline.hu##[class*="banner"]
+!travelline.hu##.adcloud
 !
 svedasztal.com##[class^="ads"]
 svedasztal.com##[id*="etarget"]
 !
 vezess.hu/data/files/bannerek/
 vezess.hu/data/files/kapcsolodo_anyagok/szponz_hatterek/
-vezess.hu##H3[class="centerHead"]
+vezess.hu##.centerHead
 vezess.hu##[class*="Etarget"]
 vezess.hu##[class*="hirdetes"]
 vezess.hu##[id*="Banner"]
@@ -795,7 +849,7 @@ vezess.hu###beta-message-invite
 !
 eduline.hu##[id*="_ad"]
 eduline.hu##[id*="ad_"]
-eduline.hu##[class="adtxt"]
+eduline.hu##.adtxt
 eduline.hu##[class*="ads"]
 eduline.hu##[class*="ad_"]
 eduline.hu##[class*="Advert"]
@@ -804,11 +858,12 @@ kisalfold.hu##[id*="advert"]
 kisalfold.hu##[class*="advert"]
 !
 itmania.hu##[class*="hirdetes"]
-itmania.hu##[class="rckaexclude"]
+itmania.hu##.rckaexclude
 !
 nemkutya.com##[class^="ad-"]
-nemkutya.com##LI[id="text-3"]
-nemkutya.com##[class="hird"]
+nemkutya.com###text-3
+nemkutya.com##.hird
+nemkutya.com###cookie-notice
 !
 heol.hu##[class^="ad "]
 heol.hu##[class*="hirdetes"]
@@ -816,44 +871,60 @@ heol.hu##[class*="hirdetes"]
 sielok.hu/kampanybanner/
 sielok.hu##[id*="AdWrap"]
 sielok.hu##[class*="AdWrap"]
-sielok.hu##DIV[class="adsep"]
+sielok.hu##.adsep
 !
-life-style.hu##[class^="ads"]
-life-style.hu##[id*="_ad"]
-life-style.hu##DIV[class*="banner"]
-!
-life.hu##[id="pr-box"]
-life.hu##[id^="szponz-"]
-life.hu###beuszoAjanlo
+! Megszunt
+!life-style.hu##[class^="ads"]
+!life-style.hu##[id*="_ad"]
+!life-style.hu##DIV[class*="banner"]
 !
 lifemagazin.hu##[class*="banner"]
 lifemagazin.hu##[id*="banner"]
-lifemagazin.hu##[id="page-top"]
+lifemagazin.hu###page-top
 lifemagazin.hu/ads/
+lifemagazin.hu##.ginger_banner
 !
-ingatlanmenedzser.hu##[class*="ads"]
-ingatlanmenedzser.hu##[id*="ad_"]
+! Megszunt
+!ingatlanmenedzser.hu##[class*="ads"]
+!ingatlanmenedzser.hu##[id*="ad_"]
 !
 bien.hu##[class*="hirdetes"]
 bien.hu##[id*="banner"]
 !bien.hu##[class*="banner"]
-www.bien.hu###fejlec_banner_hatter
-www.bien.hu##.fixed.tapeta.hidden-xs > a[href="/redirect/hatter/220"]
+bien.hu###fejlec_banner_hatter
+bien.hu##.fixed.tapeta.hidden-xs > a[href="/redirect/hatter/220"]
+bien.hu###fejlec_banner_hatter
+bien.hu##.tapeta.fixed
+bien.hu##.hidden-xs:-abp-has(> .weboldal_felett)
+bien.hu##.hidden-xs:-abp-has(> .lablec_alatt)
+bien.hu##blockquote
 !
 moly.hu##[class*="banner"]
-moly.hu##DIV[class="ad"]
+moly.hu##.ad
 !
 kiskegyed.hu##[class*="ads"]
 kiskegyed.hu##[id*="banner"]
 !
-szoftverbazis.hu##[id="magnum"]
+szoftverbazis.hu###magnum
 szoftverbazis.hu##[class*="banner"]
+szoftverbazis.hu###ac
+szoftverbazis.hu##.jobb_300
+szoftverbazis.hu##.ad-wrap-100
+szoftverbazis.hu###ecom_pr
 !
 geeks.hu##[id*="banner"]
 ||geeks.hu/*body-bg-*.*
 !
 automotor.hu##[class^="ad "]
 automotor.hu##[class*="hirdetes"]
+automotor.hu###cookie-window
+automotor.hu##div.mw-banner-zone
+automotor.hu###_aloldali_header_banner
+automotor.hu###_fooldali_header_banner
+! Esztetikai javitas, ha tamogatja az adblocker
+automotor.hu#$#div.layoutContent { margin-top: 0 !important; }
+automotor.hu#$##_cikk_tartalom_rb1 { margin-top: 0 !important; }
+automotor.hu#$#div.postContent { margin-top: 0 !important; }
 !
 donna.hu##[id*="banner"]
 donna.hu##[class*="banner"]
@@ -861,21 +932,23 @@ donna.hu##[class*="banner"]
 infogyor.hu##[class*="banner"]
 ||infogyor.hu/*_banners/*
 !
-usernet.hu##[id="blanket"]
-usernet.hu##[id="popUpDiv"]
+usernet.hu###blanket
+usernet.hu###popUpDiv
 !
 hajdupress.hu##[class*="hirdetes"]
 hajdupress.hu##[id*="banner"]
-hajdupress.hu##A[class="catch-click"]
+hajdupress.hu##.catch-click
 !
 mobilarena.hu##[class*="adtext"]
-mobilarena.hu##[class="adbox"]
+mobilarena.hu##.adbox
+||mobilarena.hu/ajanlo/lapcsalad.html
 !
 fovarosi-hirhatar.hu##[href*="hirdetesek"]
 fovarosi-hirhatar.hu##[class*="banners"]
 !
 olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]
+olcsobbat.hu###datasheetNavHelp
 !
 ||eudomain.eu/ad
 ||eudomain.eu/affiliate
@@ -883,20 +956,28 @@ eudomain.eu##DIV[id*="col_2"]
 !
 hosszupuskasub.com##a[style="text-decoration:none;"]
 hosszupuskasub.com##table[bgcolor="darkgray"]
-hosszupuskasub.com##table[class="sample"]
+hosszupuskasub.com##.sample
+hosszupuskasub.com###fanback
+hosszupuskasub.com###permission-bar
+hosszupuskasub.com##[href*="hirdetes"]
+hosszupuskasub.com##+js(window.open-defuser.js)
+hosszupuskasub.com##.fu-container
+hosszupuskasub.com##a[href*="adf.ly"]
+hosszupuskasub.com#$# * { cursor: auto !important; }
+||hosszupuskasub.com/css/*skin.jpg
 !
-teol.hu##[class="hirdetes"]
+teol.hu##.hirdetes
 teol.hu##[class^="ad "]
 !
-sikerado.hu##[class="Hirdetes"]
+sikerado.hu##.Hirdetes
 sikerado.hu/banner/
 !
-zeneszoveg.hu##[class="ad"]
+zeneszoveg.hu##.ad
 zeneszoveg.hu/gfx/skin-*/*.*
 ||zeneszoveg.hu/*.swf
 !
 mfor.hu##[class*="banner"]
-mfor.hu##[class="article-textlinkbox"]
+mfor.hu##.article-textlinkbox
 !
 kuruc.info##[class="cikkbanner hirdbox mh40 listafriss"]
 kuruc.info##[style="margin-left:auto;margin-right:auto;width:980px;text-align:center"]
@@ -910,49 +991,60 @@ oprend.hu##[class*="ad-warning"]
 !profession.hu###jqifade
 profession.hu###twister-banner
 !
-infopapa.hu##[class="banner_300_600"]
-infopapa.hu##[class="banner_468_120"]
+infopapa.hu##.banner_300_600
+infopapa.hu##.banner_468_120
 !
 ||alfahir.hu^*/hirdetesfoto/$image
 alfahir.hu###block-views-ajanlo-block
-alfahir.hu##[id="block-block-16"]
-alfahir.hu##[id="sticky_footer"]
+alfahir.hu###block-block-16
+alfahir.hu###sticky_footer
 alfahir.hu###block-block-22
 !
-online.filmek-sorozatok.info##[class="videoBanner"]
-online.filmek-sorozatok.info##[class="adsListItem"]
+online.filmek-sorozatok.info##.videoBanner
+online.filmek-sorozatok.info##.adsListItem
 ||0i.hu/files/images/$image
 !
-gyulaihirlap.hu##[id="banner2016kormanyhu"]
+gyulaihirlap.hu###banner2016kormanyhu
 gyulaihirlap.hu##[id*="banner_1_29_"]
 !
 player.hu##[class*="placeholder"]
 player.hu##[class="ph ph-responsive-wrap"]
-player.hu##[class="ph-flexi-box-wrap"]
+player.hu##.ph-flexi-box-wrap
 player.hu##[class*="adbreak"]
 player.hu##[data-analytics-value]
 !
-polusonline.com##[id="HTML5"]
-polusonline.com##[id="HTML9"]
+polusonline.com###HTML5
+polusonline.com###HTML9
 !
 hir.ma##[class="e3lan e3lan-top"]
+hir.ma###text-html-widget-6
 hir.ma##[id="text-html-widget-6"]
+hir.ma##[class^="ad"]
 !
+444.hu###cookie_popup_container
 444.hu##[class*="banner"]
 444.hu##DIV[class="b-image-highlight b-image-highlight-article"]
-444.hu##[class="ad"]
+444.hu##.ad
 444.hu##[id*="-banner-"]
 444.hu##.text-center
 444.hu##.d36-top
 444.hu##.ease-modal
 444.hu##.donation
+||444.hu/*/ease/*
+444.hu##.support-box
+geekz.444.hu##.ease-modal
+444.hu###kummanto
+! AdBlock detector - privacy invasion
+||444.hu/js/ease_detector.js
 !
 ||888.hu^*/autoalkatreszek24$image
+888.hu###cookieconsent
 !
 hazipatika.com##[class*="adtext"]
-hazipatika.com##[id="webaruhaz-ajanlo"]
+hazipatika.com###webaruhaz-ajanlo
 hazipatika.com/sponsoredbys/
-hazipatika.com##[class="ctsGadx"]
+hazipatika.com##.ctsGadx
+hazipatika.com###facebook-sharebar
 !
 civishir.hu##[class*="hirdetes"]
 civishir.hu##[id*="bannerzona"]
@@ -961,14 +1053,14 @@ storyonline.hu##DIV[id*="kirakat"]
 storyonline.hu##[class*="googlebox"]
 storyonline.hu##[class*="hirdetes"]
 !
-joy.hu##[id="joylike"]
+joy.hu###joylike
 joy.hu##[class*="Adverticum"]
 joy.hu##[class^="ad-"]
 joy.hu##[class^="adIn"]
 joy.hu##[class^="adPlace"]
 !
 wellnesscafe.hu##[class*="banner"]
-wellnesscafe.hu##[class="ad"]
+wellnesscafe.hu##.ad
 wellnesscafe.hu##[class="wc_content wc_contentwide"]
 wellnesscafe.hu##[id*="AdZone"]
 wellnesscafe.hu##[id*="Banner"]
@@ -1000,35 +1092,41 @@ vilagszammagazin.hu##[class^="adv"]
 trollfesz.cc##[id*="float"]
 trollfesz.cc##[src*="/banner/"]
 !
+szoljon.hu###cookie-window
 szoljon.hu##[class*="google-cikk"]
 szoljon.hu##[class*="hirdetes"]
 szoljon.hu##[class^="ad "]
 !
 nyest.hu##[class*="banner"]
 nyest.hu/media/ad/
+nyest.hu###cookie-consent
 !
 szervuszausztria.hu##[class^="ads"]
 szervuszausztria.hu##[id*="etarget"]
 !
-sorozataddict.hu##[id="cboxOverlay"]
-sorozataddict.hu##[id="colorbox"]
+sorozataddict.hu###cboxOverlay
+sorozataddict.hu###colorbox
 !
 propeller.hu##[class*="banner "]
-propeller.hu##[class="popup"]
+propeller.hu##.popup
 propeller.hu##[id^="overlay"]
 !
 penzcentrum.hu##[class^="f10"]
 penzcentrum.hu##[class^="grbox"]
-www.penzcentrum.hu##.frame-center
+penzcentrum.hu##.frame-center
+penzcentrum.hu###_iph_cp_popup
+penzcentrum.hu###ajanlo
 !
 p3k.hu/*_hatter*.*
 p3k.hu/*szponz*.*
 !
 magyarhirlap.hu##[class*="simpleads"]
-magyarhirlap.hu##[class="adslist"]
+magyarhirlap.hu##.adslist
 !
-magyarnemet.hu##[id="block-block-12"]
-magyarnemet.hu##[id="block-block-19"]
+magyarnemet.hu###block-block-12
+magyarnemet.hu###block-block-19
+magyarnemzet.hu##div.gdprBoxContainer
+magyarnemzet.hu##div.promo-bar
 !
 magyarszo.com##[class*="reklam"]
 magyarszo.com##[id*="reklam"]
@@ -1037,17 +1135,19 @@ koponyeg.hu##[class*="adsense"]
 koponyeg.hu##[class*="hirdetes"]
 koponyeg.hu##[id*="adsense"]
 !
-kamaszpanasz.hu##DIV[id="header"]
+kamaszpanasz.hu###header
 kamaszpanasz.hu##[class*="banner"]
 kamaszpanasz.hu##[data*="banner"]
+kamaszpanasz.hu##.cc_banner
+kamaszpanasz.hu##.cc_banner-wrapper
 !
-indavideo.hu##DIV[class="topAdv"]
+indavideo.hu##.topAdv
 indavideo.hu##[class*="billboard"]
 !
 ilovebalaton.hu##[class*=" ad"]
-ilovebalaton.hu##[class="ad"]
+ilovebalaton.hu##.ad
 !
-hupont.hu##DIV[id="szupertorony"]
+hupont.hu###szupertorony
 hupont.hu##[id*="-reklam"]
 hupont.hu##[id*="fancybox"]
 hupont.hu/hirdetes/
@@ -1057,8 +1157,8 @@ hirstart.hu##[class*="hirdetes"]
 !
 hir.ma##[class*="PostAd"]
 hir.ma##[id*="-bg"]
-hir.ma##[id="sidebad"]
-hir.ma##[id="spu-main"]
+hir.ma###sidebad
+hir.ma###spu-main
 !
 hg.hu##[id*="banner"]
 hg.hu##[id*="interstitial"]
@@ -1067,10 +1167,10 @@ gamekapocs.hu###background_ad_top
 gamekapocs.hu###background_ad_left
 gamekapocs.hu###background_ad_right
 gamekapocs.hu/media/special/mcdonalds_201710/McD-Dupla-CH-gamekapocs_2.jpg
-||www.gamekapocs.hu/media/special/psplus_201711/GAMEKAPOCS_skin_1920x900.jpg$image
-||www.gamekapocs.hu/media/img/logo_gmedia.png$image
-||www.gamekapocs.hu/media/special/psplus_201711/gamekapocs-wallpaper-bf.jpg$image
-||www.gamekapocs.hu/media/special/ps4pro/Gamekapocs_1920x900_wallpaper_20181123_v01.jpg$image
+||gamekapocs.hu/media/special/psplus_201711/GAMEKAPOCS_skin_1920x900.jpg$image
+||gamekapocs.hu/media/img/logo_gmedia.png$image
+||gamekapocs.hu/media/special/psplus_201711/gamekapocs-wallpaper-bf.jpg$image
+||gamekapocs.hu/media/special/ps4pro/Gamekapocs_1920x900_wallpaper_20181123_v01.jpg$image
 !
 est.hu##[class*="_adv "]
 est.hu##[class*="banner"]
@@ -1079,14 +1179,14 @@ demotivalo.net##[id*="banner"]
 demotivalo.net/*banner_*.*
 !
 delmagyar.hu##[class*="prbox"]
-delmagyar.hu##[class="billboard"]
+delmagyar.hu##.billboard
 !
 cotcot.hu##[class*="banner"]
 cotcot.hu##[class*="card_box_"]
 cotcot.hu##[class*="hirdetes"]
 !
 chat.hu##[class^="vippol_"]
-chat.hu##[id="stvipcontainer"]
+chat.hu###stvipcontainer
 !
 bitport.hu##[class*="banner"]
 bitport.hu##[id*="banner"]
@@ -1096,17 +1196,20 @@ bevezetem.hu##[class*="adsense"]
 bevezetem.hu##[class*="affiliate"]
 bevezetem.hu##[class^="ban_evo_"]
 !
-bacsmegye.hu##[class="minisite"]
+bacsmegye.hu##.minisite
 bacsmegye.hu##[id*="banner"]
-bacsmegye.hu##[id="total"]
+bacsmegye.hu###total
 !
 168ora.hu##[class^="ads"]
 168ora.hu##[id*="etarget"]
 168ora.hu##[class*="banner"]
+168ora.hu###gdpr_box
 !
 adozona.hu##[class*="ads"]
-adozona.hu##[class="az-layer"]
-adozona.hu##[id="g0"]
+adozona.hu##.big_badge
+adozona.hu##.floating-help-wrapper
+adozona.hu##.az-layer
+adozona.hu###g0
 !
 ||img.hunbasket.webpont.com/kosarsport/art/2017/*hirdetes*
 ||kosarsport.hu/popup.html^$popup
@@ -1115,18 +1218,17 @@ kosarsport.hu##body>a:first-child
 !
 ||freewaresoftwarenews.blogspot.$first-party,inline-script
 freewaresoftwarenews.blogspot.com##[id*="HTML"]
-freewaresoftwarenews.blogspot.com##[id="column-left-inner"]
+freewaresoftwarenews.blogspot.com###column-left-inner
 !
-blogspot.hu##[id="fbox-background"]
+blogspot.hu###fbox-background
 !
-blogstar.hu##DIV[id="lightview1"]
+blogstar.hu###lightview1
 blogstar.hu##[class*="banner"]
 blogstar.hu##[class*="popupBanner"]
 !
-gamepod.hu##div[class="partners"]
+gamepod.hu##.partners
 gamepod.hu###thanks > .nohead.hlist
-!
-https://gamepod.hu/ajanlo/lapcsalad.html
+||gamepod.hu/ajanlo/lapcsalad.html
 !
 hungliaonline.com##script:contains(adblocker)
 hungliaonline.com##.tqWLsnEEqeEw-bg
@@ -1139,15 +1241,14 @@ hungliaonline.com##.tqWLsnEEqeEw-bg
 budapestpark.hu###cooker_container
 budapestpark.hu##.banner_main_page_wrapper
 !
-privatbankar.hu##[class="lead_alatti_txt"]
+privatbankar.hu##.lead_alatti_txt
 privatbankar.hu##[src*="/banner/"]
 !
-||www.hestore.hu/pic/cookie.png$image
-www.hestore.hu###cookiewarnbar
+||hestore.hu/pic/cookie.png$image
+hestore.hu###cookiewarnbar
 !
 rendszerigeny.hu###wallpaper
 rendszerigeny.hu##.wallpaper-link
-https://rendszerigeny.hu/wp-content/uploads/2014/02/msi-twin_frozr_6-beef_up_your_rig-frontpage_banner-1920x550.jpg
 !
 hir-24.eu###text-3
 !
@@ -1163,40 +1264,49 @@ hir444.blogspot.com###SC_TBlock_342633_Table
 !
 fototrend.hu##a[href="http://consumer.huawei.com/hu/phones/mate10series/"]
 fototrend.hu##[href="https://www.barion.com/hu/vasarlok/arak-vasarloknak/"]
-https://fototrend.hu/design/hatter.jpg
+||fototrend.hu/design/hatter.jpg
 fototrend.hu##.foot-logos.col-md
 !
 prohardver.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.spleft
 prohardver.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.spright
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##body > style
-/dl/cnt/\d{4}-\d{2}/\d{4}//$domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu,image
+! issue #172
+/dl/cnt/20[^0]\d-\d{2}/\d{4}//$domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu,image
+!/dl/cnt/\d{4}-\d{2}/\d{4}//$domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu,image
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##div[class*="xabre-responsive"]:not([class*="-980px-139px"])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##:xpath(//div[div[script[contains(@src, 'https://track.adform.net')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[contains(@onclick, '$.ajax')]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.xabrecontainer
-prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##div[class="partners"]
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.partners
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu###thanks > .hlist.nohead
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[onclick*="$.ajax"]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[contains(@href, 'http://www.autoalkatreszek24.hu/')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##:xpath(//div[div[a[contains(@href, 'http://www.autoalkatreszonline24.hu/')]]])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##div#center:-abp-has(div > div > p > a[style="color: #b42223;"])
 hardverapro.hu###top > .p-0.container
+prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,logout.hu,hardverapro.hu,fototrend.hu###cookie-accept
+prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,logout.hu,hardverapro.hu,fototrend.hu###cookie_accept
+prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu##div:-abp-has(> [style*="calc"])
+prohardver.hu###top > div:first-child
+||prohardver.hu/dl/cnt/*/background.png
 !
 ||video.vid4u.org/ninja/production/*
-https://i.cdn29.hu/apix_collect/ads
+||i.cdn29.hu/apix_collect/ads
 !
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.background
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-skin-space
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-skin-link
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.box
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-optionless_bottom optionless_bottom_box
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.leporello.leporello-jobbfentrol
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.box.box-html
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after.ad.container
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-inside.ad
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-under-lead.ad
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-comment.ad
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-end.ad
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu###cookie-policy-content
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu###web-push-popup
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-article-under-lead
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-article-inside
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-article-inside-automatic
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-article-comment
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.share-article
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after > *
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-content-top
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.box.ad
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-header-after-article
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-article-end
+! Esztetikai javitas, ha tamogatja az adblocker
+pcworld.hu,gamestar.hu#$#.ad-header-after { margin-top: 70px !important; padding: 0 !important; }
 !
 ||iho.hu/img/banner/*
 ||iho.hu/img/flash/*
@@ -1211,17 +1321,17 @@ menetrendek.hu##.read_vs
 ||dijnet.hu/ekonto/images/news/*
 ||dijnet.hu/ekonto/images/szolg_logo/hu/adomany_logo.jpg
 ||dijnet.hu/ekonto/images/szolg_logo/adomany_logo.jpg
-!
-bookline.hu###background
-bookline.hu###bg-advert
-bookline.hu###ws-module
+dijnet.hu##.jquery-modal.blocker.current
 !
 merce.hu##.mrc-bnr-plchldr
 merce.hu##[class^="banner"]
 merce.hu##.cookie-bar
+merce.hu##.popup-wrap
 !
+kiszamolo.hu###cookie-notice
 kiszamolo.hu###spu-103927
-kiszamolo.hu##.spu-box.spu-centered.spu-total-
+kiszamolo.hu##[class^="spu"]
+kiszamolo.hu##aside:-abp-has(.widgettitle > span:-abp-contains(Hirdetés))
 !
 elemzeskozpont.hu##.underlay
 elemzeskozpont.hu##.block-ouibounce-exit-modal
@@ -1230,23 +1340,24 @@ elemzeskozpont.hu##.region-highlighted
 elemzeskozpont.hu##.node-buttons
 elemzeskozpont.hu##.block-block
 elemzeskozpont.hu##.rtecenter
+elemzeskozpont.hu###sliding-popup
 !
 grundoajandek.hu###jqi-subfade
 grundoajandek.hu##.jqi-subfade
 grundoajandek.hu###jqi-sub
 grundoajandek.hu##.jqi-sub
+grundoajandek.hu##script:contains(contextmenu)
+grundoajandek.hu###cookie-popup
 !
 mlzphoto.hu##.cim-reklam
 mlzphoto.hu###custom_html-3
 mlzphoto.hu##.widget_text.widget.widget_custom_html
+mlzphoto.hu/bannerek/*
 !
-!!! issue#149  budapestbank.hu##.container
 budapestbank.hu###header_cookie_container
 online.budapestbank.hu##.campaign-item
 online.budapestbank.hu##[id^="ext-gen"]
 online.budapestbank.hu##.ext-el-mask-banner
-!
-||magyar-elektronika.hu/images/banners/*
 !
 ! Gemius tracking
 ||gemius.hu
@@ -1262,29 +1373,48 @@ online.budapestbank.hu##.ext-el-mask-banner
 ##.optimonk-container
 ||cdn-dynamic.optimonk.com*
 !
-! Árukereső
-arukereso.hu##.brandbox
-!
 ! MÁV Stop
 mavcsoport.hu###cboxOverlay
 mavcsoport.hu###colorbox
 !
 ! Piac és Profit
+piacesprofit.hu##.cc_banner-wrapper
+piacesprofit.hu###cikkertesito-reg-form
+piacesprofit.hu##.banner.clearfix
 piacesprofit.hu##.inner
+piacesprofit.hu/files/skin/
+piacesprofit.hu##.cc_banner
 !
 ! Prog.hu & tsa.
+prog.hu###cookieconsentbar
+prog.hu##.popup
 prog.hu,pcforum.hu###subscribepopuppanelalign
 prog.hu,pcforum.hu##.slidein.popup.closeablenotification.scripted
 !
 ! eSport1
-esport1.hu##section.b-section:-abp-has(small:-abp-contains(Hirdetés))
+esport1.hu##.cookie-popup
+esport1.hu##.overlay-popup
+esport1.hu##.article-page > .b-section
+esport1.hu##.top-section + .b-section
+esport1.hu##.share.jssocials + .b-section
+esport1.hu##.article-reaction-holder + .b-section
+esport1.hu##.article-page + .b-section
+esport1.hu##.pull-left .b-section
+esport1.hu###article-recommend-popup
 !
 ! SorozatWiki
-sorozatwiki.hu##div.sw-ad-kep
+sorozatwiki.hu###fhr-cookie-bar
+sorozatwiki.hu##+js(ra.js, style, body)
+sorozatwiki.hu###fragment
+sorozatwiki.hu##[class*="-ad-"]
 !
 ! BP-i autosok
-bpiautosok.hu##p + center
-bpiautosok.hu##ins + h6
+bpiautosok.hu###cookie-notice
+bpiautosok.hu##.post > p + center
+bpiautosok.hu##.post > p + center + hr
+bpiautosok.hu##.post ins + h6
+bpiautosok.hu##div.post > *:not(.single-title):not(.news-thumb):not(.posted-date):not(.comments-meta):not(.author-meta):not(.single-content):not(.entry-footer):not(.news-item)
+bpiautosok.hu##div[class*="rltd_item"]:-abp-has(.rltd_tag)
 !
 ! Androgeek
 androgeek.hu##div.rightside > iframe
@@ -1295,6 +1425,8 @@ napidroid.hu###primary-sidebar
 napidroid.hu##.right
 napidroid.hu###custom_html-3
 napidroid.hu###custom_html-4
+||napidroid.hu/*/*hird*
+||napidroid.hu/*/*logo*
 !
 ! SzinesHir (FB-on Tudtad-e?)
 szineshir.net#?#div.grid_item:-abp-has(> div:-abp-contains(Hirdetés))
@@ -1303,8 +1435,295 @@ szineshir.net##div.d-xl-none[style*="padding: 10px"]
 szineshir.net##div.d-xl-block[style*="padding: 10px"]
 szineshir.net##.post_content_box_article_continue + div
 szineshir.net##.post_content_box > .post_content_box_sidebar
+szineshir.net###cookiebar
 !
-
+! ZoldMano (FB-on Tudtad-e?)
+zoldmano.info##.d-xl-none[style*="padding: 10px"]
+zoldmano.info##.d-none[style*="padding: 10px"]
+zoldmano.info##.post_content_box_article_continue + .text-center
+zoldmano.info##.post_content_box_sidebar
+zoldmano.info###cookiebar
+!
+! Autó Pro
+autopro.hu##[class*="banner"]
+autopro.hu###adds
+autopro.hu##.ads
+||autopro.hu/uploads/banners/*
+!
+! AutóSzektor
+autoszektor.hu##.view-banner-blokkok
+autoszektor.hu###article-2
+!
+! HR Portál
+hrportal.hu###cucc
+hrportal.hu###layerbanner
+hrportal.hu##.ui-widget-overlay
+||hrportal.hu/images/banner/*
+!
+! Praktiker
+praktiker.hu###tab-widget_show
+praktiker.hu##.tab-widget_show
+!
+! Átlátszó
+atlatszo.hu##.wp-caption
+atlatszo.hu##.tamogatoi
+!
+! BKV
+bkv.hu###karrier
+bkv.hu##.modal-backdrop
+bkv.hu##.modal-dialog
+bkv.hu##.modal
+||bkv.hu/public/assets/img/banner/*
+!
+! Jooble
+hu.jooble.org###popup
+hu.jooble.org##.back
+!
+! Műhelynet
+muhelynet.hu###exposeMask
+muhelynet.hu###header
+!
+! Magyar Hang
+magyarhang.org##.tagdiv-type
+magyarhang.org##.tdm_block_button
+magyarhang.org##.vc_raw_html
+magyarhang.org##div#moove_gdpr_cookie_info_bar
+magyarhang.org##div#ai-adb-overlay
+magyarhang.org##div#ai-adb-message
+!
+! Magyar Telekom (ex-Westel)
+! issue #168
+!telekom.hu##.device-card
+!telekom.hu##.inline-promo-custom-services
+!telekom.hu##.main-promo
+!telekom.hu##.main-promo-slide
+telekom.hu##.ads
+telekom.hu###app-cookie-policy
+!
+! TeleTál
+! Seems sketchy - TeleTál uses png for actual images, and jpeg for ads
+! 
+! issue #169
+!
+!||teletal.hu/*/images/*.jpg
+!||teletal.hu/hirkep/*
+!
+! Gepigeny.hu
+gepigeny.hu###cookie-bar
+gepigeny.hu##.adt_hun
+gepigeny.hu#$#.main-container { margin-top: 100px !important; }
+!
+! Hiros.hu
+hiros.hu##.banner_widget
+hiros.hu###cookieAlertBox
+hiros.hu##.sy-box
+hiros.hu##.frame:-abp-has(> span[style^="font-size: 11px;"])
+hiros.hu##div.szerzo_holder + div.szerzo_holder
+hiros.hu##div[style*="1px solid rgba(201,201,201,0.4);"]
+!
+! Gyorihir.hu
+gyorihir.hu###cookie_bar
+gyorihir.hu###infobar
+gyorihir.hu##.ad.row
+!
+! Cyberpress.hu
+cyberpress.hu###cookie-law-info-bar
+cyberpress.hu##.sb-right > div:first-child
+cyberpress.hu##.sb-widget:-abp-has(> h4:-abp-contains(Hirdetés))
+!
+! kemma.hu
+kemma.hu##[class^="ad "]
+kemma.hu###cookie-window
+!
+! Szeretlek MO.
+szeretlekmagyarorszag.hu###hatterkep
+szeretlekmagyarorszag.hu###cookie-policy-bar
+szeretlekmagyarorszag.hu##.adslabel
+szeretlekmagyarorszag.hu##[class^="ads_"]
+szeretlekmagyarorszag.hu##[class^="ads_"] + .clear
+szeretlekmagyarorszag.hu##iframe[class*="my-fbrecommend"]
+||quantcast.mgr.consensu.org/cmp.js^$domain=szeretlekmagyarorszag.hu
+||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$domain=szeretlekmagyarorszag.hu
+!
+pcguru.hu##a[href*="banner_click"]
+||pcguru.hu/uploads/banners/*.jpg
+!
+5mp.eu###alsobox
+5mp.eu##.cc_banner
+!
+adoforum.hu##[class^="zone_"]
+adoforum.hu###cookies-alert
+!
+androbit.net###RedUserNotification
+androbit.net###CookieBar
+!
+aranyoldalak.hu##[class*=" adH"]
+aranyoldalak.hu##.cc-window
+aranyoldalak.hu##.mask
+aranyoldalak.hu##.showLink.reveal
+!
+arukereso.hu###cookie-disclaimer
+arukereso.hu##.brandbox
+!
+astronet.hu##[class*="ads-"]
+astronet.hu###cookie-window
+!
+autobazar.eu##.button-ads
+autobazar.eu###cookieinfo
+!
+autoszektor.hu##.view-banner-blokkok
+autoszektor.hu###article-2
+autoszektor.hu##.region-content-1-1 > div:nth-child(-n+3)
+autoszektor.hu##.region-content-1-1 > div:last-child
+autoszektor.hu##.region-content-1-3 > div:nth-child(-n+2)
+autoszektor.hu##.region-content-1-3 > div:nth-last-child(-n+5)
+autoszektor.hu###block-block-30
+autoszektor.hu###block-block-60
+!
+babanet.hu##[class*="hirdetes"]
+babanet.hu###cookie
+babanet.hu###popupajanlo
+!
+bebiztositva.hu##.widget_media_image
+bebiztositva.hu##.pea_cook_wrapper
+!
+borsonline.hu##.cookie__wrapper
+borsonline.hu##[class*="adContainer"]
+!
+builder.hu##[class*="banner"]
+builder.hu###cookie_warn_text
+!
+figyelo.hu##[class*="adbox"]
+figyelo.hu##[class*="banner"]
+figyelo.hu###cookie-window
+!
+gyorplusz.hu##[class*="banner"]
+gyorplusz.hu###cookie-law-info-bar
+!
+gumiszoba.com##.wpcnt
+gumiszoba.com###eu-cookie-law
+gumiszoba.com###facebook-likebox-8
+!
+gyartastrend.hu##[class*="contentBanner"]
+gyartastrend.hu##.accept-cookies
+gyartastrend.hu##div[id^="jqueryFloating"]
+!
+hircsarda.hu/ads/
+hircsarda.hu###gyuri1
+hircsarda.hu###gyuri2
+!
+f1vilag.hu##div.cc-window
+!f1vilag.hu###elementor-popup-modal-100010
+!f1vilag.hu###elementor-popup-modal-85682
+f1vilag.hu##div[id*="elementor-popup-modal-"]
+f1vilag.hu###catapult-cookie-bar
+f1vilag.hu##[class*="adzone"]
+!
+kezilabda.hu##div[style*="margin-bottom:10px"]:-abp-has(> div:-abp-contains(HIRDETÉS))
+kezilabda.hu##.cc_banner
+kezilabda.hu##.cc_banner-wrapper
+!
+atv.hu###cookie-warning
+atv.hu##header > .top-content
+atv.hu###facebookPopUpBackground
+atv.hu###facebookPopUp
+atv.hu#$#header { height: auto !important; }
+!
+calculat.org##.cookies
+calculat.org###zadost
+calculat.org##+js(nostif.js, adstest, 4000)
+!
+tudtade.blogstar.hu###cookie_policy
+tudtade.blogstar.hu##div[style^="height:"]
+!
+paleomedicina.com###kpopup
+!
+budapestkornyeke.hu###cookie-notice
+budapestkornyeke.hu##div[style="margin-top:20px;"]
+budapestkornyeke.hu##div.bpkad
+budapestkornyeke.hu###upprev_box
+budapestkornyeke.hu###custom_html-11
+budapestkornyeke.hu###custom_html-6
+budapestkornyeke.hu###media_image-17
+budapestkornyeke.hu###custom_html-10
+!
+! InfoVaros oldalak
+infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu##.cc-window
+infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###sidebar > div[class*="banner"]
+infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu##div.read div[class*="banner"]
+infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###main div[class*="banner"]
+!
+! MediaWorks
+!
+baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu###cookie-window
+baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##.articleInArticleOfferer
+!
+ripost.hu###cookieconsent
+!
+csupasport.hu###cookie-window
+csupasport.hu###fadeandscale_background
+csupasport.hu###fadeandscale_wrapper
+csupasport.hu##.enews-article-content .endless-shared-area
+!
+fourfourtwo.hu###cookie-window
+!
+! Kapu.hu
+kapu.hu###cookieSpan
+kapu.hu##div.bottom_sticky_banner
+!
+likenews.hu###cookie-notice
+likenews.hu##div.bpkad
+likenews.hu###upprev_box
+!
+keol.hu##div.cc_banner-wrapper
+keol.hu###wide_banners
+keol.hu###above_article_banner
+keol.hu###social
+keol.hu##div.subscribe_module
+keol.hu###below_content_banner
+keol.hu###left_banners
+keol.hu###right_banners
+keol.hu##div[class="fb-like fb_iframe_widget"]
+!
+szabadfold.hu###cookie-window
+szabadfold.hu##div.fb_shares
+!
+112press.hu###cookie-law
+112press.hu##div.banner_middle
+!
+retikul.hu###psCookieNotification
+retikul.hu##div.ad-sm-text
+!
+sportorvos.hu##div.tt-shortcode-1
+sportorvos.hu##div.tt-shortcode-2
+sportorvos.hu##div.sprtrvs-ad
+sportorvos.hu##[class*="ad_"]
+sportorvos.hu###text-9
+!
+haziallat.hu##[id*="_ads"]
+haziallat.hu##[id^="cookieconsent"]
+haziallat.hu##div.cc-window
+haziallat.hu###kapubanner
+!
+hatarido-szamitas.hu###cookie-bar
+!
+widescreen.hu##div.penci-wrap-gprd-law
+widescreen.hu##div.sgpb-popup-dialog-main-div-theme-wrapper-1
+widescreen.hu##div.sgpb-popup-overlay-42658
+widescreen.hu##div.sgpb-popup-overlay-42657
+!
+eredmenyek.com##div#onetrust-banner-sdk
+!
+nice.hu##div.cookie-message
+nice.hu##div#show_news_box
+!
+ite.hu##div[class="tl-state-root tve-leads-ribbon tve-trigger-hide tve-tl-anim tve-leads-track-ribbon-1 tl-anim-slide_top tve-leads-triggered"]
+!
+karpathir.com##[app="tibrr-cookie-consent"]
+karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
+karpathir.com##script:contains(KillAdBlock)
+||floweryoperation.com/v2/0/$domain=karpathir.com
+!
 !##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
 
@@ -1313,76 +1732,54 @@ szineshir.net##.post_content_box > .post_content_box_sidebar
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
 !
-5mp.eu##DIV[id="alsobox"]
-5perc.es##[class*="banner"]
-CegMarketing.hu/banner*
-account.hu/felso/
-adoforum.hu##[class^="zone_"]
-androbit.net###RedUserNotification
-angolosan.hu##[id*="etarget"]
-aranyoldalak.hu##[class*=" adH"]
-astronet.hu##[class*="ads-"]
-ateceged.hu##[class="ad"]
-autobazar.eu##DIV[class="button-ads"]
-autopro.hu##[class*="banner"]
-autoszektor.hu##.view-banner-blokkok
-autoszektor.hu###article-2
-babanet.hu##[class*="hirdetes"]
+cegmarketing.hu/banner*
 babaszoba.hu##[class*="advert"]
-bebiztositva.hu##.widget_media_image
 betegvagyok.hu##[id*="banner"]
-bonuszbrigad.hu##[id="popup_landing_container"]
+bonuszbrigad.hu###popup_landing_container
+bonuszbrigad.hu###newASZFLayer
 bookline.hu##[class*="advert"]
-borsa.hu##[class="blockright"]
-borsonline.hu##[class*="adContainer"]
-budaorsiinfo.hu##[class="ad"]
-builder.hu##[class*="banner"]
-c-press.hu##[id="bef_mainbody_mod_2"]
+borsa.hu##.blockright
+budaorsiinfo.hu##.ad
+c-press.hu###bef_mainbody_mod_2
 csongradihirek.hu##[class*="banner"]
 dehir.hu##[class*="advert"]
 demokrata.hu##.region-header.region
 deres.tv##[class*="banner"]
 dimo.hu##[class*="banner"]
-edubase.hu##.cc-bottom.cc-theme-edgeless.cc-type-info.cc-banner.cc-window
+edubase.hu##.cc-window
 eoldal.hu/*eoldal_banner*
 epresso.hu##[class*="banner"]
 eron.hu##[id*="banner"]
 eropolis.hu##[class*="banner"]
-f1vilag.hu##[class*="adzone"]
 feliratok.info##DIV#advert
-figyelo.hu##[class*="adbox"]
-figyelo.hu##[class*="banner"]
-film4u.hu##[id="text-12"]
 filmoldal.hu##DIV[class*="reklam"]
 firstman.hu##[class*="banner"]
 galamus.hu##[class*="banner"]
 gamepod.hu###right > .xabrew300.box
-gentleman.hu##[class="roadblockcont"]
+gentleman.hu##.roadblockcont
 gigasex.hu/bannerek/
 gloria.tv##[id*="advert"]
 gphirek.hu##DIV.ad
 gportal.hu##[class*="banner"]
-gumiszoba.com##[class="wpcnt"]
-gyartastrend.hu##[class*="contentBanner"]
 gyoricegregiszter.hu##[class*="banner"]
-gyorplusz.hu##[class*="banner"]
 hajokonyha.hu##[class*="hirdetes"]
-hatarido-szamitas.hu##[class="szkozepkis"]
-haziallat.hu##[id*="_ads"]
+hatarido-szamitas.hu##.szkozepkis
+hbogo.hu##.cookie-consent
 helyitipp.hu##[id*="hirdet"]
+helyitipp.hu##.cookie-notice-container
 hetek.hu##[id*="popup"]
+hetek.hu##.cc_banner
 hir6.hu##[class*="banner"]
 hirado.hu##[class="video_preroll type_swf"]
-hircsarda.hu/ads/
 hirextra.hu##[class*="billboard"]
 hirkosar.com###fanback
-hiros.hu##[class="banner_widget"]
 hirposta.hu##[id*="banner"]
 hirtv.hu##[class*="-ad-container"]
 hoc.hu##P[class*="banner"]
 hogyan.org##.widget.widget_text
 hogyankell.hu##[id^="advert"]
-hotdog.hu##DIV[id="tetszett"]
+hogyankell.hu##.cc-window
+hotdog.hu###tetszett
 hrportal.hu##[class*="banner"]
 hungliaonline.com##script:contains(adblocker)
 hunhir.hu##[class*="_ad"]
@@ -1392,22 +1789,21 @@ infodunaujvaros.hu##[class*="banner"]
 ingatlanmagazin.com##[class*="banner"]
 ingatlanok.hu##[class*="banner"]
 ingyenweb.hu/felso/*.*
-internet-marketing.hu##[id="bottompopup"]
+internet-marketing.hu###bottompopup
 intima.hu##[class*="banner"]
-investor.hu##[id="magnum"]
-ize.hu##DIV[class="banner"]
+investor.hu###magnum
+ize.hu##.banner
 jogiforum.hu##[class*="banner"]
 kakukk.ro##[id*="banner"]
 kapcsolat.hu##DIV[class*="banner"]
 kapos.hu##[class*="banner"]
 kaposvarmost.hu##[class*="banner"]
-kemma.hu##[class^="ad "]
 ketkes.com##A[href^="http://goo.gl"]
 kezilabda.hu##[id*="banner"]
 kislexikon.hu/swf/
 kronika.ro##[class*="banner"]
 lajkold.hu##[class^="ad "]
-lakberendezes.hu##[class="adbg"]
+lakberendezes.hu##.adbg
 litera.hu##[class*="-ad"]
 lovebox.hu##[class*="banner"]
 mafab.hu##.visible-lg.container
@@ -1415,7 +1811,8 @@ magyarnarancs.hu##[id*="_ad"]
 mainap.hu##[class*="banner"]
 manus.hu##[class*="articleBanner"]
 marmalade.hu##[class*="Banner"]
-menshealth.hu##[id="fbpopup"]
+meska.hu##.sticky
+menshealth.hu###fbpopup
 metazin.hu##DIV[class*="etarget"]
 metropol.hu/*/images/sponsor_*.*
 miabonyunk.hu/hirdetesek/
@@ -1425,7 +1822,7 @@ mixonline.hu##[class*="banner"]
 mmonline.hu##[class*="banner"]
 mno.hu##[class*="box ajanlo"]
 motorrevu.hu##[class*="hirdetes"]
-mozinezo.hu##[id="header"]
+mozinezo.hu###header
 mozishop.hu##.om-holder
 mult-kor.hu##[class^="ui-dialog"]
 multiplay.hu##[id*="banner"]
@@ -1439,20 +1836,21 @@ netbulvar.eu##[id*="advertisment"]
 netfirms.com##A[href*="=banner"]
 netii.net##[id*="facebox"]
 nice.hu##[class*="banner"]
+nkmenergia.hu###tab-widget
 noitema.hu##[class*="hirdetes"]
 notonlyporn.net##[id*="warning"]
-offline.hu##[class="ad"]
+offline.hu##.ad
+offline.hu###catapult-cookie-bar
 online.filmek-sorozatok.info/java.js
 onlinecegjegyzek.hu##[class*="hirdetes"]
 otvenentul.hu##[class^="ad"]
 partyzoo.hu/banner/
-pcguru.hu##DIV[class="banner-content"]
+pcguru.hu##.banner-content
 pdafanclub.com##[id*="banner"]
-pecsma.hu##[id="kutu"]
+pecsma.hu###kutu
 pestisracok.hu##[class^="ads-"]
-piacesprofit.hu/files/skin/
 pirulapatika.hu##[id*="banner"]
-politaktika.hu##[id="popup"]
+politaktika.hu###popup
 prim.hu##[class*="banner"]
 puruttya.hu##[class*="reklam"]
 randihely.hu/adnews/
@@ -1460,42 +1858,49 @@ retikul.hu##[class*="banner"]
 ricsajok.hu##[class*="banner"]
 samsungsport.hu##[class*="banner"]
 simple.hu###enableCookieDiv
-site88.net##DIV[class="popup"]
+site88.net##.popup
 sportoldal.ro##[class*="banner"]
-sportorvos.hu##[class*="ad_"]
 stop.hu##[src*="hirdetes_"]
 superiorhirek.hu##[class*="-ad"]
 szabadfold.hu##[class*="hirdetes"]
-szeretlekmagyarorszag.hu##[id="hatterkep"]
-szingliportal.hu##[class="article_contiune_link"]
-sztaki.hu##DIV[id="magnum"]
-sztarklikk.hu##[class="banner"]
+szamoldki.hu##.modal_popup
+szingliportal.hu##.article_contiune_link
+sztaki.hu###magnum
+sztarklikk.hu##.banner
 telefonkonyv.hu##[class*=" adH"]
-telekom.hu##DIV[class="ads"]
 teltlanyok.com##[id^="adchange"]
 terhesferfi.hu##div.banner
-titkosrandi.hu##DIV[class="skybanner"]
+termalfurdo.hu##.kiemelttartalombox_feher
+titkosrandi.hu##.skybanner
 tlap.hu##[id*="_bnr"]
-torte-net.hu##DIV[id="hirdetes"]
+torte-net.hu###hirdetes
 trademagazin.hu##[id*="banner"]
 travelo.hu##[class*="hirdetes"]
 turizmusonline.hu##[class*="Banner"]
-turmixvilag.hu##DIV[class="adsense"]
+turmixvilag.hu##.adsense
 tutitippek.hu##[class*="adsense"]
-tvgo.hu##[class="banner"]
+tvgo.hu##.banner
 tvn.hu/tvn/kepek/xpoker.hu/
-utajovobe.eu##[class="bannergroup"]
+utajovobe.eu##.bannergroup
 valasz.hu##[class*="banner"]
 valaszonline.hu##.hird-cont
 videoklinika.hu##DIV[id*="Banner"]
 vidget.hu##[class*="banner"]
 vilaglato.info##.state-fb-pop-up
-vs.hu##[class="no_banner"]
+vs.hu##.no_banner
 wasabi.hu##.footprint_cookie
 webforditas.hu##[id*="AdFrame"]
-www.kh.hu###cookieAcceptanceContainer
+webforditas.hu###cookie-consent
+kh.hu###cookieAcceptanceContainer
 yayo.hu/static/banner/
-zene.hu##DIV[class="etarget"]
+zene.hu##.etarget
+meszotar.hu##.cc_banner-wrapper
+feliratok.org##.wrapper > .slider
+tarhely.eu###sutik
+tarhely.com###cookie-notice
+ezit.hu###cookie-notice
+mediacenter.hu###cookie-msg
+tarhelypark.hu##.cc-window
 !
 ||ad.kapos.hu
 ||ad.napilapcsoport.hu
@@ -1527,6 +1932,7 @@ zene.hu##DIV[class="etarget"]
 ||lapok.hu/felso/felso.php
 ||lolmarkt.hu/banner/
 ||magyarszo.com/images/banner/*
+||magyar-elektronika.hu/images/banners/*
 ||media.netpositive.hu
 ||napiszar.com/banners/
 ||okmanyiroda.hu/banner.html
@@ -1548,7 +1954,11 @@ zene.hu##DIV[class="etarget"]
 !
 ! Reklamblokkolo detektalasanak meggatolasa
 @@||meszotar.hu/scripts/advertising.js
-szineshir.net/js/vendor/blockadblock.js
+/js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
+@@$generichide,domain=prohardver.hu|mobilarena.hu|gamepod.hu|itcafe.hu|hardverapro.hu|fototrend.hu|gamepod.hu
+prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu,gamepod.hu##+js(nobab.js)
+! GH#175
+!prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu,gamepod.hu##+js(nostif.js, /checks\.length|exceptionHook|\{n\[e|setTimeout/)
 
 !##################### END 0200-singlerules.txt ##################### 
 !##################### 0400-other.txt ##################### 
@@ -1567,15 +1977,14 @@ szineshir.net/js/vendor/blockadblock.js
 ##A[href*="etargetnet.com"]
 ##A[href*="internetespenzkereses.net"]
 ##DIV[href*="ad.adverticum.net"]
-##DIV[id="cemp_doboz"]
-##DIV[id="cenmg"]
-##DIV[id="google_hirdetesek"]
+###cemp_doboz
+###cenmg
+###google_hirdetesek
 ##DIV[id^="googlead"]
 ##IFRAME[id*="ETARGET-hu-"]
 ##IFRAME[id^="ETARGET-"]
 ##[class*="GoogleAds"]
 ##[class*="overlayBg"]
-##[class="google_ad"]
 ##[href*="addtoany.com"]
 ##[href*="kuponmania.hu"]
 ##[id*="GoogleAds"]
@@ -1589,20 +1998,32 @@ szineshir.net/js/vendor/blockadblock.js
 rp5.ru#@#[id^="aswift_"]
 ##[id^="aswift_"]
 ##[name*="google_ads"]
-##div[class="canvasRecommended"]
+##.canvasRecommended
 ##div[data-campaign-name^="ads"]
 ##.hirdetes
 ##.hirdetes-linkek
+##div[data-campaign-name^="ads"]
+###etarget
+##.ad__main
+##.newsletter
+##.ad
+##.mail-chimp-popup
+! GH#174
+!hu##.jwplayer
 !
 /gemius.js^
 /gemius.min.js^
 /xgemius.js^
 /xgemius.min.js^
 !
-dictzone.com##P[id="a1"]
-dictzone.com##P[id="a2"]
+dictzone.com###a1
+dictzone.com###a2
 openspeedtest.com##script:contains(testadblock)
 !
+||*/userip.php
+||*/advertisement.js
+||*/eu-banned-popup/*
+||*/empty.json
 ||*.hit.gemius.pl^
 ||2mdn.net^$third-party
 ||9klikk.com^$third-party
