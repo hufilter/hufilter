@@ -43,6 +43,7 @@ index.hu##.nm_mini
 index.hu##.nm_supported__wrapper
 index.hu##.nm_supported
 index.hu##.nm_thanks
+index.hu##.nm_thanks__wrapper
 forum.index.hu###site_header
 forum.index.hu###rightcoltd
 forum.index.hu###ot2015
@@ -58,6 +59,7 @@ index.hu###also_bannerek
 index.hu###index_shopline
 index.hu##.infoStripe
 index.hu###_iph_cp_popup
+index.hu##.keretes-donate-doboz
 !
 velvet.hu###ads
 velvet.hu##DIV[id*="microsite"]
