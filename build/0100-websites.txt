@@ -1703,3 +1703,6 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 karpathir.com##script:contains(KillAdBlock)
 ||floweryoperation.com/v2/0/$domain=karpathir.com
 !
+topark.hu##.sgpb-theme-3-overlay.sgpb-popup-overlay-1402.sgpb-popup-overlay
+topark.hu##.sgpb-popup-dialog-main-div-wrapper
+topark.hu##img[class*="sgpb-"]
