@@ -6,6 +6,7 @@
 !
 cegmarketing.hu/banner*
 babaszoba.hu##[class*="advert"]
+bankmonitor.hu##.askUsSlide
 betegvagyok.hu##[id*="banner"]
 bonuszbrigad.hu###popup_landing_container
 bonuszbrigad.hu###newASZFLayer
