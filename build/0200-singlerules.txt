@@ -74,6 +74,8 @@ kaposvarmost.hu##[class*="banner"]
 ketkes.com##A[href^="http://goo.gl"]
 kezilabda.hu##[id*="banner"]
 kislexikon.hu/swf/
+kossuth.hu##.mini_slider_div0
+kossuth.hu##.kapu
 kronika.ro##[class*="banner"]
 lajkold.hu##[class^="ad "]
 lakberendezes.hu##.adbg
