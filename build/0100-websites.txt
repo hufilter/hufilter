@@ -83,6 +83,7 @@ totalcar.hu###bannerHeaderLink
 totalcar.hu##.totalkarWidget
 totalcar.hu##.joautok-iframe-cikk-torzs
 totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
+||*/tc_base.ugly.js
 ! issue #179
 totalcar.hu##section.adbd-layer
 ||totalcar.hu/assets/*adbd*
