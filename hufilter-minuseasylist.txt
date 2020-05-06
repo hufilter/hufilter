@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 !##################### 0000-header.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Checksum: niwArM1yCO7+ksfS5KGyhQ
-! Version: 202004191348
+! Checksum: nElpApnbrxZKBVWV6CxWIw
+! Version: 202004302214
 ! Title: hufilter
-! Last modified: 19 Apr 2020 13:48 UTC
+! Last modified: 30 Apr 2020 22:14 UTC
 ! Expires: 16 hours (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -70,6 +70,7 @@ index.hu##.nm_mini
 index.hu##.nm_supported__wrapper
 index.hu##.nm_supported
 index.hu##.nm_thanks
+index.hu##.nm_thanks__wrapper
 forum.index.hu###site_header
 forum.index.hu###rightcoltd
 forum.index.hu###ot2015
@@ -85,6 +86,7 @@ index.hu###also_bannerek
 index.hu###index_shopline
 index.hu##.infoStripe
 index.hu###_iph_cp_popup
+index.hu##.keretes-donate-doboz
 !
 velvet.hu###ads
 velvet.hu##DIV[id*="microsite"]
@@ -280,8 +282,8 @@ mandiner.hu##[class*="hirdetes"]
 port.hu##[class*="_spon"]
 port.hu##.articleMetadata
 port.hu##[class="advert fix-advert"]
-port.hu##section.port-adbd
 port.hu##script:contains(ads.js)
+port.hu##.port-adbd
 !
 pharmaonline.hu##[class*="contentBanner"]
 pharmaonline.hu##.justClassBanner
@@ -1034,6 +1036,10 @@ hir.ma##[class^="ad"]
 444.hu##.support-box
 geekz.444.hu##.ease-modal
 444.hu###kummanto
+444.hu##.d2020kv
+444.hu##.pr-box
+444.hu##.d1912cka
+444.hu##.d1912cza
 ! AdBlock detector - privacy invasion
 ||444.hu/js/ease_detector.js
 !
@@ -1306,7 +1312,8 @@ computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.box.ad
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-header-after-article
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad.ad-article-end
 ! Esztetikai javitas, ha tamogatja az adblocker
-pcworld.hu,gamestar.hu#$#.ad-header-after { margin-top: 70px !important; padding: 0 !important; }
+!pcworld.hu,gamestar.hu#$#.ad-header-after { margin-top: 70px !important; padding: 0 !important; }
+pcworld.hu##+js(rc, have-ad, body)
 !
 ||iho.hu/img/banner/*
 ||iho.hu/img/flash/*
@@ -1487,9 +1494,13 @@ muhelynet.hu###header
 magyarhang.org##.tagdiv-type
 magyarhang.org##.tdm_block_button
 magyarhang.org##.vc_raw_html
-magyarhang.org##div#moove_gdpr_cookie_info_bar
-magyarhang.org##div#ai-adb-overlay
-magyarhang.org##div#ai-adb-message
+magyarhang.org###banner-advert-container
+magyarhang.org###adb-container
+magyarhang.org##[id*="moove"][id*="gdpr"]
+magyarhang.org##[class*="moove"][class*="gdpr"]
+magyarhang.org##[class*="gdpr"]
+magyarhang.org##[id^="ai-adb-"]
+magyarhang.org##script:contains(ai_adb)
 !
 ! Magyar Telekom (ex-Westel)
 ! issue #168
@@ -1724,7 +1735,16 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 karpathir.com##script:contains(KillAdBlock)
 ||floweryoperation.com/v2/0/$domain=karpathir.com
 !
-!##################### END 0100-websites.txt ##################### 
+topark.hu##.sgpb-theme-3-overlay.sgpb-popup-overlay-1402.sgpb-popup-overlay
+topark.hu##.sgpb-popup-dialog-main-div-wrapper
+topark.hu##img[class*="sgpb-"]
+!
+agrarszektor.hu##div#mymodal:-abp-has(#form-popup)
+agrarszektor.hu##div#ajanlo
+!
+travelo.hu##div.qc-cmp-ui-container
+travelo.hu##div.facebook-layer-box
+!!##################### END 0100-websites.txt ##################### 
 !##################### 0200-singlerules.txt ##################### 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1734,7 +1754,9 @@ karpathir.com##script:contains(KillAdBlock)
 !
 cegmarketing.hu/banner*
 babaszoba.hu##[class*="advert"]
+bankmonitor.hu##.askUsSlide
 betegvagyok.hu##[id*="banner"]
+bestmarkt.hu###ddModal
 bonuszbrigad.hu###popup_landing_container
 bonuszbrigad.hu###newASZFLayer
 bookline.hu##[class*="advert"]
@@ -1801,11 +1823,15 @@ kaposvarmost.hu##[class*="banner"]
 ketkes.com##A[href^="http://goo.gl"]
 kezilabda.hu##[id*="banner"]
 kislexikon.hu/swf/
+kossuth.hu##.mini_slider_div0
+kossuth.hu##.kapu
 kronika.ro##[class*="banner"]
 lajkold.hu##[class^="ad "]
 lakberendezes.hu##.adbg
 litera.hu##[class*="-ad"]
 lovebox.hu##[class*="banner"]
+lumenet.hu###exposeMask
+lumenet.hu###page_PopupContainer
 mafab.hu##.visible-lg.container
 magyarnarancs.hu##[id*="_ad"]
 mainap.hu##[class*="banner"]
@@ -1820,6 +1846,7 @@ mindenkilapja.hu##[class*="advert"]
 mitortent.hu##[class^="adv"]
 mixonline.hu##[class*="banner"]
 mmonline.hu##[class*="banner"]
+mme.hu##.om-holder
 mno.hu##[class*="box ajanlo"]
 motorrevu.hu##[class*="hirdetes"]
 mozinezo.hu###header
@@ -1831,6 +1858,7 @@ napi.hu##[id*="billboard"]
 napiszar.hu##[class*="banner"]
 napiuzlet.com##[class*="advertisement"]
 napocska.hu/images/*_advert*.*
+ncore.cc##.banner
 nemzetisport.hu##[id^="ad_"]
 netbulvar.eu##[id*="advertisment"]
 netfirms.com##A[href*="=banner"]
