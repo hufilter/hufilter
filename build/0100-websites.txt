@@ -1441,8 +1441,9 @@ hrportal.hu##.ui-widget-overlay
 ||hrportal.hu/images/banner/*
 !
 ! Praktiker
-praktiker.hu###tab-widget_show
-praktiker.hu##.tab-widget_show
+! Lead generator, do not block, under C&D legal request!
+!praktiker.hu###tab-widget_show
+!praktiker.hu##.tab-widget_show
 !
 ! Átlátszó
 atlatszo.hu##.wp-caption
