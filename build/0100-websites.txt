@@ -614,10 +614,13 @@ csaladinet.hu###CookieAcceptLayer
 divany.hu###interstitial
 divany.hu##[id*="banner"]
 divany.hu##[id*="szponzoracio"]
-!!divany.hu##[class^="hirdetes "]
 divany.hu##[class*="hirdetes"]
 divany.hu##[id*="hirdetes"]
-divany.hu##.guestbox
+divany.hu##.tctk
+divany.hu##.cikk-vegi-ajanlo-reklamok
+||*/divany_base.ugly.js
+divany.hu##iframe
+divany.hu##.adbd-layer
 !
 ! HáziPatika
 hazipatika.com##TD[id*="l_sponsor"]
