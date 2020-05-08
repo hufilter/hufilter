@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 !##################### 0000-header.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Checksum: nElpApnbrxZKBVWV6CxWIw
-! Version: 202004302214
+! Checksum: yYLRqIrmoiyF0rWUO4ba7g
+! Version: 202005071530
 ! Title: hufilter
-! Last modified: 30 Apr 2020 22:14 UTC
+! Last modified: 07 May 2020 15:30 UTC
 ! Expires: 16 hours (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -106,6 +106,11 @@ totalcar.hu##[class*="hirdetes"]
 totalcar.hu##[class*="adblokk"]
 totalcar.hu##.microsite
 totalcar.hu###ads
+totalcar.hu###bannerHeaderLink
+totalcar.hu##.totalkarWidget
+totalcar.hu##.joautok-iframe-cikk-torzs
+totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
+||*/tc_base.ugly.js
 ! issue #179
 totalcar.hu##section.adbd-layer
 ||totalcar.hu/assets/*adbd*
@@ -1468,8 +1473,9 @@ hrportal.hu##.ui-widget-overlay
 ||hrportal.hu/images/banner/*
 !
 ! Praktiker
-praktiker.hu###tab-widget_show
-praktiker.hu##.tab-widget_show
+! Lead generator, do not block, under C&D legal request!
+!praktiker.hu###tab-widget_show
+!praktiker.hu##.tab-widget_show
 !
 ! Átlátszó
 atlatszo.hu##.wp-caption
@@ -2084,7 +2090,6 @@ openspeedtest.com##script:contains(testadblock)
 ||ads.ventivmedia.com^$third-party
 ||ads.waxum.hu/adimage.php
 ||adsfac.eu/*.asp
-||adswizz.com^$third-party
 ||adtrackeraa.com^
 ||adv-adserver.com^
 ||adv.forpsi.hu^
