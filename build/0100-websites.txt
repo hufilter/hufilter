@@ -83,9 +83,9 @@ totalcar.hu###bannerHeaderLink
 totalcar.hu##.totalkarWidget
 totalcar.hu##.joautok-iframe-cikk-torzs
 totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
-||*/tc_base.ugly.js
-! issue #179
-totalcar.hu##section.adbd-layer
+!||*/tc_base.ugly.js ! TODO: Breaks functionality, investigate partial script block
+totalcar.hu##.adbd-layer
+totalcar.hu##body:style(overflow: auto !important)
 ||totalcar.hu/assets/*adbd*
 !
 ||chat.hu/Client/banner
@@ -618,9 +618,10 @@ divany.hu##[class*="hirdetes"]
 divany.hu##[id*="hirdetes"]
 divany.hu##.tctk
 divany.hu##.cikk-vegi-ajanlo-reklamok
-||*/divany_base.ugly.js
+!||*/divany_base.ugly.js ! TODO: Breaks functionality, investigate partial script block
 divany.hu##iframe
 divany.hu##.adbd-layer
+divany.hu##body:style(overflow: auto !important)
 !
 ! HáziPatika
 hazipatika.com##TD[id*="l_sponsor"]
