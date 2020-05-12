@@ -49,6 +49,8 @@ forum.index.hu###rightcoltd
 forum.index.hu###ot2015
 index.hu,velvet.hu,totalcar.hu##.travelo-box
 index.hu,velvet.hu,totalcar.hu##.shopline-box
+index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu##.adbd-layer
+index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu##body:style(overflow: auto !important)
 index.hu,velvet.hu##.flash-fullscreen-wrapper
 index.hu##._iph_brk
 index.hu###ad_null_position
@@ -83,9 +85,6 @@ totalcar.hu###bannerHeaderLink
 totalcar.hu##.totalkarWidget
 totalcar.hu##.joautok-iframe-cikk-torzs
 totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
-!||*/tc_base.ugly.js ! TODO: Breaks functionality, investigate partial script block
-totalcar.hu##.adbd-layer
-totalcar.hu##body:style(overflow: auto !important)
 ||totalcar.hu/assets/*adbd*
 !
 ||chat.hu/Client/banner
@@ -621,10 +620,7 @@ divany.hu##[class*="hirdetes"]
 divany.hu##[id*="hirdetes"]
 divany.hu##.tctk
 divany.hu##.cikk-vegi-ajanlo-reklamok
-!||*/divany_base.ugly.js ! TODO: Breaks functionality, investigate partial script block
 divany.hu##iframe
-divany.hu##.adbd-layer
-divany.hu##body:style(overflow: auto !important)
 !
 ! HáziPatika
 hazipatika.com##TD[id*="l_sponsor"]
