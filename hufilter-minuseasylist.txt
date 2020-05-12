@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 !##################### 0000-header.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Checksum: OhEmKMxp57WkPslMOoKu5A
-! Version: 202005122058
+! Checksum: dGFgXePvY+5a1KERhL3uEg
+! Version: 202005122123
 ! Title: hufilter
-! Last modified: 12 May 2020 20:58 UTC
+! Last modified: 12 May 2020 21:23 UTC
 ! Expires: 16 hours (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/

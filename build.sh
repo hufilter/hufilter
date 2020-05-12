@@ -41,4 +41,15 @@ echo '[Adblock Plus 2.0]' > hufilter-minuseasylist.txt
 diff hufilter.txt easylist.txt --new-line-format="" --old-line-format="%L" --unchanged-line-format="" >> hufilter-minuseasylist.txt
 rm -f ./easylist.txt
 
+# Generate DNS list for Pi-hole, AdGuard DNS, etc
+DNS_TMP='./hufilter-dns.tmp'
+cat './build/0000-header.txt' > $DNS_TMP
+sort -u './hufilter.txt' | grep ^\|\|.*\^$ | grep -v \/ >> $DNS_TMP
+sed -i $DNS_TMP -e "s/#VERSION#/$VERSION/g; s/#LAST_MODIFIED#/$LAST_MODIFIED/g"
+grep -v '! Checksum: ' $DNS_TMP | grep -v '^$' > $DNS_TMP.chk
+DNS_CHKSUM=`cat $DNS_TMP.chk | openssl dgst -md5 -binary | openssl enc -base64 | cut -d "=" -f 1`
+rm -f ./$DNS_TMP.chk
+sed -i "/! Checksum: /c\! Checksum: $DNS_CHKSUM" $DNS_TMP
+mv $DNS_TMP hufilter-dns.txt
+
 # THE END :)
