@@ -262,6 +262,9 @@ port.hu##.articleMetadata
 port.hu##[class="advert fix-advert"]
 port.hu##script:contains(ads.js)
 port.hu##.port-adbd
+port.hu##^script:has-text(addEListener(DCL)
+port.hu##.container.css-table>div:not(.container)
+port.hu##body:style(overflow: auto !important)
 !
 pharmaonline.hu##[class*="contentBanner"]
 pharmaonline.hu##.justClassBanner
