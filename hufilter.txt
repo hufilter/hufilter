@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 !##################### 0000-header.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Checksum: dGFgXePvY+5a1KERhL3uEg
-! Version: 202005122123
+! Checksum: wcobo6b5vmlDz968GVfD6A
+! Version: 202005262020
 ! Title: hufilter
-! Last modified: 12 May 2020 21:23 UTC
+! Last modified: 26 May 2020 20:20 UTC
 ! Expires: 16 hours (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -122,6 +122,7 @@ chat.hu##DIV[class="box rightbox"]
 chat.hu##[id*="banner"]
 !
 blikk.hu###footerLogos
+blikk.hu###articleOfferFlag
 !
 ||stylemagazin.hu/static/template_settings/
 stylemagazin.hu##[class="wp-container wp-top"]
@@ -546,8 +547,8 @@ life.hu##+js(ra.js, class, section[class="life-section l-section-main article-se
 idokep.hu##.cc_banner-wrapper
 idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]
-idokep.hu##.#adContent
 idokep.hu##.hird-label
+idokep.hu##.cc_banner-wrapper
 !
 napinemszar.hu##[id*="reklam"]
 napinemszar.hu###sidebar
