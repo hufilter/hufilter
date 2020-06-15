@@ -89,6 +89,9 @@ totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
 totalcar.hu##body > script:has-text(window.onload = window.onfocus)
 totalcar.hu##body > section:last-of-type
 !
+totalbike.hu##body > script:has-text(window.onload = window.onfocus)
+totalbike.hu##body > section:last-of-type
+!
 ||chat.hu/Client/banner
 ||chat.hu/imgadverts*
 chat.hu##[class*="hirdetes"]
