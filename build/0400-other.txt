@@ -48,6 +48,13 @@ rp5.ru#@#[id^="aswift_"]
 ! GH#174
 !hu##.jwplayer
 !
+www.glassdoor.com###HardsellOverlay
+www.glassdoor.com###PageBot
+||glassdoor.com/app/static/js/dist/gd-user-hardsell-overlay*^
+||glassdoor.com/app/static/js/gd-ei-upsell*^
+||glassdoor.com/app/static/js/gd-fj-ads-init*^
+||glassdoor.com/app/static/js/gd-ei-employer-targeting*^
+!
 /gemius.js^
 /gemius.min.js^
 /xgemius.js^
