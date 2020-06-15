@@ -312,6 +312,8 @@ gyakorikerdesek.hu/pic/bannerek/
 gyakorikerdesek.hu##div.reklam_jobbra
 gyakorikerdesek.hu##td.txtcenter:-abp-has(> script + ins)
 gyakorikerdesek.hu##td[style="width: 10px;"]:empty
+gyakorikerdesek.hu##.rltdwidget
+gyakorikerdesek.hu##[href^="https://www.webminute.hu"]
 !
 ||klubradio.hu/data/files/banner
 klubradio.hu##DIV[id*="banner"]
