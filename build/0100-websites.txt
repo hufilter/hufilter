@@ -631,6 +631,8 @@ divany.hu##.cikk-vegi-ajanlo-reklamok
 divany.hu##iframe
 divany.hu##body > script:has-text(window.onload = window.onfocus)
 divany.hu##body > section:last-of-type
+divany.hu##.cikk-halfpage.t-article-container_sidebar > div:first-child
+divany.hu##.rovat-halfpage.t-rovat-container_sidebar > div:first-child
 !
 ! HáziPatika
 hazipatika.com##TD[id*="l_sponsor"]
