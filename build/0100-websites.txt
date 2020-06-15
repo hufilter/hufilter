@@ -971,6 +971,8 @@ oprend.hu##[class*="ad-warning"]
 !profession.hu###jqi
 !profession.hu###jqifade
 profession.hu###twister-banner
+||stat.profession.hu/static/assets/images/prize-game*$image
+www.profession.hu###newsletter_footer
 !
 infopapa.hu##.banner_300_600
 infopapa.hu##.banner_468_120
