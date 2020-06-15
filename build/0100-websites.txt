@@ -86,6 +86,8 @@ totalcar.hu##.totalkarWidget
 totalcar.hu##.joautok-iframe-cikk-torzs
 totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
 ||totalcar.hu/assets/*adbd*
+totalcar.hu##body > script:has-text(window.onload = window.onfocus)
+totalcar.hu##body > section:last-of-type
 !
 ||chat.hu/Client/banner
 ||chat.hu/imgadverts*
