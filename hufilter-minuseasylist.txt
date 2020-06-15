@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 !##################### 0000-header.txt ##################### 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Checksum: x3csiqHeCaf+rrtBguEXZQ
-! Version: 202005112223
+! Checksum: wcobo6b5vmlDz968GVfD6A
+! Version: 202005262020
 ! Title: hufilter
-! Last modified: 11 May 2020 22:23 UTC
+! Last modified: 26 May 2020 20:20 UTC
 ! Expires: 16 hours (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -76,6 +76,8 @@ forum.index.hu###rightcoltd
 forum.index.hu###ot2015
 index.hu,velvet.hu,totalcar.hu##.travelo-box
 index.hu,velvet.hu,totalcar.hu##.shopline-box
+index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu##.adbd-layer
+index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu##body:style(overflow: auto !important)
 index.hu,velvet.hu##.flash-fullscreen-wrapper
 index.hu##._iph_brk
 index.hu###ad_null_position
@@ -110,9 +112,6 @@ totalcar.hu###bannerHeaderLink
 totalcar.hu##.totalkarWidget
 totalcar.hu##.joautok-iframe-cikk-torzs
 totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
-!||*/tc_base.ugly.js ! TODO: Breaks functionality, investigate partial script block
-totalcar.hu##.adbd-layer
-totalcar.hu##body:style(overflow: auto !important)
 ||totalcar.hu/assets/*adbd*
 !
 ||chat.hu/Client/banner
@@ -123,6 +122,7 @@ chat.hu##DIV[class="box rightbox"]
 chat.hu##[id*="banner"]
 !
 blikk.hu###footerLogos
+blikk.hu###articleOfferFlag
 !
 ||stylemagazin.hu/static/template_settings/
 stylemagazin.hu##[class="wp-container wp-top"]
@@ -289,6 +289,9 @@ port.hu##.articleMetadata
 port.hu##[class="advert fix-advert"]
 port.hu##script:contains(ads.js)
 port.hu##.port-adbd
+port.hu##^script:has-text(addEListener(DCL)
+port.hu##.container.css-table>div:not(.container)
+port.hu##body:style(overflow: auto !important)
 !
 pharmaonline.hu##[class*="contentBanner"]
 pharmaonline.hu##.justClassBanner
@@ -544,8 +547,8 @@ life.hu##+js(ra.js, class, section[class="life-section l-section-main article-se
 idokep.hu##.cc_banner-wrapper
 idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]
-idokep.hu##.#adContent
 idokep.hu##.hird-label
+idokep.hu##.cc_banner-wrapper
 !
 napinemszar.hu##[id*="reklam"]
 napinemszar.hu###sidebar
@@ -645,10 +648,7 @@ divany.hu##[class*="hirdetes"]
 divany.hu##[id*="hirdetes"]
 divany.hu##.tctk
 divany.hu##.cikk-vegi-ajanlo-reklamok
-!||*/divany_base.ugly.js ! TODO: Breaks functionality, investigate partial script block
 divany.hu##iframe
-divany.hu##.adbd-layer
-divany.hu##body:style(overflow: auto !important)
 !
 ! HáziPatika
 hazipatika.com##TD[id*="l_sponsor"]

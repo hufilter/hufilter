@@ -41,4 +41,25 @@ echo '[Adblock Plus 2.0]' > hufilter-minuseasylist.txt
 diff hufilter.txt easylist.txt --new-line-format="" --old-line-format="%L" --unchanged-line-format="" >> hufilter-minuseasylist.txt
 rm -f ./easylist.txt
 
+# Update DNS list (if it is necessary)
+DNS_CURRENT=$(sort -u './hufilter-dns.txt' | grep -v '^!' | grep -v '^[[:space:]]*$')
+DNS_NEW=$(sort -u './hufilter.txt' | grep ^\|\|.*\^$ | grep -v \/ | sed 's/^||//g; s/\^$//g')
+
+if [ "$DNS_CURRENT" != "$DNS_NEW" ]; then
+    # Generate DNS list for Pi-hole, AdGuard DNS, etc
+    DNS_TMP='./hufilter-dns.tmp'
+    cat './build/0000-header.txt' > $DNS_TMP
+    echo "$DNS_NEW" >> $DNS_TMP
+    sed -i $DNS_TMP -e "s/#VERSION#/$VERSION/g; s/#LAST_MODIFIED#/$LAST_MODIFIED/g"
+    grep -v '! Checksum: ' $DNS_TMP | grep -v '^$' > $DNS_TMP.chk
+    DNS_CHKSUM=`cat $DNS_TMP.chk | openssl dgst -md5 -binary | openssl enc -base64 | cut -d "=" -f 1`
+    rm -f ./$DNS_TMP.chk
+    sed -i "/! Checksum: /c\! Checksum: $DNS_CHKSUM" $DNS_TMP
+    mv $DNS_TMP hufilter-dns.txt
+
+    echo "DNS list builded"
+else
+    echo "DNS list is up to date, no need to rebuild"
+fi
+
 # THE END :)
