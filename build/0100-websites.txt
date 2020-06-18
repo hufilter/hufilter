@@ -86,6 +86,11 @@ totalcar.hu##.totalkarWidget
 totalcar.hu##.joautok-iframe-cikk-torzs
 totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
 ||totalcar.hu/assets/*adbd*
+totalcar.hu##body > script:has-text(window.onload = window.onfocus)
+totalcar.hu##body > section:last-of-type
+!
+totalbike.hu##body > script:has-text(window.onload = window.onfocus)
+totalbike.hu##body > section:last-of-type
 !
 ||chat.hu/Client/banner
 ||chat.hu/imgadverts*
@@ -312,6 +317,8 @@ gyakorikerdesek.hu/pic/bannerek/
 gyakorikerdesek.hu##div.reklam_jobbra
 gyakorikerdesek.hu##td.txtcenter:-abp-has(> script + ins)
 gyakorikerdesek.hu##td[style="width: 10px;"]:empty
+gyakorikerdesek.hu##.rltdwidget
+gyakorikerdesek.hu##[href^="https://www.webminute.hu"]
 !
 ||klubradio.hu/data/files/banner
 klubradio.hu##DIV[id*="banner"]
@@ -622,6 +629,10 @@ divany.hu##[id*="hirdetes"]
 divany.hu##.tctk
 divany.hu##.cikk-vegi-ajanlo-reklamok
 divany.hu##iframe
+divany.hu##body > script:has-text(window.onload = window.onfocus)
+divany.hu##body > section:last-of-type
+divany.hu##.cikk-halfpage.t-article-container_sidebar > div:first-child
+divany.hu##.rovat-halfpage.t-rovat-container_sidebar > div:first-child
 !
 ! HáziPatika
 hazipatika.com##TD[id*="l_sponsor"]
@@ -969,6 +980,8 @@ oprend.hu##[class*="ad-warning"]
 !profession.hu###jqi
 !profession.hu###jqifade
 profession.hu###twister-banner
+||stat.profession.hu/static/assets/images/prize-game*$image
+www.profession.hu###newsletter_footer
 !
 infopapa.hu##.banner_300_600
 infopapa.hu##.banner_468_120

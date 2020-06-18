@@ -4,6 +4,7 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !
 !
+||app.livechatoo.com
 cegmarketing.hu/banner*
 babaszoba.hu##[class*="advert"]
 bankmonitor.hu##.askUsSlide
