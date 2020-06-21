@@ -111,7 +111,6 @@ napi.hu##[id*="billboard"]
 napiszar.hu##[class*="banner"]
 napiuzlet.com##[class*="advertisement"]
 napocska.hu/images/*_advert*.*
-ncore.cc##.banner
 nemzetisport.hu##[id^="ad_"]
 netbulvar.eu##[id*="advertisment"]
 netfirms.com##A[href*="=banner"]

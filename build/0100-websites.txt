@@ -1740,6 +1740,9 @@ agrarszektor.hu##div#ajanlo
 travelo.hu##div.qc-cmp-ui-container
 travelo.hu##div.facebook-layer-box
 !
+ncore.cc##.banner
+ncore.cc##^#x-pop
+ncore.cc##^.container-in > script:last-of-type
 dehir.hu##.totop
 dehir.hu##.slidingBanner
 dehir.hu##.col-md-4 .blog-sidebar:nth-child(even)
@@ -1754,4 +1757,3 @@ azonnali.hu##.bannpos
 ! issue #198
 vasarnap.hu###cikkreklam
 vasarnap.hu##.reklamnagy
-!
