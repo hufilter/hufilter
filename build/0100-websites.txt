@@ -270,6 +270,7 @@ port.hu##.port-adbd
 port.hu##^script:has-text(addEListener(DCL)
 port.hu##.container.css-table>div:not(.container)
 port.hu##body:style(overflow: auto !important)
+port.hu##.edgebox-widget.show
 !
 pharmaonline.hu##[class*="contentBanner"]
 pharmaonline.hu##.justClassBanner
@@ -523,6 +524,9 @@ life.hu###ac
 life.hu###floating-recommendation
 ! A cikk cime elott levo nagy ures helyet szabaditja fel
 life.hu##+js(ra.js, class, section[class="life-section l-section-main article-section l-section-article"])
+life.hu##.facebook-layer-box
+life.hu##.qc-cmp2-container
+life.hu###mc-holder
 !
 idokep.hu##.cc_banner-wrapper
 idokep.hu##[class*="hird_"]
@@ -1739,3 +1743,17 @@ travelo.hu##div.facebook-layer-box
 ncore.cc##.banner
 ncore.cc##^#x-pop
 ncore.cc##^.container-in > script:last-of-type
+dehir.hu##.totop
+dehir.hu##.slidingBanner
+dehir.hu##.col-md-4 .blog-sidebar:nth-child(even)
+dehir.hu##.col-md-4 .sidebar.widgetDefault
+!
+forbes.hu##p + [class*="-bekezdes-utan-"]
+!
+azonnali.hu##[aria-label="cookieconsent"]
+azonnali.hu##div:-abp-has(>.fb-like)
+azonnali.hu##.bannpos
+!
+! issue #198
+vasarnap.hu###cikkreklam
+vasarnap.hu##.reklamnagy
