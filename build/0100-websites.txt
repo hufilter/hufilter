@@ -1736,3 +1736,6 @@ agrarszektor.hu##div#ajanlo
 travelo.hu##div.qc-cmp-ui-container
 travelo.hu##div.facebook-layer-box
 !
+ncore.cc##.banner
+ncore.cc##^#x-pop
+ncore.cc##^.container-in > script:last-of-type
