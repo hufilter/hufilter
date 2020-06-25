@@ -1143,6 +1143,8 @@ kamaszpanasz.hu##.cc_banner-wrapper
 !
 indavideo.hu##.topAdv
 indavideo.hu##[class*="billboard"]
+! Issue #197
+embed.indavideo.hu##+js(set.js, AdHandler.checkAdblock, undefined)
 !
 ilovebalaton.hu##[class*=" ad"]
 ilovebalaton.hu##.ad
