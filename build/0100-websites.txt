@@ -250,6 +250,8 @@ citromail.hu###linkek
 citromail.hu###hir2
 citromail.hu###hir
 citromail.hu###aHirek
+citromail.hu##[data-ce-measure-widget^="CTS Banner"]
+citromail.hu#$#._ce_measure_row  { margin-top: 1rem !important; }
 !
 ||mandiner.hu/*/banner/
 ||mandiner.hu/images/design/*-bg.*
@@ -271,6 +273,7 @@ port.hu##^script:has-text(addEListener(DCL)
 port.hu##.container.css-table>div:not(.container)
 port.hu##body:style(overflow: auto !important)
 port.hu##.edgebox-widget.show
+port.hu##script:contains(quantcast)
 !
 pharmaonline.hu##[class*="contentBanner"]
 pharmaonline.hu##.justClassBanner
@@ -574,6 +577,7 @@ koponyeg.hu##.integralt_felso_zona
 freemail.hu##[class*="adbox"]
 freemail.hu##.etarget
 freemail.hu##[class*="magnum"]
+freemail.hu##.facebook-layer-box
 !
 ||revizoronline.com/*banner
 revizoronline.com##[class*="banner"]
@@ -975,6 +979,9 @@ mfor.hu##.article-textlinkbox
 !
 kuruc.info##[class="cikkbanner hirdbox mh40 listafriss"]
 kuruc.info##[style="margin-left:auto;margin-right:auto;width:980px;text-align:center"]
+kuruc.info##.overlay
+kuruc.info##.pupopadbox
+kuruc.info##.logopic2 + .fll
 !
 oprend.hu##[class="ad ad-blocked"]
 oprend.hu##[class="ad p-t-10 ad-blocked"]
@@ -1008,6 +1015,12 @@ player.hu##[class="ph ph-responsive-wrap"]
 player.hu##.ph-flexi-box-wrap
 player.hu##[class*="adbreak"]
 player.hu##[data-analytics-value]
+player.hu###pushpushgo-container
+player.hu##.ui-dialog[aria-describedby="newsletter-modal"]
+player.hu##[class*="c_banner"]
+! uBlock
+player.hu##+js(rc.js, adult-content, article)
+player.hu#$#.adult-overelay { display: none !important; }
 !
 polusonline.com###HTML5
 polusonline.com###HTML9
@@ -1144,7 +1157,7 @@ kamaszpanasz.hu##.cc_banner-wrapper
 indavideo.hu##.topAdv
 indavideo.hu##[class*="billboard"]
 ! Issue #197
-embed.indavideo.hu##+js(set.js, AdHandler.checkAdblock, undefined)
+embed.indavideo.hu##+js(set.js, AdHandler.checkAdblock, noopFunc)
 !
 ilovebalaton.hu##[class*=" ad"]
 ilovebalaton.hu##.ad
@@ -1419,6 +1432,10 @@ bpiautosok.hu##.post ins + h6
 bpiautosok.hu##div.post > *:not(.single-title):not(.news-thumb):not(.posted-date):not(.comments-meta):not(.author-meta):not(.single-content):not(.entry-footer):not(.news-item)
 bpiautosok.hu##div[class*="rltd_item"]:-abp-has(.rltd_tag)
 !
+autosjog.hu##.cookie-notice-container
+autosjog.hu##script + ins + h5
+autosjog.hu##p + center:-abp-has(iframe[data-src*="facebook"])
+!
 ! Androgeek
 androgeek.hu##div.rightside > iframe
 androgeek.hu##div.cikk_zona
@@ -1492,12 +1509,8 @@ magyarhang.org##.tagdiv-type
 magyarhang.org##.tdm_block_button
 magyarhang.org##.vc_raw_html
 magyarhang.org###banner-advert-container
-magyarhang.org###adb-container
-magyarhang.org##[id*="moove"][id*="gdpr"]
-magyarhang.org##[class*="moove"][class*="gdpr"]
-magyarhang.org##[class*="gdpr"]
-magyarhang.org##[id^="ai-adb-"]
-magyarhang.org##script:contains(ai_adb)
+magyarhang.org##[class^="moove-gdpr-"]
+magyarhang.org##script:contains(ai_front)
 !
 ! Magyar Telekom (ex-Westel)
 ! issue #168
@@ -1745,6 +1758,7 @@ travelo.hu##div.facebook-layer-box
 ncore.cc##.banner
 ncore.cc##^#x-pop
 ncore.cc##^.container-in > script:last-of-type
+!
 dehir.hu##.totop
 dehir.hu##.slidingBanner
 dehir.hu##.col-md-4 .blog-sidebar:nth-child(even)
@@ -1759,4 +1773,14 @@ azonnali.hu##.bannpos
 ! issue #198
 vasarnap.hu###cikkreklam
 vasarnap.hu##.reklamnagy
+!
+kekfeny.com##.cookie-notice-container
+kekfeny.com##.bpkad
+!
+! uBlock
+traffihunter.hu##+js(rc.js, darken, body)
+traffihunter.hu#$#.ooono_promo { display: none !important; }
+!
+online-filmek.me##.hover_bkgr_fricc
+online-filmek.me##[class*="cc_banner"]
 !

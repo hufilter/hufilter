@@ -181,6 +181,7 @@ tarhely.com###cookie-notice
 ezit.hu###cookie-notice
 mediacenter.hu###cookie-msg
 tarhelypark.hu##.cc-window
+5percblog.hu##.code-block:-abp-has(script + ins)
 !
 ||ad.kapos.hu
 ||ad.napilapcsoport.hu
