@@ -1490,12 +1490,13 @@ muhelynet.hu###exposeMask
 muhelynet.hu###header
 !
 ! Magyar Hang
-magyarhang.org##.tagdiv-type
-magyarhang.org##.tdm_block_button
-magyarhang.org##.vc_raw_html
-magyarhang.org###banner-advert-container
-magyarhang.org##[class^="moove-gdpr-"]
-magyarhang.org##script:contains(ai_front)
+magyarhang.org,hang.hu##[id^="um-"]:-abp-has(.fb-page.fb_iframe_widget)
+magyarhang.org,hang.hu##.mc-modal:-abp-has(iframe)
+magyarhang.org,hang.hu###banner-advert-container
+magyarhang.org,hang.hu##[class^="moove-gdpr-"]
+magyarhang.org,hang.hu##^script:has-text(ai_run_)
+magyarhang.org,hang.hu##+js(acis, document.addEventListener, ai_run_)
+magyarhang.org,hang.hu##+js(acis, document.getElementById, ai_run_)
 !
 ! Magyar Telekom (ex-Westel)
 telekom.hu##.ads
