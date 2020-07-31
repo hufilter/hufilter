@@ -92,6 +92,12 @@ totalcar.hu##body > section:last-of-type
 totalbike.hu##body > script:has-text(window.onload = window.onfocus)
 totalbike.hu##body > section:last-of-type
 !
+divany.hu,totalcar.hu,totalbike.hu,femina.hu###_iph_cp_popup
+divany.hu##.menu-sponsor_link
+divany.hu,totalcar.hu,totalbike.hu##^script:has-text(document.currentScript.remove)
+divany.hu,totalcar.hu,totalbike.hu##+js(acis, window.onload, currentScript.remove)
+divany.hu,totalcar.hu,totalbike.hu##+js(acis, window.onfocus, currentScript.remove)
+!
 chat.hu##[class*="hirdetes"]
 chat.hu##[class*="banner"]
 chat.hu##DIV[class="box rightbox"]
