@@ -119,13 +119,10 @@ nice.hu##[class*="banner"]
 nkmenergia.hu###tab-widget
 noitema.hu##[class*="hirdetes"]
 notonlyporn.net##[id*="warning"]
-offline.hu##.ad
-offline.hu###catapult-cookie-bar
 online.filmek-sorozatok.info/java.js
 onlinecegjegyzek.hu##[class*="hirdetes"]
 otvenentul.hu##[class^="ad"]
 partyzoo.hu/banner/
-pcguru.hu##.banner-content
 pdafanclub.com##[id*="banner"]
 pecsma.hu###kutu
 pestisracok.hu##[class^="ads-"]
@@ -181,6 +178,8 @@ tarhely.com###cookie-notice
 ezit.hu###cookie-notice
 mediacenter.hu###cookie-msg
 tarhelypark.hu##.cc-window
+5percblog.hu##.code-block:-abp-has(script + ins)
+glamour.hu###ibb-text-1
 !
 ||ad.kapos.hu
 ||ad.napilapcsoport.hu
