@@ -349,6 +349,7 @@ portfolio.hu##[data-qa="oil-Layer"]
 portfolio.hu##[data-qa="oil-full"]
 portfolio.hu###BlockCikkajanlo
 portfolio.hu##.footer--partners
+portfolio.hu##.notification-popup
 ||portfolio.hu/img/partner/*
 !
 holtankoljak.hu##EMBED
