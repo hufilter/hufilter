@@ -97,6 +97,7 @@ divany.hu##.menu-sponsor_link
 divany.hu,totalcar.hu,totalbike.hu##^script:has-text(document.currentScript.remove)
 divany.hu,totalcar.hu,totalbike.hu##+js(acis, window.onload, currentScript.remove)
 divany.hu,totalcar.hu,totalbike.hu##+js(acis, window.onfocus, currentScript.remove)
+divany.hu,totalcar.hu,totalbike.hu##+js(acis, document.head, currentScript.remove)
 !
 chat.hu##[class*="hirdetes"]
 chat.hu##[class*="banner"]
