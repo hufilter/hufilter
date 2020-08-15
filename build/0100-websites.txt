@@ -1409,6 +1409,7 @@ bpiautosok.hu##.post > p + center + hr
 bpiautosok.hu##.post ins + h6
 bpiautosok.hu##div.post > *:not(.single-title):not(.news-thumb):not(.posted-date):not(.comments-meta):not(.author-meta):not(.single-content):not(.entry-footer):not(.news-item)
 bpiautosok.hu##div[class*="rltd_item"]:-abp-has(.rltd_tag)
+bpiautosok.hu##.single-content p + center > iframe
 !
 autosjog.hu##.cookie-notice-container
 autosjog.hu##script + ins + h5
