@@ -1539,6 +1539,8 @@ szeretlekmagyarorszag.hu##.adslabel
 szeretlekmagyarorszag.hu##[class^="ads_"]
 szeretlekmagyarorszag.hu##[class^="ads_"] + .clear
 szeretlekmagyarorszag.hu##iframe[class*="my-fbrecommend"]
+szeretlekmagyarorszag.hu###rovatpromo
+szeretlekmagyarorszag.hu##^script:has-text(window.atob)
 ||quantcast.mgr.consensu.org/cmp.js^$domain=szeretlekmagyarorszag.hu
 ||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$domain=szeretlekmagyarorszag.hu
 !
