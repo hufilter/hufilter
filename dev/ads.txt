@@ -1673,8 +1673,6 @@ widescreen.hu##div.sgpb-popup-overlay-42657
 !
 eredmenyek.com##div#onetrust-banner-sdk
 !
-
-!
 ite.hu##div[class="tl-state-root tve-leads-ribbon tve-trigger-hide tve-tl-anim tve-leads-track-ribbon-1 tl-anim-slide_top tve-leads-triggered"]
 !
 ||floweryoperation.com/v2/0/$domain=karpathir.com
@@ -1698,6 +1696,7 @@ dehir.hu##.col-md-4 .blog-sidebar:nth-child(even)
 dehir.hu##.col-md-4 .sidebar.widgetDefault
 !
 forbes.hu##p + [class*="-bekezdes-utan-"]
+forbes.hu##div[id^="forbesad"]
 !
 azonnali.hu##div:-abp-has(>.fb-like)
 azonnali.hu##.bannpos
