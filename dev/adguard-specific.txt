@@ -56,17 +56,14 @@ automotor.hu#$#div.postContent { margin-top: 0 !important; }
 !
 hosszupuskasub.com#$# * { cursor: auto !important; }
 !
-player.hu#$#.adult-overelay { display: none !important; }
-!
 gepigeny.hu#$#.main-container { margin-top: 100px !important; }
 !
 atv.hu#$#header { height: auto !important; }
 !
-traffihunter.hu#$#.ooono_promo { display: none !important; }
-!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
+player.hu##.adult-overelay
 traffihunter.hu##.ooono_promo
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 !
