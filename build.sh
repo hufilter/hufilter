@@ -1,65 +1,76 @@
 #!/bin/bash
 
-BUILDFN="./hufilter.tmp"
+mkdir ./tmp
 
-# Start build with the header
-echo "[Adblock Plus 2.0]" > $BUILDFN;
-
-# Walk through sections and add them to the build
-for x in ` ls -1 ./build/ `;
-    do
-        echo "!##################### $x ##################### " >> $BUILDFN;
-        cat "./build/$x" >> "$BUILDFN";
-        echo "!##################### END $x ##################### " >> $BUILDFN;
-    done;
-
-# New version string for the filter
 VERSION=`date -u "+%Y%m%d%H%M"`;
-# Last modified, check easylist.txt for example
 LAST_MODIFIED=`LC_ALL=en_GB.UTF-8 date -u "+%d %b %Y %H:%M %Z"`;
 
-# Replace placeholder with the actual version
-sed -i $BUILDFN -e "s/#VERSION#/$VERSION/g; s/#LAST_MODIFIED#/$LAST_MODIFIED/g"
+checksum_filter() {
+  grep -v '! Checksum: ' $1 | grep -v '^$' > $1.chk
+  CHKSUM=`cat $1.chk | openssl dgst -md5 -binary | openssl enc -base64 | cut -d "=" -f 1`
+  rm -f ./$1.chk
+  sed -i "/! Checksum: /c\! Checksum: $CHKSUM" $1
+}
 
-# OK, ruleset is compiled. Lets checksum it!
-# UTF-8 encoding and Unix-style line ending is assumed
-# Removing the old chksum and empty lines
-grep -v '! Checksum: ' $BUILDFN | grep -v '^$' > $BUILDFN.chk
-# Getting the checksum... Binary MD5 encoded with Base64
-CHKSUM=`cat $BUILDFN.chk | openssl dgst -md5 -binary | openssl enc -base64 | cut -d "=" -f 1`
-rm -f ./$BUILDFN.chk
+# Collect general files
+TMP_GENERAL="./tmp/hufilter-general.txt"
+cat "./dev/ads.txt" >> "$TMP_GENERAL";
+cat "./dev/ad-servers.txt" >> "$TMP_GENERAL";
+cat "./dev/annoyances.txt" >> "$TMP_GENERAL";
+cat "./dev/other.txt" >> "$TMP_GENERAL";
 
-# Replace the dummy with the real one
-sed -i "/! Checksum: /c\! Checksum: $CHKSUM" $BUILDFN
+# uBlock template
+TMP_UBLOCK="./tmp/hufilter.txt"
+cat "./dev/headers/ublock.txt" >> "$TMP_UBLOCK";
+cat "$TMP_GENERAL" >> "$TMP_UBLOCK";
+cat "./dev/ublock-specific.txt" >> "$TMP_UBLOCK";
 
-# The build is ready, lets replace the filter file with the new version
-mv $BUILDFN hufilter.txt
+# ABP template
+TMP_ABP="./tmp/hufilter-abp.txt"
+cat "./dev/headers/adblock-plus.txt" >> "$TMP_ABP";
+cat "$TMP_GENERAL" >> "$TMP_ABP";
 
-# Get Easylist and create a version with removed redundant rules
-wget https://easylist-downloads.adblockplus.org/easylist.txt
-echo '[Adblock Plus 2.0]' > hufilter-minuseasylist.txt
-diff hufilter.txt easylist.txt --new-line-format="" --old-line-format="%L" --unchanged-line-format="" >> hufilter-minuseasylist.txt
-rm -f ./easylist.txt
+# Set version and last modified attribute in uBlock / ABP
+sed -i $TMP_UBLOCK -e "s/#VERSION#/$VERSION/g; s/#LAST_MODIFIED#/$LAST_MODIFIED/g"
+sed -i $TMP_ABP -e "s/#VERSION#/$VERSION/g; s/#LAST_MODIFIED#/$LAST_MODIFIED/g"
+
+# Checksum uBlock / ABP filters
+checksum_filter $TMP_UBLOCK
+checksum_filter $TMP_ABP
+
+# Move out builded filters.
+mv $TMP_UBLOCK hufilter.txt
+echo "uBlock list builded"
+
+mv $TMP_ABP hufilter-abp.txt
+echo "Adblock Plus list builded"
+
+# Generate AdGuard filter
+TMP_ADGUARD="./tmp/hufilter-adguard.txt"
+cat "./dev/headers/adguard.txt" >> "$TMP_ADGUARD";
+wget --output-document=./tmp/general_js_api.txt https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/general_js_api.txt
+cat "./tmp/general_js_api.txt" >> "$TMP_ADGUARD";
+cat "$TMP_GENERAL" >> "$TMP_ADGUARD";
+cat "./dev/adguard-specific.txt" >> "$TMP_ADGUARD";
+mv $TMP_ADGUARD hufilter-adguard.txt
+echo "AdGuard list builded"
 
 # Update DNS list (if it is necessary)
 DNS_CURRENT=$(sort -u './hufilter-dns.txt' | grep -v '^!' | grep -v '^[[:space:]]*$')
-DNS_NEW=$(sort -u './hufilter.txt' | grep ^\|\|.*\^$ | grep -v \/ | sed 's/^||//g; s/\^$//g')
+DNS_NEW=$(sort -u './tmp/hufilter-general.txt' | grep ^\|\|.*\^$ | grep -v \/ | sed 's/^||//g; s/\^$//g')
 
 if [ "$DNS_CURRENT" != "$DNS_NEW" ]; then
-    # Generate DNS list for Pi-hole, AdGuard DNS, etc
-    DNS_TMP='./hufilter-dns.tmp'
-    cat './build/0000-header.txt' > $DNS_TMP
-    echo "$DNS_NEW" >> $DNS_TMP
-    sed -i $DNS_TMP -e "s/#VERSION#/$VERSION/g; s/#LAST_MODIFIED#/$LAST_MODIFIED/g"
-    grep -v '! Checksum: ' $DNS_TMP | grep -v '^$' > $DNS_TMP.chk
-    DNS_CHKSUM=`cat $DNS_TMP.chk | openssl dgst -md5 -binary | openssl enc -base64 | cut -d "=" -f 1`
-    rm -f ./$DNS_TMP.chk
-    sed -i "/! Checksum: /c\! Checksum: $DNS_CHKSUM" $DNS_TMP
-    mv $DNS_TMP hufilter-dns.txt
-
-    echo "DNS list builded"
+  # Generate DNS list for Pi-hole, AdGuard DNS, etc
+  TMP_DNS='./hufilter-dns.tmp'
+  cat './dev/headers/ublock.txt' > $TMP_DNS
+  echo "$DNS_NEW" >> $TMP_DNS
+  sed -i $TMP_DNS -e "s/#VERSION#/$VERSION/g; s/#LAST_MODIFIED#/$LAST_MODIFIED/g"
+  checksum_filter $TMP_DNS
+  mv $TMP_DNS hufilter-dns.txt
+  echo "DNS list builded"
 else
-    echo "DNS list is up to date, no need to rebuild"
+  echo "DNS list is up to date, no need to rebuild"
 fi
 
-# THE END :)
+# Remove tmp folder
+rm -rf ./tmp

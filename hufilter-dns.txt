@@ -1,26 +1,28 @@
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Checksum: cNbPiUiGzEYecCKeZUvZ3g
-! Version: 202005262019
+! Checksum: PzvjQVclZiZ2YhRoDhGIIw
+! Version: 202008191540
 ! Title: hufilter
-! Last modified: 26 May 2020 20:19 UTC
-! Expires: 16 hours (update frequency)
+! Last modified: 19 Aug 2020 15:40 UTC
+! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
 !
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-! Magyar Adblock Plus szurolista
-! 
-! Eszreveteleket a Github Issue Tracker-eben lehet bejelenteni.
-! Karbantarto: Hufilter kozremukodok ( hufilter@github )
+!---------------------------------------------------------------------------!
+!-------------- Description, Terms of use, Issue management ----------------!
+!---------------------------------------------------------------------------!
+! Hufilter - The Hungarian Adblock List
+! Author: Hufilter Team (https://github.com/hufilter)
 !
-! A szuresi iranyelvek, felhasznalasi feltetelek a fenti honlapon /
-! About filter policy and usage terms please see the homepage above
-!
-! A szuro hasznalata a feltetelek automatikus elfogadasat jelenti.
+! Please report any unblocked adverts or problems in the GitHub issue tracker.
+! About filter policy and usage terms please see the homepage above.
 ! By using the filter you automatically accept the terms of use.
 !
+! Kerjuk, jelentsd a nem blokkolt hirdeteseket vagy a hibakat a Github issue trackerben.
+! A szuresi iranyelveket, felhasznalasi felteteleket lasd a fenti honlapon.
+! A szuro hasznalataval automatikusan elfogadod a felhasznalasi felteteleket.
 !
-
+! GitHub issues: https://github.com/hufilter/hufilter/issues
+! GitHub pull requests: https://github.com/hufilter/hufilter/pulls
+!
 a.adnium.com
 ad.adverticum.net
 ad.depo.hu

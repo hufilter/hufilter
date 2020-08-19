@@ -1,0 +1,68 @@
+!---------------------------------------------------------------------------!
+!-------------- uBlock-specific rules --------------------------------------!
+!---------------------------------------------------------------------------!
+!
+!-------------- Scriptlets -------------------------------------------------!
+!
+! Divany, Totalcar, Totalbike adblock detection
+divany.hu,totalcar.hu,totalbike.hu##+js(acis, document.head, currentScript.remove)
+!
+! Indavideo adblock detection
+embed.indavideo.hu##+js(set, AdHandler.checkAdblock, noopFunc)
+!
+! Free space before article
+life.hu##+js(ra, class, section[class="life-section l-section-main article-section l-section-article"])
+!
+hosszupuskasub.com##+js(window.open-defuser.js)
+!
+sorozatwiki.hu##+js(ra.js, style, body)
+!
+magyarhang.org,hang.hu##^script:has-text(ai_run_)
+magyarhang.org,hang.hu##+js(acis, document.addEventListener, ai_run_)
+magyarhang.org,hang.hu##+js(acis, document.getElementById, ai_run_)
+!
+calculat.org##+js(nostif, adstest, 4000)
+!
+traffihunter.hu##+js(rc, darken, body)
+!
+szeretlekmagyarorszag.hu##^script:has-text(window.atob)
+!
+port.hu##^script:has-text(addEListener(DCL)
+port.hu##^script:has-text(ads.js)
+port.hu##^script:has-text(quantcast)
+!
+grundoajandek.hu##^script:has-text(contextmenu)
+!
+hungliaonline.com##^script:has-text(adblocker)
+!
+openspeedtest.com##^script:has-text(testadblock)
+!
+!-------------- CSS modifiers ----------------------------------------------!
+!
+citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)
+!
+startlap.hu##div.container.banner-container.wide:style(min-height: 0!important; height: auto!important;)
+!
+magyarhirlap.hu##header .container:style(padding: 10px 10px 0 10px !important;)
+!
+automotor.hu##div.layoutContent:style(margin-top: 0 !important;)
+automotor.hu###_cikk_tartalom_rb1:style(margin-top: 0 !important;)
+automotor.hu##div.postContent:style(margin-top: 0 !important;)
+!
+hosszupuskasub.com##*:style(cursor: auto !important;)
+!
+player.hu##.adult-overelay:style(display: none !important;)
+!
+gepigeny.hu##.main-container:style(margin-top: 100px !important;)
+!
+atv.hu##header:style(height: auto !important;)
+!
+traffihunter.hu##.ooono_promo:style(display: none !important;)
+!
+!-------------- Related ABP rules ------------------------------------------!
+! These regular ABP rules dont't work properly without specific rules.
+!
+traffihunter.hu##.ooono_promo
+!
+!-------------- Other ------------------------------------------------------!
+!
