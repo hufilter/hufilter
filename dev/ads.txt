@@ -103,7 +103,6 @@ hogyan.org##.widget.widget_text
 hogyankell.hu##[id^="advert"]
 hotdog.hu###tetszett
 hrportal.hu##[class*="banner"]
-hungliaonline.com##script:contains(adblocker)
 hunhir.hu##[class*="_ad"]
 hvo.hu##DIV[class*="ad_"]
 infoajka.hu##[class^="banner"]
@@ -1678,8 +1677,6 @@ eredmenyek.com##div#onetrust-banner-sdk
 !
 ite.hu##div[class="tl-state-root tve-leads-ribbon tve-trigger-hide tve-tl-anim tve-leads-track-ribbon-1 tl-anim-slide_top tve-leads-triggered"]
 !
-karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
-karpathir.com##script:contains(KillAdBlock)
 ||floweryoperation.com/v2/0/$domain=karpathir.com
 !
 topark.hu##.sgpb-theme-3-overlay.sgpb-popup-overlay-1402.sgpb-popup-overlay

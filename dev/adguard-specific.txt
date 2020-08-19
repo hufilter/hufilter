@@ -8,7 +8,7 @@
 !-------------- Scriptlets -------------------------------------------------!
 !
 ! Divany, Totalcar, Totalbike Adblock detection
-divany.hu,totalcar.hu,totalbike.hu#%#//scriptlet('abort-current-inline-script', 'document.head', 'currentScript.remove')
+divany.hu,totalcar.hu,totalbike.hu#%#//scriptlet('abort-on-property-write', 'document.head', 'currentScript.remove')
 !
 ! Indavideo adblock detection
 embed.indavideo.hu#%#//scriptlet('set-constant', 'AdHandler.checkAdblock', 'noopFunc')
@@ -40,6 +40,8 @@ hungliaonline.com$$script[tag-content="adblocker"]
 !
 openspeedtest.com$$script[tag-content="testadblock"]
 !
+karpathir.com$$script[tag-content="KillAdBlock"]
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu#$#._ce_measure_row  { margin-top: 1rem !important; }
@@ -66,6 +68,7 @@ traffihunter.hu#$#.ooono_promo { display: none !important; }
 ! These regular ABP rules dont't work properly without specific rules.
 !
 traffihunter.hu##.ooono_promo
+karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 !
 ! End of iOS limitations
 !#endif
