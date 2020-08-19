@@ -18,6 +18,3 @@
 ! GitHub issues: https://github.com/hufilter/hufilter/issues
 ! GitHub pull requests: https://github.com/hufilter/hufilter/pulls
 !
-!---------------------------------------------------------------------------!
-!-------------- General JS API ---------------------------------------------!
-!---------------------------------------------------------------------------!
