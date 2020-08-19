@@ -1,7 +1,7 @@
-! Checksum: 6xM4AeiR8rco1zuaoNO6Lg
-! Version: 202008191919
+! Checksum: /WRFUuATs/EcN28+F8WM+A
+! Version: 202008192101
 ! Title: hufilter
-! Last modified: 19 Aug 2020 19:19 UTC
+! Last modified: 19 Aug 2020 21:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -1698,8 +1698,6 @@ widescreen.hu##div.sgpb-popup-overlay-42657
 !
 eredmenyek.com##div#onetrust-banner-sdk
 !
-
-!
 ite.hu##div[class="tl-state-root tve-leads-ribbon tve-trigger-hide tve-tl-anim tve-leads-track-ribbon-1 tl-anim-slide_top tve-leads-triggered"]
 !
 ||floweryoperation.com/v2/0/$domain=karpathir.com
@@ -1723,6 +1721,7 @@ dehir.hu##.col-md-4 .blog-sidebar:nth-child(even)
 dehir.hu##.col-md-4 .sidebar.widgetDefault
 !
 forbes.hu##p + [class*="-bekezdes-utan-"]
+forbes.hu##div[id^="forbesad"]
 !
 azonnali.hu##div:-abp-has(>.fb-like)
 azonnali.hu##.bannpos
@@ -2304,6 +2303,8 @@ online-filmek.me##[class*="cc_banner"]
 !
 magyarnemzet.hu##div.gdprBoxContainer
 !
+forbes.hu###catapult-cookie-bar
+!
 !---------------------------------------------------------------------------!
 !-------------- Other rules ------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2329,7 +2330,7 @@ life.hu##+js(ra, class, section[class="life-section l-section-main article-secti
 !
 hosszupuskasub.com##+js(window.open-defuser.js)
 !
-sorozatwiki.hu##+js(ra.js, style, body)
+sorozatwiki.hu##+js(ra, style, body)
 !
 magyarhang.org,hang.hu##^script:has-text(ai_run_)
 magyarhang.org,hang.hu##+js(acis, document.addEventListener, ai_run_)
@@ -2351,6 +2352,8 @@ hungliaonline.com##^script:has-text(adblocker)
 !
 openspeedtest.com##^script:has-text(testadblock)
 !
+karpathir.com##^script:has-text(KillAdBlock)
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)
@@ -2365,18 +2368,16 @@ automotor.hu##div.postContent:style(margin-top: 0 !important;)
 !
 hosszupuskasub.com##*:style(cursor: auto !important;)
 !
-player.hu##.adult-overelay:style(display: none !important;)
-!
 gepigeny.hu##.main-container:style(margin-top: 100px !important;)
 !
 atv.hu##header:style(height: auto !important;)
 !
-traffihunter.hu##.ooono_promo:style(display: none !important;)
-!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
+player.hu##.adult-overelay
 traffihunter.hu##.ooono_promo
+karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 !
 !-------------- Other ------------------------------------------------------!
 !

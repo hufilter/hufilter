@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4v/HE6p5P2GRC2Q6glr5zQ
-! Version: 202008191919
+! Checksum: PfV/PZ1axixlkNUH6um26A
+! Version: 202008192101
 ! Title: hufilter
-! Last modified: 19 Aug 2020 19:19 UTC
+! Last modified: 19 Aug 2020 21:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -1699,8 +1699,6 @@ widescreen.hu##div.sgpb-popup-overlay-42657
 !
 eredmenyek.com##div#onetrust-banner-sdk
 !
-
-!
 ite.hu##div[class="tl-state-root tve-leads-ribbon tve-trigger-hide tve-tl-anim tve-leads-track-ribbon-1 tl-anim-slide_top tve-leads-triggered"]
 !
 ||floweryoperation.com/v2/0/$domain=karpathir.com
@@ -1724,6 +1722,7 @@ dehir.hu##.col-md-4 .blog-sidebar:nth-child(even)
 dehir.hu##.col-md-4 .sidebar.widgetDefault
 !
 forbes.hu##p + [class*="-bekezdes-utan-"]
+forbes.hu##div[id^="forbesad"]
 !
 azonnali.hu##div:-abp-has(>.fb-like)
 azonnali.hu##.bannpos
@@ -2304,6 +2303,8 @@ hupont.hu##[class*="cc_banner"]
 online-filmek.me##[class*="cc_banner"]
 !
 magyarnemzet.hu##div.gdprBoxContainer
+!
+forbes.hu###catapult-cookie-bar
 !
 !---------------------------------------------------------------------------!
 !-------------- Other rules ------------------------------------------------!
