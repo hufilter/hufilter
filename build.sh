@@ -48,8 +48,8 @@ echo "Adblock Plus list builded"
 # Generate AdGuard filter
 TMP_ADGUARD="./tmp/hufilter-adguard.txt"
 cat "./dev/headers/adguard.txt" >> "$TMP_ADGUARD";
-wget --output-document=./tmp/general_js_api.txt https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/general_js_api.txt
-cat "./tmp/general_js_api.txt" >> "$TMP_ADGUARD";
+#wget --output-document=./tmp/general_js_api.txt https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/general_js_api.txt
+#cat "./tmp/general_js_api.txt" >> "$TMP_ADGUARD";
 cat "$TMP_GENERAL" >> "$TMP_ADGUARD";
 cat "./dev/adguard-specific.txt" >> "$TMP_ADGUARD";
 mv $TMP_ADGUARD hufilter-adguard.txt
