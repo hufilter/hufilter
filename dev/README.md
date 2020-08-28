@@ -58,6 +58,7 @@ Itt összegyűjtöttük az említett hirdetésblokkolók szintaxisait segítség
 - AdGuard
   - https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
   - https://github.com/AdguardTeam/Scriptlets#scriptlets
+  - https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md#scriptlets
  - uBlock Origin
     - https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
     - https://github.com/gorhill/uBlock/wiki/Resources-Library  
@@ -66,17 +67,17 @@ Itt összegyűjtöttük az említett hirdetésblokkolók szintaxisait segítség
 - Amikor push érkezik a hufilter repojába, akkor a build folyamat automatikusan megtörténik a módosítások alapján!
 - A build kimenetei:
   - hufilter.txt
-     - Kifejezetten az uBlock Origin-hez készült változat
-     - Az uBlock alapból tartalmazza nyelvspecifikus szűrőként
-   - hufilter-adguard.txt
-     - Kifejezetten az AdGuard-hoz készült változat
-     - Az összes AdGuard termék alapból tartalmazza nyelvspecifikus szűrőként
-   - hufilter-abp.txt
-     - Kifejezetten az Adblock Plus-hoz készült változat
-     - Az Adblock Plus alapból tartalmazza nyelvspecifikus szűrőként
-   - hufilter-dns.txt
-     - Kifejezetten hálózati szintű blokkoláshoz készült változat (pl. AdGuard Home, Pi-hole, stb.)
-     - Az AdGuard Home alapból tartalmazza nyelvspecifikus szűrőként
+    - Kifejezetten az uBlock Origin-hez készült változat
+    - Az uBlock alapból tartalmazza nyelvspecifikus szűrőként
+  - hufilter-adguard.txt
+    - Kifejezetten az AdGuard-hoz készült változat
+    - Az összes AdGuard termék alapból tartalmazza nyelvspecifikus szűrőként
+  - hufilter-abp.txt
+    - Kifejezetten az Adblock Plus-hoz készült változat
+    - Az Adblock Plus alapból tartalmazza nyelvspecifikus szűrőként
+  - hufilter-dns.txt
+    - Kifejezetten hálózati szintű blokkoláshoz készült változat (pl. AdGuard Home, Pi-hole, stb.)
+    - Az AdGuard Home alapból tartalmazza nyelvspecifikus szűrőként
  
 ## VSCode segítség
 - A Visual Studio Code programot ajánljuk alapértelmezett szerkesztőnek.

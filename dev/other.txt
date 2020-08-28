@@ -2,7 +2,4 @@
 !-------------- Other rules ------------------------------------------------!
 !---------------------------------------------------------------------------!
 !
-!-------------- General anti adblock detection -----------------------------!
-!
-@@||meszotar.hu/scripts/advertising.js
-/js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
+

@@ -40,7 +40,8 @@ hungliaonline.com$$script[tag-content="adblocker"]
 !
 openspeedtest.com$$script[tag-content="testadblock"]
 !
-karpathir.com$$script[tag-content="KillAdBlock"]
+!karpathir.com$$script[tag-content="KillAdBlock"]
+karpathir.com#%#//scriptlet('abort-on-property-write', 'getComputedStyle')
 !
 !-------------- CSS modifiers ----------------------------------------------!
 !
@@ -72,3 +73,5 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 !
 !-------------- Other ------------------------------------------------------!
 !
+@@||meszotar.hu/scripts/advertising.js
+/js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info

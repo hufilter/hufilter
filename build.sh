@@ -12,23 +12,21 @@ checksum_filter() {
   sed -i "/! Checksum: /c\! Checksum: $CHKSUM" $1
 }
 
-# Collect general files
-TMP_GENERAL="./tmp/hufilter-general.txt"
-cat "./dev/ads.txt" >> "$TMP_GENERAL";
-cat "./dev/ad-servers.txt" >> "$TMP_GENERAL";
-cat "./dev/annoyances.txt" >> "$TMP_GENERAL";
-cat "./dev/other.txt" >> "$TMP_GENERAL";
-
 # uBlock template
 TMP_UBLOCK="./tmp/hufilter.txt"
 cat "./dev/headers/ublock.txt" >> "$TMP_UBLOCK";
-cat "$TMP_GENERAL" >> "$TMP_UBLOCK";
+cat "./dev/ads.txt" >> "$TMP_UBLOCK";
+cat "./dev/annoyances.txt" >> "$TMP_UBLOCK";
+cat "./dev/trackers.txt" >> "$TMP_UBLOCK";
+cat "./dev/other.txt" >> "$TMP_UBLOCK";
 cat "./dev/ublock-specific.txt" >> "$TMP_UBLOCK";
 
 # ABP template
+# https://adblockplus.org/en/filter-lists-requirements
 TMP_ABP="./tmp/hufilter-abp.txt"
 cat "./dev/headers/adblock-plus.txt" >> "$TMP_ABP";
-cat "$TMP_GENERAL" >> "$TMP_ABP";
+cat "./dev/ads.txt" >> "$TMP_ABP";
+cat "./dev/other.txt" >> "$TMP_ABP";
 
 # Set version and last modified attribute in uBlock / ABP
 sed -i $TMP_UBLOCK -e "s/#VERSION#/$VERSION/g; s/#LAST_MODIFIED#/$LAST_MODIFIED/g"
@@ -40,6 +38,7 @@ checksum_filter $TMP_ABP
 
 # Move out builded filters.
 mv $TMP_UBLOCK hufilter.txt
+cp hufilter.txt hufilter-ublock.txt
 echo "uBlock list builded"
 
 mv $TMP_ABP hufilter-abp.txt
@@ -50,14 +49,17 @@ TMP_ADGUARD="./tmp/hufilter-adguard.txt"
 cat "./dev/headers/adguard.txt" >> "$TMP_ADGUARD";
 #wget --output-document=./tmp/general_js_api.txt https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/general_js_api.txt
 #cat "./tmp/general_js_api.txt" >> "$TMP_ADGUARD";
-cat "$TMP_GENERAL" >> "$TMP_ADGUARD";
+cat "./dev/ads.txt" >> "$TMP_ADGUARD";
+cat "./dev/annoyances.txt" >> "$TMP_ADGUARD";
+cat "./dev/trackers.txt" >> "$TMP_ADGUARD";
+cat "./dev/other.txt" >> "$TMP_ADGUARD";
 cat "./dev/adguard-specific.txt" >> "$TMP_ADGUARD";
 mv $TMP_ADGUARD hufilter-adguard.txt
 echo "AdGuard list builded"
 
 # Update DNS list (if it is necessary)
 DNS_CURRENT=$(sort -u './hufilter-dns.txt' | grep -v '^!' | grep -v '^[[:space:]]*$')
-DNS_NEW=$(sort -u './tmp/hufilter-general.txt' | grep ^\|\|.*\^$ | grep -v \/ | sed 's/^||//g; s/\^$//g')
+DNS_NEW=$(sort -u './hufilter.txt' | grep ^\|\|.*\^$ | grep -v \/ | sed 's/^||//g; s/\^$//g')
 
 if [ "$DNS_CURRENT" != "$DNS_NEW" ]; then
   # Generate DNS list for Pi-hole, AdGuard DNS, etc

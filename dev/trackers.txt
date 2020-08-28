@@ -1,0 +1,16 @@
+!---------------------------------------------------------------------------!
+!-------------- Trackers ---------------------------------------------------!
+!---------------------------------------------------------------------------!
+!
+||a.rvttrack.com^$third-party
+||adtrackeraa.com^
+||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
+||myroitracking.com/newServing/
+||track.calithornia.com^
+||track.rtb-media.me^
+||track.trackbyme.info^
+||track306.info^$third-party
+||tracker.azet.sk^
+||tracking.binarypromos.com^
+||tracking.tchibo.hu^
+||trackingterrorism.org^$third-party
