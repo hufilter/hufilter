@@ -1,7 +1,7 @@
-! Checksum: p83RnN8YKCcrSdYyUom8+w
-! Version: 202008311100
+! Checksum: K14dweF95zMI6wBnCQcjeQ
+! Version: 202008312036
 ! Title: hufilter
-! Last modified: 31 Aug 2020 11:00 UTC
+! Last modified: 31 Aug 2020 20:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -72,8 +72,8 @@ rp5.ru#@#[id^="aswift_"]
 !glassdoor.com###PageBot
 !glassdoor.com###CovidInfoBanner
 !||glassdoor.com/app/static/js/dist/gd-user-hardsell-overlay*^
-||glassdoor.com/app/static/js/gd-ei-upsell*^
-!||glassdoor.com/app/static/js/gd-fj-ads-init*^
+!||glassdoor.com/app/static/js/gd-ei-upsell*^
+||glassdoor.com/app/static/js/gd-fj-ads-init*^
 !||glassdoor.com/app/static/js/gd-ei-employer-targeting*^
 !||glassdoor.com/app/static/js/dist/gd-covid19Banner*^
 !
