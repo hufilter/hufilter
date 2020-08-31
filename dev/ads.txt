@@ -52,10 +52,10 @@ rp5.ru#@#[id^="aswift_"]
 !||glassdoor.com/app/static/js/gd-ei-employer-targeting*^
 !||glassdoor.com/app/static/js/dist/gd-covid19Banner*^
 !
-/gemius.js^
-/gemius.min.js^
-/xgemius.js^
-/xgemius.min.js^
+!/gemius.js^
+!/gemius.min.js^
+!/xgemius.js^
+!/xgemius.min.js^
 !
 babaszoba.hu##[class*="advert"]
 bankmonitor.hu##.askUsSlide
@@ -1450,10 +1450,10 @@ online.budapestbank.hu##[id^="ext-gen"]
 online.budapestbank.hu##.ext-el-mask-banner
 !
 ! Gemius tracking
-||gemius.hu
-||gemius.pl
-*/traffic.js
-*/traffic.min.js
+!||gemius.hu
+!||gemius.pl
+!*/traffic.js
+!*/traffic.min.js
 !
 ###optimonk-iframe-container-campaign-12
 ##.optimonk-iframe-container
