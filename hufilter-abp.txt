@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9OmOgx/7M2lZYFn5HvNzVA
-! Version: 202008312036
+! Checksum: lYAf/SwHhH8bIrrxplzPiA
+! Version: 202010310027
 ! Title: hufilter
-! Last modified: 31 Aug 2020 20:36 UTC
+! Last modified: 31 Oct 2020 00:27 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -1719,6 +1719,7 @@ azonnali.hu##.bannpos
 ! issue #198
 vasarnap.hu###cikkreklam
 vasarnap.hu##.reklamnagy
+vasarnap.hu##.banner-commercial
 !
 kekfeny.com##.bpkad
 !
@@ -1733,6 +1734,8 @@ nlc.hu##.m-breakingLayer:-abp-has(a[href*="nlc.hu/balkonfanatik"])
 nlc.hu##.m-fbPopup
 !
 napjainkportal.hu##.code-block:-abp-has(> div + ins.adsbygoogle + script)
+!
+kekvillogo.hu##div.bpkad
 !
 
 !---------------------------------------------------------------------------!
