@@ -335,3 +335,5 @@ magyarnemzet.hu##div.gdprBoxContainer
 !
 forbes.hu###catapult-cookie-bar
 !
+infostart.hu##div[data-qa="oil-Layer"]
+!
