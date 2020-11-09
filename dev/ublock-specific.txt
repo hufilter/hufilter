@@ -58,6 +58,11 @@ gepigeny.hu##.main-container:style(margin-top: 100px !important;)
 !
 atv.hu##header:style(height: auto !important;)
 !
+index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu##body:style(overflow: auto !important)
+!
+port.hu##body:style(overflow: auto !important)
+!
+hwsw.hu##body[style*="padding-top"]:style(padding-top: 0px !important; background-color: #777 !important;)
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
