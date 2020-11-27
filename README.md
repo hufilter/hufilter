@@ -1,4 +1,4 @@
-![hufilter](https://i.ibb.co/cgjHwhv/hufilter.png)
+![hufilter](https://i.ibb.co/QnscqN5/hufilter.png)
 
 # hufilter
 
@@ -11,6 +11,7 @@ Jelenleg az alábbi hirdetésblokkolókat támogatjuk:
 * ![](https://i.ibb.co/VWkXHfW/abp.png) [Adblock Plus](https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter.txt)
 * ![](https://i.ibb.co/MskKKGZ/ublock.png) [uBlock Origin](https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-ublock.txt)
 * ![](https://i.ibb.co/rch274D/adguard.png) [AdGuard](https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-adguard.txt)
+* ![](https://i.ibb.co/P57DX8R/ad-ultimate.png) [AdBlocker Ultimate](https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter.txt)
 
 DNS szűrés:
 * ![](https://i.ibb.co/qmmnw2Q/pihole.png) [Pi-hole](https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-dns.txt)
