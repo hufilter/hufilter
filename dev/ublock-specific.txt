@@ -40,6 +40,8 @@ openspeedtest.com##^script:has-text(testadblock)
 !karpathir.com##^script:has-text(KillAdBlock)
 karpathir.com##+js(aopw, getComputedStyle)
 !
+lifestory.hu##+js(ra, oncontextmenu)
+!
 totalcar.hu##body > script:has-text(window.onload = window.onfocus)
 totalbike.hu##body > script:has-text(window.onload = window.onfocus)
 divany.hu##body > script:has-text(window.onload = window.onfocus)

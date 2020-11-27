@@ -43,6 +43,8 @@ openspeedtest.com$$script[tag-content="testadblock"]
 !karpathir.com$$script[tag-content="KillAdBlock"]
 karpathir.com#%#//scriptlet('abort-on-property-write', 'getComputedStyle')
 !
+lifestory.hu#%#//scriptlet('remove-attr', 'oncontextmenu')
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu#$#._ce_measure_row  { margin-top: 1rem !important; }
