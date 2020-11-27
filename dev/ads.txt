@@ -58,7 +58,6 @@ bonuszbrigad.hu###popup_landing_container
 bonuszbrigad.hu###newASZFLayer
 bookline.hu##[class*="advert"]
 borsa.hu##.blockright
-budaorsiinfo.hu##.ad
 c-press.hu###bef_mainbody_mod_2
 csongradihirek.hu##[class*="banner"]
 dehir.hu##[class*="advert"]
@@ -228,7 +227,6 @@ index.hu##DIV[id*="banner"]
 index.hu###interstitial
 index.hu##DIV[class*="guestbox"]
 index.hu###ads
-index.hu###cemp_doboz
 index.hu##[class*="Advert"]
 index.hu###closeWindow
 index.hu##[class*="ad-container"]
@@ -268,7 +266,6 @@ velvet.hu##[id*="banner"]
 velvet.hu##[class*="hirdetes"]
 velvet.hu##[id*="adocean"]
 velvet.hu###interstitial
-velvet.hu###cemp_doboz
 velvet.hu##.adszoveg
 velvet.hu##[class*="ad_container"]
 velvet.hu##[class*="guestbox"]
@@ -352,7 +349,6 @@ nlcafe.hu##[class*="adlist"]
 nlcafe.hu##.ctsGadx
 nlcafe.hu##[class*="adsense"]
 nlcafe.hu##[class*="banner"]
-nlcafe.hu##.hirdetes
 nlcafe.hu##.pr
 nlcafe.hu##[id*="hirdetes"]
 ||nlcafe.hu/*hirdetes
@@ -400,7 +396,6 @@ origo.hu##[class*="adbox"]
 origo.hu##[class^="ad-"]
 origo.hu##.pr-item
 origo.hu###inter
-origo.hu##.ad
 origo.hu##[id*="banner"]
 origo.hu##.lead-alatti
 origo.hu##[id^="szponz-"]
@@ -465,7 +460,6 @@ blog.hu##DIV[id*="wAdBox"]
 blog.hu##[id*="Banner"]
 blog.hu##[class*="adbox"]
 blog.hu##.share
-blog.hu##.ad
 blog.hu##[class*="follow_promo_figure"]
 blog.hu##[class="box widget_html ad"]
 blog.hu###taft
@@ -659,7 +653,6 @@ life.hu##[class*="Advert"]
 life.hu###cikkalatti
 life.hu##.pr-item
 life.hu###top
-life.hu##.ad
 life.hu###pr-box
 life.hu##[id^="szponz-"]
 life.hu###ac
@@ -714,7 +707,6 @@ revizoronline.hu##[id*="banner"]
 kalohirek.hu##[class*="banner"]
 kalohirek.hu##[id*="banner"]
 !
-weborvos.hu##.ad
 weborvos.hu##[class*="banner"]
 weborvos.hu##[class*="_ad"]
 !
@@ -841,7 +833,6 @@ mindmegette.hu###fadeandscale_background
 !
 atv.hu##DIV[class*="banner"]
 atv.hu##DIV[class="block bk_commonitems-swfbox"]
-atv.hu#@#[class*="goAdverticum"]
 ||atv.hu/*reklam
 !
 haon.hu##DIV[id*="AdContainer"]
@@ -879,11 +870,9 @@ eletmod.hu##[id*="etarget"]
 eletmod.hu##[id*="banner"]
 eletmod.hu##.rckaexclude
 !
-bama.hu##.hirdetes
 bama.hu##[class^="ad "]
 !
 beol.hu##[class*="adcikk"]
-beol.hu##.hirdetes
 !
 vehir.hu##[id*="reklam_"]
 vehir.hu##[class*="szovegkozi"]
@@ -907,7 +896,6 @@ mno.hu##[class*="ad_"]
 mno.hu##[class*="banner"]
 !
 videa.hu###sitemessage
-videa.hu##.ad
 !
 autonavigator.hu##[class*="Advert"]
 autonavigator.hu##[class*="szamlatabla"]
@@ -924,7 +912,6 @@ egeszsegkalauz.hu#?#.row:-abp-has(> #onet-ad-top)
 egeszsegkalauz.hu#?#.wrapRectangle:-abp-has(> div > span:-abp-contains(Hirdetés))
 !
 egeszsegtukor.hu##[id^="ad_"]
-egeszsegtukor.hu##.ad
 !
 kulturpart.hu##[name*="banner"]
 kulturpart.hu##.hird
@@ -995,7 +982,6 @@ bien.hu#?#.hidden-xs:-abp-has(> .lablec_alatt)
 bien.hu##blockquote
 !
 moly.hu##[class*="banner"]
-moly.hu##.ad
 !
 kiskegyed.hu##[class*="ads"]
 kiskegyed.hu##[id*="banner"]
@@ -1054,13 +1040,11 @@ hosszupuskasub.com##.fu-container
 hosszupuskasub.com##a[href*="adf.ly"]
 ||hosszupuskasub.com/css/*skin.jpg
 !
-teol.hu##.hirdetes
 teol.hu##[class^="ad "]
 !
 sikerado.hu##.Hirdetes
 ||sikerado.hu/banner/*
 !
-zeneszoveg.hu##.ad
 ||zeneszoveg.hu/gfx/skin-*/*.*
 ||zeneszoveg.hu/*.swf
 !
@@ -1114,7 +1098,6 @@ hir.ma##[class^="ad"]
 !
 444.hu##[class*="banner"]
 444.hu##DIV[class="b-image-highlight b-image-highlight-article"]
-444.hu##.ad
 444.hu##[id*="-banner-"]
 444.hu##.text-center
 444.hu##.d36-top
@@ -1151,7 +1134,6 @@ joy.hu##[class^="adIn"]
 joy.hu##[class^="adPlace"]
 !
 wellnesscafe.hu##[class*="banner"]
-wellnesscafe.hu##.ad
 wellnesscafe.hu##[class="wc_content wc_contentwide"]
 wellnesscafe.hu##[id*="AdZone"]
 wellnesscafe.hu##[id*="Banner"]
@@ -1227,7 +1209,6 @@ indavideo.hu##.topAdv
 indavideo.hu##[class*="billboard"]
 !
 ilovebalaton.hu##[class*=" ad"]
-ilovebalaton.hu##.ad
 !
 hupont.hu###szupertorony
 hupont.hu##[id*="-reklam"]
@@ -1668,7 +1649,6 @@ online-filmek.me##.hover_bkgr_fricc
 najlepsie-clanky.com#?#.code-block:-abp-has(script + ins)
 !
 offline.hu##.ads
-offline.hu##.ad
 !
 nlc.hu#?#.m-breakingLayer:-abp-has(a[href*="nlc.hu/balkonfanatik"])
 nlc.hu##.m-fbPopup
