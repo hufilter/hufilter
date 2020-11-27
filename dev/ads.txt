@@ -811,7 +811,7 @@ mindmegette.hu##.hir-fekvo
 mindmegette.hu##DIV[class="billboard fr"]
 mindmegette.hu##DIV[class="fej-elso-sor cf"]
 mindmegette.hu###ad-image-big
-mindmegette.hu###[class*="ads_box"]
+mindmegette.hu##[class*="ads_box"]
 mindmegette.hu###fadeandscale
 mindmegette.hu###fadeandscale_wrapper
 mindmegette.hu###fadeandscale_background
