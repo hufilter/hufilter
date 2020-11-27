@@ -1,7 +1,7 @@
-! Checksum: IKV3h4f0D54aJJCR2P4btw
-! Version: 202011271336
+! Checksum: DYW/Rq37ewQvUgTB/Gnzcw
+! Version: 202011271852
 ! Title: hufilter
-! Last modified: 27 Nov 2020 13:36 UTC
+! Last modified: 27 Nov 2020 18:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -1648,7 +1648,13 @@ napjainkportal.hu#?#.code-block:-abp-has(> div + ins.adsbygoogle + script)
 !
 kekvillogo.hu##div.bpkad
 !
-
+alapjarat.hu##div#alapjarat_cikk_fekvo_1
+!
+harmonikum.co#?#div:-abp-has(> .ai-attributes + script + ins)
+!
+lifestory.hu#?#div.lol:-abp-has(> a[onclick="getValue()"])
+lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2272,6 +2278,8 @@ openspeedtest.com##^script:has-text(testadblock)
 !karpathir.com##^script:has-text(KillAdBlock)
 karpathir.com##+js(aopw, getComputedStyle)
 !
+lifestory.hu##+js(ra, oncontextmenu)
+!
 totalcar.hu##body > script:has-text(window.onload = window.onfocus)
 totalbike.hu##body > script:has-text(window.onload = window.onfocus)
 divany.hu##body > script:has-text(window.onload = window.onfocus)
@@ -2299,6 +2307,11 @@ index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu##body:style(overflow: auto
 port.hu##body:style(overflow: auto !important)
 !
 hwsw.hu##body[style*="padding-top"]:style(padding-top: 0px !important; background-color: #777 !important;)
+!
+! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d
+! Author: AdamWr (https://github.com/AdamWr)
+videa.hu###wrapfabtest:style(height: 1px!important;)
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
@@ -2308,6 +2321,10 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 totalcar.hu##body > section:last-of-type
 totalbike.hu##body > section:last-of-type
 divany.hu##body > section:last-of-type
+!
+! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d
+! Author: AdamWr (https://github.com/AdamWr)
+videa.hu#@#.adBanner
 !
 !-------------- Other ------------------------------------------------------!
 !
