@@ -69,12 +69,20 @@ port.hu#$#body { overflow: auto !important; }
 !
 hwsw.hu#$#body[style*="padding-top"] { padding-top: 0px !important; background-color: #777 !important; }
 !
+! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d
+! Author: AdamWr (https://github.com/AdamWr)
+videa.hu#$##wrapfabtest { height: 1px!important; }
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
 player.hu##.adult-overelay
 traffihunter.hu##.ooono_promo
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
+!
+! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d
+! Author: AdamWr (https://github.com/AdamWr)
+videa.hu#@#.adBanner
 !
 ! End of iOS limitations
 !#endif
