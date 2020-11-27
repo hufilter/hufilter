@@ -1,7 +1,7 @@
-! Checksum: PzvjQVclZiZ2YhRoDhGIIw
-! Version: 202008191540
+! Checksum: bX5L8yZgHP3w2kmfh28geQ
+! Version: 202011271335
 ! Title: hufilter
-! Last modified: 19 Aug 2020 15:40 UTC
+! Last modified: 27 Nov 2020 13:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -24,7 +24,6 @@
 ! GitHub pull requests: https://github.com/hufilter/hufilter/pulls
 !
 a.adnium.com
-ad.adverticum.net
 ad.depo.hu
 ad.doubleclick.net
 ad*.gyaloglo.hu
