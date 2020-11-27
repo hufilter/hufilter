@@ -36,7 +36,6 @@ rp5.ru#@#[id^="aswift_"]
 ##div[data-campaign-name^="ads"]
 ##.hirdetes
 ##.hirdetes-linkek
-##div[data-campaign-name^="ads"]
 ###etarget
 ##.ad__main
 !##.newsletter
@@ -331,12 +330,9 @@ hvg.hu##.block-ms-box2
 hvg.hu##.articlebox.clear.sidebar-ajanlat
 hvg.hu##.adsense-placeholder.jobbhasab.rubicon-fix
 hvg.hu##.adtype-l-ribbon
-hvg.hu##.article-jobline-sidebar-doboz
 hvg.hu##.article-otherelements-container content
 hvg.hu##.selectWidget
-hvg.hu##.article-jobline-sidebar-doboz
 hvg.hu##.jobline-palyakezdo-feed
-hvg.hu###webpushSelctorFormId
 hvg.hu##.support-stripe
 !
 vg.hu##DIV[class*="-ad"]
@@ -1005,7 +1001,6 @@ bien.hu##[class*="hirdetes"]
 bien.hu##[id*="banner"]
 bien.hu###fejlec_banner_hatter
 bien.hu##.fixed.tapeta.hidden-xs > a[href="/redirect/hatter/220"]
-bien.hu###fejlec_banner_hatter
 bien.hu##.tapeta.fixed
 bien.hu##.hidden-xs:-abp-has(> .weboldal_felett)
 bien.hu##.hidden-xs:-abp-has(> .lablec_alatt)
@@ -1501,8 +1496,6 @@ autopro.hu###adds
 autopro.hu##.ads
 ||autopro.hu/uploads/banners/*
 !
-autoszektor.hu##.view-banner-blokkok
-autoszektor.hu###article-2
 autoszektor.hu##.view-banner-blokkok
 autoszektor.hu###article-2
 autoszektor.hu##.region-content-1-1 > div:nth-child(-n+3)
