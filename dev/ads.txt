@@ -18,7 +18,6 @@
 ##IFRAME[id^="ETARGET-"]
 ##[class*="GoogleAds"]
 ##[class*="overlayBg"]
-##.google_ad
 !##[href*="addtoany.com"]
 ##[href*="kuponmania.hu"]
 ##[id*="GoogleAds"]
@@ -253,7 +252,6 @@ index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu##.adbd-layer
 index.hu,velvet.hu##.flash-fullscreen-wrapper
 index.hu##._iph_brk
 index.hu###ad_null_position
-index.hu##.ad_container
 index.hu##.cikk-vegi-ajanlo-reklamok
 index.hu##.cikk-vegi-ajanlo-reklamok-container
 index.hu###also_bannerek
@@ -636,7 +634,6 @@ humormagazin.com##.content-list.content-body > .recommendation-holder
 humormagazin.com##.left-column.col-md-8.col-sm-12 > .recommendation-holder
 !
 gyaloglo.hu##DIV[class*="Advert"]
-gyaloglo.hu###adSet
 gyaloglo.hu###banner
 ||ad*.gyaloglo.hu^
 ||gyaloglo.hu/reklam/*
@@ -899,7 +896,6 @@ vehir.hu##[id*="reklam_"]
 vehir.hu##[class*="szovegkozi"]
 vehir.hu##[class^="ad_"]
 vehir.hu##[id^="ad_"]
-vehir.hu##.adBox
 !
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
@@ -988,7 +984,6 @@ heol.hu##[class*="hirdetes"]
 !
 sielok.hu##[id*="AdWrap"]
 sielok.hu##[class*="AdWrap"]
-sielok.hu##.adsep
 ||sielok.hu/kampanybanner/*
 !
 lifemagazin.hu##[class*="banner"]
@@ -1219,7 +1214,6 @@ penzcentrum.hu##.frame-center
 ||p3k.hu/*szponz*.*
 !
 magyarhirlap.hu##[class*="simpleads"]
-magyarhirlap.hu##.adslist
 !
 magyarnemzet.hu###block-block-12
 magyarnemzet.hu###block-block-19
@@ -1265,8 +1259,6 @@ hg.hu##[id*="banner"]
 hg.hu##[id*="interstitial"]
 !
 gamekapocs.hu###background_ad_top
-gamekapocs.hu###background_ad_left
-gamekapocs.hu###background_ad_right
 !
 est.hu##[class*="_adv "]
 est.hu##[class*="banner"]
@@ -1527,7 +1519,6 @@ muhelynet.hu###header
 !
 magyarhang.org,hang.hu##[id^="um-"]:-abp-has(.fb-page.fb_iframe_widget)
 magyarhang.org,hang.hu##.mc-modal:-abp-has(iframe)
-magyarhang.org,hang.hu###banner-advert-container
 !
 telekom.hu##.ads
 !
