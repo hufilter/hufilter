@@ -40,6 +40,10 @@ openspeedtest.com##^script:has-text(testadblock)
 !karpathir.com##^script:has-text(KillAdBlock)
 karpathir.com##+js(aopw, getComputedStyle)
 !
+totalcar.hu##body > script:has-text(window.onload = window.onfocus)
+totalbike.hu##body > script:has-text(window.onload = window.onfocus)
+divany.hu##body > script:has-text(window.onload = window.onfocus)
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)
@@ -69,8 +73,14 @@ hwsw.hu##body[style*="padding-top"]:style(padding-top: 0px !important; backgroun
 player.hu##.adult-overelay
 traffihunter.hu##.ooono_promo
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
+totalcar.hu##body > section:last-of-type
+totalbike.hu##body > section:last-of-type
+divany.hu##body > section:last-of-type
 !
 !-------------- Other ------------------------------------------------------!
 !
 @@||meszotar.hu/scripts/advertising.js
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
+||freewaresoftwarenews.blogspot.$first-party,inline-script
+ncore.cc##^#x-pop
+ncore.cc##^.container-in > script:last-of-type
