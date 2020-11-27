@@ -12,37 +12,31 @@ checksum_filter() {
   sed -i "/! Checksum: /c\! Checksum: $CHKSUM" $1
 }
 
+# Adblock Plus template
+# https://adblockplus.org/en/filter-lists-requirements
+TMP_ABP="./tmp/hufilter.txt"
+cat "./dev/headers/adblock-plus.txt" >> "$TMP_ABP";
+cat "./dev/ads.txt" >> "$TMP_ABP";
+cat "./dev/other.txt" >> "$TMP_ABP";
+echo "Adblock Plus list builded"
+
 # uBlock template
-TMP_UBLOCK="./tmp/hufilter.txt"
+TMP_UBLOCK="./tmp/hufilter-ublock.txt"
 cat "./dev/headers/ublock.txt" >> "$TMP_UBLOCK";
 cat "./dev/ads.txt" >> "$TMP_UBLOCK";
 cat "./dev/annoyances.txt" >> "$TMP_UBLOCK";
 cat "./dev/trackers.txt" >> "$TMP_UBLOCK";
 cat "./dev/other.txt" >> "$TMP_UBLOCK";
 cat "./dev/ublock-specific.txt" >> "$TMP_UBLOCK";
-
-# ABP template
-# https://adblockplus.org/en/filter-lists-requirements
-TMP_ABP="./tmp/hufilter-abp.txt"
-cat "./dev/headers/adblock-plus.txt" >> "$TMP_ABP";
-cat "./dev/ads.txt" >> "$TMP_ABP";
-cat "./dev/other.txt" >> "$TMP_ABP";
+echo "uBlock list builded"
 
 # Set version and last modified attribute in uBlock / ABP
 sed -i $TMP_UBLOCK -e "s/#VERSION#/$VERSION/g; s/#LAST_MODIFIED#/$LAST_MODIFIED/g"
 sed -i $TMP_ABP -e "s/#VERSION#/$VERSION/g; s/#LAST_MODIFIED#/$LAST_MODIFIED/g"
 
 # Checksum uBlock / ABP filters
-checksum_filter $TMP_UBLOCK
 checksum_filter $TMP_ABP
-
-# Move out builded filters.
-mv $TMP_UBLOCK hufilter.txt
-cp hufilter.txt hufilter-ublock.txt
-echo "uBlock list builded"
-
-mv $TMP_ABP hufilter-abp.txt
-echo "Adblock Plus list builded"
+checksum_filter $TMP_UBLOCK
 
 # Generate AdGuard filter
 TMP_ADGUARD="./tmp/hufilter-adguard.txt"
@@ -56,6 +50,11 @@ cat "./dev/other.txt" >> "$TMP_ADGUARD";
 cat "./dev/adguard-specific.txt" >> "$TMP_ADGUARD";
 mv $TMP_ADGUARD hufilter-adguard.txt
 echo "AdGuard list builded"
+
+# Move out builded filters.
+mv $TMP_ABP hufilter.txt
+mv $TMP_UBLOCK hufilter-ublock.txt
+mv $TMP_ADGUARD hufilter-adguard.txt
 
 # Update DNS list (if it is necessary)
 DNS_CURRENT=$(sort -u './hufilter-dns.txt' | grep -v '^!' | grep -v '^[[:space:]]*$')
