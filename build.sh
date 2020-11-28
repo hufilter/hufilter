@@ -53,6 +53,7 @@ echo "AdGuard list builded"
 
 # Move out builded filters.
 mv $TMP_ABP hufilter.txt
+mv $TMP_ABP hufilter-abp.txt
 mv $TMP_UBLOCK hufilter-ublock.txt
 mv $TMP_ADGUARD hufilter-adguard.txt
 
