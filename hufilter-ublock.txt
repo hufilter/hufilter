@@ -1,7 +1,7 @@
-! Checksum: DYW/Rq37ewQvUgTB/Gnzcw
-! Version: 202011271852
+! Checksum: IqsH3yzIP13l6GceXTgHiQ
+! Version: 202011281252
 ! Title: hufilter
-! Last modified: 27 Nov 2020 18:52 UTC
+! Last modified: 28 Nov 2020 12:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/

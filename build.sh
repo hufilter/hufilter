@@ -48,14 +48,17 @@ cat "./dev/annoyances.txt" >> "$TMP_ADGUARD";
 cat "./dev/trackers.txt" >> "$TMP_ADGUARD";
 cat "./dev/other.txt" >> "$TMP_ADGUARD";
 cat "./dev/adguard-specific.txt" >> "$TMP_ADGUARD";
-mv $TMP_ADGUARD hufilter-adguard.txt
 echo "AdGuard list builded"
 
 # Move out builded filters.
-mv $TMP_ABP hufilter.txt
-mv $TMP_ABP hufilter-abp.txt
-mv $TMP_UBLOCK hufilter-ublock.txt
-mv $TMP_ADGUARD hufilter-adguard.txt
+rm -f hufilter.txt
+cp $TMP_ABP hufilter.txt
+rm -f hufilter-abp.txt
+cp $TMP_ABP hufilter-abp.txt
+rm -f hufilter-ublock.txt
+cp $TMP_UBLOCK hufilter-ublock.txt
+rm -f hufilter-adguard.txt
+cp $TMP_ADGUARD hufilter-adguard.txt
 
 # Update DNS list (if it is necessary)
 DNS_CURRENT=$(sort -u './hufilter-dns.txt' | grep -v '^!' | grep -v '^[[:space:]]*$')
