@@ -1,7 +1,7 @@
-! Checksum: Zhzt0KR0hlcFpjnICsjKCA
-! Version: 202011271852
+! Checksum: aTh6lld1GgEEqUsWfsNITg
+! Version: 202012032228
 ! Title: hufilter
-! Last modified: 27 Nov 2020 18:52 UTC
+! Last modified: 03 Dec 2020 22:28 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -38,7 +38,6 @@ ads.geeks.hu
 ads.nepszava.com
 ad.supportal.hu
 ad.szexneked.hu
-adv-adserver.com
 adverbs.napilapcsoport.hu
 adversalservers.com
 advertiserurl.com

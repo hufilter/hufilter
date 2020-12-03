@@ -1,7 +1,7 @@
-! Checksum: IqsH3yzIP13l6GceXTgHiQ
-! Version: 202011281252
+! Checksum: ti++wZhy9zskO3g7/x89jA
+! Version: 202012032228
 ! Title: hufilter
-! Last modified: 28 Nov 2020 12:52 UTC
+! Last modified: 03 Dec 2020 22:28 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -375,7 +375,6 @@ nlcafe.hu##[id*="hirdetes"]
 sg.hu##IMG[src="images/hirdetes.gif"]
 sg.hu##.std0
 sg.hu##[class*="advert"]
-||sg.hu/adserver/adimage.php
 ||sg.hu/images/hirdetes.gif$image
 ||sg.hu/sg.wgt
 !
@@ -397,7 +396,6 @@ origo.hu###szoveges
 origo.hu##DIV[class*="Advert"]
 origo.hu##IFRAME[id*="bookline"]
 origo.hu##[id^="edigital_"]
-origo.hu###top-ad
 origo.hu##[id*="hird-"]
 origo.hu##[id*="-hird"]
 origo.hu###adZone
@@ -930,8 +928,6 @@ noinetcafe.hu##[class*="banner"]
 partyponty.hu##[id*="banner"]
 partyponty.hu##[class*="banner"]
 !
-drinfo.hu##.reklam
-!
 elelmiszer.hu##div[class*="contentBanner"]
 elelmiszer.hu##div[style="text-align: center; margin-bottom:10px; position: relative;"]
 !
@@ -953,7 +949,6 @@ vezess.hu###beta-message-invite
 !
 eduline.hu##[id*="_ad"]
 eduline.hu##[id*="ad_"]
-eduline.hu##.adtxt
 eduline.hu##[class*="ads"]
 eduline.hu##[class*="ad_"]
 eduline.hu##[class*="Advert"]
@@ -1169,7 +1164,6 @@ szoljon.hu##[class*="google-cikk"]
 szoljon.hu##[class*="hirdetes"]
 !
 nyest.hu##[class*="banner"]
-||nyest.hu/media/ad/*
 !
 szervuszausztria.hu##[class^="ads"]
 szervuszausztria.hu##[id*="etarget"]
@@ -1522,8 +1516,6 @@ arukereso.hu##.brandbox
 !
 astronet.hu##[class*="ads-"]
 !
-autobazar.eu##.button-ads
-!
 babanet.hu##[class*="hirdetes"]
 !
 bebiztositva.hu##.widget_media_image
@@ -1625,7 +1617,6 @@ dehir.hu##.col-md-4 .sidebar.widgetDefault
 forbes.hu##p + [class*="-bekezdes-utan-"]
 forbes.hu##div[id^="forbesad"]
 !
-azonnali.hu##div:-abp-has(>.fb-like)
 azonnali.hu##.bannpos
 !
 ! issue #198
@@ -1670,7 +1661,6 @@ lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
 ||keymedia.hu/keymediajs.cgi
 ||media.netpositive.hu
 ||playertise.com^$third-party
-||salsa.hu/adserver/
 ||szegedma.hu/*banners/*.*
 ||szepsegbroker.hu/banner/
 ||talalka.hu/hirdetes/
@@ -1686,7 +1676,6 @@ lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
 ||ado.hu/banners/*
 ||amiotthonunk.hu/images/banners/
 ||bitport.hu/images/szponzoracio/
-||bs.idg.hu/phpad/adimage.php?*
 ||est.hu/design/img/szponzoracio/
 ||ezoterikus.hu/*banner*/*
 ||felnigumi.hu/kepek/*.swf
@@ -1709,14 +1698,12 @@ lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
 ||okmanyiroda.hu/banner.html
 ||pcpult.hu/*/banner/
 ||pcworld.hu/bannerek/
-||*/advertisement.js
 ||*/eu-banned-popup/*
 ||*/empty.json
 ||*.hit.gemius.pl^
 ||9klikk.com^$third-party
 ||a.adnium.com^
 ||abmr.net^$third-party
-||ad*.mediaweb.hu/adimage.php?*
 ||ad*.mellesleg.hu^
 ||ad.depo.hu^
 ||ad.gyermekevek.hu^
@@ -1732,12 +1719,9 @@ lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
 ||adfox.ru^$third-party
 ||adk2x.com^
 ||ads.geeks.hu^
-||ads.linkedin.com^$third-party
 ||ads.sg.hu^$third-party
 ||ads.ventivmedia.com^$third-party
-||ads.waxum.hu/adimage.php
 ||adsfac.eu/*.asp
-||adv-adserver.com^
 ||adv.forpsi.hu^
 ||adv.hu^
 ||advantage.as^$third-party
@@ -1745,7 +1729,6 @@ lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
 ||adversalservers.com^
 ||adverticum.*
 ||advertiserurl.com^
-||advertiserurl.com^$popup
 ||advertshot.ru^$third-party
 ||affiliate.hu$subdocument
 ||affiliate.hu^$third-party
@@ -1758,14 +1741,12 @@ lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
 ||bannerserver.hu$subdocument
 ||bannerserver.hu^
 ||bedia.hu/banners/
-||best-top.hu/banner.php*
 ||betfair.com^$third-party
 ||bongacash.com^$third-party
 ||boxzsak.kirowski.com^
 ||brostraffic.com^
 ||calivary.com^$third-party
 ||choice.microsoft.com^
-||clickadu.com^$third-party
 ||clickspromos.com^$third-party
 ||clicksure.com^$third-party
 ||content.yieldmanager.edgesuite.net/*.swf
@@ -1778,7 +1759,6 @@ lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
 ||et.twyn.com^
 ||etargetnet.*
 ||feeds.videosz.com^$third-party
-||flashkit.com/RealMedia/ads/
 ||fourtwentytradingcompany.net^
 ||fruitflan.com
 ||gstatic.com/ads/
@@ -1842,6 +1822,7 @@ lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
 najlepsie-clanky.com##[class*="pea_cook"]
 !
 azonnali.hu##[aria-label="cookieconsent"]
+azonnali.hu#?#div:-abp-has(>.fb-like)
 !
 travelo.hu##div.qc-cmp-ui-container
 !
