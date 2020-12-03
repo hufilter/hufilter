@@ -1600,7 +1600,6 @@ dehir.hu##.col-md-4 .sidebar.widgetDefault
 forbes.hu##p + [class*="-bekezdes-utan-"]
 forbes.hu##div[id^="forbesad"]
 !
-azonnali.hu##div:-abp-has(>.fb-like)
 azonnali.hu##.bannpos
 !
 ! issue #198

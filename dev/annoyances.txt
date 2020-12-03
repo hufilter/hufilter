@@ -5,6 +5,7 @@
 najlepsie-clanky.com##[class*="pea_cook"]
 !
 azonnali.hu##[aria-label="cookieconsent"]
+azonnali.hu##div:-abp-has(>.fb-like)
 !
 travelo.hu##div.qc-cmp-ui-container
 !
