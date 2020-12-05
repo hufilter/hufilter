@@ -1,7 +1,7 @@
-! Checksum: ALGINrQMnZi4rcV/UojwNA
-! Version: 202012051648
+! Checksum: IBLw0Nm1Qo+9S0k9MrVrXA
+! Version: 202012051705
 ! Title: hufilter
-! Last modified: 05 Dec 2020 16:48 UTC
+! Last modified: 05 Dec 2020 17:05 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -2151,6 +2151,10 @@ forbes.hu###catapult-cookie-bar
 !
 infostart.hu##div[data-qa="oil-Layer"]
 !
+blikk.hu###pe_confirm
+blikk.hu###qc-cmp2-container
+blikk.hu###qc-cmp2-ui
+!
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2260,6 +2264,8 @@ lifestory.hu##+js(ra, oncontextmenu)
 totalcar.hu##body > script:has-text(window.onload = window.onfocus)
 totalbike.hu##body > script:has-text(window.onload = window.onfocus)
 divany.hu##body > script:has-text(window.onload = window.onfocus)
+!
+portfolio.hu##body > script:has-text(fbmodal-title)
 !
 !-------------- CSS modifiers ----------------------------------------------!
 !

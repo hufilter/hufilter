@@ -2146,6 +2146,10 @@ forbes.hu###catapult-cookie-bar
 !
 infostart.hu##div[data-qa="oil-Layer"]
 !
+blikk.hu###pe_confirm
+blikk.hu###qc-cmp2-container
+blikk.hu###qc-cmp2-ui
+!
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2258,6 +2262,8 @@ lifestory.hu#%#//scriptlet('remove-attr', 'oncontextmenu')
 totalcar.hu$$script[tag-content="window.onload = window.onfocus"]
 totalbike.hu$$script[tag-content="window.onload = window.onfocus"]
 divany.hu$$script[tag-content="window.onload = window.onfocus"]
+!
+portfolio.hu$$script[tag-content="fbmodal-title"]
 !
 !-------------- CSS modifiers ----------------------------------------------!
 !
