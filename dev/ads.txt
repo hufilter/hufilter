@@ -1389,6 +1389,11 @@ bpiautosok.hu##.post ins + h6
 bpiautosok.hu##div.post > *:not(.single-title):not(.news-thumb):not(.posted-date):not(.comments-meta):not(.author-meta):not(.single-content):not(.entry-footer):not(.news-item)
 bpiautosok.hu#?#div[class*="rltd_item"]:-abp-has(.rltd_tag)
 bpiautosok.hu##.single-content p + center > iframe
+bpiautosok.hu##noscript + div.top-menu
+bpiautosok.hu##script[async] + table[width="100%"]
+bpiautosok.hu#?#p + center:-abp-has(font[size=1])
+bpiautosok.hu#?#ins + font[size=1]:-abp-has(> center)
+bpiautosok.hu#?#center:-abp-has(> iframe[scrolling=no])
 !
 autosjog.hu##script + ins + h5
 !
