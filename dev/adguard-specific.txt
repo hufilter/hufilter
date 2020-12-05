@@ -49,6 +49,8 @@ totalcar.hu$$script[tag-content="window.onload = window.onfocus"]
 totalbike.hu$$script[tag-content="window.onload = window.onfocus"]
 divany.hu$$script[tag-content="window.onload = window.onfocus"]
 !
+portfolio.hu$$script[tag-content="fbmodal-title"]
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu#$#._ce_measure_row  { margin-top: 1rem !important; }

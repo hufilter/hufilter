@@ -338,3 +338,7 @@ forbes.hu###catapult-cookie-bar
 !
 infostart.hu##div[data-qa="oil-Layer"]
 !
+blikk.hu###pe_confirm
+blikk.hu###qc-cmp2-container
+blikk.hu###qc-cmp2-ui
+!

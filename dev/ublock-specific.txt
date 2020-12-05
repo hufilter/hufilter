@@ -46,6 +46,8 @@ totalcar.hu##body > script:has-text(window.onload = window.onfocus)
 totalbike.hu##body > script:has-text(window.onload = window.onfocus)
 divany.hu##body > script:has-text(window.onload = window.onfocus)
 !
+portfolio.hu##body > script:has-text(fbmodal-title)
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)
