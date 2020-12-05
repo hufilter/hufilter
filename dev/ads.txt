@@ -429,8 +429,6 @@ port.hu##.port-adbd
 port.hu##.container.css-table>div:not(.container)
 port.hu##.edgebox-widget.show
 ||port-network.com/sponsoration_elements/
-||port.hu/js/adbd.min.js
-||port.hu/js/advert.min.js
 !
 pharmaonline.hu##[class*="contentBanner"]
 pharmaonline.hu##.justClassBanner
@@ -473,7 +471,6 @@ gyakorikerdesek.hu#?#td.txtcenter:-abp-has(> script + ins)
 gyakorikerdesek.hu##td[style="width: 10px;"]:empty
 gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##[href^="https://www.webminute.hu"]
-||gyakorikerdesek.hu/reklam/
 ||gyakorikerdesek.hu/pic/bannerek/
 !
 klubradio.hu##DIV[id*="banner"]
@@ -611,8 +608,6 @@ humormagazin.com##.left-column.col-md-8.col-sm-12 > .recommendation-holder
 gyaloglo.hu##DIV[class*="Advert"]
 gyaloglo.hu###banner
 ||ad*.gyaloglo.hu^
-||gyaloglo.hu/reklam/*
-||gyaloglo.hu/beta/reklam/*
 !
 es.hu##[id*="banner"]
 es.hu##[class*="banner"]
@@ -1635,7 +1630,6 @@ lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
 ||ad.pphungary.hu
 ||advert*.ultraweb.hu
 ||as*.prog.hu^
-||atw.hu/reklam.php
 ||banner.webtar.hu
 ||daserver.ultraweb.hu
 ||keymedia.hu/keymediajs.cgi
@@ -1674,7 +1668,6 @@ lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
 ||lolmarkt.hu/banner/
 ||magyarszo.com/images/banner/*
 ||magyar-elektronika.hu/images/banners/*
-||napiszar.com/banners/
 ||okmanyiroda.hu/banner.html
 ||pcpult.hu/*/banner/
 ||pcworld.hu/bannerek/
@@ -1719,7 +1712,6 @@ lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
 ||avatraffic.com^
 ||banner.aqua.hu^$third-party
 ||bannerserver.hu$subdocument
-||bannerserver.hu^
 ||bedia.hu/banners/
 ||betfair.com^$third-party
 ||bongacash.com^$third-party
@@ -1741,7 +1733,6 @@ lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
 ||feeds.videosz.com^$third-party
 ||fourtwentytradingcompany.net^
 ||fruitflan.com
-||gstatic.com/ads/
 ||hitelkereso.hu^$third-party
 ||hungariantop1000.com/cgi-bin/counter.cgi*
 ||iforex.com^$third-party
