@@ -1,7 +1,7 @@
-! Checksum: aTh6lld1GgEEqUsWfsNITg
-! Version: 202012032228
+! Checksum: 0L/NIUJqJdaGhjkhk+BTdg
+! Version: 202012051648
 ! Title: hufilter
-! Last modified: 03 Dec 2020 22:28 UTC
+! Last modified: 05 Dec 2020 16:48 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -46,7 +46,6 @@ adv.hu
 as*.prog.hu
 audit.median.hu
 avatraffic.com
-bannerserver.hu
 banner.terminal.hu
 boxzsak.kirowski.com
 brostraffic.com
