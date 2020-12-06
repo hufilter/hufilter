@@ -1615,6 +1615,7 @@ napjainkportal.hu#?#.code-block:-abp-has(> div + ins.adsbygoogle + script)
 kekvillogo.hu##div.bpkad
 !
 alapjarat.hu##div#alapjarat_cikk_fekvo_1
+alapjarat.hu##div.header + .clearfix + .clearfix
 !
 harmonikum.co#?#div:-abp-has(> .ai-attributes + script + ins)
 !
