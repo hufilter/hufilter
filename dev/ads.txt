@@ -359,6 +359,9 @@ terminal.hu##DIV[id*="hirdetes"]
 sporthirado.hu##[class*="banner"]
 sporthirado.hu##[id*="banner"]
 !
+origo.hu#?#a:-abp-has(> div[class*="adLabel"])
+! Gallery ads
+origo.hu##.swiper-slide.z-slide
 origo.hu###origo_offers
 origo.hu##[class*="banner"]
 origo.hu##[class*="hirdetes"]

@@ -76,6 +76,8 @@ hwsw.hu##body[style*="padding-top"]:style(padding-top: 0px !important; backgroun
 ! Author: AdamWr (https://github.com/AdamWr)
 videa.hu###wrapfabtest:style(height: 1px!important;)
 !
+videa.hu##.first-section:style(margin-top: 0 !important;)
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !

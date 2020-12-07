@@ -256,6 +256,7 @@ gyakorikerdesek.hu###cookiekezeles
 blog.hu##[id*="cp_popup"]
 !
 origo.hu,life.hu,reblog.hu,investor.hu,ok.hu,videa.hu###accept-cookie
+origo.hu##div.facebook-layer-box
 !
 sg.hu##.cc-window
 !

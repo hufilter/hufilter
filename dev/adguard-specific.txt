@@ -79,6 +79,8 @@ hwsw.hu#$#body[style*="padding-top"] { padding-top: 0px !important; background-c
 ! Author: AdamWr (https://github.com/AdamWr)
 videa.hu#$##wrapfabtest { height: 1px!important; }
 !
+origo.hu#$#.first-section { margin-top: 0 !important; }
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
