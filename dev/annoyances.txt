@@ -262,6 +262,9 @@ sg.hu##.cc-window
 !
 nlcafe.hu##.m-fbPopup
 !
+nlc.hu##div.m-breakingLayer
+nlc.hu##div.m-articleStickySocial
+!
 hirado.hu##.hover_bkgr_fricc:-abp-has(.facebookPopupCloseButton)
 !
 hvg.hu##.hvg_push
