@@ -28,6 +28,9 @@ calculat.org#%#//scriptlet('prevent-setTimeout', 'adstest', '4000')
 !
 traffihunter.hu#%#//scriptlet('remove-class', 'darken', 'body')
 !
+vezess.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave', 'showFbPopup')
+vezess.hu#%#//scriptlet('prevent-setTimeout', 'FbExit', '3000')
+!
 szeretlekmagyarorszag.hu$$script[tag-content="window.atob"]
 !
 port.hu$$script[tag-content="addEListener(DCL"]
