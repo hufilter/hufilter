@@ -2015,6 +2015,7 @@ szatmar.ro##.cookie-consent
 hazipatika.com###facebook-sharebar
 !
 csaladinet.hu###CookieAcceptLayer
+csaladinet.hu###cikkajanlo
 !
 nemzetisport.hu##.allow-cookie-stripe
 !
@@ -2251,6 +2252,9 @@ magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.ge
 calculat.org#%#//scriptlet('prevent-setTimeout', 'adstest', '4000')
 !
 traffihunter.hu#%#//scriptlet('remove-class', 'darken', 'body')
+!
+vezess.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave', 'showFbPopup')
+vezess.hu#%#//scriptlet('prevent-setTimeout', 'FbExit', '3000')
 !
 szeretlekmagyarorszag.hu$$script[tag-content="window.atob"]
 !

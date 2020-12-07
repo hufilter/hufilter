@@ -1,7 +1,7 @@
-! Checksum: 8qoPatc33+OgRnlV+6l3rQ
-! Version: 202012072200
+! Checksum: LYaHxYQ9LT0yi3tkPK6WLQ
+! Version: 202012072257
 ! Title: hufilter
-! Last modified: 07 Dec 2020 22:00 UTC
+! Last modified: 07 Dec 2020 22:57 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -2020,6 +2020,7 @@ szatmar.ro##.cookie-consent
 hazipatika.com###facebook-sharebar
 !
 csaladinet.hu###CookieAcceptLayer
+csaladinet.hu###cikkajanlo
 !
 nemzetisport.hu##.allow-cookie-stripe
 !
@@ -2254,6 +2255,9 @@ calculat.org##+js(nostif, adstest, 4000)
 !
 traffihunter.hu##+js(rc, darken, body)
 !
+vezess.hu##+js(aeld, mouseleave, showFbPopup)
+vezess.hu##+js(nostif, FbExit, 3000)
+!
 szeretlekmagyarorszag.hu##^script:has-text(window.atob)
 !
 port.hu##^script:has-text(addEListener(DCL)
@@ -2307,7 +2311,7 @@ hwsw.hu##body[style*="padding-top"]:style(padding-top: 0px !important; backgroun
 ! Author: AdamWr (https://github.com/AdamWr)
 videa.hu###wrapfabtest:style(height: 1px!important;)
 !
-videa.hu##.first-section:style(margin-top: 0 !important;)
+origo.hu##.first-section:style(margin-top: 0 !important;)
 !
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
