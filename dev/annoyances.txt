@@ -278,6 +278,8 @@ index.hu###_iph_cp_popup
 24.hu##.u-overlayFullScreen
 24.hu##.m-fbExitPopup
 24.hu###stickyMobileNotification
+24.hu##div#qc-cmp2-container
+24.hu##div#webPushPopup
 !
 meszotar.hu##.cc_banner-wrapper
 !

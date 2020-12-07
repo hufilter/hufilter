@@ -48,6 +48,8 @@ divany.hu##body > script:has-text(window.onload = window.onfocus)
 !
 portfolio.hu##body > script:has-text(fbmodal-title)
 !
+24.hu##body > script:has-text(2blck)
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)
