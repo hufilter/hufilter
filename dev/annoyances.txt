@@ -203,6 +203,7 @@ szatmar.ro##.cookie-consent
 hazipatika.com###facebook-sharebar
 !
 csaladinet.hu###CookieAcceptLayer
+csaladinet.hu###cikkajanlo
 !
 nemzetisport.hu##.allow-cookie-stripe
 !
