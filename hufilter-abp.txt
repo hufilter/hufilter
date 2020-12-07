@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: cAddWvze8Rsk5OJFIhhIFg
-! Version: 202012061715
+! Checksum: 6njVtVkQROZnzl+E78B3AA
+! Version: 202012072200
 ! Title: hufilter
-! Last modified: 06 Dec 2020 17:15 UTC
+! Last modified: 07 Dec 2020 22:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -385,6 +385,9 @@ terminal.hu##DIV[id*="hirdetes"]
 sporthirado.hu##[class*="banner"]
 sporthirado.hu##[id*="banner"]
 !
+origo.hu#?#a:-abp-has(> div[class*="adLabel"])
+! Gallery ads
+origo.hu##.swiper-slide.z-slide
 origo.hu###origo_offers
 origo.hu##[class*="banner"]
 origo.hu##[class*="hirdetes"]
