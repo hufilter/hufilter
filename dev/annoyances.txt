@@ -149,7 +149,7 @@ merce.hu##.popup-wrap
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu###cookie-policy-content
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu###web-push-popup
 !
-prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,logout.hu,hardverapro.hu,fototrend.hu###cookie-accept
+prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,logout.hu,hardverapro.hu,fototrend.hu###accept-container
 !
 hestore.hu###cookiewarnbar
 ||hestore.hu/pic/cookie.png$image
