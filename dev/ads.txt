@@ -1554,6 +1554,8 @@ keol.hu###above_article_banner
 keol.hu###below_content_banner
 keol.hu###left_banners
 keol.hu###right_banners
+keol.hu###advertisements
+keol.hu##.article_banner
 !
 112press.hu##div.banner_middle
 !
