@@ -83,6 +83,8 @@ videa.hu###wrapfabtest:style(height: 1px!important;)
 !
 origo.hu##.first-section:style(margin-top: 0 !important;)
 !
+budapestkornyeke.hu##body:style(padding-top: 0 !important;)
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
