@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Q+uLNd3cP+2/8CMhN44LDQ
-! Version: 202012072257
+! Checksum: H/5VdgzR+fC88UYaw2kzXA
+! Version: 202012092346
 ! Title: hufilter
-! Last modified: 07 Dec 2020 22:57 UTC
+! Last modified: 09 Dec 2020 23:46 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -1559,6 +1559,8 @@ budapestkornyeke.hu###custom_html-11
 budapestkornyeke.hu###custom_html-6
 budapestkornyeke.hu###media_image-17
 budapestkornyeke.hu###custom_html-10
+budapestkornyeke.hu##div[class*="widget"]:-abp-has(> .widgettitle:-abp-contains(Hirdetés))
+budapestkornyeke.hu##div[class*="widget"]:-abp-has(> .widgettitle:-abp-contains(Állásajánlat))
 !
 ! InfoVaros oldalak
 infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###sidebar > div[class*="banner"]
@@ -1578,6 +1580,8 @@ keol.hu###above_article_banner
 keol.hu###below_content_banner
 keol.hu###left_banners
 keol.hu###right_banners
+keol.hu###advertisements
+keol.hu##.article_banner
 !
 112press.hu##div.banner_middle
 !
@@ -1820,4 +1824,4 @@ lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
 !-------------- Other rules ------------------------------------------------!
 !---------------------------------------------------------------------------!
 !
-
+@@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
