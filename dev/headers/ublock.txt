@@ -1,7 +1,7 @@
-! Checksum: 0L/NIUJqJdaGhjkhk+BTdg
-! Version: 202012051648
+! Checksum: --- DUMMY ---
+! Version: #VERSION#
 ! Title: hufilter
-! Last modified: 05 Dec 2020 16:48 UTC
+! Last modified: #LAST_MODIFIED#
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -23,58 +23,3 @@
 ! GitHub issues: https://github.com/hufilter/hufilter/issues
 ! GitHub pull requests: https://github.com/hufilter/hufilter/pulls
 !
-a.adnium.com
-ad.depo.hu
-ad*.gyaloglo.hu
-ad.gyermekevek.hu
-ad.hirekmedia.hu
-adk2x.com
-ad.love.hu
-ad*.mellesleg.hu
-ad.netmedia.hu
-ad.onadozo.hu
-ad.parom.hu
-ads.geeks.hu
-ads.nepszava.com
-ad.supportal.hu
-ad.szexneked.hu
-adverbs.napilapcsoport.hu
-adversalservers.com
-advertiserurl.com
-adv.forpsi.hu
-adv.hu
-as*.prog.hu
-audit.median.hu
-avatraffic.com
-banner.terminal.hu
-boxzsak.kirowski.com
-brostraffic.com
-choice.microsoft.com
-ctnsnet.com
-et.twyn.com
-fourtwentytradingcompany.net
-*.hit.gemius.pl
-iofferphoto.com
-loading-delivery2.com
-netadclick.com
-netexs.com
-new-bigpenn.com
-pixel.blog.hu
-pixel.sojern.com
-predictivadnetwork.com
-rc.rc.hu
-rc.rootclick.com
-redwolfmoon.com
-rehs.*.hu
-sher.*.hu
-smartcj.com
-srv1.srv-stat.com
-stat.adultium.com
-stats.badoostats.com
-syndication.globaltraffico.com
-syndication.trafficreps.com
-szemezgeto*.ingatlan.com
-trafficshop.com
-up-banner.wavecdn.de
-vid4u.org
-wstat.ozon.ru
