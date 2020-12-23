@@ -1631,6 +1631,9 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ugytudjuk.hu##.leftSide > .bnr
 ugytudjuk.hu##.rightSide > .bnr
 !
+leet.hu##.category > #prodstop1
+leet.hu##.single-post > #prodstop1
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
