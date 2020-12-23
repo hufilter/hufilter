@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: H/5VdgzR+fC88UYaw2kzXA
-! Version: 202012092346
+! Checksum: z8R+07kUc6AXomMMZQgaLQ
+! Version: 202012230204
 ! Title: hufilter
-! Last modified: 09 Dec 2020 23:46 UTC
+! Last modified: 23 Dec 2020 02:04 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -47,8 +47,6 @@
 !##[href*="addtoany.com"]
 ##[href*="kuponmania.hu"]
 ##[id*="GoogleAds"]
-##[id*="ad-google"]
-##[id*="adzone"]
 ##[id*="google_ads"]
 !##[id*="overlayBg"]
 ##[id^="ad_zone_"]
@@ -1654,6 +1652,13 @@ harmonikum.co#?#div:-abp-has(> .ai-attributes + script + ins)
 !
 lifestory.hu#?#div.lol:-abp-has(> a[onclick="getValue()"])
 lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
+!
+ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
+ugytudjuk.hu##.leftSide > .bnr
+ugytudjuk.hu##.rightSide > .bnr
+!
+leet.hu##.category > #prodstop1
+leet.hu##.single-post > #prodstop1
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
