@@ -343,6 +343,7 @@ online-filmek.me##[class*="cc_banner"]
 magyarnemzet.hu##div.gdprBoxContainer
 !
 forbes.hu###catapult-cookie-bar
+forbes.hu##.crp_related
 !
 infostart.hu##div[data-qa="oil-Layer"]
 !
