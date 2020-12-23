@@ -21,8 +21,6 @@
 !##[href*="addtoany.com"]
 ##[href*="kuponmania.hu"]
 ##[id*="GoogleAds"]
-##[id*="ad-google"]
-##[id*="adzone"]
 ##[id*="google_ads"]
 !##[id*="overlayBg"]
 ##[id^="ad_zone_"]
