@@ -351,3 +351,6 @@ blikk.hu###pe_confirm
 blikk.hu###qc-cmp2-container
 blikk.hu###qc-cmp2-ui
 !
+privatbankar.hu##.mfor_cikk_beuszo
+privatbankar.hu##.news-page > div[style*="background: #FFF900;"]:first-child
+!
