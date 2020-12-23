@@ -1627,6 +1627,10 @@ harmonikum.co#?#div:-abp-has(> .ai-attributes + script + ins)
 lifestory.hu#?#div.lol:-abp-has(> a[onclick="getValue()"])
 lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
 !
+ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
+ugytudjuk.hu##.leftSide > .bnr
+ugytudjuk.hu##.rightSide > .bnr
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
