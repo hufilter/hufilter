@@ -1,7 +1,7 @@
-! Checksum: 4xghM9S3UzSKM0i35a0s0w
-! Version: 202012230204
+! Checksum: 2cc//dFQtNtJi/THT0SFDw
+! Version: 202012231325
 ! Title: hufilter
-! Last modified: 23 Dec 2020 02:04 UTC
+! Last modified: 23 Dec 2020 13:25 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -2338,9 +2338,11 @@ keol.hu##div#search_container:style(margin-bottom: 0 !important;)
 player.hu##.adult-overelay
 traffihunter.hu##.ooono_promo
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
-totalcar.hu##body > section:last-of-type
-totalbike.hu##body > section:last-of-type
-divany.hu##body > section:last-of-type
+! https://github.com/hufilter/hufilter/issues/212
+totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):last-of-type
+!totalcar.hu##body > section:last-of-type
+!totalbike.hu##body > section:last-of-type
+!divany.hu##body > section:last-of-type
 !
 ! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d
 ! Author: AdamWr (https://github.com/AdamWr)
