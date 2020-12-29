@@ -1,7 +1,7 @@
-! Checksum: 2cc//dFQtNtJi/THT0SFDw
-! Version: 202012231325
+! Checksum: Vk/maYYVr51g9RC8r533jg
+! Version: 202012292356
 ! Title: hufilter
-! Last modified: 23 Dec 2020 13:25 UTC
+! Last modified: 29 Dec 2020 23:56 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -1659,6 +1659,8 @@ ugytudjuk.hu##.rightSide > .bnr
 leet.hu##.category > #prodstop1
 leet.hu##.single-post > #prodstop1
 !
+raketa.hu##[class*="adv--"]
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2179,7 +2181,11 @@ blikk.hu###qc-cmp2-ui
 !
 privatbankar.hu##.mfor_cikk_beuszo
 privatbankar.hu##.news-page > div[style*="background: #FFF900;"]:first-child
-!!---------------------------------------------------------------------------!
+!
+raketa.hu##[aria-describedby="newsletter-modal"]
+raketa.hu##.ui-widget-overlay
+!
+!---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!
 !---------------------------------------------------------------------------!
 !
