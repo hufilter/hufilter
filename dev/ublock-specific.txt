@@ -28,6 +28,8 @@ traffihunter.hu##+js(rc, darken, body)
 vezess.hu##+js(aeld, mouseleave, showFbPopup)
 vezess.hu##+js(nostif, FbExit, 3000)
 !
+pcworld.hu##+js(rc, have-ad, body)
+!
 szeretlekmagyarorszag.hu##^script:has-text(window.atob)
 !
 port.hu##^script:has-text(addEListener(DCL)
