@@ -1,7 +1,7 @@
-! Checksum: Vk/maYYVr51g9RC8r533jg
-! Version: 202012292356
+! Checksum: +een9dLv2V9/WWVHvVPlEg
+! Version: 202012300112
 ! Title: hufilter
-! Last modified: 29 Dec 2020 23:56 UTC
+! Last modified: 30 Dec 2020 01:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -2276,6 +2276,8 @@ traffihunter.hu##+js(rc, darken, body)
 !
 vezess.hu##+js(aeld, mouseleave, showFbPopup)
 vezess.hu##+js(nostif, FbExit, 3000)
+!
+pcworld.hu##+js(rc, have-ad, body)
 !
 szeretlekmagyarorszag.hu##^script:has-text(window.atob)
 !
