@@ -80,7 +80,6 @@ gyoricegregiszter.hu##[class*="banner"]
 hajokonyha.hu##[class*="hirdetes"]
 hatarido-szamitas.hu##.szkozepkis
 helyitipp.hu##[id*="hirdet"]
-hetek.hu##[id*="popup"]
 hir6.hu##[class*="banner"]
 hirado.hu##[class="video_preroll type_swf"]
 hirextra.hu##[class*="billboard"]
@@ -1637,6 +1636,9 @@ leet.hu##.single-post > #prodstop1
 raketa.hu##[class*="adv--"]
 !
 pcforum.hu##div#zone-titleheader
+!
+hetek.hu##[id*="popup"]
+hetek.hu##div.row:-abp-has(> div.ads)
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
