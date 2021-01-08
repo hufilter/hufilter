@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 72iS2pmTh9jTBv5+rRPfiw
-! Version: 202012300112
+! Checksum: OtM5wqJe82Aa9XYVUBhkGQ
+! Version: 202101082022
 ! Title: hufilter
-! Last modified: 30 Dec 2020 01:12 UTC
+! Last modified: 08 Jan 2021 20:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -106,7 +106,6 @@ gyoricegregiszter.hu##[class*="banner"]
 hajokonyha.hu##[class*="hirdetes"]
 hatarido-szamitas.hu##.szkozepkis
 helyitipp.hu##[id*="hirdet"]
-hetek.hu##[id*="popup"]
 hir6.hu##[class*="banner"]
 hirado.hu##[class="video_preroll type_swf"]
 hirextra.hu##[class*="billboard"]
@@ -1661,6 +1660,11 @@ leet.hu##.category > #prodstop1
 leet.hu##.single-post > #prodstop1
 !
 raketa.hu##[class*="adv--"]
+!
+pcforum.hu##div#zone-titleheader
+!
+hetek.hu##[id*="popup"]
+hetek.hu##div.row:-abp-has(> div.ads)
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
