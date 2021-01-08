@@ -96,6 +96,8 @@ keol.hu#$#@media (min-width: 1200px) { section[id="content_left"][class="content
 keol.hu#$#section[id="content_left"][class="content_content"] { width: auto !important; padding: 0 45px 0 46px !important; }
 keol.hu#$#div#search_container { margin-bottom: 0 !important; }
 !
+kekvillogo.hu#$#body { padding-top: 0 !important; }
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !

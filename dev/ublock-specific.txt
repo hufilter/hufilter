@@ -91,6 +91,8 @@ keol.hu##section[id="content_left"][class="content_start"]:style(padding-top: 80
 keol.hu##section[id="content_left"][class="content_content"]:style(width: auto !important; padding: 0 45px 0 46px !important;)
 keol.hu##div#search_container:style(margin-bottom: 0 !important;)
 !
+kekvillogo.hu##body:style(padding-top: 0 !important;)
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
