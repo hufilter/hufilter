@@ -55,6 +55,8 @@ portfolio.hu##body > script:has-text(fbmodal-title)
 !
 24.hu##body > script:has-text(2blck)
 !
+hetek.hu##+js(rc, modal-open, body)
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)
@@ -108,6 +110,9 @@ totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):last-of-typ
 ! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d
 ! Author: AdamWr (https://github.com/AdamWr)
 videa.hu#@#.adBanner
+!
+hetek.hu###nyeremenyModal
+hetek.hu##[class="modal-backdrop fade show"]
 !
 !-------------- Other ------------------------------------------------------!
 !
