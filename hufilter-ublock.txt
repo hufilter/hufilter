@@ -1,7 +1,7 @@
-! Checksum: AhTARhSdW7Z/epfBOEyy8A
-! Version: 202101082022
+! Checksum: MkAj69uDkqTBCzSZwLO22w
+! Version: 202101111948
 ! Title: hufilter
-! Last modified: 08 Jan 2021 20:22 UTC
+! Last modified: 11 Jan 2021 19:48 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -590,7 +590,6 @@ femina.hu##[class*="kepeslinkes"]
 femina.hu##.doboz_harmados
 femina.hu#@#[class="goAdverticum"]
 femina.hu#?#.szelso-jobb > div:-abp-has(> a)
-femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
 femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.femina-shop-ajanlo-slider-hirdetes)
 !
 femcafe.hu##[class*="-adv"]
@@ -2064,6 +2063,7 @@ hwsw.hu###cookiealert
 !
 femina.hu###_iph_cp_popup
 femina.hu###femina-shop-ajanlo-slider
+femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
 !
 transindex.ro###cookie-bar
 !
