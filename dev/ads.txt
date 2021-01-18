@@ -1639,6 +1639,11 @@ pcforum.hu##div#zone-titleheader
 hetek.hu##[id*="popup"]
 hetek.hu##div.row:-abp-has(> div.ads)
 !
+hu.ign.com##[data-zadtype="billboard"]
+hu.ign.com##div.mobileArticleAds
+hu.ign.com#?#figure:-abp-has(a[href*="ignshop.hu"])
+hu.ign.com#?#div.right-rail:-abp-has(div.ad-wrapper)
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
