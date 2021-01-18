@@ -95,6 +95,8 @@ keol.hu##div#search_container:style(margin-bottom: 0 !important;)
 !
 kekvillogo.hu##body:style(padding-top: 0 !important;)
 !
+hu.ign.com##div.article-headline:style(margin-top: 44px !important;)
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
