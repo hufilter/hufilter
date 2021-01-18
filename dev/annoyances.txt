@@ -358,3 +358,6 @@ privatbankar.hu##.news-page > div[style*="background: #FFF900;"]:first-child
 raketa.hu##[aria-describedby="newsletter-modal"]
 raketa.hu##.ui-widget-overlay
 !
+epiteszforum.hu##div.supportModal
+epiteszforum.hu##div.cookieLayer
+!
