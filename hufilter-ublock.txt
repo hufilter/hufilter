@@ -1,7 +1,7 @@
-! Checksum: MkAj69uDkqTBCzSZwLO22w
-! Version: 202101111948
+! Checksum: ZmG9fr4XGje5JONZcbRVVg
+! Version: 202101180031
 ! Title: hufilter
-! Last modified: 11 Jan 2021 19:48 UTC
+! Last modified: 18 Jan 2021 00:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -1664,6 +1664,11 @@ pcforum.hu##div#zone-titleheader
 hetek.hu##[id*="popup"]
 hetek.hu##div.row:-abp-has(> div.ads)
 !
+hu.ign.com##[data-zadtype="billboard"]
+hu.ign.com##div.mobileArticleAds
+hu.ign.com#?#figure:-abp-has(a[href*="ignshop.hu"])
+hu.ign.com#?#div.right-rail:-abp-has(div.ad-wrapper)
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2189,6 +2194,9 @@ privatbankar.hu##.news-page > div[style*="background: #FFF900;"]:first-child
 raketa.hu##[aria-describedby="newsletter-modal"]
 raketa.hu##.ui-widget-overlay
 !
+epiteszforum.hu##div.supportModal
+epiteszforum.hu##div.cookieLayer
+!
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2347,6 +2355,8 @@ keol.hu##section[id="content_left"][class="content_content"]:style(width: auto !
 keol.hu##div#search_container:style(margin-bottom: 0 !important;)
 !
 kekvillogo.hu##body:style(padding-top: 0 !important;)
+!
+hu.ign.com##div.article-headline:style(margin-top: 44px !important;)
 !
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
