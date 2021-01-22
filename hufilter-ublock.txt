@@ -1,7 +1,7 @@
-! Checksum: ZmG9fr4XGje5JONZcbRVVg
-! Version: 202101180031
+! Checksum: HPJ1VrLvdU1Jluc1TPuPdg
+! Version: 202101222136
 ! Title: hufilter
-! Last modified: 18 Jan 2021 00:31 UTC
+! Last modified: 22 Jan 2021 21:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -144,6 +144,7 @@ lovebox.hu##[class*="banner"]
 lumenet.hu###exposeMask
 lumenet.hu###page_PopupContainer
 mafab.hu##.visible-lg.container
+mafab.hu#?#div[class="container-full"][style="background:#fff"]:-abp-has(.topadv)
 magyarnarancs.hu##[id*="_ad"]
 mainap.hu##[class*="banner"]
 manus.hu##[class*="articleBanner"]
@@ -2259,7 +2260,7 @@ epiteszforum.hu##div.cookieLayer
 !---------------------------------------------------------------------------!
 !
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
-!---------------------------------------------------------------------------!
+||onlinestream.live/js/adb.js!---------------------------------------------------------------------------!
 !-------------- uBlock-specific rules --------------------------------------!
 !---------------------------------------------------------------------------!
 !
