@@ -1,7 +1,7 @@
-! Checksum: HPJ1VrLvdU1Jluc1TPuPdg
-! Version: 202101222136
+! Checksum: TWq0/wLHr0A3PuCYHXlhiA
+! Version: 202101222138
 ! Title: hufilter
-! Last modified: 22 Jan 2021 21:36 UTC
+! Last modified: 22 Jan 2021 21:38 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -2260,7 +2260,8 @@ epiteszforum.hu##div.cookieLayer
 !---------------------------------------------------------------------------!
 !
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
-||onlinestream.live/js/adb.js!---------------------------------------------------------------------------!
+||onlinestream.live/js/adb.js
+!---------------------------------------------------------------------------!
 !-------------- uBlock-specific rules --------------------------------------!
 !---------------------------------------------------------------------------!
 !
