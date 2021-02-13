@@ -361,3 +361,5 @@ raketa.hu##.ui-widget-overlay
 epiteszforum.hu##div.supportModal
 epiteszforum.hu##div.cookieLayer
 !
+unilife.hu##.facebook-layer-box
+!
