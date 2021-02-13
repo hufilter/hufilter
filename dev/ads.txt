@@ -287,6 +287,7 @@ chat.hu##[id*="banner"]
 !
 blikk.hu###footerLogos
 blikk.hu###articleOfferFlag
+blikk.hu##[id^="rltd-ad-"]
 !
 ||stylemagazin.hu/static/template_settings/
 stylemagazin.hu##[class="wp-container wp-top"]
