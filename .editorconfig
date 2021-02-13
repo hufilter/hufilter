@@ -1,0 +1,12 @@
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{txt,sh,js}]
+charset = utf-8
+
+[*.txt]
+indent_style = space
+indent_size = 2
