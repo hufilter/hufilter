@@ -60,6 +60,8 @@ portfolio.hu$$script[tag-content="fbmodal-title"]
 !
 hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
 !
+gamer.hu$$script[tag-content="cli_cookiebar_"]
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu#$#._ce_measure_row  { margin-top: 1rem !important; }

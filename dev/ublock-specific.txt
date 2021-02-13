@@ -57,6 +57,8 @@ portfolio.hu##body > script:has-text(fbmodal-title)
 !
 hetek.hu##+js(rc, modal-open, body)
 !
+gamer.hu##body > script:has-text(cli_cookiebar_)
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)
