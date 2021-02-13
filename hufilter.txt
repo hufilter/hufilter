@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hL8Kl+tK5+W1KMHaZjwtvQ
-! Version: 202101222138
+! Checksum: iqBVDI0JhvI9ahau2FWDOg
+! Version: 202102131059
 ! Title: hufilter
-! Last modified: 22 Jan 2021 21:38 UTC
+! Last modified: 13 Feb 2021 10:59 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -313,6 +313,7 @@ chat.hu##[id*="banner"]
 !
 blikk.hu###footerLogos
 blikk.hu###articleOfferFlag
+blikk.hu##[id^="rltd-ad-"]
 !
 ||stylemagazin.hu/static/template_settings/
 stylemagazin.hu##[class="wp-container wp-top"]
@@ -499,6 +500,8 @@ gyakorikerdesek.hu##td[style="width: 10px;"]:empty
 gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##[href^="https://www.webminute.hu"]
 ||gyakorikerdesek.hu/pic/bannerek/
+||aghtag.tech/libs/projectagora.min.js^$domain=gyakorikerdesek.hu
+||related.hu/js/v2/widget.js^$domain=gyakorikerdesek.hu
 !
 klubradio.hu##DIV[id*="banner"]
 ||klubradio.hu/data/files/banner

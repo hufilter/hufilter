@@ -307,6 +307,7 @@ chat.hu##[id*="banner"]
 !
 blikk.hu###footerLogos
 blikk.hu###articleOfferFlag
+blikk.hu##[id^="rltd-ad-"]
 !
 ||stylemagazin.hu/static/template_settings/
 stylemagazin.hu##[class="wp-container wp-top"]
@@ -493,6 +494,8 @@ gyakorikerdesek.hu##td[style="width: 10px;"]:empty
 gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##[href^="https://www.webminute.hu"]
 ||gyakorikerdesek.hu/pic/bannerek/
+||aghtag.tech/libs/projectagora.min.js^$domain=gyakorikerdesek.hu
+||related.hu/js/v2/widget.js^$domain=gyakorikerdesek.hu
 !
 klubradio.hu##DIV[id*="banner"]
 ||klubradio.hu/data/files/banner
@@ -2193,6 +2196,9 @@ raketa.hu##.ui-widget-overlay
 epiteszforum.hu##div.supportModal
 epiteszforum.hu##div.cookieLayer
 !
+unilife.hu##.facebook-layer-box
+unilife.hu###ac
+!
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2317,6 +2323,8 @@ portfolio.hu$$script[tag-content="fbmodal-title"]
 24.hu$$script[tag-content="2blck"]
 !
 hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
+!
+gamer.hu$$script[tag-content="cli_cookiebar_"]
 !
 !-------------- CSS modifiers ----------------------------------------------!
 !
