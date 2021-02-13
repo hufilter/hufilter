@@ -362,4 +362,5 @@ epiteszforum.hu##div.supportModal
 epiteszforum.hu##div.cookieLayer
 !
 unilife.hu##.facebook-layer-box
+unilife.hu###ac
 !
