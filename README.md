@@ -29,4 +29,4 @@ A közreműködők vállalják ugyanezen feltételek melletti licenszelését a 
 The project hufilter is distributed under the "Creative Commons Attribution 4.0" license. 
 Contributors are licensing their work under the very same terms and conditions.
 
-http://creativecommons.org/licenses/by/4.0/
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
