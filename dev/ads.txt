@@ -201,7 +201,6 @@ yayo.hu/static/banner/
 zene.hu##.etarget
 feliratok.org##.wrapper > .slider
 5percblog.hu#?#.code-block:-abp-has(script + ins)
-glamour.hu###ibb-text-1
 !
 dictzone.com###a1
 dictzone.com###a2
@@ -1650,6 +1649,9 @@ hu.ign.com##[data-zadtype="billboard"]
 hu.ign.com##div.mobileArticleAds
 hu.ign.com#?#figure:-abp-has(a[href*="ignshop.hu"])
 hu.ign.com#?#div.right-rail:-abp-has(div.ad-wrapper)
+!
+glamour.hu##[id^="ibb-"][class*="banner"]
+glamour.hu##.ibb-banner-decor
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
