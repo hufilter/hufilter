@@ -1536,6 +1536,11 @@ budapestkornyeke.hu###custom_html-10
 budapestkornyeke.hu##div[class*="widget"]:-abp-has(> .widgettitle:-abp-contains(Hirdetés))
 budapestkornyeke.hu##div[class*="widget"]:-abp-has(> .widgettitle:-abp-contains(Állásajánlat))
 !
+kekvillogo.hu##div.bpkad
+kekvillogo.hu,budapestkornyeke.hu###full-desktop
+kekvillogo.hu,budapestkornyeke.hu###full-mobile
+kekvillogo.hu,budapestkornyeke.hu##header + div[style^="margin:"]
+!
 ! InfoVaros oldalak
 infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###sidebar > div[class*="banner"]
 infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu##div.read div[class*="banner"]
@@ -1618,8 +1623,6 @@ nlc.hu#?#.m-breakingLayer:-abp-has(a[href*="nlc.hu/balkonfanatik"])
 nlc.hu##.m-fbPopup
 !
 napjainkportal.hu#?#.code-block:-abp-has(> div + ins.adsbygoogle + script)
-!
-kekvillogo.hu##div.bpkad
 !
 alapjarat.hu##div#alapjarat_cikk_fekvo_1
 alapjarat.hu##div.header + .clearfix + .clearfix
