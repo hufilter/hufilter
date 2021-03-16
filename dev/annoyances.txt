@@ -180,8 +180,9 @@ hazipatika.com###facebook-sharebar
 444.hu###cookie_popup_container
 !
 player.hu##[class*="c_banner"]
-!
 player.hu##.ui-dialog[aria-describedby="newsletter-modal"]
+player.hu##.ui-widget-overlay.ui-front
+player.hu##[aria-describedby="dialog-welcome"]
 player.hu##.ui-widget-overlay.ui-front
 !
 profession.hu##.cookie-layer
