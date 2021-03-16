@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iqBVDI0JhvI9ahau2FWDOg
-! Version: 202102131059
+! Checksum: gjDFAV/0G5y/jBwHiVnIYg
+! Version: 202103161334
 ! Title: hufilter
-! Last modified: 13 Feb 2021 10:59 UTC
+! Last modified: 16 Mar 2021 13:34 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -227,7 +227,6 @@ yayo.hu/static/banner/
 zene.hu##.etarget
 feliratok.org##.wrapper > .slider
 5percblog.hu#?#.code-block:-abp-has(script + ins)
-glamour.hu###ibb-text-1
 !
 dictzone.com###a1
 dictzone.com###a2
@@ -1562,6 +1561,11 @@ budapestkornyeke.hu###custom_html-10
 budapestkornyeke.hu##div[class*="widget"]:-abp-has(> .widgettitle:-abp-contains(Hirdetés))
 budapestkornyeke.hu##div[class*="widget"]:-abp-has(> .widgettitle:-abp-contains(Állásajánlat))
 !
+kekvillogo.hu##div.bpkad
+kekvillogo.hu,budapestkornyeke.hu###full-desktop
+kekvillogo.hu,budapestkornyeke.hu###full-mobile
+kekvillogo.hu,budapestkornyeke.hu##header + div[style^="margin:"]
+!
 ! InfoVaros oldalak
 infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###sidebar > div[class*="banner"]
 infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu##div.read div[class*="banner"]
@@ -1645,8 +1649,6 @@ nlc.hu##.m-fbPopup
 !
 napjainkportal.hu#?#.code-block:-abp-has(> div + ins.adsbygoogle + script)
 !
-kekvillogo.hu##div.bpkad
-!
 alapjarat.hu##div#alapjarat_cikk_fekvo_1
 alapjarat.hu##div.header + .clearfix + .clearfix
 !
@@ -1673,6 +1675,12 @@ hu.ign.com##[data-zadtype="billboard"]
 hu.ign.com##div.mobileArticleAds
 hu.ign.com#?#figure:-abp-has(a[href*="ignshop.hu"])
 hu.ign.com#?#div.right-rail:-abp-has(div.ad-wrapper)
+!
+glamour.hu##[id^="ibb-"][class*="banner"]
+glamour.hu##.ibb-banner-decor
+!
+5percblog.hu###text-5
+5percblog.hu###text-6
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
