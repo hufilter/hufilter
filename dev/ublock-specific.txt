@@ -123,5 +123,5 @@ hetek.hu##[class="modal-backdrop fade show"]
 @@||meszotar.hu/scripts/advertising.js
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
 ||freewaresoftwarenews.blogspot.$first-party,inline-script
-ncore.cc##^#x-pop
-ncore.cc##^.container-in > script:last-of-type
+ncore.pro##^#x-pop
+ncore.pro##^.container-in > script:last-of-type

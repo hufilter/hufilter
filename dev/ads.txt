@@ -1593,7 +1593,7 @@ agrarszektor.hu##div#ajanlo
 !
 travelo.hu##div.facebook-layer-box
 !
-ncore.cc##.banner
+ncore.pro##.banner
 !
 dehir.hu##.totop
 dehir.hu##.slidingBanner
