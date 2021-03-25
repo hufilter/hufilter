@@ -64,6 +64,11 @@ gamer.hu$$script[tag-content="cli_cookiebar_"]
 !
 ncore.pro$$script[tag-content="adpv"]
 !
+! https://github.com/hufilter/hufilter/issues/215
+! https://github.com/AdguardTeam/AdguardFilters/issues/75763
+! Thanks to AdamWr
+femina.hu#%#//scriptlet('set-constant', 'window.ado', 'null')
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu#$#._ce_measure_row  { margin-top: 1rem !important; }
