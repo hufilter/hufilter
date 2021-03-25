@@ -64,6 +64,8 @@ ncore.pro##^script:has-text(adpv)
 ! https://github.com/hufilter/hufilter/issues/215
 femina.hu##+js(set, window.ado, null)
 !
+angol-magyar-szotar.hu##+js(set, adblock, false)
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)
