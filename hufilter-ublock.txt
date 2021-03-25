@@ -1,7 +1,7 @@
-! Checksum: auTxNBeP2RmUNQVV+8dShw
-! Version: 202103161334
+! Checksum: 2a3G6vtQncnvoKXCPXcU4A
+! Version: 202103251517
 ! Title: hufilter
-! Last modified: 16 Mar 2021 13:34 UTC
+! Last modified: 25 Mar 2021 15:17 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -1618,7 +1618,7 @@ agrarszektor.hu##div#ajanlo
 !
 travelo.hu##div.facebook-layer-box
 !
-ncore.cc##.banner
+ncore.pro##.banner
 !
 dehir.hu##.totop
 dehir.hu##.slidingBanner
@@ -1680,6 +1680,9 @@ glamour.hu##.ibb-banner-decor
 !
 5percblog.hu###text-5
 5percblog.hu###text-6
+!
+angol-magyar-szotar.hu##[id^="hird_"]
+angol-magyar-szotar.hu##.sidebar1 > div:first-child
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
@@ -2337,6 +2340,13 @@ hetek.hu##+js(rc, modal-open, body)
 !
 gamer.hu##body > script:has-text(cli_cookiebar_)
 !
+ncore.pro##^script:has-text(adpv)
+!
+! https://github.com/hufilter/hufilter/issues/215
+femina.hu##+js(set, window.ado, null)
+!
+angol-magyar-szotar.hu##+js(set, adblock, false)
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)
@@ -2396,10 +2406,11 @@ videa.hu#@#.adBanner
 hetek.hu###nyeremenyModal
 hetek.hu##[class="modal-backdrop fade show"]
 !
+ncore.pro###x-pop
+!
 !-------------- Other ------------------------------------------------------!
 !
 @@||meszotar.hu/scripts/advertising.js
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
 ||freewaresoftwarenews.blogspot.$first-party,inline-script
-ncore.cc##^#x-pop
-ncore.cc##^.container-in > script:last-of-type
+

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gjDFAV/0G5y/jBwHiVnIYg
-! Version: 202103161334
+! Checksum: KdFsaqlw11Cf9BSIhjtpvw
+! Version: 202103251517
 ! Title: hufilter
-! Last modified: 16 Mar 2021 13:34 UTC
+! Last modified: 25 Mar 2021 15:17 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -1619,7 +1619,7 @@ agrarszektor.hu##div#ajanlo
 !
 travelo.hu##div.facebook-layer-box
 !
-ncore.cc##.banner
+ncore.pro##.banner
 !
 dehir.hu##.totop
 dehir.hu##.slidingBanner
@@ -1681,6 +1681,9 @@ glamour.hu##.ibb-banner-decor
 !
 5percblog.hu###text-5
 5percblog.hu###text-6
+!
+angol-magyar-szotar.hu##[id^="hird_"]
+angol-magyar-szotar.hu##.sidebar1 > div:first-child
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
