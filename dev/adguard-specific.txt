@@ -62,6 +62,8 @@ hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
 !
 gamer.hu$$script[tag-content="cli_cookiebar_"]
 !
+ncore.pro$$script[tag-content="adpv"]
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu#$#._ce_measure_row  { margin-top: 1rem !important; }
@@ -122,6 +124,8 @@ videa.hu#@#.adBanner
 !
 hetek.hu###nyeremenyModal
 hetek.hu##[class="modal-backdrop fade show"]
+!
+ncore.pro###x-pop
 !
 ! End of iOS limitations
 !#endif

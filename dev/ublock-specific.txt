@@ -59,6 +59,8 @@ hetek.hu##+js(rc, modal-open, body)
 !
 gamer.hu##body > script:has-text(cli_cookiebar_)
 !
+ncore.pro##^script:has-text(adpv)
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)
@@ -118,10 +120,11 @@ videa.hu#@#.adBanner
 hetek.hu###nyeremenyModal
 hetek.hu##[class="modal-backdrop fade show"]
 !
+ncore.pro###x-pop
+!
 !-------------- Other ------------------------------------------------------!
 !
 @@||meszotar.hu/scripts/advertising.js
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
 ||freewaresoftwarenews.blogspot.$first-party,inline-script
-ncore.pro##^#x-pop
-ncore.pro##^.container-in > script:last-of-type
+
