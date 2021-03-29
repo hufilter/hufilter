@@ -365,3 +365,5 @@ epiteszforum.hu##div.cookieLayer
 unilife.hu##.facebook-layer-box
 unilife.hu###ac
 !
+||prelblog.com/cdn/js/comebacker/comebacker.js^$script
+!
