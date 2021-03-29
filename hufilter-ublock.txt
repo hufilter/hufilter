@@ -1,7 +1,7 @@
-! Checksum: 2a3G6vtQncnvoKXCPXcU4A
-! Version: 202103251517
+! Checksum: YDomO/n2gnir2akV5mhaUg
+! Version: 202103291830
 ! Title: hufilter
-! Last modified: 25 Mar 2021 15:17 UTC
+! Last modified: 29 Mar 2021 18:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -2215,6 +2215,10 @@ epiteszforum.hu##div.cookieLayer
 !
 unilife.hu##.facebook-layer-box
 unilife.hu###ac
+!
+||prelblog.com/cdn/js/comebacker/comebacker.js^$script
+!
+obi.hu##.colorbox-cookiepolicy
 !
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!
