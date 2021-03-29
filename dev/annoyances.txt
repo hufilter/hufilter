@@ -367,3 +367,5 @@ unilife.hu###ac
 !
 ||prelblog.com/cdn/js/comebacker/comebacker.js^$script
 !
+obi.hu##.colorbox-cookiepolicy
+!
