@@ -307,6 +307,9 @@ chat.hu##[id*="banner"]
 blikk.hu###footerLogos
 blikk.hu###articleOfferFlag
 blikk.hu##[id^="rltd-ad-"]
+blikk.hu###underArticleAdvertisement
+blikk.hu##body > .extraContentSection:nth-of-type(-n+3)
+blikk.hu##a[href*="gemius"]
 !
 ||stylemagazin.hu/static/template_settings/
 stylemagazin.hu##[class="wp-container wp-top"]

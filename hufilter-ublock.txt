@@ -1,7 +1,7 @@
-! Checksum: YDomO/n2gnir2akV5mhaUg
-! Version: 202103291830
+! Checksum: tV82G/018fCODvCX02x3Hg
+! Version: 202103300940
 ! Title: hufilter
-! Last modified: 29 Mar 2021 18:30 UTC
+! Last modified: 30 Mar 2021 09:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -312,6 +312,9 @@ chat.hu##[id*="banner"]
 blikk.hu###footerLogos
 blikk.hu###articleOfferFlag
 blikk.hu##[id^="rltd-ad-"]
+blikk.hu###underArticleAdvertisement
+blikk.hu##body > .extraContentSection:nth-of-type(-n+3)
+blikk.hu##a[href*="gemius"]
 !
 ||stylemagazin.hu/static/template_settings/
 stylemagazin.hu##[class="wp-container wp-top"]
