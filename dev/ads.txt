@@ -893,6 +893,8 @@ egeszsegkalauz.hu##div.wrapAds
 egeszsegkalauz.hu#?#div.wrapRectangle:-abp-has(#ad-cikk)
 egeszsegkalauz.hu#?#.row:-abp-has(> #onet-ad-top)
 egeszsegkalauz.hu#?#.wrapRectangle:-abp-has(> div > span:-abp-contains(Hirdetés))
+egeszsegkalauz.hu##.detailRightAds
+egeszsegkalauz.hu##.rltd_container [id^="rltd-ad-"]
 !
 egeszsegtukor.hu##[id^="ad_"]
 !
