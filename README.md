@@ -25,6 +25,9 @@ Alternatív szűrőlistákat, további felhasználási feltételeket és inform�
 
 https://github.com/hufilter/hufilter/wiki
 
+## Contact, kapcsolat
+- [hufilter@protonmail.com](mailto:hufilter@protonmail.com)
+
 ## Licencelés
 A hufilter projekt a "Creative Commons Attribution 4.0" licenszfeltételek mellett használható fel. 
 A közreműködők vállalják ugyanezen feltételek melletti licenszelését a munkájuknak.
