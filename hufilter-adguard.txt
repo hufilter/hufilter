@@ -140,6 +140,7 @@ lumenet.hu###exposeMask
 lumenet.hu###page_PopupContainer
 mafab.hu##.visible-lg.container
 mafab.hu#?#div[class="container-full"][style="background:#fff"]:-abp-has(.topadv)
+mafab.hu##.goAds
 magyarnarancs.hu##[id*="_ad"]
 mainap.hu##[class*="banner"]
 manus.hu##[class*="articleBanner"]
@@ -912,6 +913,8 @@ egeszsegkalauz.hu##div.wrapAds
 egeszsegkalauz.hu#?#div.wrapRectangle:-abp-has(#ad-cikk)
 egeszsegkalauz.hu#?#.row:-abp-has(> #onet-ad-top)
 egeszsegkalauz.hu#?#.wrapRectangle:-abp-has(> div > span:-abp-contains(Hirdetés))
+egeszsegkalauz.hu##.detailRightAds
+egeszsegkalauz.hu##.rltd_container [id^="rltd-ad-"]
 !
 egeszsegtukor.hu##[id^="ad_"]
 !
@@ -1682,6 +1685,9 @@ glamour.hu##.ibb-banner-decor
 angol-magyar-szotar.hu##[id^="hird_"]
 angol-magyar-szotar.hu##.sidebar1 > div:first-child
 !
+hoxa.hu##[data-adblockonly]
+||aghtag.tech/libs/projectagora.min.js^$domain=hoxa.hu
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -2217,6 +2223,10 @@ unilife.hu###ac
 ||prelblog.com/cdn/js/comebacker/comebacker.js^$script
 !
 obi.hu##.colorbox-cookiepolicy
+!
+hoxa.hu###cookiekezeles
+!
+egeszsegkalauz.hu###articleOfferFlag
 !
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!

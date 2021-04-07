@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Yg1cbvyenEc/VYEU+VV/sQ
-! Version: 202103300940
+! Checksum: rCSr7LcAG52M2eLiy/918Q
+! Version: 202104071323
 ! Title: hufilter
-! Last modified: 30 Mar 2021 09:40 UTC
+! Last modified: 07 Apr 2021 13:23 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -146,6 +146,7 @@ lumenet.hu###exposeMask
 lumenet.hu###page_PopupContainer
 mafab.hu##.visible-lg.container
 mafab.hu#?#div[class="container-full"][style="background:#fff"]:-abp-has(.topadv)
+mafab.hu##.goAds
 magyarnarancs.hu##[id*="_ad"]
 mainap.hu##[class*="banner"]
 manus.hu##[class*="articleBanner"]
@@ -918,6 +919,8 @@ egeszsegkalauz.hu##div.wrapAds
 egeszsegkalauz.hu#?#div.wrapRectangle:-abp-has(#ad-cikk)
 egeszsegkalauz.hu#?#.row:-abp-has(> #onet-ad-top)
 egeszsegkalauz.hu#?#.wrapRectangle:-abp-has(> div > span:-abp-contains(Hirdetés))
+egeszsegkalauz.hu##.detailRightAds
+egeszsegkalauz.hu##.rltd_container [id^="rltd-ad-"]
 !
 egeszsegtukor.hu##[id^="ad_"]
 !
@@ -1687,6 +1690,9 @@ glamour.hu##.ibb-banner-decor
 !
 angol-magyar-szotar.hu##[id^="hird_"]
 angol-magyar-szotar.hu##.sidebar1 > div:first-child
+!
+hoxa.hu##[data-adblockonly]
+||aghtag.tech/libs/projectagora.min.js^$domain=hoxa.hu
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
