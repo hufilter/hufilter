@@ -120,6 +120,7 @@ lumenet.hu###exposeMask
 lumenet.hu###page_PopupContainer
 mafab.hu##.visible-lg.container
 mafab.hu#?#div[class="container-full"][style="background:#fff"]:-abp-has(.topadv)
+mafab.hu##.goAds
 magyarnarancs.hu##[id*="_ad"]
 mainap.hu##[class*="banner"]
 manus.hu##[class*="articleBanner"]
