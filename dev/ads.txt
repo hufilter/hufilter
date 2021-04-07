@@ -1663,6 +1663,9 @@ glamour.hu##.ibb-banner-decor
 angol-magyar-szotar.hu##[id^="hird_"]
 angol-magyar-szotar.hu##.sidebar1 > div:first-child
 !
+hoxa.hu##[data-adblockonly]
+||aghtag.tech/libs/projectagora.min.js^$domain=hoxa.hu
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
