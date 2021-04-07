@@ -371,3 +371,5 @@ obi.hu##.colorbox-cookiepolicy
 !
 hoxa.hu###cookiekezeles
 !
+egeszsegkalauz.hu###articleOfferFlag
+!
