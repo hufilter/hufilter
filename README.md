@@ -17,6 +17,7 @@ Jelenleg az alábbi hirdetésblokkolókat támogatjuk:
 DNS szűrés:
 * ![](https://i.ibb.co/qmmnw2Q/pihole.png) [Pi-hole](https://pi-hole.net/) ([Szűrő link](https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-dns.txt))
 * ![](https://i.ibb.co/rch274D/adguard.png) [AdGuard Home](https://adguard.com/en/adguard-home/overview.html) ([Szűrő link](https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-dns.txt))
+* ![](https://i.ibb.co/9YZqry9/rethinkdns.png) [RethinkDNS](https://github.com/celzero/rethink-app)
 
 Általánosságban elmondható, hogy a legtöbb hirdetésblokkolóval működik az [Adblock Plus listánk](https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter.txt).
 
