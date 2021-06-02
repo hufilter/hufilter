@@ -745,6 +745,14 @@ nepszava.hu##[class*="leftlogo"]
 nepszava.hu##[id*="adserver"]
 nepszava.hu##[class*="adlabel"]
 ||ads.nepszava.com^
+||nepszava.us/wp-content/uploads/2018/10/Dr-Donath-Joseph-javitott-banner-2.jpg$image
+||nepszava.us/wp-content/uploads/2018/10/Dr-Donath-Joseph-javitott-banner-2.jpg$image
+||nepszava.us/wp-content/uploads/2018/11/world-line-cargo.jpg$image
+||nepszava.us/wp-content/uploads/2018/10/7-ave-fogaszat1-e1540345068411.jpg$image
+||nepszava.us/wp-content/uploads/2018/11/erdei_300X600-e1541606568170.jpg$image
+||nepszava.us/wp-content/uploads/2018/11/levai_300X600-e1541606841686.jpg$image
+||nepszava.us/wp-content/uploads/2021/05/Dr.-Erdei-Andras*.jpg$image
+||nepszava.us/wp-content/uploads/2018/11/ronai_900X600-e1541449312519.jpg
 !
 novagyok.hu##[class*="banner"]
 novagyok.hu##[id*="banner"]
