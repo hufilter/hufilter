@@ -1,7 +1,7 @@
-! Checksum: pmgkDaxUN+zmHl0jiaRUwg
-! Version: 202104071323
+! Checksum: 7AP5F/vx2srDrdXG2OmTTg
+! Version: 202106051729
 ! Title: hufilter
-! Last modified: 07 Apr 2021 13:23 UTC
+! Last modified: 05 Jun 2021 17:29 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
@@ -744,6 +744,9 @@ nepszava.hu##[class*="leftlogo"]
 nepszava.hu##[id*="adserver"]
 nepszava.hu##[class*="adlabel"]
 ||ads.nepszava.com^
+nepszava.us##[id^="myftp"]
+nepszava.us##.myftp-widget
+nepszava.us##[id^="fancybox-"]
 !
 novagyok.hu##[class*="banner"]
 novagyok.hu##[id*="banner"]
@@ -1261,6 +1264,8 @@ bacsmegye.hu###total
 168ora.hu##[id*="etarget"]
 168ora.hu##[class*="banner"]
 !
+168.hu##.banner-wrapper
+!
 adozona.hu##[class*="ads"]
 adozona.hu##.big_badge
 adozona.hu##.az-layer
@@ -1692,6 +1697,10 @@ angol-magyar-szotar.hu##.sidebar1 > div:first-child
 !
 hoxa.hu##[data-adblockonly]
 ||aghtag.tech/libs/projectagora.min.js^$domain=hoxa.hu
+!
+szeged365.hu##[id^="stream-item-"]
+szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
+szeged365.hu##.stream-item
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!

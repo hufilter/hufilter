@@ -739,6 +739,9 @@ nepszava.hu##[class*="leftlogo"]
 nepszava.hu##[id*="adserver"]
 nepszava.hu##[class*="adlabel"]
 ||ads.nepszava.com^
+nepszava.us##[id^="myftp"]
+nepszava.us##.myftp-widget
+nepszava.us##[id^="fancybox-"]
 !
 novagyok.hu##[class*="banner"]
 novagyok.hu##[id*="banner"]
@@ -1256,6 +1259,8 @@ bacsmegye.hu###total
 168ora.hu##[id*="etarget"]
 168ora.hu##[class*="banner"]
 !
+168.hu##.banner-wrapper
+!
 adozona.hu##[class*="ads"]
 adozona.hu##.big_badge
 adozona.hu##.az-layer
@@ -1687,6 +1692,10 @@ angol-magyar-szotar.hu##.sidebar1 > div:first-child
 !
 hoxa.hu##[data-adblockonly]
 ||aghtag.tech/libs/projectagora.min.js^$domain=hoxa.hu
+!
+szeged365.hu##[id^="stream-item-"]
+szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
+szeged365.hu##.stream-item
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
