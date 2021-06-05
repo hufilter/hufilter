@@ -1673,6 +1673,10 @@ angol-magyar-szotar.hu##.sidebar1 > div:first-child
 hoxa.hu##[data-adblockonly]
 ||aghtag.tech/libs/projectagora.min.js^$domain=hoxa.hu
 !
+szeged365.hu##[id^="stream-item-"]
+szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
+szeged365.hu##.stream-item
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
