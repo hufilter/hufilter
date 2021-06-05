@@ -719,6 +719,9 @@ nepszava.hu##[class*="leftlogo"]
 nepszava.hu##[id*="adserver"]
 nepszava.hu##[class*="adlabel"]
 ||ads.nepszava.com^
+nepszava.us##[id^="myftp"]
+nepszava.us##.myftp-widget
+nepszava.us##[id^="fancybox-"]
 !
 novagyok.hu##[class*="banner"]
 novagyok.hu##[id*="banner"]
