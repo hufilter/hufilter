@@ -1239,6 +1239,8 @@ bacsmegye.hu###total
 168ora.hu##[id*="etarget"]
 168ora.hu##[class*="banner"]
 !
+168.hu##.banner-wrapper
+!
 adozona.hu##[class*="ads"]
 adozona.hu##.big_badge
 adozona.hu##.az-layer
