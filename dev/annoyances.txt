@@ -180,8 +180,9 @@ hazipatika.com###facebook-sharebar
 444.hu###cookie_popup_container
 !
 player.hu##[class*="c_banner"]
-!
 player.hu##.ui-dialog[aria-describedby="newsletter-modal"]
+player.hu##.ui-widget-overlay.ui-front
+player.hu##[aria-describedby="dialog-welcome"]
 player.hu##.ui-widget-overlay.ui-front
 !
 profession.hu##.cookie-layer
@@ -232,6 +233,7 @@ hwsw.hu###cookiealert
 !
 femina.hu###_iph_cp_popup
 femina.hu###femina-shop-ajanlo-slider
+femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
 !
 transindex.ro###cookie-bar
 !
@@ -284,6 +286,7 @@ index.hu###_iph_cp_popup
 24.hu###stickyMobileNotification
 24.hu##div#qc-cmp2-container
 24.hu##div#webPushPopup
+24.hu##div.m-donationBottomLine
 !
 meszotar.hu##.cc_banner-wrapper
 !
@@ -342,10 +345,31 @@ online-filmek.me##[class*="cc_banner"]
 magyarnemzet.hu##div.gdprBoxContainer
 !
 forbes.hu###catapult-cookie-bar
+forbes.hu##.crp_related
 !
 infostart.hu##div[data-qa="oil-Layer"]
 !
 blikk.hu###pe_confirm
 blikk.hu###qc-cmp2-container
 blikk.hu###qc-cmp2-ui
+!
+privatbankar.hu##.mfor_cikk_beuszo
+privatbankar.hu##.news-page > div[style*="background: #FFF900;"]:first-child
+!
+raketa.hu##[aria-describedby="newsletter-modal"]
+raketa.hu##.ui-widget-overlay
+!
+epiteszforum.hu##div.supportModal
+epiteszforum.hu##div.cookieLayer
+!
+unilife.hu##.facebook-layer-box
+unilife.hu###ac
+!
+||prelblog.com/cdn/js/comebacker/comebacker.js^$script
+!
+obi.hu##.colorbox-cookiepolicy
+!
+hoxa.hu###cookiekezeles
+!
+egeszsegkalauz.hu###articleOfferFlag
 !

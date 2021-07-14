@@ -31,6 +31,8 @@ traffihunter.hu#%#//scriptlet('remove-class', 'darken', 'body')
 vezess.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave', 'showFbPopup')
 vezess.hu#%#//scriptlet('prevent-setTimeout', 'FbExit', '3000')
 !
+pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')
+!
 szeretlekmagyarorszag.hu$$script[tag-content="window.atob"]
 !
 port.hu$$script[tag-content="addEListener(DCL"]
@@ -55,6 +57,19 @@ divany.hu$$script[tag-content="window.onload = window.onfocus"]
 portfolio.hu$$script[tag-content="fbmodal-title"]
 !
 24.hu$$script[tag-content="2blck"]
+!
+hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
+!
+gamer.hu$$script[tag-content="cli_cookiebar_"]
+!
+ncore.pro$$script[tag-content="adpv"]
+!
+! https://github.com/hufilter/hufilter/issues/215
+! https://github.com/AdguardTeam/AdguardFilters/issues/75763
+! Thanks to AdamWr
+femina.hu#%#//scriptlet('set-constant', 'window.ado', 'null')
+!
+angol-magyar-szotar.hu#%#//scriptlet('set-constant', 'adblock', 'false')
 !
 !-------------- CSS modifiers ----------------------------------------------!
 !
@@ -94,19 +109,30 @@ keol.hu#$#@media (min-width: 1200px) { section[id="content_left"][class="content
 keol.hu#$#section[id="content_left"][class="content_content"] { width: auto !important; padding: 0 45px 0 46px !important; }
 keol.hu#$#div#search_container { margin-bottom: 0 !important; }
 !
+kekvillogo.hu#$#body { padding-top: 0 !important; }
+!
+hu.ign.com#$#div.article-headline { margin-top: 44px !important; }
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
 player.hu##.adult-overelay
 traffihunter.hu##.ooono_promo
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
-totalcar.hu##body > section:last-of-type
-totalbike.hu##body > section:last-of-type
-divany.hu##body > section:last-of-type
+! https://github.com/hufilter/hufilter/issues/212
+totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):last-of-type
+!totalcar.hu##body > section:last-of-type
+!totalbike.hu##body > section:last-of-type
+!divany.hu##body > section:last-of-type
 !
 ! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d
 ! Author: AdamWr (https://github.com/AdamWr)
 videa.hu#@#.adBanner
+!
+hetek.hu###nyeremenyModal
+hetek.hu##[class="modal-backdrop fade show"]
+!
+ncore.pro###x-pop
 !
 ! End of iOS limitations
 !#endif

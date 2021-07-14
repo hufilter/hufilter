@@ -1,32 +1,39 @@
-![hufilter](https://i.ibb.co/QnscqN5/hufilter.png)
+&nbsp;
+<p align="center">
+  <img src="assets/hufilter_logo.png" width="350px" alt="hufilter" />
+</p>
 
-# hufilter
+## Köszöntünk a hufilter oldalán!
 
-Üdvözlünk a hufilter oldalán!
-
-A hufilter egy szűrőlista, amely arra készült, hogy a magyar nyelvű weboldalakról eltávolítsa a hirdetésket, az irritáló elemeket, valamint a különböző nyomkövető eszközöket.
+A hufilter egy hirdetésblokkolókhoz készült szűrőlista, amely abból a célból jött létre, hogy a magyar nyelvű weboldalakról eltávolítsa a hirdetésket, az irritáló elemeket, valamint a különböző nyomkövető eszközöket.
 
 Jelenleg az alábbi hirdetésblokkolókat támogatjuk:
-* ![](https://i.ibb.co/wy0Xqjm/ab.png) [AdBlock](https://getadblock.com/) ([Feliratkozás](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Fhufilter%2Fhufilter%2Fmaster%2Fhufilter.txt&amp;title=hufilter))
-* ![](https://i.ibb.co/VWkXHfW/abp.png) [Adblock Plus](https://adblockplus.org) ([Feliratkozás](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Fhufilter%2Fhufilter%2Fmaster%2Fhufilter.txt&amp;title=hufilter))
-* ![](https://i.ibb.co/MskKKGZ/ublock.png) [uBlock Origin](https://github.com/gorhill/uBlock) ([Feliratkozás](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Fhufilter%2Fhufilter%2Fmaster%2Fhufilter-ublock.txt&amp;title=hufilter))
-* ![](https://i.ibb.co/rch274D/adguard.png) [AdGuard](https://adguard.com) ([Feliratkozás](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Fhufilter%2Fhufilter%2Fmaster%2Fhufilter-adguard.txt&amp;title=hufilter))
-* ![](https://i.ibb.co/P57DX8R/ad-ultimate.png) [AdBlocker Ultimate](https://adblockultimate.net/) ([Feliratkozás](https://subscribe.adblockplus.org?location=https%3A%2F%2Fraw.githubusercontent.com%2Fhufilter%2Fhufilter%2Fmaster%2Fhufilter.txt&amp;title=hufilter))
+* ![](https://i.ibb.co/wy0Xqjm/ab.png) [AdBlock](https://getadblock.com/)
+* ![](https://i.ibb.co/VWkXHfW/abp.png) [Adblock Plus](https://adblockplus.org)
+* ![](https://i.ibb.co/MskKKGZ/ublock.png) [uBlock Origin](https://github.com/gorhill/uBlock)
+* ![](https://i.ibb.co/rch274D/adguard.png) [AdGuard](https://adguard.com)
+* ![](https://i.ibb.co/P57DX8R/ad-ultimate.png) [AdBlocker Ultimate](https://adblockultimate.net/)
 
 DNS szűrés:
 * ![](https://i.ibb.co/qmmnw2Q/pihole.png) [Pi-hole](https://pi-hole.net/) ([Szűrő link](https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-dns.txt))
 * ![](https://i.ibb.co/rch274D/adguard.png) [AdGuard Home](https://adguard.com/en/adguard-home/overview.html) ([Szűrő link](https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-dns.txt))
+* ![](https://i.ibb.co/9YZqry9/rethinkdns.png) [RethinkDNS](https://github.com/celzero/rethink-app)
 
-Általánosságban elmondható, hogy a legtöbb hirdetésblokkolóval működik az Adblock Plus lista.
+Általánosságban elmondható, hogy a legtöbb hirdetésblokkolóval működik az [Adblock Plus listánk](https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter.txt).
 
+## Bővebb leírás
 Alternatív szűrőlistákat, további felhasználási feltételeket és információkat a projekt wikijében találsz:
 
 https://github.com/hufilter/hufilter/wiki
 
+## Contact, kapcsolat
+- [hufilter@protonmail.com](mailto:hufilter@protonmail.com)
+
+## Licencelés
 A hufilter projekt a "Creative Commons Attribution 4.0" licenszfeltételek mellett használható fel. 
 A közreműködők vállalják ugyanezen feltételek melletti licenszelését a munkájuknak.
 
 The project hufilter is distributed under the "Creative Commons Attribution 4.0" license. 
 Contributors are licensing their work under the very same terms and conditions.
 
-http://creativecommons.org/licenses/by/4.0/
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)

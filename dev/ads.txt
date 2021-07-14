@@ -21,8 +21,6 @@
 !##[href*="addtoany.com"]
 ##[href*="kuponmania.hu"]
 ##[id*="GoogleAds"]
-##[id*="ad-google"]
-##[id*="adzone"]
 ##[id*="google_ads"]
 !##[id*="overlayBg"]
 ##[id^="ad_zone_"]
@@ -82,7 +80,6 @@ gyoricegregiszter.hu##[class*="banner"]
 hajokonyha.hu##[class*="hirdetes"]
 hatarido-szamitas.hu##.szkozepkis
 helyitipp.hu##[id*="hirdet"]
-hetek.hu##[id*="popup"]
 hir6.hu##[class*="banner"]
 hirado.hu##[class="video_preroll type_swf"]
 hirextra.hu##[class*="billboard"]
@@ -122,6 +119,8 @@ lovebox.hu##[class*="banner"]
 lumenet.hu###exposeMask
 lumenet.hu###page_PopupContainer
 mafab.hu##.visible-lg.container
+mafab.hu#?#div[class="container-full"][style="background:#fff"]:-abp-has(.topadv)
+mafab.hu##.goAds
 magyarnarancs.hu##[id*="_ad"]
 mainap.hu##[class*="banner"]
 manus.hu##[class*="articleBanner"]
@@ -203,7 +202,6 @@ yayo.hu/static/banner/
 zene.hu##.etarget
 feliratok.org##.wrapper > .slider
 5percblog.hu#?#.code-block:-abp-has(script + ins)
-glamour.hu###ibb-text-1
 !
 dictzone.com###a1
 dictzone.com###a2
@@ -289,6 +287,10 @@ chat.hu##[id*="banner"]
 !
 blikk.hu###footerLogos
 blikk.hu###articleOfferFlag
+blikk.hu##[id^="rltd-ad-"]
+blikk.hu###underArticleAdvertisement
+blikk.hu##body > .extraContentSection:nth-of-type(-n+3)
+blikk.hu##a[href*="gemius"]
 !
 ||stylemagazin.hu/static/template_settings/
 stylemagazin.hu##[class="wp-container wp-top"]
@@ -475,6 +477,8 @@ gyakorikerdesek.hu##td[style="width: 10px;"]:empty
 gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##[href^="https://www.webminute.hu"]
 ||gyakorikerdesek.hu/pic/bannerek/
+||aghtag.tech/libs/projectagora.min.js^$domain=gyakorikerdesek.hu
+||related.hu/js/v2/widget.js^$domain=gyakorikerdesek.hu
 !
 klubradio.hu##DIV[id*="banner"]
 ||klubradio.hu/data/files/banner
@@ -568,7 +572,6 @@ femina.hu##[class*="kepeslinkes"]
 femina.hu##.doboz_harmados
 femina.hu#@#[class="goAdverticum"]
 femina.hu#?#.szelso-jobb > div:-abp-has(> a)
-femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
 femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.femina-shop-ajanlo-slider-hirdetes)
 !
 femcafe.hu##[class*="-adv"]
@@ -716,6 +719,9 @@ nepszava.hu##[class*="leftlogo"]
 nepszava.hu##[id*="adserver"]
 nepszava.hu##[class*="adlabel"]
 ||ads.nepszava.com^
+nepszava.us##[id^="myftp"]
+nepszava.us##.myftp-widget
+nepszava.us##[id^="fancybox-"]
 !
 novagyok.hu##[class*="banner"]
 novagyok.hu##[id*="banner"]
@@ -890,6 +896,8 @@ egeszsegkalauz.hu##div.wrapAds
 egeszsegkalauz.hu#?#div.wrapRectangle:-abp-has(#ad-cikk)
 egeszsegkalauz.hu#?#.row:-abp-has(> #onet-ad-top)
 egeszsegkalauz.hu#?#.wrapRectangle:-abp-has(> div > span:-abp-contains(Hirdetés))
+egeszsegkalauz.hu##.detailRightAds
+egeszsegkalauz.hu##.rltd_container [id^="rltd-ad-"]
 !
 egeszsegtukor.hu##[id^="ad_"]
 !
@@ -1231,6 +1239,8 @@ bacsmegye.hu###total
 168ora.hu##[id*="etarget"]
 168ora.hu##[class*="banner"]
 !
+168.hu##.banner-wrapper
+!
 adozona.hu##[class*="ads"]
 adozona.hu##.big_badge
 adozona.hu##.az-layer
@@ -1536,6 +1546,11 @@ budapestkornyeke.hu###custom_html-10
 budapestkornyeke.hu##div[class*="widget"]:-abp-has(> .widgettitle:-abp-contains(Hirdetés))
 budapestkornyeke.hu##div[class*="widget"]:-abp-has(> .widgettitle:-abp-contains(Állásajánlat))
 !
+kekvillogo.hu##div.bpkad
+kekvillogo.hu,budapestkornyeke.hu###full-desktop
+kekvillogo.hu,budapestkornyeke.hu###full-mobile
+kekvillogo.hu,budapestkornyeke.hu##header + div[style^="margin:"]
+!
 ! InfoVaros oldalak
 infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###sidebar > div[class*="banner"]
 infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu##div.read div[class*="banner"]
@@ -1589,7 +1604,7 @@ agrarszektor.hu##div#ajanlo
 !
 travelo.hu##div.facebook-layer-box
 !
-ncore.cc##.banner
+ncore.pro##.banner
 !
 dehir.hu##.totop
 dehir.hu##.slidingBanner
@@ -1619,8 +1634,6 @@ nlc.hu##.m-fbPopup
 !
 napjainkportal.hu#?#.code-block:-abp-has(> div + ins.adsbygoogle + script)
 !
-kekvillogo.hu##div.bpkad
-!
 alapjarat.hu##div#alapjarat_cikk_fekvo_1
 alapjarat.hu##div.header + .clearfix + .clearfix
 !
@@ -1628,6 +1641,41 @@ harmonikum.co#?#div:-abp-has(> .ai-attributes + script + ins)
 !
 lifestory.hu#?#div.lol:-abp-has(> a[onclick="getValue()"])
 lifestory.hu#?#div.widget:-abp-has(> div.textwidget > p > script)
+!
+ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
+ugytudjuk.hu##.leftSide > .bnr
+ugytudjuk.hu##.rightSide > .bnr
+!
+leet.hu##.category > #prodstop1
+leet.hu##.single-post > #prodstop1
+!
+raketa.hu##[class*="adv--"]
+!
+pcforum.hu##div#zone-titleheader
+!
+hetek.hu##[id*="popup"]
+hetek.hu##div.row:-abp-has(> div.ads)
+!
+hu.ign.com##[data-zadtype="billboard"]
+hu.ign.com##div.mobileArticleAds
+hu.ign.com#?#figure:-abp-has(a[href*="ignshop.hu"])
+hu.ign.com#?#div.right-rail:-abp-has(div.ad-wrapper)
+!
+glamour.hu##[id^="ibb-"][class*="banner"]
+glamour.hu##.ibb-banner-decor
+!
+5percblog.hu###text-5
+5percblog.hu###text-6
+!
+angol-magyar-szotar.hu##[id^="hird_"]
+angol-magyar-szotar.hu##.sidebar1 > div:first-child
+!
+hoxa.hu##[data-adblockonly]
+||aghtag.tech/libs/projectagora.min.js^$domain=hoxa.hu
+!
+szeged365.hu##[id^="stream-item-"]
+szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
+szeged365.hu##.stream-item
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!

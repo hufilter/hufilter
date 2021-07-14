@@ -28,6 +28,8 @@ traffihunter.hu##+js(rc, darken, body)
 vezess.hu##+js(aeld, mouseleave, showFbPopup)
 vezess.hu##+js(nostif, FbExit, 3000)
 !
+pcworld.hu##+js(rc, have-ad, body)
+!
 szeretlekmagyarorszag.hu##^script:has-text(window.atob)
 !
 port.hu##^script:has-text(addEListener(DCL)
@@ -52,6 +54,17 @@ divany.hu##body > script:has-text(window.onload = window.onfocus)
 portfolio.hu##body > script:has-text(fbmodal-title)
 !
 24.hu##body > script:has-text(2blck)
+!
+hetek.hu##+js(rc, modal-open, body)
+!
+gamer.hu##body > script:has-text(cli_cookiebar_)
+!
+ncore.pro##^script:has-text(adpv)
+!
+! https://github.com/hufilter/hufilter/issues/215
+femina.hu##+js(set, window.ado, null)
+!
+angol-magyar-szotar.hu##+js(set, adblock, false)
 !
 !-------------- CSS modifiers ----------------------------------------------!
 !
@@ -89,24 +102,34 @@ keol.hu##section[id="content_left"][class="content_start"]:style(padding-top: 80
 keol.hu##section[id="content_left"][class="content_content"]:style(width: auto !important; padding: 0 45px 0 46px !important;)
 keol.hu##div#search_container:style(margin-bottom: 0 !important;)
 !
+kekvillogo.hu##body:style(padding-top: 0 !important;)
+!
+hu.ign.com##div.article-headline:style(margin-top: 44px !important;)
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
 player.hu##.adult-overelay
 traffihunter.hu##.ooono_promo
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
-totalcar.hu##body > section:last-of-type
-totalbike.hu##body > section:last-of-type
-divany.hu##body > section:last-of-type
+! https://github.com/hufilter/hufilter/issues/212
+totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):last-of-type
+!totalcar.hu##body > section:last-of-type
+!totalbike.hu##body > section:last-of-type
+!divany.hu##body > section:last-of-type
 !
 ! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d
 ! Author: AdamWr (https://github.com/AdamWr)
 videa.hu#@#.adBanner
+!
+hetek.hu###nyeremenyModal
+hetek.hu##[class="modal-backdrop fade show"]
+!
+ncore.pro###x-pop
 !
 !-------------- Other ------------------------------------------------------!
 !
 @@||meszotar.hu/scripts/advertising.js
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
 ||freewaresoftwarenews.blogspot.$first-party,inline-script
-ncore.cc##^#x-pop
-ncore.cc##^.container-in > script:last-of-type
+
