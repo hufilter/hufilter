@@ -28,6 +28,7 @@ https://github.com/hufilter/hufilter/wiki
 
 ## Contact, kapcsolat
 - [hufilter@protonmail.com](mailto:hufilter@protonmail.com)
+- [Discussions tab / beszélgetések fül](https://github.com/hufilter/hufilter/discussions)
 
 ## Licencelés
 A hufilter projekt a "Creative Commons Attribution 4.0" licenszfeltételek mellett használható fel. 
