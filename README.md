@@ -21,16 +21,16 @@ DNS szűrés:
 
 Általánosságban elmondható, hogy a legtöbb hirdetésblokkolóval működik az [Adblock Plus listánk](https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter.txt).
 
-## Bővebb leírás
-Alternatív szűrőlistákat, további felhasználási feltételeket és információkat a projekt wikijében találsz:
+## Wiki
+Reklámblokkolási technikákért, részletes felhasználási és közreműködési feltételekért, további információkért látogass el a Wiki oldalunkra:
 
 https://github.com/hufilter/hufilter/wiki
 
-## Contact, kapcsolat
-- [hufilter@protonmail.com](mailto:hufilter@protonmail.com)
-- [Discussions tab / beszélgetések fül](https://github.com/hufilter/hufilter/discussions)
+## Kapcsolat / contact
+- E-mail: [hufilter@protonmail.com](mailto:hufilter@protonmail.com)
+- [Beszélgetések fül / discussions tab](https://github.com/hufilter/hufilter/discussions)
 
-## Licencelés
+## Licencelés / licensing
 A hufilter projekt a "Creative Commons Attribution 4.0" licenszfeltételek mellett használható fel. 
 A közreműködők vállalják ugyanezen feltételek melletti licenszelését a munkájuknak.
 
