@@ -37,7 +37,6 @@
 ##DIV[href*="ad.adverticum.net"]
 ###cemp_doboz
 ###cenmg
-##.clyl_outer
 ###google_hirdetesek
 ##DIV[id^="googlead"]
 ##IFRAME[id*="ETARGET-hu-"]
@@ -398,6 +397,7 @@ origo.hu##[class*="origoAjanlat"]
 origo.hu##[id*="ajanlat_"]
 origo.hu##A[href*="xtb.hu"]
 origo.hu##DIV[id*="magnum"]
+origo.hu##.clyl_outer
 origo.hu###szoveges
 origo.hu##DIV[class*="Advert"]
 origo.hu##IFRAME[id*="bookline"]
