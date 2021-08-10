@@ -37,6 +37,7 @@
 ##DIV[href*="ad.adverticum.net"]
 ###cemp_doboz
 ###cenmg
+##.clyl_outer
 ###google_hirdetesek
 ##DIV[id^="googlead"]
 ##IFRAME[id*="ETARGET-hu-"]
