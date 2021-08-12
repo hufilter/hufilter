@@ -1,3 +1,12 @@
+&nbsp;
+<div>
+  <p align="center"><img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/hufilter_logo.png" width="350px" alt="hufilter logo" /></p>
+  <p align="center">
+    <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0" />
+    <img src="https://github.com/hufilter/hufilter-dev/actions/workflows/push.yml/badge.svg" alt="Workflow state" />
+  </p>
+</div>
+
 # Hufilter fejlesztői dokumentáció
 
 Ez a leírás tartalmazza a fejlesztéshez szükséges főbb tudnivalókat. Kérjük, hogy olvasd el, ha munkáddal hozzá szeretnél járulni a hufilter projekthez!
