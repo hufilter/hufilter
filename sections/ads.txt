@@ -139,6 +139,7 @@ motorrevu.hu##[class*="hirdetes"]
 mozinezo.hu###header
 mozishop.hu##.om-holder
 mult-kor.hu##[class^="ui-dialog"]
+mult-kor.hu##[align="center"] > a[href*="banner"]
 multiplay.hu##[id*="banner"]
 myvip.com##[id*="banner"]
 napi.hu##[id*="billboard"]
