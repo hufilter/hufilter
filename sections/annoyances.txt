@@ -373,3 +373,5 @@ hoxa.hu###cookiekezeles
 !
 egeszsegkalauz.hu###articleOfferFlag
 !
+wikiszotar.hu###cookie-bar
+!
