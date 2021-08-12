@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "node build.js",
+    "test": "node test.js"
+  },
+  "author": "Hufilter contributors",
+  "license": "CC-BY-4.0",
+  "dependencies": {
+    "dateformat": "^4.5.1"
+  }
+}

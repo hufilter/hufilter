@@ -1,0 +1,78 @@
+name: Automatic build, test, deploy on push
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - LICENSE
+      - RELEASE_README.md
+      - headers/**.txt
+      - sections/**.txt
+      - filters.json
+      - build.js
+      - test.js
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+      - name: Install dependencies
+        run: npm install
+      - name: Create release directory
+        run: |
+          mkdir release
+          cp LICENSE ./release/LICENSE
+          cp RELEASE_README.md ./release/README.md
+      - name: Run build script
+        run: npm run build
+      - name: Create artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: release_artifact
+          path: release/**
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: release_artifact
+          path: ./release
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14.x
+      - name: Install dependencies
+        run: npm install
+      - name: Run test script
+        run: npm run test
+  deploy:
+    needs: test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: master
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: release_artifact
+          path: ./release
+      - name: Commit and push changes
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+        with:
+          source-directory: release
+          destination-repository-username: hufilter
+          destination-repository-name: hufilter
+          user-email: hufilter@protonmail.com
+          user-name: hufilterbot
+          target-branch: master
+          commit-message: Automatic deploy from ORIGIN_COMMIT
