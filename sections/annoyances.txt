@@ -375,3 +375,5 @@ egeszsegkalauz.hu###articleOfferFlag
 !
 wikiszotar.hu###cookie-bar
 !
+szekelyfold.ma##.Cookie--bottom
+!
