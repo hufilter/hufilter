@@ -962,6 +962,7 @@ bien.hu##.tapeta.fixed
 bien.hu#?#.hidden-xs:-abp-has(> .weboldal_felett)
 bien.hu#?#.hidden-xs:-abp-has(> .lablec_alatt)
 bien.hu##blockquote
+bien.hu##[data-ai]
 !
 moly.hu##[class*="banner"]
 !
