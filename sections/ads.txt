@@ -396,6 +396,7 @@ origo.hu,gphirek.hu##[id^="zone"]
 origo.hu##.origo-jatek-randi-bottom
 origo.hu###ac
 origo.hu##div.mme-doboz
+origo.hu##.col-xl-8 + aside.col-xl-4.col-visible-xl
 ||origo.hu/banner/
 ||origo.hu/p/sales/
 ||static.origos.hu/s/css/responsive-ads/hangar/hangar-investor-web.css$stylesheet
@@ -1681,6 +1682,7 @@ szeged365.hu##.stream-item
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
 !
+||adfair.hu
 ||ad.kapos.hu
 ||ad.napilapcsoport.hu
 ||ad.pphungary.hu
