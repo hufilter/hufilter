@@ -900,6 +900,7 @@ egeszsegkalauz.hu#?#.row:-abp-has(> #onet-ad-top)
 egeszsegkalauz.hu#?#.wrapRectangle:-abp-has(> div > span:-abp-contains(Hirdetés))
 egeszsegkalauz.hu##.detailRightAds
 egeszsegkalauz.hu##.rltd_container [id^="rltd-ad-"]
+egeszsegkalauz.hu##a[title="Hirdetés"]
 !
 egeszsegtukor.hu##[id^="ad_"]
 !
