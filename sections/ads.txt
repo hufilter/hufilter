@@ -399,7 +399,7 @@ origo.hu###ac
 origo.hu##div.mme-doboz
 origo.hu##.col-xl-8 + aside.col-xl-4.col-visible-xl
 origo.hu##.article-recommendation-zones
-origo.hu##div.cmay_outer
+origo.hu##div[class*="widget"]
 ||origo.hu/banner/
 ||origo.hu/p/sales/
 ||static.origos.hu/s/css/responsive-ads/hangar/hangar-investor-web.css$stylesheet
