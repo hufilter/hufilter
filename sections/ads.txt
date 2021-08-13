@@ -398,7 +398,7 @@ origo.hu##.origo-jatek-randi-bottom
 origo.hu###ac
 origo.hu##div.mme-doboz
 origo.hu##.col-xl-8 + aside.col-xl-4.col-visible-xl
-origo.hu##.article-recommendation-zones
+origo.hu##div.article-recommendation-zones
 origo.hu##div[class$="widget"][data-adblockonly="1"]
 ||origo.hu/banner/
 ||origo.hu/p/sales/
