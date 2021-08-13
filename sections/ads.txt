@@ -648,6 +648,8 @@ life.hu###pr-box
 life.hu##[id^="szponz-"]
 life.hu###ac
 life.hu###mc-holder
+life.hu##.col-visible-xl.r-side.col-xl-4
+life.hu##.life-recommendation
 !
 idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]
