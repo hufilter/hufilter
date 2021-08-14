@@ -649,7 +649,8 @@ life.hu##[id^="szponz-"]
 life.hu###ac
 life.hu###mc-holder
 life.hu##.col-visible-xl.r-side.col-xl-4
-life.hu##.life-recommendation
+life.hu##div[class$="widget"]
+life.hu##div.article-recommendation-zones
 !
 idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]
