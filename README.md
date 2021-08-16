@@ -88,14 +88,14 @@ Itt összegyűjtöttük az említett hirdetésblokkolók szintaxisait segítség
     - AdGuard szűrők készítése:
       - https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
     - AdGuard scriptlet-ek:
-    -   https://github.com/AdguardTeam/Scriptlets#scriptlets
+      - https://github.com/AdguardTeam/Scriptlets#scriptlets
     - AdGuard/uBO/ABP scriptlet-ek kompabitilitási táblázata:
       - https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md#scriptlets
    - ![](https://i.ibb.co/MskKKGZ/ublock.png) **uBlock Origin**
       - uBO szűrők szintaxisa:
         - https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
       - uBO scriptlet-ek:
-      -   https://github.com/gorhill/uBlock/wiki/Resources-Library  
+        - https://github.com/gorhill/uBlock/wiki/Resources-Library  
 
 ## Build folyamat
 1. fázis: 
