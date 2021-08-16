@@ -13,15 +13,15 @@ Ez a leírás tartalmazza a fejlesztéshez szükséges főbb tudnivalókat. Kér
 
 - **A hufilter fejlesztése ebben a repoban történik, a [másik repo](https://github.com/hufilter/hufilter) csak a build folyamat eredménye!** Lásd: [Build folyamat](#build-folyamat)
 - A hufilter alapvetően 3 fő reklámblokkolót támogat:
-  - ![](https://i.ibb.co/rch274D/adguard.png) AdGuard
-  - ![](https://i.ibb.co/MskKKGZ/ublock.png) uBlock Origin
-  - ![](https://i.ibb.co/VWkXHfW/abp.png) Adblock Plus
+  - ![](https://i.ibb.co/rch274D/adguard.png) [AdGuard](https://adguard.com/)
+  - ![](https://i.ibb.co/MskKKGZ/ublock.png) [uBlock Origin](https://github.com/gorhill/uBlock)
+  - ![](https://i.ibb.co/VWkXHfW/abp.png) [Adblock Plus](https://adblockplus.org/)
   - Illetve további kettőt, amelyek a fentiek szabályszintaxisát használják:
     * ![](https://i.ibb.co/P57DX8R/ad-ultimate.png) [AdBlocker Ultimate](https://adblockultimate.net/): AdGuard szintaxis
     * ![](https://i.ibb.co/wy0Xqjm/ab.png) [AdBlock](https://getadblock.com/): Adblock Plus szintaxis
 
 ## Projekt szerkezete
-Ez a fejezet ismerteti a projektben található fájlokat és könyvtárakat, valamint azok szerepét.
+Ez a fejezet ismerteti a hufilter projektben található fájlokat és könyvtárakat, valamint azok szerepét.
 - **sections mappa**
   - Ha közreműködsz, **az érdemi fejlesztés ebben a mappában történik.**
   - Itt gyűjtjük a szűrési szabályokat, különböző kategóriákra, szekciókra bontva. Egy fájl egy szekciót jelent.
@@ -68,26 +68,34 @@ Ez a fejezet ismerteti a projektben található fájlokat és könyvtárakat, va
   - **RELEASE_README.md**
     - A  [másik repo](https://github.com/hufilter/hufilter)-ba ez a leírás fog megjelenni README.md-ként.
 
-  
-## Szintaxisok
+## Szintaxisok, dokumentációk
 Itt összegyűjtöttük az említett hirdetésblokkolók szintaxisait segítségképpen. 
 - A szintaxis gyakorlatilag egy szabályrendszer. Megadja azt a logikát, hogy egyes reklámblokkolók miként, és milyen szabályokat tudnak értelmezni.
-- Az összegyűjtött dokumentációk angol nyelvűek. A szűrőszabályok fejlesztéséhez szükséges némi webfejlesztés terén szerzett előismeret, pl. a [CSS selectorok](https://www.w3schools.com/cssref/css_selectors.asp) vagy a Javascript legalább alapszintű ismerete. A DevTools alapszintű ismerete szintén ajánlott. 
+- Az összegyűjtött dokumentációk angol nyelvűek. A szűrőszabályok fejlesztéséhez szükséges némi webfejlesztés terén szerzett előismeret, pl. a [CSS selectorok](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors) vagy a [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) legalább alapszintű ismerete. A [DevTools](https://developer.chrome.com/docs/devtools/) alapszintű ismerete szintén ajánlott. 
 - Az uBlock és az AdGuard az Adblock Plus szintaxisára épül, így az összes Adblock Plus szintaxissal írt szabály működik mindhárom blokkolóval. Ezért írunk elő bizonyos fájlokban kizárólag ABP szintaxist.
 - Valamilyen szinten az AdGuard és az uBlock is kompatibilis egymással, **de nem teljesen, és nem oda-vissza**.
-- ![](https://i.ibb.co/VWkXHfW/abp.png) Adblock Plus
-  - https://adblockplus.org/filter-cheatsheet 
-  - https://help.eyeo.com/adblockplus/how-to-write-filters
-  - https://help.eyeo.com/en/adblockplus/snippet-filters-tutorial
-    - Fontos, hogy az ABP ezeket a szkripteket [csak egy speciális szűrőben](https://github.com/abp-filters/abp-filters-anti-cv) engedi, így ilyen szabályokat a hufilterbe nem tudunk elfogadni, azokat az említett szűrőbe küldd be!
-    - Az uBlock és az AdGuard azonban lehetővé teszi, hogy ilyen szabályokat használjunk a hufilterben, de ott is körültekintően járj el.
-- ![](https://i.ibb.co/rch274D/adguard.png) AdGuard
-  - https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
-  - https://github.com/AdguardTeam/Scriptlets#scriptlets
-  - https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md#scriptlets
- - ![](https://i.ibb.co/MskKKGZ/ublock.png) uBlock Origin
-    - https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
-    - https://github.com/gorhill/uBlock/wiki/Resources-Library  
+- Hasznos linkek a három fő hirdetésblokkolóhoz:
+  - ![](https://i.ibb.co/VWkXHfW/abp.png) **Adblock Plus**
+    - ABP szűrőszabályok gyorstalpaló:
+      - https://adblockplus.org/filter-cheatsheet 
+    - ABP szűrőszabályok részletes:
+      - https://help.eyeo.com/adblockplus/how-to-write-filters
+    - ABP scriptlet-ek: 
+      - https://help.eyeo.com/en/adblockplus/snippet-filters-tutorial
+      - Fontos, hogy az ABP ezeket a scriptlet-eket [csak egy speciális, ún. anti-circumvention szűrőben](https://github.com/abp-filters/abp-filters-anti-cv) engedi, vagyis így ilyen szabályokat a hufilterbe nem tudunk elfogadni, azokat az említett szűrőbe küldd be, ha az ottani policy engedi!
+      - Az uBlock és az AdGuard azonban lehetővé teszi, hogy ilyen szabályokat használjunk a hufilterben, ott körültekintően járj el.
+  - ![](https://i.ibb.co/rch274D/adguard.png) **AdGuard**
+    - AdGuard szűrők készítése:
+      - https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
+    - AdGuard scriptlet-ek:
+    -   https://github.com/AdguardTeam/Scriptlets#scriptlets
+    - AdGuard/uBO/ABP scriptlet-ek kompabitilitási táblázata:
+      - https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md#scriptlets
+   - ![](https://i.ibb.co/MskKKGZ/ublock.png) **uBlock Origin**
+      - uBO szűrők szintaxisa:
+        - https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
+      - uBO scriptlet-ek:
+      -   https://github.com/gorhill/uBlock/wiki/Resources-Library  
 
 ## Build folyamat
 1. fázis: 
