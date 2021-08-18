@@ -48,7 +48,7 @@ rp5.ru#@#[id^="aswift_"]
 !||glassdoor.com/app/static/js/gd-ei-employer-targeting*^
 !||glassdoor.com/app/static/js/dist/gd-covid19Banner*^
 !
-babaszoba.hu##[class*="advert"]
+babaszoba.hu##.rubAd
 bankmonitor.hu##.askUsSlide
 betegvagyok.hu##[id*="banner"]
 bestmarkt.hu###ddModal
