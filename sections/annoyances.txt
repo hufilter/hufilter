@@ -6,6 +6,8 @@ bankmonitor.hu##main + .ok-prerender
 !
 bonuszbrigad.hu###newASZFLayer
 !
+bookline.hu###onetrust-consent-sdk
+!
 najlepsie-clanky.com##[class*="pea_cook"]
 !
 azonnali.hu##[aria-label="cookieconsent"]

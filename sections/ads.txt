@@ -50,7 +50,6 @@ rp5.ru#@#[id^="aswift_"]
 !
 babaszoba.hu##.rubAd
 betegvagyok.hu##[id*="banner"]
-bookline.hu##[class*="advert"]
 borsa.hu##.blockright
 c-press.hu###bef_mainbody_mod_2
 csongradihirek.hu##[class*="banner"]

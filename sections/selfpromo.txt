@@ -3,3 +3,6 @@
 !---------------------------------------------------------------------------!
 !
 bestmarkt.hu##.ddModal
+bookline.hu##.l-container--full
+bookline.hu##a.c-skin--left
+bookline.hu##a.c-skin--right
