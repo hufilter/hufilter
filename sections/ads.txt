@@ -50,7 +50,6 @@ rp5.ru#@#[id^="aswift_"]
 !
 babaszoba.hu##.rubAd
 betegvagyok.hu##[id*="banner"]
-bestmarkt.hu###ddModal
 bonuszbrigad.hu###popup_landing_container
 bonuszbrigad.hu###newASZFLayer
 bookline.hu##[class*="advert"]
