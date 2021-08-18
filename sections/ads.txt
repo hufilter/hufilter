@@ -53,7 +53,9 @@ bookline.hu##.o-banner--hirdetes
 betegvagyok.hu##[id*="banner"]
 borsa.hu##.blockright
 c-press.hu###bef_mainbody_mod_2
-csongradihirek.hu##[class*="banner"]
+csongradihirek.hu##.art-sidebar1
+csongradihirek.hu##.art-sidebar2
+||csongradihirek.hu/portal/images/stories/_reklamok/
 dehir.hu##[class*="advert"]
 demokrata.hu##.region-header.region
 deres.tv##[class*="banner"]
