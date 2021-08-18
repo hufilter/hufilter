@@ -2,6 +2,8 @@
 !-------------- Annoyances -------------------------------------------------!
 !---------------------------------------------------------------------------!
 !
+bankmonitor.hu##main + .ok-prerender
+!
 najlepsie-clanky.com##[class*="pea_cook"]
 !
 azonnali.hu##[aria-label="cookieconsent"]
