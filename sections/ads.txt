@@ -81,7 +81,6 @@ hajokonyha.hu##[class*="hirdetes"]
 hatarido-szamitas.hu##.szkozepkis
 helyitipp.hu##[id*="hirdet"]
 hir6.hu##[class*="banner"]
-hirado.hu##[class="video_preroll type_swf"]
 hirextra.hu##[class*="billboard"]
 hirkosar.com###fanback
 hirposta.hu##[id*="banner"]
@@ -109,7 +108,6 @@ kapos.hu##[class*="banner"]
 kaposvarmost.hu##[class*="banner"]
 ketkes.com##A[href^="http://goo.gl"]
 kezilabda.hu##[id*="banner"]
-kislexikon.hu/swf/
 kossuth.hu##.mini_slider_div0
 kossuth.hu##.kapu
 kronika.ro##[class*="banner"]
@@ -713,7 +711,6 @@ nemzetisport.hu##[class^="ad_"]
 nemzetisport.hu##div#wallpaper_left
 nemzetisport.hu##div#wallpaper_right
 nemzetisport.hu##.bet365_connect
-||nemzetisport.hu/*/style/*/*tapeta*.swf
 ||static.nemzetisport.hu//style/nso/i/betclic.gif
 ||static.nemzetisport.hu//style/nso/i/*banner*
 !
@@ -828,7 +825,6 @@ mindmegette.hu###fadeandscale_background
 ||mindmegette.hu/images/294/O/nyerjagyulaival_2020_background_300x300.jpg$image
 !
 atv.hu##DIV[class*="banner"]
-atv.hu##DIV[class="block bk_commonitems-swfbox"]
 ||atv.hu/*reklam
 !
 haon.hu##DIV[id*="AdContainer"]
@@ -1034,7 +1030,6 @@ sikerado.hu##.Hirdetes
 ||sikerado.hu/banner/*
 !
 ||zeneszoveg.hu/gfx/skin-*/*.*
-||zeneszoveg.hu/*.swf
 !
 mfor.hu##[class*="banner"]
 mfor.hu##.article-textlinkbox
@@ -1721,15 +1716,12 @@ koroshircentrum.hu#?#div:-abp-has(> a + h6)
 ||webminute.hu/bannerek/
 ||webtraffic.hu/banner/
 ||app.livechatoo.com
-||tudatosvasarlo.hu/images/*.swf
-||utvonalterv.hu/images/*.swf
 ||static.lhp.hu/lhp.hu/bannerek/
 ||ado.hu/banners/*
 ||amiotthonunk.hu/images/banners/
 ||bitport.hu/images/szponzoracio/
 ||est.hu/design/img/szponzoracio/
 ||ezoterikus.hu/*banner*/*
-||felnigumi.hu/kepek/*.swf
 ||hasznaltgsm.hu/gsm/iframes/
 ||hatarido-szamitas.hu/partnerek/
 ||hirek.sk/banner/
@@ -1798,7 +1790,6 @@ koroshircentrum.hu#?#div:-abp-has(> a + h6)
 ||choice.microsoft.com^
 ||clickspromos.com^$third-party
 ||clicksure.com^$third-party
-||content.yieldmanager.edgesuite.net/*.swf
 ||counter.hitslink.com^$third-party
 ||counter.megagroup.ru
 ||ctag.hu/dc/
