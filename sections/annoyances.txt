@@ -4,6 +4,8 @@
 !
 bankmonitor.hu##main + .ok-prerender
 !
+bonuszbrigad.hu###newASZFLayer
+!
 najlepsie-clanky.com##[class*="pea_cook"]
 !
 azonnali.hu##[aria-label="cookieconsent"]
