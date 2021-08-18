@@ -49,6 +49,7 @@ rp5.ru#@#[id^="aswift_"]
 !||glassdoor.com/app/static/js/dist/gd-covid19Banner*^
 !
 babaszoba.hu##.rubAd
+bookline.hu##.o-banner--hirdetes
 betegvagyok.hu##[id*="banner"]
 borsa.hu##.blockright
 c-press.hu###bef_mainbody_mod_2
