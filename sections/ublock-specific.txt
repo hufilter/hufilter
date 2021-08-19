@@ -113,7 +113,7 @@ player.hu##.adult-overelay
 traffihunter.hu##.ooono_promo
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 ! https://github.com/hufilter/hufilter/issues/212
-totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):last-of-type
+totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
 !totalcar.hu##body > section:last-of-type
 !totalbike.hu##body > section:last-of-type
 !divany.hu##body > section:last-of-type

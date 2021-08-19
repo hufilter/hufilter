@@ -7,3 +7,4 @@ bookline.hu##.l-container--full
 bookline.hu##a.c-skin--left
 bookline.hu##a.c-skin--right
 c-press.hu###topsect_right_bottom_3
+totalcar.hu###bannerHeaderLink
