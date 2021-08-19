@@ -2,6 +2,8 @@
 !-------------- Annoyances -------------------------------------------------!
 !---------------------------------------------------------------------------!
 !
+###qc-cmp2-container
+!
 bankmonitor.hu##main + .ok-prerender
 !
 bonuszbrigad.hu###newASZFLayer
