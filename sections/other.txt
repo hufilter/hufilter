@@ -4,3 +4,5 @@
 !
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
 ||onlinestream.live/js/adb.js
+! Anti Anti Adblock
+||adfree-stat.p3g.hu/detect/detect.min.js^$domain=24.hu
