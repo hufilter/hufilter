@@ -7,5 +7,8 @@ bookline.hu##.l-container--full
 bookline.hu##a.c-skin--left
 bookline.hu##a.c-skin--right
 c-press.hu###topsect_right_bottom_3
+leet.hu###Leet_cikk_normal_content_1 + section > p:last-of-type
+leet.hu###Leet_cikk_rectangle_right_1 + .featured-product
+leet.hu###article + #offer
 pestisracok.hu###head-wrap + .code-block
 totalcar.hu###bannerHeaderLink
