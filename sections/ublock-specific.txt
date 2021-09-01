@@ -66,6 +66,8 @@ femina.hu##+js(set, window.ado, null)
 !
 angol-magyar-szotar.hu##+js(set, adblock, false)
 !
+huaweiblog.hu##+js(set, tie.ad_blocker_detector, undefined)
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)

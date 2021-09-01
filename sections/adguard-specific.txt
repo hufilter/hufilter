@@ -71,6 +71,8 @@ femina.hu#%#//scriptlet('set-constant', 'window.ado', 'null')
 !
 angol-magyar-szotar.hu#%#//scriptlet('set-constant', 'adblock', 'false')
 !
+huaweiblog.hu#%#//scriptlet('set-constant', 'tie.ad_blocker_detector', 'undefined')
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu#$#._ce_measure_row  { margin-top: 1rem !important; }
