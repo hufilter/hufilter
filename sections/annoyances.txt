@@ -389,3 +389,4 @@ pestisracok.hu###onesignal-slidedown-container
 pestisracok.hu###onesignal-bell-container
 pestisracok.hu###qc-cmp2-container
 !
+napiszex.hu##.ckwrap

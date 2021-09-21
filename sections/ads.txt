@@ -1691,6 +1691,10 @@ koroshircentrum.hu#?#div:-abp-has(> a + h6)
 !
 huaweiblog.hu###custom_html-3
 !
+napiszex.hu##.list-item.has-banner
+napiszex.hu##.banner-bottom
+napiszex.hu##.banner
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
