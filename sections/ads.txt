@@ -1695,6 +1695,9 @@ napiszex.hu##.list-item.has-banner
 napiszex.hu##.banner-bottom
 napiszex.hu##.banner
 !
+ceginformacio.hu##.advert
+ceginformacio.hu##.occsz-banner
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
