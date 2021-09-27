@@ -390,3 +390,5 @@ pestisracok.hu###onesignal-bell-container
 pestisracok.hu###qc-cmp2-container
 !
 napiszex.hu##.ckwrap
+!
+jofogas.hu###adsense_r_side_sticky_container
