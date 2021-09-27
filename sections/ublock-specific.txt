@@ -68,8 +68,6 @@ angol-magyar-szotar.hu##+js(set, adblock, false)
 !
 huaweiblog.hu##+js(set, tie.ad_blocker_detector, undefined)
 !
-www.jofogas.hu###adverticum_r_above_container
-!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)
@@ -110,7 +108,7 @@ kekvillogo.hu##body:style(padding-top: 0 !important;)
 !
 hu.ign.com##div.article-headline:style(margin-top: 44px !important;)
 !
-www.jofogas.hu###page-content:style(margin-top: 0px !important;)
+jofogas.hu###page-content:style(margin-top: 0px !important;)
 !
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
