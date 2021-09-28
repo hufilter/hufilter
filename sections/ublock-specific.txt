@@ -108,6 +108,8 @@ kekvillogo.hu##body:style(padding-top: 0 !important;)
 !
 hu.ign.com##div.article-headline:style(margin-top: 44px !important;)
 !
+jofogas.hu###page-content:style(margin-top: 0px !important;)
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
