@@ -314,6 +314,10 @@ hvg.hu##.selectWidget
 hvg.hu##.jobline-palyakezdo-feed
 hvg.hu##.support-stripe
 !
+m.hvg.hu##.ad-poc-link
+m.hvg.hu##.parallax_top
+m.hvg.hu##.parallax_bottom
+!
 vg.hu##DIV[class*="-ad"]
 vg.hu##DIV[class*="hirdetes"]
 vg.hu##DIV[class="fej_felett cf"]
