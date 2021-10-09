@@ -390,3 +390,7 @@ pestisracok.hu###onesignal-bell-container
 pestisracok.hu###qc-cmp2-container
 !
 napiszex.hu##.ckwrap
+!
+www.szotar.net##.cc-bottom.cc-type-info.cc-banner.cc-window
+!
+kfc.hu##.cookies-message-container
