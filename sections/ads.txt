@@ -1705,6 +1705,8 @@ ceginformacio.hu##.occsz-banner
 jofogas.hu###adsense_r_side_sticky_container
 !
 777blog.hu###oldalreklam
+777blog.hu###cikkreklam
+777blog.hu###galsoreklam
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
@@ -1845,6 +1847,7 @@ jofogas.hu###adsense_r_side_sticky_container
 ||rc.rc.hu^
 ||rc.rootclick.com^
 ||redwolfmoon.com^
+||related.hu^
 ||salesmanago.pl^$third-party
 ||seedr.com^$third-party
 ||seedr.ru^$third-party
