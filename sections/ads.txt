@@ -481,7 +481,6 @@ gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##[href^="https://www.webminute.hu"]
 ||gyakorikerdesek.hu/pic/bannerek/
 ||aghtag.tech/libs/projectagora.min.js^$domain=gyakorikerdesek.hu
-||related.hu/js/v2/widget.js^$domain=gyakorikerdesek.hu
 !
 klubradio.hu##DIV[id*="banner"]
 ||klubradio.hu/data/files/banner
