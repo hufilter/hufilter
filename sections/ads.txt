@@ -1091,6 +1091,7 @@ hir.ma##[class^="ad"]
 444.hu##.pr-box
 444.hu##.d1912cka
 444.hu##.d1912cza
+444.hu##[class*="xmas"]
 ||444.hu/*/ease/
 ! AdBlock detector - privacy invasion
 ||444.hu/js/ease_detector.js
