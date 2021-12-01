@@ -400,4 +400,5 @@ thaimatrac.hu##.border-top.p-4.bg-8.cookie-alert__inner
 www.fressnapf.hu##.grey-popup-layer
 webshop.fressnapf.hu##.grey-popup-layer
 !
-chatrobot.mia.gov.hu
+||chatrobot.mia.gov.hu^
+||chimpstatic.com^
