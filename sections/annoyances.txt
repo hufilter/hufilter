@@ -402,3 +402,7 @@ webshop.fressnapf.hu##.grey-popup-layer
 !
 ||chatrobot.mia.gov.hu^
 ||chimpstatic.com^
+!
+elmuhalozat.hu##.cookiepanel_overlay
+elmuhalozat.hu###tab-widget-wrapper
+||*.chatbot.elmuemasz.hu
