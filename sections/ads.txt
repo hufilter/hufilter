@@ -271,6 +271,8 @@ totalcar.hu###ads
 totalcar.hu##.totalkarWidget
 totalcar.hu##.joautok-iframe-cikk-torzs
 totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
+totalcar.hu,totalbike.hu##.cross-site-programmatic-zones
+totalcar.hu##.cikk-torzs-content-container > .kep_szeles.kep
 !
 divany.hu##.menu-sponsor_link
 !
