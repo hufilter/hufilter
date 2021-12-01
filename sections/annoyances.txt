@@ -2,6 +2,14 @@
 !-------------- Annoyances -------------------------------------------------!
 !---------------------------------------------------------------------------!
 !
+###qc-cmp2-container
+!
+bankmonitor.hu##main + .ok-prerender
+!
+bonuszbrigad.hu###newASZFLayer
+!
+bookline.hu###onetrust-consent-sdk
+!
 najlepsie-clanky.com##[class*="pea_cook"]
 !
 azonnali.hu##[aria-label="cookieconsent"]
@@ -373,3 +381,18 @@ hoxa.hu###cookiekezeles
 !
 egeszsegkalauz.hu###articleOfferFlag
 !
+wikiszotar.hu###cookie-bar
+!
+szekelyfold.ma##.Cookie--bottom
+!
+pestisracok.hu###onesignal-slidedown-container
+pestisracok.hu###onesignal-bell-container
+pestisracok.hu###qc-cmp2-container
+!
+napiszex.hu##.ckwrap
+!
+www.szotar.net##.cc-bottom.cc-type-info.cc-banner.cc-window
+!
+kfc.hu##.cookies-message-container
+!
+thaimatrac.hu##.border-top.p-4.bg-8.cookie-alert__inner

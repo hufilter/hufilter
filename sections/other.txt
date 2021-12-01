@@ -4,3 +4,9 @@
 !
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
 ||onlinestream.live/js/adb.js
+! Anti Anti Adblock
+||adfree-stat.p3g.hu/detect/detect.min.js^$domain=24.hu
+!
+777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
+777blog.hu##div#rechtangle.widget:nth-of-type(5)
+

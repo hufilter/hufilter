@@ -1,11 +1,10 @@
-[Adblock Plus 2.0]
-! Checksum: --- DUMMY ---
+! Checksum: #CHECKSUM#
 ! Version: #VERSION#
 ! Title: hufilter
 ! Last modified: #LAST_MODIFIED#
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
-! Licence: CC-BY, see http://creativecommons.org/licenses/by/4.0/
+! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
 !
 !---------------------------------------------------------------------------!
 !-------------- Description, Terms of use, Issue management ----------------!
@@ -21,6 +20,6 @@
 ! A szuresi iranyelveket, felhasznalasi felteteleket lasd a fenti honlapon.
 ! A szuro hasznalataval automatikusan elfogadod a felhasznalasi felteteleket.
 !
-! GitHub issues: https://github.com/hufilter/hufilter/issues
-! GitHub pull requests: https://github.com/hufilter/hufilter/pulls
+! GitHub issues: https://github.com/hufilter/hufilter-dev/issues
+! GitHub pull requests: https://github.com/hufilter/hufilter-dev/pulls
 !

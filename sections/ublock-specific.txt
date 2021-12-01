@@ -66,6 +66,8 @@ femina.hu##+js(set, window.ado, null)
 !
 angol-magyar-szotar.hu##+js(set, adblock, false)
 !
+huaweiblog.hu##+js(set, tie.ad_blocker_detector, undefined)
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)
@@ -106,6 +108,8 @@ kekvillogo.hu##body:style(padding-top: 0 !important;)
 !
 hu.ign.com##div.article-headline:style(margin-top: 44px !important;)
 !
+jofogas.hu###page-content:style(margin-top: 0px !important;)
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
@@ -113,7 +117,7 @@ player.hu##.adult-overelay
 traffihunter.hu##.ooono_promo
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 ! https://github.com/hufilter/hufilter/issues/212
-totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):last-of-type
+totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
 !totalcar.hu##body > section:last-of-type
 !totalbike.hu##body > section:last-of-type
 !divany.hu##body > section:last-of-type
