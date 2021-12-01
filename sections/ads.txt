@@ -1710,6 +1710,11 @@ jofogas.hu###adsense_r_side_sticky_container
 777blog.hu###cikkreklam
 777blog.hu###galsoreklam
 !
+www.mkbnetbankar.hu###app-advice
+www.mkbnetbankar.hu###app-commission
+www.mkbnetbankar.hu##.x-marketing
+||mkbnetbankar.hu/banner*
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
