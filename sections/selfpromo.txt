@@ -15,3 +15,4 @@ pestisracok.hu###head-wrap + .code-block
 totalcar.hu###bannerHeaderLink
 www.vezess.hu##.katalog
 www.vezess.hu##.wpb_wrapper > a
+hang.hu##.widget-tamogatas-box
