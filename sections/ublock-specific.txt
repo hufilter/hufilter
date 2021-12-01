@@ -110,6 +110,8 @@ hu.ign.com##div.article-headline:style(margin-top: 44px !important;)
 !
 jofogas.hu###page-content:style(margin-top: 0px !important;)
 !
+mkb.hu##html,body:style(overflow:auto !important)
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
