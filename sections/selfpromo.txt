@@ -19,3 +19,6 @@ hang.hu##.widget-tamogatas-box
 24.hu##[class*=szponzibox]
 www.upc.hu##.callback-overlay
 www.upc.hu##.segithetunk-container
+telex.hu##.support
+telex.hu##.kari
+telex.hu##[href*="tamogatas"]
