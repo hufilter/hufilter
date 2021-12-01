@@ -136,4 +136,5 @@ ncore.pro###x-pop
 @@||meszotar.hu/scripts/advertising.js
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
 ||freewaresoftwarenews.blogspot.$first-party,inline-script
-
+444.hu##article:has(a[href*="hirdetes"])
+444.hu##div.item:has(a[href*="hirdetes"])
