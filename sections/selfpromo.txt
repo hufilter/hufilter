@@ -22,3 +22,4 @@ www.upc.hu##.segithetunk-container
 telex.hu##.support
 telex.hu##.kari
 telex.hu##[href*="tamogatas"]
+24.hu##.m-donationBottomLine
