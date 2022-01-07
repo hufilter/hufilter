@@ -1097,6 +1097,7 @@ hir.ma##[class^="ad"]
 ||444.hu/*/ease/
 ! AdBlock detector - privacy invasion
 ||444.hu/js/ease_detector.js
+444.hu##div.k4.g7.en.gs.gr.ek.dX > .k4.k0.g7.en.gs.gr.ek.dX
 !
 ||888.hu^*/autoalkatreszek24$image
 !
