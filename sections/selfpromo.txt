@@ -13,12 +13,12 @@ leet.hu###article + #offer
 napiszex.hu###logo + .partner
 pestisracok.hu###head-wrap + .code-block
 totalcar.hu###bannerHeaderLink
-www.vezess.hu##.katalog
-www.vezess.hu##.wpb_wrapper > a
+vezess.hu##.katalog
+vezess.hu##.wpb_wrapper > a
 hang.hu##.widget-tamogatas-box
 24.hu##[class*=szponzibox]
-www.upc.hu##.callback-overlay
-www.upc.hu##.segithetunk-container
+upc.hu##.callback-overlay
+upc.hu##.segithetunk-container
 telex.hu##.support
 telex.hu##.kari
 telex.hu##[href*="tamogatas"]
