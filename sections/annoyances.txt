@@ -397,6 +397,8 @@ kfc.hu##.cookies-message-container
 !
 thaimatrac.hu##.border-top.p-4.bg-8.cookie-alert__inner
 !
+starity.hu###upprev_box
+!
 fressnapf.hu##.grey-popup-layer
 webshop.fressnapf.hu##.grey-popup-layer
 !
@@ -406,3 +408,4 @@ webshop.fressnapf.hu##.grey-popup-layer
 elmuhalozat.hu##.cookiepanel_overlay
 elmuhalozat.hu###tab-widget-wrapper
 ||*.chatbot.elmuemasz.hu
+!
