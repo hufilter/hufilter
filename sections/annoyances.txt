@@ -396,3 +396,6 @@ www.szotar.net##.cc-bottom.cc-type-info.cc-banner.cc-window
 kfc.hu##.cookies-message-container
 !
 thaimatrac.hu##.border-top.p-4.bg-8.cookie-alert__inner
+!
+starity.hu###upprev_box
+!
