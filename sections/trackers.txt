@@ -55,3 +55,6 @@
 ||va.v.liveperson.net^$third-party,script
 ||zanox.com^
 ||zemanta.com^$third-party
+!
+||fogyasztobarat.hu^$third-party
+||arukereso.hu^$third-party

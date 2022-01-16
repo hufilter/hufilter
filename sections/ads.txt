@@ -271,6 +271,8 @@ totalcar.hu###ads
 totalcar.hu##.totalkarWidget
 totalcar.hu##.joautok-iframe-cikk-torzs
 totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
+totalcar.hu,totalbike.hu##.cross-site-programmatic-zones
+totalcar.hu##.cikk-torzs-content-container > .kep_szeles.kep
 !
 divany.hu##.menu-sponsor_link
 !
@@ -1091,6 +1093,7 @@ hir.ma##[class^="ad"]
 444.hu##.pr-box
 444.hu##.d1912cka
 444.hu##.d1912cza
+444.hu##[class*="xmas"]
 ||444.hu/*/ease/
 ! AdBlock detector - privacy invasion
 ||444.hu/js/ease_detector.js
@@ -1713,6 +1716,11 @@ starity.hu###menusimple2 + div
 starity.hu##div[style="width:100%;height:14px;text-align:left;font-size:9px;letter-spacing:3px;color:#5F5F5F;border-bottom:1px solid #CCC;margin: 10px 0 5px 0;"]
 starity.hu##script[async] + [data-widget-id]
 ||widget.blck4d.com/js/block/widget.js^$domain=starity.hu
+!
+mkbnetbankar.hu###app-advice
+mkbnetbankar.hu###app-commission
+mkbnetbankar.hu##.x-marketing
+||mkbnetbankar.hu/banner*
 !
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!

@@ -110,6 +110,8 @@ hu.ign.com##div.article-headline:style(margin-top: 44px !important;)
 !
 jofogas.hu###page-content:style(margin-top: 0px !important;)
 !
+mkb.hu##html,body:style(overflow:auto !important)
+!
 !-------------- Related ABP rules ------------------------------------------!
 ! These regular ABP rules dont't work properly without specific rules.
 !
@@ -136,4 +138,5 @@ ncore.pro###x-pop
 @@||meszotar.hu/scripts/advertising.js
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
 ||freewaresoftwarenews.blogspot.$first-party,inline-script
-
+444.hu##article:has(a[href*="hirdetes"])
+444.hu##div.item:has(a[href*="hirdetes"])
