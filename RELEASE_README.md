@@ -1,6 +1,7 @@
 &nbsp;
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/hufilter_logo.png" width="350px" alt="hufilter logo" />
+    <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/hufilter_logo.png#gh-light-mode-only" width="350px" alt="hufilter logo light mode" />
+    <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/hufilter_logo_dark_mode.png#gh-dark-mode-only" width="350px" alt="hufilter logo dark mode" />
 </p>
 
 ## Köszöntünk a hufilter oldalán!

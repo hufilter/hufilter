@@ -1,6 +1,9 @@
 &nbsp;
 <div>
-  <p align="center"><img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/hufilter_logo.png" width="350px" alt="hufilter logo" /></p>
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/hufilter_logo.png#gh-light-mode-only" width="350px" alt="hufilter logo light mode" />
+    <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/hufilter_logo_dark_mode.png#gh-dark-mode-only" width="350px" alt="hufilter logo dark mode" />
+  </p>
   <p align="center">
     <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0" />
     <img src="https://github.com/hufilter/hufilter-dev/actions/workflows/push.yml/badge.svg" alt="Workflow state" />
@@ -11,7 +14,7 @@
 
 Ez a leírás tartalmazza a fejlesztéshez szükséges főbb tudnivalókat. Kérjük, hogy olvasd el, ha munkáddal hozzá szeretnél járulni a hufilter projekthez!
 
-- **A hufilter fejlesztése ebben a repoban történik, a [másik repo](https://github.com/hufilter/hufilter) csak a build folyamat eredménye!** Lásd: [Build folyamat](#build-folyamat)
+- **A hufilter fejlesztése ebben a *hufilter-dev* nevű repoban történik, a [másik, *hufilter* nevű repo](https://github.com/hufilter/hufilter) csak a build folyamat eredménye!** Bővebben: [Build folyamat](#build-folyamat)
 - A hufilter alapvetően 3 fő reklámblokkolót támogat:
   - ![](https://i.ibb.co/rch274D/adguard.png) [AdGuard](https://adguard.com/)
   - ![](https://i.ibb.co/MskKKGZ/ublock.png) [uBlock Origin](https://github.com/gorhill/uBlock)
