@@ -409,3 +409,8 @@ elmuhalozat.hu##.cookiepanel_overlay
 elmuhalozat.hu###tab-widget-wrapper
 ||*.chatbot.elmuemasz.hu
 !
+! https://github.com/hufilter/hufilter/issues/5
+szepsegbroker.hu###cookie
+szepsegbroker.hu###popup
+||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
+!

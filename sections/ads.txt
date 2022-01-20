@@ -1722,6 +1722,10 @@ mkbnetbankar.hu###app-commission
 mkbnetbankar.hu##.x-marketing
 ||mkbnetbankar.hu/banner*
 !
+! https://github.com/hufilter/hufilter/issues/5
+||szepsegbroker.hu/banner/
+||szepsegbroker.hu/elements/bannerz.2019.js^$script
+szepsegbroker.hu##.rightContent + [style]
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
@@ -1738,7 +1742,6 @@ mkbnetbankar.hu##.x-marketing
 ||media.netpositive.hu
 ||playertise.com^$third-party
 ||szegedma.hu/*banners/*.
-||szepsegbroker.hu/banner/
 ||talalka.hu/hirdetes/
 ||talilap.hu/banner/
 ||ultraweb.hu/ad*.php
@@ -1822,7 +1825,8 @@ mkbnetbankar.hu##.x-marketing
 ||clicksure.com^$third-party
 ||counter.hitslink.com^$third-party
 ||counter.megagroup.ru
-||ctag.hu/dc/
+! https://github.com/hufilter/hufilter/issues/5
+!||ctag.hu/dc/
 ||ctnetwork.hu^$third-party
 ||ctnsnet.com^
 ||data.bookline.hu^$third-party
@@ -1876,7 +1880,8 @@ mkbnetbankar.hu##.x-marketing
 ||sumome.com^$third-party
 ||syndication.globaltraffico.com^
 ||syndication.trafficreps.com^
-||szv.lsdev.hu
+! https://github.com/hufilter/hufilter/issues/5
+!||szv.lsdev.hu
 ||trafficshop.com^
 ||tripod.com^$third-party
 ||tripod.lycos.com^$third-party
