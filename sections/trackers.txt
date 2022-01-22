@@ -59,3 +59,4 @@
 ! TEMP https://github.com/hufilter/hufilter-dev/issues/243
 !||fogyasztobarat.hu^$third-party
 !||arukereso.hu^$third-party
+!
