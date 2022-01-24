@@ -6,6 +6,11 @@
   "author": "Hufilter contributors",
   "license": "CC-BY-4.0",
   "dependencies": {
-    "dateformat": "^4.5.1"
+    "@actions/core": "^1.6.0",
+    "dateformat": "^4.5.1",
+    "html-to-text": "^8.1.0",
+    "node-fetch": "^2.6.7",
+    "puppeteer": "^13.1.1",
+    "sleep-promise": "^9.1.0"
   }
 }
