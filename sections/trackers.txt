@@ -28,7 +28,6 @@
 ||*/userip.php
 !
 ||2mdn.net^$third-party
-||ad.doubleclick.net^
 ||ad.yieldlab.net^$third-party
 ||ad.yieldmanager.com^
 ||adocean.pl^
@@ -49,8 +48,6 @@
 ||lo.v.liveperson.net^$third-party
 ||onesignal.com^$third-party
 ||smartadserver.com^
-||spe.atdmt.com^
-||ssl.google-analytics.com^
 ||targetix.net^$third-party
 ||va.v.liveperson.net^$third-party,script
 ||zanox.com^

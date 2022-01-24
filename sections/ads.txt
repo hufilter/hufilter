@@ -482,7 +482,6 @@ gyakorikerdesek.hu##td[style="width: 10px;"]:empty
 gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##[href^="https://www.webminute.hu"]
 ||gyakorikerdesek.hu/pic/bannerek/
-||aghtag.tech/libs/projectagora.min.js^$domain=gyakorikerdesek.hu
 !
 klubradio.hu##DIV[id*="banner"]
 ||klubradio.hu/data/files/banner
@@ -1680,7 +1679,6 @@ angol-magyar-szotar.hu##[id^="hird_"]
 angol-magyar-szotar.hu##.sidebar1 > div:first-child
 !
 hoxa.hu##[data-adblockonly]
-||aghtag.tech/libs/projectagora.min.js^$domain=hoxa.hu
 !
 szeged365.hu##[id^="stream-item-"]
 szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
@@ -1736,6 +1734,7 @@ szepsegbroker.hu##.rightContent + [style]
 ||ad.pphungary.hu
 ||advert*.ultraweb.hu
 ||as*.prog.hu^
+||aghtag.tech/libs/projectagora.min.js^$domain=gyakorikerdesek.hu|hoxa.hu
 ||banner.webtar.hu
 ||daserver.ultraweb.hu
 ||keymedia.hu/keymediajs.cgi
