@@ -546,7 +546,7 @@ startlap.hu##[class^="adact"]
 startlap.hu##[id*="Advert"]
 startlap.hu##div.container.banner-container.right
 startlap.hu##div.container.banner-container.left
-startlap.hu##div.container.banner-container.wide > 
+startlap.hu##div.container.banner-container.wide > *
 startlap.hu##[box-name="Hirdetés"]
 startlap.hu##.kezdo-kereso
 kereso.startlap.hu###google-display
@@ -1326,7 +1326,7 @@ computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-inside
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-inside-automatic
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-comment
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.share-article
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after > 
+computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after > *
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-content-top
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after-article
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-end
@@ -1774,7 +1774,6 @@ szepsegbroker.hu##.rightContent + [style]
 ||pcworld.hu/bannerek/
 ||*/eu-banned-popup/
 ||*/empty.json
-||*.hit.gemius.pl^
 ||9klikk.com^$third-party
 ||a.adnium.com^
 ||abmr.net^$third-party
@@ -1782,7 +1781,6 @@ szepsegbroker.hu##.rightContent + [style]
 ||ad.depo.hu^
 ||ad.gyermekevek.hu^
 ||ad.hirekmedia.hu^
-||ad.hu/g3t.js
 ||ad.hu^$third-party
 ||ad.netmedia.hu^
 ||ad.onadozo.hu^
