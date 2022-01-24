@@ -6,7 +6,7 @@ on:
     types:
       - completed
 jobs:
-  test:
+  check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

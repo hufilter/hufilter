@@ -19,7 +19,7 @@ const convertReport = (html) => {
 };
 
 ;(async () => {
-  await sleep(2500);
+  await sleep(15000);
   
   // Fetch latest hufilter release
   const hufilter = await (
@@ -91,7 +91,9 @@ const convertReport = (html) => {
       elements.map((el) => el.innerText)
     );
     // Pass results to GitHub Actions
-    for (const error of errors) core.setFailed(error);
+    for (const error of errors) {
+      if (error !== "No useless filters have been found") core.setFailed(error);
+    }
   } catch (error) {
     if (error instanceof puppeteer.errors.TimeoutError) {
       core.setFailed("Check service timed out");
