@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: main
+          ref: master
       - name: Install dependencies
         run: npm install
       - name: Run redundancy check script
