@@ -6,7 +6,7 @@ on:
     types:
       - completed
 jobs:
-  check:
+  redundancy_check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -19,4 +19,4 @@ jobs:
           mkdir release
           npm run build
       - name: Run redundancy check script
-        run: npm run check
+        run: npm run redundancy-check
