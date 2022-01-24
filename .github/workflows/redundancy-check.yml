@@ -14,5 +14,9 @@ jobs:
           ref: master
       - name: Install dependencies
         run: npm install
+      - name: Build filters
+        run: |
+          mkdir release
+          npm run build
       - name: Run redundancy check script
-        run: node check.js
+        run: npm run check

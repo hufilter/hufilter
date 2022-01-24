@@ -1,7 +1,8 @@
 const puppeteer = require("puppeteer");
 const { convert: ConvertHTMLToText } = require("html-to-text");
-const sleep = require('sleep-promise');
-const { default: fetch } = require("node-fetch");
+const { readFile } = require('fs').promises;
+//const sleep = require('sleep-promise');
+//const { default: fetch } = require("node-fetch");
 // GitHub Actions
 const core = require("@actions/core");
 
@@ -19,12 +20,14 @@ const convertReport = (html) => {
 };
 
 ;(async () => {
-  await sleep(15000);
+  /*await sleep(15000);
   
   // Fetch latest hufilter release
   const hufilter = await (
     await fetch("https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-abp.txt")
-  ).text();
+  ).text();*/
+
+  const hufilter = (await readFile("./release/hufilter-abp.txt")).toString();
 
   // Initialize Puppeteer
   const browser = await puppeteer.launch();

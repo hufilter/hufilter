@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "node build.js",
-    "test": "node test.js"
+    "check": "node check.js"
   },
   "author": "Hufilter contributors",
   "license": "CC-BY-4.0",
