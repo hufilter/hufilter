@@ -968,6 +968,7 @@ bien.hu#?#.hidden-xs:-abp-has(> .weboldal_felett)
 bien.hu#?#.hidden-xs:-abp-has(> .lablec_alatt)
 bien.hu##blockquote
 bien.hu##[data-ai]
+bien.hu##.ads_show_ad_title
 !
 moly.hu##[class*="banner"]
 !
