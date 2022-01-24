@@ -6,7 +6,8 @@
   </p>
   <p align="center">
     <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0" />
-    <img src="https://github.com/hufilter/hufilter-dev/actions/workflows/push.yml/badge.svg" alt="Workflow state" />
+    <img src="https://github.com/hufilter/hufilter-dev/actions/workflows/automatic-deploy.yml/badge.svg" alt="Automatic deploy status" />
+    <img src="https://github.com/hufilter/hufilter-dev/actions/workflows/redundancy-check.yml/badge.svg" alt="Redundancy check status" />
   </p>
 </div>
 
