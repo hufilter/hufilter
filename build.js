@@ -14,6 +14,8 @@ calculateChecksum = (content) => {
   return (crypto.createHash("md5").update(rest).digest("base64").replace("==", ""));
 };
 
+withFinalNL = (content) => content.toString().trim() + "\n";
+
 buildFilters = async () => {
   console.log('Build filters...');
   for (const filter of filters) {
@@ -23,14 +25,14 @@ buildFilters = async () => {
       // Collect header
       let headerContent = '';
       if (filter.hasOwnProperty('header')) {
-        headerContent += await fs.readFile(`./headers/${filter.header}`);
+        headerContent += withFinalNL(await fs.readFile(`./headers/${filter.header}`));
         console.log(`   - Header: ${filter.header} added`);
       }
       // Collect sections
       console.log(`   - Sections:`);
       let content = '';
       for (const section of filter.sections) {
-        content += await fs.readFile(`./sections/${section}`);
+        content += withFinalNL(await fs.readFile(`./sections/${section}`));
         console.log(`      - ${section} added`);
       }
       // Handle DNS filters
