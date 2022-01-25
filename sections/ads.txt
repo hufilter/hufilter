@@ -1624,6 +1624,7 @@ forbes.hu##p + [class*="-bekezdes-utan-"]
 forbes.hu##div[id^="forbesad"]
 !
 azonnali.hu##.bannpos
+azonnali.hu##.addd
 !
 ! issue #198
 vasarnap.hu###cikkreklam
