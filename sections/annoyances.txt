@@ -414,3 +414,7 @@ szepsegbroker.hu###cookie
 szepsegbroker.hu###popup
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 !
+elemi.hu##.sgpb-popup-dialog-main-div-wrapper
+elemi.hu##.sgpb-popup-overlay
+elemi.hu##.penci-wrap-gprd-law
+!
