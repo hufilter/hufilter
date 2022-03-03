@@ -10,6 +10,9 @@ bonuszbrigad.hu###newASZFLayer
 !
 bookline.hu###onetrust-consent-sdk
 !
+cartourmagazin.hu###cadre_alert_cookies
+cartourmagazin.hu###pa-push-notification-subscription
+!
 najlepsie-clanky.com##[class*="pea_cook"]
 !
 azonnali.hu##[aria-label="cookieconsent"]

@@ -55,6 +55,9 @@ bookline.hu##.o-banner--hirdetes
 betegvagyok.hu##[id*="banner"]
 borsa.hu##.blockright
 c-press.hu###bef_mainbody_mod_2
+! https://github.com/hufilter/hufilter-dev/issues/247
+cartourmagazin.hu##.banneritem
+cartourmagazin.hu###sp-right>.sp-column>.sp-module.hidden-mobile
 csongradihirek.hu##.art-sidebar1
 csongradihirek.hu##.art-sidebar2
 ||csongradihirek.hu/portal/images/stories/_reklamok/
