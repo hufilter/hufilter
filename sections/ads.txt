@@ -1731,6 +1731,9 @@ mkbnetbankar.hu##.x-marketing
 ||szepsegbroker.hu/banner/
 ||szepsegbroker.hu/elements/bannerz.2019.js^$script
 szepsegbroker.hu##.rightContent + [style]
+!
+pannonrtv.com##[id^="block-views-block-banners-"]
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
