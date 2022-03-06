@@ -421,3 +421,7 @@ elemi.hu##.sgpb-popup-dialog-main-div-wrapper
 elemi.hu##.sgpb-popup-overlay
 elemi.hu##.penci-wrap-gprd-law
 !
+itthonrolhaza.hu###cookie-law-info-bar
+itthonrolhaza.hu###cookie-law-info-again
+||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
+!
