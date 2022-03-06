@@ -425,3 +425,5 @@ itthonrolhaza.hu###cookie-law-info-bar
 itthonrolhaza.hu###cookie-law-info-again
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
 !
+pannonrtv.com###sliding-popup
+!
