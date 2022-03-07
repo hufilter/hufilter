@@ -4,6 +4,9 @@
 !
 ###qc-cmp2-container
 !
+ado.hu###cookieBox
+ado.hu###cookieBox_bg
+!
 bankmonitor.hu##main + .ok-prerender
 !
 bonuszbrigad.hu###newASZFLayer

@@ -48,8 +48,7 @@ rp5.ru#@#[id^="aswift_"]
 !||glassdoor.com/app/static/js/gd-ei-employer-targeting
 !||glassdoor.com/app/static/js/dist/gd-covid19Banner
 !
-||ado.hu/*/szaklap_banner/
-ado.hu###lapSlider
+ado.hu#?#.whiteBox:-abp-has(.goAdverticum)
 babaszoba.hu##.rubAd
 bookline.hu##.o-banner--hirdetes
 betegvagyok.hu##[id*="banner"]

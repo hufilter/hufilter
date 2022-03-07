@@ -2,6 +2,8 @@
 !-------------- Self promotion rules ---------------------------------------!
 !---------------------------------------------------------------------------!
 !
+ado.hu###custom_html-8
+ado.hu##a[href^="https://bit.ly"]
 bestmarkt.hu##.ddModal
 bookline.hu##.l-container--full
 bookline.hu##a.c-skin--left
