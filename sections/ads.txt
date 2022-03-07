@@ -60,7 +60,10 @@ cartourmagazin.hu###sp-right>.sp-column>.sp-module.hidden-mobile
 csongradihirek.hu##.art-sidebar1
 csongradihirek.hu##.art-sidebar2
 ||csongradihirek.hu/portal/images/stories/_reklamok/
-dehir.hu##[class*="advert"]
+dehir.hu##.slidingBanner
+dehir.hu###headerBanner
+dehir.hu##.widgetDefault
+dehir.hu##.tablet-advert
 demokrata.hu##.region-header.region
 deres.tv##[class*="banner"]
 dimo.hu##[class*="banner"]
