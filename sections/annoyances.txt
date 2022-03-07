@@ -7,6 +7,9 @@
 ado.hu###cookieBox
 ado.hu###cookieBox_bg
 !
+babaszoba.hu###qc-cmp2-container
+babaszoba.hu###facebook-sharebar
+!
 bankmonitor.hu##main + .ok-prerender
 !
 bonuszbrigad.hu###newASZFLayer
