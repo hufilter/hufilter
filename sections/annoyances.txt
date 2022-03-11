@@ -191,6 +191,9 @@ szoljon.hu###cookie-window
 !
 hazipatika.com###webaruhaz-ajanlo
 hazipatika.com###facebook-sharebar
+! https://github.com/hufilter/hufilter-dev/issues/256
+hazipatika.com###qc-cmp2-container
+hazipatika.com##.fb-exit-popup-container
 !
 888.hu###cookieconsent
 !
