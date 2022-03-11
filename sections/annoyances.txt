@@ -270,6 +270,10 @@ kisalfold.hu##div.endless-shared-area
 !
 infostart.hu##.cc-window
 infostart.hu###ajanlo
+! https://github.com/hufilter/hufilter-dev/issues/252
+infostart.hu###_ao-cmp-ui
+infostart.hu##.notification-popup
+infostart.hu#?##sitemodal:-abp-has(.fb-button)
 !
 portfolio.hu###BlockCikkajanlo
 portfolio.hu##.notification-popup

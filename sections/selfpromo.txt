@@ -27,3 +27,5 @@ telex.hu##[href*="tamogatas"]
 24.hu##.m-donationBottomLine
 ! https://github.com/hufilter/hufilter-dev/issues/254
 onroad.hu##a[href="https://onroad.hu/tamogatas"]
+! https://github.com/hufilter/hufilter-dev/issues/252
+infostart.hu##.article>.live-wrapper
