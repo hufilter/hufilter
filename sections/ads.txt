@@ -1469,6 +1469,8 @@ muhelynet.hu###header
 !
 magyarhang.org,hang.hu#?#[id^="um-"]:-abp-has(.fb-page.fb_iframe_widget)
 magyarhang.org,hang.hu#?#.mc-modal:-abp-has(iframe)
+! https://github.com/hufilter/hufilter-dev/issues/249
+hang.hu##.banner-widget-container
 !
 telekom.hu##.ads
 !
