@@ -35,6 +35,8 @@ rp5.ru#@#[id^="aswift_"]
 ##div[data-campaign-name^="ads"]
 ado.hu#?#.whiteBox:-abp-has(.goAdverticum)
 babaszoba.hu##.rubAd
+! https://github.com/hufilter/hufilter-dev/issues/255
+baon.hu##iframe[src="https://tunderszepek.baon.hu/tunderszepek-banner"]
 bookline.hu##.o-banner--hirdetes
 betegvagyok.hu##[id*="banner"]
 borsa.hu##.blockright
