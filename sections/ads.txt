@@ -49,6 +49,9 @@ dehir.hu##.slidingBanner
 dehir.hu###headerBanner
 dehir.hu##.widgetDefault
 dehir.hu##.tablet-advert
+dehir.hu##.totop
+dehir.hu##.col-md-4.blog-sidebar:nth-child(even)
+dehir.hu##.col-md-4.sidebar.widgetDefault
 demokrata.hu##.region-header.region
 deres.tv##[class*="banner"]
 dimo.hu##[class*="banner"]
@@ -1606,11 +1609,6 @@ agrarszektor.hu##div#ajanlo
 travelo.hu##div.facebook-layer-box
 !
 ncore.pro##.banner
-!
-dehir.hu##.totop
-dehir.hu##.slidingBanner
-dehir.hu##.col-md-4 .blog-sidebar:nth-child(even)
-dehir.hu##.col-md-4 .sidebar.widgetDefault
 !
 forbes.hu##p + [class*="-bekezdes-utan-"]
 forbes.hu##div[id^="forbesad"]
