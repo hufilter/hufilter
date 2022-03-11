@@ -445,3 +445,7 @@ pannonrtv.com###sliding-popup
 ! https://github.com/hufilter/hufilter-dev/issues/254
 onroad.hu###slidebox
 !
+! https://github.com/hufilter/hufilter-dev/issues/250
+vg.hu##[style^="bottom: 0px; left: 0px; position: fixed; width:"]
+vg.hu##.newsletter-box
+!
