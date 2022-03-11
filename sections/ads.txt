@@ -1724,6 +1724,9 @@ pannonrtv.com##[id^="block-views-block-banners-"]
 ! https://github.com/hufilter/hufilter-dev/issues/254
 onroad.hu##.highlighted-banner
 !
+! https://github.com/hufilter/hufilter-dev/issues/253
+telefonguru.hu##[style="height: 250px"]
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!
