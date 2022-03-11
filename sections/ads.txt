@@ -1477,6 +1477,8 @@ hang.hu##.banner-widget-container
 telekom.hu##.ads
 !
 gepigeny.hu##.adt_hun
+! https://github.com/AdguardTeam/AdguardFilters/issues/112570
+gepigeny.hu##.act_hun
 !
 hiros.hu##.banner_widget
 hiros.hu##.sy-box

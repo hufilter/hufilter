@@ -82,8 +82,6 @@ automotor.hu##div.postContent:style(margin-top: 0 !important;)
 !
 hosszupuskasub.com##*:style(cursor: auto !important;)
 !
-gepigeny.hu##.main-container:style(margin-top: 100px !important;)
-!
 atv.hu##header:style(height: auto !important;)
 !
 index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu##body:style(overflow: auto !important)
