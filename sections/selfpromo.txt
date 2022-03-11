@@ -25,3 +25,5 @@ telex.hu##.support
 telex.hu##.kari
 telex.hu##[href*="tamogatas"]
 24.hu##.m-donationBottomLine
+! https://github.com/hufilter/hufilter-dev/issues/254
+onroad.hu##a[href="https://onroad.hu/tamogatas"]

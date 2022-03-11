@@ -1721,6 +1721,9 @@ szepsegbroker.hu##.rightContent + [style]
 !
 pannonrtv.com##[id^="block-views-block-banners-"]
 !
+! https://github.com/hufilter/hufilter-dev/issues/254
+onroad.hu##.highlighted-banner
+!
 !---------------------------------------------------------------------------!
 !-------------- Ad servers -------------------------------------------------!
 !---------------------------------------------------------------------------!

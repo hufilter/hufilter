@@ -436,3 +436,6 @@ itthonrolhaza.hu###cookie-law-info-again
 !
 pannonrtv.com###sliding-popup
 !
+! https://github.com/hufilter/hufilter-dev/issues/254
+onroad.hu###slidebox
+!
