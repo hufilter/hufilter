@@ -398,6 +398,8 @@ obi.hu##.colorbox-cookiepolicy
 hoxa.hu###cookiekezeles
 !
 egeszsegkalauz.hu###articleOfferFlag
+! https://github.com/hufilter/hufilter-dev/issues/248
+egeszsegkalauz.hu###pe_confirm_optin_1
 !
 wikiszotar.hu###cookie-bar
 !
