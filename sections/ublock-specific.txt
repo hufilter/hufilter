@@ -68,6 +68,10 @@ angol-magyar-szotar.hu##+js(set, adblock, false)
 !
 huaweiblog.hu##+js(set, tie.ad_blocker_detector, undefined)
 !
+! https://github.com/hufilter/hufilter/issues/8
+napiszar.com##+js(acis, document.createElement, setTimeout)
+napiszar.com##^script[data-cfasync="false"]
+!
 !-------------- CSS modifiers ----------------------------------------------!
 !
 citromail.hu##._ce_measure_row:style(margin-top: 1rem !important;)

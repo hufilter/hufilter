@@ -136,6 +136,8 @@ multiplay.hu##[id*="banner"]
 myvip.com##[id*="banner"]
 napi.hu##[id*="billboard"]
 napiszar.hu##[class*="banner"]
+! https://github.com/hufilter/hufilter/issues/8
+napiszar.com##[style="width:300px;height:250px;"]
 napiuzlet.com##[class*="advertisement"]
 napocska.hu/images/*_advert*.
 nemzetisport.hu##[id^="ad_"]
