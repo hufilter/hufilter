@@ -17,7 +17,7 @@
 
 **First of all, the project is being developed in this repository.** [The another repository, called hufilter](https://github.com/hufilter/hufilter), is **only the result of the [build process](https://github.com/hufilter/hufilter-dev/blob/master/.github/workflows/automatic-deploy.yml) and its content are overwritten after each build.**
 
-We primarily support the following these adblock programs:
+We primarily support following adblockers:
 
 - ![](https://i.ibb.co/rch274D/adguard.png) [AdGuard](https://adguard.com/)
 - ![](https://i.ibb.co/MskKKGZ/ublock.png) [uBlock Origin](https://github.com/gorhill/uBlock)
