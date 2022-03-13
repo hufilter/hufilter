@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
 const { convert: ConvertHTMLToText } = require("html-to-text");
-const { readFile } = require('fs').promises;
+const { readFile } = require("fs").promises;
 //const sleep = require('sleep-promise');
 //const { default: fetch } = require("node-fetch");
 // GitHub Actions
@@ -19,7 +19,7 @@ const convertReport = (html) => {
     );
 };
 
-;(async () => {
+(async () => {
   /*await sleep(15000);
   
   // Fetch latest hufilter release
@@ -34,7 +34,9 @@ const convertReport = (html) => {
   const page = await browser.newPage();
 
   // First rule checker site
-  core.startGroup("Service: https://abpvn.com/ruleChecker/redundantRuleChecker.html");
+  core.startGroup(
+    "Service: https://abpvn.com/ruleChecker/redundantRuleChecker.html"
+  );
   try {
     await page.goto("https://abpvn.com/ruleChecker/redundantRuleChecker.html", {
       waitUntil: "networkidle2",

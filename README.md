@@ -1,8 +1,8 @@
 &nbsp;
 <div>
   <p align="center">
-    <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/hufilter_logo.png#gh-light-mode-only" width="350px" alt="hufilter logo light mode" />
-    <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/hufilter_logo_dark_mode.png#gh-dark-mode-only" width="350px" alt="hufilter logo dark mode" />
+    <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/images/hufilter_light.png#gh-light-mode-only" width="450px" alt="hufilter logo light mode" />
+    <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/images/hufilter_dark.png#gh-dark-mode-only" width="450px" alt="hufilter logo dark mode" />
   </p>
   <p align="center">
     <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0" />

@@ -1,14 +1,19 @@
 {
   "scripts": {
-    "build": "node build.js",
-    "redundancy-check": "node redundancy-check.js"
+    "build": "node assets/scripts/build.js",
+    "redundancy-check": "node assets/scripts/redundancy-check.js",
+    "orderer": "node assets/scripts/orderer/orderer.js",
+    "test-orderer": "npx mocha assets/scripts/orderer/orderer.test.js"
   },
   "author": "Hufilter contributors",
   "license": "CC-BY-4.0",
   "dependencies": {
     "@actions/core": "^1.6.0",
+    "chai": "^4.3.6",
+    "chalk": "^2.4.2",
     "dateformat": "^4.5.1",
     "html-to-text": "^8.1.0",
+    "mocha": "^9.2.2",
     "node-fetch": "^2.6.7",
     "puppeteer": "^13.1.1",
     "sleep-promise": "^9.1.0"

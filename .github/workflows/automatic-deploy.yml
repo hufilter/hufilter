@@ -6,11 +6,10 @@ on:
     paths:
       - LICENSE
       - RELEASE_README.md
-      - headers/**.txt
       - sections/**.txt
+      - sections/headers/**.txt
       - filters.json
-      - build.js
-      - test.js
+      - assets/scripts/*.js
 jobs:
   build:
     runs-on: ubuntu-latest

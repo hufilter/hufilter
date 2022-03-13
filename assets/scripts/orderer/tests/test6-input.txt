@@ -1,0 +1,4 @@
+k.hu##valami
+a.hu##.akarmi
+valami.hu##valami
+b.hu##.mindegy

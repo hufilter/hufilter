@@ -1,0 +1,10 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": "sections\\\\(adguard-specific|ads|annoyances|antiadblock|other|selfpromo|trackers|ublock-specific).txt$",
+                "cmd": "npm run orderer -- ${file}"
+            },
+        ]
+    }
+}

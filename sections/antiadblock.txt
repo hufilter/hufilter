@@ -1,0 +1,19 @@
+!---------------------------------------------------------------------------!
+!-------------- Antiadblock ------------------------------------------------!
+!---------------------------------------------------------------------------!
+
+! Section: Specific hide
+!
+777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
+777blog.hu##div#rechtangle.widget:nth-of-type(5)
+
+! Section: Specific block
+!
+/js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
+||adfree-stat.p3g.hu/detect/detect.min.js^$domain=24.hu
+||onlinestream.live/js/adb.js
+
+! Section: Specific allow
+!
+@@||meszotar.hu/scripts/advertising.js
+@@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu

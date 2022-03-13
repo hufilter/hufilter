@@ -1,0 +1,19 @@
+! Header comment
+! Another header comment
+
+! Section: section1
+b.hu##valami
+a.hu##valami
+! c.hu comment
+! Another c.hu comment
+c.hu##valami
+
+! Section: section2
+8.hu##valami
+! 3.hu comment
+! Another 3.hu comment
+3.hu##valami
+7.hu##valami
+
+! Footer comment
+! Another footer comment

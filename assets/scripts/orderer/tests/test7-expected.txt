@@ -1,0 +1,7 @@
+a.hu##.akarmi
+! Comment for b.hu
+b.hu##.mindegy
+! Comment for k.hu
+! Another comment for k.hu
+k.hu##valami
+valami.hu##valami

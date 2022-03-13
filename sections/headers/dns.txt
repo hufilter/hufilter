@@ -2,7 +2,7 @@
 ! Version: #VERSION#
 ! Title: hufilter
 ! Last modified: #LAST_MODIFIED#
-! Expires: 1 days (update frequency)
+! Expires: 7 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
 !
@@ -16,7 +16,7 @@
 ! About filter policy and usage terms please see the homepage above.
 ! By using the filter you automatically accept the terms of use.
 !
-! Kerjuk, jelentsd a nem blokkolt hirdeteseket vagy a hibakat a Github issue trackerben.
+! Kerjuk, jelentsd a nem blokkolt hirdeteseket vagy a hibakat a GitHub issue trackerben.
 ! A szuresi iranyelveket, felhasznalasi felteteleket lasd a fenti honlapon.
 ! A szuro hasznalataval automatikusan elfogadod a felhasznalasi felteteleket.
 !

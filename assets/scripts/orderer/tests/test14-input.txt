@@ -1,0 +1,32 @@
+! Header comment
+! Another header comment
+
+c.hu##.unnamedsection
+! a.hu comment
+a.hu##.unnamedsection
+
+q.hu##.unnamedsection
+! unnamed section footer comment
+
+! Section: section1
+!
+! Description: section1 description
+! Description: another section1 description
+
+
+! c.hu comment
+! Another c.hu comment
+c.hu##valami
+a.hu##valami
+b.hu##valami
+
+! Section: section2
+! Description: section2 description
+!
+! 3.hu comment
+! Another 3.hu comment
+3.hu##valami
+8.hu##valami
+7.hu##valami
+! Footer comment
+! Another footer comment

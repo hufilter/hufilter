@@ -1,7 +1,11 @@
 !---------------------------------------------------------------------------!
 !-------------- Self promotion rules ---------------------------------------!
 !---------------------------------------------------------------------------!
+
+! Section: Specific hide
 !
+24.hu##.m-donationBottomLine
+24.hu##[class*=szponzibox]
 ado.hu###custom_html-8
 ado.hu##a[href^="https://bit.ly"]
 bestmarkt.hu##.ddModal
@@ -9,23 +13,21 @@ bookline.hu##.l-container--full
 bookline.hu##a.c-skin--left
 bookline.hu##a.c-skin--right
 c-press.hu###topsect_right_bottom_3
-leet.hu###Leet_cikk_normal_content_1 + section > p:last-of-type
-leet.hu###Leet_cikk_rectangle_right_1 + .featured-product
-leet.hu###article + #offer
-napiszex.hu###logo + .partner
-pestisracok.hu###head-wrap + .code-block
-totalcar.hu###bannerHeaderLink
-vezess.hu##.katalog
-vezess.hu##.wpb_wrapper > a
 hang.hu##.widget-tamogatas-box
-24.hu##[class*=szponzibox]
-upc.hu##.callback-overlay
-upc.hu##.segithetunk-container
-telex.hu##.support
-telex.hu##.kari
-telex.hu##[href*="tamogatas"]
-24.hu##.m-donationBottomLine
-! https://github.com/hufilter/hufilter-dev/issues/254
-onroad.hu##a[href="https://onroad.hu/tamogatas"]
 ! https://github.com/hufilter/hufilter-dev/issues/252
 infostart.hu##.article>.live-wrapper
+leet.hu###article + #offer
+leet.hu###Leet_cikk_normal_content_1 + section > p:last-of-type
+leet.hu###Leet_cikk_rectangle_right_1 + .featured-product
+napiszex.hu###logo + .partner
+! https://github.com/hufilter/hufilter-dev/issues/254
+onroad.hu##a[href="https://onroad.hu/tamogatas"]
+pestisracok.hu###head-wrap + .code-block
+telex.hu##.kari
+telex.hu##.support
+telex.hu##[href*="tamogatas"]
+totalcar.hu###bannerHeaderLink
+upc.hu##.callback-overlay
+upc.hu##.segithetunk-container
+vezess.hu##.katalog
+vezess.hu##.wpb_wrapper > a

@@ -1,59 +1,59 @@
 !---------------------------------------------------------------------------!
 !-------------- Trackers ---------------------------------------------------!
 !---------------------------------------------------------------------------!
+
+! Section: General block
 !
-! Gemius tracking
+*/traffic.js
+*/traffic.min.js
 /gemius.js^
 /gemius.min.js^
 /xgemius.js^
 /xgemius.min.js^
+
+! Section: Specific block
+!
+||*/userip.php
+! AdBlock detector - privacy invasion
+||444.hu/js/ease_detector.js
+||adocean.pl^
+||adtrackeraa.com^
+||bs.serving-sys.com^
+||clicksor.net/newServing/
+||doubleclick.net^
+||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
+||fastclick.net^
+||fwmrm.net^
 ||gemius.hu
 ||gemius.pl
-*/traffic.js
-*/traffic.min.js
-!
-||a.rvttrack.com^$third-party
-||adtrackeraa.com^
-||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
+||googletagservices.com^
 ||myroitracking.com/newServing/
+||smartadserver.com^
 ||track.calithornia.com^
 ||track.rtb-media.me^
 ||track.trackbyme.info^
-||track306.info^$third-party
 ||tracker.azet.sk^
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
-||trackingterrorism.org^$third-party
 ||websas.hu/statistics/
-||*/userip.php
+||zanox.com^
+
+! Section: Third-party
 !
 ||2mdn.net^$third-party
-||ad.yieldlab.net^$third-party
-||ad.yieldmanager.com^
-||adocean.pl^
+||a.rvttrack.com^$third-party
 ||adswizz.com^$third-party
 ||analytics.yahoo.com^$third-party
 ||atdmt.com^$third-party
 ||bannerflow.com^$third-party
 ||bbelements.com^$third-party
-||bs.serving-sys.com^
-||clicksor.net/newServing/
-||doubleclick.net^
-||fastclick.net^
-||fwmrm.net^
 ||google-analytics.com^$third-party
-||googletagservices.com^
 ||gravity.com^$third-party
 ||insticator.com^$third-party
 ||lo.v.liveperson.net^$third-party
 ||onesignal.com^$third-party
-||smartadserver.com^
 ||targetix.net^$third-party
+||track306.info^$third-party
+||trackingterrorism.org^$third-party
 ||va.v.liveperson.net^$third-party,script
-||zanox.com^
 ||zemanta.com^$third-party
-!
-! TEMP https://github.com/hufilter/hufilter-dev/issues/243
-!||fogyasztobarat.hu^$third-party
-!||arukereso.hu^$third-party
-!

@@ -16,7 +16,7 @@
 ! About filter policy and usage terms please see the homepage above.
 ! By using the filter you automatically accept the terms of use.
 !
-! Kerjuk, jelentsd a nem blokkolt hirdeteseket vagy a hibakat a Github issue trackerben.
+! Kerjuk, jelentsd a nem blokkolt hirdeteseket vagy a hibakat a GitHub issue trackerben.
 ! A szuresi iranyelveket, felhasznalasi felteteleket lasd a fenti honlapon.
 ! A szuro hasznalataval automatikusan elfogadod a felhasznalasi felteteleket.
 !
