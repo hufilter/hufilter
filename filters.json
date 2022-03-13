@@ -1,31 +1,37 @@
 [
   {
     "output": "hufilter.txt",
+    "title": "Hufilter Basic",
     "header": "adblock-plus.txt",
     "sections": ["ads.txt", "other.txt"]
   },
   {
     "output": "hufilter-abp.txt",
+    "title": "Hufilter for ABP",
     "header": "adblock-plus.txt",
     "sections": ["ads.txt", "trackers.txt", "antiadblock.txt", "other.txt"]
   },
   {
     "output": "hufilter-ublock.txt",
+    "title": "Hufilter for uBO",
     "header": "ublock.txt",
     "sections": ["ads.txt", "annoyances.txt", "trackers.txt", "antiadblock.txt", "other.txt", "ublock-specific.txt"]
   },
   {
     "output": "hufilter-adguard.txt",
+    "title": "Hufilter for AdGuard",
     "header": "adguard.txt",
     "sections": ["ads.txt", "annoyances.txt", "trackers.txt", "antiadblock.txt", "other.txt", "adguard-specific.txt"]
   },
   {
     "output": "hufilter-selfpromo.txt",
+    "title": "Hufilter Self-promotions",
     "header": "adblock-plus.txt",
     "sections": ["selfpromo.txt"]
   },
   {
     "output": "hufilter-dns.txt",
+    "title": "Hufilter DNS",
     "dns": true,
     "header": "dns.txt",
     "sections": ["ads.txt", "annoyances.txt", "trackers.txt", "other.txt"]

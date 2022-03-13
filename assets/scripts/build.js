@@ -61,6 +61,7 @@ buildFilters = async () => {
         // Versions
         headerContent = headerContent.replace(/#VERSION#/, version);
         headerContent = headerContent.replace(/#LAST_MODIFIED#/, lastModified);
+        headerContent = headerContent.replace(/#TITLE#/, filter.title || "hufilter");
         // Checksum
         const checksum = calculateChecksum(headerContent + content);
         headerContent = headerContent.replace(/#CHECKSUM#/, checksum);

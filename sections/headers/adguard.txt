@@ -1,6 +1,6 @@
 ! Checksum: #CHECKSUM#
 ! Version: #VERSION#
-! Title: hufilter
+! Title: #TITLE#
 ! Last modified: #LAST_MODIFIED#
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/hufilter/hufilter/wiki
