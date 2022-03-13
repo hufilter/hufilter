@@ -7,17 +7,22 @@
   {
     "output": "hufilter-abp.txt",
     "header": "adblock-plus.txt",
-    "sections": ["ads.txt", "selfpromo.txt", "trackers.txt", "antiadblock.txt", "other.txt"]
+    "sections": ["ads.txt", "trackers.txt", "antiadblock.txt", "other.txt"]
   },
   {
     "output": "hufilter-ublock.txt",
     "header": "ublock.txt",
-    "sections": ["ads.txt", "selfpromo.txt", "annoyances.txt", "trackers.txt", "antiadblock.txt", "other.txt", "ublock-specific.txt"]
+    "sections": ["ads.txt", "annoyances.txt", "trackers.txt", "antiadblock.txt", "other.txt", "ublock-specific.txt"]
   },
   {
     "output": "hufilter-adguard.txt",
     "header": "adguard.txt",
-    "sections": ["ads.txt", "selfpromo.txt", "annoyances.txt", "trackers.txt", "antiadblock.txt", "other.txt", "adguard-specific.txt"]
+    "sections": ["ads.txt", "annoyances.txt", "trackers.txt", "antiadblock.txt", "other.txt", "adguard-specific.txt"]
+  },
+  {
+    "output": "hufilter-selfpromo.txt",
+    "header": "adblock-plus.txt",
+    "sections": ["selfpromo.txt"]
   },
   {
     "output": "hufilter-dns.txt",
