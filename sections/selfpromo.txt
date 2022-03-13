@@ -25,7 +25,8 @@ onroad.hu##a[href="https://onroad.hu/tamogatas"]
 pestisracok.hu###head-wrap + .code-block
 telex.hu##.kari
 telex.hu##.support
-telex.hu##[href*="tamogatas"]
+! TODO! https://github.com/hufilter/hufilter/discussions/7
+!telex.hu##[href*="tamogatas"]
 totalcar.hu###bannerHeaderLink
 upc.hu##.callback-overlay
 upc.hu##.segithetunk-container
