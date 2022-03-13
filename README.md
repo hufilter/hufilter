@@ -59,10 +59,22 @@ Useful links to documentations.
 - [Redirects compatibility table](https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/compatibility-table.md#-redirects-compatibility-table)
 - [CSS selectors (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)  
 
-## Build
+## Build process
 
 The build process is executed automatically if a push event is triggered in this repository.
  
-## VSCode
+## Recommended environment
 
 We recommend using [Visual Studio Code](https://code.visualstudio.com/download) for development. Please install [recommended extensions](https://github.com/hufilter/hufilter-dev/blob/master/.vscode/extensions.json) in order to work with syntax highlight and automatic rule ordering. [Node.js](https://nodejs.org/en/download/) is also required for automatic ordering!
+
+## Contact
+
+- E-mail: [hufilter@protonmail.com](mailto:hufilter@protonmail.com)
+- Forum: [Discussions](https://github.com/hufilter/hufilter/discussions)
+- Issue management: [Please use this form](https://github.com/hufilter/hufilter-dev/issues/new/choose) (GitHub account required).
+
+## Licensing
+
+The project hufilter is distributed under the "Creative Commons Attribution 4.0" license. Contributors are licensing their work under the very same terms and conditions.
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
