@@ -69,7 +69,7 @@ hosszupuskasub.com#$# * { cursor: auto !important; }
 hu.ign.com#$#div.article-headline { margin-top: 44px !important; }
 hwsw.hu#$#body[style*="padding-top"] { padding-top: 0px !important; background-color: #777 !important; }
 index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu#$#body { overflow: auto !important; }
-jofogas.hu###page-content:style(margin-top: 0px !important;)
+jofogas.hu#$##page-content { margin-top: 0px !important; }
 kekvillogo.hu#$#body { padding-top: 0 !important; }
 ! There is no need to add padding on small devices, so we need to add media query.
 ! .content_start is the start page view, .content_content is the article view.
@@ -85,7 +85,7 @@ startlap.hu#$#div.container.banner-container.wide { min-height: 0!important; hei
 videa.hu#$##wrapfabtest { height: 1px!important; }
 
 ! Section: Related ABP rules
-! Description: These regular ABP rules dont't work properly without specific rules.
+! Description: These regular ABP rules dont't work properly without Adguard-specific rules!
 !
 hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal

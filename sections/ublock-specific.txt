@@ -82,7 +82,7 @@ startlap.hu##div.container.banner-container.wide:style(min-height: 0!important; 
 videa.hu###wrapfabtest:style(height: 1px!important;)
 
 ! Section: Related ABP rules
-! Description: These regular ABP rules dont't work properly without specific rules.
+! Description: These regular ABP rules dont't work properly without uBO-specific rules!
 !
 hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
