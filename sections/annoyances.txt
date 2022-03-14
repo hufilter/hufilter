@@ -4,7 +4,17 @@
 
 ! Section: General hide
 !
+hu##.cc_banner
+hu##.cc_banner-wrapper
+hu##.cc_window
+hu##.cc-banner
+hu##.cc-banner-wrapper
+hu##.cc-window
 hu##.qc-cmp2-container
+hu###cookie-bar
+hu###cookie-notice
+hu###cookie-window
+hu###cookiebar
 hu###qc-cmp2-container
 
 ! Section: Specific hide
@@ -18,22 +28,16 @@ hu###qc-cmp2-container
 24.hu###stickyHomePageRecommender
 24.hu###webPushPopup
 444.hu###cookie_popup_container
-5mp.eu##.cc_banner
 888.hu###cookieconsent
 ado.hu###cookieBox
 ado.hu###cookieBox_bg
 adoforum.hu###cookies-alert
 adozona.hu##.floating-help-wrapper
-androbit.net###CookieBar
-androgeek.hu##[class*="cc-banner"]
-aranyoldalak.hu##.cc-window
 arukereso.hu###cookie-disclaimer
-astronet.hu###cookie-window
 atv.hu###facebookPopUp
 atv.hu###facebookPopUpBackground
 atv.hu###szechenyi-container
 autobazar.eu###cookieinfo
-automotor.hu###cookie-window
 autonavigator.hu###CybotCookiebotDialog
 autosjog.hu##.cookie-notice-container
 autosjog.hu##p + center:-abp-has(iframe[data-src*="facebook"])
@@ -51,13 +55,10 @@ blog.hu##[id*="cp_popup"]
 bonuszbrigad.hu###newASZFLayer
 bookline.hu###onetrust-consent-sdk
 borsonline.hu##.cookie__wrapper
-bpiautosok.hu###cookie-notice
 budapestbank.hu###header_cookie_container
-budapestkornyeke.hu###cookie-notice
 budapestpark.hu###cooker_container
 builder.hu###cookie_warn_text
 calculat.org##.cookies
-carstyling.com##.cc_banner-wrapper
 cartourmagazin.hu###cadre_alert_cookies
 cartourmagazin.hu###pa-push-notification-subscription
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu###cookie-policy-content
@@ -65,11 +66,8 @@ computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu###web-push-popup
 csaladinet.hu###cikkajanlo
 csaladinet.hu###CookieAcceptLayer
 csupasport.hu##.enews-article-content .endless-shared-area
-csupasport.hu###cookie-window
 cyberpress.hu###cookie-law-info-bar
-data.hu##.cc_banner-wrapper
 divany.hu,totalcar.hu,totalbike.hu,femina.hu###_iph_cp_popup
-edubase.hu##.cc-window
 egeszsegkalauz.hu###articleOfferFlag
 ! https://github.com/hufilter/hufilter-dev/issues/248
 egeszsegkalauz.hu###pe_confirm_optin_1
@@ -83,18 +81,13 @@ epiteszforum.hu##div.supportModal
 esport1.hu##.cookie-popup
 esport1.hu##.overlay-popup
 esport1.hu###article-recommend-popup
-ezit.hu###cookie-notice
 f1vilag.hu###catapult-cookie-bar
-f1vilag.hu##div.cc-window
 f1vilag.hu##div[id*="elementor-popup-modal-"]
 femina.hu###_iph_cp_popup
 femina.hu###femina-shop-ajanlo-slider
-figyelo.hu###cookie-window
 forbes.hu##.crp_related
 forbes.hu###catapult-cookie-bar
-fourfourtwo.hu###cookie-window
 fressnapf.hu##.grey-popup-layer
-gepigeny.hu###cookie-bar
 grundoajandek.hu###cookie-popup
 gumiszoba.com###eu-cookie-law
 gumiszoba.com###facebook-likebox-8
@@ -104,11 +97,8 @@ gyartastrend.hu##div[id^="jqueryFloating"]
 gyorihir.hu###cookie_bar
 gyorplusz.hu###cookie-law-info-bar
 harmonet.hu###ajanlo_box_ah
-harmonet.hu###cookie-bar
 hasznaltauto.hu###CybotCookiebotDialog
-hatarido-szamitas.hu###cookie-bar
 haziallat.hu##[id^="cookieconsent"]
-haziallat.hu##div.cc-window
 hazipatika.com##.fb-exit-popup-container
 hazipatika.com###facebook-sharebar
 hazipatika.com###facebook-sharebar
@@ -117,18 +107,12 @@ hazipatika.com###webaruhaz-ajanlo
 hbogo.hu##.cookie-consent
 helyitipp.hu##.cookie-notice-container
 hestore.hu###cookiewarnbar
-hetek.hu##.cc_banner
 hirado.hu##.hover_bkgr_fricc:-abp-has(.facebookPopupCloseButton)
 hiros.hu###cookieAlertBox
-hogyankell.hu##.cc-window
 hoxa.hu###cookiekezeles
-hupont.hu##[class*="cc_banner"]
 hvg.hu##.hvg_push
 hwsw.hu###cookiealert
-idokep.hu##.cc_banner-wrapper
 index.hu###_iph_cp_popup
-infomovar.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu##.cc-window
-infostart.hu##.cc-window
 infostart.hu##.notification-popup
 ! https://github.com/hufilter/hufilter-dev/issues/252
 infostart.hu###_ao-cmp-ui
@@ -137,31 +121,22 @@ infostart.hu##div[data-qa="oil-Layer"]
 itthonrolhaza.hu###cookie-law-info-again
 itthonrolhaza.hu###cookie-law-info-bar
 kalohirek.hu###cookie_container
-kamaszpanasz.hu##.cc_banner
-kamaszpanasz.hu##.cc_banner-wrapper
 kapu.hu###cookieSpan
 karpathir.com##[app="tibrr-cookie-consent"]
-kemma.hu###cookie-window
 keol.hu###social
-keol.hu##div.cc_banner-wrapper
 keol.hu##div.subscribe_module
 keol.hu##div[class="fb-like fb_iframe_widget"]
-kezilabda.hu##.cc_banner
-kezilabda.hu##.cc_banner-wrapper
 kfc.hu##.cookies-message-container
 kh.hu###cookieAcceptanceContainer
-kisalfold.hu###cookie-window
 kisalfold.hu###nap_ajanlata
 kisalfold.hu##div.articleInArticleOfferer
 kisalfold.hu##div.endless-shared-area
-kiszamolo.hu###cookie-notice
 kitekinto.hu##.pea_cook_wrapper
 kosarsport.hu,hunbasket.hu##.gdpr-cookie-notice
 kreativ.hu##div.accept-cookies
 life.hu##.facebook-layer-box
 life.hu###beuszoAjanlo
 life.hu###floating-recommendation
-likenews.hu###cookie-notice
 magyarhang.org,hang.hu##[class^="moove-gdpr-"]
 magyarhirlap.hu###eucookielaw
 ! https://github.com/hufilter/hufilter-dev/issues/251
@@ -172,14 +147,12 @@ medicalonline.hu##.accept-cookies
 menshealth.hu###fbpopup
 merce.hu##.cookie-bar
 merce.hu##.popup-wrap
-meszotar.hu##.cc_banner-wrapper
 mindmegette.hu##.allow-cookie-stripe
 najlepsie-clanky.com##[class*="pea_cook"]
 napi.hu##.cikkajanlo
 napi.hu###_iph_cp_popup
 napiszex.hu##.ckwrap
 napjainkportal.hu##.cookie-notice-container
-nemkutya.com###cookie-notice
 nemzetisport.hu##.allow-cookie-stripe
 nice.hu##div.cookie-message
 nice.hu##div#show_news_box
@@ -189,20 +162,16 @@ nlcafe.hu##.m-fbPopup
 nyest.hu###cookie-consent
 obi.hu##.colorbox-cookiepolicy
 offline.hu###catapult-cookie-bar
-online-filmek.me##[class*="cc_banner"]
 ! https://github.com/hufilter/hufilter-dev/issues/254
 onroad.hu###slidebox
 origo.hu,life.hu,reblog.hu,investor.hu,ok.hu,videa.hu###accept-cookie
 origo.hu##div.facebook-layer-box
 paleomedicina.com###kpopup
 pannonrtv.com###sliding-popup
-pcguru.hu##[class*="cc_banner"]
 penzcentrum.hu###_iph_cp_popup
 penzcentrum.hu###ajanlo
 pestisracok.hu###onesignal-bell-container
 pestisracok.hu###onesignal-slidedown-container
-piacesprofit.hu##.cc_banner
-piacesprofit.hu##.cc_banner-wrapper
 piacesprofit.hu###cikkertesito-reg-form
 player.hu##.ui-dialog[aria-describedby="newsletter-modal"]
 player.hu##.ui-widget-overlay.ui-front
@@ -224,13 +193,11 @@ raketa.hu##.ui-widget-overlay
 raketa.hu##[aria-describedby="newsletter-modal"]
 retikul.hu###psCookieNotification
 ripost.hu###cookieconsent
-sg.hu##.cc-window
 sielok.hu###gdprCookieWrap
 simple.hu###enableCookieDiv
 sorozatwiki.hu###fhr-cookie-bar
 starity.hu###upprev_box
 startlap.hu###push-notification
-szabadfold.hu###cookie-window
 szabadfold.hu##div.fb_shares
 szatmar.ro##.cookie-consent
 szekelyfold.ma##.Cookie--bottom
@@ -240,16 +207,10 @@ szepsegbroker.hu###popup
 szeretlekmagyarorszag.hu###cookie-policy-bar
 szeretlekmagyarorszag.hu###rovatpromo
 szeretlekmagyarorszag.hu##iframe[class*="my-fbrecommend"]
-szineshir.net###cookiebar
-szoljon.hu###cookie-window
-szotar.net##.cc-bottom.cc-type-info.cc-banner.cc-window
-tarhely.com###cookie-notice
 tarhely.eu###sutik
-tarhelypark.hu##.cc-window
 telekom.hu###app-cookie-policy
 thaimatrac.hu##.border-top.p-4.bg-8.cookie-alert__inner
 totalcar.hu###_iph_cp_popup
-transindex.ro###cookie-bar
 travelo.hu##div.qc-cmp-ui-container
 tudtade.blogstar.hu###cookie_policy
 unilife.hu##.facebook-layer-box
@@ -262,8 +223,6 @@ wasabi.hu##.footprint_cookie
 webforditas.hu###cookie-consent
 webshop.fressnapf.hu##.grey-popup-layer
 widescreen.hu##div.penci-wrap-gprd-law
-wikiszotar.hu###cookie-bar
-zoldmano.info###cookiebar
 
 ! Section: Specific hide (extended ABP selectors)
 !
