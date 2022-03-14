@@ -23,7 +23,7 @@ totalbike.hu##^body>script:has-text(window.onload = window.onfocus)
 totalcar.hu##^body>script:has-text(window.onload = window.onfocus)
 
 ! Section: Scriptlets
-! Description: https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md#scriptlets
+! Description: https://github.com/gorhill/uBlock/wiki/Resources-Library
 !
 24.hu##+js(acis, window._ceCTSData, hirdetések)
 ! angol-magyar-szotar.hu antiadblock
