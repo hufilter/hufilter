@@ -10,24 +10,28 @@
 /gemius.min.js^
 /xgemius.js^
 /xgemius.min.js^
+||*.hu/userip.php
 
 ! Section: Specific block
 !
-||*/userip.php
 ! AdBlock detector - privacy invasion
-||444.hu/js/ease_detector.js
-||adocean.pl^
+||444.hu/js/ease_detector.js$script
+||clicksor.net/newServing/
+||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
+||myroitracking.com/newServing/
+||websas.hu/statistics/
+
+! Section: Tracking servers
+!
 ||adtrackeraa.com^
 ||bs.serving-sys.com^
-||clicksor.net/newServing/
+||counter.megagroup.ru^
 ||doubleclick.net^
-||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 ||fastclick.net^
 ||fwmrm.net^
-||gemius.hu
-||gemius.pl
+||gemius.hu^
+||gemius.pl^
 ||googletagservices.com^
-||myroitracking.com/newServing/
 ||smartadserver.com^
 ||track.calithornia.com^
 ||track.rtb-media.me^
@@ -35,18 +39,17 @@
 ||tracker.azet.sk^
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
-||websas.hu/statistics/
 ||zanox.com^
 
-! Section: Third-party
+! Section: Tracking servers third-party
 !
 ||2mdn.net^$third-party
 ||a.rvttrack.com^$third-party
-||adswizz.com^$third-party
 ||analytics.yahoo.com^$third-party
 ||atdmt.com^$third-party
 ||bannerflow.com^$third-party
 ||bbelements.com^$third-party
+||counter.hitslink.com^$third-party
 ||google-analytics.com^$third-party
 ||gravity.com^$third-party
 ||insticator.com^$third-party
