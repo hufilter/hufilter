@@ -96,8 +96,7 @@ arukereso.hu##.brandbox
 astronet.hu##[class*="ads-"]
 atlatszo.hu##.tamogatoi
 atlatszo.hu##.wp-caption
-atv.hu##DIV[class*="banner"]
-atv.hu##header > .top-content
+atv.hu##.plus-wrapper
 automenedzser.hu##.adcloud
 automenedzser.hu##.monocle
 automenedzser.hu##DIV[class*="banner"]

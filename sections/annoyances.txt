@@ -29,9 +29,9 @@ androgeek.hu##[class*="cc-banner"]
 aranyoldalak.hu##.cc-window
 arukereso.hu###cookie-disclaimer
 astronet.hu###cookie-window
-atv.hu###cookie-warning
 atv.hu###facebookPopUp
 atv.hu###facebookPopUpBackground
+atv.hu###szechenyi-container
 autobazar.eu###cookieinfo
 automotor.hu###cookie-window
 autonavigator.hu###CybotCookiebotDialog
