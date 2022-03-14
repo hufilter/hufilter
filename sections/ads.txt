@@ -91,7 +91,6 @@ aranyoldalak.hu##.mask
 aranyoldalak.hu##.showLink.reveal
 aranyoldalak.hu##[class*=" adH"]
 arukereso.hu##.brandbox
-astronet.hu##[class*="ads-"]
 atlatszo.hu##.tamogatoi
 atlatszo.hu##.wp-caption
 atv.hu##.plus-wrapper
