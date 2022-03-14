@@ -10,7 +10,6 @@
 ! Section: Specific block
 !
 /js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
-||adfree-stat.p3g.hu/detect/detect.min.js^$domain=24.hu
 ||onlinestream.live/js/adb.js
 
 ! Section: Specific allow
