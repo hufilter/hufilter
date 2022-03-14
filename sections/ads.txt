@@ -47,10 +47,6 @@
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
 168.hu##.banner-wrapper
-1helyen.eu###jobb_side_friss
-1helyen.eu###now_jobb
-1helyen.eu###tpost>div:nth-child(2)
-1helyen.eu###tpost>div:nth-child(3)
 24.hu##[class*="banner-"]
 444.hu##.d1912cka
 444.hu##.d1912cza
