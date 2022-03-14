@@ -127,9 +127,9 @@ adozona.hu##.az-layer
 adozona.hu##.big_badge
 adozona.hu##[class*="ads"]
 adozona.hu###g0
-agrarszektor.hu##div#ajanlo
+agrarszektor.hu###ajanlo
+alapjarat.hu###alapjarat_cikk_fekvo_1
 alapjarat.hu##div.header + .clearfix + .clearfix
-alapjarat.hu##div#alapjarat_cikk_fekvo_1
 alfahir.hu###block-block-16
 alfahir.hu###block-block-22
 alfahir.hu###block-views-ajanlo-block
@@ -375,7 +375,7 @@ eletmod.hu##[class*="hirdetes"]
 eletmod.hu##[id*="banner"]
 eletmod.hu##[id*="etarget"]
 epresso.hu##[class*="banner"]
-eredmenyek.com##div#onetrust-banner-sdk
+eredmenyek.com###onetrust-banner-sdk
 eron.hu##[id*="banner"]
 eropolis.hu##[class*="banner"]
 es.hu##[class*="banner"]
@@ -396,7 +396,7 @@ evamagazin.hu##[class^="goAdverticum"]
 f1vilag.hu##[class*="adzone"]
 farm.hu##[class*="banner"]
 farm.hu##[id*="banner"]
-feliratok.info##DIV#advert
+feliratok.info###advert
 feliratok.org##.wrapper>.slider
 femcafe.hu##.views-field-nothing
 femcafe.hu##[class*="_ad "]
@@ -919,8 +919,8 @@ nemzetisport.hu##[class^="ad_"]
 nemzetisport.hu##[id*="banner"]
 nemzetisport.hu##[id^="ad_"]
 nemzetisport.hu###didyou
-nemzetisport.hu##div#wallpaper_left
-nemzetisport.hu##div#wallpaper_right
+nemzetisport.hu###wallpaper_left
+nemzetisport.hu###wallpaper_right
 nepszava.hu##[class*="adlabel"]
 nepszava.hu##[class*="leftlogo"]
 nepszava.hu##[id*="adserver"]
@@ -1017,7 +1017,7 @@ otvenentul.hu##[class^="ad"]
 pannonrtv.com##[id^="block-views-block-banners-"]
 partyponty.hu##[class*="banner"]
 partyponty.hu##[id*="banner"]
-pcforum.hu##div#zone-titleheader
+pcforum.hu###zone-titleheader
 pcguru.hu##.banner-content
 pcguru.hu##a[href*="banner_click"]
 pdafanclub.com##[id*="banner"]
@@ -1212,7 +1212,6 @@ turizmusonline.hu##[class*="Banner"]
 turmixvilag.hu##.adsense
 tutitippek.hu##[class*="adsense"]
 tvgo.hu##.banner
-tvn.hu/tvn/kepek/xpoker.hu/
 ugytudjuk.hu##.leftSide > .bnr
 ugytudjuk.hu##.rightSide > .bnr
 usernet.hu###blanket
@@ -1505,6 +1504,7 @@ napocska.hu/images/*_advert*.
 nso.hu/*/sponsoration/*.
 partyzoo.hu/banner/
 randihely.hu/adnews/
+tvn.hu/tvn/kepek/xpoker.hu/
 
 ! Section: Ad servers
 !
