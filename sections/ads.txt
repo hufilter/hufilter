@@ -87,8 +87,6 @@ androgeek.hu##div.cikk_zona
 androgeek.hu##div.rightside > iframe
 angol-magyar-szotar.hu##.sidebar1 > div:first-child
 angol-magyar-szotar.hu##[id^="hird_"]
-anyuci.hu##[class*="banner"]
-anyuci.hu##[id*="banner"]
 aranyoldalak.hu##.mask
 aranyoldalak.hu##.showLink.reveal
 aranyoldalak.hu##[class*=" adH"]
