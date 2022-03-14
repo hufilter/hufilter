@@ -97,11 +97,6 @@ astronet.hu##[class*="ads-"]
 atlatszo.hu##.tamogatoi
 atlatszo.hu##.wp-caption
 atv.hu##.plus-wrapper
-automenedzser.hu##.adcloud
-automenedzser.hu##.monocle
-automenedzser.hu##DIV[class*="banner"]
-automenedzser.hu##DIV[id*="advert"]
-automenedzser.hu##DIV[id*="banner"]
 automotor.hu##[class*="hirdetes"]
 automotor.hu###_aloldali_header_banner
 automotor.hu###_fooldali_header_banner
