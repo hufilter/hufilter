@@ -44,7 +44,7 @@
 
 ! Section: Specific hide
 !
-112press.hu##div.banner_middle
+112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
 168.hu##.banner-wrapper
 1helyen.eu###jobb_side_friss

@@ -4,6 +4,8 @@
 
 ! Section: Specific hide
 !
+! Donate box
+112press.hu###right > .box + .box
 24.hu##.m-donationBottomLine
 24.hu##[class*=szponzibox]
 ado.hu###custom_html-8
