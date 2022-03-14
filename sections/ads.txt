@@ -120,7 +120,6 @@
 5mp.eu###alsobox
 5percblog.hu###text-5
 5percblog.hu###text-6
-777blog.hu###cikkreklam
 777blog.hu###galsoreklam
 777blog.hu###oldalreklam
 adoforum.hu##[class^="zone_"]
@@ -751,7 +750,6 @@ kossuth.hu##.mini_slider_div0
 kreativ.hu##[class*="Banner"]
 kreativ.hu##[id*="banner"]
 kronika.ro##[class*="banner"]
-kulturpart.hu##.hird
 kulturpart.hu##[name*="banner"]
 kuruc.info##.logopic2 + .fll
 kuruc.info##.overlay
@@ -911,7 +909,6 @@ napiszex.hu##.banner-bottom
 napiszex.hu##.list-item.has-banner
 napiuzlet.com##[class*="advertisement"]
 ncore.pro##.banner
-nemkutya.com##.hird
 nemkutya.com##[class^="ad-"]
 nemkutya.com###text-3
 nemzetisport.hu##.bet365_connect
@@ -1087,7 +1084,6 @@ romnet.hu##[id*="banner"]
 romnet.hu##[id*="hirdetes"]
 ! https://github.com/hufilter/hufilter-dev/issues/150
 rp5.ru#@#[id^="aswift_"]
-rtlklub.hu##.hird
 rtlklub.hu##[class*="banner"]
 samsungsport.hu##[class*="banner"]
 sg.hu##.std0
@@ -1095,7 +1091,6 @@ sg.hu##[class*="advert"]
 sg.hu##IMG[src="images/hirdetes.gif"]
 sielok.hu##[class*="AdWrap"]
 sielok.hu##[id*="AdWrap"]
-sikerado.hu##.Hirdetes
 site88.net##.popup
 sonline.hu##[class*="hirdetes"]
 sonline.hu##[id*="ctnet_ad_"]
@@ -1227,8 +1222,6 @@ valasz.hu##[class*="banner"]
 valaszonline.hu##.hird-cont
 vasarnap.hu##.banner-commercial
 vasarnap.hu##.reklamnagy
-! https://github.com/hufilter/hufilter-dev/issues/198
-vasarnap.hu###cikkreklam
 vatera.hu##.page-rightside-advert
 vatera.hu##div[id*="advert-container"]
 vehir.hu##[class*="szovegkozi"]
