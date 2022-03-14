@@ -129,7 +129,6 @@ autoszektor.hu###block-block-30
 autoszektor.hu###block-block-60
 azonnali.hu##.addd
 azonnali.hu##.bannpos
-babanet.hu##[class*="hirdetes"]
 babaszoba.hu##.rubAd
 bacsmegye.hu##.minisite
 bacsmegye.hu##[id*="banner"]
