@@ -10,6 +10,8 @@
 24.hu##[class*=szponzibox]
 ado.hu###custom_html-8
 ado.hu##a[href^="https://bit.ly"]
+automotor.hu##[data-foo="cikk_jobbhasab_"]
+automotor.hu##[data-foo="fooldali_jobbhasab_"]
 bestmarkt.hu##.ddModal
 bookline.hu##.l-container--full
 bookline.hu##a.c-skin--left
