@@ -10,7 +10,6 @@ hu###qc-cmp2-container
 ! Section: Specific hide
 !
 112press.hu###cookie-law
-168ora.hu###gdpr_box
 24.hu##.cc_container--open.cc_container.cc_gccp
 24.hu##.m-fbExitPopup
 24.hu##.u-overlayFullScreen

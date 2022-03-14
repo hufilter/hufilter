@@ -45,10 +45,8 @@
 ! Section: Specific hide
 !
 112press.hu##div.banner_middle
+168.hu##.ads_show_ad_title
 168.hu##.banner-wrapper
-168ora.hu##[class*="banner"]
-168ora.hu##[class^="ads"]
-168ora.hu##[id*="etarget"]
 1helyen.eu###jobb_side_friss
 1helyen.eu###now_jobb
 1helyen.eu###tpost>div:nth-child(2)
