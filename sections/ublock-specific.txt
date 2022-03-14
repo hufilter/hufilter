@@ -6,7 +6,7 @@
 ! Description: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#html-filters
 ! Description: Only works on Firefox
 !
-24.hu##^body > script:has-text(2blck)
+24.hu##^body > script:has-text(a2blckLayer)
 divany.hu##^body>script:has-text(window.onload = window.onfocus)
 gamer.hu##^body>script:has-text(cli_cookiebar_)
 grundoajandek.hu##^script:has-text(contextmenu)
@@ -25,6 +25,7 @@ totalcar.hu##^body>script:has-text(window.onload = window.onfocus)
 ! Section: Scriptlets
 ! Description: https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md#scriptlets
 !
+24.hu##+js(acis, window._ceCTSData, hirdetések)
 ! angol-magyar-szotar.hu antiadblock
 angol-magyar-szotar.hu##+js(set, adblock, false)
 ! calculat.org antiadblock

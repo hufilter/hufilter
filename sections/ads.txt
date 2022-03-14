@@ -47,7 +47,8 @@
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
 168.hu##.banner-wrapper
-24.hu##[class*="banner-"]
+24.hu##.banner-container
+24.hu##.spklw-post-attr[data-type="ad"]
 444.hu##.d1912cka
 444.hu##.d1912cza
 444.hu##.d2020kv
@@ -1474,6 +1475,7 @@ randihely.hu/adnews/
 ||ad.yieldmanager.com^
 ||ad*.mellesleg.hu^
 ||adfair.hu
+||adfree-stat.p3g.hu^
 ||adk2x.com^
 ||ads.geeks.hu^
 ||adsfac.eu/*.asp
