@@ -55,6 +55,8 @@ blog.hu##[id*="cp_popup"]
 bonuszbrigad.hu###newASZFLayer
 bookline.hu###onetrust-consent-sdk
 borsonline.hu##.cookie__wrapper
+bpiautosok.hu###onesignal-bell-container
+bpiautosok.hu###onesignal-slidedown-container
 budapestbank.hu###header_cookie_container
 budapestpark.hu###cooker_container
 builder.hu###cookie_warn_text

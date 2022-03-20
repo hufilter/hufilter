@@ -234,13 +234,7 @@ borsonline.hu##[class*="__ad"]
 borsonline.hu##[class*="adContainer"]
 borsonline.hu##A[href="/jatek"]
 borsonline.hu##A[href="/nyarimagazin"]
-bpiautosok.hu##.post > p + center
-bpiautosok.hu##.post > p + center + hr
-bpiautosok.hu##.post ins + h6
-bpiautosok.hu##.single-content p + center > iframe
-bpiautosok.hu##div.post > *:not(.single-title):not(.news-thumb):not(.posted-date):not(.comments-meta):not(.author-meta):not(.single-content):not(.entry-footer):not(.news-item)
-bpiautosok.hu##noscript + div.top-menu
-bpiautosok.hu##script[async] + table[width="100%"]
+bpiautosok.hu##font + center
 budapestkornyeke.hu###custom_html-10
 budapestkornyeke.hu###custom_html-11
 budapestkornyeke.hu###custom_html-6
@@ -1283,10 +1277,8 @@ ado.hu#?#.whiteBox:-abp-has(.goAdverticum)
 agrarszektor.hu#?#div#mymodal:-abp-has(#form-popup)
 bien.hu#?#.hidden-xs:-abp-has(>.lablec_alatt)
 bien.hu#?#.hidden-xs:-abp-has(>.weboldal_felett)
-bpiautosok.hu#?#center:-abp-has(>font[size=1])
-bpiautosok.hu#?#center:-abp-has(>iframe[scrolling=no])
-bpiautosok.hu#?#div[class*="rltd_item"]:-abp-has(.rltd_tag)
-bpiautosok.hu#?#font[size=1]:-abp-has(>center)
+bpiautosok.hu#?#.widget:-abp-has(h3w:-abp-contains(Támogatóink))
+bpiautosok.hu#?#[class*="item_container"]:-abp-has([class*="_tag"]:-abp-contains(hirdetés))
 budapestkornyeke.hu#?#div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Állásajánlat))
 budapestkornyeke.hu#?#div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Hirdetés))
 cyberpress.hu#?#.sb-widget:-abp-has(>h4:-abp-contains(Hirdetés))
