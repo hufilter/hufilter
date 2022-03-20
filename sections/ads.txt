@@ -787,6 +787,8 @@ likenews.hu##div.bpkad
 linkcenter.hu##[class*="adserver"]
 linkcenter.hu##[id*="hirdetes"]
 litera.hu##[class*="-ad"]
+logout.hu###navi_btm + div
+logout.hu##img[src^="https://logout.hu/muvelet/hozzaferes/kapcsolodas.php"]
 love.hu##.nobanner
 love.hu##[class^="banner_"]
 love.hu##[id^="banner_"]
