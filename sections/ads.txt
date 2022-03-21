@@ -584,7 +584,8 @@ hvg.hu##.cimlap-ajanlat.elem-1180.cimlap-grid-elem
 hvg.hu##.hosting
 hvg.hu##.jobline-palyakezdo-feed
 hvg.hu##.lh-calc.bm-caxlc-bo
-hvg.hu##.panelgap > .caption
+! https://github.com/AdguardTeam/AdguardFilters/issues/111757
+hvg.hu##.list-article + style + .panelgap
 hvg.hu##.selectWidget
 hvg.hu##.support-stripe
 hvg.hu##[class*="adsense"]
