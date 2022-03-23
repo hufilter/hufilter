@@ -33,6 +33,9 @@ ado.hu###cookieBox
 ado.hu###cookieBox_bg
 adoforum.hu###cookies-alert
 adozona.hu##.floating-help-wrapper
+! https://github.com/AdguardTeam/AdguardFilters/issues/113594
+americantourister.hu##.ui-widget-overlay
+americantourister.hu##[aria-describedby="cookies-dialog"]
 arukereso.hu###cookie-disclaimer
 atv.hu###facebookPopUp
 atv.hu###facebookPopUpBackground
