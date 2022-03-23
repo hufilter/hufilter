@@ -15,6 +15,6 @@
 ! Section: Specific allow
 !
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113211
-@@||apro.bikemag.hu/static/js/adx_blacklist.js^$script
+@@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
 @@||meszotar.hu/scripts/advertising.js
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
