@@ -189,9 +189,9 @@ privatbankar.hu##.mfor_cikk_beuszo
 privatbankar.hu##.news-page > div[style*="background: #FFF900;"]:first-child
 profession.hu##.cookie-layer
 prog.hu,pcforum.hu##.slidein.popup.closeablenotification.scripted
+prog.hu,pcforum.hu###cookieconsentbar
 prog.hu,pcforum.hu###subscribepopuppanelalign
 prog.hu##.popup
-prog.hu###cookieconsentbar
 prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,logout.hu,hardverapro.hu,fototrend.hu###accept-container
 propeller.hu##.popup
 raketa.hu##.ui-widget-overlay
