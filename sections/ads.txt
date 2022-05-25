@@ -1048,6 +1048,8 @@ privatbankar.hu##.lead_alatti_txt
 privatbankar.hu##[src*="/banner/"]
 profession.hu###newsletter_footer
 profession.hu###twister-banner
+! https://github.com/hufilter/hufilter/pull/10/commits/8b5ecfa97e469a836865f1aba8641d9bbc2e5a8b
+prog.hu###zone-roaddblock
 prohardver.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.spleft
 prohardver.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.spright
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##[class$="responsive-300px-600px"]
