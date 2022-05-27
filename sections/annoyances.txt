@@ -93,6 +93,8 @@ femina.hu###femina-shop-ajanlo-slider
 forbes.hu##.crp_related
 forbes.hu###catapult-cookie-bar
 fressnapf.hu##.grey-popup-layer
+glamour.hu###articleOfferFlag
+glamour.hu###pe_confirm_optin_6
 grundoajandek.hu###cookie-popup
 gumiszoba.com###eu-cookie-law
 gumiszoba.com###facebook-likebox-8
