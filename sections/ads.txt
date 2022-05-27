@@ -1003,6 +1003,7 @@ origo.hu##DIV[class*="Advert"]
 origo.hu##div[class$="widget"][data-adblockonly="1"]
 origo.hu##DIV[id*="magnum"]
 origo.hu##IFRAME[id*="bookline"]
+origo.hu##section.spar
 otvenentul.hu##[class^="ad"]
 pannonrtv.com##[id^="block-views-block-banners-"]
 partyponty.hu##[class*="banner"]
