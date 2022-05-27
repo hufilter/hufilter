@@ -170,6 +170,7 @@ offline.hu###catapult-cookie-bar
 ! https://github.com/hufilter/hufilter-dev/issues/254
 onroad.hu###slidebox
 origo.hu,life.hu,reblog.hu,investor.hu,ok.hu,videa.hu###accept-cookie
+origo.hu##.mw-allow-notification-dialog
 origo.hu##div.facebook-layer-box
 paleomedicina.com###kpopup
 pannonrtv.com###sliding-popup
