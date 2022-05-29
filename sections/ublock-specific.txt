@@ -76,6 +76,7 @@ keol.hu##section[id="content_left"][class="content_start"]:style(padding-top: 80
 magyarhirlap.hu##header .container:style(padding: 10px 10px 0 10px !important;)
 mkb.hu##html,body:style(overflow:auto !important)
 origo.hu##.first-section:style(margin-top: 0 !important;)
+origo.hu##.oh-holder.open:style(z-index: 9999!important;)
 port.hu##body:style(overflow: auto !important)
 startlap.hu##div.container.banner-container.wide:style(min-height: 0!important; height: auto!important;)
 ! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d

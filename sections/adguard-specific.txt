@@ -79,6 +79,7 @@ keol.hu#$#div#search_container { margin-bottom: 0 !important; }
 keol.hu#$#section[id="content_left"][class="content_content"] { width: auto !important; padding: 0 45px 0 46px !important; }
 magyarhirlap.hu#$#header .container { padding: 10px 10px 0 10px !important; }
 origo.hu#$#.first-section { margin-top: 0 !important; }
+origo.hu#$#.oh-holder.open { z-index: 9999!important; }
 port.hu#$#body { overflow: auto !important; }
 startlap.hu#$#div.container.banner-container.wide { min-height: 0!important; height: auto!important; }
 ! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d
