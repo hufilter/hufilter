@@ -173,6 +173,7 @@ offline.hu###catapult-cookie-bar
 onroad.hu###slidebox
 origo.hu,life.hu,reblog.hu,investor.hu,ok.hu,videa.hu###accept-cookie
 origo.hu##.mw-allow-notification-dialog
+origo.hu##.newsletter-layer
 origo.hu##div.facebook-layer-box
 paleomedicina.com###kpopup
 pannonrtv.com###sliding-popup
