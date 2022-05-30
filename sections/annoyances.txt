@@ -201,6 +201,7 @@ propeller.hu##.popup
 raketa.hu##.ui-widget-overlay
 raketa.hu##[aria-describedby="newsletter-modal"]
 retikul.hu###psCookieNotification
+ripost.hu##.newsletter-box
 ripost.hu###cookieconsent
 sielok.hu###gdprCookieWrap
 simple.hu###enableCookieDiv
