@@ -8,6 +8,7 @@
 !
 24.hu##^body > script:has-text(a2blckLayer)
 divany.hu##^body>script:has-text(window.onload = window.onfocus)
+filmvilag.me##^body>script:has-text(ShadowRoot)
 gamer.hu##^body>script:has-text(cli_cookiebar_)
 grundoajandek.hu##^script:has-text(contextmenu)
 hungliaonline.com##^script:has-text(adblocker)
@@ -102,3 +103,5 @@ videa.hu#@#.adBanner
 !
 444.hu##article:has(a[href*="hirdetes"])
 444.hu##div.item:has(a[href*="hirdetes"])
+! https://github.com/hufilter/hufilter/issues/11
+filmvilag.me##[style]:has(.adslot_1)

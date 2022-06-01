@@ -404,6 +404,8 @@ femina.hu##[id*="etarget"]
 figyelo.hu##[class*="adbox"]
 figyelo.hu##[class*="banner"]
 filmoldal.hu##DIV[class*="reklam"]
+! https://github.com/hufilter/hufilter/issues/11
+filmvilag.me##[href^="https://rosszlanyok.hu/"]
 firstman.hu##[class*="banner"]
 fn.hu##.fn9_separator
 fn.hu##.rovatszponzor

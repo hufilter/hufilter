@@ -10,6 +10,7 @@
 !
 24.hu$$script[tag-content="a2blckLayer"]
 divany.hu,totalcar.hu,totalbike.hu$$script[tag-content="window.onload = window.onfocus"]
+filmvilag.me$$script[tag-content="ShadowRoot"]
 gamer.hu$$script[tag-content="cli_cookiebar_"]
 grundoajandek.hu$$script[tag-content="contextmenu"]
 hungliaonline.com$$script[tag-content="adblocker"]
@@ -102,3 +103,8 @@ traffihunter.hu##.ooono_promo
 videa.hu#@#.adBanner
 ! End of iOS limitations
 !#endif
+
+! Section: Other
+!
+! https://github.com/hufilter/hufilter/issues/11
+filmvilag.me##[style]:has(.adslot_1)
