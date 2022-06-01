@@ -16,7 +16,6 @@
 !
 ! AdBlock detector - privacy invasion
 ||444.hu/js/ease_detector.js$script
-||clicksor.net/newServing/
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 ||myroitracking.com/newServing/
 ||websas.hu/statistics/
@@ -24,17 +23,12 @@
 ! Section: Tracking servers
 !
 ||adtrackeraa.com^
-||bs.serving-sys.com^
 ||counter.megagroup.ru^
 ||doubleclick.net^
-||fastclick.net^
-||fwmrm.net^
 ||gemius.hu^
 ||gemius.pl^
-||googletagservices.com^
 ||smartadserver.com^
 ||track.calithornia.com^
-||track.rtb-media.me^
 ||track.trackbyme.info^
 ||tracker.azet.sk^
 ||tracking.binarypromos.com^
@@ -43,20 +37,13 @@
 
 ! Section: Tracking servers third-party
 !
-||2mdn.net^$third-party
-||a.rvttrack.com^$third-party
 ||analytics.yahoo.com^$third-party
-||atdmt.com^$third-party
-||bannerflow.com^$third-party
-||bbelements.com^$third-party
 ||counter.hitslink.com^$third-party
 ||google-analytics.com^$third-party
 ||gravity.com^$third-party
-||insticator.com^$third-party
 ||lo.v.liveperson.net^$third-party
 ||onesignal.com^$third-party
 ||targetix.net^$third-party
 ||track306.info^$third-party
 ||trackingterrorism.org^$third-party
 ||va.v.liveperson.net^$third-party,script
-||zemanta.com^$third-party
