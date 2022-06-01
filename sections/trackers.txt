@@ -4,10 +4,10 @@
 
 ! Section: General block
 !
-*/traffic.js
-*/traffic.min.js
 /gemius.js^
 /gemius.min.js^
+/traffic.js
+/traffic.min.js
 /xgemius.js^
 /xgemius.min.js^
 ||*.hu/userip.php

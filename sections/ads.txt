@@ -1396,12 +1396,12 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||hu-swingers.com/img/banners/$image
 ||hungariantop1000.com/cgi-bin/counter.cgi
 ||hupont.hu/hirdetes/
-||hwsw.hu/images/bodybgs/*$image
+||hwsw.hu/images/bodybgs/$image
 ||hwsw.hu/images/bodybgs2/
 ||i.cdn29.hu/apix_collect/ads
 ||iho.hu/img/banner/
 ||image.arukereso.hu/ad$image
-||img.hunbasket.webpont.com/kosarsport/art/*banner*$image
+||img.hunbasket.webpont.com/kosarsport/art/*banner$image
 ||infogyor.hu/*_banners/
 ||informed.hu/*banner
 ||ingyenweb.hu/felso/*.
@@ -1428,7 +1428,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||metropol.hu/*/images/sponsor_*.$image
 ||miabonyunk.hu/hirdetesek/
 ||mindmegette.hu/images/294/O/nyerjagyulaival_2020_background_300x300.jpg$image
-||mkbnetbankar.hu/banner*
+||mkbnetbankar.hu/banner
 ||mlzphoto.hu/bannerek/$image
 ||mobilarena.hu/ajanlo/lapcsalad.html
 ||napidroid.hu/*/*hird
@@ -1464,7 +1464,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||sg.hu/sg.wgt
 ||sielok.hu/kampanybanner/$image
 ||sikerado.hu/banner/$image
-||stat.profession.hu/static/assets/images/prize-game*$image
+||stat.profession.hu/static/assets/images/prize-game$image
 ||static.lhp.hu/lhp.hu/bannerek/$image
 ||static.love.hu/design/ad/
 ||static.nemzetisport.hu//style/nso/i/*banner
@@ -1586,7 +1586,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||klix.hu^$third-party
 ||m2mzona.hu/ads^$third-party
 ||match.rundsp.com^$third-party
-||megaclick.com/ad.code*$third-party
+||megaclick.com/ad.code$third-party
 ||mytarget.hu^$third-party
 ||napiaszhirdetesek^$third-party
 ||out.pladform.ru^$third-party
