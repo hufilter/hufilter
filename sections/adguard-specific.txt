@@ -72,6 +72,7 @@ hu.ign.com#$#div.article-headline { margin-top: 44px !important; }
 hwsw.hu#$#body[style*="padding-top"] { padding-top: 0px !important; background-color: #777 !important; }
 index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu#$#body { overflow: auto !important; }
 jofogas.hu#$##page-content { margin-top: 0px !important; }
+kektura.hu#$#body.modal-open { overflow: auto!important; }
 kekvillogo.hu#$#body { padding-top: 0 !important; }
 ! There is no need to add padding on small devices, so we need to add media query.
 ! .content_start is the start page view, .content_content is the article view.
