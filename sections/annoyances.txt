@@ -131,7 +131,6 @@ itthonrolhaza.hu###cookie-law-info-bar
 kalohirek.hu###cookie_container
 kapu.hu###cookieSpan
 karpathir.com##[app="tibrr-cookie-consent"]
-kektura.hu###cookie-consent-dialog
 keol.hu###social
 keol.hu##div.subscribe_module
 keol.hu##div[class="fb-like fb_iframe_widget"]

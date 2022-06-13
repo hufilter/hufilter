@@ -94,6 +94,7 @@ videa.hu#$##wrapfabtest { height: 1px!important; }
 hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
+kektura.hu###cookie-consent-dialog
 ncore.pro###x-pop
 player.hu##.adult-overelay
 ! https://github.com/hufilter/hufilter/issues/212
