@@ -164,6 +164,8 @@ napjainkportal.hu##.cookie-notice-container
 nemzetisport.hu##.allow-cookie-stripe
 nice.hu##div.cookie-message
 nice.hu##div#show_news_box
+nlc.hu##.m-pcPromoArticlePointsLayer
+nlc.hu##.m-pcPromoFooterLayer
 nlc.hu##div.m-articleStickySocial
 nlc.hu##div.m-breakingLayer
 nlcafe.hu##.m-fbPopup

@@ -925,6 +925,7 @@ netii.net##[id*="facebox"]
 nice.hu##[class*="banner"]
 nkmenergia.hu###tab-widget
 nlc.hu##.m-fbPopup
+nlc.hu##.rubAd
 nlcafe.hu##.boxcontent
 nlcafe.hu##.cikk_vegi_google
 nlcafe.hu##.ctsGadx
