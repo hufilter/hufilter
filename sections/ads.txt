@@ -207,6 +207,12 @@ blikk.hu###footerLogos
 blikk.hu###underArticleAdvertisement
 blikk.hu##a[href*="gemius"]
 blikk.hu##body > .extraContentSection:nth-of-type(-n+3)
+blikkruzs.blikk.hu###ad-cikk1
+blikkruzs.blikk.hu###ad-cikk2
+blikkruzs.blikk.hu###ad-fekvo1
+blikkruzs.blikk.hu###ad-fekvo2
+blikkruzs.blikk.hu###ad-jobb1
+blikkruzs.blikk.hu###ad-jobb2
 blog.hu##.living-earth
 blog.hu##.meropixel-hide
 blog.hu##.share
@@ -1284,6 +1290,7 @@ ado.hu#?#.whiteBox:-abp-has(.goAdverticum)
 agrarszektor.hu#?#div#mymodal:-abp-has(#form-popup)
 bien.hu#?#.hidden-xs:-abp-has(>.lablec_alatt)
 bien.hu#?#.hidden-xs:-abp-has(>.weboldal_felett)
+blikkruzs.blikk.hu#?#div:-abp-has(>div[id^="div-gpt-ad-"])
 bpiautosok.hu#?#.widget:-abp-has(h3w:-abp-contains(Támogatóink))
 bpiautosok.hu#?#[class*="item_container"]:-abp-has([class*="_tag"]:-abp-contains(hirdetés))
 bpiautosok.hu#?#center:-abp-has(>font)

@@ -54,6 +54,7 @@ baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.h
 bebiztositva.hu##.pea_cook_wrapper
 blikk.hu###pe_confirm
 blikk.hu###qc-cmp2-ui
+blikkruzs.blikk.hu###pe_confirm_optin_1
 blog.hu##[id*="cp_popup"]
 bonuszbrigad.hu###newASZFLayer
 bookline.hu###onetrust-consent-sdk
