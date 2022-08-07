@@ -87,9 +87,6 @@ origo.hu#$#.first-section { margin-top: 0 !important; }
 origo.hu#$#.oh-holder.open { z-index: 9999!important; }
 port.hu#$#body { overflow: auto !important; }
 startlap.hu#$#div.container.banner-container.wide { min-height: 0!important; height: auto!important; }
-! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d
-! Author: AdamWr (https://github.com/AdamWr)
-videa.hu#$##wrapfabtest { height: 1px!important; }
 
 ! Section: Related ABP rules
 ! Description: These regular ABP rules dont't work properly without Adguard-specific rules!
@@ -103,9 +100,6 @@ player.hu##.adult-overelay
 ! https://github.com/hufilter/hufilter/issues/212
 totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
 traffihunter.hu##.ooono_promo
-! Source: https://github.com/AdguardTeam/AdguardFilters/commit/554ca2274496755591b03e1474ba624eee7ff57d
-! Author: AdamWr (https://github.com/AdamWr)
-videa.hu#@#.adBanner
 ! End of iOS limitations
 !#endif
 
