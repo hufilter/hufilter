@@ -37,6 +37,7 @@ Filter rule categories can be found in [`sections`](https://github.com/hufilter/
 | [antiadblock.txt](https://github.com/hufilter/hufilter-dev/blob/master/sections/antiadblock.txt) | Filtering rules that bypasses anti-adblock scripts, only if this can be solved with ABP capabilities. | ![](https://i.ibb.co/VWkXHfW/abp.png) **Adblock Plus syntax** |
 | [selfpromo.txt](https://github.com/hufilter/hufilter-dev/blob/master/sections/selfpromo.txt) | Filtering rules that blocks self-promitions. | ![](https://i.ibb.co/VWkXHfW/abp.png) **Adblock Plus syntax** |
 | [other.txt](https://github.com/hufilter/hufilter-dev/blob/master/sections/other.txt) | Anything that does not fall into the categories listed above. | ![](https://i.ibb.co/VWkXHfW/abp.png) **Adblock Plus syntax** |
+| [abp-specific.txt](https://github.com/hufilter/hufilter-dev/blob/master/sections/abp-specific.txt) | ABP scriptlet rules. | ![](https://i.ibb.co/VWkXHfW/abp.png) **Adblock Plus syntax** \*  |
 | [ublock-specific.txt](https://github.com/hufilter/hufilter-dev/blob/master/sections/ublock-specific.txt) | Mixed rules that requires uBlock Origin capabilities. | ![](https://i.ibb.co/MskKKGZ/ublock.png) **uBlock Origin syntax** \*  |
 | [adguard-specific.txt](https://github.com/hufilter/hufilter-dev/blob/master/sections/adguard-specific.txt) | Mixed rules that requires AdGuard capabilities. | ![](https://i.ibb.co/rch274D/adguard.png) **AdGuard syntax** \* | 
 
