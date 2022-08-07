@@ -33,7 +33,8 @@ angol-magyar-szotar.hu##+js(set, adblock, false)
 calculat.org##+js(nostif, adstest, 4000)
 ! totalcar.hu antiadblock
 divany.hu,totalcar.hu,totalbike.hu##+js(acis, document.head, currentScript.remove)
-! indavideo.hu antiadblock
+embed.indavideo.hu##+js(set, AdHandler.adblocked, 0)
+embed.indavideo.hu##+js(set, AdHandler.adBlockEnabled, 0)
 embed.indavideo.hu##+js(set, AdHandler.checkAdblock, noopFunc)
 ! https://github.com/hufilter/hufilter/issues/215
 femina.hu##+js(set, window.ado, null)
