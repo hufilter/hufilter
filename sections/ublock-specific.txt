@@ -50,6 +50,8 @@ napiszar.com##^script[data-cfasync="false"]
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##+js(acis, document.createElement, setTimeout)
 pcworld.hu##+js(rc, have-ad, body)
+! https://github.com/AdguardTeam/AdguardFilters/issues/126377
+port.hu##+js(aopr, window.ado.blocked)
 sorozatwiki.hu##+js(ra, style, body)
 traffihunter.hu##+js(rc, darken, body)
 vezess.hu##+js(aeld, mouseleave, showFbPopup)

@@ -53,6 +53,8 @@ magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.ge
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'setTimeout')
 pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')
+! https://github.com/AdguardTeam/AdguardFilters/issues/126377
+port.hu#%#//scriptlet('abort-on-property-read', 'window.ado.blocked')
 sorozatwiki.hu#%#//scriptlet('remove-attr', 'style', 'body')
 traffihunter.hu#%#//scriptlet('remove-class', 'darken', 'body')
 vezess.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave', 'showFbPopup')
