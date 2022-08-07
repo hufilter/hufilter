@@ -24,7 +24,7 @@ A hufilter által biztosított szűrőlisták / Filter lists provided by hufilte
 | Nyomkövetők blokkolása / Block trackers | :white_circle: | :green_circle: | :green_circle: | :green_circle: | :white_circle: | :yellow_circle: |
 | Zavaró elemek blokkolása / Block annoyances | :white_circle: | :green_circle: | :green_circle: | :green_circle: | :white_circle: | :white_circle: |
 | Adblock detekció blokkolása / Block adblock detectors | :white_circle: | :yellow_circle: | :green_circle: | :green_circle: | :white_circle: | :white_circle: |
-| Fejlett szabályok / Advanced rules | :white_circle: | :white_circle: | :green_circle: | :green_circle: | :white_circle: | :white_circle: |
+| Fejlett szabályok / Advanced rules | :white_circle: | :yellow_circle: | :green_circle: | :green_circle: | :white_circle: | :white_circle: |
 | Önpromóció blokkolása / Block self-promotion | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :green_circle: | :white_circle: |
 | DNS szűrés / DNS filtering | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :green_circle: |
 | Ajánlott szűrő / Recommended filter | | | :star: | :star: | :star: | :star: |

@@ -9,7 +9,7 @@
     "output": "hufilter-abp.txt",
     "title": "Hufilter for ABP",
     "header": "adblock-plus.txt",
-    "sections": ["ads.txt", "trackers.txt", "antiadblock.txt", "other.txt"]
+    "sections": ["ads.txt", "annoyances.txt", "trackers.txt", "antiadblock.txt", "other.txt", "abp-specific.txt"]
   },
   {
     "output": "hufilter-ublock.txt",
