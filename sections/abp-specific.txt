@@ -6,5 +6,6 @@
 ! Description: https://help.eyeo.com/adblockplus/snippet-filters-tutorial#snippets-ref
 !
 24.hu#$#abort-current-inline-script window._ceCTSData hirdetések
+huaweiblog.hu#$#override-property-read tie.ad_blocker_detector undefined
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126377
 port.hu#$#abort-on-property-read window.ado.blocked
