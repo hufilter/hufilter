@@ -22,5 +22,6 @@ onvideo.hu###detect + .wrapper
 @@||meszotar.hu/scripts/advertising.js
 @@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67853 (Author: AdamWr)
-videa.hu#@#.adBanner
-videa.hu##.top-video-container-banner
+! https://github.com/AdguardTeam/AdguardFilters/issues/126709
+videa.hu,videaloop.hu#@#.adBanner
+videa.hu,videaloop.hu##.top-video-container-banner
