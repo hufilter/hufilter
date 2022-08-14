@@ -184,6 +184,9 @@ player.hu##.ui-dialog[aria-describedby="newsletter-modal"]
 player.hu##.ui-widget-overlay.ui-front
 player.hu##[aria-describedby="dialog-welcome"]
 player.hu##[class*="c_banner"]
+port.hu##.introjs-helperLayer
+port.hu##.introjs-overlay
+port.hu##.introjs-tooltip
 portfolio.hu##.notification-popup
 portfolio.hu###BlockCikkajanlo
 privatbankar.hu##.mfor_cikk_beuszo
