@@ -137,7 +137,10 @@ kisalfold.hu##div.endless-shared-area
 kitekinto.hu##.pea_cook_wrapper
 kosarsport.hu,hunbasket.hu##.gdpr-cookie-notice
 kreativ.hu##div.accept-cookies
+life.hu##.email-under-article
 life.hu##.facebook-layer-box
+life.hu##.newsletter-layer
+life.hu##[data-module-name="hirlevel"]
 life.hu###beuszoAjanlo
 life.hu###floating-recommendation
 magyarhang.org,hang.hu##[class^="moove-gdpr-"]
