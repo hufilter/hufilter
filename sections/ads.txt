@@ -117,6 +117,7 @@ hu###hirdetesek
 5percblog.hu###text-6
 777blog.hu###galsoreklam
 777blog.hu###oldalreklam
+888.hu##.AdW
 adoforum.hu##[class^="zone_"]
 adozona.hu##.az-layer
 adozona.hu##.big_badge
