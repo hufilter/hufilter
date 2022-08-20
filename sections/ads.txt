@@ -202,6 +202,7 @@ bkv.hu##.modal
 bkv.hu##.modal-backdrop
 bkv.hu##.modal-dialog
 bkv.hu###karrier
+blikk.hu##[id^="div-gpt-ad-"] + [class$="widget"]
 blikk.hu##[id^="rltd-ad-"]
 blikk.hu###articleOfferFlag
 blikk.hu###footerLogos
