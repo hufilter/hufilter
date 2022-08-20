@@ -237,10 +237,13 @@ borsa.hu##.blockright
 borsa.hu##.google
 borsa.hu##.parom
 borsa.hu##[class*="hirdetes"]
+borsonline.hu##.real-estate-wrapper
 borsonline.hu##[class*="__ad"]
 borsonline.hu##[class*="adContainer"]
 borsonline.hu##A[href="/jatek"]
 borsonline.hu##A[href="/nyarimagazin"]
+borsonline.hu##a[target="_blank"][class="videa-wrapper"]
+borsonline.hu##iframe[src*="koponyeg.hu"]
 bpiautosok.hu##font + center
 budapestkornyeke.hu###custom_html-10
 budapestkornyeke.hu###custom_html-11
