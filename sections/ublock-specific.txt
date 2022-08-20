@@ -29,6 +29,7 @@ totalcar.hu##^body>script:has-text(window.onload = window.onfocus)
 24.hu##+js(acis, window._ceCTSData, hirdetések)
 ! angol-magyar-szotar.hu antiadblock
 angol-magyar-szotar.hu##+js(set, adblock, false)
+blikk.hu##+js(ra, style, body, stay)
 ! calculat.org antiadblock
 calculat.org##+js(nostif, adstest, 4000)
 ! totalcar.hu antiadblock
@@ -102,5 +103,6 @@ traffihunter.hu##.ooono_promo
 !
 444.hu##article:has(a[href*="hirdetes"])
 444.hu##div.item:has(a[href*="hirdetes"])
+blikk.hu##.leavingPopupLayer
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)
