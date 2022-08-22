@@ -27,6 +27,8 @@ napiszex.hu###logo + .partner
 ! https://github.com/hufilter/hufilter-dev/issues/254
 onroad.hu##a[href="https://onroad.hu/tamogatas"]
 pestisracok.hu###head-wrap + .code-block
+! Article recommender in the forum
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.msg-list > ul > div:not(.media)
 telex.hu##.kari
 telex.hu##.support
 ! TODO! https://github.com/hufilter/hufilter/discussions/7
