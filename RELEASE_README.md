@@ -1,14 +1,23 @@
 &nbsp;
-<div>
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/images/hufilter_light.png#gh-light-mode-only" width="450px" alt="hufilter logo light mode" />
-    <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/images/hufilter_dark.png#gh-dark-mode-only" width="450px" alt="hufilter logo dark mode" />
-  </p>
-  <p align="center">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/images/hufilter.svg" width="128rem" alt="hufilter" />
+</p>
+<h3 align="center">The Hungarian Adblock Filter List</h3>
+<p align="center">
+  Támogatott hirdetésblokkolók / Supported Adblockers:
+</p>
+<p align="center">
+    <a href="https://adguard.com/"><img src="https://gist.githubusercontent.com/scripthunter7/6378a96b61b927357f39a33d3abc5af7/raw/e306604fd548ac1b2de70d2a5d8a43017496f221/adguard_logo.svg" width="14px"> AdGuard</a> |
+    <a href="https://github.com/gorhill/uBlock"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/UBlock_Origin.svg" width="14px"> uBlock Origin</a> |
+    <a href="https://adblockplus.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Adblock_Plus_2014_Logo.svg" width="14px"> Adblock Plus</a> |
+    <a href="https://adblockultimate.net/"><img src="https://gist.githubusercontent.com/scripthunter7/418eb959a67d230f1f0975a222078565/raw/85854779bc661bce93b6abccea6ed56fca5c2844/adblocker_ultimate_logo.svg" width="14px"> AdBlocker Ultimate</a> |
+    <a href="https://getadblock.com/"><img src="https://gist.githubusercontent.com/scripthunter7/45f46156b3e4efdd13817ffc57389feb/raw/6024bd84726be876839925f328faa3afb45e0534/adblock_logo.svg" width="14px"> AdBlock</a> 
+</p>
+<p align="center">
     <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0" />
+    <img src="https://github.com/hufilter/hufilter-dev/actions/workflows/automatic-deploy.yml/badge.svg" alt="Automatic deploy status" />
     <img src="https://github.com/hufilter/hufilter-dev/actions/workflows/redundancy-check.yml/badge.svg" alt="Redundancy check status" />
-  </p>
-</div>
+</p>
 
 ## Mi a hufilter? / What is hufilter?
 A hufilter egy közösségi projekt, melynek célja egy olyan adblock szűrőlista létrehozása és karbantartása, amely arra készült, hogy a magyar nyelvű weboldalakról eltávolítsa a hirdetésket, az irritáló elemeket, valamint a különböző nyomkövető eszközöket. A hufilter technikailag egy szöveges szűrőszabály lista, amit egy reklámblokkoló tud felhasználni arra, hogy bizonyos elemek (pl. reklámok, nyomkövetők, stb) megjelenését vagy funkcionalitását letiltsa a megtekintett oldalakon.
@@ -28,7 +37,7 @@ A hufilter által biztosított szűrőlisták / Filter lists provided by hufilte
 | Önpromóció blokkolása / Block self-promotion | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :green_circle: | :white_circle: |
 | DNS szűrés / DNS filtering | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :white_circle: | :green_circle: |
 | Ajánlott szűrő / Recommended filter | | | :star: | :star: | :star: | :star: |
-| Ajánlott reklámblokkoló / Recommended adblocker | ![](https://i.ibb.co/wy0Xqjm/ab.png) [AdBlock](https://getadblock.com/)<br> ![](https://i.ibb.co/VWkXHfW/abp.png) [Adblock Plus](https://adblockplus.org) | ![](https://i.ibb.co/wy0Xqjm/ab.png) [AdBlock](https://getadblock.com/)<br> ![](https://i.ibb.co/VWkXHfW/abp.png) [Adblock Plus](https://adblockplus.org) | ![](https://i.ibb.co/MskKKGZ/ublock.png) [uBlock Origin](https://github.com/gorhill/uBlock) | ![](https://i.ibb.co/rch274D/adguard.png) [AdGuard](https://adguard.com)<br> ![](https://i.ibb.co/P57DX8R/ad-ultimate.png) [AdBlocker Ultimate](https://adblockultimate.net/) | ![](https://i.ibb.co/wy0Xqjm/ab.png) [AdBlock](https://getadblock.com/)<br> ![](https://i.ibb.co/VWkXHfW/abp.png) [Adblock Plus](https://adblockplus.org)<br>![](https://i.ibb.co/MskKKGZ/ublock.png) [uBlock Origin](https://github.com/gorhill/uBlock)<br>![](https://i.ibb.co/rch274D/adguard.png) [AdGuard](https://adguard.com)<br> ![](https://i.ibb.co/P57DX8R/ad-ultimate.png) [AdBlocker Ultimate](https://adblockultimate.net/) | ![](https://i.ibb.co/rch274D/adguard.png) [AdGuard Home](https://adguard.com/en/adguard-home/overview.html)<br> ![](https://i.ibb.co/qmmnw2Q/pihole.png) [Pi-hole](https://pi-hole.net/)<br> ![](https://i.ibb.co/9YZqry9/rethinkdns.png) [Rethink DNS](https://github.com/celzero/rethink-app) |
+| Ajánlott reklámblokkoló / Recommended adblocker | <img src="https://gist.githubusercontent.com/scripthunter7/45f46156b3e4efdd13817ffc57389feb/raw/6024bd84726be876839925f328faa3afb45e0534/adblock_logo.svg" width="14px">  [AdBlock](https://getadblock.com/)<br> <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Adblock_Plus_2014_Logo.svg" width="14px"> [Adblock Plus](https://adblockplus.org) | <img src="https://gist.githubusercontent.com/scripthunter7/45f46156b3e4efdd13817ffc57389feb/raw/6024bd84726be876839925f328faa3afb45e0534/adblock_logo.svg" width="14px">  [AdBlock](https://getadblock.com/)<br> <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Adblock_Plus_2014_Logo.svg" width="14px"> [Adblock Plus](https://adblockplus.org) | <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/UBlock_Origin.svg" width="14px"> [uBlock Origin](https://github.com/gorhill/uBlock) | <img src="https://gist.githubusercontent.com/scripthunter7/6378a96b61b927357f39a33d3abc5af7/raw/e306604fd548ac1b2de70d2a5d8a43017496f221/adguard_logo.svg" width="14px"> [AdGuard](https://adguard.com)<br> <img src="https://gist.githubusercontent.com/scripthunter7/418eb959a67d230f1f0975a222078565/raw/85854779bc661bce93b6abccea6ed56fca5c2844/adblocker_ultimate_logo.svg" width="14px"> [AdBlocker Ultimate](https://adblockultimate.net/) | <img src="https://gist.githubusercontent.com/scripthunter7/45f46156b3e4efdd13817ffc57389feb/raw/6024bd84726be876839925f328faa3afb45e0534/adblock_logo.svg" width="14px">  [AdBlock](https://getadblock.com/)<br> <img src="https://upload.wikimedia.org/wikipedia/commons/9/9b/Adblock_Plus_2014_Logo.svg" width="14px"> [Adblock Plus](https://adblockplus.org)<br><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/UBlock_Origin.svg" width="14px"> [uBlock Origin](https://github.com/gorhill/uBlock)<br><img src="https://gist.githubusercontent.com/scripthunter7/6378a96b61b927357f39a33d3abc5af7/raw/e306604fd548ac1b2de70d2a5d8a43017496f221/adguard_logo.svg" width="14px"> [AdGuard](https://adguard.com)<br> <img src="https://gist.githubusercontent.com/scripthunter7/418eb959a67d230f1f0975a222078565/raw/85854779bc661bce93b6abccea6ed56fca5c2844/adblocker_ultimate_logo.svg" width="14px"> [AdBlocker Ultimate](https://adblockultimate.net/) | <img src="https://gist.githubusercontent.com/scripthunter7/6378a96b61b927357f39a33d3abc5af7/raw/e306604fd548ac1b2de70d2a5d8a43017496f221/adguard_logo.svg" width="14px"> [AdGuard Home](https://adguard.com/en/adguard-home/overview.html)<br> ![](https://i.ibb.co/qmmnw2Q/pihole.png) [Pi-hole](https://pi-hole.net/)<br> <picture><source media="(prefers-color-scheme: dark)" srcset="https://www.rethinkdns.com/ico/app_icon_Light.svg"><img alt="RethinkDNS" src="https://www.rethinkdns.com/ico/app_icon.svg" width="14px"></picture> [Rethink DNS](https://github.com/celzero/rethink-app) |
 
 - **Ajánlott konfiguráció:** DNS szűrés + uBlock/AdGuard szűrő + Self-promotion szűrő
 - **Recommended configuration:** DNS filtering + uBlock/AdGuard filter + Self-promotion filter
