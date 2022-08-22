@@ -22,6 +22,7 @@
 
 ! Section: Tracking servers
 !
+||adat.freemail.hu^
 ||adtrackeraa.com^
 ||counter.megagroup.ru^
 ||doubleclick.net^
