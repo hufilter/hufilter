@@ -290,8 +290,6 @@ computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-content-top
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after > *
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after-article
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.share-article
-cosmopolitan.hu##.ctsGadx
-cosmopolitan.hu##[class*="banner"]
 cotcot.hu##[class*="banner"]
 cotcot.hu##[class*="card_box_"]
 cotcot.hu##[class*="hirdetes"]
