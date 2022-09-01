@@ -48,6 +48,9 @@ life.hu##+js(ra, class, section[class="life-section l-section-main article-secti
 lifestory.hu##+js(ra, oncontextmenu)
 magyarhang.org,hang.hu##+js(acis, document.addEventListener, ai_run_)
 magyarhang.org,hang.hu##+js(acis, document.getElementById, ai_run_)
+! https://github.com/AdguardTeam/AdguardFilters/issues/128532
+magyarorszag.hu##+js(rc, bottom-l, body, stay)
+magyarorszag.hu##+js(rc, bottom-s, body, stay)
 napiszar.com##^script[data-cfasync="false"]
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##+js(acis, document.createElement, setTimeout)
