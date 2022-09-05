@@ -10,8 +10,10 @@ on:
       - sections/headers/**.txt
       - filters.json
       - assets/scripts/*.js
+      - .gitattributes
 jobs:
   build:
+    if: github.repository == 'hufilter/hufilter-dev'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
