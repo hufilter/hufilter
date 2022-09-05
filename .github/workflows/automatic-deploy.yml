@@ -27,6 +27,7 @@ jobs:
           mkdir release
           cp LICENSE ./release/LICENSE
           cp RELEASE_README.md ./release/README.md
+          cp .gitattributes ./release/.gitattributes
       - name: Run build script
         run: npm run build
       - name: Create artifact
