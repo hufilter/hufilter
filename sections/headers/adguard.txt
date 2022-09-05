@@ -1,3 +1,4 @@
+[AdGuard]
 ! Checksum: #CHECKSUM#
 ! Version: #VERSION#
 ! Title: #TITLE#
