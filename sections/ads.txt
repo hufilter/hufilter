@@ -982,6 +982,7 @@ origo.hu##.afc
 origo.hu##.col-xl-8 + aside.col-xl-4.col-visible-xl
 origo.hu##.lead-alatti
 origo.hu##.origo-jatek-randi-bottom
+origo.hu##.panorama-wrapper
 origo.hu##.pr-blokk
 origo.hu##.pr-item
 ! Gallery ads
