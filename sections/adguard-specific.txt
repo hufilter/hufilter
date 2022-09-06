@@ -1,8 +1,6 @@
 !---------------------------------------------------------------------------!
 !-------------- AdGuard-specific rules -------------------------------------!
 !---------------------------------------------------------------------------!
-! Scriptlets and CSS rules simply don't work on iOS or Safari.
-!#if (adguard && !adguard_ext_safari && !adguard_app_ios)
 
 ! Section: HTML filters
 ! Description: https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#html-filtering-rules-1
@@ -103,8 +101,6 @@ player.hu##.adult-overelay
 ! https://github.com/hufilter/hufilter/issues/212
 totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
 traffihunter.hu##.ooono_promo
-! End of iOS limitations
-!#endif
 
 ! Section: Other
 !
