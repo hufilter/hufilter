@@ -1019,6 +1019,7 @@ otvenentul.hu##[class^="ad"]
 pannonrtv.com##[id^="block-views-block-banners-"]
 partyponty.hu##[class*="banner"]
 partyponty.hu##[id*="banner"]
+pcforum.hu,prog.hu##.centercol.sponsor
 pcforum.hu,prog.hu###zone-halfpage
 pcforum.hu,prog.hu###zone-roaddblock
 pcforum.hu##.zone[data-zoneid]
