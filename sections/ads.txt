@@ -720,6 +720,7 @@ kisalfold.hu##[id*="advert"]
 kisalfold.hu##DIV[id*="banner"]
 kisalfold.hu##DIV[id*="billboard"]
 kisalfold.hu##DIV[id*="linkbox"]
+kiskegyed.hu##.ibb-banner-decor
 kiskegyed.hu##[class*="ads"]
 kiskegyed.hu##[id*="banner"]
 kiszamolo.hu##[class^="spu"]
