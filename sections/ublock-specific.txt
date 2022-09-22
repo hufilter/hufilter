@@ -61,6 +61,7 @@ sorozatwiki.hu##+js(ra, style, body)
 traffihunter.hu##+js(rc, darken, body)
 vezess.hu##+js(aeld, mouseleave, showFbPopup)
 vezess.hu##+js(nostif, FbExit, 3000)
+vezess.hu##+js(rc, blurry, body > :not(.m-fbPopup), stay)
 
 ! Section: CSS modifiers
 ! Description: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#subjectstylearg
@@ -109,3 +110,4 @@ traffihunter.hu##.ooono_promo
 blikk.hu##.leavingPopupLayer
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)
+vezess.hu##.m-fbPopup

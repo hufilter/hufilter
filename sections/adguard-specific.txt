@@ -61,6 +61,7 @@ sorozatwiki.hu#%#//scriptlet('remove-attr', 'style', 'body')
 traffihunter.hu#%#//scriptlet('remove-class', 'darken', 'body')
 vezess.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave', 'showFbPopup')
 vezess.hu#%#//scriptlet('prevent-setTimeout', 'FbExit', '3000')
+vezess.hu#%#//scriptlet('remove-class', 'blurry', 'body > :not(.m-fbPopup)', 'stay')
 
 ! Section: CSS modifiers
 ! Description: https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#cosmetic-css-rules-syntax
@@ -101,6 +102,7 @@ player.hu##.adult-overelay
 ! https://github.com/hufilter/hufilter/issues/212
 totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
 traffihunter.hu##.ooono_promo
+vezess.hu##.m-fbPopup
 
 ! Section: Other
 !
