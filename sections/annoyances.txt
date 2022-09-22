@@ -135,6 +135,8 @@ kfc.hu##.cookies-message-container
 kh.hu###cookieAcceptanceContainer
 kisalfold.hu###nap_ajanlata
 kisalfold.hu##div.endless-shared-area
+kiskegyed.hu##.leavingPopupLayer
+kiskegyed.hu###articleOfferFlag
 kitekinto.hu##.pea_cook_wrapper
 kosarsport.hu,hunbasket.hu##.gdpr-cookie-notice
 kreativ.hu##div.accept-cookies
@@ -255,3 +257,4 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
 ||prelblog.com/cdn/js/comebacker/comebacker.js^$script
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
+||widget.ex1tp.com/js/ep/v2/widget.js^$script,domain=kiskegyed.hu
