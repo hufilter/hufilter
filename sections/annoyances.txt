@@ -196,6 +196,7 @@ portfolio.hu###BlockCikkajanlo
 privatbankar.hu##.mfor_cikk_beuszo
 privatbankar.hu##.news-page > div[style*="background: #FFF900;"]:first-child
 profession.hu##.cookie-layer
+profitline.hu###fb_like_modal
 prog.hu,pcforum.hu###cookieconsentbar
 prog.hu,pcforum.hu###subscribepopuppanelalign
 prog.hu##.popup
