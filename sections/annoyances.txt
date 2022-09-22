@@ -248,6 +248,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||*.chatbot.elmuemasz.hu
 ||chatrobot.mia.gov.hu^
 ||chimpstatic.com^
+||cmp.quantcast.com/tcfv2/*/cmp2ui-hu.js$script,domain=totalcar.hu|totalbike.hu
 ||hestore.hu/pic/cookie.png$image
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
 ||prelblog.com/cdn/js/comebacker/comebacker.js^$script
