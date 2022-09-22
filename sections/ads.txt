@@ -1193,8 +1193,10 @@ topark.hu##img[class*="sgpb-"]
 totalcar.hu,totalbike.hu##.cross-site-programmatic-zones
 totalcar.hu##.cikk-torzs-content-container > .kep_szeles.kep
 totalcar.hu##.cikk-vegi-ajanlo-reklamok-container
+totalcar.hu##.hasznaltautok-iframe-cikk-torzs
 totalcar.hu##.joautok-iframe-cikk-torzs
 totalcar.hu##.microsite
+totalcar.hu##.szelso-jobb-lead_container
 totalcar.hu##.totalkarWidget
 totalcar.hu##[class*="adblokk"]
 totalcar.hu##[class*="hirdetes"]
