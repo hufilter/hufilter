@@ -51,6 +51,7 @@ magyarhang.org,hang.hu##+js(acis, document.getElementById, ai_run_)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128532
 magyarorszag.hu##+js(rc, bottom-l, body, stay)
 magyarorszag.hu##+js(rc, bottom-s, body, stay)
+mandiner.hu##+js(rc, modal-open, body, stay)
 napiszar.com##^script[data-cfasync="false"]
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##+js(acis, document.createElement, setTimeout)
@@ -97,6 +98,8 @@ hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 kektura.hu###cookie-consent-dialog
+mandiner.hu##.modal-backdrop
+mandiner.hu##.modal[role="dialog"]
 ncore.pro###x-pop
 player.hu##.adult-overelay
 ! https://github.com/hufilter/hufilter/issues/212

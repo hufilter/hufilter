@@ -52,6 +52,7 @@ magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.ad
 magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'ai_run_')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128532
 magyarorszag.hu#%#//scriptlet('set-cookie', 'cookies_ok', '1')
+mandiner.hu#%#//scriptlet('remove-class', 'modal-open', 'body', 'stay')
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'setTimeout')
 pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')
@@ -97,6 +98,8 @@ hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 kektura.hu###cookie-consent-dialog
+mandiner.hu##.modal-backdrop
+mandiner.hu##.modal[role="dialog"]
 ncore.pro###x-pop
 player.hu##.adult-overelay
 ! https://github.com/hufilter/hufilter/issues/212
