@@ -118,6 +118,7 @@ hu###hirdetesek
 777blog.hu###galsoreklam
 777blog.hu###oldalreklam
 888.hu##.AdW
+accounts.freemail.hu##[class^="container-"][class*="adZone"]
 adoforum.hu##[class^="zone_"]
 adozona.hu##.az-layer
 adozona.hu##.big_badge
@@ -438,6 +439,8 @@ freemail.hu##.etarget
 freemail.hu##.facebook-layer-box
 freemail.hu##[class*="adbox"]
 freemail.hu##[class*="magnum"]
+! https://github.com/hufilter/hufilter-dev/issues/263
+freemail.hu###content-container > div > a:not([class*="MailListItem-"])
 freewaresoftwarenews.blogspot.com##[id*="HTML"]
 freewaresoftwarenews.blogspot.com###column-left-inner
 galamus.hu##[class*="banner"]
