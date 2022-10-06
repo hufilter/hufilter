@@ -87,6 +87,8 @@
 hu##.hird
 hu##.hirdetes
 hu##.hirdetesek
+! https://github.com/hufilter/hufilter-dev/issues/264
+hu##.leet_product_banner_container
 hu###hirdetes
 hu###hirdetesek
 
