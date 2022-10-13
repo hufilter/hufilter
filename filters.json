@@ -35,5 +35,12 @@
     "dns": true,
     "header": "dns.txt",
     "sections": ["ads.txt", "annoyances.txt", "trackers.txt", "other.txt"]
+  },
+  {
+    "output": "hufilter-pihole.txt",
+    "title": "Hufilter Pi-hole",
+    "dns": true,
+    "header": "pihole.txt",
+    "sections": ["ads.txt", "annoyances.txt", "trackers.txt", "other.txt"]
   }
 ]
