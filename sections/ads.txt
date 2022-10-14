@@ -1483,7 +1483,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||portfolio.hu/img/partner/$image
 ||preissuchmaschine.de/banner/$image
 ||prohardver.hu/dl/cnt/*/background.png$image
-||quantcast.mgr.consensu.org/cmp.js^$script,domain=szeretlekmagyarorszag.hu
 ||randihely.hu/adnews/
 ||revizoronline.com/*banner
 ||sg.hu/images/hirdetes.gif$image
