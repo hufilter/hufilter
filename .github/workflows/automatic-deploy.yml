@@ -11,17 +11,18 @@ on:
       - filters.json
       - assets/scripts/*.js
       - .gitattributes
+  workflow_dispatch:
 jobs:
   build:
     if: github.repository == 'hufilter/hufilter-dev'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: master
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
-          node-version: 16.x
+          node-version: latest
       - name: Install dependencies
         run: npm install
       - name: Create release directory
@@ -33,7 +34,7 @@ jobs:
       - name: Run build script
         run: npm run build
       - name: Create artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: release_artifact
           path: release/**
@@ -41,11 +42,11 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           ref: master
       - name: Download artifact
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: release_artifact
           path: ./release
