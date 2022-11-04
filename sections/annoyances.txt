@@ -10,13 +10,13 @@ hu##.cc_window
 hu##.cc-banner
 hu##.cc-banner-wrapper
 hu##.cc-window
-hu##.qc-cmp2-container
+! hu##.qc-cmp2-container
 hu###_iph_cp_popup
 hu###cookie-bar
 hu###cookie-notice
 hu###cookie-window
 hu###cookiebar
-hu###qc-cmp2-container
+! hu###qc-cmp2-container
 
 ! Section: Specific hide
 !
