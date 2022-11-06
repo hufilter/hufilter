@@ -1048,6 +1048,9 @@ player.hu##[class*="adbreak"]
 player.hu##[class*="placeholder"]
 player.hu##[class="ph ph-responsive-wrap"]
 player.hu##[data-analytics-value]
+player.hu##.ad-container
+player.hu##.ads-container
+player.hu##.ads_show_ad_title
 player.hu###pushpushgo-container
 politaktika.hu###popup
 polusonline.com###HTML5
