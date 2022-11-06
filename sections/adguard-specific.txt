@@ -16,9 +16,7 @@ magyarhang.org,hang.hu$$script[tag-content="ai_run_"]
 napiszar.com$$script[data-cfasync="false"]
 ncore.pro$$script[tag-content="adpv"]
 openspeedtest.com$$script[tag-content="testadblock"]
-port.hu$$script[tag-content="addEListener(DCL"]
-port.hu$$script[tag-content="ads.js"]
-port.hu$$script[tag-content="quantcast"]
+port.hu$$script[tag-content="popUpBannerBox Ad300 hirdetes_box"]
 portfolio.hu$$script[tag-content="fbmodal-title"]
 szeretlekmagyarorszag.hu$$script[tag-content="window.atob"]
 
@@ -56,8 +54,8 @@ mandiner.hu#%#//scriptlet('remove-class', 'modal-open', 'body', 'stay')
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'setTimeout')
 pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')
-! https://github.com/AdguardTeam/AdguardFilters/issues/126377
-port.hu#%#//scriptlet('abort-on-property-read', 'window.ado.blocked')
+! https://github.com/hufilter/hufilter/issues/15
+port.hu#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window.ado.blocked')
 sorozatwiki.hu#%#//scriptlet('remove-attr', 'style', 'body')
 traffihunter.hu#%#//scriptlet('remove-class', 'darken', 'body')
 vezess.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave', 'showFbPopup')
@@ -88,7 +86,6 @@ keol.hu#$#section[id="content_left"][class="content_content"] { width: auto !imp
 magyarhirlap.hu#$#header .container { padding: 10px 10px 0 10px !important; }
 origo.hu#$#.first-section { margin-top: 0 !important; }
 origo.hu#$#.oh-holder.open { z-index: 9999!important; }
-port.hu#$#body { overflow: auto !important; }
 startlap.hu#$#div.container.banner-container.wide { min-height: 0!important; height: auto!important; }
 
 ! Section: Related ABP rules

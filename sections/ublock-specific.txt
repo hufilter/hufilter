@@ -15,9 +15,7 @@ hungliaonline.com##^script:has-text(adblocker)
 magyarhang.org,hang.hu##^script:has-text(ai_run_)
 ncore.pro##^script:has-text(adpv)
 openspeedtest.com##^script:has-text(testadblock)
-port.hu##^script:has-text(addEListener(DCL)
-port.hu##^script:has-text(ads.js)
-port.hu##^script:has-text(quantcast)
+port.hu##^script:has-text(popUpBannerBox Ad300 hirdetes_box)
 portfolio.hu##^body>script:has-text(fbmodal-title)
 szeretlekmagyarorszag.hu##^script:has-text(window.atob)
 totalbike.hu##^body>script:has-text(window.onload = window.onfocus)
@@ -56,8 +54,8 @@ napiszar.com##^script[data-cfasync="false"]
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##+js(acis, document.createElement, setTimeout)
 pcworld.hu##+js(rc, have-ad, body)
-! https://github.com/AdguardTeam/AdguardFilters/issues/126377
-port.hu##+js(aopr, window.ado.blocked)
+! https://github.com/hufilter/hufilter/issues/15
+port.hu##+js(aopw, document.body.style)
 sorozatwiki.hu##+js(ra, style, body)
 traffihunter.hu##+js(rc, darken, body)
 vezess.hu##+js(aeld, mouseleave, showFbPopup)
@@ -88,7 +86,6 @@ magyarhirlap.hu##header .container:style(padding: 10px 10px 0 10px !important;)
 mkb.hu##html,body:style(overflow:auto !important)
 origo.hu##.first-section:style(margin-top: 0 !important;)
 origo.hu##.oh-holder.open:style(z-index: 9999!important;)
-port.hu##body:style(overflow: auto !important)
 startlap.hu##div.container.banner-container.wide:style(min-height: 0!important; height: auto!important;)
 
 ! Section: Related ABP rules

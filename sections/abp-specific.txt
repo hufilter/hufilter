@@ -10,5 +10,5 @@ embed.indavideo.hu#$#override-property-read AdHandler.adblocked 0
 embed.indavideo.hu#$#override-property-read AdHandler.adBlockEnabled 0
 embed.indavideo.hu#$#override-property-read AdHandler.checkAdblock noopFunc
 huaweiblog.hu#$#override-property-read tie.ad_blocker_detector undefined
-! https://github.com/AdguardTeam/AdguardFilters/issues/126377
-port.hu#$#abort-on-property-read window.ado.blocked
+! https://github.com/hufilter/hufilter/issues/15
+port.hu#$#abort-on-property-write document.body.style
