@@ -8,6 +8,7 @@
 !
 24.hu$$script[tag-content="a2blckLayer"]
 divany.hu,totalcar.hu,totalbike.hu$$script[tag-content="window.onload = window.onfocus"]
+egeszsegkalauz.hu$$script[tag-content="Quantcast Choice"]
 filmvilag.me$$script[tag-content="ShadowRoot"]
 gamer.hu$$script[tag-content="cli_cookiebar_"]
 grundoajandek.hu$$script[tag-content="contextmenu"]
@@ -31,6 +32,7 @@ blikk.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '3')
 calculat.org#%#//scriptlet('prevent-setTimeout', 'adstest', '4000')
 ! totalcar.hu antiadblock
 divany.hu,totalcar.hu,totalbike.hu#%#//scriptlet('abort-on-property-write', 'document.head', 'currentScript.remove')
+egeszsegkalauz.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '1')
 embed.indavideo.hu#%#//scriptlet('set-constant', 'AdHandler.adblocked', '0')
 embed.indavideo.hu#%#//scriptlet('set-constant', 'AdHandler.checkAdblock', 'noopFunc')
 embed.indavideo.hu#%#//scriptlet('set-constant', 'videodata.adBlockEnabled', '0')

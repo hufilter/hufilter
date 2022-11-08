@@ -351,12 +351,13 @@ eduline.hu##[id*="_ad"]
 eduline.hu##[id*="ad_"]
 egeszsegkalauz.hu##.detailRightAds
 egeszsegkalauz.hu##.ibb-banner-decor
+egeszsegkalauz.hu##.min700height-desktop
 egeszsegkalauz.hu##.rltd_container [id^="rltd-ad-"]
 egeszsegkalauz.hu##[class*="ad-"]
 egeszsegkalauz.hu##[class^="ads "]
 egeszsegkalauz.hu##[id*="banner"]
-! https://github.com/hufilter/hufilter-dev/issues/248
-egeszsegkalauz.hu###ad-fekvo0
+egeszsegkalauz.hu##[id^="ad-"]
+egeszsegkalauz.hu##[style="min-height: 300px;"]
 egeszsegkalauz.hu##a[title="Hirdetés"]
 egeszsegkalauz.hu##div.wrapAds
 egeszsegtukor.hu##[id^="ad_"]
