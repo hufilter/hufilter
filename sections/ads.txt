@@ -208,10 +208,8 @@ bkv.hu###karrier
 blikk.hu###articleOfferFlag
 blikk.hu###footerLogos
 blikk.hu###underArticleAdvertisement
-blikk.hu###underArticleAdvertisement
 blikk.hu##[id*="-ad-"][data-x="1"]
 blikk.hu##[id^="div-gpt-ad-"] + [class$="widget"]
-blikk.hu##[id^="rltd-ad-"]
 blikk.hu##[style="width:100%;text-align: center; margin-bottom:15px;"]
 blikk.hu##a[href*="gemius"]
 blikk.hu##body > .extraContentSection:nth-of-type(-n+3)
