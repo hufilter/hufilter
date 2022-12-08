@@ -364,14 +364,6 @@ egeszsegkalauz.hu##div.wrapAds
 egeszsegtukor.hu##[id^="ad_"]
 elelmiszer.hu##div[class*="contentBanner"]
 elelmiszer.hu##div[style="text-align: center; margin-bottom:10px; position: relative;"]
-elemzeskozpont.hu##.block-block
-elemzeskozpont.hu##.block-ouibounce-exit-modal
-elemzeskozpont.hu##.node-buttons
-elemzeskozpont.hu##.region-highlighted
-elemzeskozpont.hu##.rtecenter
-elemzeskozpont.hu##.sidebar
-elemzeskozpont.hu##.underlay
-elemzeskozpont.hu###sliding-popup
 eletmod.hu##.rckaexclude
 eletmod.hu##.super
 eletmod.hu##[class*="hirdetes"]
