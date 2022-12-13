@@ -614,8 +614,10 @@ hwsw.hu###cikktoolbaradomany
 hwsw.hu###sidebar > table
 hwsw.hu##body > div > a[target="_blank"]
 hwsw.hu##DIV[id*="hirdetes"]
+idokep.hu##.ik:-abp-contains(/^[Hh]irdetés$/)
 idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]
+idokep.hu##a[href*="gemius"]
 ilovebalaton.hu##[class*=" ad"]
 indavideo.hu##.topAdv
 indavideo.hu##[class*="billboard"]
