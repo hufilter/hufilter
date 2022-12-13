@@ -144,6 +144,7 @@ kiskegyed.hu##.leavingPopupLayer
 kiskegyed.hu###articleOfferFlag
 kitekinto.hu##.pea_cook_wrapper
 kosarsport.hu,hunbasket.hu##.gdpr-cookie-notice
+koponyeg.hu##.recommendationzone
 kreativ.hu##div.accept-cookies
 life.hu##.email-under-article
 life.hu##.facebook-layer-box
