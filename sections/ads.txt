@@ -601,6 +601,7 @@ hvg.hu##[class*="adsense"]
 hvg.hu##[class*="adtype-"]
 hvg.hu##[class="articleitem clear smallimage imgleft"]
 hvg.hu##[class="site-scarab-bottom open"]
+hvg.hu##[id*="-ad-"]
 hvg.hu###webpushSelctorFormId
 hvo.hu##DIV[class*="ad_"]
 hwsw.hu##.billboard
