@@ -21,6 +21,7 @@ hu###cookiebar
 ! Section: Specific hide
 !
 112press.hu###cookie-law
+24.hu##.a-hirstartRecommender
 24.hu##.fb-exit-popup-container
 24.hu##.m-donationBottomLine
 24.hu##.widget-mini-article
