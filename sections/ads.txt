@@ -528,10 +528,10 @@ hircsarda.hu###gyuri1
 hircsarda.hu###gyuri2
 hirextra.hu##[class*="billboard"]
 hirkosar.com###fanback
+hiros.hu##.banner_container
 hiros.hu##.banner_widget
+hiros.hu##.banner-container
 hiros.hu##.sy-box
-hiros.hu##div.szerzo_holder + div.szerzo_holder
-hiros.hu##div[style*="1px solid rgba(201,201,201,0.4);"]
 hirposta.hu##[id*="banner"]
 hirstart.hu##[class*="banner"]
 hirstart.hu##[class*="hirdetes"]
