@@ -240,6 +240,7 @@ titkokszigete.hu##.spu-box
 totalcar.hu##.header-tk-ajanlo
 travelo.hu##div.qc-cmp-ui-container
 tudtade.blogstar.hu###cookie_policy
+twn.hu###popunder_featured
 unilife.hu##.facebook-layer-box
 unilife.hu###ac
 vg.hu##.newsletter-box

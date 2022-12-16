@@ -1225,6 +1225,7 @@ turizmusonline.hu##[class*="Banner"]
 turmixvilag.hu##.adsense
 tutitippek.hu##[class*="adsense"]
 tvgo.hu##.banner
+twn.hu##.banner_box
 ugytudjuk.hu##.leftSide > .bnr
 ugytudjuk.hu##.rightSide > .bnr
 usernet.hu###blanket
