@@ -613,7 +613,6 @@ hwsw.hu###cikktoolbaradomany
 hwsw.hu###sidebar > table
 hwsw.hu##body > div > a[target="_blank"]
 hwsw.hu##DIV[id*="hirdetes"]
-idokep.hu##.ik:-abp-contains(/^[Hh]irdetés$/)
 idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]
 idokep.hu##a[href*="gemius"]
@@ -1322,6 +1321,7 @@ hetek.hu#?#div.row:-abp-has(>div.ads)
 hiros.hu#?#.frame:-abp-has(>span[style^="font-size: 11px;"])
 hu.ign.com#?#div.right-rail:-abp-has(div.ad-wrapper)
 hu.ign.com#?#figure:-abp-has(a[href*="ignshop.hu"])
+idokep.hu#?#.ik:-abp-contains(/^[Hh]irdetés$/)
 kezilabda.hu#?#div[style*="margin-bottom:10px"]:-abp-has(>div:-abp-contains(HIRDETÉS))
 kiszamolo.hu#?#aside:-abp-has(.widgettitle > span:-abp-contains(Hirdetés))
 koroshircentrum.hu#?#div:-abp-has(>a+h6)
