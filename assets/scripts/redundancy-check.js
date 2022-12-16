@@ -27,7 +27,11 @@ const convertReport = (html) => {
     await fetch("https://raw.githubusercontent.com/hufilter/hufilter/master/hufilter-abp.txt")
   ).text();*/
 
-  const hufilter = (await readFile("./release/hufilter-abp.txt")).toString();
+  const hufilter = (await readFile("./release/hufilter-abp.txt"))
+    .toString()
+    .split(/\r?\n/)
+    .filter((line) => line.indexOf("#$#") == -1 && line.indexOf("#@$#") == -1)
+    .join("\n");
 
   // Initialize Puppeteer
   const browser = await puppeteer.launch();
