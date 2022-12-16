@@ -205,12 +205,12 @@ bkv.hu##.modal
 bkv.hu##.modal-backdrop
 bkv.hu##.modal-dialog
 bkv.hu###karrier
-blikk.hu###articleOfferFlag
-blikk.hu###footerLogos
-blikk.hu###underArticleAdvertisement
 blikk.hu##[id*="-ad-"][data-x="1"]
 blikk.hu##[id^="div-gpt-ad-"] + [class$="widget"]
 blikk.hu##[style="width:100%;text-align: center; margin-bottom:15px;"]
+blikk.hu###articleOfferFlag
+blikk.hu###footerLogos
+blikk.hu###underArticleAdvertisement
 blikk.hu##a[href*="gemius"]
 blikk.hu##body > .extraContentSection:nth-of-type(-n+3)
 blikkruzs.blikk.hu###ad-cikk1
@@ -1040,14 +1040,14 @@ pharmaonline.hu##[class*="contentBanner"]
 piacesprofit.hu##.banner.clearfix
 piacesprofit.hu##.inner
 pirulapatika.hu##[id*="banner"]
+player.hu##.ad-container
+player.hu##.ads_show_ad_title
+player.hu##.ads-container
 player.hu##.ph-flexi-box-wrap
 player.hu##[class*="adbreak"]
 player.hu##[class*="placeholder"]
 player.hu##[class="ph ph-responsive-wrap"]
 player.hu##[data-analytics-value]
-player.hu##.ad-container
-player.hu##.ads-container
-player.hu##.ads_show_ad_title
 player.hu###pushpushgo-container
 politaktika.hu###popup
 polusonline.com###HTML5
