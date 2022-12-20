@@ -853,8 +853,10 @@ mindmegette.hu###ad-image-big
 mindmegette.hu###fadeandscale
 mindmegette.hu###fadeandscale_background
 mindmegette.hu###fadeandscale_wrapper
+mindmegette.hu###sidebar_ads_box_2
 mindmegette.hu##DIV[class="billboard fr"]
 mindmegette.hu##DIV[class="fej-elso-sor cf"]
+mindmegette.hu##DIV[id*="-ad-"]
 mitortent.hu##[class^="adv"]
 mixonline.hu##[class*="banner"]
 mkbnetbankar.hu##.x-marketing
