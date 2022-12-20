@@ -166,6 +166,8 @@ menshealth.hu###fbpopup
 merce.hu##.cookie-bar
 merce.hu##.popup-wrap
 mindmegette.hu##.allow-cookie-stripe
+mindmegette.hu###portfolioEzekIsErdekelhetnek
+mindmegette.hu###recipeAndRelateds > h2.noprint
 najlepsie-clanky.com##[class*="pea_cook"]
 napi.hu##.cikkajanlo
 napiszex.hu##.ckwrap
