@@ -615,7 +615,7 @@ hwsw.hu##body > div > a[target="_blank"]
 hwsw.hu##DIV[id*="hirdetes"]
 idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]
-idokep.hu##a[href*="gemius"]
+idokep.hu##a[data-bs-content*="(hirdetés)"]
 ilovebalaton.hu##[class*=" ad"]
 indavideo.hu##.topAdv
 indavideo.hu##[class*="billboard"]
