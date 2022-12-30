@@ -252,7 +252,6 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 
 ! Section: Specific block
 !
-||*.chatbot.elmuemasz.hu
 ||chatrobot.mia.gov.hu^
 ||chimpstatic.com^
 ||cmp.quantcast.com^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu
