@@ -28,7 +28,6 @@
 ||gemius.hu^
 ||gemius.pl^
 ||smartadserver.com^
-||track.calithornia.com^
 ||track.trackbyme.info^
 ||tracker.azet.sk^
 ||tracking.binarypromos.com^
