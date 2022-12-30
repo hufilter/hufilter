@@ -258,7 +258,6 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||hestore.hu/pic/cookie.png$image
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
 ||medinfo.ocdn.eu/hu/consent_v2/choice.js^$script,domain=egeszsegkalauz.hu
-||prelblog.com/cdn/js/comebacker/comebacker.js^$script
 ||quantcast.mgr.consensu.org^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 ||widget.ex1tp.com/js/ep/v2/widget.js^$script,domain=kiskegyed.hu
