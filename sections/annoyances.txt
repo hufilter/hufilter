@@ -82,8 +82,6 @@ elemi.hu##.penci-wrap-gprd-law
 elemi.hu##.sgpb-popup-dialog-main-div-wrapper
 elemi.hu##.sgpb-popup-overlay
 elemzeskozpont.hu###sliding-popup
-elmuhalozat.hu##.cookiepanel_overlay
-elmuhalozat.hu###tab-widget-wrapper
 epiteszforum.hu##div.cookieLayer
 epiteszforum.hu##div.supportModal
 esport1.hu##.cookie-popup
