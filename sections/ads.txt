@@ -253,7 +253,6 @@ budapestkornyeke.hu##div.bpkad
 budapestkornyeke.hu##div[style="margin-top:20px;"]
 budapestpark.hu##.banner_main_page_wrapper
 builder.hu##[class*="banner"]
-c-press.hu###bef_mainbody_mod_2
 calculat.org###zadost
 carstyling.com##.banner.boxed
 carstyling.com###article_end_popup
