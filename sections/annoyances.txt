@@ -156,7 +156,6 @@ magyarnemzet.hu##div.gdprBoxContainer
 mandiner.hu###newsletter-box
 mediacenter.hu###cookie-msg
 medicalonline.hu##.accept-cookies
-menshealth.hu###fbpopup
 merce.hu##.cookie-bar
 merce.hu##.popup-wrap
 mindmegette.hu##.allow-cookie-stripe
