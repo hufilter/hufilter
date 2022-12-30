@@ -17,7 +17,6 @@
 ! AdBlock detector - privacy invasion
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
-||myroitracking.com/newServing/
 ||websas.hu/statistics/
 
 ! Section: Tracking servers
