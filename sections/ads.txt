@@ -188,9 +188,6 @@ baon.hu##iframe[src="https://tunderszepek.baon.hu/tunderszepek-banner"]
 bebiztositva.hu##.widget_media_image
 beol.hu##[class*="adcikk"]
 betegvagyok.hu##[id*="banner"]
-bevezetem.hu##[class*="adsense"]
-bevezetem.hu##[class*="affiliate"]
-bevezetem.hu##[class^="ban_evo_"]
 bien.hu##.ads_show_ad_title
 bien.hu##.tapeta.fixed
 bien.hu##[class*="hirdetes"]
