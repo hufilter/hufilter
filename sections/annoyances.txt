@@ -112,7 +112,6 @@ hazipatika.com##.fb-exit-popup-container
 hazipatika.com###facebook-sharebar
 ! https://github.com/hufilter/hufilter-dev/issues/256
 hazipatika.com###webaruhaz-ajanlo
-hbogo.hu##.cookie-consent
 helyitipp.hu##.cookie-notice-container
 hestore.hu###cookiewarnbar
 hirado.hu##.hover_bkgr_fricc:-abp-has(.facebookPopupCloseButton)
