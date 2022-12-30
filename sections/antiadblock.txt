@@ -10,7 +10,6 @@ onvideo.hu###detect + .wrapper
 
 ! Section: Specific block
 !
-/js/vendor/blockadblock.js^$domain=szineshir.net|zoldmano.info
 ||onlinestream.live/js/adb.js
 
 ! Section: Specific allow
