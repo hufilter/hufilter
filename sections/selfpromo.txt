@@ -34,7 +34,5 @@ telex.hu##.support
 ! TODO! https://github.com/hufilter/hufilter/discussions/7
 !telex.hu##[href*="tamogatas"]
 totalcar.hu###bannerHeaderLink
-upc.hu##.callback-overlay
-upc.hu##.segithetunk-container
 vezess.hu##.katalog
 vezess.hu##.wpb_wrapper > a
