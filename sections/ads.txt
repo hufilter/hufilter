@@ -965,9 +965,6 @@ olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]
 olcsobbat.hu###datasheetNavHelp
 online-filmek.me##.hover_bkgr_fricc
-online.budapestbank.hu##.campaign-item
-online.budapestbank.hu##.ext-el-mask-banner
-online.budapestbank.hu##[id^="ext-gen"]
 online.filmek-sorozatok.info##.adsListItem
 online.filmek-sorozatok.info##.videoBanner
 onlinecegjegyzek.hu##[class*="hirdetes"]
