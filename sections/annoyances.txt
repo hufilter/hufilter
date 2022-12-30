@@ -248,7 +248,6 @@ unilife.hu###ac
 vg.hu##.newsletter-box
 ! https://github.com/hufilter/hufilter-dev/issues/250
 vg.hu##[style^="bottom: 0px; left: 0px; position: fixed; width:"]
-vilaglato.info##.state-fb-pop-up
 wasabi.hu##.footprint_cookie
 webforditas.hu###cookie-consent
 widescreen.hu##div.penci-wrap-gprd-law
