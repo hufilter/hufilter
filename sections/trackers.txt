@@ -15,7 +15,6 @@
 ! Section: Specific block
 !
 ! AdBlock detector - privacy invasion
-||444.hu/js/ease_detector.js$script
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 ||myroitracking.com/newServing/
