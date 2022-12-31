@@ -1,9 +1,7 @@
 {
   "scripts": {
     "build": "node assets/scripts/build.js",
-    "redundancy-check": "node assets/scripts/redundancy-check.js",
-    "orderer": "node assets/scripts/orderer/orderer.js",
-    "test-orderer": "npx mocha assets/scripts/orderer/orderer.test.js"
+    "redundancy-check": "node assets/scripts/redundancy-check.js"
   },
   "author": "Hufilter contributors",
   "license": "CC-BY-4.0",
