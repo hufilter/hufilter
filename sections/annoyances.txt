@@ -2,8 +2,6 @@
 !-------------- Annoyances -------------------------------------------------!
 !---------------------------------------------------------------------------!
 
-! Section: General hide
-!
 hu##.cc_banner
 hu##.cc_banner-wrapper
 hu##.cc_window
@@ -18,8 +16,6 @@ hu###cookie-window
 hu###cookiebar
 ! hu###qc-cmp2-container
 
-! Section: Specific hide
-!
 112press.hu###cookie-law
 24.hu##.a-hirstartRecommender
 24.hu##.fb-exit-popup-container
@@ -244,14 +240,10 @@ wasabi.hu##.footprint_cookie
 webforditas.hu###cookie-consent
 widescreen.hu##div.penci-wrap-gprd-law
 
-! Section: Specific hide (extended ABP selectors)
-!
 azonnali.hu#?#div:-abp-has(>.fb-like)
 femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
 infostart.hu#?##sitemodal:-abp-has(.fb-button)
 
-! Section: Specific block
-!
 ||chatrobot.mia.gov.hu^
 ||chimpstatic.com^
 ||cmp.quantcast.com^$script,domain=hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu

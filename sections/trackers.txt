@@ -2,8 +2,6 @@
 !-------------- Trackers ---------------------------------------------------!
 !---------------------------------------------------------------------------!
 
-! Section: General block
-!
 /gemius.js^
 /gemius.min.js^
 /traffic.js
@@ -12,15 +10,11 @@
 /xgemius.min.js^
 ||*.hu/userip.php
 
-! Section: Specific block
-!
 ! AdBlock detector - privacy invasion
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 ||websas.hu/statistics/
 
-! Section: Tracking servers
-!
 ||adat.freemail.hu^
 ||adtrackeraa.com^
 ||counter.megagroup.ru^
@@ -34,8 +28,6 @@
 ||tracking.tchibo.hu^
 ||zanox.com^
 
-! Section: Tracking servers third-party
-!
 ||analytics.yahoo.com^$third-party
 ||counter.hitslink.com^$third-party
 ||google-analytics.com^$third-party
