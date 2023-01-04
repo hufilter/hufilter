@@ -11,6 +11,7 @@
 /xgemius.js^
 /xgemius.min.js^
 ||*.hu/userip.php
+||infostart.hu/js/ga.js
 
 ! Section: Specific block
 !
