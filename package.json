@@ -8,7 +8,7 @@
   "dependencies": {
     "@actions/core": "^1.10.0",
     "dateformat": "^4.5.1",
-    "html-to-text": "^8.1.0",
+    "html-to-text": "^9.0.3",
     "puppeteer": "^13.1.1"
   }
 }
