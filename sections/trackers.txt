@@ -9,6 +9,7 @@
 /xgemius.js^
 /xgemius.min.js^
 ||*.hu/userip.php
+||infostart.hu/js/ga.js
 
 ! AdBlock detector - privacy invasion
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu

@@ -29,6 +29,9 @@ egeszsegkalauz.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '1')
 embed.indavideo.hu#%#//scriptlet('set-constant', 'AdHandler.adblocked', '0')
 embed.indavideo.hu#%#//scriptlet('set-constant', 'AdHandler.checkAdblock', 'noopFunc')
 embed.indavideo.hu#%#//scriptlet('set-constant', 'videodata.adBlockEnabled', '0')
+! https://github.com/AdguardTeam/AdguardFilters/issues/139139
+embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream.event', 'noopFunc')
+embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream', 'emptyObj')
 ! https://github.com/hufilter/hufilter/issues/215
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75763
 ! Thanks to AdamWr

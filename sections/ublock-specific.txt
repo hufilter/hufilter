@@ -29,6 +29,9 @@ divany.hu,totalcar.hu,totalbike.hu##+js(acis, document.head, currentScript.remov
 embed.indavideo.hu##+js(set, AdHandler.adblocked, 0)
 embed.indavideo.hu##+js(set, AdHandler.adBlockEnabled, 0)
 embed.indavideo.hu##+js(set, AdHandler.checkAdblock, noopFunc)
+! https://github.com/AdguardTeam/AdguardFilters/issues/139139
+embed.rtl.hu##+js(set, gemiusStream, {})
+embed.rtl.hu##+js(set, gemiusStream.event, noopFunc)
 ! https://github.com/hufilter/hufilter/issues/215
 femina.hu##+js(set, window.ado, null)
 hetek.hu##+js(rc, modal-open, body)
