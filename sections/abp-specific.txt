@@ -2,9 +2,6 @@
 !-------------- ABP-specific rules -----------------------------------------!
 !---------------------------------------------------------------------------!
 
-! Section: Scriptlets
-! Description: https://help.eyeo.com/adblockplus/snippet-filters-tutorial#snippets-ref
-!
 24.hu#$#abort-current-inline-script window._ceCTSData hirdetések
 embed.indavideo.hu#$#override-property-read AdHandler.adblocked 0
 embed.indavideo.hu#$#override-property-read AdHandler.adBlockEnabled 0

@@ -2,10 +2,6 @@
 !-------------- AdGuard-specific rules -------------------------------------!
 !---------------------------------------------------------------------------!
 
-! Section: HTML filters
-! Description: https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#html-filtering-rules-1
-! Description: Note that, these rules only works with Firefox browser and system-wide AdGuard blockers
-!
 24.hu$$script[tag-content="a2blckLayer"]
 divany.hu,totalcar.hu,totalbike.hu$$script[tag-content="window.onload = window.onfocus"]
 egeszsegkalauz.hu$$script[tag-content="Quantcast Choice"]
@@ -21,9 +17,6 @@ port.hu$$script[tag-content="popUpBannerBox Ad300 hirdetes_box"]
 portfolio.hu$$script[tag-content="fbmodal-title"]
 szeretlekmagyarorszag.hu$$script[tag-content="window.atob"]
 
-! Section: Scriptlets
-! Description: https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md#scriptlets
-!
 24.hu#%#//scriptlet('abort-current-inline-script', 'window._ceCTSData', 'hirdetések')
 ! angol-magyar-szotar.hu antiadblock
 angol-magyar-szotar.hu#%#//scriptlet('set-constant', 'adblock', 'false')
@@ -67,9 +60,6 @@ vezess.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave', 'showFbPopup')
 vezess.hu#%#//scriptlet('prevent-setTimeout', 'FbExit', '3000')
 vezess.hu#%#//scriptlet('remove-class', 'blurry', 'body > :not(.m-fbPopup)', 'stay')
 
-! Section: CSS modifiers
-! Description: https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters#cosmetic-css-rules-syntax
-!
 atv.hu#$#header { height: auto !important; }
 automotor.hu#$##_cikk_tartalom_rb1 { margin-top: 0 !important; }
 automotor.hu#$#div.layoutContent { margin-top: 0 !important; }
@@ -93,9 +83,6 @@ origo.hu#$#.first-section { margin-top: 0 !important; }
 origo.hu#$#.oh-holder.open { z-index: 9999!important; }
 startlap.hu#$#div.container.banner-container.wide { min-height: 0!important; height: auto!important; }
 
-! Section: Related ABP rules
-! Description: These regular ABP rules dont't work properly without Adguard-specific rules!
-!
 hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
@@ -109,7 +96,5 @@ totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toresk
 traffihunter.hu##.ooono_promo
 vezess.hu##.m-fbPopup
 
-! Section: Other
-!
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)

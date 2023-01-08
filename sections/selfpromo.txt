@@ -2,8 +2,6 @@
 !-------------- Self promotion rules ---------------------------------------!
 !---------------------------------------------------------------------------!
 
-! Section: Specific hide
-!
 ! Donate box
 112press.hu###right > .box + .box
 24.hu##.m-donationBottomLine

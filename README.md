@@ -67,7 +67,7 @@ The build process is executed automatically if a push event is triggered in this
  
 ## Recommended environment
 
-We recommend using [Visual Studio Code](https://code.visualstudio.com/download) for development. Please install [recommended extensions](https://github.com/hufilter/hufilter-dev/blob/master/.vscode/extensions.json) in order to work with syntax highlight and automatic rule ordering. [Node.js](https://nodejs.org/en/download/) is also required for automatic ordering!
+We recommend using [Visual Studio Code](https://code.visualstudio.com/download) for development. Please install [recommended extensions](https://github.com/hufilter/hufilter-dev/blob/master/.vscode/extensions.json) in order to work with syntax highlight.
 
 ## Contact
 
@@ -76,6 +76,8 @@ We recommend using [Visual Studio Code](https://code.visualstudio.com/download) 
 - Issue management: [Please use this form](https://github.com/hufilter/hufilter-dev/issues/new/choose) (GitHub account required).
 
 ## Licensing
+
+The hufilter project is a community project, and it is maintained by volunteers. It is licensed under the "Creative Commons Attribution 4.0" license. This means that you can use the project for free, and you can also modify it. However, you must give credit to the original authors of the project. You can read the full license text [here](https://creativecommons.org/licenses/by/4.0/legalcode).
 
 The project hufilter is distributed under the "Creative Commons Attribution 4.0" license. Contributors are licensing their work under the very same terms and conditions.
 

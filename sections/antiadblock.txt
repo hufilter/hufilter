@@ -2,18 +2,12 @@
 !-------------- Antiadblock ------------------------------------------------!
 !---------------------------------------------------------------------------!
 
-! Section: Specific hide
-!
 777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
 777blog.hu##div#rechtangle.widget:nth-of-type(5)
 onvideo.hu###detect + .wrapper
 
-! Section: Specific block
-!
 ||onlinestream.live/js/adb.js
 
-! Section: Specific allow
-!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113211
 @@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
 @@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script

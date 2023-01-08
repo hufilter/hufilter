@@ -2,8 +2,6 @@
 !-------------- Ads --------------------------------------------------------!
 !---------------------------------------------------------------------------!
 
-! Section: General hide
-!
 ##.ad__main
 ##.adblokk
 ##.cikk_reklam
@@ -92,8 +90,6 @@ hu##.leet_product_banner_container
 hu###hirdetes
 hu###hirdetesek
 
-! Section: Specific hide
-!
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
 168.hu##.banner-wrapper
@@ -1276,8 +1272,6 @@ zoldmano.info##.d-xl-none[style*="padding: 10px"]
 zoldmano.info##.post_content_box_article_continue + .text-center
 zoldmano.info##.post_content_box_sidebar
 
-! Section: Specific hide (extended ABP selectors)
-!
 5percblog.hu#?#.code-block:-abp-has(script+ins)
 ado.hu#?#.whiteBox:-abp-has(.goAdverticum)
 agrarszektor.hu#?#div#mymodal:-abp-has(#form-popup)
@@ -1324,13 +1318,9 @@ szineshir.net#?#div.grid_item:-abp-contains(Google Hirdetés)
 szineshir.net#?#div.grid_item:-abp-has(>div:-abp-contains(Hirdetés))
 ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 
-! Section: General block
-!
 ||*/empty.json
 ||*/eu-banned-popup/
 
-! Section: Specific block
-!
 ! https://github.com/hufilter/hufilter-dev/issues/172
 /dl/cnt/20[^0]\d-\d{2}/\d{4}//$image,domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu
 ||0i.hu/files/images/$image
@@ -1494,8 +1484,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||yayo.hu/static/banner/$image
 ||zeneszoveg.hu/gfx/skin-*/*.
 
-! Section: Ad servers
-!
 ||a.adnium.com^
 ||ad.depo.hu^
 ||ad.gyermekevek.hu^
@@ -1558,8 +1546,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||vid4u.org^
 ||wstat.ozon.ru^
 
-! Section: Ad servers third-party
-!
 ||9klikk.com^$third-party
 ||abmr.net^$third-party
 ||ad.hu^$third-party

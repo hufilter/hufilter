@@ -1,4 +1,0 @@
-! Section: section1
-b.hu##valami
-a.hu##valami
-c.hu##valami

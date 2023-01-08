@@ -2,10 +2,6 @@
 !-------------- uBlock-specific rules --------------------------------------!
 !---------------------------------------------------------------------------!
 
-! Section: HTML filters
-! Description: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#html-filters
-! Description: Only works on Firefox
-!
 24.hu##^body > script:has-text(a2blckLayer)
 divany.hu##^body>script:has-text(window.onload = window.onfocus)
 egeszsegkalauz.hu##^script:has-text(Quantcast Choice)
@@ -22,9 +18,6 @@ szeretlekmagyarorszag.hu##^script:has-text(window.atob)
 totalbike.hu##^body>script:has-text(window.onload = window.onfocus)
 totalcar.hu##^body>script:has-text(window.onload = window.onfocus)
 
-! Section: Scriptlets
-! Description: https://github.com/gorhill/uBlock/wiki/Resources-Library
-!
 24.hu##+js(acis, window._ceCTSData, hirdetések)
 ! angol-magyar-szotar.hu antiadblock
 angol-magyar-szotar.hu##+js(set, adblock, false)
@@ -66,10 +59,6 @@ vezess.hu##+js(aeld, mouseleave, showFbPopup)
 vezess.hu##+js(nostif, FbExit, 3000)
 vezess.hu##+js(rc, blurry, body > :not(.m-fbPopup), stay)
 
-! Section: CSS modifiers
-! Description: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#subjectstylearg
-! Description: More semantic AdGuard syntax also allowed
-!
 atv.hu##header:style(height: auto !important;)
 automotor.hu###_cikk_tartalom_rb1:style(margin-top: 0 !important;)
 automotor.hu##div.layoutContent:style(margin-top: 0 !important;)
@@ -92,9 +81,6 @@ origo.hu##.first-section:style(margin-top: 0 !important;)
 origo.hu##.oh-holder.open:style(z-index: 9999!important;)
 startlap.hu##div.container.banner-container.wide:style(min-height: 0!important; height: auto!important;)
 
-! Section: Related ABP rules
-! Description: These regular ABP rules dont't work properly without uBO-specific rules!
-!
 hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
@@ -107,8 +93,6 @@ player.hu##.adult-overelay
 totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
 traffihunter.hu##.ooono_promo
 
-! Section: Other
-!
 444.hu##article:has(a[href*="hirdetes"])
 444.hu##div.item:has(a[href*="hirdetes"])
 blikk.hu##.leavingPopupLayer
