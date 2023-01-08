@@ -7,7 +7,7 @@
   "license": "CC-BY-4.0",
   "dependencies": {
     "@actions/core": "^1.10.0",
-    "dateformat": "^4.5.1",
+    "dateformat": "^5.0.3",
     "html-to-text": "^8.1.0",
     "puppeteer": "^13.1.1"
   }
