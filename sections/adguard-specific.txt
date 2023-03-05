@@ -23,6 +23,8 @@ angol-magyar-szotar.hu#%#//scriptlet('set-constant', 'adblock', 'false')
 blikk.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '3')
 ! calculat.org antiadblock
 calculat.org#%#//scriptlet('prevent-setTimeout', 'adstest', '4000')
+! chp-ads-block-detector
+cinemo.hu#%#//scriptlet('abort-on-property-read', 'adsBlocked')
 ! totalcar.hu antiadblock
 divany.hu,totalcar.hu,totalbike.hu#%#//scriptlet('abort-on-property-write', 'document.head', 'currentScript.remove')
 egeszsegkalauz.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '1')
@@ -98,3 +100,7 @@ vezess.hu##.m-fbPopup
 
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)
+
+! chp-ads-block-detector
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=nooptext,domain=cinemo.hu
+||sovrn.com$xmlhttprequest,redirect=nooptext,domain=cinemo.hu
