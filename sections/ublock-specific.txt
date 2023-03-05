@@ -24,6 +24,8 @@ angol-magyar-szotar.hu##+js(set, adblock, false)
 blikk.hu##+js(ra, style, body, stay)
 ! calculat.org antiadblock
 calculat.org##+js(nostif, adstest, 4000)
+! chp-ads-block-detector
+cinemo.hu##+js(aopr, adsBlocked)
 ! totalcar.hu antiadblock
 divany.hu,totalcar.hu,totalbike.hu##+js(acis, document.head, currentScript.remove)
 embed.indavideo.hu##+js(set, AdHandler.adblocked, 0)
@@ -99,3 +101,7 @@ blikk.hu##.leavingPopupLayer
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)
 vezess.hu##.m-fbPopup
+
+! chp-ads-block-detector
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect=noop.txt,domain=cinemo.hu
+||sovrn.com$xhr,redirect=noop.txt,domain=cinemo.hu
