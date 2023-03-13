@@ -1489,6 +1489,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||yayo.hu/static/banner/$image
 ||zeneszoveg.hu/gfx/skin-*/*.
 
+||widget.block4d.com^
 ||a.adnium.com^
 ||ad.depo.hu^
 ||ad.gyermekevek.hu^
