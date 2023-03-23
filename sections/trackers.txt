@@ -20,6 +20,7 @@
 ||adtrackeraa.com^
 ||counter.megagroup.ru^
 ||doubleclick.net^
+||freestat.hu^
 ||gemius.hu^
 ||gemius.pl^
 ||smartadserver.com^
