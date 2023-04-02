@@ -8,6 +8,7 @@ egeszsegkalauz.hu$$script[tag-content="Quantcast Choice"]
 filmvilag.me$$script[tag-content="ShadowRoot"]
 gamer.hu$$script[tag-content="cli_cookiebar_"]
 grundoajandek.hu$$script[tag-content="contextmenu"]
+hazipatika.com$$script[tag-content="a2blckLayer"]
 hungliaonline.com$$script[tag-content="adblocker"]
 magyarhang.org,hang.hu$$script[tag-content="ai_run_"]
 napiszar.com$$script[data-cfasync="false"]
@@ -39,6 +40,7 @@ embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream', 'emptyObj')
 ! Thanks to AdamWr
 femina.hu#%#//scriptlet('set-constant', 'window.ado', 'null')
 hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
+hazipatika.com#%#//scriptlet('abort-current-inline-script', 'window._ceCTSData', 'a2blckLayer')
 hosszupuskasub.com#%#//scriptlet('prevent-window-open')
 huaweiblog.hu#%#//scriptlet('set-constant', 'tie.ad_blocker_detector', 'undefined')
 karpathir.com#%#//scriptlet('abort-on-property-write', 'getComputedStyle')

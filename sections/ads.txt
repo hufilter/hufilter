@@ -486,13 +486,14 @@ hasznaltauto.hu###superbox
 hatarido-szamitas.hu##.szkozepkis
 haziallat.hu##[id*="_ads"]
 haziallat.hu###kapubanner
+hazipatika.com##.-contentTop
 hazipatika.com##.ctsGadx
 hazipatika.com##.hashtags
 hazipatika.com##.wrap
+hazipatika.com##TD[id*="l_sponsor"]
 hazipatika.com##[class*="adtext"]
 hazipatika.com##[class*="adv_"]
 hazipatika.com##[class*="advert"]
-hazipatika.com##TD[id*="l_sponsor"]
 helyitipp.hu##[id*="hirdet"]
 heol.hu##[class*="hirdetes"]
 hetek.hu##[id*="popup"]
