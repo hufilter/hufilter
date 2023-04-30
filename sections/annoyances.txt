@@ -40,7 +40,6 @@ atv.hu###szechenyi-container
 autobazar.eu###cookieinfo
 autonavigator.hu###CybotCookiebotDialog
 autosjog.hu##.cookie-notice-container
-autosjog.hu##p + center:-abp-has(iframe[data-src*="facebook"])
 azonnali.hu##[aria-label="cookieconsent"]
 babanet.hu###cookie
 babanet.hu###popupajanlo
@@ -111,7 +110,6 @@ hazipatika.com###facebook-sharebar
 hazipatika.com###webaruhaz-ajanlo
 helyitipp.hu##.cookie-notice-container
 hestore.hu###cookiewarnbar
-hirado.hu##.hover_bkgr_fricc:-abp-has(.facebookPopupCloseButton)
 hiros.hu###cookieAlertBox
 hoxa.hu###cookiekezeles
 hvg.hu##.hvg_push
@@ -241,8 +239,10 @@ wasabi.hu##.footprint_cookie
 webforditas.hu###cookie-consent
 widescreen.hu##div.penci-wrap-gprd-law
 
+autosjog.hu#?#p + center:-abp-has(iframe[data-src*="facebook"])
 azonnali.hu#?#div:-abp-has(>.fb-like)
 femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
+hirado.hu#?#.hover_bkgr_fricc:-abp-has(.facebookPopupCloseButton)
 infostart.hu#?##sitemodal:-abp-has(.fb-button)
 
 /js/push.js$domain=infostart.hu
