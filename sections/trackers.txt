@@ -29,6 +29,9 @@
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
 ||zanox.com^
+! https://github.com/hufilter/hufilter-dev/issues/305
+||beam.telex.hu
+||beam-tracker.telex.hu
 
 ||analytics.yahoo.com^$third-party
 ||counter.hitslink.com^$third-party
