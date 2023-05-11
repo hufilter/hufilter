@@ -334,6 +334,7 @@ divany.hu##iframe
 donna.hu##[class*="banner"]
 donna.hu##[id*="banner"]
 duen.hu##[id*="banner"]
+e-cars.hu##DIV[class="td-a-rec td-a-rec-id-content_top  tdi_62 td_block_template_1"]
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
 eduline.hu##[class*="ad_"]
