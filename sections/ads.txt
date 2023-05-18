@@ -34,7 +34,7 @@
 ##[class*="GoogleAds"]
 ##[class*="overlayBg"]
 ##[data-campaign-name^="ads"]
-##[href*="ad.adverticum.net"]
+##[href*="ad.adverticum.net"]:not(a)
 ##[href*="kuponmania.hu"]
 ##[id*="google_ads"]
 ##[id*="GoogleAds"]
@@ -851,6 +851,8 @@ mindmegette.hu###sidebar_ads_box_2
 mindmegette.hu##DIV[class="billboard fr"]
 mindmegette.hu##DIV[class="fej-elso-sor cf"]
 mindmegette.hu##DIV[id*="-ad-"]
+! https://github.com/hufilter/hufilter-dev/issues/312
+mindmegette.hu#@#a[href*="adverticum.net"]
 mitortent.hu##[class^="adv"]
 mixonline.hu##[class*="banner"]
 mkbnetbankar.hu##.x-marketing
