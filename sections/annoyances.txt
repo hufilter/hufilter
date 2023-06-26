@@ -132,6 +132,7 @@ kh.hu###cookieAcceptanceContainer
 kisalfold.hu###nap_ajanlata
 kisalfold.hu##div.endless-shared-area
 kiskegyed.hu##.leavingPopupLayer
+kiskegyed.hu##.qc-cmp2-container
 kiskegyed.hu###articleOfferFlag
 kitekinto.hu##.pea_cook_wrapper
 koponyeg.hu##.recommendationzone
