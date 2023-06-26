@@ -157,6 +157,8 @@ merce.hu##.popup-wrap
 mindmegette.hu##.allow-cookie-stripe
 mindmegette.hu###portfolioEzekIsErdekelhetnek
 mindmegette.hu###recipeAndRelateds > h2.noprint
+moly.hu###sticky
+moly.hu##.b336
 najlepsie-clanky.com##[class*="pea_cook"]
 napi.hu##.cikkajanlo
 napiszex.hu##.ckwrap
