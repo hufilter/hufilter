@@ -569,6 +569,8 @@ hungliaonline.com##.tqWLsnEEqeEw-bg
 hungliaonline.com##[style="background: rgb(255, 255, 255); max-width: 720px; z-index: 9999999; opacity: 1; visibility: visible;"]
 hungliaonline.com##[style="z-index: 999999; background: rgba(0, 0, 0, 0.85098); display: block;"]
 hunhir.hu##[class*="_ad"]
+! https://github.com/hufilter/hufilter-dev/issues/316
+huntorrent.org##.mb-2.text-center:nth-of-type(2)
 hupont.hu##[id*="-reklam"]
 hupont.hu##[id*="fancybox"]
 hupont.hu##[id^="hirdetes_jobb_2"] + div + div
@@ -1399,6 +1401,8 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||hrportal.hu/images/banner/$image
 ||hu-swingers.com/img/banners/$image
 ||hungariantop1000.com/cgi-bin/counter.cgi
+! https://github.com/hufilter/hufilter-dev/issues/316
+||huntorrent.org/pic/banners/*.gif$image
 ||hupont.hu/hirdetes/
 ||hwsw.hu/images/bodybgs/$image
 ||hwsw.hu/images/bodybgs2/
