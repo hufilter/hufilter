@@ -1132,10 +1132,8 @@ szamoldki.hu##.modal_popup
 szatmar.ro##[class*="banner"]
 szatmar.ro###st-2
 szatmar.ro##div[id*="banner"]
-szeged365.hu##.active.popup-screen
 szeged365.hu##.stream-item
 szeged365.hu##[id^="stream-item-"]
-szeged365.hu##.popup-box
 szekelyfold.ma##div[id^="ga_g"]
 szepsegbroker.hu##.rightContent + [style]
 szeretlekmagyarorszag.hu##.adslabel
