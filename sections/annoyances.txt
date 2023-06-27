@@ -33,6 +33,7 @@ adozona.hu##.floating-help-wrapper
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113594
 americantourister.hu##.ui-widget-overlay
 americantourister.hu##[aria-describedby="cookies-dialog"]
+antikvarium.hu##.competition
 arukereso.hu###cookie-disclaimer
 atv.hu###facebookPopUp
 atv.hu###facebookPopUpBackground
@@ -157,6 +158,8 @@ merce.hu##.popup-wrap
 mindmegette.hu##.allow-cookie-stripe
 mindmegette.hu###portfolioEzekIsErdekelhetnek
 mindmegette.hu###recipeAndRelateds > h2.noprint
+moly.hu###sticky
+moly.hu##.b336
 najlepsie-clanky.com##[class*="pea_cook"]
 napi.hu##.cikkajanlo
 napiszex.hu##.ckwrap
@@ -215,6 +218,8 @@ starity.hu###upprev_box
 startlap.hu###push-notification
 szabadfold.hu##div.fb_shares
 szatmar.ro##.cookie-consent
+szeged365.hu##.active.popup-screen
+szeged365.hu##.popup-box
 szekelyfold.ma##.Cookie--bottom
 ! https://github.com/hufilter/hufilter/issues/5
 szepsegbroker.hu###cookie
