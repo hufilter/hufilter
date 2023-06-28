@@ -53,6 +53,8 @@ magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.ge
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128532
 magyarorszag.hu#%#//scriptlet('set-cookie', 'cookies_ok', '1')
 mandiner.hu#%#//scriptlet('remove-class', 'modal-open', 'body', 'stay')
+! https://github.com/hufilter/hufilter-dev/issues/312
+mindmegette.hu#%#//scriptlet('remove-attr', 'href', '[href*="ad.adverticum.net"]')
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'setTimeout')
 pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')
