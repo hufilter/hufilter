@@ -34,7 +34,7 @@
 ##[class*="GoogleAds"]
 ##[class*="overlayBg"]
 ##[data-campaign-name^="ads"]
-##[href*="ad.adverticum.net"]:not(a)
+##[href*="ad.adverticum.net"]
 ##[href*="kuponmania.hu"]
 ##[id*="google_ads"]
 ##[id*="GoogleAds"]
