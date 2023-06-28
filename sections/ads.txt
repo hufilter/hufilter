@@ -843,6 +843,8 @@ mindenkilapja.hu##[class*="advert"]
 mindmegette.hu##.billboard-cikk
 mindmegette.hu##.hir-fekvo
 mindmegette.hu##[class*="ads_box"]
+! https://github.com/hufilter/hufilter-dev/issues/312
+mindmegette.hu#@#[href*="ad.adverticum.net"]
 mindmegette.hu###ad-image-big
 mindmegette.hu###fadeandscale
 mindmegette.hu###fadeandscale_background
