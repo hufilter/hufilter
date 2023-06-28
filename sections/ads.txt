@@ -1475,6 +1475,8 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||static.origos.hu/s/css/responsive-ads/hangar/hangar-investor-web.css$stylesheet
 ||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$domain=szeretlekmagyarorszag.hu
 ||stylemagazin.hu/static/template_settings/
+||szegeder.hu/get-ads
+||szegeder.hu/js/ads-prebid.js
 ||szegedma.hu/*banners/*.
 ! https://github.com/hufilter/hufilter/issues/5
 ||szepsegbroker.hu/banner/$image
