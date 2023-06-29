@@ -1077,7 +1077,6 @@ romnet.hu##[id*="banner"]
 romnet.hu##[id*="hirdetes"]
 ! https://github.com/hufilter/hufilter-dev/issues/150
 rp5.ru#@#[id^="aswift_"]
-rtlklub.hu##[class*="banner"]
 samsungsport.hu##[class*="banner"]
 sg.hu##.std0
 sg.hu##[class*="advert"]
