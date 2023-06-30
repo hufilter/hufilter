@@ -1518,9 +1518,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||adfair.hu^
 ||adfree-stat.p3g.hu^
 ||adk2x.com^
-! https://github.com/hufilter/hufilter-dev/issues/314
-||adskeeper.co.uk^
-||adskeeper.com^
 ||ads.geeks.hu^
 ||adv.forpsi.hu^
 ||adv.hu^
