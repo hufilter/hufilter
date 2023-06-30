@@ -878,7 +878,7 @@ mon.hu##[id*="Ad_"]
 mon.hu##[id*="Banner"]
 motorrevu.hu##[class*="hirdetes"]
 ! https://github.com/hufilter/hufilter-dev/issues/314
-mozinet.me##div[id="adserving-tag-hb"]
+mozinet.me###adserving-tag-hb
 mozinet.me##div[id="pa_sticky_ad_box_middle_left"]
 mozinet.me##iframe[id^="postbid_if_"]
 mozinezo.hu###header
