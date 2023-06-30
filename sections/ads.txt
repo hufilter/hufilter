@@ -1579,6 +1579,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||clicksure.com^$third-party
 ||ctnetwork.hu^$third-party
 ||data.bookline.hu^$third-party
+||head-clickfusion.com^$third-party
 ||hitelkereso.hu^$third-party
 ||iforex.com^$third-party
 ||iitech.dk^$third-party
