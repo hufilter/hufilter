@@ -1,14 +1,10 @@
 {
   "scripts": {
-    "build": "node assets/scripts/build.js",
-    "redundancy-check": "node assets/scripts/redundancy-check.js"
+    "build": "node assets/scripts/build.js"
   },
   "author": "Hufilter contributors",
   "license": "CC-BY-4.0",
   "dependencies": {
-    "@actions/core": "^1.10.0",
-    "dateformat": "^4.5.1",
-    "html-to-text": "^8.1.0",
-    "puppeteer": "^13.1.1"
+    "dateformat": "^4.5.1"
   }
 }
