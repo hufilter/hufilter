@@ -95,21 +95,8 @@ hu###hirdetesek
 168.hu##.banner-wrapper
 24.hu##.banner-container
 24.hu##.spklw-post-attr[data-type="ad"]
-444.hu##.d1912cka
-444.hu##.d1912cza
-444.hu##.d2020kv
-444.hu##.d36-top
-444.hu##.donation
-444.hu##.ease-modal
-444.hu##.pr-box
-444.hu##.support-box
-444.hu##.text-center
 444.hu##[class*="banner"]
-444.hu##[class*="xmas"]
 444.hu##[id*="-banner-"]
-444.hu###kummanto
-444.hu##div.k4.g7.en.gs.gr.ek.dX > .k4.k0.g7.en.gs.gr.ek.dX
-444.hu##DIV[class="b-image-highlight b-image-highlight-article"]
 5mp.eu###alsobox
 5percblog.hu###text-5
 5percblog.hu###text-6
