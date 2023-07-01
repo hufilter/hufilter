@@ -1,15 +1,22 @@
 {
+  "name": "hufilter",
+  "author": "Hufilter contributors",
+  "license": "CC-BY-4.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hufilter/hufilter-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hufilter/hufilter-dev/issues"
+  },
+  "homepage": "https://github.com/hufilter/hufilter-dev#readme",
   "scripts": {
     "build": "node assets/scripts/build.js",
     "lint": "aglint",
     "prepare": "husky install"
   },
-  "author": "Hufilter contributors",
-  "license": "CC-BY-4.0",
-  "dependencies": {
-    "dateformat": "^4.5.1"
-  },
   "devDependencies": {
+    "dateformat": "^4.5.1",
     "@adguard/aglint": "1.0.11",
     "husky": "^8.0.3"
   }
