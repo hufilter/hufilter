@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "node assets/scripts/build.js"
+    "build": "node assets/scripts/build.js",
+    "lint": "aglint"
   },
   "author": "Hufilter contributors",
   "license": "CC-BY-4.0",
