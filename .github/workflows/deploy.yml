@@ -1,5 +1,8 @@
 name: Deploy
 
+env:
+  NODE_VERSION: 18
+
 on:
   push:
     branches:
