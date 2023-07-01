@@ -228,10 +228,6 @@ blogstar.hu##[class*="banner"]
 blogstar.hu##[class*="popupBanner"]
 blogstar.hu###lightview1
 bookline.hu##.o-banner--hirdetes
-borsa.hu##.blockright
-borsa.hu##.google
-borsa.hu##.parom
-borsa.hu##[class*="hirdetes"]
 borsonline.hu##.real-estate-wrapper
 borsonline.hu##[class*="__ad"]
 borsonline.hu##[class*="adContainer"]
