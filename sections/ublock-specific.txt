@@ -93,7 +93,6 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 kektura.hu###cookie-consent-dialog
 mandiner.hu##.modal-backdrop
 mandiner.hu##.modal[role="dialog"]
-ncore.pro###x-pop
 player.hu##.adult-overelay
 ! https://github.com/hufilter/hufilter/issues/212
 totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
