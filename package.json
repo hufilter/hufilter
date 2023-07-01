@@ -9,6 +9,7 @@
     "dateformat": "^4.5.1"
   },
   "devDependencies": {
-    "@adguard/aglint": "1.0.11"
+    "@adguard/aglint": "1.0.11",
+    "husky": "^8.0.3"
   }
 }
