@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build": "node assets/scripts/build.js",
-    "lint": "aglint"
+    "lint": "aglint",
+    "prepare": "husky install"
   },
   "author": "Hufilter contributors",
   "license": "CC-BY-4.0",
