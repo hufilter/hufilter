@@ -164,6 +164,7 @@ najlepsie-clanky.com##[class*="pea_cook"]
 napi.hu##.cikkajanlo
 napiszex.hu##.ckwrap
 napjainkportal.hu##.cookie-notice-container
+ncore.pro###x-pop
 nemzetisport.hu##.allow-cookie-stripe
 nice.hu##div.cookie-message
 nice.hu##div#show_news_box
