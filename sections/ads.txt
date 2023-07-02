@@ -952,7 +952,7 @@ origo.hu##.col-xl-8 + aside.col-xl-4.col-visible-xl
 origo.hu##[class*="banner"]
 origo.hu##[id*="banner"]
 origo.hu##div.article-recommendation-zones
-origo.hu##DIV[class*="Advert"]
+origo.hu##[class*="Advert"]
 origo.hu##section.spar
 otvenentul.hu##[class^="ad"]
 pannonrtv.com##[id^="block-views-block-banners-"]
