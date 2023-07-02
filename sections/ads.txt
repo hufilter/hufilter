@@ -412,8 +412,6 @@ freemail.hu##[class*="adbox"]
 freemail.hu##[class*="magnum"]
 ! https://github.com/hufilter/hufilter-dev/issues/263
 freemail.hu###content-container > div > a:not([class*="MailListItem-"])
-freewaresoftwarenews.blogspot.com##[id*="HTML"]
-freewaresoftwarenews.blogspot.com###column-left-inner
 galamus.hu##[class*="banner"]
 gamekapocs.hu###background_ad_top
 gamepod.hu###right > .xabrew300.box
