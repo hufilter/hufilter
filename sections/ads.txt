@@ -429,10 +429,6 @@ gondola.hu##[class*="banner"]
 gondola.hu##[id*="banner"]
 gondola.hu###partnerek
 gportal.hu##[class*="banner"]
-grundoajandek.hu##.jqi-sub
-grundoajandek.hu##.jqi-subfade
-grundoajandek.hu###jqi-sub
-grundoajandek.hu###jqi-subfade
 gumiszoba.com##.wpcnt
 gyakorikerdesek.hu###adryf
 gyakorikerdesek.hu##.rltdwidget
