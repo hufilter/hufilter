@@ -84,6 +84,11 @@ keol.hu#$#@media (min-width: 1200px) { section[id="content_left"][class="content
 keol.hu#$#div#search_container { margin-bottom: 0 !important; }
 keol.hu#$#section[id="content_left"][class="content_content"] { width: auto !important; padding: 0 45px 0 46px !important; }
 magyarhirlap.hu#$#header .container { padding: 10px 10px 0 10px !important; }
+! https://github.com/hufilter/hufilter-dev/issues/317
+menetrendek.hu#$#.results_body { height: auto !important; }
+menetrendek.hu#$#body:has(> .background.height) .notation { display: block !important; }
+! .background without .height
+menetrendek.hu#$#body:has(> [class="background"]) footer { margin-top: 610px !important; }
 origo.hu#$#.first-section { margin-top: 0 !important; }
 origo.hu#$#.oh-holder.open { z-index: 9999!important; }
 startlap.hu#$#div.container.banner-container.wide { min-height: 0!important; height: auto!important; }
@@ -107,3 +112,8 @@ filmvilag.me##[style]:has(.adslot_1)
 ! chp-ads-block-detector
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=nooptext,domain=cinemo.hu
 ||sovrn.com$xmlhttprequest,redirect=nooptext,domain=cinemo.hu
+
+! https://github.com/hufilter/hufilter-dev/issues/317
+!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+@@||adocean.pl^$script,domain=menetrendek.hu
+!#endif
