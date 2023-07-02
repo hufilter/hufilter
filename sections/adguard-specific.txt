@@ -7,7 +7,6 @@ divany.hu,totalcar.hu,totalbike.hu$$script[tag-content="window.onload = window.o
 egeszsegkalauz.hu$$script[tag-content="Quantcast Choice"]
 filmvilag.me$$script[tag-content="ShadowRoot"]
 gamer.hu$$script[tag-content="cli_cookiebar_"]
-grundoajandek.hu$$script[tag-content="contextmenu"]
 hazipatika.com$$script[tag-content="a2blckLayer"]
 hungliaonline.com$$script[tag-content="adblocker"]
 magyarhang.org,hang.hu$$script[tag-content="ai_run_"]
