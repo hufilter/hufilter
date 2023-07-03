@@ -796,9 +796,10 @@ medicalonline.hu##.ui-floating-message
 medicalonline.hu##.wsp-wrap
 medicalonline.hu##[class*="tBanner"]
 medicalonline.hu###floatingBox
-menetrendek.hu##.articles
+menetrendek.hu##.banner_row
 menetrendek.hu##.proposer
 menetrendek.hu##.read_vs
+menetrendek.hu##.rightbanner
 merce.hu##.mrc-bnr-plchldr
 merce.hu##[class^="banner"]
 meska.hu##.sticky

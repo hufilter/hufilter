@@ -15,3 +15,6 @@ port.hu#$#abort-on-property-write document.body.style
 ! chp-ads-block-detector
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu
 ||sovrn.com$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu
+
+! https://github.com/hufilter/hufilter-dev/issues/317
+@@||adocean.pl^$script,domain=menetrendek.hu
