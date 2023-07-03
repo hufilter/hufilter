@@ -387,15 +387,6 @@ filmoldal.hu##DIV[class*="reklam"]
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[href^="https://rosszlanyok.hu/"]
 firstman.hu##[class*="banner"]
-fn.hu##.fn9_separator
-fn.hu##.rovatszponzor
-fn.hu##[class*="Advert"]
-fn.hu##[class*="banner"]
-fn.hu###felso_tavtarto
-fn.hu##DIV[class*="adbox"]
-fn.hu##DIV[class*="cikk_kirakat"]
-fn.hu##DIV[class*="Etarget"]
-fn.hu##DIV[id^="sky_"][id$="_side"]
 forbes.hu##div[id^="forbesad"]
 forbes.hu##p + [class*="-bekezdes-utan-"]
 forum.index.hu###ot2015
@@ -1358,7 +1349,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||femcafe.hu/*/szponzoracio/
 ||femcafe.hu/spike-ad/
 ||floweryoperation.com/v2/0/$domain=karpathir.com
-||fn.hu/*szponzor*/*.
 ||fototrend.hu/design/hatter.jpg$image
 ||freeweb.hu/*_banner*.
 ||gamepod.hu/ajanlo/lapcsalad.html
