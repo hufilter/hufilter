@@ -583,41 +583,14 @@ indavideo.hu##[class*="billboard"]
 index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu##.adbd-layer
 index.hu,velvet.hu,totalcar.hu##.shopline-box
 index.hu,velvet.hu,totalcar.hu##.travelo-box
-index.hu##._iph_brk
 index.hu##.cikk-vegi-ajanlo-reklamok
 index.hu##.cikk-vegi-ajanlo-reklamok-container
-index.hu##.glr_advert
-index.hu##.infoStripe
-index.hu##.keretes-donate-doboz
-index.hu##.microsite_dummy
-index.hu##.nm_header
-index.hu##.nm_mini
-index.hu##.nm_mini__wrapper
-index.hu##.nm_sponsored__wrapper
-index.hu##.nm_supported
-index.hu##.nm_supported__wrapper
-index.hu##.nm_thanks
-index.hu##.nm_thanks__wrapper
-index.hu##.nm_widget__wrapper
 index.hu##[class*="ad-container"]
-index.hu##[class*="adblokk"]
-index.hu##[class*="Advert"]
 index.hu##[class*="hirdetes"]
-index.hu##[class="ajanlatok box scrollbox"]
 index.hu###ad_null_position
-index.hu###ads
 index.hu###also_bannerek
-index.hu###bookline
-index.hu###box_energiapedia
-index.hu###box_eon
-index.hu###box_info
-index.hu###box_medicalonline
-index.hu###closeWindow
-index.hu###ctravelbox
 index.hu###index_shopline
-index.hu###interstitial
-index.hu##DIV[class*="guestbox"]
-index.hu##DIV[id*="banner"]
+index.hu##[id*="banner"]
 infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###main div[class*="banner"]
 infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###sidebar > div[class*="banner"]
 infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu##div.read div[class*="banner"]
