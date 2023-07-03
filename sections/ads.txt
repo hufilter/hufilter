@@ -903,43 +903,13 @@ onroad.hu##.highlighted-banner
 oprend.hu##[class*="ad-warning"]
 oprend.hu##[class="ad-blocked"]
 oprend.hu##[class="p-t-10 ad-blocked"]
-origo.hu,gphirek.hu##[id^="zone"]
-origo.hu##.afc
+gphirek.hu##[id^="zone"]
 origo.hu##.col-xl-8 + aside.col-xl-4.col-visible-xl
-origo.hu##.lead-alatti
-origo.hu##.origo-jatek-randi-bottom
-origo.hu##.panorama-wrapper
-origo.hu##.pr-blokk
-origo.hu##.pr-item
 ! Gallery ads
-origo.hu##.swiper-slide.z-slide
-origo.hu##[class*="adbox"]
 origo.hu##[class*="banner"]
-origo.hu##[class*="hirdetes"]
-origo.hu##[class*="origoAjanlat"]
-origo.hu##[class*="wsz_rotal"]
-origo.hu##[class^="ad-"]
-origo.hu##[id*="-hird"]
-origo.hu##[id*="ajanlat_"]
 origo.hu##[id*="banner"]
-origo.hu##[id*="hird-"]
-origo.hu##[id^="edigital_"]
-origo.hu##[id^="szponz-"]
-origo.hu###ac
-origo.hu###advert
-origo.hu###adZone
-origo.hu###inter
-origo.hu###inter-in
-origo.hu###origo_offers
-origo.hu###pr-box
-origo.hu###szoveges
-origo.hu##A[href*="xtb.hu"]
 origo.hu##div.article-recommendation-zones
-origo.hu##div.mme-doboz
-origo.hu##DIV[class*="Advert"]
-origo.hu##div[class$="widget"][data-adblockonly="1"]
-origo.hu##DIV[id*="magnum"]
-origo.hu##IFRAME[id*="bookline"]
+origo.hu##[class*="Advert"]
 origo.hu##section.spar
 otvenentul.hu##[class^="ad"]
 pannonrtv.com##[id^="block-views-block-banners-"]
@@ -1263,7 +1233,6 @@ magyarhang.org,hang.hu#?#[id^="um-"]:-abp-has(.fb-page.fb_iframe_widget)
 najlepsie-clanky.com#?#.code-block:-abp-has(script + ins)
 napjainkportal.hu#?#.code-block:-abp-has(>div+ins.adsbygoogle+script)
 nlc.hu#?#.m-breakingLayer:-abp-has(a[href*="nlc.hu/balkonfanatik"])
-origo.hu#?#a:-abp-has(>div[class*="adLabel"])
 prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu#?#div:-abp-has(>[style*="calc"])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu#?#div:-abp-has(>h4 + div[style*="calc"])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu#?#div#center:-abp-has(div > div > p > a[style="color: #b42223;"])
@@ -1388,8 +1357,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||nso.hu/*/sponsoration/*.
 ||okmanyiroda.hu/banner.html
 ||online.filmek-sorozatok.info/java.js$script
-||origo.hu/banner/$image
-||origo.hu/p/sales/
 ||p3k.hu/*_hatter*.$image
 ||p3k.hu/*szponz*.
 ||partyzoo.hu/banner/$image
