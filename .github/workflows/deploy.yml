@@ -1,43 +1,55 @@
-name: Automatic deploy
+name: Deploy
+
+env:
+  NODE_VERSION: 18
+
 on:
   push:
     branches:
       - master
     paths:
+      - .gitattributes
       - LICENSE
       - RELEASE_README.md
+      - assets/scripts/*.js
+      - filters.json
       - sections/**.txt
       - sections/headers/**.txt
-      - filters.json
-      - assets/scripts/*.js
-      - .gitattributes
-  workflow_dispatch:
+
 jobs:
   build:
+    # Run this job only if the repository is hufilter/hufilter-dev
     if: github.repository == 'hufilter/hufilter-dev'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Check out to repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
-          ref: master
-      - uses: actions/setup-node@v3
-        with:
-          node-version: latest
+          node-version: ${{ env.NODE_VERSION }}
+          cache: yarn
+
       - name: Install dependencies
-        run: npm install
+        run: yarn install --frozen-lockfile
+
       - name: Create release directory
         run: |
           mkdir release
           cp LICENSE ./release/LICENSE
           cp RELEASE_README.md ./release/README.md
           cp .gitattributes ./release/.gitattributes
+
       - name: Run build script
-        run: npm run build
+        run: yarn build
+
       - name: Create artifact
         uses: actions/upload-artifact@v3
         with:
           name: release_artifact
           path: release/**
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -45,11 +57,13 @@ jobs:
       - uses: actions/checkout@v3
         with:
           ref: master
+
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
           name: release_artifact
           path: ./release
+
       - name: Commit and push changes
         uses: cpina/github-action-push-to-another-repository@main
         env:

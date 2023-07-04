@@ -1,14 +1,23 @@
 {
-  "scripts": {
-    "build": "node assets/scripts/build.js",
-    "redundancy-check": "node assets/scripts/redundancy-check.js"
-  },
+  "name": "hufilter",
   "author": "Hufilter contributors",
   "license": "CC-BY-4.0",
-  "dependencies": {
-    "@actions/core": "^1.10.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hufilter/hufilter-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hufilter/hufilter-dev/issues"
+  },
+  "homepage": "https://github.com/hufilter/hufilter-dev#readme",
+  "scripts": {
+    "build": "node assets/scripts/build.js",
+    "lint": "aglint",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
     "dateformat": "^4.5.1",
-    "html-to-text": "^8.1.0",
-    "puppeteer": "^13.1.1"
+    "@adguard/aglint": "1.0.11",
+    "husky": "^8.0.3"
   }
 }

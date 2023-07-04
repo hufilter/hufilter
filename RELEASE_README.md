@@ -14,9 +14,9 @@
     <a href="https://getadblock.com/"><img src="https://gist.githubusercontent.com/scripthunter7/45f46156b3e4efdd13817ffc57389feb/raw/6024bd84726be876839925f328faa3afb45e0534/adblock_logo.svg" width="14px"> AdBlock</a> 
 </p>
 <p align="center">
-    <img src="https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg" alt="License: CC BY 4.0" />
-    <img src="https://github.com/hufilter/hufilter-dev/actions/workflows/automatic-deploy.yml/badge.svg" alt="Automatic deploy status" />
-    <img src="https://github.com/hufilter/hufilter-dev/actions/workflows/redundancy-check.yml/badge.svg" alt="Redundancy check status" />
+    <a href="https://github.com/hufilter/hufilter-dev/actions/workflows/aglint.yml" target="_blank"><img src="https://github.com/hufilter/hufilter-dev/actions/workflows/aglint.yml/badge.svg?branch=master" alt="AGLint status"></a>
+    <a href="https://github.com/hufilter/hufilter-dev/graphs/contributors" target="_blank"><img src="https://img.shields.io/github/contributors/hufilter/hufilter-dev" alt="GitHub contributors"></a>
+    <a href="https://github.com/hufilter/hufilter-dev/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/hufilter/hufilter-dev" alt="License"></a>
 </p>
 
 ## Mi a hufilter? / What is hufilter?

@@ -1,7 +1,6 @@
 {
     "recommendations": [
         "adguard.adblock",
-        "editorconfig.editorconfig",
-        "emeraldwalk.RunOnSave"
+        "editorconfig.editorconfig"
     ]
 }

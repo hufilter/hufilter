@@ -128,5 +128,4 @@ dist
 .history/
 
 ### Other
-package-lock.json
 release
