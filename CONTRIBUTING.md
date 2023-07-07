@@ -58,6 +58,7 @@ If you would like to add or modify filter rules for the hufilter project, please
 - Fork the [hufilter-dev](https://github.com/hufilter/hufilter-dev) repository and clone it to your local machine (or use the web interface).
 - Create a new branch for your changes and switch to it.
 - Edit the relevant files in the `sections` directory.
+- Make a Pull Request with a clear description of the problem.
 
 #### Filter categories
 
