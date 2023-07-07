@@ -4,6 +4,7 @@
 
 - [Hufilter - The Hungarian Adblock Filter List](#hufilter---the-hungarian-adblock-filter-list)
 - [How to contribute](#how-to-contribute)
+  - [Filtering guidelines](#filtering-guidelines)
   - [Reporting issues](#reporting-issues)
   - [Adding or modifying filter rules](#adding-or-modifying-filter-rules)
     - [Filter categories](#filter-categories)
@@ -25,6 +26,20 @@ For more information about the hufilter project, please visit the [README.md](ht
 ## How to contribute
 
 If you would like to contribute to the hufilter project, please read this short documentation carefully. Thank you for your interest and support!
+
+### Filtering guidelines
+
+Filtering is not limited to advertising only, you can also modify other elements of content.
+
+The rules of hufilter are essentially subjective, based on personal intuition. The hufilter maintenance team reserves the right to accept or reject any submission or request, even without giving reasons. The filtering guidelines are not set in stone, but rather a general guide to the main underlying principles - in extreme cases, a filtering rule may be included that is not justified by or contradicts the guidelines. This may sound a bit harsh, but it is important that everyone is clear on the position of the hufilter maintenance team on this issue and to prevent any misunderstandings later on.
+
+Those submitting filter rules agree and accept what is written here. 
+
+It is not the intention of hufilter to destroy or make impossible the operation of any site, although sometimes a filtering rule for undesirable content may unfortunately be so complex that it conflicts with functions unrelated to advertising.
+
+Hufilter is not concerned with filtering invitation-only sites. The reason is simple: there is no quick and easy way to check submitted rules. And please don't send invitations either.
+
+You take responsibility for the submission, with contact information (GitHub account is enough) in case there are problems or inquiries about your work. Anonymous submissions will be rejected without response.
 
 ### Reporting issues
 
