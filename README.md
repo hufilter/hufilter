@@ -61,6 +61,10 @@ Useful links to documentations.
 - [Redirects compatibility table](https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/compatibility-table.md#-redirects-compatibility-table)
 - [CSS selectors (MDN)](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)  
 
+## Contributing
+
+If you would like to contribute to the hufilter project, please read the [CONTRIBUTING.md](https://github.com/hufilter/hufilter-dev/blob/master/CONTRIBUTING.md) carefully. Thank you for your interest and support!
+
 ## Build process
 
 The build process is executed automatically if a push event is triggered in this repository.
