@@ -17,6 +17,9 @@ onvideo.hu###detect + .wrapper
 @@||bitepito.hu/rejtveny/data/ads/adsense.js^$script
 @@||bitepito.hu/rejtveny/data/ads/googleads.js^$script
 @@||meszotar.hu/scripts/advertising.js
+! https://github.com/hufilter/hufilter-dev/issues/363
+myonlineradio.hu##.layer_cont
+myonlineradio.hu##._close.overlay
 
 hazipatika.com##.a2blckLayer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/67853 (Author: AdamWr)
