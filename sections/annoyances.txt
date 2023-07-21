@@ -158,6 +158,8 @@ mindmegette.hu###portfolioEzekIsErdekelhetnek
 mindmegette.hu###recipeAndRelateds > h2.noprint
 moly.hu###sticky
 moly.hu##.b336
+! https://github.com/hufilter/hufilter-dev/issues/363
+myonlineradio.hu##[src^="/public/img/efi/"]
 najlepsie-clanky.com##[class*="pea_cook"]
 napi.hu##.cikkajanlo
 napiszex.hu##.ckwrap
