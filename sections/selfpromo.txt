@@ -20,6 +20,9 @@ infostart.hu##.article>.live-wrapper
 leet.hu###article + #offer
 leet.hu###Leet_cikk_normal_content_1 + section > p:last-of-type
 leet.hu###Leet_cikk_rectangle_right_1 + .featured-product
+mandiner.hu##.subscription-box
+mandiner.hu##man-header-magazine
+mandiner.hu##man-newsletter-diverter-card
 napiszex.hu###logo + .partner
 ! https://github.com/hufilter/hufilter-dev/issues/254
 onroad.hu##a[href="https://onroad.hu/tamogatas"]
