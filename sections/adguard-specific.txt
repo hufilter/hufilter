@@ -84,6 +84,7 @@ keol.hu#$#@media (min-width: 1200px) { section[id="content_left"][class="content
 keol.hu#$#div#search_container { margin-bottom: 0 !important; }
 keol.hu#$#section[id="content_left"][class="content_content"] { width: auto !important; padding: 0 45px 0 46px !important; }
 magyarhirlap.hu#$#header .container { padding: 10px 10px 0 10px !important; }
+mandiner.hu#$#.raw-html-embed { min-height: auto !important; }
 ! https://github.com/hufilter/hufilter-dev/issues/317
 menetrendek.hu#$#.results_body { height: auto !important; }
 menetrendek.hu#$#body:has(> .background.height) .notation { display: block !important; }
