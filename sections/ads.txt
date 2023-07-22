@@ -974,8 +974,6 @@ ricsajok.hu##[class*="banner"]
 romnet.hu##[class*="hirdetes"]
 romnet.hu##[id*="banner"]
 romnet.hu##[id*="hirdetes"]
-! https://github.com/hufilter/hufilter-dev/issues/150
-rp5.ru#@#[id^="aswift_"]
 samsungsport.hu##[class*="banner"]
 sg.hu##.std0
 sg.hu##[class*="advert"]
