@@ -546,7 +546,6 @@ hvg.hu##.block-ms-box2
 hvg.hu##.cimlap-ajanlat.elem-1180.cimlap-grid-elem
 hvg.hu##.hosting
 hvg.hu##.jobline-palyakezdo-feed
-! https://github.com/AdguardTeam/AdguardFilters/issues/111757
 hvg.hu##.selectWidget
 hvg.hu##.support-stripe
 hvg.hu##[class*="adsense"]
