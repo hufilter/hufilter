@@ -1173,10 +1173,6 @@ widescreen.hu##div.sgpb-popup-overlay-42657
 widescreen.hu##div.sgpb-popup-overlay-42658
 wikiszotar.hu##[id*="sense-"]
 zene.hu##.etarget
-zoldmano.info##.d-none[style*="padding: 10px"]
-zoldmano.info##.d-xl-none[style*="padding: 10px"]
-zoldmano.info##.post_content_box_article_continue + .text-center
-zoldmano.info##.post_content_box_sidebar
 
 5percblog.hu#?#.code-block:-abp-has(script+ins)
 ado.hu#?#.whiteBox:-abp-has(.goAdverticum)
