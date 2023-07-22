@@ -1043,10 +1043,6 @@ szeretlekmagyarorszag.hu##[class^="ads_"] + .clear
 szeretlekmagyarorszag.hu###hatterkep
 szervuszausztria.hu##[class^="ads"]
 szervuszausztria.hu##[id*="etarget"]
-szineshir.net##.post_content_box > .post_content_box_sidebar
-szineshir.net##.post_content_box_article_continue + div
-szineshir.net##div.d-xl-block[style*="padding: 10px"]
-szineshir.net##div.d-xl-none[style*="padding: 10px"]
 szingliportal.hu##.article_contiune_link
 szoftverbazis.hu##.ad-wrap-100
 szoftverbazis.hu##.jobb_300
@@ -1224,8 +1220,6 @@ prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu#?#d
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu#?#div:-abp-has(>h4 + div[style*="calc"])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu#?#div#center:-abp-has(div > div > p > a[style="color: #b42223;"])
 szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
-szineshir.net#?#div.grid_item:-abp-contains(Google Hirdetés)
-szineshir.net#?#div.grid_item:-abp-has(>div:-abp-contains(Hirdetés))
 ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 
 ||*/empty.json
