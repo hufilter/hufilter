@@ -60,6 +60,7 @@ borsonline.hu##.subscription-box
 bpiautosok.hu###onesignal-bell-container
 bpiautosok.hu###onesignal-slidedown-container
 bpiautosok.hu##.extpp-container
+! https://github.com/hufilter/hufilter-dev/issues/367
 budapestkornyeke.hu##.extpp-container
 budapestpark.hu###cooker_container
 calculat.org##.cookies
@@ -111,6 +112,7 @@ helyitipp.hu##.cookie-notice-container
 hestore.hu###cookiewarnbar
 hiros.hu###cookieAlertBox
 hoxa.hu###cookiekezeles
+! https://github.com/hufilter/hufilter-dev/issues/367
 hvg.hu##.extpp-container
 hvg.hu##.hvg_push
 hwsw.hu###cookiealert
