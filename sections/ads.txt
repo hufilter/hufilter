@@ -539,8 +539,6 @@ hupont.hu##[id^="szuperbanner_"]
 hupont.hu###lebegodoboz
 hupont.hu###szupertorony
 hvg.hu##.adcaption
-hvg.hu##.advert-item
-hvg.hu##.article-jobline-sidebar-doboz
 hvg.hu##.article-menu.panelgap
 hvg.hu##.article-otherelements-container content
 hvg.hu##.articlebox.clear.sidebar-ajanlat
@@ -548,9 +546,6 @@ hvg.hu##.block-ms-box2
 hvg.hu##.cimlap-ajanlat.elem-1180.cimlap-grid-elem
 hvg.hu##.hosting
 hvg.hu##.jobline-palyakezdo-feed
-hvg.hu##.lh-calc.bm-caxlc-bo
-! https://github.com/AdguardTeam/AdguardFilters/issues/111757
-hvg.hu##.list-article + style + .panelgap
 hvg.hu##.selectWidget
 hvg.hu##.support-stripe
 hvg.hu##[class*="adsense"]
@@ -729,7 +724,6 @@ love.hu##[id^="banner_"]
 lovebox.hu##[class*="banner"]
 lumenet.hu###exposeMask
 lumenet.hu###page_PopupContainer
-m.hvg.hu##.ad-poc-link
 m.hvg.hu##.parallax_bottom
 m.hvg.hu##.parallax_top
 ma.hu##.rckaexclude
