@@ -43,3 +43,5 @@
 ||track306.info^$third-party
 ||trackingterrorism.org^$third-party
 ||va.v.liveperson.net^$third-party,script
+! https://github.com/hufilter/hufilter-dev/issues/367
+||ex1tp.com^$third-party
