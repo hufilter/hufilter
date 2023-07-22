@@ -60,8 +60,6 @@ borsonline.hu##.subscription-box
 bpiautosok.hu###onesignal-bell-container
 bpiautosok.hu###onesignal-slidedown-container
 bpiautosok.hu##.extpp-container
-! https://github.com/hufilter/hufilter-dev/issues/367
-budapestkornyeke.hu##.extpp-container
 budapestpark.hu###cooker_container
 calculat.org##.cookies
 cartourmagazin.hu###cadre_alert_cookies
@@ -112,8 +110,6 @@ helyitipp.hu##.cookie-notice-container
 hestore.hu###cookiewarnbar
 hiros.hu###cookieAlertBox
 hoxa.hu###cookiekezeles
-! https://github.com/hufilter/hufilter-dev/issues/367
-hvg.hu##.extpp-container
 hvg.hu##.hvg_push
 hwsw.hu###cookiealert
 infostart.hu##.notification-popup
@@ -265,4 +261,3 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||money.hu/assets-new/js/calculator-widget-init.js
 ||quantcast.mgr.consensu.org^$script,domain=hazipatika.com|hrportal.hu|index.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
-||widget.ex1tp.com/js/ep/v2/widget.js^$script,domain=kiskegyed.hu
