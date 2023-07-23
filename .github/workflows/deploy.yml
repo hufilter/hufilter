@@ -16,6 +16,15 @@ on:
       - sections/**.txt
       - sections/headers/**.txt
 
+# Make sure that only one deploy job runs at a time. For example, if we merge
+# a pull request, then GitHub will call this workflow, but if we merge another
+# pull request while the first deploy job is still running, then GitHub will
+# call this workflow again, and we will have two deploy jobs running at the
+# same time. This can cause conflicts, so we need to make sure that only one
+# deploy job runs at a time.
+concurrency:
+  group: deploy
+
 jobs:
   build:
     # Run this job only if the repository is hufilter/hufilter-dev
