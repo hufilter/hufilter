@@ -1,16 +1,16 @@
 name: Deploy
 
 env:
-  NODE_VERSION: 18
+  NODE_VERSION: 20
+  COMMIT_AUTHOR_NAME: hufilterbot
+  COMMIT_AUTHOR_EMAIL: hufilter@protonmail.com
+  COMMIT_MESSAGE: Automatic deploy from $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$GITHUB_SHA
 
 on:
   push:
     branches:
       - master
     paths:
-      - .gitattributes
-      - LICENSE
-      - RELEASE_README.md
       - assets/scripts/*.js
       - filters.json
       - sections/**.txt
@@ -27,12 +27,15 @@ concurrency:
 
 jobs:
   build:
-    # Run this job only if the repository is hufilter/hufilter-dev
+    name: Build filter lists
+    # Run this job only in the original source repository, not in forks
     if: github.repository == 'hufilter/hufilter-dev'
     runs-on: ubuntu-latest
     steps:
       - name: Check out to repository
         uses: actions/checkout@v3
+        with:
+          ref: master
 
       - name: Set up Node.js
         uses: actions/setup-node@v3
@@ -43,45 +46,147 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Create release directory
-        run: |
-          mkdir release
-          cp LICENSE ./release/LICENSE
-          cp RELEASE_README.md ./release/README.md
-          cp .gitattributes ./release/.gitattributes
+      - name: Create dist directory
+        run: mkdir dist
 
       - name: Run build script
         run: yarn build
 
-      - name: Create artifact
+      - name: Upload build artifact
         uses: actions/upload-artifact@v3
         with:
-          name: release_artifact
-          path: release/**
+          name: build_artifact
+          path: dist/**
 
   deploy:
+    name: Deploy filter lists to hufilter/hufilter
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout to hufilter/hufilter-dev
+        uses: actions/checkout@v3
         with:
+          repository: hufilter/hufilter-dev
+          path: hufilter-dev
           ref: master
 
-      - name: Download artifact
+      - name: Checkout to hufilter/hufilter
+        uses: actions/checkout@v3
+        with:
+          repository: hufilter/hufilter
+          path: hufilter
+          ref: master
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Download build artifact
         uses: actions/download-artifact@v3
         with:
-          name: release_artifact
-          path: ./release
+          name: build_artifact
+          path: ./dist
 
-      - name: Commit and push changes
-        uses: cpina/github-action-push-to-another-repository@main
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+      # We always build every filter list, but in some cases it means that only
+      # the metadata fields (version, last modified, checksum) will be updated,
+      # and the actual filter list content will be the same. So we need to check
+      # if the filter list content has changed, and only then commit the changes
+      # to the target repository in order to avoid unnecessary commits.
+      - name: Copy updated filter lists to hufilter/hufilter
+        run: |
+          # Iterate through the filter list names from the build artifact
+          # Filter lists always prefixed with "hufilter" and have ".txt" extension
+          FILTERS=$(find ./dist -type f -name "hufilter*.txt" -printf "%f\n")
+          for FILTER in $FILTERS
+          do
+              # Check if the file exists in the target repository
+              if [ -f "./hufilter/$FILTER" ]
+              then
+                  # Check if the files are different (but ignore metadata fields that change on every build)
+                  IGNORE_PATTERN="^[!#]\s\?\(Version\|Last modified\|Checksum\):"
+                  if [ ! -z "$(diff <(sed -e "/$IGNORE_PATTERN/d" ./dist/$FILTER) <(sed -e "/$IGNORE_PATTERN/d" ./hufilter/$FILTER))" ]
+                  then
+                      # If the files are different, copy the file from the build artifact to the target repository
+                      # (this will overwrite the existing file)
+                      cp ./dist/$FILTER ./hufilter/$FILTER
+                      echo "Updated $FILTER"
+                  fi
+              else
+                  # Just copy new filter lists to the target repository
+                  cp ./dist/$FILTER ./hufilter/$FILTER
+                  echo "Added $FILTER"
+              fi
+          done
+
+      # We need to remove filter lists that were removed from the build artifact
+      # (for example, if we removed a filter list from the source repository's
+      # filters.json file, then it won't be included in the build artifact, so
+      # we need to remove it from the target repository as well)
+      - name: Remove cancelled filter lists from hufilter/hufilter
+        run: |
+          # Iterate through the filter list names from the target repository
+          # Filter lists always prefixed with "hufilter" and have ".txt" extension
+          FILTERS=$(find ./hufilter -type f -name "hufilter*.txt" -printf "%f\n")
+          COUNT=0
+          for FILTER in $FILTERS
+          do
+              # Check if the file exists in the build artifact
+              if [ ! -f "./dist/$FILTER" ]
+              then
+                  # If the file doesn't exist in the build artifact, remove it from the target repository
+                  rm ./hufilter/$FILTER
+
+                  # Notify if a filter list was removed by displaying its name
+                  echo "Removed $FILTER"
+
+                  COUNT=$((COUNT+1))
+              fi
+          done
+          
+          # Notify about the total number of removed filter lists
+          if [ $COUNT -eq 0 ]
+          then
+              echo "No filter lists were removed."
+          else
+              echo "Removed $COUNT filter lists."
+          fi
+
+      # We need to check if there are any changes for filter lists at all.
+      # If there are no changes, then we don't need to commit anything.
+      - name: Check for filter list changes in hufilter/hufilter
+        run: |
+          cd ./hufilter
+
+          # Check if there are any changes for hufilter*.txt files
+          if [ -z "$(git status --porcelain hufilter*.txt)" ]
+          then
+              echo "It seems that there are no changes for filter lists at all."
+              
+              # Set a flag to skip the next steps
+              echo "NO_FILTER_LIST_CHANGES=true" >> $GITHUB_ENV
+          else
+              echo "There are some changes for filter lists, so we need to commit them."
+          fi
+
+      - name: Commit filter list changes for hufilter/hufilter
+        if: env.NO_FILTER_LIST_CHANGES != 'true'
+        run: |
+          cd ./hufilter
+
+          echo "Configuring git..."
+          git config --local user.email ${{ env.COMMIT_AUTHOR_EMAIL }}
+          git config --local user.name ${{ env.COMMIT_AUTHOR_NAME }}
+
+          echo "Adding updated filter lists..."
+          git add -f hufilter*.txt
+
+          echo "Committing changes..."
+          git commit -a -m "Automatic deploy from ${{ env.COMMIT_MESSAGE }}"
+
+      - name: Push filter list changes for hufilter/hufilter
+        if: env.NO_FILTER_LIST_CHANGES != 'true'
+        uses: ad-m/github-push-action@master
         with:
-          source-directory: release
-          destination-repository-username: hufilter
-          destination-repository-name: hufilter
-          user-email: hufilter@protonmail.com
-          user-name: hufilterbot
-          target-branch: master
-          commit-message: Automatic deploy from ORIGIN_COMMIT
+          directory: ./hufilter
+          github_token: ${{ secrets.API_TOKEN_GITHUB }}
+          repository: hufilter/hufilter
+          branch: master
+          force: true
