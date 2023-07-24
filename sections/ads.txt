@@ -35,12 +35,10 @@
 ##[class*="overlayBg"]
 ##[data-campaign-name^="ads"]
 ##[href*="ad.adverticum.net"]
-##[href*="kuponmania.hu"]
 ##[id*="google_ads"]
 ##[id*="GoogleAds"]
 ##[id^="ad_zone_"]
 ##[id^="adocean"]
-##[id^="aswift_"]
 ##[id^="googlead"]
 ##[name*="google_ads"]
 ###adblokk
@@ -78,9 +76,8 @@
 ##a[href*="ad.netmedia.hu"]
 ##a[href*="adverticum.net"]
 ##a[href*="daserver.ultraweb.hu"]
-##a[href*="etargetnet.com"]
-##a[href*="internetespenzkereses.net"]
 ##iframe[id*="ETARGET-"]
+
 hu##.hird
 hu##.hirdetes
 hu##.hirdetesek
@@ -88,6 +85,7 @@ hu##.hirdetesek
 hu##.leet_product_banner_container
 hu###hirdetes
 hu###hirdetesek
+hu##ins[id^="aswift_"]
 
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
@@ -972,8 +970,6 @@ ricsajok.hu##[class*="banner"]
 romnet.hu##[class*="hirdetes"]
 romnet.hu##[id*="banner"]
 romnet.hu##[id*="hirdetes"]
-! https://github.com/hufilter/hufilter-dev/issues/150
-rp5.ru#@#[id^="aswift_"]
 samsungsport.hu##[class*="banner"]
 sg.hu##.std0
 sg.hu##[class*="advert"]
