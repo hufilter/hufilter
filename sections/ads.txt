@@ -82,6 +82,7 @@
 ##a[href*="etargetnet.com"]
 ##a[href*="internetespenzkereses.net"]
 ##iframe[id*="ETARGET-"]
+
 hu##.hird
 hu##.hirdetes
 hu##.hirdetesek
