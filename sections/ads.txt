@@ -89,7 +89,7 @@ hu##.hirdetesek
 hu##.leet_product_banner_container
 hu###hirdetes
 hu###hirdetesek
-hu##[id^="aswift_"]
+hu##ins[id^="aswift_"]
 
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
