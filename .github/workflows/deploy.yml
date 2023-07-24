@@ -179,7 +179,7 @@ jobs:
           git add -f hufilter*.txt
 
           echo "Committing changes..."
-          git commit -a -m "Automatic deploy from ${{ env.COMMIT_MESSAGE }}"
+          git commit -a -m "${{ env.COMMIT_MESSAGE }}"
 
       - name: Push filter list changes for hufilter/hufilter
         if: env.NO_FILTER_LIST_CHANGES != 'true'
