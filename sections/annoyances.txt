@@ -255,11 +255,11 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 /js/push.js$domain=infostart.hu
 ||chatrobot.mia.gov.hu^
 ||chimpstatic.com^
-||cmp.quantcast.com^$script,domain=agrarszektor.hu|bpiautosok.hu|hazipatika.com|hellovidek.hu|hrportal.hu|index.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu
+||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|hazipatika.com|hellovidek.hu|hrportal.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu
 ||hestore.hu/pic/cookie.png$image
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
 ||medinfo.ocdn.eu/hu/consent_v2/choice.js^$script,domain=egeszsegkalauz.hu
 ||money.hu/assets-new/js/calculator-widget-init.js
 ||penzcentrum.hu/assets/js/bioep.min.js$script
-||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|bpiautosok.hu|hazipatika.com|hellovidek.hu|hrportal.hu|index.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu
+||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|hazipatika.com|hellovidek.hu|hrportal.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
