@@ -77,7 +77,6 @@
 ##a[href*="adverticum.net"]
 ##a[href*="daserver.ultraweb.hu"]
 ##a[href*="dealcent.com"]
-##a[href*="etargetnet.com"]
 ##iframe[id*="ETARGET-"]
 
 hu##.hird
