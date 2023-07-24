@@ -76,7 +76,7 @@ buildFilters = async () => {
         "\n";
       // Write output
       await fs.writeFile(
-        path.join(__dirname, `../../release/${filter.output}`),
+        path.join(__dirname, `../../dist/${filter.output}`),
         fileContent
       );
     } catch (err) {

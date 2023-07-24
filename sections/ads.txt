@@ -779,7 +779,6 @@ mindmegette.hu###sidebar_ads_box_2
 mindmegette.hu##DIV[class="billboard fr"]
 mindmegette.hu##DIV[class="fej-elso-sor cf"]
 mindmegette.hu##DIV[id*="-ad-"]
-mitortent.hu##[class^="adv"]
 mixonline.hu##[class*="banner"]
 mkbnetbankar.hu##.x-marketing
 mkbnetbankar.hu###app-advice
@@ -1061,7 +1060,6 @@ telefonguru.hu##[style="height: 250px"]
 telefonkonyv.hu##[class*=" adH"]
 telekom.hu##.ads
 teltlanyok.com##[id^="adchange"]
-tenyek24.eu###text-4
 terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher
 terminal.hu##div[id*="hirdetes"]
