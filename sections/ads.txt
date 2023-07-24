@@ -1061,7 +1061,6 @@ telefonguru.hu##[style="height: 250px"]
 telefonkonyv.hu##[class*=" adH"]
 telekom.hu##.ads
 teltlanyok.com##[id^="adchange"]
-tenyek24.eu###text-4
 terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher
 terminal.hu##div[id*="hirdetes"]
