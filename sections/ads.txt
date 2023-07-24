@@ -222,8 +222,10 @@ borsonline.hu##A[href="/jatek"]
 borsonline.hu##A[href="/nyarimagazin"]
 borsonline.hu##a[target="_blank"][class="videa-wrapper"]
 borsonline.hu##iframe[src*="koponyeg.hu"]
-bpiautosok.hu##font + center
 bpiautosok.hu###wpgtr_stickyads_textcss_container
+bpiautosok.hu##body > center:first-child
+bpiautosok.hu##body > center:first-child + br
+bpiautosok.hu##font + center
 budapestkornyeke.hu###custom_html-10
 budapestkornyeke.hu###custom_html-11
 budapestkornyeke.hu###custom_html-6
