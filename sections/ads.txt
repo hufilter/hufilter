@@ -1294,7 +1294,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ingyenweb.hu/felso/*.
 ||ingyenweb.hu/smsbanner/
 ||jogiforum.hu/files/partner/
-||ketyerepark.hu/banner/
 ||keymedia.hu/keymediajs.cgi
 ||klasszikradio.hu/uploads/banner/$image
 ||klubradio.hu/data/files/banner$image
