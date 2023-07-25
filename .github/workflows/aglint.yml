@@ -1,7 +1,7 @@
 name: AGLint
 
 env:
-  NODE_VERSION: 18
+  NODE_VERSION: 20
 
 on:
   push:
@@ -9,13 +9,17 @@ on:
       - master
     paths:
       - "**/*.txt"
+      - ".aglintrc.yaml"
+      - "package.json"
+      - "yarn.lock"
   pull_request:
     branches:
       - master
-    types:
-      - opened
     paths:
       - "**/*.txt"
+      - ".aglintrc.yaml"
+      - "package.json"
+      - "yarn.lock"
 
 jobs:
   lint:
