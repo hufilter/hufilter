@@ -925,8 +925,6 @@ player.hu##[class="ph ph-responsive-wrap"]
 player.hu##[data-analytics-value]
 player.hu###pushpushgo-container
 politaktika.hu###popup
-polusonline.com###HTML5
-polusonline.com###HTML9
 port.hu##.articleMetadata
 port.hu##.container.css-table>div:not(.container)
 port.hu##.edgebox-widget.show
