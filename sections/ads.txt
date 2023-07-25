@@ -976,7 +976,6 @@ sg.hu##[class*="advert"]
 sg.hu##IMG[src="images/hirdetes.gif"]
 sielok.hu##[class*="AdWrap"]
 sielok.hu##[id*="AdWrap"]
-site88.net##.popup
 sonline.hu##[class*="hirdetes"]
 sonline.hu##[id*="ctnet_ad_"]
 sonline.hu##div[class*="ad "]
