@@ -351,8 +351,6 @@ evamagazin.hu##.popupunderlay
 evamagazin.hu##[class*="adPlace"]
 evamagazin.hu##[class^="goAdverticum"]
 f1vilag.hu##[class*="adzone"]
-farm.hu##[class*="banner"]
-farm.hu##[id*="banner"]
 feliratok.info###advert
 feliratok.org##.wrapper>.slider
 femcafe.hu##.views-field-nothing
