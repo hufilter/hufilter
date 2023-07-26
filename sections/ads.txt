@@ -1216,15 +1216,19 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 
 ! https://github.com/hufilter/hufilter-dev/issues/172
 /dl/cnt/20[^0]\d-\d{2}/\d{4}//$image,domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu
-||0i.hu/files/images/$image
 ||3monkey.lol/vilagunk_640.html$domain=vilagunk.hu
+||aghtag.tech/libs/projectagora.min.js^$domain=gyakorikerdesek.hu|hoxa.hu
+||floweryoperation.com/v2/0/$domain=karpathir.com
+||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$domain=szeretlekmagyarorszag.hu
+||widget.blck4d.com/js/block/widget.js^$script,domain=starity.hu
+
+||0i.hu/files/images/$image
 ||444.hu/*/ease/
 ||888.hu^*/autoalkatreszek24$image
 ||ado.hu/banners/$image
 ||ads.nepszava.com^
 ||affiliate.hu$subdocument
 ||affiliation.arukereso.hu/pbox/
-||aghtag.tech/libs/projectagora.min.js^$domain=gyakorikerdesek.hu|hoxa.hu
 ||alfahir.hu^*/hirdetesfoto/$image
 ||amiotthonunk.hu/images/banners/
 ||aori.hu/banner
@@ -1261,7 +1265,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||femcafe.hu/*/sponsoration/
 ||femcafe.hu/*/szponzoracio/
 ||femcafe.hu/spike-ad/
-||floweryoperation.com/v2/0/$domain=karpathir.com
 ||fototrend.hu/design/hatter.jpg$image
 ||freeweb.hu/*_banner*.
 ||gamepod.hu/ajanlo/lapcsalad.html
@@ -1350,7 +1353,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||static.nemzetisport.hu//style/nso/i/*banner
 ||static.nemzetisport.hu//style/nso/i/betclic.gif$image
 ||static.origos.hu/s/css/responsive-ads/hangar/hangar-investor-web.css$stylesheet
-||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$domain=szeretlekmagyarorszag.hu
 ||stylemagazin.hu/static/template_settings/
 ||szegeder.hu/get-ads
 ||szegeder.hu/js/ads-prebid.js^$script
@@ -1371,7 +1373,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||vg.hu/banners/$image
 ||webminute.hu/bannerek/$image
 ||webtraffic.hu/banner/$image
-||widget.blck4d.com/js/block/widget.js^$script,domain=starity.hu
 ||yayo.hu/static/banner/$image
 ||zeneszoveg.hu/gfx/skin-*/*.
 

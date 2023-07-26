@@ -6,17 +6,6 @@
 777blog.hu##div#rechtangle.widget:nth-of-type(5)
 onvideo.hu###detect + .wrapper
 
-||onlinestream.live/js/adb.js
-
-! https://github.com/AdguardTeam/AdguardFilters/issues/113211
-@@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
-@@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
-@@||assets.portfolio.hu/js/ad_300x250.js$script,domain=portfolio.hu
-! https://github.com/AdguardTeam/AdguardFilters/issues/139716
-@@||bitepito.hu/rejtveny/data/ads/pagead/js/adsbygoogle.js^$script
-@@||bitepito.hu/rejtveny/data/ads/adsense.js^$script
-@@||bitepito.hu/rejtveny/data/ads/googleads.js^$script
-@@||meszotar.hu/scripts/advertising.js
 ! https://github.com/hufilter/hufilter-dev/issues/363
 myonlineradio.hu##.layer_cont
 myonlineradio.hu##._close.overlay
@@ -26,3 +15,15 @@ hazipatika.com##.a2blckLayer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126709
 videa.hu,videaloop.hu#@#.adBanner
 videa.hu,videaloop.hu##.top-video-container-banner
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/113211
+@@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
+@@||assets.portfolio.hu/js/ad_300x250.js$script,domain=portfolio.hu
+
+@@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
+! https://github.com/AdguardTeam/AdguardFilters/issues/139716
+@@||bitepito.hu/rejtveny/data/ads/pagead/js/adsbygoogle.js^$script
+@@||bitepito.hu/rejtveny/data/ads/adsense.js^$script
+@@||bitepito.hu/rejtveny/data/ads/googleads.js^$script
+@@||meszotar.hu/scripts/advertising.js
+||onlinestream.live/js/adb.js
