@@ -871,7 +871,6 @@ nol.hu##.noprint
 nol.hu##[class*="Banner"]
 nol.hu##DIV[class*="ad-container"]
 noplaza.hu##[class*="banner"]
-notonlyporn.net##[id*="warning"]
 novagyok.hu##[class*="banner"]
 novagyok.hu##[id*="banner"]
 nyest.hu##[class*="banner"]
