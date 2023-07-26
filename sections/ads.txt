@@ -858,7 +858,6 @@ nepszava.us##.myftp-widget
 nepszava.us##[id^="fancybox-"]
 nepszava.us##[id^="myftp"]
 netbulvar.eu##[id*="advertisment"]
-netfirms.com##A[href*="=banner"]
 netii.net##[id*="facebox"]
 nice.hu##[class*="banner"]
 nkmenergia.hu###tab-widget
