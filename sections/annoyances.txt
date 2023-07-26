@@ -68,6 +68,7 @@ cartourmagazin.hu###pa-push-notification-subscription
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu###cookie-policy-content
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu###web-push-popup
 civishir.hu##.cookie-box-cnt
+civishir.hu##.infobar-cnt
 csaladinet.hu###cikkajanlo
 csaladinet.hu###CookieAcceptLayer
 csupasport.hu##.enews-article-content .endless-shared-area
