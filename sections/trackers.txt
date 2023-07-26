@@ -5,12 +5,12 @@
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 
-/gemius.js^
-/gemius.min.js^
-/traffic.js
-/traffic.min.js
-/xgemius.js^
-/xgemius.min.js^
+/gemius.js^$script
+/gemius.min.js^$script
+/traffic.js$script
+/traffic.min.js$script
+/xgemius.js^$script
+/xgemius.min.js^$script
 
 ||*.hu/userip.php
 ||adat.freemail.hu^

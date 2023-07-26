@@ -1217,7 +1217,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ! https://github.com/hufilter/hufilter-dev/issues/172
 /dl/cnt/20[^0]\d-\d{2}/\d{4}//$image,domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu
 ||3monkey.lol/vilagunk_640.html$domain=vilagunk.hu
-||aghtag.tech/libs/projectagora.min.js^$domain=gyakorikerdesek.hu|hoxa.hu
+||aghtag.tech/libs/projectagora.min.js^$script,domain=gyakorikerdesek.hu|hoxa.hu
 ||floweryoperation.com/v2/0/$domain=karpathir.com
 
 ||0i.hu/files/images/$image

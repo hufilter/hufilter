@@ -2,4 +2,4 @@
 !-------------- Other rules ------------------------------------------------!
 !---------------------------------------------------------------------------!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
-@@||pro.hit.gemius.pl/gstream.js$domain=embed.rtl.hu
+@@||pro.hit.gemius.pl/gstream.js$script,domain=embed.rtl.hu

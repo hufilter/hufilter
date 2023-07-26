@@ -25,5 +25,5 @@ videa.hu,videaloop.hu##.top-video-container-banner
 @@||bitepito.hu/rejtveny/data/ads/pagead/js/adsbygoogle.js^$script
 @@||bitepito.hu/rejtveny/data/ads/adsense.js^$script
 @@||bitepito.hu/rejtveny/data/ads/googleads.js^$script
-@@||meszotar.hu/scripts/advertising.js
-||onlinestream.live/js/adb.js
+@@||meszotar.hu/scripts/advertising.js$script
+||onlinestream.live/js/adb.js$script
