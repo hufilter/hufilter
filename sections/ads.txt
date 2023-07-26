@@ -877,8 +877,6 @@ olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]
 olcsobbat.hu###datasheetNavHelp
 online-filmek.me##.hover_bkgr_fricc
-online.filmek-sorozatok.info##.adsListItem
-online.filmek-sorozatok.info##.videoBanner
 onlinecegjegyzek.hu##[class*="hirdetes"]
 ! https://github.com/hufilter/hufilter-dev/issues/254
 onroad.hu##.highlighted-banner
@@ -1322,7 +1320,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||noplaza.hu/banner/$image
 ||nso.hu/*/sponsoration/*.
 ||okmanyiroda.hu/banner.html
-||online.filmek-sorozatok.info/java.js$script
 ||p3k.hu/*_hatter*.$image
 ||p3k.hu/*szponz*.
 ||partyzoo.hu/banner/$image
