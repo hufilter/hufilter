@@ -1219,8 +1219,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||3monkey.lol/vilagunk_640.html$domain=vilagunk.hu
 ||aghtag.tech/libs/projectagora.min.js^$domain=gyakorikerdesek.hu|hoxa.hu
 ||floweryoperation.com/v2/0/$domain=karpathir.com
-||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$domain=szeretlekmagyarorszag.hu
-||widget.blck4d.com/js/block/widget.js^$script,domain=starity.hu
 
 ||0i.hu/files/images/$image
 ||444.hu/*/ease/
