@@ -249,8 +249,6 @@ chat.hu##[class^="vippol_"]
 chat.hu##[id*="banner"]
 chat.hu###stvipcontainer
 chat.hu##DIV[class="box rightbox"]
-civishir.hu##[class*="hirdetes"]
-civishir.hu##[id*="bannerzona"]
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-comment
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-end
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-inside
