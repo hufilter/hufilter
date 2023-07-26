@@ -1,3 +1,6 @@
+# Workflow file for running AGLint
+# https://github.com/AdguardTeam/AGLint/blob/master/docs/repo-integration.md
+
 name: AGLint
 
 env:
