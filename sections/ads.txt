@@ -1375,7 +1375,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ad*.mellesleg.hu^
 ||adfair.hu^
 ||adfree-stat.p3g.hu^
-||adk2x.com^
 ||ads.geeks.hu^
 ||adv.forpsi.hu^
 ||adv.hu^
@@ -1391,7 +1390,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||boxzsak.kirowski.com^
 ||brostraffic.com^
 ||cdn-dynamic.optimonk.com^
-||ctnsnet.com^
 ||daserver.ultraweb.hu^
 ||et.twyn.com^
 ||etargetnet.*.hu^
@@ -1418,7 +1416,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||syndication.trafficreps.com^
 ||szemezgeto*.ingatlan.com^
 ||up-banner.wavecdn.de^
-||vid4u.org^
 ||wstat.ozon.ru^
 
 ||9klikk.com^$third-party
@@ -1440,7 +1437,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||clicksure.com^$third-party
 ||ctnetwork.hu^$third-party
 ||data.bookline.hu^$third-party
-||head-clickfusion.com^$third-party
 ||hitelkereso.hu^$third-party
 ||iforex.com^$third-party
 ||iitech.dk^$third-party
