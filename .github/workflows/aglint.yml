@@ -1,7 +1,10 @@
+# Workflow file for running AGLint
+# https://github.com/AdguardTeam/AGLint/blob/master/docs/repo-integration.md
+
 name: AGLint
 
 env:
-  NODE_VERSION: 20
+  NODE_VERSION: 18
 
 on:
   push:
