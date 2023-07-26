@@ -1022,7 +1022,6 @@ szeretlekmagyarorszag.hu##[class^="ads_"] + .clear
 szeretlekmagyarorszag.hu###hatterkep
 szervuszausztria.hu##[class^="ads"]
 szervuszausztria.hu##[id*="etarget"]
-szingliportal.hu##.article_contiune_link
 szoftverbazis.hu##.ad-wrap-100
 szoftverbazis.hu##.jobb_300
 szoftverbazis.hu##[class*="banner"]
