@@ -13,6 +13,9 @@
 /xgemius.min.js^$script
 
 ||*.hu/userip.php
+||infostart.hu/js/ga.js$script
+||websas.hu/statistics/
+
 ||adat.freemail.hu^
 ||adtrackeraa.com^
 ! https://github.com/hufilter/hufilter-dev/issues/305
@@ -23,13 +26,11 @@
 ||freestat.hu^
 ||gemius.hu^
 ||gemius.pl^
-||infostart.hu/js/ga.js
 ||smartadserver.com^
 ||track.trackbyme.info^
 ||tracker.azet.sk^
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
-||websas.hu/statistics/
 ||zanox.com^
 
 ||analytics.yahoo.com^$third-party
