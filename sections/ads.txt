@@ -249,13 +249,6 @@ chat.hu##[class^="vippol_"]
 chat.hu##[id*="banner"]
 chat.hu###stvipcontainer
 chat.hu##DIV[class="box rightbox"]
-citromail.hu##[data-ce-measure-widget^="CTS Banner"]
-citromail.hu###aHirek
-citromail.hu###hir
-citromail.hu###hir2
-citromail.hu###linkek
-citromail.hu###oldal
-citromail.hu##DIV[class*="hirdetes"]
 civishir.hu##[class*="hirdetes"]
 civishir.hu##[id*="bannerzona"]
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-comment
