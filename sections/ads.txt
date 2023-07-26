@@ -293,7 +293,6 @@ delmagyar.hu##[id*="banner"]
 delmagyar.hu##[id^="linkbox_article"]
 delmagyar.hu###billboard
 demokrata.hu##.region-header.region
-demotivalo.net##[id*="banner"]
 deres.tv##[class*="banner"]
 dictzone.com###a1
 dictzone.com###a2
@@ -1242,7 +1241,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||chat.hu/imgadverts$image
 ||cosmopolitan.hu/*/sponsor/
 ||csongradihirek.hu/portal/images/stories/_reklamok/$image
-||demotivalo.net/*banner_*.$image
 ||dijnet.hu/ekonto/images/news/$image
 ||dijnet.hu/ekonto/images/szolg_logo/adomany_logo.jpg$image
 ||dijnet.hu/ekonto/images/szolg_logo/hu/adomany_logo.jpg$image
