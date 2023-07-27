@@ -243,12 +243,6 @@ cegbongeszo.hu##[class^="adsense"]
 cegbongeszo.hu##[id*="Banner"]
 ceginformacio.hu##.advert
 ceginformacio.hu##.occsz-banner
-chat.hu##[class*="banner"]
-chat.hu##[class*="hirdetes"]
-chat.hu##[class^="vippol_"]
-chat.hu##[id*="banner"]
-chat.hu###stvipcontainer
-chat.hu##DIV[class="box rightbox"]
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-comment
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-end
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-inside
@@ -258,7 +252,6 @@ computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-content-top
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after > *
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after-article
 computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.share-article
-csajoknak.com###rstbox_2
 csaladinet.hu##[class*="-adv"]
 csaladinet.hu##[class*="adv-"]
 csaladinet.hu###bdism1
@@ -351,8 +344,6 @@ evamagazin.hu##.popupunderlay
 evamagazin.hu##[class*="adPlace"]
 evamagazin.hu##[class^="goAdverticum"]
 f1vilag.hu##[class*="adzone"]
-farm.hu##[class*="banner"]
-farm.hu##[id*="banner"]
 feliratok.info###advert
 feliratok.org##.wrapper>.slider
 femcafe.hu##.views-field-nothing
@@ -453,7 +444,6 @@ hazipatika.com##[class*="advert"]
 helyitipp.hu##[id*="hirdet"]
 heol.hu##[class*="hirdetes"]
 hetek.hu##[id*="popup"]
-hir-24.eu###text-3
 hir.ma##[class*="PostAd"]
 hir.ma##[class^="ad"]
 hir.ma##[class="e3lan e3lan-top"]
@@ -461,13 +451,6 @@ hir.ma##[id*="-bg"]
 hir.ma###sidebad
 hir.ma###spu-main
 hir.ma###text-html-widget-6
-hir444.blogspot.com###header-blog
-hir444.blogspot.com###HTML1
-hir444.blogspot.com###HTML111
-hir444.blogspot.com###HTML5
-hir444.blogspot.com###HTML8
-hir444.blogspot.com###LinkList94
-hir444.blogspot.com###SC_TBlock_342633_Table
 hir6.hu##[class*="banner"]
 hirado.hu##DIV[id*="Banner"]
 hirado.hu##DIV[id*="zone-wallbanner-header"]
@@ -802,9 +785,6 @@ muhelynet.hu###header
 mult-kor.hu##[align="center"] > a[href*="banner"]
 mult-kor.hu##[class^="ui-dialog"]
 multiplay.hu##[id*="banner"]
-myvip.com##[id*="banner"]
-myvip.com##DIV[class*="banner"]
-myvip.com##DIV[class*="etarget"]
 napi.hu##.totalcar
 napi.hu##[class*="banner"]
 napi.hu##[class*="hirdetes"]
@@ -1022,7 +1002,6 @@ szeretlekmagyarorszag.hu##[class^="ads_"] + .clear
 szeretlekmagyarorszag.hu###hatterkep
 szervuszausztria.hu##[class^="ads"]
 szervuszausztria.hu##[id*="etarget"]
-szingliportal.hu##.article_contiune_link
 szoftverbazis.hu##.ad-wrap-100
 szoftverbazis.hu##.jobb_300
 szoftverbazis.hu##[class*="banner"]
@@ -1044,7 +1023,6 @@ terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher
 terminal.hu##div[id*="hirdetes"]
 titkokszigete.hu##[style="margin: 8px 0; clear: both;"]
-titkosrandi.hu##.skybanner
 tlap.hu##[id*="_bnr"]
 topark.hu##.sgpb-popup-dialog-main-div-wrapper
 topark.hu##.sgpb-theme-3-overlay.sgpb-popup-overlay-1402.sgpb-popup-overlay
