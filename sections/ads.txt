@@ -461,13 +461,6 @@ hir.ma##[id*="-bg"]
 hir.ma###sidebad
 hir.ma###spu-main
 hir.ma###text-html-widget-6
-hir444.blogspot.com###header-blog
-hir444.blogspot.com###HTML1
-hir444.blogspot.com###HTML111
-hir444.blogspot.com###HTML5
-hir444.blogspot.com###HTML8
-hir444.blogspot.com###LinkList94
-hir444.blogspot.com###SC_TBlock_342633_Table
 hir6.hu##[class*="banner"]
 hirado.hu##DIV[id*="Banner"]
 hirado.hu##DIV[id*="zone-wallbanner-header"]
