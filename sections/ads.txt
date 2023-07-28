@@ -1396,6 +1396,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||syndication.trafficreps.com^
 ||szemezgeto*.ingatlan.com^
 ||up-banner.wavecdn.de^
+||vid4u.org^
 ||wstat.ozon.ru^
 
 ||9klikk.com^$third-party
@@ -1417,6 +1418,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||clicksure.com^$third-party
 ||ctnetwork.hu^$third-party
 ||data.bookline.hu^$third-party
+||head-clickfusion.com^$third-party
 ||hitelkereso.hu^$third-party
 ||iforex.com^$third-party
 ||iitech.dk^$third-party
