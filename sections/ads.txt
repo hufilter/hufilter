@@ -1355,7 +1355,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ad*.mellesleg.hu^
 ||adfair.hu^
 ||adfree-stat.p3g.hu^
-||adk2x.com^
 ||ads.geeks.hu^
 ||adv.forpsi.hu^
 ||adv.hu^
@@ -1371,7 +1370,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||boxzsak.kirowski.com^
 ||brostraffic.com^
 ||cdn-dynamic.optimonk.com^
-||ctnsnet.com^
 ||daserver.ultraweb.hu^
 ||et.twyn.com^
 ||etargetnet.*.hu^

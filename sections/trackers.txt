@@ -31,7 +31,6 @@
 ||tracker.azet.sk^
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
-||zanox.com^
 
 ||analytics.yahoo.com^$third-party
 ||counter.hitslink.com^$third-party
