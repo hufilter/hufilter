@@ -3,44 +3,87 @@
     "output": "hufilter.txt",
     "title": "Hufilter Basic",
     "header": "adblock-plus.txt",
-    "sections": ["ads.txt", "other.txt"]
+    "sections": [
+      "common/ads.txt",
+      "common/unbreak.txt"
+    ]
   },
   {
     "output": "hufilter-abp.txt",
     "title": "Hufilter for ABP",
     "header": "adblock-plus.txt",
-    "sections": ["ads.txt", "annoyances.txt", "trackers.txt", "antiadblock.txt", "other.txt", "abp-specific.txt"]
+    "sections": [
+      "common/ads.txt",
+      "common/annoyances.txt",
+      "common/antiadblock.txt",
+      "common/trackers.txt",
+      "common/unbreak.txt",
+      "adblock-plus/antiadblock.txt",
+      "adblock-plus/unbreak.txt"
+    ]
   },
   {
     "output": "hufilter-ublock.txt",
     "title": "Hufilter for uBO",
-    "header": "ublock.txt",
-    "sections": ["ads.txt", "annoyances.txt", "trackers.txt", "antiadblock.txt", "other.txt", "ublock-specific.txt"]
+    "header": "ublock-origin.txt",
+    "sections": [
+      "common/ads.txt",
+      "common/annoyances.txt",
+      "common/antiadblock.txt",
+      "common/trackers.txt",
+      "common/unbreak.txt",
+      "ublock-origin/ads.txt",
+      "ublock-origin/annoyances.txt",
+      "ublock-origin/antiadblock.txt",
+      "ublock-origin/unbreak.txt"
+    ]
   },
   {
     "output": "hufilter-adguard.txt",
     "title": "Hufilter for AdGuard",
     "header": "adguard.txt",
-    "sections": ["ads.txt", "annoyances.txt", "trackers.txt", "antiadblock.txt", "other.txt", "adguard-specific.txt"]
+    "sections": [
+      "common/ads.txt",
+      "common/annoyances.txt",
+      "common/antiadblock.txt",
+      "common/trackers.txt",
+      "common/unbreak.txt",
+      "adguard/ads.txt",
+      "adguard/annoyances.txt",
+      "adguard/antiadblock.txt",
+      "adguard/unbreak.txt"
+    ]
   },
   {
     "output": "hufilter-selfpromo.txt",
     "title": "Hufilter Self-promotions",
     "header": "adblock-plus.txt",
-    "sections": ["selfpromo.txt"]
+    "sections": [
+      "common/selfpromo.txt"
+    ]
   },
   {
     "output": "hufilter-dns.txt",
     "title": "Hufilter DNS",
     "dns": true,
     "header": "dns.txt",
-    "sections": ["ads.txt", "annoyances.txt", "trackers.txt", "other.txt"]
+    "sections": [
+      "common/ads.txt",
+      "common/annoyances.txt",
+      "common/trackers.txt",
+      "common/unbreak.txt"
+    ]
   },
   {
     "output": "hufilter-pihole.txt",
     "title": "Hufilter Pi-hole",
     "dns": true,
-    "header": "pihole.txt",
-    "sections": ["ads.txt", "annoyances.txt", "trackers.txt", "other.txt"]
+    "header": "pi-hole.txt",
+    "sections": [
+      "common/ads.txt",
+      "common/annoyances.txt",
+      "common/trackers.txt",
+      "common/unbreak.txt"
+    ]
   }
 ]
