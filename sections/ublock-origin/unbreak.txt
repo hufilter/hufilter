@@ -1,0 +1,43 @@
+!
+! This section contains various fixes for websites. For example:
+! - resolve incorrect blocking
+! - fix cosmetic issues, eg. ad leftovers, layout issues, etc.
+!
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/139139
+embed.rtl.hu##+js(set, gemiusStream, {})
+embed.rtl.hu##+js(set, gemiusStream.event, noopFunc)
+! https://github.com/hufilter/hufilter/issues/215
+! https://github.com/AdguardTeam/AdguardFilters/issues/75763
+femina.hu##+js(set, window.ado, null)
+! Free space before article
+life.hu##+js(ra, class, section[class="life-section l-section-main article-section l-section-article"])
+sorozatwiki.hu##+js(ra, style, body)
+
+! https://github.com/hufilter/hufilter-dev/issues/317
+menetrendek.hu##.results_body:style(height: auto !important;)
+menetrendek.hu##body:has(> .background.height) .notation:style(display: block !important;)
+! .background without .height
+menetrendek.hu##body:has(> [class="background"]) footer:style(margin-top: 610px !important;)
+atv.hu##header:style(height: auto !important;)
+automotor.hu###_cikk_tartalom_rb1:style(margin-top: 0 !important;)
+automotor.hu##div.layoutContent:style(margin-top: 0 !important;)
+automotor.hu##div.postContent:style(margin-top: 0 !important;)
+budapestkornyeke.hu##body:style(padding-top: 0 !important;)
+hosszupuskasub.com##*:style(cursor: auto !important;)
+hu.ign.com##div.article-headline:style(margin-top: 44px !important;)
+hwsw.hu##body[style*="padding-top"]:style(padding-top: 0px !important; background-color: #777 !important;)
+index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu##body:style(overflow: auto !important)
+jofogas.hu###page-content:style(margin-top: 0px !important;)
+kektura.hu##body:style(overflow: auto!important;)
+kekvillogo.hu##body:style(padding-top: 0 !important;)
+keol.hu##div#search_container:style(margin-bottom: 0 !important;)
+keol.hu##section[id="content_left"][class="content_content"]:style(width: auto !important; padding: 0 45px 0 46px !important;)
+keol.hu##section[id="content_left"][class="content_start"]:style(padding-top: 80px !important;)
+magyarhirlap.hu##header .container:style(padding: 10px 10px 0 10px !important;)
+mandiner.hu##.raw-html-embed:style(min-height: auto !important;)
+mkb.hu##html,body:style(overflow:auto !important)
+origo.hu##.first-section:style(margin-top: 0 !important;)
+
+! https://github.com/hufilter/hufilter-dev/issues/317
+@@||adocean.pl^$script,domain=menetrendek.hu
