@@ -1,5 +1,5 @@
 !
-! This section contains AdGuard-specific rules that bypass anti-adblock techniques.
+! This section contains uBlock-specific rules that bypass anti-adblock techniques.
 !
 
 24.hu##^script:has-text(a2blckLayer)

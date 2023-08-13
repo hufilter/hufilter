@@ -1,5 +1,5 @@
 !
-! This section contains various fixes for websites. For example:
+! This section contains various AdGuard-specific fixes for websites. For example:
 ! - resolve incorrect blocking
 ! - fix cosmetic issues, eg. ad leftovers, layout issues, etc.
 !

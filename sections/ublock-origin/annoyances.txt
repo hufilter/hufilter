@@ -1,5 +1,5 @@
 !
-! This section contains AdGuard-specific rules against annoying elements,
+! This section contains uBlock-specific rules against annoying elements,
 ! for example: cookie notices, floating elements, pop-ups and so on.
 !
 

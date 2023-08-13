@@ -1,5 +1,5 @@
 !
-! This section contains AdGuard-specific rules against advertising
+! This section contains uBlock-specific rules against advertising
 !
 
 444.hu##article:has(a[href*="hirdetes"])
