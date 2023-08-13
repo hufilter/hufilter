@@ -13,5 +13,6 @@ huaweiblog.hu#$#override-property-read tie.ad_blocker_detector undefined
 port.hu#$#abort-on-property-write document.body.style
 
 ! chp-ads-block-detector
+! aglint-disable invalid-modifiers
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu
 ||sovrn.com$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu

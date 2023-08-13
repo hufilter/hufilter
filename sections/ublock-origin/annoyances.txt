@@ -25,6 +25,8 @@ napiszar.com##+js(acis, document.createElement, setTimeout)
 traffihunter.hu##+js(rc, darken, body)
 vezess.hu##+js(aeld, mouseleave, showFbPopup)
 vezess.hu##+js(nostif, FbExit, 3000)
+! TODO: Fix AGTree
+! aglint-disable-next-line
 vezess.hu##+js(rc, blurry, body > :not(.m-fbPopup), stay)
 
 origo.hu##.oh-holder.open:style(z-index: 9999!important;)
