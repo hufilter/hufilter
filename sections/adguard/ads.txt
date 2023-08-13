@@ -1,0 +1,5 @@
+!
+! This section contains AdGuard-specific rules against advertising
+!
+
+startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; height: auto !important; }

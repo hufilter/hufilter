@@ -1,0 +1,41 @@
+!
+! This section contains AdGuard-specific rules against annoying elements,
+! for example: cookie notices, floating elements, pop-ups and so on.
+!
+
+egeszsegkalauz.hu$$script[tag-content="Quantcast Choice"]
+filmvilag.me$$script[tag-content="ShadowRoot"]
+gamer.hu$$script[tag-content="cli_cookiebar_"]
+! https://github.com/hufilter/hufilter/issues/8
+napiszar.com$$script[data-cfasync="false"]
+portfolio.hu$$script[tag-content="fbmodal-title"]
+
+blikk.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '3')
+hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
+hosszupuskasub.com#%#//scriptlet('prevent-window-open')
+lifestory.hu#%#//scriptlet('remove-attr', 'oncontextmenu')
+! https://github.com/AdguardTeam/AdguardFilters/issues/128532
+magyarorszag.hu#%#//scriptlet('set-cookie', 'cookies_ok', '1')
+mandiner.hu#%#//scriptlet('remove-class', 'modal-open', 'body', 'stay')
+! https://github.com/hufilter/hufilter-dev/issues/312
+mindmegette.hu#%#//scriptlet('remove-attr', 'href', '[href*="ad.adverticum.net"]')
+! https://github.com/hufilter/hufilter/issues/8
+napiszar.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'setTimeout')
+traffihunter.hu#%#//scriptlet('remove-class', 'darken', 'body')
+vezess.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave', 'showFbPopup')
+vezess.hu#%#//scriptlet('prevent-setTimeout', 'FbExit', '3000')
+vezess.hu#%#//scriptlet('remove-class', 'blurry', 'body > :not(.m-fbPopup)', 'stay')
+
+origo.hu#$#.oh-holder.open { z-index: 9999 !important; }
+
+! https://github.com/hufilter/hufilter/issues/212
+totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
+traffihunter.hu##.ooono_promo
+vezess.hu##.m-fbPopup
+mandiner.hu##.modal-backdrop
+mandiner.hu##.modal[role="dialog"]
+hetek.hu##[class="modal-backdrop fade show"]
+hetek.hu###nyeremenyModal
+kektura.hu###cookie-consent-dialog
+! https://github.com/hufilter/hufilter/issues/11
+filmvilag.me##[style]:has(.adslot_1)
