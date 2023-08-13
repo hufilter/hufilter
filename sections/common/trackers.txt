@@ -1,6 +1,7 @@
-!---------------------------------------------------------------------------!
-!-------------- Trackers ---------------------------------------------------!
-!---------------------------------------------------------------------------!
+!
+! This section contains rules against trackers and other privacy-invasive
+! technologies.
+!
 
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
