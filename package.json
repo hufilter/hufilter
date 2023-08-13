@@ -16,8 +16,8 @@
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@adguard/aglint": "2.0.0",
     "dateformat": "^4.5.1",
-    "@adguard/aglint": "1.0.11",
     "husky": "^8.0.3"
   }
 }
