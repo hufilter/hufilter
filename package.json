@@ -12,7 +12,9 @@
   "homepage": "https://github.com/hufilter/hufilter-dev#readme",
   "scripts": {
     "build": "node assets/scripts/build.js",
-    "lint": "aglint",
+    "lint": "yarn lint:ab && yarn lint:md",
+    "lint:ab": "aglint",
+    "lint:md": "markdownlint .",
     "prepare": "husky install"
   },
   "devDependencies": {
