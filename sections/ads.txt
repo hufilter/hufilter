@@ -1,5 +1,5 @@
 !
-! This section contains AdGuard-specific rules against advertising
+! This section contains rules against advertising
 !
 
 ##.ad__main
