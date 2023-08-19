@@ -24,12 +24,13 @@ Here is a general workflow for contributing to the project:
 1. Install [prerequisites] to your system
 1. Fork `hufilter/hufilter-dev` repository on GitHub
 1. Clone your forked repository with `git clone`
-1. Install dependencies with `yarn`
+1. Install dependencies with `yarn`. This will also initialize the Git hooks via the Husky package.
 1. Create a new branch for your changes, e.g. `git checkout -b example.com`
 1. Make your changes, typically by editing the section files in the [sections][sections-directory] directory, which
    contains the section files that are actually contains the filtering rules. You can find more information about the
    structure of this directory in the [`sections/README.md`][sections-readme] file.
-1. Commit your changes, then push them to your forked repository
+1. Commit your changes, then push them to your forked repository. If Husky is configured correctly, the Git hooks will
+   run automatically and will check your changes for errors and don't let you commit invalid changes.
 1. Create a pull request from your forked repository's corresponding branch to the `master` branch of the
    `hufilter/hufilter-dev` repository
 1. Wait for the CI to finish running in the pull request
