@@ -4,8 +4,8 @@
     "title": "Hufilter Basic",
     "header": "adblock-plus.txt",
     "sections": [
-      "common/ads.txt",
-      "common/unbreak.txt"
+      "ads.txt",
+      "unbreak.txt"
     ]
   },
   {
@@ -13,11 +13,11 @@
     "title": "Hufilter for ABP",
     "header": "adblock-plus.txt",
     "sections": [
-      "common/ads.txt",
-      "common/annoyances.txt",
-      "common/antiadblock.txt",
-      "common/trackers.txt",
-      "common/unbreak.txt",
+      "ads.txt",
+      "annoyances.txt",
+      "antiadblock.txt",
+      "trackers.txt",
+      "unbreak.txt",
       "adblock-plus/antiadblock.txt",
       "adblock-plus/unbreak.txt"
     ]
@@ -27,11 +27,11 @@
     "title": "Hufilter for uBO",
     "header": "ublock-origin.txt",
     "sections": [
-      "common/ads.txt",
-      "common/annoyances.txt",
-      "common/antiadblock.txt",
-      "common/trackers.txt",
-      "common/unbreak.txt",
+      "ads.txt",
+      "annoyances.txt",
+      "antiadblock.txt",
+      "trackers.txt",
+      "unbreak.txt",
       "ublock-origin/ads.txt",
       "ublock-origin/annoyances.txt",
       "ublock-origin/antiadblock.txt",
@@ -43,11 +43,11 @@
     "title": "Hufilter for AdGuard",
     "header": "adguard.txt",
     "sections": [
-      "common/ads.txt",
-      "common/annoyances.txt",
-      "common/antiadblock.txt",
-      "common/trackers.txt",
-      "common/unbreak.txt",
+      "ads.txt",
+      "annoyances.txt",
+      "antiadblock.txt",
+      "trackers.txt",
+      "unbreak.txt",
       "adguard/ads.txt",
       "adguard/annoyances.txt",
       "adguard/antiadblock.txt",
@@ -59,7 +59,7 @@
     "title": "Hufilter Self-promotions",
     "header": "adblock-plus.txt",
     "sections": [
-      "common/selfpromo.txt"
+      "selfpromo.txt"
     ]
   },
   {
@@ -68,10 +68,10 @@
     "dns": true,
     "header": "dns.txt",
     "sections": [
-      "common/ads.txt",
-      "common/annoyances.txt",
-      "common/trackers.txt",
-      "common/unbreak.txt"
+      "ads.txt",
+      "annoyances.txt",
+      "trackers.txt",
+      "unbreak.txt"
     ]
   },
   {
@@ -80,10 +80,10 @@
     "dns": true,
     "header": "pi-hole.txt",
     "sections": [
-      "common/ads.txt",
-      "common/annoyances.txt",
-      "common/trackers.txt",
-      "common/unbreak.txt"
+      "ads.txt",
+      "annoyances.txt",
+      "trackers.txt",
+      "unbreak.txt"
     ]
   }
 ]
