@@ -1,5 +1,5 @@
 !
-! This section contains rules that bypass anti-adblock techniques.
+! This section contains common rules that bypass anti-adblock techniques.
 !
 
 777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]

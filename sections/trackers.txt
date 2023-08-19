@@ -1,5 +1,5 @@
 !
-! This section contains rules against trackers and other privacy-invasive
+! This section contains common rules against trackers and other privacy-invasive
 ! technologies.
 !
 

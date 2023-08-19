@@ -1,5 +1,5 @@
 !
-! This section contains rules that block self-promotion and donation requests.
+! This section contains common rules that block self-promotion and donation requests.
 !
 
 ! Donate box

@@ -1,5 +1,5 @@
 !
-! This section contains rules against advertising
+! This section contains common rules against advertising
 !
 
 ##.ad__main
