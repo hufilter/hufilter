@@ -69,16 +69,17 @@ This repository contains the "source code" of the project which is deployed auto
 
 If you want to use the filter list, please visit the [`hufilter/hufilter` repository][hufilter-repo] instead.
 
-If you want to contribute to the project, please read the [contributing guidelines][contributing-guide] first.
-You can find all important information there.
+## Contributing
+
+If you want to contribute to the project, please read the [contributing guidelines][contributing-guide].
 
 ## Contact
 
 You can contact the maintainers of the project in the following ways:
 
 - E-mail: [hufilter@protonmail.com][hufilter-mail]
-- GitHub discussions: [New discussion][new-discussion] (GitHub account required).
-- GitHub issues: [New issue][new-issue] (GitHub account required).
+- GitHub discussions: [New discussion][new-discussion] (GitHub account required)
+- GitHub issues: [New issue][new-issue] (GitHub account required)
 
 ## Licensing
 
