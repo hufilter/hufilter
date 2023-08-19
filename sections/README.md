@@ -21,6 +21,12 @@ section directory based on the adblocker it works with:
 - [`adblock-plus-specific` folder][abp-section]
 - [`ublock-origin-specific` folder][ubo-section]
 
+> **Note:** If a filtering rule is common, but doesn't work without a specific rule, it will also be placed in the
+> corresponding "specific" section directory. For example, if you hide a cookie notice with a common rule, but the
+> website disables scrolling until you accept the cookies, you will need to add a specific rule to enable scrolling.
+> If you put the hiding rule into the common section in this case, the website will be broken for users who use
+> adblockers that don't supports your specific rule.
+
 ## Section files
 
 We use the same file structure in each section directory:
