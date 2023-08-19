@@ -1,19 +1,46 @@
 # Sections
 
-This directory contains the sections that are used to build the filter lists. The sections are divided into categories,
-and each category has its own file. The sections are merged into one file during the build process based on the
-`filters.json` file.
+This directory contains the sections that are used to build the filter lists. These sections are merged into one file
+during the build process based on the [`filters.json`][filters-json] file.
 
-## Supported syntaxes
+## Structure
 
-Hufilter supports the following syntaxes:
+Section files are grouped into categories based on the adblockers they support, and each category has its own section
+files.
 
-- [Adblock Plus](https://help.adblockplus.org/hc/en-us/articles/360062733293)
-- [uBlock Origin](https://github.com/gorhill/uBlock/wiki/Static-filter-syntax)
-- [AdGuard](https://adguard.com/kb/general/ad-filtering/create-own-filters/)
+### Categories
 
-Each syntax has its own directory in the `sections` folder.
+Hufilter supports the following adblockers:
 
-## Common sections
+- <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard][adg-url]
+- <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus][abp-url]
+- <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin][ubo-url]
 
-We also have a `common` directory that contains rules that are compatible with every syntax.
+If a filtering rule only works with a specific adblocker only, it will be placed in the corresponding "specific"
+section:
+
+- [`adguard-specific` folder][adg-section]
+- [`adblock-plus-specific` folder][abp-section]
+- [`ublock-origin-specific` folder][ubo-section]
+
+If a rule works with all supported adblockers, it will be placed into one of the common sections, which are located in
+the root of this directory.
+
+### Section files
+
+We use the same file structure for all categories. Each section category contains the following files:
+
+- `ads.txt` - contains rules for blocking ads
+- `annoyances.txt` - contains rules for blocking annoyances, such as cookie notices, newsletter popups, etc.
+- `antiadblock.txt` - contains rules for blocking anti-adblock mechanisms
+- `selfpromo.txt` - contains rules for blocking self-promotion
+- `trackers.txt` - contains rules for blocking trackers, analytics, etc.
+- `unbreak.txt` - contains rules for resolving issues caused by incorrect blocking
+
+[abp-section]: https://github.com/hufilter/hufilter-dev/tree/master/sections/adblock-plus-specific
+[abp-url]: https://adblockplus.org
+[adg-section]: https://github.com/hufilter/hufilter-dev/tree/master/sections/adguard-specific
+[adg-url]: https://adguard.com
+[filters-json]: https://github.com/hufilter/hufilter-dev/blob/master/filters.json
+[ubo-section]: https://github.com/hufilter/hufilter-dev/tree/master/sections/ublock-origin-specific
+[ubo-url]: https://github.com/gorhill/uBlock
