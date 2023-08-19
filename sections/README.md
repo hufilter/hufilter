@@ -9,8 +9,10 @@ Hufilter supports the following adblockers:
 - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus][abp-url]
 - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin][ubo-url]
 
-If a rule works with all supported adblockers, it will be placed into one of the common section file, which are located
-in the root of the `sections` directory. For example, `sections/ads.txt`.
+## Common and adblocker-specific rules
+
+If a filtering rule works with all supported adblockers, it will be placed into one of the common section file, which
+are located in the root of the `sections` directory. For example, `sections/ads.txt`.
 
 If a filtering rule only works with a specific adblocker only, it will be placed in the corresponding "specific"
 section directory based on the adblocker it works with:
@@ -21,7 +23,7 @@ section directory based on the adblocker it works with:
 
 ## Section files
 
-We use the same file structure in each directory:
+We use the same file structure in each section directory:
 
 - `ads.txt` - contains rules for blocking ads
 - `annoyances.txt` - contains rules for blocking annoyances, such as cookie notices, newsletter popups, etc.
