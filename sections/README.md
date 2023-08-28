@@ -14,7 +14,7 @@ Hufilter supports the following adblockers:
 If a filtering rule works with all supported adblockers, it will be placed into one of the common section file, which
 are located in the root of the `sections` directory. For example, `sections/ads.txt`.
 
-If a filtering rule only works with a specific adblocker only, it will be placed in the corresponding "specific"
+If a filtering rule only works with a specific adblocker, it will be placed in the corresponding "specific"
 section directory based on the adblocker it works with:
 
 - [`adguard-specific` folder][adg-section]
