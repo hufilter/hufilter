@@ -1,6 +1,6 @@
-!---------------------------------------------------------------------------!
-!-------------- Self promotion rules ---------------------------------------!
-!---------------------------------------------------------------------------!
+!
+! This section contains common rules that block self-promotion and donation requests.
+!
 
 ! Donate box
 112press.hu###right > .box + .box

@@ -1,0 +1,46 @@
+!
+! This section contains various AdGuard-specific fixes for websites. For example:
+! - resolve incorrect blocking
+! - fix cosmetic issues, eg. ad leftovers, layout issues, etc.
+!
+
+! https://github.com/AdguardTeam/AdguardFilters/issues/139139
+embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream.event', 'noopFunc')
+embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream', 'emptyObj')
+! https://github.com/hufilter/hufilter/issues/215
+! https://github.com/AdguardTeam/AdguardFilters/issues/75763
+femina.hu#%#//scriptlet('set-constant', 'window.ado', 'null')
+! Free space before article
+life.hu#%#//scriptlet('remove-attr', 'class', 'section[class="life-section l-section-main article-section l-section-article"]')
+sorozatwiki.hu#%#//scriptlet('remove-attr', 'style', 'body')
+
+! https://github.com/hufilter/hufilter-dev/issues/317
+menetrendek.hu#$#.results_body { height: auto !important; }
+menetrendek.hu#$#body:has(> .background.height) .notation { display: block !important; }
+! .background without .height
+menetrendek.hu#$#body:has(> [class="background"]) footer { margin-top: 610px !important; }
+atv.hu#$#header { height: auto !important; }
+automotor.hu#$##_cikk_tartalom_rb1 { margin-top: 0 !important; }
+automotor.hu#$#div.layoutContent { margin-top: 0 !important; }
+automotor.hu#$#div.postContent { margin-top: 0 !important; }
+budapestkornyeke.hu#$#body { padding-top: 0 !important; }
+hosszupuskasub.com#$# * { cursor: auto !important; }
+hu.ign.com#$#div.article-headline { margin-top: 44px !important; }
+hwsw.hu#$#body[style*="padding-top"] { padding-top: 0px !important; background-color: #777 !important; }
+index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu#$#body { overflow: auto !important; }
+jofogas.hu#$##page-content { margin-top: 0px !important; }
+kektura.hu#$#body.modal-open { overflow: auto!important; }
+kekvillogo.hu#$#body { padding-top: 0 !important; }
+! There is no need to add padding on small devices, so we need to add media query.
+! .content_start is the start page view, .content_content is the article view.
+keol.hu#$#@media (min-width: 1200px) { section[id="content_left"][class="content_start"] { padding-top: 80px !important; } }
+keol.hu#$#div#search_container { margin-bottom: 0 !important; }
+keol.hu#$#section[id="content_left"][class="content_content"] { width: auto !important; padding: 0 45px 0 46px !important; }
+magyarhirlap.hu#$#header .container { padding: 10px 10px 0 10px !important; }
+mandiner.hu#$#.raw-html-embed { min-height: auto !important; }
+origo.hu#$#.first-section { margin-top: 0 !important; }
+
+! https://github.com/hufilter/hufilter-dev/issues/317
+!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+@@||adocean.pl^$script,domain=menetrendek.hu
+!#endif

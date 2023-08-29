@@ -85,5 +85,10 @@ buildFilters = async () => {
   }
 };
 (async () => {
+  // Create dist folder if not exists
+  try {
+    await fs.mkdir(path.join(__dirname, "../../dist"));
+  } catch (err) {}
+
   await buildFilters();
 })();

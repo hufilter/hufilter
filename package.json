@@ -12,12 +12,16 @@
   "homepage": "https://github.com/hufilter/hufilter-dev#readme",
   "scripts": {
     "build": "node assets/scripts/build.js",
-    "lint": "aglint",
+    "lint": "yarn lint:ab && yarn lint:md",
+    "lint:ab": "aglint",
+    "lint:md": "markdownlint .",
     "prepare": "husky install"
   },
   "devDependencies": {
+    "@adguard/aglint": "2.0.1",
     "dateformat": "^4.5.1",
-    "@adguard/aglint": "1.0.11",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "markdownlint": "^0.30.0",
+    "markdownlint-cli": "^0.35.0"
   }
 }
