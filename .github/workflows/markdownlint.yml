@@ -1,7 +1,7 @@
-# Workflow file for running AGLint
-# https://github.com/AdguardTeam/AGLint/blob/master/docs/repo-integration.md
+# Workflow file for running markdownlint
+# https://github.com/DavidAnson/markdownlint
 
-name: AGLint
+name: markdownlint
 
 env:
   NODE_VERSION: 18
@@ -11,22 +11,24 @@ on:
     branches:
       - master
     paths:
-      - "**/*.txt"
-      - ".aglintrc.yaml"
+      - "**.md"
+      - ".markdownlint.json"
+      - ".markdownlintignore"
       - "package.json"
       - "yarn.lock"
   pull_request:
     branches:
       - master
     paths:
-      - "**/*.txt"
-      - ".aglintrc.yaml"
+      - "**.md"
+      - ".markdownlint.json"
+      - ".markdownlintignore"
       - "package.json"
       - "yarn.lock"
 
 jobs:
-  aglint:
-    name: Run AGLint
+  markdownlint:
+    name: Run markdownlint
     runs-on: ubuntu-latest
     steps:
       - name: Check out to repository
@@ -43,5 +45,5 @@ jobs:
 
       # If the linter found any errors, it will exit with a non-zero code,
       # which will cause the job to fail
-      - name: Run AGLint
-        run: yarn lint:ab
+      - name: Run markdownlint
+        run: yarn lint:md
