@@ -77,7 +77,7 @@ Ha szeretnél hozzájárulni a projekthez, kérjük, olvasd el a [közreműköd�
 A projekt fenntartóival a következő módokon léphetsz kapcsolatba:
 
 - E-mail: [hufilter@protonmail.com][hufilter-mail]
-- GitHub discussions: [Párbeszéd nyitása][new-discussion] (GitHub fiók szükséges)
+- GitHub discussions: [Beszélgetés indítása][new-discussion] (GitHub fiók szükséges)
 - GitHub issues: [Probléma jelentése][new-issue] (GitHub fiók szükséges)
 
 ## Licenc
