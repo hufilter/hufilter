@@ -82,7 +82,7 @@ A projekt fenntartóival a következő módokon léphetsz kapcsolatba:
 
 ## Licenc
 
-A Hufilter használata a "Creative Commons Attribution 4.0" licenc alapján történik. A teljes licenc szövege [itt][license] olvasható.
+A Hufilter a "Creative Commons Attribution 4.0" licenc alatt áll. A teljes licenc szövege [itt][license] olvasható.
 
 [contributing-guide]: https://github.com/hufilter/hufilter-dev/blob/master/CONTRIBUTING.hu.md
 [hufilter-mail]: mailto:hufilter@protonmail.com
