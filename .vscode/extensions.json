@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "adguard.adblock",
-        "editorconfig.editorconfig"
+        "editorconfig.editorconfig",
+        "davidanson.vscode-markdownlint"
     ]
 }
