@@ -1,24 +1,25 @@
-# AdGuard specific rules
+# AdGuard specifikus szabályok
 
-**🇭🇺 [Kattints ide a magyar nyelvű változatért][hu-version].**
+Ez a könyvtár tartalmazza az
+<img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard][adg-url]
+specifikus szabályokat.
 
-This directory contains the rules that are specific to
-<img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard][adg-url].
+## Dokumentációk
 
-## Documentations
+Az AdGuard szűrők szintaxisához a következő linkeken találsz dokumentációkat:
 
-You can find documentations for AdGuard filter syntax in the links below:
+> :warning: A dokumentációk angol nyelvűek.
 
 <!--markdownlint-disable MD013-->
-- Syntax documentation:
+- Szintaxis dokumentáció:
     - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard: *How to create your own ad filters*][adg-filters]
-- Extended CSS documentation:
+- Extended CSS dokumentáció:
     - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard: *Extended CSS capabilities*][adg-ext-css]
-- Scriptlet resources:
+- Erőforrások scriptletekhez:
     - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard scriptlets][adg-scriptlets]
-- Redirect resources:
+- Erőforrások átirányításhoz:
     - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard redirects][adg-redirects]
-- Compatibility tables:
+- Kompatibilitási táblázatok:
     - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard scriptlets & redirects compatibility table][adg-compatibility-table]
     <!-- TODO: include modifiers compatibility table when it's ready -->
 <!--markdownlint-enable MD013-->
@@ -29,4 +30,3 @@ You can find documentations for AdGuard filter syntax in the links below:
 [adg-redirects]: https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-redirects.md
 [adg-scriptlets]: https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md#scriptlets
 [adg-url]: https://adguard.com
-[hu-version]: https://github.com/hufilter/hufilter-dev/blob/master/sections/adguard-specific/README.hu.md
