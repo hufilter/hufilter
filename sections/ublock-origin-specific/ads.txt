@@ -1,0 +1,7 @@
+!
+! This section contains uBlock-specific rules against advertising
+!
+
+444.hu##article:has(a[href*="hirdetes"])
+444.hu##div.item:has(a[href*="hirdetes"])
+startlap.hu##div.container.banner-container.wide:style(min-height: 0 !important; height: auto !important;)

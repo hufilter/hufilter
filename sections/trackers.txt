@@ -1,23 +1,27 @@
-!---------------------------------------------------------------------------!
-!-------------- Trackers ---------------------------------------------------!
-!---------------------------------------------------------------------------!
+!
+! This section contains common rules against trackers and other privacy-invasive
+! technologies.
+!
 
-/gemius.js^
-/gemius.min.js^
-/traffic.js
-/traffic.min.js
-/xgemius.js^
-/xgemius.min.js^
-||*.hu/userip.php
-||infostart.hu/js/ga.js
-
-! AdBlock detector - privacy invasion
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
+
+/gemius.js^$script
+/gemius.min.js^$script
+/traffic.js$script
+/traffic.min.js$script
+/xgemius.js^$script
+/xgemius.min.js^$script
+
+||*.hu/userip.php
+||infostart.hu/js/ga.js$script
 ||websas.hu/statistics/
 
 ||adat.freemail.hu^
 ||adtrackeraa.com^
+! https://github.com/hufilter/hufilter-dev/issues/305
+||beam-tracker.telex.hu
+||beam.telex.hu
 ||counter.megagroup.ru^
 ||doubleclick.net^
 ||freestat.hu^
@@ -28,13 +32,11 @@
 ||tracker.azet.sk^
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
-||zanox.com^
-! https://github.com/hufilter/hufilter-dev/issues/305
-||beam.telex.hu
-||beam-tracker.telex.hu
 
 ||analytics.yahoo.com^$third-party
 ||counter.hitslink.com^$third-party
+! https://github.com/hufilter/hufilter-dev/issues/367
+||ex1tp.com^$third-party
 ||google-analytics.com^$third-party
 ||gravity.com^$third-party
 ||lo.v.liveperson.net^$third-party

@@ -7,8 +7,8 @@
         alt="hufilter"
     />
 </p>
-<h3 align="center">The Hungarian Adblock Filter List</h3>
-<p align="center">Supported adblockers:</p>
+<h3 align="center">A Magyar Adblock Szűrőlista</h3>
+<p align="center">Támogatott hirdetésblokkolók:</p>
 <p align="center">
     <a href="https://adguard.com/">
         <img
@@ -69,36 +69,33 @@
 </p>
 <!-- markdownlint-restore -->
 
-# Hufilter development repository
+<!-- TODO: Ha találunk valami jó fordítást a "repository" szóra, akkor térjünk át rá később. -->
+# Hufilter fejlesztői repository
 
-**🇭🇺 A dokumentáció magyar nyelvű változatát
-[itt találod](https://github.com/hufilter/hufilter-dev/blob/master/README.hu.md).**
+A Hufilter egy önkéntesek által fenntartott közösségi projekt.
 
-Hufilter is a community project, and it is maintained by volunteers.
+Ez a GitHub repository tartalmazza a projekt "forráskódját", amely minden egyes commit után automatikusan a
+[`hufilter/hufilter` repository-ba][hufilter-repo] kerül.
 
-This repository contains the "source code" of the project which is deployed automatically to the
-[`hufilter/hufilter` repository][hufilter-repo] after each commit.
+Ha használni szeretnéd a szűrőlistát, kérjük, látogass el a [`hufilter/hufilter` repository][hufilter-repo] oldalára.
 
-If you want to use the filter list, please visit the [`hufilter/hufilter` repository][hufilter-repo] instead.
+## Közreműködés
 
-## Contributing
+Ha szeretnél hozzájárulni a projekthez, kérjük, olvasd el a [közreműködési irányelveket][contributing-guide].
 
-If you want to contribute to the project, please read the [contributing guidelines][contributing-guide].
+## Kapcsolat
 
-## Contact
-
-You can contact the maintainers of the project in the following ways:
+A projekt fenntartóival a következő módokon léphetsz kapcsolatba:
 
 - E-mail: [hufilter@protonmail.com][hufilter-mail]
-- GitHub discussions: [New discussion][new-discussion] (GitHub account required)
-- GitHub issues: [New issue][new-issue] (GitHub account required)
+- GitHub discussions: [Beszélgetés indítása][new-discussion] (GitHub fiók szükséges)
+- GitHub issues: [Probléma jelentése][new-issue] (GitHub fiók szükséges)
 
-## Licensing
+## Licenc
 
-Hufilter is licensed under the "Creative Commons Attribution 4.0" license. You can read the full license text
-[here][license].
+A Hufilter a "Creative Commons Attribution 4.0" licenc alatt áll. A teljes licenc szövege [itt][license] olvasható.
 
-[contributing-guide]: https://github.com/hufilter/hufilter-dev/blob/master/CONTRIBUTING.md
+[contributing-guide]: https://github.com/hufilter/hufilter-dev/blob/master/CONTRIBUTING.hu.md
 [hufilter-mail]: mailto:hufilter@protonmail.com
 [hufilter-repo]: https://github.com/hufilter/hufilter
 [license]: https://github.com/hufilter/hufilter-dev/blob/master/LICENSE

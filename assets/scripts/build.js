@@ -76,7 +76,7 @@ buildFilters = async () => {
         "\n";
       // Write output
       await fs.writeFile(
-        path.join(__dirname, `../../release/${filter.output}`),
+        path.join(__dirname, `../../dist/${filter.output}`),
         fileContent
       );
     } catch (err) {
@@ -85,5 +85,10 @@ buildFilters = async () => {
   }
 };
 (async () => {
+  // Create dist folder if not exists
+  try {
+    await fs.mkdir(path.join(__dirname, "../../dist"));
+  } catch (err) {}
+
   await buildFilters();
 })();

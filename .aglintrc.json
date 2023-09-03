@@ -1,0 +1,9 @@
+{
+    "root": true,
+    "syntax": [
+        "Common"
+    ],
+    "extends": [
+        "aglint:recommended"
+    ]
+}

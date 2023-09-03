@@ -1,6 +1,6 @@
-!---------------------------------------------------------------------------!
-!-------------- Self promotion rules ---------------------------------------!
-!---------------------------------------------------------------------------!
+!
+! This section contains common rules that block self-promotion and donation requests.
+!
 
 ! Donate box
 112press.hu###right > .box + .box
@@ -20,6 +20,13 @@ infostart.hu##.article>.live-wrapper
 leet.hu###article + #offer
 leet.hu###Leet_cikk_normal_content_1 + section > p:last-of-type
 leet.hu###Leet_cikk_rectangle_right_1 + .featured-product
+magyarnarancs.hu##.d-lg-block.d-none.position-relative.ujsag-wrapper.container > .ujsag
+magyarnarancs.hu##.bg-yellow.text-left
+magyarnarancs.hu##[href^="https://magyarnarancs.us7.list-manage.com/subscribe"]
+magyarnarancs.hu##.text-box
+mandiner.hu##.subscription-box
+mandiner.hu##man-header-magazine
+mandiner.hu##man-newsletter-diverter-card
 napiszex.hu###logo + .partner
 ! https://github.com/hufilter/hufilter-dev/issues/254
 onroad.hu##a[href="https://onroad.hu/tamogatas"]
