@@ -71,7 +71,7 @@
 
 # Hufilter development repository
 
-**A dokumentáció magyar nyelvű változatát [itt találod](https://github.com/hufilter/hufilter-dev/blob/master/README.hu.md).**
+**🇭🇺 A dokumentáció magyar nyelvű változatát [itt találod](https://github.com/hufilter/hufilter-dev/blob/master/README.hu.md).**
 
 Hufilter is a community project, and it is maintained by volunteers.
 
