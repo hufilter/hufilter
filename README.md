@@ -71,8 +71,7 @@
 
 # Hufilter development repository
 
-**🇭🇺 A dokumentáció magyar nyelvű változatát
-[itt találod](https://github.com/hufilter/hufilter-dev/blob/master/README.hu.md).**
+**🇭🇺 [Kattints ide a magyar nyelvű változatért][hu-version].**
 
 Hufilter is a community project, and it is maintained by volunteers.
 
@@ -101,6 +100,7 @@ Hufilter is licensed under the "Creative Commons Attribution 4.0" license. You c
 [contributing-guide]: https://github.com/hufilter/hufilter-dev/blob/master/CONTRIBUTING.md
 [hufilter-mail]: mailto:hufilter@protonmail.com
 [hufilter-repo]: https://github.com/hufilter/hufilter
+[hu-version]: https://github.com/hufilter/hufilter-dev/blob/master/README.hu.md
 [license]: https://github.com/hufilter/hufilter-dev/blob/master/LICENSE
 [new-discussion]: https://github.com/hufilter/hufilter-dev/discussions/new/choose
 [new-issue]: https://github.com/hufilter/hufilter-dev/issues/new/
