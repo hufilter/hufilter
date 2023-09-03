@@ -51,11 +51,20 @@
             alt="AGLint status"
         />
     </a>
+    <a href="https://github.com/hufilter/hufilter-dev/actions/workflows/markdownlint.yml" target="_blank">
+        <img
+            src="https://github.com/hufilter/hufilter-dev/actions/workflows/markdownlint.yml/badge.svg?branch=master"
+            alt="markdownlint status"
+        />
+    </a>
     <a href="https://github.com/hufilter/hufilter-dev/graphs/contributors" target="_blank">
         <img src="https://img.shields.io/github/contributors/hufilter/hufilter-dev" alt="GitHub contributors" />
     </a>
     <a href="https://github.com/hufilter/hufilter-dev/blob/master/LICENSE" target="_blank">
         <img src="https://img.shields.io/github/license/hufilter/hufilter-dev" alt="License" />
+    </a>
+    <a href="https://github.com/hufilter/hufilter-dev/commits/master" target="_blank">
+        <img src="https://img.shields.io/github/last-commit/hufilter/hufilter-dev/master" alt="Last commit" />
     </a>
 </p>
 <!-- markdownlint-restore -->
