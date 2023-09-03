@@ -66,7 +66,7 @@ A Hufilter egy önkéntesek által fenntartott közösségi projekt.
 
 Ez a Github repozitórium tartalmazza a projekt "forráskódját", amely minden egyes commit után automatikusan a [`hufilter/hufilter` repozitóriumba][hufilter-repo] kerül.
 
-Ha szeretnéd használni a szűrőlistát, kérjük, látogass el a [`hufilter/hufilter` repozitórium][hufilter-repo] oldalára.
+Ha használni szeretnéd a szűrőlistát, kérjük, látogass el a [`hufilter/hufilter` repozitórium][hufilter-repo] oldalára.
 
 ## Közreműködés
 
