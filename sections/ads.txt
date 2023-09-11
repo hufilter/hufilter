@@ -32,7 +32,6 @@
 ##.reklam-doboz
 ##.reklamok
 ##[class*="GoogleAds"]
-##[class*="overlayBg"]
 ##[data-campaign-name^="ads"]
 ##[href*="ad.adverticum.net"]
 ##[id*="google_ads"]
@@ -86,6 +85,7 @@ hu##.leet_product_banner_container
 hu###hirdetes
 hu###hirdetesek
 hu##ins[id^="aswift_"]
+hu##[class*="overlayBg"]
 
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
