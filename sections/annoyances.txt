@@ -31,6 +31,7 @@ ado.hu###cookieBox_bg
 adoforum.hu###cookies-alert
 adozona.hu##.floating-help-wrapper
 agrarszektor.hu##.flyout
+agroinform.hu###CybotCookiebotDialog
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113594
 americantourister.hu##.ui-widget-overlay
 americantourister.hu##[aria-describedby="cookies-dialog"]
