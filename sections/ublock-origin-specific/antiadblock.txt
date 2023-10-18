@@ -25,6 +25,8 @@ huaweiblog.hu##+js(set, tie.ad_blocker_detector, undefined)
 karpathir.com##+js(aopw, getComputedStyle)
 magyarhang.org,hang.hu##+js(acis, document.addEventListener, ai_run_)
 magyarhang.org,hang.hu##+js(acis, document.getElementById, ai_run_)
+! https://github.com/hufilter/hufilter-dev/issues/427
+myonlineradio.hu##+js(set, AddAdsV2I.addBlock, false)
 pcworld.hu##+js(rc, have-ad, body)
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu##+js(aopw, document.body.style)

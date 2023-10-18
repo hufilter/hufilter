@@ -3,3 +3,7 @@
 !
 
 startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; height: auto !important; }
+myonlineradio.hu#$#._bannerTop1 { background-color: transparent !important; }
+myonlineradio.hu##.topHorizontalBanner
+
+/inside-banner.mini.js$domain=myonlineradio.hu
