@@ -445,6 +445,7 @@ hazipatika.com##[class*="advert"]
 helyitipp.hu##[id*="hirdet"]
 heol.hu##[class*="hirdetes"]
 hetek.hu##[id*="popup"]
+www.hellovidek.hu##.kalkulator
 hir.ma##[class*="PostAd"]
 hir.ma##[class^="ad"]
 hir.ma##[class="e3lan e3lan-top"]
@@ -831,6 +832,7 @@ nepszava.hu##DIV[class*="banner"]
 nepszava.us##.myftp-widget
 nepszava.us##[id^="fancybox-"]
 nepszava.us##[id^="myftp"]
+nepszava.hu##.ad
 netbulvar.eu##[id*="advertisment"]
 nice.hu##[class*="banner"]
 nkmenergia.hu###tab-widget
@@ -1255,6 +1257,8 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||hwsw.hu/images/bodybgs2/
 ||i.cdn29.hu/apix_collect/ads
 ||iho.hu/img/banner/
+iho.hu##.banner
+iho.hu##.footer-banner-row
 ||image.arukereso.hu/ad$image
 ||img.hunbasket.webpont.com/kosarsport/art/*banner$image
 ||infogyor.hu/*_banners/
