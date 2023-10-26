@@ -1,5 +1,7 @@
 # Sections
 
+**🇭🇺 [Kattints ide a magyar nyelvű változatért][hu-version].**
+
 This directory contains the section files that are actually contains the filtering rules. We use these files to generate
 the filter lists based on the [`filters.json`][filters-json] file.
 
@@ -25,7 +27,7 @@ section directory based on the adblocker it works with:
 > corresponding "specific" section directory. For example, if you hide a cookie notice with a common rule, but the
 > website disables scrolling until you accept the cookies, you will need to add a specific rule to enable scrolling.
 > If you put the hiding rule into the common section in this case, the website will be broken for users who use
-> adblockers that don't supports your specific rule.
+> adblockers that don't supports your specific rule, since the scrolling will be disabled for them.
 
 ## Section files
 
@@ -43,5 +45,6 @@ We use the same file structure in each section directory:
 [adg-section]: https://github.com/hufilter/hufilter-dev/tree/master/sections/adguard-specific
 [adg-url]: https://adguard.com
 [filters-json]: https://github.com/hufilter/hufilter-dev/blob/master/filters.json
+[hu-version]: https://github.com/hufilter/hufilter-dev/blob/master/sections/README.hu.md
 [ubo-section]: https://github.com/hufilter/hufilter-dev/tree/master/sections/ublock-origin-specific
 [ubo-url]: https://github.com/gorhill/uBlock
