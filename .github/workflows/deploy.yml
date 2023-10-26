@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out to repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: master
 
@@ -64,14 +64,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout to hufilter/hufilter-dev
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: hufilter/hufilter-dev
           path: hufilter-dev
           ref: master
 
       - name: Checkout to hufilter/hufilter
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: hufilter/hufilter
           path: hufilter
