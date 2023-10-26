@@ -1,23 +1,24 @@
-# Adblock Plus specific rules
+# Adblock Plus specifikus szabályok
 
-**🇭🇺 [Kattints ide a magyar nyelvű változatért][hu-version].**
+Ez a könyvtár tartalmazza az
+<img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus][abp-url]
+specifikus szabályokat.
 
-This directory contains the rules that are specific to
-<img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus][abp-url].
+## Dokumentációk
 
-## Documentations
+Az Adblock Plus szűrők szintaxisához a következő linkeken találsz dokumentációkat:
 
-You can find documentations for Adblock Plus filter syntax in the links below:
+> :warning: A dokumentációk angol nyelvűek.
 
 <!--markdownlint-disable MD013-->
-- Syntax documentation:
+- Szintaxis dokumentáció:
     - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus: *How to write filters*][abp-filters]
-- Extended CSS documentation:
+- Extended CSS dokumentáció:
     - [MDN: *CSS selectors*][mdn-css-selectors]
     - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus: *Extended CSS selectors*][abp-ext-css]
-- Snippet resources:
+- Erőforrások snippetekhez:
     - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus snippets][abp-snippets]
-- Redirect resources:
+- Erőforrások átirányításhoz:
     - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus redirects][abp-redirects]
 <!--markdownlint-enable MD013-->
 
@@ -26,5 +27,4 @@ You can find documentations for Adblock Plus filter syntax in the links below:
 [abp-filters]: https://help.adblockplus.org/hc/en-us/articles/360062733293
 [abp-redirects]: https://help.adblockplus.org/hc/en-us/articles/360062733293#rewrite
 [abp-snippets]: https://help.adblockplus.org/hc/en-us/articles/1500002338501#snippets-ref
-[hu-version]: https://github.com/hufilter/hufilter-dev/blob/master/sections/adblock-plus-specific/README.hu.md
 [mdn-css-selectors]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
