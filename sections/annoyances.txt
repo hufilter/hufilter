@@ -124,6 +124,9 @@ hiros.hu###cookieAlertBox
 hoxa.hu###cookiekezeles
 hvg.hu##.hvg_push
 hwsw.hu###cookiealert
+hellovidek.hu###ajanlo
+hellovidek.hu##.box_remote
+hellovidek.hu##.h-sideboard_2
 iho.hu##.social-icon
 infostart.hu##.notification-popup
 ! https://github.com/hufilter/hufilter-dev/issues/252
