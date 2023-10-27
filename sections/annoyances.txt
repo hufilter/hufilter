@@ -30,6 +30,12 @@ ado.hu###cookieBox
 ado.hu###cookieBox_bg
 adoforum.hu###cookies-alert
 adozona.hu##.floating-help-wrapper
+alza.hu##.chat-wrapper
+alza.hu##.info-message
+alza.hu##.ear
+alza.hu##.mailingActionC
+alza.hu##.private-labels
+alza.hu##.trust-bubble--hungary
 agrarszektor.hu##.flyout
 agroinform.hu###CybotCookiebotDialog
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113594
@@ -118,6 +124,7 @@ hiros.hu###cookieAlertBox
 hoxa.hu###cookiekezeles
 hvg.hu##.hvg_push
 hwsw.hu###cookiealert
+iho.hu##.social-icon
 infostart.hu##.notification-popup
 ! https://github.com/hufilter/hufilter-dev/issues/252
 infostart.hu###_ao-cmp-ui

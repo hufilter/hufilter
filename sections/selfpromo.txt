@@ -35,6 +35,10 @@ pestisracok.hu###head-wrap + .code-block
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.msg-list > ul > div:not(.media)
 telex.hu##.kari
 telex.hu##.support
+telex.hu###minutes-campaign-container
+telex.hu###minutes-campaign-container-mini
+telex.hu##.support-box
+telex.hu##.modal--overlay
 ! TODO! https://github.com/hufilter/hufilter/discussions/7
 !telex.hu##[href*="tamogatas"]
 totalcar.hu###bannerHeaderLink

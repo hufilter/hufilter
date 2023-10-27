@@ -9,6 +9,3 @@ myonlineradio.hu#$#._bannerTop1:style(background-color: transparent !important;)
 myonlineradio.hu##.topHorizontalBanner
 
 /inside-banner.mini.js$domain=myonlineradio.hu
-
-||vezess2.p3k.hu/app/uploads/2023/10/vezess_nyeremenyjatek_alfa-amore_970x250*.png$image
-||kuruc.info/galeriaN/banner/*$image
