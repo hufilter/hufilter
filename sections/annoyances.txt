@@ -127,6 +127,9 @@ hwsw.hu###cookiealert
 hellovidek.hu###ajanlo
 hellovidek.hu##.box_remote
 hellovidek.hu##.h-sideboard_2
+hellovidek.hu##.fbfollow
+hellovidek.hu##.fbshare
+hellovidek.hu##.fbcont2
 iho.hu##.social-icon
 infostart.hu##.notification-popup
 ! https://github.com/hufilter/hufilter-dev/issues/252
