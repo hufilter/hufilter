@@ -1277,7 +1277,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||konkretkonyvek.hu/data/banners/$image
 ||koponyeg.hu/skins/k4/hirdetes/
 ||kosarsport.hu/popup.html^$popup
-||kuruc.info/galeriaN/banner/*$image
+||kuruc.info/galeriaN/banner/$image
 ||lapok.hu/felso/felso.php
 ||libri.hu/export/prodBann/
 ||libri.hu/html/images/skin/$image
