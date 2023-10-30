@@ -542,8 +542,6 @@ hwsw.hu##body > div > a[target="_blank"]
 hwsw.hu##DIV[id*="hirdetes"]
 iho.hu##.banner
 iho.hu##.footer-banner-row
-iho.hu##.newsletter-box
-iho.hu##.article-text > p
 iho.hu##.iho-adzone
 iho.hu##.article-cards-inlist-ad
 idokep.hu##[class*="hird_"]
