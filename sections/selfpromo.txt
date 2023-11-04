@@ -8,6 +8,10 @@
 24.hu##[class*=szponzibox]
 ado.hu###custom_html-8
 ado.hu##a[href^="https://bit.ly"]
+alza.hu##.info-message
+alza.hu##.ear
+alza.hu##.private-labels
+alza.hu##.trust-bubble--hungary
 automotor.hu##[data-foo="cikk_jobbhasab_"]
 automotor.hu##[data-foo="fooldali_jobbhasab_"]
 bestmarkt.hu##.ddModal
@@ -35,6 +39,10 @@ pestisracok.hu###head-wrap + .code-block
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.msg-list > ul > div:not(.media)
 telex.hu##.kari
 telex.hu##.support
+telex.hu###minutes-campaign-container
+telex.hu###minutes-campaign-container-mini
+telex.hu##.support-box
+telex.hu##.modal--overlay
 ! TODO! https://github.com/hufilter/hufilter/discussions/7
 !telex.hu##[href*="tamogatas"]
 totalcar.hu###bannerHeaderLink

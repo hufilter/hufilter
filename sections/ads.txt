@@ -445,6 +445,7 @@ hazipatika.com##[class*="advert"]
 helyitipp.hu##[id*="hirdet"]
 heol.hu##[class*="hirdetes"]
 hetek.hu##[id*="popup"]
+hellovidek.hu##.kalkulator
 hir.ma##[class*="PostAd"]
 hir.ma##[class^="ad"]
 hir.ma##[class="e3lan e3lan-top"]
@@ -539,6 +540,10 @@ hwsw.hu###cikktoolbaradomany
 hwsw.hu###sidebar > table
 hwsw.hu##body > div > a[target="_blank"]
 hwsw.hu##DIV[id*="hirdetes"]
+iho.hu##.banner
+iho.hu##.footer-banner-row
+iho.hu##.iho-adzone
+iho.hu##.article-cards-inlist-ad
 idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]
 idokep.hu##a[data-bs-content*="(hirdetés)"]
@@ -831,6 +836,7 @@ nepszava.hu##DIV[class*="banner"]
 nepszava.us##.myftp-widget
 nepszava.us##[id^="fancybox-"]
 nepszava.us##[id^="myftp"]
+nepszava.hu##.ad
 netbulvar.eu##[id*="advertisment"]
 nice.hu##[class*="banner"]
 nkmenergia.hu###tab-widget
@@ -1022,6 +1028,7 @@ tech.hu##[id*="banner"]
 telefonguru.hu##[style="height: 250px"]
 telefonkonyv.hu##[class*=" adH"]
 telekom.hu##.ads
+telex.hu##.banner-bottom
 teltlanyok.com##[id^="adchange"]
 terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher
@@ -1268,6 +1275,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||konkretkonyvek.hu/data/banners/$image
 ||koponyeg.hu/skins/k4/hirdetes/
 ||kosarsport.hu/popup.html^$popup
+||kuruc.info/galeriaN/banner/$image
 ||lapok.hu/felso/felso.php
 ||libri.hu/export/prodBann/
 ||libri.hu/html/images/skin/$image
@@ -1334,6 +1342,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||vatera.hu/affiliate/images/banner/$image
 ||vezess.hu/data/files/bannerek/$image
 ||vezess.hu/data/files/kapcsolodo_anyagok/szponz_hatterek/$image
+||vezess2.p3k.hu/app/uploads/*nyeremenyjatek$image
 ||vg.hu/banners/$image
 ||webminute.hu/bannerek/$image
 ||webtraffic.hu/banner/$image
