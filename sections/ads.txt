@@ -107,6 +107,7 @@ adozona.hu##.big_badge
 adozona.hu##[class*="ads"]
 adozona.hu###g0
 agrarszektor.hu###ajanlo
+agroinform.hu##[style^="min-height: 128px; background: url(\"https://static.agroinform.hu/static/site/img/hirdetes_up.png\") no-repeat center bottom -1px;"]
 agroinform.hu#?#.ez-egy-dc-doboz:-abp-has(> .double_click_doboz)
 alapjarat.hu###alapjarat_cikk_fekvo_1
 alapjarat.hu##div.header + .clearfix + .clearfix
@@ -1378,6 +1379,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||avatraffic.com^
 ||banner.terminal.hu^
 ||banner.webtar.hu^
+||bannerzone.agroinform.hu^
 ||boxzsak.kirowski.com^
 ||brostraffic.com^
 ||cdn-dynamic.optimonk.com^
