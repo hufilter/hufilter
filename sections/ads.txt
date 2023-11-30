@@ -779,6 +779,7 @@ mno.hu##[id*="Banner"]
 mno.hu##[id*="ctnet"]
 mobilarena.hu##.adbox
 mobilarena.hu##[class*="adtext"]
+mobilarena.hu###mobilarena_roadblock_1:upward(#center > div)
 moly.hu##[class*="banner"]
 mon.hu##.Ad
 mon.hu##[id*="Ad_"]
@@ -931,7 +932,9 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##.xabrecontainer
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu###thanks > .hlist.nohead
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[onclick*="$.ajax"]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##div[class*="xabre-responsive"]:not([class*="-980px-139px"])
+prohardver.hu,mobilarena.hu##div[onclick*="$.ajax"]:upward(#center > div)
 prohardver.hu###top > div:first-child
+prohardver.hu###Prohardver_forum_roadblock:upward(#center > div)
 propeller.hu##[class*="banner "]
 propeller.hu##[id^="overlay"]
 puruttya.hu##[class*="reklam"]
