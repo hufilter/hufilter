@@ -33,7 +33,8 @@ project.
 > hufilter extends EasyList and EasyPrivacy lists. Ensure your rules are not already present in those lists.
 
 1. Create a new branch for your changes, e.g., `git checkout -b example.com` or `git checkout -b fix/123` (for example
-   if you fix an issue with ID `123`). It's crucial to separate changes by creating a new branch for each website/issue.
+   if you fix an issue with ID `123`). It's crucial to separate changes by creating a new branch for each
+   website / issue.
 2. Make your changes by editing the section files in the [sections][sections-directory] directory, which contains the
    filtering rules. Refer to the [`sections/README.md`][sections-readme] file for information on the directory
    structure.
