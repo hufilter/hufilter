@@ -35,8 +35,8 @@ szerkesztőként. Ha a VS Code-ot választod, fontold meg a projekt
    `git checkout -b fix/123` (például ha az `123` azonosítójú issue-t javítod). Fontos, hogy mindig hozz létre külön
    ágat minden webhely / issue esetében.
 2. Végezd el a változtatásokat az [sections][sections-directory] könyvtárban található szekciófájlok szerkesztésével,
-   amelyek tartalmazzák a szűrési szabályokat. A könyvtárstruktúra részleteiért lásd a [`sections/README.hu.md`]
-   [sections-readme] fájlt.
+   amelyek tartalmazzák a szűrési szabályokat. A könyvtárstruktúra részleteiért lásd a
+   [`sections/README.hu.md`][sections-readme] fájlt.
 3. Commit-old a változtatásaidat, majd push-old őket a forkolt tárolódba.
 4. Hozz létre egy pull request-et a forkolt tárolód megfelelő ágáról a `hufilter/hufilter-dev` tároló `master` ágára.
 5. Várd meg a változtatásaid felülvizsgálatát.
