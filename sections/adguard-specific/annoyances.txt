@@ -1,8 +1,13 @@
 !
-! This section contains AdGuard-specific rules against annoying elements,
-! for example: cookie notices, floating elements, pop-ups and so on.
+! This section file contains rules for blocking annoying elements on websites, such as cookie notices, newsletter
+! subscription prompts, floating elements and so on.
+! The rules in this section should be AdGuard-specific, but cross-compabible rules are also allowed, if they are
+! not working properly without the AdGuard-specific rules.
 !
 
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 egeszsegkalauz.hu$$script[tag-content="Quantcast Choice"]
 filmvilag.me$$script[tag-content="ShadowRoot"]
 gamer.hu$$script[tag-content="cli_cookiebar_"]

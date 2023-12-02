@@ -1,8 +1,13 @@
 !
-! This section contains uBlock-specific rules against annoying elements,
-! for example: cookie notices, floating elements, pop-ups and so on.
+! This section file contains rules for blocking annoying elements on websites, such as cookie notices, newsletter
+! subscription prompts, floating elements and so on.
+! The rules in this section should be uBlock-specific, but cross-compabible rules are also allowed, if they are
+! not working properly without the uBlock-specific rules.
 !
 
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 egeszsegkalauz.hu##^script:has-text(Quantcast Choice)
 filmvilag.me##^script:has-text(ShadowRoot)
 gamer.hu##^script:has-text(cli_cookiebar_)

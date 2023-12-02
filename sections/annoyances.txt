@@ -1,8 +1,12 @@
 !
-! This section contains common rules against annoying elements,
-! for example: cookie notices, floating elements, pop-ups and so on.
+! This section file contains rules for blocking annoying elements on websites, such as cookie notices, newsletter
+! subscription prompts, floating elements and so on.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
 !
 
+!-------------------------------------------------------------------------------!
+!------ Generic cosmetic filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 hu##.cc_banner
 hu##.cc_banner-wrapper
 hu##.cc_window
@@ -17,6 +21,9 @@ hu###cookie-window
 hu###cookiebar
 ! hu###qc-cmp2-container
 
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 112press.hu###cookie-law
 24.hu##.a-hirstartRecommender
 24.hu##.fb-exit-popup-container
@@ -261,12 +268,18 @@ wasabi.hu##.footprint_cookie
 webforditas.hu###cookie-consent
 widescreen.hu##div.penci-wrap-gprd-law
 
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters (with Extended CSS) --------------------------!
+!-------------------------------------------------------------------------------!
 autosjog.hu#?#p + center:-abp-has(iframe[data-src*="facebook"])
 azonnali.hu#?#div:-abp-has(>.fb-like)
 femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
 hirado.hu#?#.hover_bkgr_fricc:-abp-has(.facebookPopupCloseButton)
 infostart.hu#?##sitemodal:-abp-has(.fb-button)
 
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 /js/push.js$script,domain=infostart.hu
 ||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu
 ||consent.cookiebot.com^$third-party,script,domain=agroinform.hu
@@ -275,6 +288,9 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$script,domain=szeretlekmagyarorszag.hu
 ||widget.blck4d.com/js/block/widget.js^$script,domain=starity.hu
 
+!-------------------------------------------------------------------------------!
+!------ Generic network filters ------------------------------------------------!
+!-------------------------------------------------------------------------------!
 ||chatrobot.mia.gov.hu^
 ||chimpstatic.com^
 ||hestore.hu/pic/cookie.png$image

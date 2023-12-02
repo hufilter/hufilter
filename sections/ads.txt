@@ -1,7 +1,11 @@
 !
-! This section contains common rules against advertising
+! This section file contains rules for blocking advertisements.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
 !
 
+!-------------------------------------------------------------------------------!
+!------ Generic cosmetic filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ##.ad__main
 ##.adblokk
 ##.cikk_reklam
@@ -87,6 +91,9 @@ hu###hirdetesek
 hu##ins[id^="aswift_"]
 hu##[class*="overlayBg"]
 
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
 168.hu##.banner-wrapper
@@ -1139,6 +1146,9 @@ widescreen.hu##div.sgpb-popup-overlay-42658
 wikiszotar.hu##[id*="sense-"]
 zene.hu##.etarget
 
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters (with Extended CSS) --------------------------!
+!-------------------------------------------------------------------------------!
 5percblog.hu#?#.code-block:-abp-has(script+ins)
 ado.hu#?#.whiteBox:-abp-has(.goAdverticum)
 agrarszektor.hu#?#div#mymodal:-abp-has(#form-popup)
@@ -1189,14 +1199,20 @@ prohardver.hu#?##page-forum #center > div:-abp-has(h4 + [onclick*="https://proha
 szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
 ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 
-||*/empty.json
-||*/eu-banned-popup/
-
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ! https://github.com/hufilter/hufilter-dev/issues/172
 /dl/cnt/20[^0]\d-\d{2}/\d{4}//$image,domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu
 ||3monkey.lol/vilagunk_640.html$domain=vilagunk.hu
 ||aghtag.tech/libs/projectagora.min.js^$script,domain=gyakorikerdesek.hu|hoxa.hu
 ||floweryoperation.com/v2/0/$domain=karpathir.com
+
+!-------------------------------------------------------------------------------!
+!------ Generic network filters ------------------------------------------------!
+!-------------------------------------------------------------------------------!
+||*/empty.json
+||*/eu-banned-popup/
 
 ||0i.hu/files/images/$image
 ||444.hu/*/ease/

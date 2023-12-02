@@ -1,7 +1,9 @@
 !
-! This section contains various fixes for websites. For example:
-! - resolve incorrect blocking
-! - fix cosmetic issues, eg. ad leftovers, layout issues, etc.
+! This section file contains rules for fixing breaking sites. For example:
+! - Layout issues
+! - Broken scripts
+! - etc.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
 !
 
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
