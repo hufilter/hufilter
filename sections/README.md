@@ -33,12 +33,13 @@ section directory based on the adblocker it works with:
 
 We use the same file structure in each section directory:
 
-- `ads.txt` - contains rules for blocking ads
-- `annoyances.txt` - contains rules for blocking annoyances, such as cookie notices, newsletter popups, etc.
-- `antiadblock.txt` - contains rules for blocking anti-adblock mechanisms
-- `selfpromo.txt` - contains rules for blocking self-promotion
-- `trackers.txt` - contains rules for blocking trackers, analytics, etc.
-- `unbreak.txt` - contains rules for resolving issues caused by incorrect blocking
+- `ads.txt` - Contains rules for blocking advertisements.
+- `annoyances.txt` - Contains rules for blocking annoying elements on websites, such as cookie notices, newsletter
+  subscription prompts, floating elements and so on.
+- `antiadblock.txt` - Contains rules for bypassing anti-adblock protections.
+- `selfpromo.txt` - Contains rules for blocking self-promotion and donation requests.
+- `trackers.txt` - Contains rules for blocking trackers and other privacy-invasive technologies.
+- `unbreak.txt` - Contains rules for resolving issues caused by incorrect blocking.
 
 [abp-section]: https://github.com/hufilter/hufilter-dev/tree/master/sections/adblock-plus-specific
 [abp-url]: https://adblockplus.org

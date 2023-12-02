@@ -32,13 +32,13 @@ attól függően, hogy melyik hirdetésblokkolóval működik:
 
 Hasonló fájlstruktúrát használunk minden szekciókönyvtárban:
 
-- `ads.txt` - szabályokat tartalmaz a hirdetések blokkolásához
-- `annoyances.txt` - szabályokat tartalmaz a bosszantó elemek, például a sütikkel kapcsolatos értesítések, hírlevél
-  felugró ablakok stb. blokkolásához
-- `antiadblock.txt` - szabályokat tartalmaz az anti-adblock mechanizmusok blokkolásához
-- `selfpromo.txt` - szabályokat tartalmaz az önpromóció blokkolásához
-- `trackers.txt` - szabályokat tartalmaz a követők, elemzőrendszerek stb. blokkolásához
-- `unbreak.txt` - szabályokat tartalmaz a helytelen blokkolás okozta problémák megoldásához
+- `ads.txt` - Szabályokat tartalmaz a hirdetések blokkolásához.
+- `annoyances.txt` - Szabályokat tartalmaz a bosszantó elemek blokkolásához, például a sütikkel kapcsolatos értesítések,
+  hírlevél-feliratkozásra ösztönző felugró ablakok, lebegő elemek stb.
+- `antiadblock.txt` - Szabályokat tartalmaz az anti-adblock védelem kikerüléséhez.
+- `selfpromo.txt` - Szabályokat tartalmaz az önpromóció és adománykérések blokkolásához.
+- `trackers.txt` - Szabályokat tartalmaz a követők és egyéb adatvédelmet sértő technológiák blokkolásához.
+- `unbreak.txt` - Szabályokat tartalmaz a helytelen blokkolás okozta problémák megoldásához.
 
 [abp-section]: https://github.com/hufilter/hufilter-dev/tree/master/sections/adblock-plus-specific
 [abp-url]: https://adblockplus.org
