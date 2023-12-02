@@ -41,11 +41,24 @@ szerkesztőként. Ha a VS Code-ot választod, fontold meg a projekt
 4. Hozz létre egy pull request-et a forkolt tárolód megfelelő ágáról a `hufilter/hufilter-dev` tároló `master` ágára.
 5. Várd meg a változtatásaid felülvizsgálatát.
 
+<!--markdownlint-disable MD013-->
+> [!TIP]
+> Ha még nem vagy jártas a szűrőszabályok szintaxisában, nézd meg az alábbi dokumentációkat:
+>
+> - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus: *How to write filters*][abp-filters]
+> - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard: *How to create your own ad filters*][adg-filters]
+> - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin: *Static filter syntax*][ubo-filters]
+> Ezek a dokumentációk feltételezik, hogy ismered a webtechnológiák alapjait, például az HTML-t, a CSS-t és a JavaScript-et.
+<!--markdownlint-enable MD013-->
+
+[abp-filters]: https://help.adblockplus.org/hc/en-us/articles/360062733293
+[adg-filters]: https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
 [git-download-link]: https://git-scm.com/downloads
 [hufilter-dev-repo]: https://github.com/hufilter/hufilter-dev
 [nodejs-download-link]: https://nodejs.org/en/download/
 [recommended-vscode-extensions]: https://github.com/hufilter/hufilter-dev/blob/master/.vscode/extensions.json
 [sections-directory]: https://github.com/hufilter/hufilter-dev/blob/master/sections/
 [sections-readme]: https://github.com/hufilter/hufilter-dev/blob/master/sections/README.hu.md
+[ubo-filters]: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
 [vscode-download-link]: https://code.visualstudio.com/download
 [yarn-download-link]: https://classic.yarnpkg.com/en/docs/install/
