@@ -12,6 +12,12 @@ myonlineradio.hu#$#._bannerTop1 { background-color: transparent !important; }
 
 myonlineradio.hu##.topHorizontalBanner
 
+! https://github.com/hufilter/hufilter-dev/issues/440
+!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+mobilarena.hu###page-forum #center > div:has(h4 + [onclick*="https://mobilarena.hu/muvelet/hozzaferes/kapcsolodas.php"])
+prohardver.hu###page-forum #center > div:has(h4 + [onclick*="https://prohardver.hu/muvelet/hozzaferes/kapcsolodas.php"])
+!#endif
+
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
