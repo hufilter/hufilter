@@ -595,6 +595,8 @@ kapcsolat.hu##DIV[class*="banner"]
 kapos.hu##[class*="banner"]
 kaposvarmost.hu##[class*="banner"]
 kapu.hu##div.bottom_sticky_banner
+kecskemet365.hu###fejlec-hirdetes
+kecskemet365.hu##[id^="cikken-beluli-hirdetes-"]
 kekfeny.com##.bpkad
 kekvillogo.hu,budapestkornyeke.hu###full-desktop
 kekvillogo.hu,budapestkornyeke.hu###full-mobile
