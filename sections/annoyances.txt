@@ -3,6 +3,8 @@
 ! for example: cookie notices, floating elements, pop-ups and so on.
 !
 
+rtl.hu##.newsletter-modal
+
 hu##.cc_banner
 hu##.cc_banner-wrapper
 hu##.cc_window
