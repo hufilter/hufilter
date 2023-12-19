@@ -17,7 +17,6 @@ hu###cookie-window
 hu###cookiebar
 ! hu###qc-cmp2-container
 
-rtl.hu##.newsletter-modal
 112press.hu###cookie-law
 24.hu##.a-hirstartRecommender
 24.hu##.fb-exit-popup-container
@@ -227,8 +226,9 @@ propeller.hu##.popup
 raketa.hu##.ui-widget-overlay
 raketa.hu##[aria-describedby="newsletter-modal"]
 retikul.hu###psCookieNotification
-ripost.hu##.newsletter-box
 ripost.hu###cookieconsent
+ripost.hu##.newsletter-box
+rtl.hu##.newsletter-modal
 sielok.hu###gdprCookieWrap
 simple.hu###enableCookieDiv
 sorozatwiki.hu###fhr-cookie-bar
