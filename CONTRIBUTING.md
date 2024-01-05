@@ -1,57 +1,68 @@
+<!-- omit in toc -->
 # Contributing guidelines
 
-## Table of contents
+**🇭🇺 [Kattints ide a magyar nyelvű változatért][hu-version].**
 
-- [Contributing guidelines](#contributing-guidelines)
-    - [Table of contents](#table-of-contents)
-    - [Prerequisites](#prerequisites)
-    - [Contributing to the project](#contributing-to-the-project)
-        - [Important notes](#important-notes)
+Table of contents:
+
+- [Prerequisites](#prerequisites)
+- [Setting up the project](#setting-up-the-project)
+- [Adding new rules](#adding-new-rules)
 
 ## Prerequisites
 
-You'll need to install the following tools to your system in order to contribute to the project:
+Before contributing to the project, make sure you have the following tools installed on your system:
 
 - [Node.js][nodejs-download-link] (we recommend the latest LTS version)
 - [Git][git-download-link]
-- [Visual Studio Code][vscode-download-link] (highly recommended)
-    - Don't forget to install the [recommended extensions][recommended-vscode-extensions]
+- [Yarn][yarn-download-link]
 
-## Contributing to the project
+For an enhanced development experience, we recommend using [Visual Studio Code][vscode-download-link] as your code
+editor. If you opt for VS Code, consider installing the [recommended extensions][recommended-vscode-extensions] of the
+project.
 
-Here is a general workflow for contributing to the project:
+## Setting up the project
 
-1. Install [prerequisites] to your system
-1. Fork `hufilter/hufilter-dev` repository on GitHub
-1. Clone your forked repository with `git clone`
-1. Install dependencies with `yarn`. This will also initialize the Git hooks via the Husky package.
-1. Create a new branch for your changes, e.g. `git checkout -b example.com`
-1. Make your changes, typically by editing the section files in the [sections][sections-directory] directory, which
-   contains the section files that are actually contains the filtering rules. You can find more information about the
-   structure of this directory in the [`sections/README.md`][sections-readme] file.
-1. Commit your changes, then push them to your forked repository. If Husky is configured correctly, the Git hooks will
-   run automatically and will check your changes for errors and don't let you commit invalid changes.
-1. Create a pull request from your forked repository's corresponding branch to the `master` branch of the
-   `hufilter/hufilter-dev` repository
-1. Wait for the CI to finish running in the pull request
-1. If the CI fails, fix the issues and push your changes to your forked repository's corresponding branch (this will
-   automatically update the pull request and the CI will run again)
-1. If the CI succeeds, wait for the maintainers to review your changes
-1. If your changes are accepted, they will be merged into the `master` branch, and they will be deployed to the
-   [`hufilter/hufilter` repository][hufilter-dev-repo] automatically right after the merge. Please note that it may take
-   some time while adblockers update their filter lists.
+1. Fork [`hufilter/hufilter-dev`][hufilter-dev-repo] repository on GitHub.
+2. Clone your forked repository.
+3. Install project dependencies using the `yarn` command.
 
-### Important notes
+## Adding new rules
 
-- If you are creating rules for multiple websites, please create a separate branch for each website and open a separate
-  pull request for each website. This will make it easier to review your changes. If you are creating large, hard to
-  review PRs, they will be rejected and you will be asked to split them into smaller PRs.
+> [!IMPORTANT]
+> hufilter extends EasyList and EasyPrivacy lists. Ensure your rules are not already present in those lists.
 
+1. Create a new branch for your changes, e.g., `git checkout -b example.com` or `git checkout -b fix/123` (for example
+   if you fix an issue with ID `123`). It's crucial to separate changes by creating a new branch for each
+   website / issue.
+2. Make your changes by editing the section files in the [sections][sections-directory] directory, which contains the
+   filtering rules. Refer to the [`sections/README.md`][sections-readme] file for information on the directory
+   structure.
+3. Commit your changes, then push them to your forked repository.
+4. Create a pull request from your forked repository's corresponding branch to the `master` branch of the
+   `hufilter/hufilter-dev` repository.
+5. Wait for the review of your changes.
+
+<!--markdownlint-disable MD013-->
+> [!TIP]
+> If you are not familiar with the syntax of the filtering rules, check the following documentations:
+>
+> - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus: *How to write filters*][abp-filters]
+> - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard: *How to create your own ad filters*][adg-filters]
+> - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin: *Static filter syntax*][ubo-filters]
+>
+> These documentations assumes that you are familiar with the basics of web technologies, such as HTML, CSS, and JavaScript.
+<!--markdownlint-enable MD013-->
+
+[abp-filters]: https://help.adblockplus.org/hc/en-us/articles/360062733293
+[adg-filters]: https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
 [git-download-link]: https://git-scm.com/downloads
+[hu-version]: https://github.com/hufilter/hufilter-dev/blob/master/CONTRIBUTING.hu.md
 [hufilter-dev-repo]: https://github.com/hufilter/hufilter-dev
 [nodejs-download-link]: https://nodejs.org/en/download/
-[prerequisites]: #prerequisites
 [recommended-vscode-extensions]: https://github.com/hufilter/hufilter-dev/blob/master/.vscode/extensions.json
 [sections-directory]: https://github.com/hufilter/hufilter-dev/blob/master/sections/
 [sections-readme]: https://github.com/hufilter/hufilter-dev/blob/master/sections/README.md
+[ubo-filters]: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
 [vscode-download-link]: https://code.visualstudio.com/download
+[yarn-download-link]: https://classic.yarnpkg.com/en/docs/install/

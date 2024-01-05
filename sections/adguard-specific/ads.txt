@@ -1,9 +1,15 @@
 !
-! This section contains AdGuard-specific rules against advertising
+! This section file contains rules for blocking advertisements.
+! The rules in this section should be AdGuard-specific, but cross-compabible rules are also allowed, if they are
+! not working properly without the AdGuard-specific rules.
 !
 
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; height: auto !important; }
 myonlineradio.hu#$#._bannerTop1 { background-color: transparent !important; }
+
 myonlineradio.hu##.topHorizontalBanner
 
 ! https://github.com/hufilter/hufilter-dev/issues/440
@@ -12,4 +18,7 @@ mobilarena.hu###page-forum #center > div:has(h4 + [onclick*="https://mobilarena.
 prohardver.hu###page-forum #center > div:has(h4 + [onclick*="https://prohardver.hu/muvelet/hozzaferes/kapcsolodas.php"])
 !#endif
 
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 /inside-banner.mini.js$domain=myonlineradio.hu

@@ -1,9 +1,15 @@
 !
-! This section contains various AdGuard-specific fixes for websites. For example:
-! - resolve incorrect blocking
-! - fix cosmetic issues, eg. ad leftovers, layout issues, etc.
+! This section file contains rules for fixing breaking sites. For example:
+! - Layout issues
+! - Broken scripts
+! - etc.
+! The rules in this section should be AdGuard-specific, but cross-compabible rules are also allowed, if they are
+! not working properly without the AdGuard-specific rules.
 !
 
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream.event', 'noopFunc')
 embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusStream', 'emptyObj')
@@ -40,6 +46,9 @@ magyarhirlap.hu#$#header .container { padding: 10px 10px 0 10px !important; }
 mandiner.hu#$#.raw-html-embed { min-height: auto !important; }
 origo.hu#$#.first-section { margin-top: 0 !important; }
 
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ! https://github.com/hufilter/hufilter-dev/issues/317
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 @@||adocean.pl^$script,domain=menetrendek.hu

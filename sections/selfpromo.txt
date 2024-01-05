@@ -1,7 +1,11 @@
 !
-! This section contains common rules that block self-promotion and donation requests.
+! This section file contains rules for blocking self-promotion and donation requests.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
 !
 
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ! Donate box
 112press.hu###right > .box + .box
 24.hu##.m-donationBottomLine

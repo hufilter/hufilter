@@ -1,11 +1,17 @@
 !
-! This section contains common rules against trackers and other privacy-invasive
-! technologies.
+! This section file contains rules for blocking trackers and other privacy-invasive technologies.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
 !
 
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 
+!-------------------------------------------------------------------------------!
+!------ Generic network filters ------------------------------------------------!
+!-------------------------------------------------------------------------------!
 /gemius.js^$script
 /gemius.min.js^$script
 /traffic.js$script
@@ -20,8 +26,8 @@
 ||adat.freemail.hu^
 ||adtrackeraa.com^
 ! https://github.com/hufilter/hufilter-dev/issues/305
-||beam-tracker.telex.hu
-||beam.telex.hu
+||beam-tracker.telex.hu^
+||beam.telex.hu^
 ||counter.megagroup.ru^
 ||doubleclick.net^
 ||freestat.hu^

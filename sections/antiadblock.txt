@@ -1,7 +1,11 @@
 !
-! This section contains common rules that bypass anti-adblock techniques.
+! This section file contains rules for bypassing anti-adblock protections.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
 !
 
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 rtl.hu##.adblock-confirm
 
 777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
@@ -14,10 +18,16 @@ hazipatika.com##.a2blckLayer
 videa.hu,videaloop.hu#@#.adBanner
 videa.hu,videaloop.hu##.top-video-container-banner
 
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113211
 @@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
 @@||assets.portfolio.hu/js/ad_300x250.js$script,domain=portfolio.hu
 
+!-------------------------------------------------------------------------------!
+!------ Generic network filters ------------------------------------------------!
+!-------------------------------------------------------------------------------!
 @@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139716
 @@||bitepito.hu/rejtveny/data/ads/pagead/js/adsbygoogle.js^$script

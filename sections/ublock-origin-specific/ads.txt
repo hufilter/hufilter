@@ -1,11 +1,19 @@
 !
-! This section contains uBlock-specific rules against advertising
+! This section file contains rules for blocking advertisements.
+! The rules in this section should be uBlock-specific, but cross-compabible rules are also allowed, if they are
+! not working properly without the uBlock-specific rules.
 !
 
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 444.hu##article:has(a[href*="hirdetes"])
 444.hu##div.item:has(a[href*="hirdetes"])
 startlap.hu##div.container.banner-container.wide:style(min-height: 0 !important; height: auto !important;)
 myonlineradio.hu#$#._bannerTop1:style(background-color: transparent !important;)
 myonlineradio.hu##.topHorizontalBanner
 
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 /inside-banner.mini.js$domain=myonlineradio.hu

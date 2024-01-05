@@ -1,7 +1,12 @@
 !
-! This section contains AdGuard-specific rules that bypass anti-adblock techniques.
+! This section file contains rules for bypassing anti-adblock protections.
+! The rules in this section should be Adblock Plus-specific, but cross-compabible rules are also allowed, if they are
+! not working properly without the Adblock Plus-specific rules.
 !
 
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
 24.hu#$#abort-current-inline-script window._ceCTSData hirdetések
 ! chp-ads-block-detector
 cinemo.hu#$#abort-on-property-read adsBlocked
@@ -12,6 +17,9 @@ huaweiblog.hu#$#override-property-read tie.ad_blocker_detector undefined
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu#$#abort-on-property-write document.body.style
 
+!-------------------------------------------------------------------------------!
+!------ Specific network filters -----------------------------------------------!
+!-------------------------------------------------------------------------------!
 ! chp-ads-block-detector
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu
 ||sovrn.com$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu
