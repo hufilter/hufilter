@@ -936,6 +936,9 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu###thanks > .hlist.noh
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##a[onclick*="$.ajax"]
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu##div[class*="xabre-responsive"]:not([class*="-980px-139px"])
 prohardver.hu###top > div:first-child
+! https://github.com/uBlockOrigin/uAssets/issues/21781#issuecomment-1878737349
+promotions.hu##.banner
+promotions.hu##.banner__ad
 propeller.hu##[class*="banner "]
 propeller.hu##[id^="overlay"]
 puruttya.hu##[class*="reklam"]
