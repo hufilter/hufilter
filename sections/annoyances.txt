@@ -105,6 +105,7 @@ glamour.hu##.leavingPopupLayer
 glamour.hu###articleOfferFlag
 glamour.hu###pe_confirm_optin_6
 glamour.hu###qc-cmp2-container
+gsplus.hu,pcwplus.hu###web-push-popup
 gumiszoba.com###eu-cookie-law
 gumiszoba.com###facebook-likebox-8
 gyakorikerdesek.hu###cookiekezeles
@@ -207,7 +208,6 @@ origo.hu##div.facebook-layer-box
 paleomedicina.com###kpopup
 pannonrtv.com###sliding-popup
 pcforum.hu##.slidein.popup.closeablenotification.scripted
-pcwplus.hu###web-push-popup
 penzcentrum.hu###ajanlo
 penzcentrum.hu###recommend
 pestisracok.hu###onesignal-bell-container
@@ -284,10 +284,10 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
 /js/push.js$script,domain=infostart.hu
-||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu|pcwplus.hu
+||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu|pcwplus.hu|gsplus.hu
 ||consent.cookiebot.com^$third-party,script,domain=agroinform.hu
 ||medinfo.ocdn.eu/hu/consent_v2/choice.js^$script,domain=egeszsegkalauz.hu
-||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|pcwplus.hu
+||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|pcwplus.hu|gsplus.hu
 ||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$script,domain=szeretlekmagyarorszag.hu
 ||widget.blck4d.com/js/block/widget.js^$script,domain=starity.hu
 

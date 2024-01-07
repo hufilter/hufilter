@@ -404,6 +404,8 @@ gondola.hu##[class*="banner"]
 gondola.hu##[id*="banner"]
 gondola.hu###partnerek
 gportal.hu##[class*="banner"]
+gsplus.hu,pcwplus.hu##.ad
+gsplus.hu,pcwplus.hu##.box-wrapper > .box-actual-magazine + .box-html
 gumiszoba.com##.wpcnt
 gyakorikerdesek.hu###adryf
 gyakorikerdesek.hu##.rltdwidget
@@ -892,8 +894,6 @@ pcforum.hu##.zone[data-zoneid]
 pcforum.hu###zone-titleheader
 pcguru.hu##.banner-content
 pcguru.hu##a[href*="banner_click"]
-pcwplus.hu##.ad
-pcwplus.hu##.box-wrapper > .box-actual-magazine + .box-html
 pdafanclub.com##[id*="banner"]
 pecsma.hu###kutu
 penzcentrum.hu##.frame-center
