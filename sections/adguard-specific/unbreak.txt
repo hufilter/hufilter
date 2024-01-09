@@ -44,6 +44,9 @@ keol.hu#$#div#search_container { margin-bottom: 0 !important; }
 keol.hu#$#section[id="content_left"][class="content_content"] { width: auto !important; padding: 0 45px 0 46px !important; }
 magyarhirlap.hu#$#header .container { padding: 10px 10px 0 10px !important; }
 mandiner.hu#$#.raw-html-embed { min-height: auto !important; }
+! https://github.com/hufilter/hufilter-dev/issues/427
+! Fix large space at the top of the page on desktop
+myonlineradio.hu#$#@media (min-width: 1200px) { .isSubPage ._bannerTop1 { height: 90px !important; } }
 origo.hu#$#.first-section { margin-top: 0 !important; }
 
 !-------------------------------------------------------------------------------!
