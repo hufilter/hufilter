@@ -638,8 +638,6 @@ kisalfold.hu##DIV[id*="linkbox"]
 kiskegyed.hu##.ibb-banner-decor
 kiskegyed.hu##[class*="ads"]
 kiskegyed.hu##[id*="banner"]
-kiszamolo.hu##[class^="spu"]
-kiszamolo.hu###spu-103927
 kitekinto.hu##[class*="hirdetes"]
 kitekinto.hu##[id*="hirdetes"]
 klubradio.hu##DIV[id*="banner"]
@@ -1185,7 +1183,7 @@ hu.ign.com#?#div.right-rail:-abp-has(div.ad-wrapper)
 hu.ign.com#?#figure:-abp-has(a[href*="ignshop.hu"])
 idokep.hu#?#.ik:-abp-contains(/^[Hh]irdetés$/)
 kezilabda.hu#?#div[style*="margin-bottom:10px"]:-abp-has(>div:-abp-contains(HIRDETÉS))
-kiszamolo.hu#?#aside:-abp-has(.widgettitle > span:-abp-contains(Hirdetés))
+kiszamolo.hu#?#div.ct-div-block:-abp-has(> div.ct-div-block > div.ct-text-block:-abp-contains(Hirdetés))
 koroshircentrum.hu#?#div:-abp-has(>a+h6)
 kosarsport.hu,hunbasket.hu#?##league-selector+.row+.row:-abp-has(.banner)
 life.hu#?#.frip-inline:-abp-has([data-module-name="inline-article"])
@@ -1296,6 +1294,10 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ingyenweb.hu/smsbanner/
 ||jogiforum.hu/files/partner/
 ||keymedia.hu/keymediajs.cgi
+||kiszamolo.hu/wp-content/uploads/*banner*.png$image
+||kiszamolo.hu/wp-content/uploads/2016/09/Hitel-290x200-blog-jobb.gif$image
+||kiszamolo.hu/wp-content/uploads/2019/11/550x104-02.jpg$image
+||kiszamolo.hu/wp-content/uploads/2019/11/400x400-02.jpg$image
 ||klasszikradio.hu/uploads/banner/$image
 ||klubradio.hu/data/files/banner$image
 ||konkretkonyvek.hu/data/banners/$image
