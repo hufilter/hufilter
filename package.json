@@ -15,7 +15,7 @@
     "lint": "yarn lint:ab && yarn lint:md",
     "lint:ab": "aglint",
     "lint:md": "markdownlint .",
-    "prepare": "husky install"
+    "prepare": "node .husky/install.mjs"
   },
   "lint-staged": {
     "sections/**/*.txt": "aglint",
@@ -24,7 +24,7 @@
   "devDependencies": {
     "@adguard/aglint": "^2.0.8",
     "dateformat": "^4.6.3",
-    "husky": "^8.0.3",
+    "husky": "^9.0.7",
     "lint-staged": "^15.2.0",
     "markdownlint": "^0.32.1",
     "markdownlint-cli": "^0.37.0"
