@@ -7,7 +7,6 @@
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
-||facebook.com^$domain=hirkosar.com|origoblog.net|origo-hirek.net|aktivhirek.net|napi-hirek.net|hiroldal.com|hvq-online.com,popup
 
 !-------------------------------------------------------------------------------!
 !------ Generic network filters ------------------------------------------------!
@@ -34,7 +33,6 @@
 ||gemius.hu^
 ||gemius.pl^
 ||smartadserver.com^
-||track.trackbyme.info^
 ||tracker.azet.sk^
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^

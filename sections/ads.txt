@@ -469,7 +469,6 @@ hirado.hu##DIV[id*="zone-wallbanner-header"]
 hircsarda.hu###gyuri1
 hircsarda.hu###gyuri2
 hirextra.hu##[class*="billboard"]
-hirkosar.com###fanback
 hiros.hu##.banner_container
 hiros.hu##.banner_widget
 hiros.hu##.banner-container
@@ -571,9 +570,9 @@ index.hu###ad_null_position
 index.hu###also_bannerek
 index.hu###index_shopline
 index.hu##[id*="banner"]
-infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###main div[class*="banner"]
-infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###sidebar > div[class*="banner"]
-infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosporon.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu##div.read div[class*="banner"]
+infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosopron.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###main div[class*="banner"]
+infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosopron.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu###sidebar > div[class*="banner"]
+infomovar.hu,infoajka.hu,infoszigetkoz.hu,infosopron.hu,infopapa.hu,infocelldomolk.hu,infodebrecen.hu,infobekescsaba.hu,infosarvar.hu,infoszombathely.hu,infozalaegerszeg.hu,infokeszthely.hu,infoszentendre.hu,infocegled.hu,infokarcag.hu,infofehervar.hu,infotatabanya.hu,infogyor.hu,infoesztergom.hu,infokiskunfelegyhaza.hu,inforabakoz.hu,infodunaujvaros.hu,infodombovar.hu,infoveszprem.hu,infomiskolc.hu,infohodmezovasarhely.hu,infonograd.hu,infotamasi.hu##div.read div[class*="banner"]
 ingatlan.com##DIV[id*="banner"]
 ingatlanmagazin.com##[class*="banner"]
 ingatlanok.hu##[class*="banner"]
@@ -946,7 +945,6 @@ promotions.hu##.banner
 promotions.hu##.banner__ad
 propeller.hu##[class*="banner "]
 propeller.hu##[id^="overlay"]
-puruttya.hu##[class*="reklam"]
 raketa.hu##[class*="adv--"]
 rendszerigeny.hu##.wallpaper-link
 rendszerigeny.hu###wallpaper
@@ -959,7 +957,6 @@ ricsajok.hu##[class*="banner"]
 romnet.hu##[class*="hirdetes"]
 romnet.hu##[id*="banner"]
 romnet.hu##[id*="hirdetes"]
-samsungsport.hu##[class*="banner"]
 sg.hu##.std0
 sg.hu##[class*="advert"]
 sg.hu##IMG[src="images/hirdetes.gif"]
@@ -1080,7 +1077,6 @@ tudtade.blogstar.hu###lw_bg1
 tudtade.blogstar.hu##div[style^="height:"]
 turizmusonline.hu##[class*="Banner"]
 turmixvilag.hu##.adsense
-tutitippek.hu##[class*="adsense"]
 tvgo.hu##.banner
 twice.hu##.ads_show_ad_title
 twn.hu##.banner_box
@@ -1234,7 +1230,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||atv.hu/*reklam
 ||autopro.hu/uploads/banners/$image
 ||bannerserver.hu$subdocument
-||bedia.hu/banners/
 ||bitport.hu/images/szponzoracio/$image
 ||bkv.hu/public/assets/img/banner/$image
 ||blog.hu/*/ad/
@@ -1279,7 +1274,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||hirek.sk/banner/$image
 ||hosszupuskasub.com/css/*skin.jpg$image
 ||hrportal.hu/images/banner/$image
-||hu-swingers.com/img/banners/$image
 ||hungariantop1000.com/cgi-bin/counter.cgi
 ||hupont.hu/hirdetes/
 ||hwsw.hu/images/bodybgs/$image
@@ -1361,7 +1355,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||szepsegbroker.hu/banner/$image
 ||szepsegbroker.hu/elements/bannerz.2019.js^$script
 ||talalka.hu/hirdetes/
-||talilap.hu/banner/$image
 ||telefonguru.hu/banners/$image
 ||telefonguru.hu/iframes/
 ||tvn.hu/tvn/kepek/xpoker.hu/$image
@@ -1373,8 +1366,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||vezess2.p3k.hu/app/uploads/*nyeremenyjatek$image
 ||vg.hu/banners/$image
 ||webminute.hu/bannerek/$image
-||webtraffic.hu/banner/$image
-||yayo.hu/static/banner/$image
 ||zeneszoveg.hu/gfx/skin-*/*.
 
 ||widget.block4d.com^
@@ -1388,7 +1379,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ad.onadozo.hu^
 ||ad.parom.hu^
 ||ad.pphungary.hu^
-||ad.supportal.hu^
 ||ad.szexneked.hu^
 ||ad*.gyaloglo.hu^
 ||ad*.mellesleg.hu^
@@ -1407,7 +1397,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||banner.terminal.hu^
 ||banner.webtar.hu^
 ||bannerzone.agroinform.hu^
-||boxzsak.kirowski.com^
 ||brostraffic.com^
 ||cdn-dynamic.optimonk.com^
 ||daserver.ultraweb.hu^
@@ -1430,7 +1419,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||related.hu^
 ||sher.*.hu^
 ||smartcj.com^
-||srv1.srv-stat.com^
 ||stat.adultium.com^
 ||stats.badoostats.com^
 ||syndication.trafficreps.com^
@@ -1439,7 +1427,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||vid4u.org^
 ||wstat.ozon.ru^
 
-||9klikk.com^$third-party
 ||abmr.net^$third-party
 ||ad.hu^$third-party
 ||ad4mat.net^$third-party
@@ -1454,9 +1441,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||betfair.com^$third-party
 ||bongacash.com^$third-party
 ||calivary.com^$third-party
-||clickspromos.com^$third-party
 ||clicksure.com^$third-party
-||ctnetwork.hu^$third-party
 ||data.bookline.hu^$third-party
 ||head-clickfusion.com^$third-party
 ||hitelkereso.hu^$third-party
@@ -1467,11 +1452,9 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||klix.hu^$third-party
 ||m2mzona.hu/ads^$third-party
 ||match.rundsp.com^$third-party
-||megaclick.com/ad.code$third-party
 ||mytarget.hu^$third-party
 ||napiaszhirdetesek^$third-party
 ||out.pladform.ru^$third-party
-||playertise.com^$third-party
 ||po.st^$third-party
 ||pornedup.com^$third-party
 ||premads.info^$third-party
@@ -1486,4 +1469,3 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||tripod.com^$third-party
 ||tripod.lycos.com^$third-party
 ||tulajdonostol.com^$third-party
-||xxxshort.com^$third-party
