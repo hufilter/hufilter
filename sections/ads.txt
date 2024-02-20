@@ -94,6 +94,7 @@ hu##[class*="overlayBg"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+magyarorszagom.hu##.bannerContent
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
 168.hu##.banner-wrapper
