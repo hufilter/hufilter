@@ -1035,6 +1035,8 @@ telefonguru.hu##[style="height: 250px"]
 telefonkonyv.hu##[class*=" adH"]
 telekom.hu##.ads
 telex.hu##.banner-bottom
+telex.hu##.recommendation.recommendation--out
+telex.hu##.recommendation.recommendation--pr
 teltlanyok.com##[id^="adchange"]
 terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher

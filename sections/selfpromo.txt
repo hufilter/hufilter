@@ -41,14 +41,13 @@ onroad.hu##a[href="https://onroad.hu/tamogatas"]
 pestisracok.hu###head-wrap + .code-block
 ! Article recommender in the forum
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.msg-list > ul > div:not(.media)
-telex.hu##.kari
-telex.hu##.support
 telex.hu###minutes-campaign-container
 telex.hu###minutes-campaign-container-mini
-telex.hu##.support-box
+telex.hu##.fb-box
+telex.hu##.kari
 telex.hu##.modal--overlay
-! TODO! https://github.com/hufilter/hufilter/discussions/7
-!telex.hu##[href*="tamogatas"]
+telex.hu##.support
+telex.hu##.support-box
 totalcar.hu###bannerHeaderLink
 vezess.hu##.katalog
 vezess.hu##.wpb_wrapper > a
