@@ -100,6 +100,8 @@ magyarorszagom.hu##.bannerContent
 168.hu##.banner-wrapper
 24.hu##.banner-container
 24.hu##.spklw-post-attr[data-type="ad"]
+444.hu##.adaptiveAd[id^="444_cikk_mobil_"]
+444.hu##.adaptiveAd[id^="444_cikk_pc_"]
 444.hu##[class*="banner"]
 444.hu##[id*="-banner-"]
 5mp.eu###alsobox
