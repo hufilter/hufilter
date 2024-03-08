@@ -870,11 +870,13 @@ oprend.hu##[class="ad-blocked"]
 oprend.hu##[class="p-t-10 ad-blocked"]
 gphirek.hu##[id^="zone"]
 origo.hu##.col-xl-8 + aside.col-xl-4.col-visible-xl
-! Gallery ads
+origo.hu##[class*="Advert"]
 origo.hu##[class*="banner"]
 origo.hu##[id*="banner"]
+origo.hu##app-article-page app-sidebar app-free-display-inventory
+origo.hu##app-sport-article-page app-sidebar app-free-display-inventory
 origo.hu##div.article-recommendation-zones
-origo.hu##[class*="Advert"]
+origo.hu##kesma-advertisement-adocean
 origo.hu##section.spar
 otvenentul.hu##[class^="ad"]
 pannonrtv.com##[id^="block-views-block-banners-"]
