@@ -172,6 +172,8 @@ magyarhirlap.hu###eucookielaw
 ! https://github.com/hufilter/hufilter-dev/issues/251
 magyarnemzet.hu##.newsletter-box
 magyarnemzet.hu##div.gdprBoxContainer
+! annyoing large popup after opening the page
+mandiner.hu##app-calendar
 mandiner.hu##app-facebook-popup
 mandiner.hu##app-newsletter-popup
 mediacenter.hu###cookie-msg
