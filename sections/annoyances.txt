@@ -32,7 +32,6 @@ hu###cookiebar
 24.hu###overlay_readers_letter
 24.hu###stickyHomePageRecommender
 24.hu###webPushPopup
-888.hu###cookieconsent
 ado.hu###cookieBox
 ado.hu###cookieBox_bg
 adoforum.hu###cookies-alert

@@ -109,7 +109,6 @@ magyarorszagom.hu##.bannerContent
 5percblog.hu###text-6
 777blog.hu###galsoreklam
 777blog.hu###oldalreklam
-888.hu##.AdW
 accounts.freemail.hu##[class^="container-"][class*="adZone"]
 adoforum.hu##[class^="zone_"]
 adozona.hu##.az-layer
@@ -1219,7 +1218,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 
 ||0i.hu/files/images/$image
 ||444.hu/*/ease/
-||888.hu^*/autoalkatreszek24$image
 ||ado.hu/banners/$image
 ||ads.nepszava.com^
 ||affiliate.hu$subdocument
