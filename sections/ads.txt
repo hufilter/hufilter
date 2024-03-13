@@ -1399,6 +1399,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||banner.webtar.hu^
 ||bannerzone.agroinform.hu^
 ||brostraffic.com^
+||campaign-remp.444.hu^
 ||cdn-dynamic.optimonk.com^
 ||daserver.ultraweb.hu^
 ||et.twyn.com^
@@ -1451,6 +1452,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ingatlannet.hu^$third-party
 ||js.leadin.com^$third-party
 ||klix.hu^$third-party
+||link.adaptivemedia.hu^$third-party
 ||m2mzona.hu/ads^$third-party
 ||match.rundsp.com^$third-party
 ||mytarget.hu^$third-party
