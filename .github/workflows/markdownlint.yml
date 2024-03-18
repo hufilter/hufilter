@@ -4,7 +4,7 @@
 name: markdownlint
 
 env:
-  NODE_VERSION: 18
+  NODE_VERSION: 20
 
 on:
   push:
@@ -43,7 +43,6 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      # If the linter found any errors, it will exit with a non-zero code,
-      # which will cause the job to fail
+      # If the linter found any errors, it will exit with a non-zero code, which will cause the job to fail
       - name: Run markdownlint
         run: yarn lint:md
