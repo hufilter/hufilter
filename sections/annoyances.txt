@@ -291,7 +291,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu|blikk.hu
 ||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$script,domain=szeretlekmagyarorszag.hu
 ||widget.blck4d.com/js/block/widget.js^$script,domain=starity.hu
-||cmp.inmobi.com^$third-party,script,domain=telex.hu
+||cmp.inmobi.com^$third-party,script,domain=telex.hu|origo.hu|atlatszo.hu|rtl.hu
 
 !-------------------------------------------------------------------------------!
 !------ Generic network filters ------------------------------------------------!
