@@ -10,9 +10,9 @@
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
-! https://github.com/AdguardTeam/AdguardFilters/issues/139139
-embed.rtl.hu##+js(set, gemiusStream, {})
-embed.rtl.hu##+js(set, gemiusStream.event, noopFunc)
+! https://github.com/AdguardTeam/AdguardFilters/issues/139139, https://github.com/hufilter/hufilter-dev/issues/448
+player.rtl.hu##+js(set, gemiusStream, {})
+player.rtl.hu##+js(set, gemiusStream.event, noopFunc)
 ! https://github.com/hufilter/hufilter/issues/215
 ! https://github.com/AdguardTeam/AdguardFilters/issues/75763
 femina.hu##+js(set, window.ado, null)

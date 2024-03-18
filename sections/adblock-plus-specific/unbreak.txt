@@ -12,3 +12,5 @@
 !-------------------------------------------------------------------------------!
 ! https://github.com/hufilter/hufilter-dev/issues/317
 @@||adocean.pl^$script,domain=menetrendek.hu
+! https://github.com/hufilter/hufilter-dev/issues/448
+@@||pro.hit.gemius.pl/gstream.js$domain=player.rtl.hu
