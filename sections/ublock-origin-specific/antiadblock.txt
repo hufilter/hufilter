@@ -32,6 +32,9 @@ magyarhang.org,hang.hu##+js(acis, document.addEventListener, ai_run_)
 magyarhang.org,hang.hu##+js(acis, document.getElementById, ai_run_)
 ! https://github.com/hufilter/hufilter-dev/issues/427
 myonlineradio.hu##+js(aopw, FbTrack)
+myonlineradio.hu##+js(set, AddAdsV2I.disableAds, true)
+myonlineradio.hu##+js(set, AddAdsV2I.loadMainScript, noopFunc)
+myonlineradio.hu##+js(set, AddAdsV2I.showBackupAds, false)
 myonlineradio.hu##.topHorizontalBanner:style(position: absolute !important; left: -3000px !important;)
 pcworld.hu##+js(rc, have-ad, body)
 ! https://github.com/hufilter/hufilter/issues/15
