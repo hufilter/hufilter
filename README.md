@@ -3,8 +3,8 @@
 <p align="center">
     <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/images/hufilter.svg" width="128rem" alt="hufilter" />
 </p>
-<h3 align="center">A Magyar Adblock Szűrőlista</h3>
-<p align="center">Támogatott hirdetésblokkolók:</p>
+<h3 align="center">The Hungarian Adblock Filter List</h3>
+<p align="center">Supported ad blockers:</p>
 <p align="center">
     <a href="https://adguard.com/"><img src="https://gist.githubusercontent.com/scripthunter7/6378a96b61b927357f39a33d3abc5af7/raw/e306604fd548ac1b2de70d2a5d8a43017496f221/adguard_logo.svg" width="14px" /></a> <a href="https://adguard.com/">AdGuard</a>
     | <a href="https://github.com/gorhill/uBlock"><img src="https://upload.wikimedia.org/wikipedia/commons/0/05/UBlock_Origin.svg" width="14px" /></a> <a href="https://github.com/gorhill/uBlock">uBlock Origin</a>
