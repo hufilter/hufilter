@@ -886,6 +886,7 @@ partyponty.hu##[id*="banner"]
 pcforum.hu,prog.hu##.centercol.sponsor
 pcforum.hu,prog.hu###zone-halfpage
 pcforum.hu,prog.hu###zone-roaddblock
+pcforum.hu,prog.hu###zone-titleheader
 pcforum.hu##.zone[data-zoneid]
 pcforum.hu###zone-titleheader
 pcguru.hu##.banner-content
