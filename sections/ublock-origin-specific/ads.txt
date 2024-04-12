@@ -9,9 +9,11 @@
 !-------------------------------------------------------------------------------!
 444.hu##article:has(a[href*="hirdetes"])
 444.hu##div.item:has(a[href*="hirdetes"])
-startlap.hu##div.container.banner-container.wide:style(min-height: 0 !important; height: auto !important;)
-myonlineradio.hu#$#._bannerTop1:style(background-color: transparent !important;)
+! https://github.com/uBlockOrigin/uAssets/issues/23271
+jofogas.hu##+js(nostif, E(!1))
 myonlineradio.hu##.topHorizontalBanner
+myonlineradio.hu#$#._bannerTop1:style(background-color: transparent !important;)
+startlap.hu##div.container.banner-container.wide:style(min-height: 0 !important; height: auto !important;)
 
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!

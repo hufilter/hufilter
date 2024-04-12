@@ -7,10 +7,11 @@
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
-startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; height: auto !important; }
+! https://github.com/uBlockOrigin/uAssets/issues/23271
+jofogas.hu#%#//scriptlet('prevent-setTimeout', 'E(!1)')
 myonlineradio.hu#$#._bannerTop1 { background-color: transparent !important; }
-
 myonlineradio.hu#$#.topHorizontalBanner { position: absolute !important; left: -3000px !important; }
+startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; height: auto !important; }
 
 ! https://github.com/hufilter/hufilter-dev/issues/440
 ! https://github.com/hufilter/hufilter-dev/pulls/452
