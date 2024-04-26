@@ -1168,6 +1168,14 @@ bpiautosok.hu#?#.otw-sidebar:-abp-has(a[href="https://bpiautosok.hu/tamogatonk-a
 bpiautosok.hu#?#.widget.widget_text:-abp-has(.adsbygoogle)
 budapestkornyeke.hu#?#div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Állásajánlat))
 budapestkornyeke.hu#?#div[class*="widget"]:-abp-has(>.widgettitle:-abp-contains(Hirdetés))
+cfusionsys.com##a[rel*="sponsored"]
+civishir.hu##.ads-container
+civishir.hu##.ads-left-container
+civishir.hu##.ads-name-title
+civishir.hu##.ads-right-container
+civishir.hu##.popup-ad
+civishir.hu##app-ads
+civishir.hu##iframe[src^="https://cfusionsys.com"]
 cyberpress.hu#?#.sb-widget:-abp-has(>h4:-abp-contains(Hirdetés))
 egeszsegkalauz.hu#?#.row:-abp-has(>#onet-ad-top)
 egeszsegkalauz.hu#?#.wrapRectangle:-abp-has(>div>span:-abp-contains(Hirdetés))

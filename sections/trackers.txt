@@ -7,6 +7,7 @@
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
+||api.indidata.com^$third-party,domain=civishir.hu
 
 !-------------------------------------------------------------------------------!
 !------ Generic network filters ------------------------------------------------!
