@@ -32,10 +32,8 @@ karpathir.com#%#//scriptlet('abort-on-property-write', 'getComputedStyle')
 magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', 'ai_run_')
 magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'ai_run_')
 ! https://github.com/hufilter/hufilter-dev/issues/427
-myonlineradio.hu#%#//scriptlet('abort-on-property-write', 'FbTrack')
-myonlineradio.hu#%#//scriptlet('prevent-element-src-loading', 'script', 'adsbygoogle')
-myonlineradio.hu#%#//scriptlet('set-constant', 'AddAdsV2I.disableAds', 'true')
-myonlineradio.hu#%#//scriptlet('set-constant', 'AddAdsV2I.showBackupAds', 'false')
+myonlineradio.hu#%#//scriptlet('trusted-set-cookie', 'stpdsck', '1')
+$cookie=adblock,domain=myonlineradio.hu
 pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window.ado.blocked')
