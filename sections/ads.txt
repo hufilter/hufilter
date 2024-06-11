@@ -1042,6 +1042,7 @@ telekom.hu##.ads
 telex.hu##.banner-bottom
 telex.hu##.recommendation.recommendation--out
 telex.hu##.recommendation.recommendation--pr
+telex.hu##.title-section__sponsored
 teltlanyok.com##[id^="adchange"]
 terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher
