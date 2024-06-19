@@ -311,6 +311,7 @@ e-cars.hu##[class="td-a-rec td-a-rec-id-content_top  tdi_62 td_block_template_1"
 e-cars.hu##[class="td-a-rec td-a-rec-id-header  tdi_53 td_block_template_1"]
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
+economx.hu##.hirdetes-block
 eduline.hu##[class*="ad_"]
 eduline.hu##[class*="ads"]
 eduline.hu##[class*="Advert"]
