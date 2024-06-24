@@ -54,7 +54,11 @@ buildFilters = async () => {
         const regex = /^\|\|([a-z0-9]+([-.][a-z0-9]+)*\.[a-z]{2,})($|\^$)/gm;
         const matches = content.matchAll(regex);
         const domains = Array.from(matches, ([_, domain]) => domain);
-        content = domains.map((domain) => filter.hosts ? `${NULL_IP} ${domain}` : domain).join("\n") + "\n";
+        content = (
+          filter.hosts
+            ? domains.map((domain) => `${NULL_IP} ${domain}`)
+            : domains
+        ).join("\n");
       }
       // Header attributes
       if (headerContent.length) {
