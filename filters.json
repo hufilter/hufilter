@@ -75,10 +75,22 @@
     ]
   },
   {
+    "output": "hufilter-hosts.txt",
+    "title": "Hufilter Hosts file",
+    "hosts": true,
+    "header": "hosts.txt",
+    "sections": [
+      "ads.txt",
+      "annoyances.txt",
+      "trackers.txt",
+      "unbreak.txt"
+    ]
+  },
+  {
     "output": "hufilter-pihole.txt",
     "title": "Hufilter Pi-hole",
     "dns": true,
-    "header": "pi-hole.txt",
+    "header": "hosts.txt",
     "sections": [
       "ads.txt",
       "annoyances.txt",

@@ -5,6 +5,8 @@ const path = require("path");
 // Filters structure
 const filters = require("../../filters.json");
 
+const NULL_IP = '0.0.0.0';
+
 // For header example, see https://easylist-downloads.adblockplus.org/easylist.txt
 const currentDate = new Date();
 const version = dateFormat(currentDate, "yyyymmddHHMM", true);
@@ -46,15 +48,13 @@ buildFilters = async () => {
         );
         console.log(`      - ${section} added`);
       }
-      // Handle DNS filters
-      if (filter.dns === true) {
-        let dnsFilteredContent = "";
+      // Handle DNS / hosts filters
+      if (filter.dns || filter.hosts) {
+        // TODO: Switch to AGTree and extract domain from pattern with tldts
         const regex = /^\|\|([a-z0-9]+([-.][a-z0-9]+)*\.[a-z]{2,})($|\^$)/gm;
         const matches = content.matchAll(regex);
-        for (let match of matches) {
-          dnsFilteredContent += match[1] + "\n";
-        }
-        content = dnsFilteredContent;
+        const domains = Array.from(matches, ([_, domain]) => domain);
+        content = domains.map((domain) => filter.hosts ? `${NULL_IP} ${domain}` : domain).join("\n") + "\n";
       }
       // Header attributes
       if (headerContent.length) {
