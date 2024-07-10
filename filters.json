@@ -2,7 +2,7 @@
   {
     "output": "hufilter.txt",
     "title": "Hufilter Basic",
-    "header": "adblock-plus.txt",
+    "header": "adblock-plus-redirected.txt",
     "sections": [
       "ads.txt",
       "unbreak.txt"
