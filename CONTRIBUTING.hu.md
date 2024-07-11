@@ -13,7 +13,6 @@ Mielőtt hozzájárulnál a projekthez, győződj meg róla, hogy a következő 
 
 - [Node.js][nodejs-download-link] (ajánlott a legfrissebb LTS verzió)
 - [Git][git-download-link]
-- [Yarn][yarn-download-link]
 
 Az legjobb fejlesztési élmény érdekében javasoljuk, hogy a [Visual Studio Code][vscode-download-link]-ot használd kód
 szerkesztőként. Ha a VS Code-ot választod, fontold meg a projekt
@@ -23,7 +22,10 @@ szerkesztőként. Ha a VS Code-ot választod, fontold meg a projekt
 
 1. Fork-old a [`hufilter/hufilter-dev`][hufilter-dev-repo] tárolót a GitHub-on.
 2. Klónozd a fork-olt tárolódat.
-3. Telepítsd a projekt függőségeit a `yarn` parancs segítségével.
+3. Engedélyezd a Corepack-ot a `corepack enable` parancs futtatásával. A Corepack előre telepítve van a Node.js-el,
+   így nem kell külön telepítened.
+4. Telepítsd a projekt függőségeit a `pnpm install` paranccsal. Ha nincs telepítve a pnpm, a Corepack
+   felajánlja a telepítését, ha futtatod a `pnpm` parancsot.
 
 ## Új szabályok hozzáadása
 
@@ -62,4 +64,3 @@ szerkesztőként. Ha a VS Code-ot választod, fontold meg a projekt
 [sections-readme]: https://github.com/hufilter/hufilter-dev/blob/master/sections/README.hu.md
 [ubo-filters]: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
 [vscode-download-link]: https://code.visualstudio.com/download
-[yarn-download-link]: https://classic.yarnpkg.com/en/docs/install/

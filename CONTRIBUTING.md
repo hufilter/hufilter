@@ -15,7 +15,6 @@ Before contributing to the project, make sure you have the following tools insta
 
 - [Node.js][nodejs-download-link] (we recommend the latest LTS version)
 - [Git][git-download-link]
-- [Yarn][yarn-download-link]
 
 For an enhanced development experience, we recommend using [Visual Studio Code][vscode-download-link] as your code
 editor. If you opt for VS Code, consider installing the [recommended extensions][recommended-vscode-extensions] of the
@@ -25,7 +24,10 @@ project.
 
 1. Fork [`hufilter/hufilter-dev`][hufilter-dev-repo] repository on GitHub.
 2. Clone your forked repository.
-3. Install project dependencies using the `yarn` command.
+3. Enable Corepack by running the `corepack enable` command. Corepack comes pre-installed with Node.js, so you don't
+   need to install it separately.
+4. Install project dependencies using the `pnpm install` command. If you don't have pnpm installed,
+   Corepack will prompt you to install it if you run the `pnpm` command.
 
 ## Adding new rules
 
@@ -65,4 +67,3 @@ project.
 [sections-readme]: https://github.com/hufilter/hufilter-dev/blob/master/sections/README.md
 [ubo-filters]: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
 [vscode-download-link]: https://code.visualstudio.com/download
-[yarn-download-link]: https://classic.yarnpkg.com/en/docs/install/

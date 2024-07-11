@@ -12,7 +12,7 @@
   "homepage": "https://github.com/hufilter/hufilter-dev#readme",
   "scripts": {
     "build": "node assets/scripts/build.js",
-    "lint": "yarn lint:ab && yarn lint:md",
+    "lint": "pnpm lint:ab && pnpm lint:md",
     "lint:ab": "aglint",
     "lint:md": "markdownlint .",
     "prepare": "node .husky/install.mjs"
@@ -28,5 +28,6 @@
     "lint-staged": "^15.2.1",
     "markdownlint": "^0.32.1",
     "markdownlint-cli": "^0.37.0"
-  }
+  },
+  "packageManager": "pnpm@9.5.0+sha512.140036830124618d624a2187b50d04289d5a087f326c9edfc0ccd733d76c4f52c3a313d4fc148794a2a9d81553016004e6742e8cf850670268a7387fc220c903"
 }

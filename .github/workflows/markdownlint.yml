@@ -15,7 +15,7 @@ on:
       - ".markdownlint.json"
       - ".markdownlintignore"
       - "package.json"
-      - "yarn.lock"
+      - "pnpm-lock.yaml"
   pull_request:
     branches:
       - master
@@ -24,7 +24,7 @@ on:
       - ".markdownlint.json"
       - ".markdownlintignore"
       - "package.json"
-      - "yarn.lock"
+      - "pnpm-lock.yaml"
 
 jobs:
   markdownlint:
@@ -34,15 +34,18 @@ jobs:
       - name: Check out to repository
         uses: actions/checkout@v4
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: yarn
+          cache: pnpm
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: pnpm install
 
       # If the linter found any errors, it will exit with a non-zero code, which will cause the job to fail
       - name: Run markdownlint
-        run: yarn lint:md
+        run: pnpm lint:md
