@@ -12,6 +12,7 @@ on:
       - master
     paths:
       - "**/*.txt"
+      - ".aglintignore"
       - ".aglintrc.yaml"
       - "package.json"
       - "pnpm-lock.yaml"
@@ -20,6 +21,7 @@ on:
       - master
     paths:
       - "**/*.txt"
+      - ".aglintignore"
       - ".aglintrc.yaml"
       - "package.json"
       - "pnpm-lock.yaml"
