@@ -133,6 +133,8 @@ iho.hu##.social-icon
 iho.hu##.newsletter-box
 ! adbook nagger
 iho.hu##.article-text > p
+infostart.hu##.am_targetvideo_container
+infostart.hu##.flyout
 infostart.hu##.notification-popup
 ! https://github.com/hufilter/hufilter-dev/issues/252
 infostart.hu###_ao-cmp-ui
