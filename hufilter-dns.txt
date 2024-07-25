@@ -1,9 +1,9 @@
-! Checksum: KtiQZHXffqYBwn7BXQ467A
-! Version: 202407250805
+! Checksum: 9P8dAH7kD8x2KTwm6Onj4Q
+! Version: 202407250822
 ! Title: Hufilter DNS
-! Last modified: 25 Jul 2024 08:05 UTC
+! Last modified: 25 Jul 2024 08:22 UTC
 ! Expires: 7 days (update frequency)
-! Homepage: https://github.com/hufilter/hufilter/wiki
+! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
 !
 !---------------------------------------------------------------------------!
@@ -20,8 +20,8 @@
 ! A szuresi iranyelveket, felhasznalasi felteteleket lasd a fenti honlapon.
 ! A szuro hasznalataval automatikusan elfogadod a felhasznalasi felteteleket.
 !
-! GitHub issues: https://github.com/hufilter/hufilter-dev/issues
-! GitHub pull requests: https://github.com/hufilter/hufilter-dev/pulls
+! GitHub issues: https://github.com/hufilter/hufilter/issues
+! GitHub pull requests: https://github.com/hufilter/hufilter/pulls
 !
 ads.nepszava.com
 widget.block4d.com

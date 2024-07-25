@@ -1,9 +1,9 @@
-# Checksum: Hup4/FCp3yXlazR1xNls5Q
-# Version: 202407250805
+# Checksum: MhZuP9kMmTA6kQy1fOH6Tw
+# Version: 202407250822
 # Title: Hufilter Hosts file
-# Last modified: 25 Jul 2024 08:05 UTC
+# Last modified: 25 Jul 2024 08:22 UTC
 # Expires: 7 days (update frequency)
-# Homepage: https://github.com/hufilter/hufilter/wiki
+# Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
 #
 #---------------------------------------------------------------------------#
@@ -20,8 +20,8 @@
 # A szuresi iranyelveket, felhasznalasi felteteleket lasd a fenti honlapon.
 # A szuro hasznalataval automatikusan elfogadod a felhasznalasi felteteleket.
 #
-# GitHub issues: https://github.com/hufilter/hufilter-dev/issues
-# GitHub pull requests: https://github.com/hufilter/hufilter-dev/pulls
+# GitHub issues: https://github.com/hufilter/hufilter/issues
+# GitHub pull requests: https://github.com/hufilter/hufilter/pulls
 #
 0.0.0.0 ads.nepszava.com
 0.0.0.0 widget.block4d.com
