@@ -3,7 +3,7 @@
 # Title: #TITLE#
 # Last modified: #LAST_MODIFIED#
 # Expires: 7 days (update frequency)
-# Homepage: https://github.com/hufilter/hufilter/wiki
+# Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
 #
 #---------------------------------------------------------------------------#
