@@ -15,6 +15,7 @@ on:
       - filters.json
       - sections/**.txt
       - sections/headers/**.txt
+  workflow_dispatch:
 
 # Make sure that only one deploy job runs at a time. For example, if we merge
 # a pull request, then GitHub will call this workflow, but if we merge another
@@ -24,12 +25,13 @@ on:
 # deploy job runs at a time.
 concurrency:
   group: deploy
+  cancel-in-progress: true
 
 jobs:
   build:
     name: Build filter lists
     # Run this job only in the original source repository, not in forks
-    if: github.repository == 'hufilter/hufilter-dev'
+    if: github.repository == 'hufilter/hufilter'
     runs-on: ubuntu-latest
     steps:
       - name: Check out to repository
@@ -62,23 +64,15 @@ jobs:
           path: dist/**
 
   deploy:
-    name: Deploy filter lists to hufilter/hufilter
+    name: Deploy filter lists to GitHub Pages
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout to hufilter/hufilter-dev
+      - name: Checkout to gh-pages branch
         uses: actions/checkout@v4
         with:
-          repository: hufilter/hufilter-dev
-          path: hufilter-dev
-          ref: master
-
-      - name: Checkout to hufilter/hufilter
-        uses: actions/checkout@v4
-        with:
-          repository: hufilter/hufilter
-          path: hufilter
-          ref: master
+          path: hufilter-gh-pages
+          ref: gh-pages
           persist-credentials: false
           fetch-depth: 0
 
@@ -93,7 +87,7 @@ jobs:
       # and the actual filter list content will be the same. So we need to check
       # if the filter list content has changed, and only then commit the changes
       # to the target repository in order to avoid unnecessary commits.
-      - name: Copy updated filter lists to hufilter/hufilter
+      - name: Copy updated filter lists
         run: |
           # Iterate through the filter list names from the build artifact
           # Filter lists always prefixed with "hufilter" and have ".txt" extension
@@ -101,20 +95,20 @@ jobs:
           for FILTER in $FILTERS
           do
               # Check if the file exists in the target repository
-              if [ -f "./hufilter/$FILTER" ]
+              if [ -f "./hufilter-gh-pages/$FILTER" ]
               then
                   # Check if the files are different (but ignore metadata fields that change on every build)
                   IGNORE_PATTERN="^[!#]\s\?\(Version\|Last modified\|Checksum\):"
-                  if [ ! -z "$(diff <(sed -e "/$IGNORE_PATTERN/d" ./dist/$FILTER) <(sed -e "/$IGNORE_PATTERN/d" ./hufilter/$FILTER))" ]
+                  if [ ! -z "$(diff <(sed -e "/$IGNORE_PATTERN/d" ./dist/$FILTER) <(sed -e "/$IGNORE_PATTERN/d" ./hufilter-gh-pages/$FILTER))" ]
                   then
                       # If the files are different, copy the file from the build artifact to the target repository
                       # (this will overwrite the existing file)
-                      cp ./dist/$FILTER ./hufilter/$FILTER
+                      cp ./dist/$FILTER ./hufilter-gh-pages/$FILTER
                       echo "Updated $FILTER"
                   fi
               else
                   # Just copy new filter lists to the target repository
-                  cp ./dist/$FILTER ./hufilter/$FILTER
+                  cp ./dist/$FILTER ./hufilter-gh-pages/$FILTER
                   echo "Added $FILTER"
               fi
           done
@@ -123,11 +117,11 @@ jobs:
       # (for example, if we removed a filter list from the source repository's
       # filters.json file, then it won't be included in the build artifact, so
       # we need to remove it from the target repository as well)
-      - name: Remove cancelled filter lists from hufilter/hufilter
+      - name: Remove cancelled filter lists
         run: |
           # Iterate through the filter list names from the target repository
           # Filter lists always prefixed with "hufilter" and have ".txt" extension
-          FILTERS=$(find ./hufilter -type f -name "hufilter*.txt" -printf "%f\n")
+          FILTERS=$(find ./hufilter-gh-pages -type f -name "hufilter*.txt" -printf "%f\n")
           COUNT=0
           for FILTER in $FILTERS
           do
@@ -135,7 +129,7 @@ jobs:
               if [ ! -f "./dist/$FILTER" ]
               then
                   # If the file doesn't exist in the build artifact, remove it from the target repository
-                  rm ./hufilter/$FILTER
+                  rm ./hufilter-gh-pages/$FILTER
 
                   # Notify if a filter list was removed by displaying its name
                   echo "Removed $FILTER"
@@ -156,7 +150,7 @@ jobs:
       # If there are no changes, then we don't need to commit anything.
       - name: Check for filter list changes in hufilter/hufilter
         run: |
-          cd ./hufilter
+          cd ./hufilter-gh-pages
 
           # Check if there are any changes for hufilter*.txt files
           if [ -z "$(git status --porcelain hufilter*.txt)" ]
@@ -169,10 +163,10 @@ jobs:
               echo "There are some changes for filter lists, so we need to commit them."
           fi
 
-      - name: Commit filter list changes for hufilter/hufilter
+      - name: Commit filter list changes
         if: env.NO_FILTER_LIST_CHANGES != 'true'
         run: |
-          cd ./hufilter
+          cd ./hufilter-gh-pages
 
           echo "Configuring git..."
           git config --local user.email ${{ env.COMMIT_AUTHOR_EMAIL }}
@@ -188,8 +182,7 @@ jobs:
         if: env.NO_FILTER_LIST_CHANGES != 'true'
         uses: ad-m/github-push-action@master
         with:
-          directory: ./hufilter
+          directory: ./hufilter-gh-pages
           github_token: ${{ secrets.API_TOKEN_GITHUB }}
-          repository: hufilter/hufilter
-          branch: master
+          branch: gh-pages
           force: true
