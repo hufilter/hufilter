@@ -20,6 +20,6 @@
 # A szuresi iranyelveket, felhasznalasi felteteleket lasd a fenti honlapon.
 # A szuro hasznalataval automatikusan elfogadod a felhasznalasi felteteleket.
 #
-# GitHub issues: https://github.com/hufilter/hufilter-dev/issues
-# GitHub pull requests: https://github.com/hufilter/hufilter-dev/pulls
+# GitHub issues: https://github.com/hufilter/hufilter/issues
+# GitHub pull requests: https://github.com/hufilter/hufilter/pulls
 #

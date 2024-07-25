@@ -4,12 +4,12 @@
   "license": "CC-BY-4.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hufilter/hufilter-dev.git"
+    "url": "git+https://github.com/hufilter/hufilter.git"
   },
   "bugs": {
-    "url": "https://github.com/hufilter/hufilter-dev/issues"
+    "url": "https://github.com/hufilter/hufilter/issues"
   },
-  "homepage": "https://github.com/hufilter/hufilter-dev#readme",
+  "homepage": "https://github.com/hufilter/hufilter#readme",
   "scripts": {
     "build": "node assets/scripts/build.js",
     "lint": "pnpm lint:ab && pnpm lint:md",

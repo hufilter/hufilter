@@ -20,7 +20,7 @@ You can find documentations for uBlock Origin filter syntax in the links below:
     - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin redirects][ubo-redirects]
 <!--markdownlint-enable MD013-->
 
-[hu-version]: https://github.com/hufilter/hufilter-dev/blob/master/sections/ublock-origin-specific/README.hu.md
+[hu-version]: https://github.com/hufilter/hufilter/blob/master/sections/ublock-origin-specific/README.hu.md
 [ubo-filters]: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
 [ubo-procedural]: https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
 [ubo-redirects]: https://github.com/gorhill/uBlock/wiki/Resources-Library#available-empty-redirect-resources

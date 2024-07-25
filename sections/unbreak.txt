@@ -6,7 +6,7 @@
 ! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
 !
 
-! https://github.com/hufilter/hufilter-dev/issues/445
+! https://github.com/hufilter/hufilter/issues/445
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mafab.hu
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 @@||pro.hit.gemius.pl/gstream.js$script,domain=embed.rtl.hu

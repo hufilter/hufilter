@@ -1,7 +1,7 @@
 <!-- markdownlint-disable -->
 &nbsp;
 <p align="center">
-    <img src="https://raw.githubusercontent.com/hufilter/hufilter-dev/master/assets/images/hufilter.svg" width="128rem" alt="hufilter" />
+    <img src="https://raw.githubusercontent.com/hufilter/hufilter/master/assets/images/hufilter.svg" width="128rem" alt="hufilter" />
 </p>
 <h3 align="center">A Magyar Adblock Szűrőlista</h3>
 <p align="center">Támogatott hirdetésblokkolók:</p>
@@ -13,11 +13,11 @@
     | <a href="https://getadblock.com/"><img src="https://gist.githubusercontent.com/scripthunter7/45f46156b3e4efdd13817ffc57389feb/raw/6024bd84726be876839925f328faa3afb45e0534/adblock_logo.svg" width="14px" /></a> <a href="https://getadblock.com/">AdBlock</a>
 </p>
 <p align="center">
-    <a href="https://github.com/hufilter/hufilter-dev/actions/workflows/aglint.yml" target="_blank"><img src="https://github.com/hufilter/hufilter-dev/actions/workflows/aglint.yml/badge.svg?branch=master" alt="AGLint status" /></a>
-    <a href="https://github.com/hufilter/hufilter-dev/actions/workflows/markdownlint.yml" target="_blank"><img src="https://github.com/hufilter/hufilter-dev/actions/workflows/markdownlint.yml/badge.svg?branch=master" alt="markdownlint status" /></a>
-    <a href="https://github.com/hufilter/hufilter-dev/graphs/contributors" target="_blank"><img src="https://img.shields.io/github/contributors/hufilter/hufilter-dev" alt="GitHub contributors" /></a>
-    <a href="https://github.com/hufilter/hufilter-dev/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/hufilter/hufilter-dev" alt="License" /></a>
-    <a href="https://github.com/hufilter/hufilter-dev/commits/master" target="_blank"><img src="https://img.shields.io/github/last-commit/hufilter/hufilter-dev/master" alt="Last commit" /></a>
+    <a href="https://github.com/hufilter/hufilter/actions/workflows/aglint.yml" target="_blank"><img src="https://github.com/hufilter/hufilter/actions/workflows/aglint.yml/badge.svg?branch=master" alt="AGLint status" /></a>
+    <a href="https://github.com/hufilter/hufilter/actions/workflows/markdownlint.yml" target="_blank"><img src="https://github.com/hufilter/hufilter/actions/workflows/markdownlint.yml/badge.svg?branch=master" alt="markdownlint status" /></a>
+    <a href="https://github.com/hufilter/hufilter/graphs/contributors" target="_blank"><img src="https://img.shields.io/github/contributors/hufilter/hufilter" alt="GitHub contributors" /></a>
+    <a href="https://github.com/hufilter/hufilter/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/hufilter/hufilter" alt="License" /></a>
+    <a href="https://github.com/hufilter/hufilter/commits/master" target="_blank"><img src="https://img.shields.io/github/last-commit/hufilter/hufilter/master" alt="Last commit" /></a>
 </p>
 <!-- markdownlint-restore -->
 
@@ -47,9 +47,9 @@ A projekt fenntartóival a következő módokon léphetsz kapcsolatba:
 
 A Hufilter a "Creative Commons Attribution 4.0" licenc alatt áll. A teljes licenc szövege [itt][license] olvasható.
 
-[contributing-guide]: https://github.com/hufilter/hufilter-dev/blob/master/CONTRIBUTING.hu.md
+[contributing-guide]: https://github.com/hufilter/hufilter/blob/master/CONTRIBUTING.hu.md
 [hufilter-mail]: mailto:hufilter@protonmail.com
 [hufilter-repo]: https://github.com/hufilter/hufilter
-[license]: https://github.com/hufilter/hufilter-dev/blob/master/LICENSE
-[new-discussion]: https://github.com/hufilter/hufilter-dev/discussions/new/choose
-[new-issue]: https://github.com/hufilter/hufilter-dev/issues/new/
+[license]: https://github.com/hufilter/hufilter/blob/master/LICENSE
+[new-discussion]: https://github.com/hufilter/hufilter/discussions/new/choose
+[new-issue]: https://github.com/hufilter/hufilter/issues/new/

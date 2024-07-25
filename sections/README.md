@@ -41,11 +41,11 @@ We use the same file structure in each section directory:
 - `trackers.txt` - Contains rules for blocking trackers and other privacy-invasive technologies.
 - `unbreak.txt` - Contains rules for resolving issues caused by incorrect blocking.
 
-[abp-section]: https://github.com/hufilter/hufilter-dev/tree/master/sections/adblock-plus-specific
+[abp-section]: https://github.com/hufilter/hufilter/tree/master/sections/adblock-plus-specific
 [abp-url]: https://adblockplus.org
-[adg-section]: https://github.com/hufilter/hufilter-dev/tree/master/sections/adguard-specific
+[adg-section]: https://github.com/hufilter/hufilter/tree/master/sections/adguard-specific
 [adg-url]: https://adguard.com
-[filters-json]: https://github.com/hufilter/hufilter-dev/blob/master/filters.json
-[hu-version]: https://github.com/hufilter/hufilter-dev/blob/master/sections/README.hu.md
-[ubo-section]: https://github.com/hufilter/hufilter-dev/tree/master/sections/ublock-origin-specific
+[filters-json]: https://github.com/hufilter/hufilter/blob/master/filters.json
+[hu-version]: https://github.com/hufilter/hufilter/blob/master/sections/README.hu.md
+[ubo-section]: https://github.com/hufilter/hufilter/tree/master/sections/ublock-origin-specific
 [ubo-url]: https://github.com/gorhill/uBlock

@@ -40,10 +40,10 @@ Hasonló fájlstruktúrát használunk minden szekciókönyvtárban:
 - `trackers.txt` - Szabályokat tartalmaz a követők és egyéb adatvédelmet sértő technológiák blokkolásához.
 - `unbreak.txt` - Szabályokat tartalmaz a helytelen blokkolás okozta problémák megoldásához.
 
-[abp-section]: https://github.com/hufilter/hufilter-dev/tree/master/sections/adblock-plus-specific
+[abp-section]: https://github.com/hufilter/hufilter/tree/master/sections/adblock-plus-specific
 [abp-url]: https://adblockplus.org
-[adg-section]: https://github.com/hufilter/hufilter-dev/tree/master/sections/adguard-specific
+[adg-section]: https://github.com/hufilter/hufilter/tree/master/sections/adguard-specific
 [adg-url]: https://adguard.com
-[filters-json]: https://github.com/hufilter/hufilter-dev/blob/master/filters.json
-[ubo-section]: https://github.com/hufilter/hufilter-dev/tree/master/sections/ublock-origin-specific
+[filters-json]: https://github.com/hufilter/hufilter/blob/master/filters.json
+[ubo-section]: https://github.com/hufilter/hufilter/tree/master/sections/ublock-origin-specific
 [ubo-url]: https://github.com/gorhill/uBlock

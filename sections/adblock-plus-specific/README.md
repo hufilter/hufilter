@@ -26,5 +26,5 @@ You can find documentations for Adblock Plus filter syntax in the links below:
 [abp-filters]: https://help.adblockplus.org/hc/en-us/articles/360062733293
 [abp-redirects]: https://help.adblockplus.org/hc/en-us/articles/360062733293#rewrite
 [abp-snippets]: https://help.adblockplus.org/hc/en-us/articles/1500002338501#snippets-ref
-[hu-version]: https://github.com/hufilter/hufilter-dev/blob/master/sections/adblock-plus-specific/README.hu.md
+[hu-version]: https://github.com/hufilter/hufilter/blob/master/sections/adblock-plus-specific/README.hu.md
 [mdn-css-selectors]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors

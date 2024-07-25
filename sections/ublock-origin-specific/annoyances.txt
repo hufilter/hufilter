@@ -23,7 +23,7 @@ lifestory.hu##+js(ra, oncontextmenu)
 magyarorszag.hu##+js(rc, bottom-l, body, stay)
 magyarorszag.hu##+js(rc, bottom-s, body, stay)
 mandiner.hu##+js(rc, modal-open, body, stay)
-! https://github.com/hufilter/hufilter-dev/issues/312
+! https://github.com/hufilter/hufilter/issues/312
 mindmegette.hu##+js(remove-attr, href, [href*="ad.adverticum.net"])
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##+js(acis, document.createElement, setTimeout)

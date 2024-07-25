@@ -25,7 +25,7 @@
 
 ||adat.freemail.hu^
 ||adtrackeraa.com^
-! https://github.com/hufilter/hufilter-dev/issues/305
+! https://github.com/hufilter/hufilter/issues/305
 ||beam-tracker.telex.hu^
 ||beam.telex.hu^
 ||counter.megagroup.ru^
@@ -40,7 +40,7 @@
 
 ||analytics.yahoo.com^$third-party
 ||counter.hitslink.com^$third-party
-! https://github.com/hufilter/hufilter-dev/issues/367
+! https://github.com/hufilter/hufilter/issues/367
 ||ex1tp.com^$third-party
 ||google-analytics.com^$third-party
 ||gravity.com^$third-party

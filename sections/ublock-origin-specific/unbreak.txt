@@ -10,7 +10,7 @@
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
-! https://github.com/AdguardTeam/AdguardFilters/issues/139139, https://github.com/hufilter/hufilter-dev/issues/448
+! https://github.com/AdguardTeam/AdguardFilters/issues/139139, https://github.com/hufilter/hufilter/issues/448
 player.rtl.hu##+js(set, gemiusStream, {})
 player.rtl.hu##+js(set, gemiusStream.event, noopFunc)
 player.rtl.hu##+js(set, gemiusStream.init, noopFunc)
@@ -21,7 +21,7 @@ femina.hu##+js(set, window.ado, null)
 life.hu##+js(ra, class, section[class="life-section l-section-main article-section l-section-article"])
 sorozatwiki.hu##+js(ra, style, body)
 
-! https://github.com/hufilter/hufilter-dev/issues/317
+! https://github.com/hufilter/hufilter/issues/317
 menetrendek.hu##.results_body:style(height: auto !important;)
 menetrendek.hu##body:has(> .background.height) .notation:style(display: block !important;)
 ! .background without .height
@@ -44,7 +44,7 @@ keol.hu##section[id="content_left"][class="content_start"]:style(padding-top: 80
 magyarhirlap.hu##header .container:style(padding: 10px 10px 0 10px !important;)
 mandiner.hu##.raw-html-embed:style(min-height: auto !important;)
 mkb.hu##html,body:style(overflow:auto !important)
-! https://github.com/hufilter/hufilter-dev/issues/427
+! https://github.com/hufilter/hufilter/issues/427
 ! Fix large space at the top of the page on desktop
 myonlineradio.hu##.isSubPage ._bannerTop1:style(height: 90px !important;):matches-media((min-width: 1200px))
 origo.hu##.first-section:style(margin-top: 0 !important;)
@@ -52,5 +52,5 @@ origo.hu##.first-section:style(margin-top: 0 !important;)
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
-! https://github.com/hufilter/hufilter-dev/issues/317
+! https://github.com/hufilter/hufilter/issues/317
 @@||adocean.pl^$script,domain=menetrendek.hu

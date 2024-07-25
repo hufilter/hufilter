@@ -10,7 +10,7 @@
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
-! https://github.com/hufilter/hufilter-dev/issues/317
+! https://github.com/hufilter/hufilter/issues/317
 @@||adocean.pl^$script,domain=menetrendek.hu
-! https://github.com/hufilter/hufilter-dev/issues/448
+! https://github.com/hufilter/hufilter/issues/448
 @@||pro.hit.gemius.pl/gstream.js$domain=player.rtl.hu

@@ -22,7 +22,7 @@ project.
 
 ## Setting up the project
 
-1. Fork [`hufilter/hufilter-dev`][hufilter-dev-repo] repository on GitHub.
+1. Fork [`hufilter/hufilter`][hufilter-repo] repository on GitHub.
 2. Clone your forked repository.
 3. Enable Corepack by running the `corepack enable` command. Corepack comes pre-installed with Node.js, so you don't
    need to install it separately.
@@ -42,7 +42,7 @@ project.
    structure.
 3. Commit your changes, then push them to your forked repository.
 4. Create a pull request from your forked repository's corresponding branch to the `master` branch of the
-   `hufilter/hufilter-dev` repository.
+   `hufilter/hufilter` repository.
 5. Wait for the review of your changes.
 
 <!--markdownlint-disable MD013-->
@@ -59,11 +59,11 @@ project.
 [abp-filters]: https://help.adblockplus.org/hc/en-us/articles/360062733293
 [adg-filters]: https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
 [git-download-link]: https://git-scm.com/downloads
-[hu-version]: https://github.com/hufilter/hufilter-dev/blob/master/CONTRIBUTING.hu.md
-[hufilter-dev-repo]: https://github.com/hufilter/hufilter-dev
+[hu-version]: https://github.com/hufilter/hufilter/blob/master/CONTRIBUTING.hu.md
+[hufilter-repo]: https://github.com/hufilter/hufilter
 [nodejs-download-link]: https://nodejs.org/en/download/
-[recommended-vscode-extensions]: https://github.com/hufilter/hufilter-dev/blob/master/.vscode/extensions.json
-[sections-directory]: https://github.com/hufilter/hufilter-dev/blob/master/sections/
-[sections-readme]: https://github.com/hufilter/hufilter-dev/blob/master/sections/README.md
+[recommended-vscode-extensions]: https://github.com/hufilter/hufilter/blob/master/.vscode/extensions.json
+[sections-directory]: https://github.com/hufilter/hufilter/blob/master/sections/
+[sections-readme]: https://github.com/hufilter/hufilter/blob/master/sections/README.md
 [ubo-filters]: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
 [vscode-download-link]: https://code.visualstudio.com/download

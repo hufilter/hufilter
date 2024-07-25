@@ -29,4 +29,4 @@ You can find documentations for AdGuard filter syntax in the links below:
 [adg-redirects]: https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-redirects.md
 [adg-scriptlets]: https://github.com/AdguardTeam/Scriptlets/blob/master/wiki/about-scriptlets.md#scriptlets
 [adg-url]: https://adguard.com
-[hu-version]: https://github.com/hufilter/hufilter-dev/blob/master/sections/adguard-specific/README.hu.md
+[hu-version]: https://github.com/hufilter/hufilter/blob/master/sections/adguard-specific/README.hu.md

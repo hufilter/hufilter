@@ -84,7 +84,7 @@
 hu##.hird
 hu##.hirdetes
 hu##.hirdetesek
-! https://github.com/hufilter/hufilter-dev/issues/264
+! https://github.com/hufilter/hufilter/issues/264
 hu##.leet_product_banner_container
 hu###hirdetes
 hu###hirdetesek
@@ -175,7 +175,7 @@ bacsmegye.hu##.category-section.ad
 bacsmegye.hu##.minisite
 bacsmegye.hu##[id*="banner"]
 bacsmegye.hu###total
-! https://github.com/hufilter/hufilter-dev/issues/255
+! https://github.com/hufilter/hufilter/issues/255
 baon.hu##iframe[src="https://tunderszepek.baon.hu/tunderszepek-banner"]
 bebiztositva.hu##.widget_media_image
 beol.hu##[class*="adcikk"]
@@ -249,7 +249,7 @@ calculat.org###zadost
 carstyling.com##.banner.boxed
 carstyling.com###article_end_popup
 cartourmagazin.hu##.banneritem
-! https://github.com/hufilter/hufilter-dev/issues/247
+! https://github.com/hufilter/hufilter/issues/247
 cartourmagazin.hu###sp-right>.sp-column>.sp-module.hidden-mobile
 cegbongeszo.hu##[class*="hirdetes"]
 cegbongeszo.hu##[class^="adsense"]
@@ -387,7 +387,7 @@ freemail.hu##.etarget
 freemail.hu##.facebook-layer-box
 freemail.hu##[class*="adbox"]
 freemail.hu##[class*="magnum"]
-! https://github.com/hufilter/hufilter-dev/issues/263
+! https://github.com/hufilter/hufilter/issues/263
 freemail.hu###content-container > div > a:not([class*="MailListItem-"])
 galamus.hu##[class*="banner"]
 gamekapocs.hu###background_ad_top
@@ -427,7 +427,7 @@ hajdupress.hu##.catch-click
 hajdupress.hu##[class*="hirdetes"]
 hajdupress.hu##[id*="banner"]
 hajokonyha.hu##[class*="hirdetes"]
-! https://github.com/hufilter/hufilter-dev/issues/249
+! https://github.com/hufilter/hufilter/issues/249
 hang.hu##.banner-widget-container
 haon.hu##.Ad
 haon.hu##.Clear
@@ -761,7 +761,7 @@ mindenkilapja.hu##[class*="advert"]
 mindmegette.hu##.billboard-cikk
 mindmegette.hu##.hir-fekvo
 mindmegette.hu##[class*="ads_box"]
-! https://github.com/hufilter/hufilter-dev/issues/312
+! https://github.com/hufilter/hufilter/issues/312
 mindmegette.hu#@#[href*="ad.adverticum.net"]
 mindmegette.hu###ad-image-big
 mindmegette.hu###fadeandscale
@@ -793,7 +793,7 @@ mon.hu##.Ad
 mon.hu##[id*="Ad_"]
 mon.hu##[id*="Banner"]
 motorrevu.hu##[class*="hirdetes"]
-! https://github.com/hufilter/hufilter-dev/issues/314
+! https://github.com/hufilter/hufilter/issues/314
 mozinet.me###adserving-tag-hb
 mozinet.me###pa_sticky_ad_box_middle_left
 mozinet.me##iframe[id^="postbid_if_"]
@@ -868,7 +868,7 @@ olcsobbat.hu##[id*="hirdetes"]
 olcsobbat.hu###datasheetNavHelp
 online-filmek.me##.hover_bkgr_fricc
 onlinecegjegyzek.hu##[class*="hirdetes"]
-! https://github.com/hufilter/hufilter-dev/issues/254
+! https://github.com/hufilter/hufilter/issues/254
 onroad.hu##.highlighted-banner
 oprend.hu##[class*="ad-warning"]
 oprend.hu##[class="ad-blocked"]
@@ -981,7 +981,7 @@ sportorvos.hu###text-9
 sportorvos.hu##div.sprtrvs-ad
 sportorvos.hu##div.tt-shortcode-1
 sportorvos.hu##div.tt-shortcode-2
-! https://github.com/hufilter/hufilter-dev/issues/241
+! https://github.com/hufilter/hufilter/issues/241
 starity.hu###menusimple2 + div
 starity.hu##div[style="width:100%;height:14px;text-align:left;font-size:9px;letter-spacing:3px;color:#5F5F5F;border-bottom:1px solid #CCC;margin: 10px 0 5px 0;"]
 starity.hu##script[async] + [data-widget-id]
@@ -1038,7 +1038,7 @@ sztaki.hu###magnum
 sztarklikk.hu##.banner
 tech.hu##[class*="banner"]
 tech.hu##[id*="banner"]
-! https://github.com/hufilter/hufilter-dev/issues/253
+! https://github.com/hufilter/hufilter/issues/253
 telefonguru.hu##[style="height: 250px"]
 telefonkonyv.hu##[class*=" adH"]
 telekom.hu##.ads
@@ -1219,7 +1219,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
-! https://github.com/hufilter/hufilter-dev/issues/172
+! https://github.com/hufilter/hufilter/issues/172
 /dl/cnt/20[^0]\d-\d{2}/\d{4}//$image,domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu
 ||3monkey.lol/vilagunk_640.html$domain=vilagunk.hu
 ||aghtag.tech/libs/projectagora.min.js^$script,domain=gyakorikerdesek.hu|hoxa.hu

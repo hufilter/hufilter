@@ -30,7 +30,7 @@ huaweiblog.hu##+js(set, tie.ad_blocker_detector, undefined)
 karpathir.com##+js(aopw, getComputedStyle)
 magyarhang.org,hang.hu##+js(acis, document.addEventListener, ai_run_)
 magyarhang.org,hang.hu##+js(acis, document.getElementById, ai_run_)
-! https://github.com/hufilter/hufilter-dev/issues/427
+! https://github.com/hufilter/hufilter/issues/427
 myonlineradio.hu##+js(set-cookie.js, stpdsck, 1)
 myonlineradio.hu##+js(cookie-remover, adblock)
 pcworld.hu##+js(rc, have-ad, body)
@@ -45,5 +45,5 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 ! chp-ads-block-detector
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect=noop.txt,domain=cinemo.hu
 ||sovrn.com$xhr,redirect=noop.txt,domain=cinemo.hu
-! https://github.com/hufilter/hufilter-dev/issues/427
+! https://github.com/hufilter/hufilter/issues/427
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=myonlineradio.hu,redirect=noop.js

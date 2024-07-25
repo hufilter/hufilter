@@ -20,7 +20,7 @@ szerkesztőként. Ha a VS Code-ot választod, fontold meg a projekt
 
 ## Projekt beállítása
 
-1. Fork-old a [`hufilter/hufilter-dev`][hufilter-dev-repo] tárolót a GitHub-on.
+1. Fork-old a [`hufilter/hufilter`][hufilter-repo] tárolót a GitHub-on.
 2. Klónozd a fork-olt tárolódat.
 3. Engedélyezd a Corepack-ot a `corepack enable` parancs futtatásával. A Corepack előre telepítve van a Node.js-el,
    így nem kell külön telepítened.
@@ -40,7 +40,7 @@ szerkesztőként. Ha a VS Code-ot választod, fontold meg a projekt
    amelyek tartalmazzák a szűrési szabályokat. A könyvtárstruktúra részleteiért lásd a
    [`sections/README.hu.md`][sections-readme] fájlt.
 3. Commit-old a változtatásaidat, majd push-old őket a forkolt tárolódba.
-4. Hozz létre egy pull request-et a forkolt tárolód megfelelő ágáról a `hufilter/hufilter-dev` tároló `master` ágára.
+4. Hozz létre egy pull request-et a forkolt tárolód megfelelő ágáról a `hufilter/hufilter` tároló `master` ágára.
 5. Várd meg a változtatásaid felülvizsgálatát.
 
 <!--markdownlint-disable MD013-->
@@ -57,10 +57,10 @@ szerkesztőként. Ha a VS Code-ot választod, fontold meg a projekt
 [abp-filters]: https://help.adblockplus.org/hc/en-us/articles/360062733293
 [adg-filters]: https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
 [git-download-link]: https://git-scm.com/downloads
-[hufilter-dev-repo]: https://github.com/hufilter/hufilter-dev
+[hufilter-repo]: https://github.com/hufilter/hufilter
 [nodejs-download-link]: https://nodejs.org/en/download/
-[recommended-vscode-extensions]: https://github.com/hufilter/hufilter-dev/blob/master/.vscode/extensions.json
-[sections-directory]: https://github.com/hufilter/hufilter-dev/blob/master/sections/
-[sections-readme]: https://github.com/hufilter/hufilter-dev/blob/master/sections/README.hu.md
+[recommended-vscode-extensions]: https://github.com/hufilter/hufilter/blob/master/.vscode/extensions.json
+[sections-directory]: https://github.com/hufilter/hufilter/blob/master/sections/
+[sections-readme]: https://github.com/hufilter/hufilter/blob/master/sections/README.hu.md
 [ubo-filters]: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax
 [vscode-download-link]: https://code.visualstudio.com/download
