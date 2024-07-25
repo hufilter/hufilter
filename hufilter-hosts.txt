@@ -1,0 +1,91 @@
+# Checksum: Hup4/FCp3yXlazR1xNls5Q
+# Version: 202407250805
+# Title: Hufilter Hosts file
+# Last modified: 25 Jul 2024 08:05 UTC
+# Expires: 7 days (update frequency)
+# Homepage: https://github.com/hufilter/hufilter/wiki
+# Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
+#
+#---------------------------------------------------------------------------#
+#-------------- Description, Terms of use, Issue management ----------------#
+#---------------------------------------------------------------------------#
+# Hufilter - The Hungarian Adblock List
+# Author: Hufilter Team (https://github.com/hufilter)
+#
+# Please report any unblocked adverts or problems in the GitHub issue tracker.
+# About filter policy and usage terms please see the homepage above.
+# By using the filter you automatically accept the terms of use.
+#
+# Kerjuk, jelentsd a nem blokkolt hirdeteseket vagy a hibakat a GitHub issue trackerben.
+# A szuresi iranyelveket, felhasznalasi felteteleket lasd a fenti honlapon.
+# A szuro hasznalataval automatikusan elfogadod a felhasznalasi felteteleket.
+#
+# GitHub issues: https://github.com/hufilter/hufilter-dev/issues
+# GitHub pull requests: https://github.com/hufilter/hufilter-dev/pulls
+#
+0.0.0.0 ads.nepszava.com
+0.0.0.0 widget.block4d.com
+0.0.0.0 a.adnium.com
+0.0.0.0 ad.depo.hu
+0.0.0.0 ad.gyermekevek.hu
+0.0.0.0 ad.hirekmedia.hu
+0.0.0.0 ad.kapos.hu
+0.0.0.0 ad.love.hu
+0.0.0.0 ad.napilapcsoport.hu
+0.0.0.0 ad.onadozo.hu
+0.0.0.0 ad.parom.hu
+0.0.0.0 ad.pphungary.hu
+0.0.0.0 ad.szexneked.hu
+0.0.0.0 adfair.hu
+0.0.0.0 adfree-stat.p3g.hu
+0.0.0.0 ads.geeks.hu
+0.0.0.0 adv.forpsi.hu
+0.0.0.0 adv.hu
+0.0.0.0 adverbs.napilapcsoport.hu
+0.0.0.0 app.livechatoo.com
+0.0.0.0 audit.median.hu
+0.0.0.0 avatraffic.com
+0.0.0.0 banner.terminal.hu
+0.0.0.0 banner.webtar.hu
+0.0.0.0 bannerzone.agroinform.hu
+0.0.0.0 brostraffic.com
+0.0.0.0 campaign-remp.444.hu
+0.0.0.0 cdn-dynamic.optimonk.com
+0.0.0.0 daserver.ultraweb.hu
+0.0.0.0 et.twyn.com
+0.0.0.0 fourtwentytradingcompany.net
+0.0.0.0 fruitflan.com
+0.0.0.0 iofferphoto.com
+0.0.0.0 loading-delivery2.com
+0.0.0.0 media.netpositive.hu
+0.0.0.0 netadclick.com
+0.0.0.0 netexs.com
+0.0.0.0 new-bigpenn.com
+0.0.0.0 pixel.blog.hu
+0.0.0.0 pixel.sojern.com
+0.0.0.0 rc.rc.hu
+0.0.0.0 rc.rootclick.com
+0.0.0.0 redwolfmoon.com
+0.0.0.0 related.hu
+0.0.0.0 smartcj.com
+0.0.0.0 stat.adultium.com
+0.0.0.0 stats.badoostats.com
+0.0.0.0 syndication.trafficreps.com
+0.0.0.0 up-banner.wavecdn.de
+0.0.0.0 vid4u.org
+0.0.0.0 wstat.ozon.ru
+0.0.0.0 chatrobot.mia.gov.hu
+0.0.0.0 chimpstatic.com
+0.0.0.0 adat.freemail.hu
+0.0.0.0 adtrackeraa.com
+0.0.0.0 beam-tracker.telex.hu
+0.0.0.0 beam.telex.hu
+0.0.0.0 counter.megagroup.ru
+0.0.0.0 doubleclick.net
+0.0.0.0 freestat.hu
+0.0.0.0 gemius.hu
+0.0.0.0 gemius.pl
+0.0.0.0 smartadserver.com
+0.0.0.0 tracker.azet.sk
+0.0.0.0 tracking.binarypromos.com
+0.0.0.0 tracking.tchibo.hu

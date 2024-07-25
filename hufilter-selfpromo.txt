@@ -1,0 +1,83 @@
+[Adblock Plus 2.0]
+! Checksum: JtCgtoYhw2Jr6k26A0DfPw
+! Version: 202407250805
+! Title: Hufilter Self-promotions
+! Last modified: 25 Jul 2024 08:05 UTC
+! Expires: 1 days (update frequency)
+! Homepage: https://github.com/hufilter/hufilter/wiki
+! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
+!
+!---------------------------------------------------------------------------!
+!-------------- Description, Terms of use, Issue management ----------------!
+!---------------------------------------------------------------------------!
+! Hufilter - The Hungarian Adblock List
+! Author: Hufilter Team (https://github.com/hufilter)
+!
+! Please report any unblocked adverts or problems in the GitHub issue tracker.
+! About filter policy and usage terms please see the homepage above.
+! By using the filter you automatically accept the terms of use.
+!
+! Kerjuk, jelentsd a nem blokkolt hirdeteseket vagy a hibakat a GitHub issue trackerben.
+! A szuresi iranyelveket, felhasznalasi felteteleket lasd a fenti honlapon.
+! A szuro hasznalataval automatikusan elfogadod a felhasznalasi felteteleket.
+!
+! GitHub issues: https://github.com/hufilter/hufilter-dev/issues
+! GitHub pull requests: https://github.com/hufilter/hufilter-dev/pulls
+!
+! This section file contains rules for blocking self-promotion and donation requests.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
+! Donate box
+112press.hu###right > .box + .box
+24.hu##.m-donationBottomLine
+24.hu##[class*=szponzibox]
+ado.hu###custom_html-8
+ado.hu##a[href^="https://bit.ly"]
+alza.hu##.info-message
+alza.hu##.ear
+alza.hu##.private-labels
+alza.hu##.trust-bubble--hungary
+automotor.hu##[data-foo="cikk_jobbhasab_"]
+automotor.hu##[data-foo="fooldali_jobbhasab_"]
+bestmarkt.hu##.ddModal
+bookline.hu##.l-container--full
+bookline.hu##a.c-skin--left
+bookline.hu##a.c-skin--right
+hang.hu##.widget-tamogatas-box
+! https://github.com/hufilter/hufilter-dev/issues/252
+infostart.hu##.article>.live-wrapper
+leet.hu###article + #offer
+leet.hu###Leet_cikk_normal_content_1 + section > p:last-of-type
+leet.hu###Leet_cikk_rectangle_right_1 + .featured-product
+magyarnarancs.hu##.d-lg-block.d-none.position-relative.ujsag-wrapper.container > .ujsag
+magyarnarancs.hu##.bg-yellow.text-left
+magyarnarancs.hu##[href^="https://magyarnarancs.us7.list-manage.com/subscribe"]
+magyarnarancs.hu##.text-box
+mandiner.hu##.subscription-box
+mandiner.hu##man-header-magazine
+mandiner.hu##man-newsletter-diverter-card
+napiszex.hu###logo + .partner
+! https://github.com/hufilter/hufilter-dev/issues/254
+onroad.hu##a[href="https://onroad.hu/tamogatas"]
+origo.hu##app-article-page app-sidebar origo-branding-box
+origo.hu##app-article-page app-sidebar origo-newsletter-box
+origo.hu##app-article-page app-sidebar origo-social-media-box
+origo.hu##app-sport-article-page app-sidebar origo-branding-box
+origo.hu##app-sport-article-page app-sidebar origo-newsletter-box
+origo.hu##app-sport-article-page app-sidebar origo-social-media-box
+origo.hu##origo-newsletter-box
+pestisracok.hu###head-wrap + .code-block
+! Article recommender in the forum
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.msg-list > ul > div:not(.media)
+telex.hu###minutes-campaign-container
+telex.hu###minutes-campaign-container-mini
+telex.hu##.fb-box
+telex.hu##.kari
+telex.hu##.modal--overlay
+telex.hu##.support
+telex.hu##.support-box
+totalcar.hu###bannerHeaderLink
+vezess.hu##.katalog
+vezess.hu##.wpb_wrapper > a
