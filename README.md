@@ -21,16 +21,25 @@
 </p>
 <!-- markdownlint-restore -->
 
-# Hufilter development repository
+# Hufilter repository
 
 **🇭🇺 [Kattints ide a magyar nyelvű változatért][hu-version].**
 
-Hufilter is a community project, and it is maintained by volunteers.
+hufilter is a community project aimed at creating and maintaining an adblock filter list that removes ads,
+annoying elements (e.g., cookie notifications, pop-up windows, slide-in recommendations, etc.) from Hungarian language
+websites, and blocks various tracking tools and analytic scripts.
 
-This repository contains the "source code" of the project which is deployed automatically to the
-[`hufilter/hufilter` repository][hufilter-repo] after each commit.
+Technically, hufilter is a `.txt` format rule list that an ad blocker can use to block or modify certain
+content elements on the viewed websites.
 
-If you want to use the filter list, please visit the [`hufilter/hufilter` repository][hufilter-repo] instead.
+This repository contains the "source code" of the project, from which the lists are automatically built and deployed
+after each push on the master branch.
+
+## Filter lists
+
+You can find our filter lists in the following link:
+
+https://hufilter.hu/filters/
 
 ## Contributing
 
@@ -52,7 +61,6 @@ Hufilter is licensed under the "Creative Commons Attribution 4.0" license. You c
 [contributing-guide]: https://github.com/hufilter/hufilter/blob/master/CONTRIBUTING.md
 [hu-version]: https://github.com/hufilter/hufilter/blob/master/README.hu.md
 [hufilter-mail]: mailto:hufilter@protonmail.com
-[hufilter-repo]: https://github.com/hufilter/hufilter
 [license]: https://github.com/hufilter/hufilter/blob/master/LICENSE
 [new-discussion]: https://github.com/hufilter/hufilter/discussions/new/choose
 [new-issue]: https://github.com/hufilter/hufilter/issues/new/

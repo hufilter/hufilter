@@ -22,14 +22,23 @@
 <!-- markdownlint-restore -->
 
 <!-- TODO: Ha találunk valami jó fordítást a "repository" szóra, akkor térjünk át rá később. -->
-# Hufilter fejlesztői repository
+# Hufilter repository
 
-A Hufilter egy önkéntesek által fenntartott közösségi projekt.
+A hufilter egy közösségi projekt, melynek célja egy olyan adblock szűrőlista létrehozása és karbantartása,
+amely a magyar nyelvű weboldalakról eltávolítja a hirdetésket, a zavaró elemeket (pl. cookie értesítőket,
+felugró ablakokat, beúszó ajánlókat, stb.), valamint blokkolja a különböző nyomkövető eszközöket és elemző szkripteket.
 
-Ez a GitHub repository tartalmazza a projekt "forráskódját", amely minden egyes commit után automatikusan a
-[`hufilter/hufilter` repository-ba][hufilter-repo] kerül.
+Technikailag a hufilter egy `.txt` formátumú szabálylista, amelyet egy hirdetésblokkoló használhat a megtekintett
+weboldalakon található bizonyos tartalmi elemek blokkolására vagy módosítására.
 
-Ha használni szeretnéd a szűrőlistát, kérjük, látogass el a [`hufilter/hufilter` repository][hufilter-repo] oldalára.
+Ez a tároló tartalmazza a projekt "forráskódját", amelyből a listákat automatikusan buildeljük és deployoljuk minden
+mester ágra történő push után.
+
+## Szűrőlisták
+
+A szűrőlistáinkat a következő linken találod:
+
+https://hufilter.hu/filters/
 
 ## Hozzájárulás
 
@@ -49,7 +58,6 @@ A Hufilter a "Creative Commons Attribution 4.0" licenc alatt áll. A teljes lice
 
 [contributing-guide]: https://github.com/hufilter/hufilter/blob/master/CONTRIBUTING.hu.md
 [hufilter-mail]: mailto:hufilter@protonmail.com
-[hufilter-repo]: https://github.com/hufilter/hufilter
 [license]: https://github.com/hufilter/hufilter/blob/master/LICENSE
 [new-discussion]: https://github.com/hufilter/hufilter/discussions/new/choose
 [new-issue]: https://github.com/hufilter/hufilter/issues/new/
