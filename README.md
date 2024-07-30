@@ -18,7 +18,7 @@
     <a href="https://github.com/hufilter/hufilter/graphs/contributors" target="_blank"><img src="https://img.shields.io/github/contributors/hufilter/hufilter" alt="GitHub contributors" /></a>
     <a href="https://github.com/hufilter/hufilter/blob/master/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/hufilter/hufilter" alt="License" /></a>
     <a href="https://github.com/hufilter/hufilter/commits/master" target="_blank"><img src="https://img.shields.io/github/last-commit/hufilter/hufilter/master" alt="Last commit" /></a>
-    <img alt="jsDelivr hits (GitHub)" src="https://img.shields.io/jsdelivr/gh/hd/hufilter/hufilter">
+    <a href="https://www.jsdelivr.com/package/gh/hufilter/hufilter?tab=stats" target="_blank"><img alt="jsDelivr hits (GitHub)" src="https://img.shields.io/jsdelivr/gh/hd/hufilter/hufilter"></a>
 </p>
 <!-- markdownlint-restore -->
 
