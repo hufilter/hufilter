@@ -169,8 +169,6 @@ autoszektor.hu##.view-banner-blokkok
 autoszektor.hu###article-2
 autoszektor.hu###block-block-30
 autoszektor.hu###block-block-60
-azonnali.hu##.addd
-azonnali.hu##.bannpos
 bacsmegye.hu##.category-section.ad
 bacsmegye.hu##.minisite
 bacsmegye.hu##[id*="banner"]
@@ -1078,8 +1076,6 @@ transindex.ro##div[id*="anner"]
 transindex.ro##div[id*="Reklam"]
 travelo.hu##[class*="hirdetes"]
 travelo.hu##div.facebook-layer-box
-trollfesz.cc##[id*="float"]
-trollfesz.cc##[src*="/banner/"]
 tudtade.blogstar.hu###lw_bg1
 tudtade.blogstar.hu##div[style^="height:"]
 turizmusonline.hu##[class*="Banner"]
@@ -1231,7 +1227,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||*/empty.json
 ||*/eu-banned-popup/
 
-||0i.hu/files/images/$image
 ||444.hu/*/ease/
 ||ado.hu/banners/$image
 ||ads.nepszava.com^
@@ -1262,7 +1257,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||dijnet.hu/ekonto/images/szolg_logo/adomany_logo.jpg$image
 ||dijnet.hu/ekonto/images/szolg_logo/hu/adomany_logo.jpg$image
 ||duen.hu/*ad
-||eoldal.hu/*eoldal_banner
 ||esport1.hu/banner/$image
 ||est.hu/design/img/szponzoracio/$image
 ||eudomain.eu/ad
@@ -1469,7 +1463,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||klix.hu^$third-party
 ||link.adaptivemedia.hu^$third-party
 ||m2mzona.hu/ads^$third-party
-||match.rundsp.com^$third-party
 ||mytarget.hu^$third-party
 ||napiaszhirdetesek^$third-party
 ||out.pladform.ru^$third-party
