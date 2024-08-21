@@ -1,0 +1,91 @@
+name: Dead Domains Check
+
+env:
+  NODE_VERSION: 20
+
+on:
+  schedule:
+    # Run the job at the first Monday of each month at 8:00 UTC
+    - cron: '0 8 1-7 * 1'
+
+jobs:
+  dead-domains-check:
+    name: Run dead domains check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out to repository
+        uses: actions/checkout@v4
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Run dead domains check
+        run: pnpm dead-domains-linter --export dead-domains.txt
+
+      - name: Report dead domains
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            const deadDomains = fs.readFileSync('dead-domains.txt', 'utf8').split('\n');
+
+            // Add warning to the console
+            for (const domain of deadDomains) {
+              core.warning(`Possible dead domain: ${domain}`);
+            }
+
+            // Open an issue if there are dead domains
+            if (deadDomains.length > 0) {
+              console.log('There are possible dead domains, opening an issue...');
+
+              const title = `Dead domains report for ${new Date().toLocaleString('default', { month: 'long', year: 'numeric' })}`;
+
+              // Close previous issues which have the same title
+              const { data: issues } = await github.rest.issues.listForRepo({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: 'open',
+              });
+
+              const previousIssues = issues.filter((issue) => issue.title === title);
+
+              for (const previousIssue of previousIssues) {
+                console.log(`Closing previous issue #${previousIssue.number}`);
+
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: previousIssue.number,
+                  state: 'closed',
+                });
+              }
+
+              // Create a new issue
+              const { data: issue } = await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body: [
+                  'The following domains are possibly dead:',
+                  '',
+                  '',
+                  `${deadDomains.map((domain) => `- ${domain}`).join('\n')}`,
+                  '',
+                  'Please note that this is an automated report and some low-traffic websites may be incorrectly marked as dead.',
+                  'For more information, see https://github.com/AdguardTeam/DeadDomainsLinter/blob/master/README.md',
+                ].join('\n'),
+                labels: ['dead website'],
+              });
+
+              console.log(`Created issue #${issue.number}`);
+            }
