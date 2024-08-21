@@ -44,32 +44,35 @@ jobs:
               core.warning(`Possible dead domain: ${domain}`);
             }
 
+            const titlePrefix = 'Dead domains report for';
+
+            // Close previous issues which have the same title prefix
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+            });
+
+            const previousIssues = issues.filter((issue) =>
+              issue.title.startsWith(titlePrefix),
+            );
+
+            for (const previousIssue of previousIssues) {
+              console.log(`Closing previous issue #${previousIssue.number}`);
+
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: previousIssue.number,
+                state: 'closed',
+              });
+            }
+
             // Open an issue if there are dead domains
             if (deadDomains.length > 0) {
               console.log('There are possible dead domains, opening an issue...');
 
-              const titlePrefix = 'Dead domains report for';
               const title = `${titlePrefix} ${new Date().toLocaleString('default', { month: 'long', year: 'numeric' })}`;
-
-              // Close previous issues which have the same title prefix
-              const { data: issues } = await github.rest.issues.listForRepo({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                state: 'open',
-              });
-
-              const previousIssues = issues.filter((issue) => issue.title.startsWith(titlePrefix));
-
-              for (const previousIssue of previousIssues) {
-                console.log(`Closing previous issue #${previousIssue.number}`);
-
-                await github.rest.issues.update({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: previousIssue.number,
-                  state: 'closed',
-                });
-              }
 
               // Create a new issue
               const { data: issue } = await github.rest.issues.create({
