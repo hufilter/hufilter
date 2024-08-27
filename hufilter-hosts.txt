@@ -1,7 +1,7 @@
-# Checksum: MhZuP9kMmTA6kQy1fOH6Tw
-# Version: 202407250822
+# Checksum: Fyjrwm71wO3EosyazXI1XA
+# Version: 202408271721
 # Title: Hufilter Hosts file
-# Last modified: 25 Jul 2024 08:22 UTC
+# Last modified: 27 Aug 2024 17:21 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -45,7 +45,6 @@
 0.0.0.0 app.livechatoo.com
 0.0.0.0 audit.median.hu
 0.0.0.0 avatraffic.com
-0.0.0.0 banner.terminal.hu
 0.0.0.0 banner.webtar.hu
 0.0.0.0 bannerzone.agroinform.hu
 0.0.0.0 brostraffic.com

@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: hlJ0jjnr2WQmggzz50ebdw
-! Version: 202408211509
+! Checksum: irloWSnKwuXE29Xl3KZFGw
+! Version: 202408271721
 ! Title: Hufilter for uBO
-! Last modified: 21 Aug 2024 15:09 UTC
+! Last modified: 27 Aug 2024 17:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1068,7 +1068,6 @@ telex.hu##.title-section__sponsored
 teltlanyok.com##[id^="adchange"]
 terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher
-terminal.hu##div[id*="hirdetes"]
 titkokszigete.hu##[style="margin: 8px 0; clear: both;"]
 tlap.hu##[id*="_bnr"]
 topark.hu##.sgpb-popup-dialog-main-div-wrapper
@@ -1420,7 +1419,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||as*.prog.hu^
 ||audit.median.hu^
 ||avatraffic.com^
-||banner.terminal.hu^
 ||banner.webtar.hu^
 ||bannerzone.agroinform.hu^
 ||brostraffic.com^

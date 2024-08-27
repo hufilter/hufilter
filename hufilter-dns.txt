@@ -1,7 +1,7 @@
-! Checksum: 9P8dAH7kD8x2KTwm6Onj4Q
-! Version: 202407250822
+! Checksum: +h2mKfpwnI3VmtP3MYc8Vg
+! Version: 202408271721
 ! Title: Hufilter DNS
-! Last modified: 25 Jul 2024 08:22 UTC
+! Last modified: 27 Aug 2024 17:21 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -45,7 +45,6 @@ adverbs.napilapcsoport.hu
 app.livechatoo.com
 audit.median.hu
 avatraffic.com
-banner.terminal.hu
 banner.webtar.hu
 bannerzone.agroinform.hu
 brostraffic.com

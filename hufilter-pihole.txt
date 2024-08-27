@@ -1,7 +1,7 @@
-# Checksum: w0xsfdUTXFjcH8Bec5l2Wg
-# Version: 202407250822
+# Checksum: VgeimTdw7JEQ0ENpYfYfEA
+# Version: 202408271721
 # Title: Hufilter Pi-hole
-# Last modified: 25 Jul 2024 08:22 UTC
+# Last modified: 27 Aug 2024 17:21 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -45,7 +45,6 @@ adverbs.napilapcsoport.hu
 app.livechatoo.com
 audit.median.hu
 avatraffic.com
-banner.terminal.hu
 banner.webtar.hu
 bannerzone.agroinform.hu
 brostraffic.com
