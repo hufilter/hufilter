@@ -167,7 +167,7 @@ jobs:
           branch_name="fix/dead-domains-${{ steps.open-issue.outputs.issue_number }}"
           git checkout -b $branch_name
 
-          echo "::set-output name=branch_name::$branch_name"
+          echo "branch_name=$branch_name" >> $GITHUB_OUTPUT
 
       - name: Perform the automated fix
         if: steps.read-dead-domains.outputs.has_dead_domains
