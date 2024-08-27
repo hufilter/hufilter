@@ -1047,7 +1047,6 @@ telex.hu##.title-section__sponsored
 teltlanyok.com##[id^="adchange"]
 terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher
-terminal.hu##div[id*="hirdetes"]
 titkokszigete.hu##[style="margin: 8px 0; clear: both;"]
 tlap.hu##[id*="_bnr"]
 topark.hu##.sgpb-popup-dialog-main-div-wrapper
@@ -1404,7 +1403,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||as*.prog.hu^
 ||audit.median.hu^
 ||avatraffic.com^
-||banner.terminal.hu^
 ||banner.webtar.hu^
 ||bannerzone.agroinform.hu^
 ||brostraffic.com^
