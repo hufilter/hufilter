@@ -53,7 +53,7 @@ jobs:
               core.warning(`Possible dead domain: ${domain}`);
             }
 
-            core.setOutput('has_dead_domains', deadDomains.length > 0);
+            core.setOutput('has_dead_domains', deadDomains.length > 0 ? 'true' : 'false');
             core.setOutput('dead_domains', deadDomains);
 
       - name: Close previous issue(s)
@@ -129,7 +129,7 @@ jobs:
             }
 
       - name: Open an issue if there are dead domains
-        if: steps.read-dead-domains.outputs.has_dead_domains
+        if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         id: open-issue
         uses: actions/github-script@v7
         with:
@@ -161,7 +161,7 @@ jobs:
             core.info(`Issue #${issue.number} opened (${title})`);
 
       - name: Create a new branch for the automated fix
-        if: steps.read-dead-domains.outputs.has_dead_domains
+        if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         id: create-branch
         run: |
           branch_name="fix/dead-domains-${{ steps.open-issue.outputs.issue_number }}"
@@ -170,12 +170,12 @@ jobs:
           echo "branch_name=$branch_name" >> $GITHUB_OUTPUT
 
       - name: Perform the automated fix
-        if: steps.read-dead-domains.outputs.has_dead_domains
+        if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
           pnpm dead-domains-linter --auto --import dead-domains.txt
 
       - name: Stage changes for the automated fix
-        if: steps.read-dead-domains.outputs.has_dead_domains
+        if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -188,13 +188,13 @@ jobs:
           git add -A
 
       - name: Commit and push the automated fix
-        if: steps.read-dead-domains.outputs.has_dead_domains
+        if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         run: |
           git commit -m "Automated dead domains fix (#${{ steps.open-issue.outputs.issue_number }})"
           git push --set-upstream origin ${{ steps.create-branch.outputs.branch_name }}
 
       - name: Create a pull request for the automated fix
-        if: steps.read-dead-domains.outputs.has_dead_domains
+        if: steps.read-dead-domains.outputs.has_dead_domains == 'true'
         uses: actions/github-script@v7
         with:
           script: |
