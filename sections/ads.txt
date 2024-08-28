@@ -273,12 +273,13 @@ csupasport.hu###fadeandscale_wrapper
 cyberpress.hu##.sb-right > div:first-child
 data.hu###banner_sav
 data.hu##DIV[id*="banner"]
+dehir.hu###headerBanner
+dehir.hu##.bannerContent
 dehir.hu##.col-md-4.blog-sidebar:nth-child(even)
 dehir.hu##.slidingBanner
 dehir.hu##.tablet-advert
 dehir.hu##.totop
 dehir.hu##.widgetDefault
-dehir.hu###headerBanner
 delmagyar.hu##.billboard
 delmagyar.hu##[class*="advert"]
 delmagyar.hu##[class*="Advert"]
