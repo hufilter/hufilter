@@ -224,6 +224,9 @@ jobs:
           echo "Adding updated filter lists..."
           git add -f hufilter*.txt
 
+          echo "Adding index file..."
+          git add -f index.html
+
           echo "Committing changes..."
           git commit -a -m "${{ env.COMMIT_MESSAGE }}"
 
