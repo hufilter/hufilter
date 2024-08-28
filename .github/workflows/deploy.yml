@@ -163,6 +163,54 @@ jobs:
               echo "There are some changes for filter lists, so we need to commit them."
           fi
 
+      - name: Generate file index for filter lists
+        if: env.NO_FILTER_LIST_CHANGES != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { readdir, stat, writeFile } = require('fs').promises;
+            const { join } = require('path');
+
+            const WORKING_DIR = './hufilter-gh-pages';
+            const TITLE = 'Index of filter lists';
+            const HTML_TEMPLATE = `<!DOCTYPE html>
+            <html>
+                <head>
+                    <title>${TITLE}</title>
+                </head>
+                <body>
+                    <h1>${TITLE}</h1>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Size</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {{TABLE_ROWS}}
+                        </tbody>
+                    </table>
+                </body>
+            </html>`;
+
+            ;(async () => {
+                const files = await readdir(WORKING_DIR);
+                const txtFiles = files.filter((file) => file.endsWith('.txt'));
+
+                const listItems = txtFiles.map(async (file) => {
+                    const { size } = await stat(join(WORKING_DIR, file));
+                    const sizeInKb = (size / 1024).toFixed(2);
+
+                    return `<tr><td><a href="${file}">${file}</a></td><td>${sizeInKb} kB</td></tr>`;
+                });
+
+                const list = await Promise.all(listItems);
+                const html = HTML_TEMPLATE.replace('{{TABLE_ROWS}}', list.join(''));
+
+                await writeFile(join(WORKING_DIR, 'index.html'), html);
+            })();
+
       - name: Commit filter list changes
         if: env.NO_FILTER_LIST_CHANGES != 'true'
         run: |
