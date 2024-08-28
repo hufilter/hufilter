@@ -15,6 +15,7 @@ on:
       - filters.json
       - sections/**.txt
       - sections/headers/**.txt
+      - .github/workflows/deploy.yml
   workflow_dispatch:
 
 # Make sure that only one deploy job runs at a time. For example, if we merge
