@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8nFiLD0n8CSbCI2cUCaYGg
-! Version: 202408271721
+! Checksum: ZdSRZqdu1oEkj21O8cw9dg
+! Version: 202408281318
 ! Title: Hufilter Basic
-! Last modified: 27 Aug 2024 17:21 UTC
+! Last modified: 28 Aug 2024 13:18 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -294,12 +294,13 @@ csupasport.hu###fadeandscale_wrapper
 cyberpress.hu##.sb-right > div:first-child
 data.hu###banner_sav
 data.hu##DIV[id*="banner"]
+dehir.hu###headerBanner
+dehir.hu##.bannerContent
 dehir.hu##.col-md-4.blog-sidebar:nth-child(even)
 dehir.hu##.slidingBanner
 dehir.hu##.tablet-advert
 dehir.hu##.totop
 dehir.hu##.widgetDefault
-dehir.hu###headerBanner
 delmagyar.hu##.billboard
 delmagyar.hu##[class*="advert"]
 delmagyar.hu##[class*="Advert"]
