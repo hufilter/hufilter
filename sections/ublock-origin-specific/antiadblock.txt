@@ -31,6 +31,7 @@ karpathir.com##+js(aopw, getComputedStyle)
 magyarhang.org,hang.hu##+js(acis, document.addEventListener, ai_run_)
 magyarhang.org,hang.hu##+js(acis, document.getElementById, ai_run_)
 ! https://github.com/hufilter/hufilter/issues/427
+myonlineradio.hu##+js(set, ENABLE_PAGE_LEVEL_ADS, true)
 myonlineradio.hu##+js(set-cookie.js, stpdsck, 1)
 myonlineradio.hu##+js(cookie-remover, adblock)
 pcworld.hu##+js(rc, have-ad, body)
