@@ -1,7 +1,7 @@
-# Checksum: VgeimTdw7JEQ0ENpYfYfEA
-# Version: 202408271721
+# Checksum: nb0L36eZMXtvB3rFliEAaA
+# Version: 202409101625
 # Title: Hufilter Pi-hole
-# Last modified: 27 Aug 2024 17:21 UTC
+# Last modified: 10 Sep 2024 16:25 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -23,7 +23,6 @@
 # GitHub issues: https://github.com/hufilter/hufilter/issues
 # GitHub pull requests: https://github.com/hufilter/hufilter/pulls
 #
-ads.nepszava.com
 widget.block4d.com
 a.adnium.com
 ad.depo.hu
