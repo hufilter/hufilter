@@ -1229,7 +1229,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 
 ||444.hu/*/ease/
 ||ado.hu/banners/$image
-||ads.nepszava.com^
 ||affiliate.hu$subdocument
 ||affiliation.arukereso.hu/pbox/
 ||alfahir.hu^*/hirdetesfoto/$image
