@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: ydP87dM6uWd2VH/BiBWokQ
-! Version: 202408281323
+! Checksum: gpX/6oviTm3nf1g5q7syMQ
+! Version: 202409101328
 ! Title: Hufilter for uBO
-! Last modified: 28 Aug 2024 13:23 UTC
+! Last modified: 10 Sep 2024 13:28 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1967,6 +1967,7 @@ karpathir.com##+js(aopw, getComputedStyle)
 magyarhang.org,hang.hu##+js(acis, document.addEventListener, ai_run_)
 magyarhang.org,hang.hu##+js(acis, document.getElementById, ai_run_)
 ! https://github.com/hufilter/hufilter/issues/427
+myonlineradio.hu##+js(set, ENABLE_PAGE_LEVEL_ADS, true)
 myonlineradio.hu##+js(set-cookie.js, stpdsck, 1)
 myonlineradio.hu##+js(cookie-remover, adblock)
 pcworld.hu##+js(rc, have-ad, body)

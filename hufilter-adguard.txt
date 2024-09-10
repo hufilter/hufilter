@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: UuLW5shLbYRFYxckaMiwsg
-! Version: 202408281323
+! Checksum: 3fQGo1GKvR0bd3aaj1dEVQ
+! Version: 202409101328
 ! Title: Hufilter for AdGuard
-! Last modified: 28 Aug 2024 13:23 UTC
+! Last modified: 10 Sep 2024 13:28 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1970,6 +1970,7 @@ karpathir.com#%#//scriptlet('abort-on-property-write', 'getComputedStyle')
 magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', 'ai_run_')
 magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'ai_run_')
 ! https://github.com/hufilter/hufilter/issues/427
+myonlineradio.hu#%#//scriptlet('set-constant', 'ENABLE_PAGE_LEVEL_ADS', 'true')
 myonlineradio.hu#%#//scriptlet('trusted-set-cookie', 'stpdsck', '1')
 $cookie=adblock,domain=myonlineradio.hu
 pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')
