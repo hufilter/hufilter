@@ -14,6 +14,8 @@ jofogas.hu##+js(nostif, E(!1))
 myonlineradio.hu##.topHorizontalBanner
 myonlineradio.hu#$#._bannerTop1:style(background-color: transparent !important;)
 startlap.hu##div.container.banner-container.wide:style(min-height: 0 !important; height: auto !important;)
+dehir.hu###popupFrontPageBanner-modal:style(display: none !important;)
+dehir.hu##body:style(overflow: auto !important;)
 
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!

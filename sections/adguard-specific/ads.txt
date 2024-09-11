@@ -12,6 +12,8 @@ jofogas.hu#%#//scriptlet('prevent-setTimeout', 'E(!1)')
 myonlineradio.hu#$#._bannerTop1 { background-color: transparent !important; }
 myonlineradio.hu#$#.topHorizontalBanner { position: absolute !important; left: -3000px !important; }
 startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; height: auto !important; }
+dehir.hu#$##popupFrontPageBanner-modal { display: none !important; }
+dehir.hu#$#body { overflow: auto !important; }
 
 ! https://github.com/hufilter/hufilter/issues/440
 ! https://github.com/hufilter/hufilter/pulls/452
