@@ -22,7 +22,7 @@
     "*.md": "markdownlint"
   },
   "devDependencies": {
-    "@adguard/aglint": "^2.0.8",
+    "@adguard/aglint": "^2.1.0",
     "@adguard/dead-domains-linter": "^1.0.19",
     "dateformat": "^4.6.3",
     "husky": "^9.0.7",
