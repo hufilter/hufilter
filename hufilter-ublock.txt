@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: kmM4ZYlS3o7CgyalMiQl8A
-! Version: 202409101625
+! Checksum: XDlvdI+fHl8UDyGAWC/xqg
+! Version: 202409111736
 ! Title: Hufilter for uBO
-! Last modified: 10 Sep 2024 16:25 UTC
+! Last modified: 11 Sep 2024 17:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1888,6 +1888,8 @@ jofogas.hu##+js(nostif, E(!1))
 myonlineradio.hu##.topHorizontalBanner
 myonlineradio.hu#$#._bannerTop1:style(background-color: transparent !important;)
 startlap.hu##div.container.banner-container.wide:style(min-height: 0 !important; height: auto !important;)
+dehir.hu###popupFrontPageBanner-modal:style(display: none !important;)
+dehir.hu##body:style(overflow: auto !important;)
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!

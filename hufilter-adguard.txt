@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: Jescdf8arGKGmoaNvEm/ww
-! Version: 202409101625
+! Checksum: gDfuJ0NTtkm3I2VMk2moVg
+! Version: 202409111736
 ! Title: Hufilter for AdGuard
-! Last modified: 10 Sep 2024 16:25 UTC
+! Last modified: 11 Sep 2024 17:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1886,6 +1886,8 @@ jofogas.hu#%#//scriptlet('prevent-setTimeout', 'E(!1)')
 myonlineradio.hu#$#._bannerTop1 { background-color: transparent !important; }
 myonlineradio.hu#$#.topHorizontalBanner { position: absolute !important; left: -3000px !important; }
 startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; height: auto !important; }
+dehir.hu#$##popupFrontPageBanner-modal { display: none !important; }
+dehir.hu#$#body { overflow: auto !important; }
 ! https://github.com/hufilter/hufilter/issues/440
 ! https://github.com/hufilter/hufilter/pulls/452
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
