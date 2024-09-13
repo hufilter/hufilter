@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: Zfo36ptNpf7lhVhqrxixBg
-! Version: 202409111839
+! Checksum: 18iPH7fYpAVGyK9Ucldljw
+! Version: 202409131437
 ! Title: Hufilter for uBO
-! Last modified: 11 Sep 2024 18:39 UTC
+! Last modified: 13 Sep 2024 14:37 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -295,6 +295,7 @@ cyberpress.hu##.sb-right > div:first-child
 data.hu###banner_sav
 data.hu##div[id*="banner"]
 dehir.hu###headerBanner
+dehir.hu###popupContentBanner-modal
 dehir.hu##.bannerContent
 dehir.hu##.col-md-4.blog-sidebar:nth-child(even)
 dehir.hu##.slidingBanner
