@@ -274,6 +274,7 @@ cyberpress.hu##.sb-right > div:first-child
 data.hu###banner_sav
 data.hu##div[id*="banner"]
 dehir.hu###headerBanner
+dehir.hu###popupContentBanner-modal
 dehir.hu##.bannerContent
 dehir.hu##.col-md-4.blog-sidebar:nth-child(even)
 dehir.hu##.slidingBanner
