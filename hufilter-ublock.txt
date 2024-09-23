@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 18iPH7fYpAVGyK9Ucldljw
-! Version: 202409131437
+! Checksum: u50c90FYvWhplTiqzfvFgg
+! Version: 202409230833
 ! Title: Hufilter for uBO
-! Last modified: 13 Sep 2024 14:37 UTC
+! Last modified: 23 Sep 2024 08:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -718,9 +718,6 @@ life.hu###top
 life.hu##div.article-recommendation-zones
 life.hu##div[class*="etarget"]
 life.hu##div[class$="widget"]
-lifemagazin.hu##[class*="banner"]
-lifemagazin.hu##[id*="banner"]
-lifemagazin.hu###page-top
 liked.hu##.cikkhirdetes
 liked.hu##.hirdetes
 liked.hu##.sticky1hirdet
@@ -1328,7 +1325,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||lapok.hu/felso/felso.php
 ||libri.hu/export/prodBann/
 ||libri.hu/html/images/skin/$image
-||lifemagazin.hu/ads/
 ||lolmarkt.hu/banner/$image
 ||love.hu/design/*hirdetes*.
 ||magyar-elektronika.hu/images/banners/$image
