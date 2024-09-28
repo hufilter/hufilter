@@ -373,6 +373,7 @@ figyelo.hu##[class*="banner"]
 filmoldal.hu##div[class*="reklam"]
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[href^="https://rosszlanyok.hu/"]
+foodora.hu##.partnership-ads
 forbes.hu##div[id^="forbesad"]
 forbes.hu##p + [class*="-bekezdes-utan-"]
 forum.index.hu###ot2015
