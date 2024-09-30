@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: KgeMzkUSZclFtinsKlM7Rg
-! Version: 202409301611
+! Checksum: vToyiuY9AW1aTgfgY8AswQ
+! Version: 202409301620
 ! Title: Hufilter for uBO
-! Last modified: 30 Sep 2024 16:11 UTC
+! Last modified: 30 Sep 2024 16:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1808,8 +1808,6 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113211
 @@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
 @@||assets.portfolio.hu/js/ad_300x250.js$script,domain=portfolio.hu
-! made by https://github.com/mapx-
-@@||js.srvtrck.com/v1/js?api_key$xhr,domain=online-filmek.ac
 !-------------------------------------------------------------------------------!
 !------ Generic network filters ------------------------------------------------!
 !-------------------------------------------------------------------------------!
@@ -1972,6 +1970,8 @@ myonlineradio.hu##+js(cookie-remover, adblock)
 pcworld.hu##+js(rc, have-ad, body)
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu##+js(aopw, document.body.style)
+! https://github.com/uBlockOrigin/uAssets/issues/25482
+online-filmek.ac##+js(no-fetch-if, api)
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!

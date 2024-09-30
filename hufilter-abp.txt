@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WSmD5mShicBkaqY/3HPESw
-! Version: 202409301611
+! Checksum: 5lsH7ukaMmeyrGCZyQ9YBg
+! Version: 202409301620
 ! Title: Hufilter for ABP
-! Last modified: 30 Sep 2024 16:11 UTC
+! Last modified: 30 Sep 2024 16:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1808,8 +1808,6 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/113211
 @@/js/adx_blacklist.js$script,domain=bikemag.hu|testbike.hu
 @@||assets.portfolio.hu/js/ad_300x250.js$script,domain=portfolio.hu
-! made by https://github.com/mapx-
-@@||js.srvtrck.com/v1/js?api_key$xhr,domain=online-filmek.ac
 !-------------------------------------------------------------------------------!
 !------ Generic network filters ------------------------------------------------!
 !-------------------------------------------------------------------------------!
@@ -1896,6 +1894,8 @@ port.hu#$#abort-on-property-write document.body.style
 ! chp-ads-block-detector
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu
 ||sovrn.com$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu
+! https://github.com/uBlockOrigin/uAssets/issues/25482
+@@||js.srvtrck.com/v1/js?api_key$xmlhttprequest,domain=online-filmek.ac
 ! This section file contains rules for fixing breaking sites. For example:
 ! - Layout issues
 ! - Broken scripts
