@@ -23,3 +23,5 @@ port.hu#$#abort-on-property-write document.body.style
 ! chp-ads-block-detector
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu
 ||sovrn.com$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu
+! https://github.com/uBlockOrigin/uAssets/issues/25482
+@@||js.srvtrck.com/v1/js?api_key$xmlhttprequest,domain=online-filmek.ac
