@@ -1247,7 +1247,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||blog.hu/pixel
 ||borsonline.hu/*hirdetes
 ||cegmarketing.hu/banner
-||cfusion-internet.com/contents/
+||cfusion-internet.com^$third-party
 ||chat.hu/Client/banner
 ||chat.hu/imgadverts$image
 ||cosmopolitan.hu/*/sponsor/
