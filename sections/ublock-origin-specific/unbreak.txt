@@ -43,7 +43,6 @@ keol.hu##section[id="content_left"][class="content_content"]:style(width: auto !
 keol.hu##section[id="content_left"][class="content_start"]:style(padding-top: 80px !important;)
 magyarhirlap.hu##header .container:style(padding: 10px 10px 0 10px !important;)
 mandiner.hu##.raw-html-embed:style(min-height: auto !important;)
-mkb.hu##html,body:style(overflow:auto !important)
 ! https://github.com/hufilter/hufilter/issues/427
 ! Fix large space at the top of the page on desktop
 myonlineradio.hu##.isSubPage._bannerTop1:matches-media((min-width: 1200px)):style(height: 90px !important;)

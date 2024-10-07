@@ -1378,13 +1378,11 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 
 ||widget.block4d.com^
 ||a.adnium.com^
-||ad.depo.hu^
 ||ad.gyermekevek.hu^
 ||ad.hirekmedia.hu^
 ||ad.kapos.hu^
 ||ad.love.hu^
 ||ad.napilapcsoport.hu^
-||ad.onadozo.hu^
 ||ad.parom.hu^
 ||ad.pphungary.hu^
 ||ad.szexneked.hu^
@@ -1439,8 +1437,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ad.hu^$third-party
 ||ad4mat.net^$third-party
 ||adfox.ru^$third-party
-||ads.sg.hu^$third-party
-||ads.ventivmedia.com^$third-party
 ||advantage.as^$third-party
 ||advertshot.ru^$third-party
 ||affiliate.hu^$third-party
