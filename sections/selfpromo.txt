@@ -10,6 +10,7 @@
 112press.hu###right > .box + .box
 24.hu##.m-donationBottomLine
 24.hu##[class*=szponzibox]
+24.hu##[id^="remp-banner-"]
 ado.hu###custom_html-8
 ado.hu##a[href^="https://bit.ly"]
 alza.hu##.info-message
