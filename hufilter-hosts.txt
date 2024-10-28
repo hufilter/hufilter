@@ -1,7 +1,7 @@
-# Checksum: PiiAtx+WcFVjvTu0NyrlYg
-# Version: 202409101625
+# Checksum: FTTXNqFPIcieMRxq+SyXLQ
+# Version: 202410281010
 # Title: Hufilter Hosts file
-# Last modified: 10 Sep 2024 16:25 UTC
+# Last modified: 28 Oct 2024 10:10 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -83,6 +83,7 @@
 0.0.0.0 freestat.hu
 0.0.0.0 gemius.hu
 0.0.0.0 gemius.pl
+0.0.0.0 px.blog.hu
 0.0.0.0 smartadserver.com
 0.0.0.0 tracker.azet.sk
 0.0.0.0 tracking.binarypromos.com

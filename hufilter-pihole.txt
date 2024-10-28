@@ -1,7 +1,7 @@
-# Checksum: nb0L36eZMXtvB3rFliEAaA
-# Version: 202409101625
+# Checksum: 1f29fyzvl8lF5J2+ZMNgvw
+# Version: 202410281010
 # Title: Hufilter Pi-hole
-# Last modified: 10 Sep 2024 16:25 UTC
+# Last modified: 28 Oct 2024 10:10 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -83,6 +83,7 @@ doubleclick.net
 freestat.hu
 gemius.hu
 gemius.pl
+px.blog.hu
 smartadserver.com
 tracker.azet.sk
 tracking.binarypromos.com
