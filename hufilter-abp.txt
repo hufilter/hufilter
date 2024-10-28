@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: lHNOjgQ7EUsWMCUna7Yv3Q
-! Version: 202410010856
+! Checksum: yX+3XSTZT43vIF9JNmPQUQ
+! Version: 202410281002
 ! Title: Hufilter for ABP
-! Last modified: 01 Oct 2024 08:56 UTC
+! Last modified: 28 Oct 2024 10:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -757,7 +757,6 @@ magyarszo.com##[class*="reklam"]
 magyarszo.com##[id*="reklam"]
 mainap.hu##[class*="banner"]
 mandiner.hu##.real-estate-wrapper
-manus.hu##[class*="articleBanner"]
 marmalade.hu##[class*="Banner"]
 maszol.ro###article > section > div:not(.article_content)
 mavcsoport.hu###cboxOverlay
