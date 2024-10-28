@@ -33,6 +33,8 @@
 ||freestat.hu^
 ||gemius.hu^
 ||gemius.pl^
+! https://github.com/hufilter/hufilter/issues/480
+||px.blog.hu^
 ||smartadserver.com^
 ||tracker.azet.sk^
 ||tracking.binarypromos.com^
