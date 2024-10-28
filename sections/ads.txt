@@ -736,7 +736,6 @@ magyarszo.com##[class*="reklam"]
 magyarszo.com##[id*="reklam"]
 mainap.hu##[class*="banner"]
 mandiner.hu##.real-estate-wrapper
-manus.hu##[class*="articleBanner"]
 marmalade.hu##[class*="Banner"]
 maszol.ro###article > section > div:not(.article_content)
 mavcsoport.hu###cboxOverlay
