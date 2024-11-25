@@ -30,7 +30,6 @@
 ||beam.telex.hu^
 ||counter.megagroup.ru^
 ||doubleclick.net^
-||freestat.hu^
 ||gemius.hu^
 ||gemius.pl^
 ! https://github.com/hufilter/hufilter/issues/480
