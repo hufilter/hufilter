@@ -6,6 +6,8 @@
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+dizajnkonyha.hu##body > div[data-elementor-type="footer"] ~ div[id][class*=" "]
+
 rtl.hu##.adblock-confirm
 
 777blog.hu##[href="https://777blog.hu/reklamblokkolo-kikapcsolasa/"]
