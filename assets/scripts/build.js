@@ -60,6 +60,13 @@ buildFilters = async () => {
             : domains
         ).join("\n");
       }
+      // Remove empty lines
+      const strippedFilters =
+        content
+          .split(/\r?\n/)
+          .filter((line) => line.replace("!", "").trim().length > 0)
+          .join("\n") +
+        "\n";
       // Header attributes
       if (headerContent.length) {
         // Versions
@@ -67,17 +74,10 @@ buildFilters = async () => {
         headerContent = headerContent.replace(/#LAST_MODIFIED#/, lastModified);
         headerContent = headerContent.replace(/#TITLE#/, filter.title || "hufilter");
         // Checksum
-        const checksum = calculateChecksum(headerContent + content);
+        const checksum = await calculateChecksum(headerContent + strippedFilters);
         headerContent = headerContent.replace(/#CHECKSUM#/, checksum);
       }
-      // Remove empty lines
-      const fileContent =
-        headerContent +
-        content
-          .split(/\r?\n/)
-          .filter((line) => line.replace("!", "").trim().length > 0)
-          .join("\n") +
-        "\n";
+      const fileContent = headerContent + strippedFilters;
       // Write output
       await fs.writeFile(
         path.join(__dirname, `../../dist/${filter.output}`),
