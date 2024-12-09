@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pgRFnyql9/VeTaaeOO/nmQ
-! Version: 202412020909
+! Checksum: VRGcDs2c7kAmqMeko8bZ8w
+! Version: 202412091130
 ! Title: Hufilter Basic
-! Last modified: 02 Dec 2024 09:09 UTC
+! Last modified: 09 Dec 2024 11:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -360,7 +360,6 @@ eletmod.hu##[id*="banner"]
 eletmod.hu##[id*="etarget"]
 epresso.hu##[class*="banner"]
 eredmenyek.com###onetrust-banner-sdk
-eron.hu##[id*="banner"]
 eropolis.hu##[class*="banner"]
 es.hu##[class*="banner"]
 es.hu##[id*="banner"]
