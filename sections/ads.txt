@@ -1329,7 +1329,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||okmanyiroda.hu/banner.html
 ||p3k.hu/*_hatter*.$image
 ||p3k.hu/*szponz*.
-||partyzoo.hu/banner/$image
 ||pcguru.hu/uploads/banners/*.jpg$image
 ||pcpult.hu/*/banner/$image
 ||pcworld.hu/bannerek/$image
