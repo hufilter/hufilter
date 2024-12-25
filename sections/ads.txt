@@ -1323,7 +1323,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||napidroid.hu/*/*logo$image
 ||napocska.hu/images/*_advert*.$image
 ||net-solutions.hu/banner/$image
-||new-game-everyday.online^$popup
 ||noplaza.hu/banner/$image
 ||nso.hu/*/sponsoration/*.
 ||okmanyiroda.hu/banner.html
