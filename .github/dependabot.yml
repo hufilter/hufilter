@@ -7,8 +7,7 @@ updates:
       interval: "daily"
 
   # Maintain dependencies for npm
-  # TODO: Re-enable after we updated the tooling
-  # - package-ecosystem: "npm"
-  #   directory: "/"
-  #   schedule:
-  #     interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
