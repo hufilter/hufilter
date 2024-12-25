@@ -1,7 +1,6 @@
 name: Update Contributors
 
 env:
-  NODE_VERSION: 20
   COMMIT_AUTHOR_NAME: hufilterbot
   COMMIT_AUTHOR_EMAIL: hufilter@protonmail.com
   COMMIT_MESSAGE: '[skip ci] Automatic update of contributors in package.json'
@@ -22,7 +21,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version-file: package.json
 
       - name: Get contributors
         id: get-contributors

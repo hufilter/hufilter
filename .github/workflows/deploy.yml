@@ -1,7 +1,6 @@
 name: Deploy
 
 env:
-  NODE_VERSION: 20
   COMMIT_AUTHOR_NAME: hufilterbot
   COMMIT_AUTHOR_EMAIL: hufilter@protonmail.com
   COMMIT_MESSAGE: Automatic deploy from $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/commit/$GITHUB_SHA
@@ -46,7 +45,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          node-version-file: package.json
           cache: pnpm
 
       - name: Install dependencies

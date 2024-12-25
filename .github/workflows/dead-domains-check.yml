@@ -1,8 +1,5 @@
 name: Dead Domains Check
 
-env:
-  NODE_VERSION: 20
-
 on:
   schedule:
     # Run the job on every Monday at 8:00 AM UTC
@@ -28,7 +25,9 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ env.NODE_VERSION }}
+          # Read the Node.js version from the package.json file
+          # If you want to use a specific version, you can set it here by using the "node-version" input instead
+          node-version-file: package.json
           cache: pnpm
 
       - name: Install dependencies
