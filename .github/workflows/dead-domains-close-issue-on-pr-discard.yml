@@ -19,7 +19,20 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const pr = context.payload.pull_request;
+            // This workflow re-fetches the pull request data because the initial payload may contain outdated information.
+            // GitHub requires some time to update the merged status, so this step ensures we have the most current data.
+            const { owner, repo } = context.repo;
+
+            const { data: pr } = await github.rest.pulls.get({
+              owner,
+              repo,
+              pull_number: context.payload.pull_request.number,
+            });
+
+            if (pr.merged) {
+              console.log('PR was merged, no need to close linked issues with GitHub Actions.');
+              return;
+            }
 
             const { repository } = await github.graphql(
               `query ($owner: String!, $repo: String!, $number: Int!) {
