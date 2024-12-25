@@ -3,7 +3,9 @@
 **🇭🇺 [Kattints ide a magyar nyelvű változatért][hu-version].**
 
 This directory contains the rules that are specific to
-<img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin][ubo-url].
+<!--markdownlint-disable MD013-->
+<img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px" alt="uBlock Origin logo"> [uBlock Origin][ubo-url].
+<!--markdownlint-enable MD013-->
 
 ## Documentations
 
@@ -11,13 +13,13 @@ You can find documentations for uBlock Origin filter syntax in the links below:
 
 <!--markdownlint-disable MD013-->
 - Syntax documentation:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin: *Static filter syntax*][ubo-filters]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px" alt="uBlock Origin logo"> [uBlock Origin: *Static filter syntax*][ubo-filters]
 - Extended CSS documentation:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin: *Procedural cosmetic filters*][ubo-procedural]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px" alt="uBlock Origin logo"> [uBlock Origin: *Procedural cosmetic filters*][ubo-procedural]
 - Scriptlet resources:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin scriptlets][ubo-scriptlets]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px" alt="uBlock Origin logo"> [uBlock Origin scriptlets][ubo-scriptlets]
 - Redirect resources:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin redirects][ubo-redirects]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px" alt="uBlock Origin logo"> [uBlock Origin redirects][ubo-redirects]
 <!--markdownlint-enable MD013-->
 
 [hu-version]: https://github.com/hufilter/hufilter/blob/master/sections/ublock-origin-specific/README.hu.md

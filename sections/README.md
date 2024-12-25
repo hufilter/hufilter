@@ -7,9 +7,11 @@ the filter lists based on the [`filters.json`][filters-json] file.
 
 Hufilter supports the following adblockers:
 
-- <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard][adg-url]
-- <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus][abp-url]
-- <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin][ubo-url]
+<!--markdownlint-disable MD013-->
+- <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px" alt="Adblock Plus logo">[AdGuard][adg-url]
+- <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px" alt="AdGuard logo"> [Adblock Plus][abp-url]
+- <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px" alt="uBlock Origin logo"> [uBlock Origin][ubo-url]
+<!--markdownlint-enable MD013-->
 
 ## Common and adblocker-specific rules
 

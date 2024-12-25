@@ -47,9 +47,9 @@ szerkesztőként. Ha a VS Code-ot választod, fontold meg a projekt
 > [!TIP]
 > Ha még nem vagy jártas a szűrőszabályok szintaxisában, nézd meg az alábbi dokumentációkat:
 >
-> - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus: *How to write filters*][abp-filters]
-> - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard: *How to create your own ad filters*][adg-filters]
-> - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin: *Static filter syntax*][ubo-filters]
+> - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px" alt="Adblock Plus logo"> [Adblock Plus: *How to write filters*][abp-filters]
+> - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px" alt="AdGuard logo"> [AdGuard: *How to create your own ad filters*][adg-filters]
+> - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px" alt="uBlock Origin logo"> [uBlock Origin: *Static filter syntax*][ubo-filters]
 >
 > Ezek a dokumentációk feltételezik, hogy ismered a webtechnológiák alapjait, például az HTML-t, a CSS-t és a JavaScript-et.
 <!--markdownlint-enable MD013-->

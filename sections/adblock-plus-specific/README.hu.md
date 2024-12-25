@@ -1,7 +1,9 @@
 # Adblock Plus specifikus szabályok
 
 Ez a könyvtár tartalmazza az
-<img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus][abp-url]
+<!--markdownlint-disable MD013-->
+<img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px" alt="Adblock Plus logo"> [Adblock Plus][abp-url]
+<!--markdownlint-enable MD013-->
 specifikus szabályokat.
 
 ## Dokumentációk
@@ -12,14 +14,14 @@ Az Adblock Plus szűrők szintaxisához a következő linkeken találsz dokument
 
 <!--markdownlint-disable MD013-->
 - Szintaxis dokumentáció:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus: *How to write filters*][abp-filters]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px" alt="Adblock Plus logo"> [Adblock Plus: *How to write filters*][abp-filters]
 - Extended CSS dokumentáció:
     - [MDN: *CSS selectors*][mdn-css-selectors]
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus: *Extended CSS selectors*][abp-ext-css]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px" alt="Adblock Plus logo"> [Adblock Plus: *Extended CSS selectors*][abp-ext-css]
 - Erőforrások snippetekhez:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus snippets][abp-snippets]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px" alt="Adblock Plus logo"> [Adblock Plus snippets][abp-snippets]
 - Erőforrások átirányításhoz:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus redirects][abp-redirects]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px" alt="Adblock Plus logo"> [Adblock Plus redirects][abp-redirects]
 <!--markdownlint-enable MD013-->
 
 [abp-url]: https://adblockplus.org

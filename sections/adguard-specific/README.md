@@ -3,7 +3,9 @@
 **🇭🇺 [Kattints ide a magyar nyelvű változatért][hu-version].**
 
 This directory contains the rules that are specific to
-<img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard][adg-url].
+<!--markdownlint-disable MD013-->
+<img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px" alt="AdGuard logo"> [AdGuard][adg-url].
+<!--markdownlint-enable MD013-->
 
 ## Documentations
 
@@ -11,15 +13,15 @@ You can find documentations for AdGuard filter syntax in the links below:
 
 <!--markdownlint-disable MD013-->
 - Syntax documentation:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard: *How to create your own ad filters*][adg-filters]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px" alt="AdGuard logo"> [AdGuard: *How to create your own ad filters*][adg-filters]
 - Extended CSS documentation:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard: *Extended CSS capabilities*][adg-ext-css]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px" alt="AdGuard logo"> [AdGuard: *Extended CSS capabilities*][adg-ext-css]
 - Scriptlet resources:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard scriptlets][adg-scriptlets]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px" alt="AdGuard logo"> [AdGuard scriptlets][adg-scriptlets]
 - Redirect resources:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard redirects][adg-redirects]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px" alt="AdGuard logo"> [AdGuard redirects][adg-redirects]
 - Compatibility tables:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px"> [AdGuard scriptlets & redirects compatibility table][adg-compatibility-table]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/adg_logo.svg" width="14px" alt="AdGuard logo"> [AdGuard scriptlets & redirects compatibility table][adg-compatibility-table]
     <!-- TODO: include modifiers compatibility table when it's ready -->
 <!--markdownlint-enable MD013-->
 

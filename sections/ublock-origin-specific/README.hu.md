@@ -1,7 +1,9 @@
 # uBlock Origin specifikus szabályok
 
 Ez a könyvtár tartalmazza az
-<img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin][ubo-url]
+<!--markdownlint-disable MD013-->
+<img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px" alt="uBlock Origin logo"> [uBlock Origin][ubo-url]
+<!--markdownlint-enable MD013-->
 specifikus szabályokat.
 
 ## Dokumentációk
@@ -12,13 +14,13 @@ Az uBlock Origin szűrők szintaxisához a következő linkeken találsz dokumen
 
 <!--markdownlint-disable MD013-->
 - Szintaxis dokumentáció:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin: *Static filter syntax*][ubo-filters]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px" alt="uBlock Origin logo"> [uBlock Origin: *Static filter syntax*][ubo-filters]
 - Extended CSS dokumentáció:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin: *Procedural cosmetic filters*][ubo-procedural]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px" alt="uBlock Origin logo"> [uBlock Origin: *Procedural cosmetic filters*][ubo-procedural]
 - Erőforrások scriptletekhez:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin scriptlets][ubo-scriptlets]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px" alt="uBlock Origin logo"> [uBlock Origin scriptlets][ubo-scriptlets]
 - Erőforrások átirányításhoz:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px"> [uBlock Origin redirects][ubo-redirects]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/ubo_logo.svg" width="14px" alt="uBlock Origin logo"> [uBlock Origin redirects][ubo-redirects]
 <!--markdownlint-enable MD013-->
 
 [ubo-filters]: https://github.com/gorhill/uBlock/wiki/Static-filter-syntax

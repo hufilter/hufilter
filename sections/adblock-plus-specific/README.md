@@ -3,7 +3,9 @@
 **🇭🇺 [Kattints ide a magyar nyelvű változatért][hu-version].**
 
 This directory contains the rules that are specific to
-<img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus][abp-url].
+<!--markdownlint-disable MD013-->
+<img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px" alt="Adblock Plus logo"> [Adblock Plus][abp-url].
+<!--markdownlint-enable MD013-->
 
 ## Documentations
 
@@ -11,14 +13,14 @@ You can find documentations for Adblock Plus filter syntax in the links below:
 
 <!--markdownlint-disable MD013-->
 - Syntax documentation:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus: *How to write filters*][abp-filters]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px" alt="Adblock Plus logo"> [Adblock Plus: *How to write filters*][abp-filters]
 - Extended CSS documentation:
     - [MDN: *CSS selectors*][mdn-css-selectors]
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus: *Extended CSS selectors*][abp-ext-css]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px" alt="Adblock Plus logo"> [Adblock Plus: *Extended CSS selectors*][abp-ext-css]
 - Snippet resources:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus snippets][abp-snippets]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px" alt="Adblock Plus logo"> [Adblock Plus snippets][abp-snippets]
 - Redirect resources:
-    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px"> [Adblock Plus redirects][abp-redirects]
+    - <img src="https://cdn.adguard.com/website/github.com/AGLint/abp_logo.svg" width="14px" alt="Adblock Plus logo"> [Adblock Plus redirects][abp-redirects]
 <!--markdownlint-enable MD013-->
 
 [abp-url]: https://adblockplus.org
