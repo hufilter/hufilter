@@ -1,0 +1,28 @@
+name: Delete branches of closed Dead Domains pull requests
+
+on:
+  pull_request:
+      types:
+      - closed
+
+jobs:
+  delete-branch:
+    if: >
+      ${{ startsWith(github.event.pull_request.title, 'Automated dead domains fix') &&
+          startsWith(github.event.pull_request.head.ref, 'fix/dead-domains-') }}
+    name: Delete branch
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete branch
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const branchName = context.payload.pull_request.head.ref;
+
+            await github.rest.git.deleteRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: `heads/${branchName}`,
+            });
+
+            core.info(`Deleted branch ${branchName}`);
