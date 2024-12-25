@@ -2,7 +2,7 @@ name: Delete branches of closed Dead Domains pull requests
 
 on:
   pull_request:
-      types:
+    types:
       - closed
 
 jobs:
