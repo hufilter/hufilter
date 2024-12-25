@@ -11,7 +11,7 @@
   "bugs": {
     "url": "https://github.com/hufilter/hufilter/issues"
   },
-  "homepage": "https://github.com/hufilter/hufilter#readme",
+  "homepage": "https://hufilter.hu",
   "scripts": {
     "build": "node assets/scripts/build.js",
     "lint": "pnpm lint:ab && pnpm lint:md",
