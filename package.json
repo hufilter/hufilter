@@ -2,6 +2,7 @@
   "name": "hufilter",
   "author": "Hufilter contributors",
   "license": "CC-BY-4.0",
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hufilter/hufilter.git"
@@ -15,7 +16,7 @@
     "lint": "pnpm lint:ab && pnpm lint:md",
     "lint:ab": "aglint",
     "lint:md": "markdownlint .",
-    "prepare": "node .husky/install.mjs"
+    "prepare": "node .husky/install.js"
   },
   "lint-staged": {
     "sections/**/*.txt": "aglint",
@@ -24,7 +25,7 @@
   "devDependencies": {
     "@adguard/aglint": "^2.1.3",
     "@adguard/dead-domains-linter": "^1.0.19",
-    "dateformat": "^4.6.3",
+    "dateformat": "^5.0.3",
     "husky": "^9.1.7",
     "lint-staged": "^15.2.11",
     "markdownlint": "^0.37.2",

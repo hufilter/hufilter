@@ -1,18 +1,23 @@
-const dateFormat = require("dateformat");
-const crypto = require("crypto");
-const fs = require("fs").promises;
-const path = require("path");
-// Filters structure
-const filters = require("../../filters.json");
+import dateFormat from "dateformat";
+import crypto from "crypto";
+import { promises as fs } from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
 
-const NULL_IP = '0.0.0.0';
+// Filters structure
+import filters from "../../filters.json" assert { type: "json" };
+
+const NULL_IP = "0.0.0.0";
 
 // For header example, see https://easylist-downloads.adblockplus.org/easylist.txt
 const currentDate = new Date();
 const version = dateFormat(currentDate, "yyyymmddHHMM", true);
 const lastModified = dateFormat(currentDate, "dd mmm yyyy HH:MM Z", true);
 
-calculateChecksum = (content) => {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const calculateChecksum = (content) => {
   const rest = content.replace(/! Checksum: #CHECKSUM#\n/, "");
   return crypto
     .createHash("md5")
@@ -21,9 +26,9 @@ calculateChecksum = (content) => {
     .replace("==", "");
 };
 
-withFinalNL = (content) => content.toString().trim() + "\n";
+const withFinalNL = (content) => content.toString().trim() + "\n";
 
-buildFilters = async () => {
+const buildFilters = async () => {
   console.log("Build filters...");
   for (const filter of filters) {
     if (!filter.hasOwnProperty("sections")) continue;
@@ -88,6 +93,7 @@ buildFilters = async () => {
     }
   }
 };
+
 (async () => {
   // Create dist folder if not exists
   try {
