@@ -1,5 +1,6 @@
 {
   "name": "hufilter",
+  "description": "Adblock filter list for Hungarian websites",
   "contributors": [],
   "license": "CC-BY-4.0",
   "type": "module",
