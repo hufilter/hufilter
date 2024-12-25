@@ -5,7 +5,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 // Filters structure
-import filters from "../../filters.json" assert { type: "json" };
+import filters from "../../filters.json" with { type: "json" };
 
 const NULL_IP = "0.0.0.0";
 
