@@ -1412,7 +1412,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||media.netpositive.hu^
 ||netadclick.com^
 ||netexs.com^
-||new-bigpenn.com^
 ||pixel.blog.hu^
 ||pixel.sojern.com^
 ||rc.rc.hu^
