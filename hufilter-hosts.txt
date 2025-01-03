@@ -1,7 +1,7 @@
-# Checksum: a8vhGoaaFdlmYXj6cGVwnQ
-# Version: 202412020909
+# Checksum: NfPYrMCatbrVGjoubah5fw
+# Version: 202501031113
 # Title: Hufilter Hosts file
-# Last modified: 02 Dec 2024 09:09 UTC
+# Last modified: 03 Jan 2025 11:13 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -58,7 +58,6 @@
 0.0.0.0 media.netpositive.hu
 0.0.0.0 netadclick.com
 0.0.0.0 netexs.com
-0.0.0.0 new-bigpenn.com
 0.0.0.0 pixel.blog.hu
 0.0.0.0 pixel.sojern.com
 0.0.0.0 rc.rc.hu

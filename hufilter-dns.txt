@@ -1,7 +1,7 @@
-! Checksum: 29DBt/xX6zLUImMIYP3Y4w
-! Version: 202412020909
+! Checksum: P/+9vocPrQ+VaxVtcGDkfg
+! Version: 202501031113
 ! Title: Hufilter DNS
-! Last modified: 02 Dec 2024 09:09 UTC
+! Last modified: 03 Jan 2025 11:13 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -58,7 +58,6 @@ loading-delivery2.com
 media.netpositive.hu
 netadclick.com
 netexs.com
-new-bigpenn.com
 pixel.blog.hu
 pixel.sojern.com
 rc.rc.hu

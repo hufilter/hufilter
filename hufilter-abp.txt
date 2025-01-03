@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kf1ht0BrMU/knVBS40z9Gw
-! Version: 202412271622
+! Checksum: Qqk9Kmh4thaBniB0pX48jg
+! Version: 202501031113
 ! Title: Hufilter for ABP
-! Last modified: 27 Dec 2024 16:22 UTC
+! Last modified: 03 Jan 2025 11:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1428,7 +1428,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||media.netpositive.hu^
 ||netadclick.com^
 ||netexs.com^
-||new-bigpenn.com^
 ||pixel.blog.hu^
 ||pixel.sojern.com^
 ||rc.rc.hu^
