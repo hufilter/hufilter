@@ -8,8 +8,8 @@ on:
 jobs:
   delete-branch:
     if: >
-      ${{ startsWith(github.event.pull_request.title, 'Automated dead domains fix') &&
-          startsWith(github.event.pull_request.head.ref, 'fix/dead-domains-') }}
+      startsWith(github.event.pull_request.title, 'Automated dead domains fix') &&
+      startsWith(github.event.pull_request.head.ref, 'fix/dead-domains-')
     name: Delete branch
     runs-on: ubuntu-latest
     steps:

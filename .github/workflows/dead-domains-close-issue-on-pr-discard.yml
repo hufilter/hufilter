@@ -8,9 +8,9 @@ on:
 jobs:
   close-issue:
     if: >
-      ${{ startsWith(github.event.pull_request.title, 'Automated dead domains fix') &&
-          startsWith(github.event.pull_request.head.ref, 'fix/dead-domains-') &&
-          github.event.pull_request.merged == false }}
+      startsWith(github.event.pull_request.title, 'Automated dead domains fix') &&
+      startsWith(github.event.pull_request.head.ref, 'fix/dead-domains-') &&
+      github.event.pull_request.merged == false
     name: Close related issues
     runs-on: ubuntu-latest
     steps:
