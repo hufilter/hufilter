@@ -135,7 +135,6 @@ aranyoldalak.hu##.showLink.reveal
 aranyoldalak.hu##[class*=" adH"]
 arukereso.hu##.brandbox
 atlatszo.hu##.tamogatoi
-atlatszo.hu##.wp-caption
 atv.hu##.plus-wrapper
 automotor.hu###_cikk_jobbhasab_2
 automotor.hu###_cikk_jobbhasab_3
