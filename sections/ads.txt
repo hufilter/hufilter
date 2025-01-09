@@ -1331,6 +1331,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||pcguru.hu/uploads/banners/*.jpg$image
 ||pcpult.hu/*/banner/$image
 ||pcworld.hu/bannerek/$image
+||performax.cz^$third-party
 ||piacesprofit.hu/files/skin/$image
 ||pornolize.com/*?clickTAG=
 ||port-network.com/sponsoration_elements/

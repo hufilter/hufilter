@@ -47,7 +47,6 @@
 ||gravity.com^$third-party
 ||lo.v.liveperson.net^$third-party
 ||onesignal.com^$third-party
-||performax.cz^$third-party
 ||targetix.net^$third-party
 ||track306.info^$third-party
 ||trackingterrorism.org^$third-party
