@@ -79,6 +79,8 @@ csaladinet.hu###cikkajanlo
 csaladinet.hu###CookieAcceptLayer
 csupasport.hu##.enews-article-content .endless-shared-area
 cyberpress.hu###cookie-law-info-bar
+! https://github.com/hufilter/hufilter/issues/511
+e-cegjegyzek.hu###suti_uzenet
 egeszsegkalauz.hu###articleOfferFlag
 ! https://github.com/hufilter/hufilter/issues/248
 egeszsegkalauz.hu###pe_confirm_optin_1
