@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: dM3cYBNiiHIfs4gANaonGg
-! Version: 202501280958
+! Checksum: mgEjOpM6ZQLvYOE72ZX7ew
+! Version: 202501281036
 ! Title: Hufilter for uBO
-! Last modified: 28 Jan 2025 09:58 UTC
+! Last modified: 28 Jan 2025 10:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1917,6 +1917,7 @@ mindmegette.hu##+js(remove-attr, href, [href*="ad.adverticum.net"])
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##+js(acis, document.createElement, setTimeout)
 traffihunter.hu##+js(rc, darken, body)
+otpportalok.hu##+js(rc, body, no_scroll, complete)
 vezess.hu##+js(aeld, mouseleave, showFbPopup)
 vezess.hu##+js(nostif, FbExit, 3000)
 vezess.hu##+js(rc, blurry, body > :not(.m-fbPopup), stay)
@@ -1934,6 +1935,7 @@ hetek.hu###nyeremenyModal
 kektura.hu###cookie-consent-dialog
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)
+otpportalok.hu###pop_1:has(> .suti)
 ! This section file contains rules for bypassing anti-adblock protections.
 ! The rules in this section should be uBlock-specific, but cross-compabible rules are also allowed, if they are
 ! not working properly without the uBlock-specific rules.

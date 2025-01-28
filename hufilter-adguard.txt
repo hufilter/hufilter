@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: DkxR5e4f6Z/LzSLgIjMO7w
-! Version: 202501280958
+! Checksum: 8FV1P/kgnhSrDEevtk6RRg
+! Version: 202501281036
 ! Title: Hufilter for AdGuard
-! Last modified: 28 Jan 2025 09:58 UTC
+! Last modified: 28 Jan 2025 10:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1918,6 +1918,7 @@ mandiner.hu#%#//scriptlet('remove-class', 'modal-open', 'body', 'stay')
 mindmegette.hu#%#//scriptlet('remove-attr', 'href', '[href*="ad.adverticum.net"]')
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'setTimeout')
+otpportalok.hu#%#//scriptlet('remove-class', 'body', 'no_scroll', 'complete')
 traffihunter.hu#%#//scriptlet('remove-class', 'darken', 'body')
 vezess.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave', 'showFbPopup')
 vezess.hu#%#//scriptlet('prevent-setTimeout', 'FbExit', '3000')
@@ -1936,6 +1937,7 @@ hetek.hu###nyeremenyModal
 kektura.hu###cookie-consent-dialog
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)
+otpportalok.hu###pop_1:has(> .suti)
 ! This section file contains rules for bypassing anti-adblock protections.
 ! The rules in this section should be AdGuard-specific, but cross-compabible rules are also allowed, if they are
 ! not working properly without the AdGuard-specific rules.
