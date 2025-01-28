@@ -28,6 +28,7 @@ mindmegette.hu##+js(remove-attr, href, [href*="ad.adverticum.net"])
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##+js(acis, document.createElement, setTimeout)
 traffihunter.hu##+js(rc, darken, body)
+otpportalok.hu##+js(rc, body, no_scroll, complete)
 vezess.hu##+js(aeld, mouseleave, showFbPopup)
 vezess.hu##+js(nostif, FbExit, 3000)
 vezess.hu##+js(rc, blurry, body > :not(.m-fbPopup), stay)
@@ -47,3 +48,4 @@ hetek.hu###nyeremenyModal
 kektura.hu###cookie-consent-dialog
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)
+otpportalok.hu###pop_1:has(> .suti)
