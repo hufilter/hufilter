@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: 8FV1P/kgnhSrDEevtk6RRg
-! Version: 202501281036
+! Checksum: 5jnBkh25f1qbmQNgHFwzUg
+! Version: 202502060905
 ! Title: Hufilter for AdGuard
-! Last modified: 28 Jan 2025 10:36 UTC
+! Last modified: 06 Feb 2025 09:05 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1908,6 +1908,9 @@ gamer.hu$$script[tag-content="cli_cookiebar_"]
 napiszar.com$$script[data-cfasync="false"]
 portfolio.hu$$script[tag-content="fbmodal-title"]
 blikk.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '3')
+! https://github.com/hufilter/hufilter/issues/520
+fizz.hu#%#//scriptlet('set-cookie', 'cookie.consent.finished', '1')
+fizz.hu#%#//scriptlet('set-cookie', 'gdpr_level', '1')
 hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
 hosszupuskasub.com#%#//scriptlet('prevent-window-open')
 lifestory.hu#%#//scriptlet('remove-attr', 'oncontextmenu')
