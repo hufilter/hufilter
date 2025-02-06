@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3Kgc0MofUhDg1uooMbKYPg
-! Version: 202501091134
+! Checksum: JLBYCDj8EsVDwq5gBsqNtw
+! Version: 202502060907
 ! Title: Hufilter Basic
-! Last modified: 09 Jan 2025 11:34 UTC
+! Last modified: 06 Feb 2025 09:07 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1142,6 +1142,9 @@ vg.hu##div[class*="hirdetes"]
 vg.hu##div[class="fej_felett cf"]
 vg.hu##div[id*="etarget"]
 videa.hu###sitemessage
+! https://github.com/AdguardTeam/AdguardFilters/issues/197485
+videa.hu###videa-video-overlay
+videa.hu##.ad-manager-container
 videoklinika.hu##div[id*="Banner"]
 vidget.hu##[class*="banner"]
 vilagszam.hu##[class^="adv"]

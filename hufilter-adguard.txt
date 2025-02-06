@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: 5jnBkh25f1qbmQNgHFwzUg
-! Version: 202502060905
+! Checksum: O9gkISTB4FBfczu74MqZkg
+! Version: 202502060907
 ! Title: Hufilter for AdGuard
-! Last modified: 06 Feb 2025 09:05 UTC
+! Last modified: 06 Feb 2025 09:07 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1142,6 +1142,9 @@ vg.hu##div[class*="hirdetes"]
 vg.hu##div[class="fej_felett cf"]
 vg.hu##div[id*="etarget"]
 videa.hu###sitemessage
+! https://github.com/AdguardTeam/AdguardFilters/issues/197485
+videa.hu###videa-video-overlay
+videa.hu##.ad-manager-container
 videoklinika.hu##div[id*="Banner"]
 vidget.hu##[class*="banner"]
 vilagszam.hu##[class^="adv"]
