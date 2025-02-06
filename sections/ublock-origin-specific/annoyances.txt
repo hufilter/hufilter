@@ -16,6 +16,9 @@ napiszar.com##^script[data-cfasync="false"]
 portfolio.hu##^script:has-text(fbmodal-title)
 
 blikk.hu##+js(ra, style, body, stay)
+! https://github.com/hufilter/hufilter/issues/520
+fizz.hu##+js(set-cookie, cookie.consent.finished, 1)
+fizz.hu##+js(set-cookie, gdpr_level, 1)
 hetek.hu##+js(rc, modal-open, body)
 hosszupuskasub.com##+js(window.open-defuser.js)
 lifestory.hu##+js(ra, oncontextmenu)

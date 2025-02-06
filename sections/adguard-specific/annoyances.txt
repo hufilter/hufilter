@@ -16,6 +16,9 @@ napiszar.com$$script[data-cfasync="false"]
 portfolio.hu$$script[tag-content="fbmodal-title"]
 
 blikk.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '3')
+! https://github.com/hufilter/hufilter/issues/520
+fizz.hu#%#//scriptlet('set-cookie', 'cookie.consent.finished', '1')
+fizz.hu#%#//scriptlet('set-cookie', 'gdpr_level', '1')
 hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
 hosszupuskasub.com#%#//scriptlet('prevent-window-open')
 lifestory.hu#%#//scriptlet('remove-attr', 'oncontextmenu')
