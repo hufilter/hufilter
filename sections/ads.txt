@@ -1121,6 +1121,9 @@ vg.hu##div[class*="hirdetes"]
 vg.hu##div[class="fej_felett cf"]
 vg.hu##div[id*="etarget"]
 videa.hu###sitemessage
+! https://github.com/AdguardTeam/AdguardFilters/issues/197485
+videa.hu###videa-video-overlay
+videa.hu##.ad-manager-container
 videoklinika.hu##div[id*="Banner"]
 vidget.hu##[class*="banner"]
 vilagszam.hu##[class^="adv"]
