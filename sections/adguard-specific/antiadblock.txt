@@ -20,7 +20,6 @@ szeretlekmagyarorszag.hu$$script[tag-content="window.atob"]
 angol-magyar-szotar.hu#%#//scriptlet('set-constant', 'adblock', 'false')
 calculat.org#%#//scriptlet('prevent-setTimeout', 'adstest', '4000')
 ! chp-ads-block-detector
-cinemo.hu#%#//scriptlet('abort-on-property-read', 'adsBlocked')
 divany.hu,totalcar.hu,totalbike.hu#%#//scriptlet('abort-on-property-write', 'document.head', 'currentScript.remove')
 egeszsegkalauz.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '1')
 embed.indavideo.hu#%#//scriptlet('set-constant', 'AdHandler.adblocked', '0')
@@ -47,5 +46,3 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
 ! chp-ads-block-detector
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=nooptext,domain=cinemo.hu
-||sovrn.com$xmlhttprequest,redirect=nooptext,domain=cinemo.hu
