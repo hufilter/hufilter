@@ -237,3 +237,118 @@ jobs:
           github_token: ${{ secrets.API_TOKEN_GITHUB }}
           branch: gh-pages
           force: true
+
+  purge:
+    name: Purge jsDelivr cache
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout to gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          path: hufilter-gh-pages
+          ref: gh-pages
+          persist-credentials: false
+          # Fetch only the last two commits to compare changes
+          fetch-depth: 2
+
+      - name: Get changed filter lists
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: commits } = await github.rest.repos.listCommits({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                per_page: 2,
+                sha: 'gh-pages',
+            });
+
+            if (commits.length < 2) {
+                core.setFailed('Not enough commits to compare');
+                return;
+            }
+
+            const base = commits[1].sha; // Previous commit SHA
+            const head = commits[0].sha; // Latest commit SHA
+
+            const { data: diff } = await github.rest.repos.compareCommits({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                base,
+                head,
+            });
+
+            core.info(`Comparing ${base.slice(0, 7)}...${head.slice(0, 7)}`);
+
+            const changedFiles = diff.files
+                .filter(
+                    (file) =>
+                        file.filename.startsWith('hufilter') &&
+                        file.filename.endsWith('.txt'),
+                )
+                .map((file) => file.filename);
+
+            // Set the list of changed filter lists to the environment variable
+            core.exportVariable('CHANGED_FILTER_LISTS', JSON.stringify(changedFiles));
+            core.info(
+                `Changed filter lists need to be purged: ${JSON.stringify(changedFiles)}`,
+            );
+
+      - name: Purge jsDelivr cache
+        if: env.CHANGED_FILTER_LISTS != '[]'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const changedFilterLists = JSON.parse(process.env.CHANGED_FILTER_LISTS);
+            const pathsToPurge = changedFilterLists.map((file) => `/gh/hufilter/hufilter@gh-pages/${file}`);
+
+            const commonRequestOptions = {
+                headers: {
+                    'Content-Type': 'application/json',
+                    'cache-control': 'no-cache',
+                    'user-agent': 'jsdelivr-purge',
+                },
+            };
+
+            // Step 1: Send a purge request to jsDelivr
+            const purgeRequest = await fetch('https://purge.jsdelivr.net/', {
+                ...commonRequestOptions,
+                method: 'POST',
+                body: JSON.stringify({
+                    path: pathsToPurge,
+                }),
+            });
+
+            const purgeResponse = await purgeRequest.json();
+
+            const { id } = purgeResponse;
+
+            if (!id) {
+                console.error('Error: Purge request ID not found');
+                process.exit(1);
+            }
+
+            // Step 2: Poll the status of the purge request until it's pending
+            let { status } = purgeResponse;
+            let attempts = 0;
+
+            while (status === 'pending' && attempts < 10) {
+                await new Promise((resolve) => setTimeout(resolve, 2500));
+
+                const statusRequest = await fetch(
+                    `https://purge.jsdelivr.net/status/${id}`,
+                    commonRequestOptions,
+                );
+                const statusResponse = await statusRequest.json();
+
+                status = statusResponse.status;
+
+                attempts++;
+            }
+
+            if (status !== 'finished') {
+                console.error(`Error: Purge request failed with status: ${status} after ${attempts} attempt(s)`);
+                process.exit(1);
+            } else {
+                console.log('Purge request finished successfully');
+            }
