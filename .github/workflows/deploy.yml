@@ -311,6 +311,7 @@ jobs:
             };
 
             // Step 1: Send a purge request to jsDelivr
+            core.startGroup('Sending purge request to jsDelivr');
             const purgeRequest = await fetch('https://purge.jsdelivr.net/', {
                 ...commonRequestOptions,
                 method: 'POST',
@@ -327,8 +328,10 @@ jobs:
                 core.setFailed('Purge request failed, no ID returned');
                 return;
             }
+            core.endGroup();
 
             // Step 2: Poll the status of the purge request until it's pending
+            core.startGroup('Polling the status of the purge request');
             let { status } = purgeResponse;
             let attempts = 0;
 
@@ -350,5 +353,6 @@ jobs:
                 core.setFailed(`Error: Purge request failed with status: ${status} after ${attempts} attempt(s)`);
                 process.exit(1);
             } else {
-                core.setFailed('Purge request finished successfully');
+                core.info('Purge request finished successfully');
             }
+            core.endGroup();
