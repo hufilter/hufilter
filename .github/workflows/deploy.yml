@@ -324,8 +324,8 @@ jobs:
             const { id } = purgeResponse;
 
             if (!id) {
-                console.error('Error: Purge request ID not found');
-                process.exit(1);
+                core.setFailed('Purge request failed, no ID returned');
+                return;
             }
 
             // Step 2: Poll the status of the purge request until it's pending
@@ -347,8 +347,8 @@ jobs:
             }
 
             if (status !== 'finished') {
-                console.error(`Error: Purge request failed with status: ${status} after ${attempts} attempt(s)`);
+                core.setFailed(`Error: Purge request failed with status: ${status} after ${attempts} attempt(s)`);
                 process.exit(1);
             } else {
-                console.log('Purge request finished successfully');
+                core.setFailed('Purge request finished successfully');
             }
