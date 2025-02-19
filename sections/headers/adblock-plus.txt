@@ -11,7 +11,7 @@
 !-------------- Description, Terms of use, Issue management ----------------!
 !---------------------------------------------------------------------------!
 ! Hufilter - The Hungarian Adblock List
-! Author: Hufilter Team (https://github.com/hufilter)
+! Author: Hufilter Contributors (https://github.com/hufilter/hufilter/graphs/contributors)
 !
 ! Please report any unblocked adverts or problems in the GitHub issue tracker.
 ! About filter policy and usage terms please see the homepage above.
