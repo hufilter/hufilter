@@ -1,7 +1,7 @@
-# Checksum: W56xBFIPUOuMpd7FTNiBeg
-# Version: 202501031113
+# Checksum: IxsR9scCwqjpvA4NYylUFw
+# Version: 202502192013
 # Title: Hufilter Pi-hole
-# Last modified: 03 Jan 2025 11:13 UTC
+# Last modified: 19 Feb 2025 20:13 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -70,6 +70,7 @@ stats.badoostats.com
 syndication.trafficreps.com
 up-banner.wavecdn.de
 vid4u.org
+wdtyl.xyz
 wstat.ozon.ru
 chatrobot.mia.gov.hu
 chimpstatic.com
