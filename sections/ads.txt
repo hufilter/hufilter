@@ -792,6 +792,7 @@ motorrevu.hu##[class*="hirdetes"]
 mozinet.me###adserving-tag-hb
 mozinet.me###pa_sticky_ad_box_middle_left
 mozinet.me##iframe[id^="postbid_if_"]
+mozinet.me,online-filmek.ac##[href^="https://gamesspot.live/"]
 mozinezo.hu###header
 mozishop.hu##.om-holder
 muhelynet.hu###exposeMask
@@ -861,6 +862,7 @@ offline.hu##.ads
 olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]
 olcsobbat.hu###datasheetNavHelp
+online-filmek.ac##[href^="https://wdtyl.xyz/"]
 online-filmek.me##.hover_bkgr_fricc
 onlinecegjegyzek.hu##[class*="hirdetes"]
 ! https://github.com/hufilter/hufilter/issues/254
@@ -1265,6 +1267,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||femcafe.hu/*/sponsoration/
 ||femcafe.hu/*/szponzoracio/
 ||femcafe.hu/spike-ad/
+||filmvilag.me/*.gif$image
 ||fototrend.hu/design/hatter.jpg$image
 ||freeweb.hu/*_banner*.
 ||gamepod.hu/ajanlo/lapcsalad.html
@@ -1430,6 +1433,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||szemezgeto*.ingatlan.com^
 ||up-banner.wavecdn.de^
 ||vid4u.org^
+||wdtyl.xyz^
 ||wstat.ozon.ru^
 
 ||abmr.net^$third-party
