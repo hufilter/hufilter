@@ -890,6 +890,7 @@ pcforum.hu,prog.hu###zone-roaddblock
 pcforum.hu,prog.hu###zone-titleheader
 pcforum.hu##.zone[data-zoneid]
 pcforum.hu###zone-titleheader
+pcforum.hu##.loaded[rel="swappable"]
 pcguru.hu##.banner-content
 pcguru.hu##a[href*="banner_click"]
 pdafanclub.com##[id*="banner"]

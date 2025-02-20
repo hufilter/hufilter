@@ -213,6 +213,7 @@ origo.hu##div.facebook-layer-box
 paleomedicina.com###kpopup
 pannonrtv.com###sliding-popup
 pcforum.hu##.slidein.popup.closeablenotification.scripted
+pcforum.hu###pushsubscriptionwnd
 penzcentrum.hu###ajanlo
 penzcentrum.hu###recommend
 pestisracok.hu###onesignal-bell-container
