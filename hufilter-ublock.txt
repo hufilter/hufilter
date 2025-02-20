@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: lbM2SNch0YE1zMgvWY1r1Q
-! Version: 202502192042
+! Checksum: iIMTDs/91ZlDVdEjnpgJcQ
+! Version: 202502201112
 ! Title: Hufilter for uBO
-! Last modified: 19 Feb 2025 20:42 UTC
+! Last modified: 20 Feb 2025 11:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1986,6 +1986,8 @@ pcworld.hu##+js(rc, have-ad, body)
 port.hu##+js(aopw, document.body.style)
 ! https://github.com/uBlockOrigin/uAssets/issues/25482
 online-filmek.ac##+js(no-fetch-if, api)
+! https://github.com/uBlockOrigin/uAssets/issues/27256#issuecomment-2670818969
+rubyvidhub.com##+js(rmnt, script, undefined)
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
