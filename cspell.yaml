@@ -1,0 +1,6 @@
+
+overrides:
+  - filename: "sections/**/*.txt"
+    ignoreRegExpList:
+      # Ignore lines that do not start with `!`, i.e. only spell check comments
+      - "^(?!!).*"
