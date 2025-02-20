@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ta6IAh/Pf89eaFzCwNDJxw
-! Version: 202502192042
+! Checksum: 3GZxtwRXyx6u1nMuoVXU1A
+! Version: 202502201803
 ! Title: Hufilter Self-promotions
-! Last modified: 19 Feb 2025 20:42 UTC
+! Last modified: 20 Feb 2025 18:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -79,6 +79,7 @@ telex.hu##.kari
 telex.hu##.modal--overlay
 telex.hu##.support
 telex.hu##.support-box
+telex.hu###article-endbox-campaign-content
 totalcar.hu###bannerHeaderLink
 vezess.hu##.katalog
 vezess.hu##.wpb_wrapper > a
