@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3GZxtwRXyx6u1nMuoVXU1A
-! Version: 202502201803
+! Checksum: 7bTdv9QSCNVpHtqHzoMnJw
+! Version: 202502210925
 ! Title: Hufilter Self-promotions
-! Last modified: 20 Feb 2025 18:03 UTC
+! Last modified: 21 Feb 2025 09:25 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -43,6 +43,7 @@ alza.hu##.trust-bubble--hungary
 automotor.hu##[data-foo="cikk_jobbhasab_"]
 automotor.hu##[data-foo="fooldali_jobbhasab_"]
 bestmarkt.hu##.ddModal
+blikk.hu##.google-news
 bookline.hu##.l-container--full
 bookline.hu##a.c-skin--left
 bookline.hu##a.c-skin--right

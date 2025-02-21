@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gdw6fDDP4BSo/C9NPZv7tg
-! Version: 202502210855
+! Checksum: DWV1U+OufsD0F7GtBDm4LQ
+! Version: 202502210925
 ! Title: Hufilter Basic
-! Last modified: 21 Feb 2025 08:55 UTC
+! Last modified: 21 Feb 2025 09:25 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -220,6 +220,7 @@ blikk.hu###footerLogos
 blikk.hu###underArticleAdvertisement
 blikk.hu##a[href*="gemius"]
 blikk.hu##body > .extraContentSection:nth-of-type(-n+3)
+blikk.hu##.extraAd
 blikkruzs.blikk.hu###ad-cikk1
 blikkruzs.blikk.hu###ad-cikk2
 blikkruzs.blikk.hu###ad-fekvo1
@@ -276,15 +277,16 @@ cegbongeszo.hu##[class^="adsense"]
 cegbongeszo.hu##[id*="Banner"]
 ceginformacio.hu##.advert
 ceginformacio.hu##.occsz-banner
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-comment
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-end
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-inside
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-inside-automatic
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-article-under-lead
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-content-top
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after > *
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.ad-header-after-article
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu##.share-article
+computerworld.hu,pcwplus.hu,gsplus.hu,puliwood.hu,computertrends.hu##.ad
+computerworld.hu,pcwplus.hu,gsplus.hu,puliwood.hu,computertrends.hu##.ad-article-comment
+computerworld.hu,pcwplus.hu,gsplus.hu,puliwood.hu,computertrends.hu##.ad-article-end
+computerworld.hu,pcwplus.hu,gsplus.hu,puliwood.hu,computertrends.hu##.ad-article-inside
+computerworld.hu,pcwplus.hu,gsplus.hu,puliwood.hu,computertrends.hu##.ad-article-inside-automatic
+computerworld.hu,pcwplus.hu,gsplus.hu,puliwood.hu,computertrends.hu##.ad-article-under-lead
+computerworld.hu,pcwplus.hu,gsplus.hu,puliwood.hu,computertrends.hu##.ad-content-top
+computerworld.hu,pcwplus.hu,gsplus.hu,puliwood.hu,computertrends.hu##.ad-header-after > *
+computerworld.hu,pcwplus.hu,gsplus.hu,puliwood.hu,computertrends.hu##.ad-header-after-article
+computerworld.hu,pcwplus.hu,gsplus.hu,puliwood.hu,computertrends.hu##.share-article
 csaladinet.hu##[class*="-adv"]
 csaladinet.hu##[class*="adv-"]
 csaladinet.hu###bdism1
@@ -1355,7 +1357,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||p3k.hu/*szponz*.
 ||pcguru.hu/uploads/banners/*.jpg$image
 ||pcpult.hu/*/banner/$image
-||pcworld.hu/bannerek/$image
+||pcwplus.hu/bannerek/$image
 ||performax.cz^$third-party
 ||piacesprofit.hu/files/skin/$image
 ||pornolize.com/*?clickTAG=
