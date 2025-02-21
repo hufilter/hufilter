@@ -71,8 +71,8 @@ budapestpark.hu###cooker_container
 calculat.org##.cookies
 cartourmagazin.hu###cadre_alert_cookies
 cartourmagazin.hu###pa-push-notification-subscription
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu###cookie-policy-content
-computerworld.hu,pcworld.hu,gamestar.hu,puliwood.hu###web-push-popup
+computerworld.hu,pcwplus.hu,gsplus.hu,puliwood.hu###cookie-policy-content
+computerworld.hu,pcwplus.hu,gsplus.hu,puliwood.hu,computertrends.hu###web-push-popup
 civishir.hu##.cookie-box-cnt
 civishir.hu##.infobar-cnt
 csaladinet.hu###cikkajanlo
