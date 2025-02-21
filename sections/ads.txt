@@ -199,6 +199,7 @@ blikk.hu###footerLogos
 blikk.hu###underArticleAdvertisement
 blikk.hu##a[href*="gemius"]
 blikk.hu##body > .extraContentSection:nth-of-type(-n+3)
+blikk.hu##.extraAd
 blikkruzs.blikk.hu###ad-cikk1
 blikkruzs.blikk.hu###ad-cikk2
 blikkruzs.blikk.hu###ad-fekvo1
