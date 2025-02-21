@@ -49,6 +49,8 @@ mandiner.hu#$#.raw-html-embed { min-height: auto !important; }
 ! Fix large space at the top of the page on desktop
 myonlineradio.hu#$#@media (min-width: 1200px) { .isSubPage ._bannerTop1 { height: 90px !important; } }
 origo.hu#$#.first-section { margin-top: 0 !important; }
+! On mobile devices, the navigation partially covers the article title.
+pcwplus.hu,gsplus.hu#$#@media (max-width: 768px) { [class="container main single-article"] { margin-top: 65px !important; } }
 
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!

@@ -48,6 +48,8 @@ mkb.hu##html,body:style(overflow:auto !important)
 ! Fix large space at the top of the page on desktop
 myonlineradio.hu##.isSubPage._bannerTop1:matches-media((min-width: 1200px)):style(height: 90px !important;)
 origo.hu##.first-section:style(margin-top: 0 !important;)
+! On mobile devices, the navigation partially covers the article title.
+pcwplus.hu,gsplus.hu##[class="container main single-article"]:matches-media((max-width: 768px)):style(margin-top: 65px !important;)
 
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
