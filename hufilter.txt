@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0fzmetbYbEmZFBdnV1pCGg
-! Version: 202502201750
+! Checksum: gdw6fDDP4BSo/C9NPZv7tg
+! Version: 202502210855
 ! Title: Hufilter Basic
-! Last modified: 20 Feb 2025 17:50 UTC
+! Last modified: 21 Feb 2025 08:55 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -156,6 +156,7 @@ aranyoldalak.hu##.showLink.reveal
 aranyoldalak.hu##[class*=" adH"]
 arukereso.hu##.brandbox
 atlatszo.hu##.tamogatoi
+atv.hu##.ad__cont
 atv.hu##.plus-wrapper
 automotor.hu###_cikk_jobbhasab_2
 automotor.hu###_cikk_jobbhasab_3
