@@ -48,6 +48,7 @@ origo.hu##app-sport-article-page app-sidebar origo-newsletter-box
 origo.hu##app-sport-article-page app-sidebar origo-social-media-box
 origo.hu##origo-newsletter-box
 pestisracok.hu###head-wrap + .code-block
+pestisracok.hu##.wprt-container a[href="https://www.facebook.com/pestisracok.pstv"]
 ! Article recommender in the forum
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.msg-list > ul > div:not(.media)
 telex.hu###minutes-campaign-container
