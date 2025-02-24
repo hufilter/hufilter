@@ -21,7 +21,6 @@ fizz.hu##+js(set-cookie, cookie.consent.finished, 1)
 fizz.hu##+js(set-cookie, gdpr_level, 1)
 hetek.hu##+js(rc, modal-open, body)
 hosszupuskasub.com##+js(window.open-defuser.js)
-lifestory.hu##+js(ra, oncontextmenu)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128532
 magyarorszag.hu##+js(rc, bottom-l, body, stay)
 magyarorszag.hu##+js(rc, bottom-s, body, stay)

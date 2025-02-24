@@ -21,7 +21,6 @@ fizz.hu#%#//scriptlet('set-cookie', 'cookie.consent.finished', '1')
 fizz.hu#%#//scriptlet('set-cookie', 'gdpr_level', '1')
 hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
 hosszupuskasub.com#%#//scriptlet('prevent-window-open')
-lifestory.hu#%#//scriptlet('remove-attr', 'oncontextmenu')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128532
 magyarorszag.hu#%#//scriptlet('set-cookie', 'cookies_ok', '1')
 mandiner.hu#%#//scriptlet('remove-class', 'modal-open', 'body', 'stay')
