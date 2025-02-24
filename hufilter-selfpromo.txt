@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7bTdv9QSCNVpHtqHzoMnJw
-! Version: 202502210925
+! Checksum: OJGxpADmODskVuD8/8QpFg
+! Version: 202502242127
 ! Title: Hufilter Self-promotions
-! Last modified: 21 Feb 2025 09:25 UTC
+! Last modified: 24 Feb 2025 21:27 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -71,6 +71,7 @@ origo.hu##app-sport-article-page app-sidebar origo-newsletter-box
 origo.hu##app-sport-article-page app-sidebar origo-social-media-box
 origo.hu##origo-newsletter-box
 pestisracok.hu###head-wrap + .code-block
+pestisracok.hu##.wprt-container a[href="https://www.facebook.com/pestisracok.pstv"]
 ! Article recommender in the forum
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.msg-list > ul > div:not(.media)
 telex.hu###minutes-campaign-container
