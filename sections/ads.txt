@@ -1067,6 +1067,7 @@ totalcar.hu##[class*="adblokk"]
 totalcar.hu##[class*="hirdetes"]
 totalcar.hu##[id*="adocean"]
 totalcar.hu###ads
+totalcar.hu##.hasznaltautok-iframe-wrapper
 trademagazin.hu##[id*="banner"]
 transindex.ro##.header-1
 transindex.ro##[class*=" ad"]
