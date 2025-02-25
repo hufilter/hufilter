@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6PPJ7VE3eh3UQnG3tu6h1g
-! Version: 202502242108
+! Checksum: 7HQ47VIcUHYCziHZqZLadg
+! Version: 202502250927
 ! Title: Hufilter Basic
-! Last modified: 24 Feb 2025 21:08 UTC
+! Last modified: 25 Feb 2025 09:27 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1088,6 +1088,7 @@ totalcar.hu##[class*="adblokk"]
 totalcar.hu##[class*="hirdetes"]
 totalcar.hu##[id*="adocean"]
 totalcar.hu###ads
+totalcar.hu##.hasznaltautok-iframe-wrapper
 trademagazin.hu##[id*="banner"]
 transindex.ro##.header-1
 transindex.ro##[class*=" ad"]
