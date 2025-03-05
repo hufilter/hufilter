@@ -94,6 +94,8 @@ hu##[class*="overlayBg"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+online-filmek.ac,online-filmek.me##div[align="center"] > a[onclick]
+online-filmek.ac,online-filmek.me##span[class^="adslot_"]
 hdmozi.hu##.asgdc
 magyarorszagom.hu##.bannerContent
 112press.hu##.banner_middle
