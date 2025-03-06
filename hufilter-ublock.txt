@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: Zw83HbqRZVFhgptMT7oT8A
-! Version: 202503051443
+! Checksum: JROe7i9lPD2RHeMlRCct1A
+! Version: 202503061131
 ! Title: Hufilter for uBO
-! Last modified: 05 Mar 2025 14:43 UTC
+! Last modified: 06 Mar 2025 11:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1928,6 +1928,7 @@ fizz.hu##+js(set-cookie, cookie.consent.finished, 1)
 fizz.hu##+js(set-cookie, gdpr_level, 1)
 hetek.hu##+js(rc, modal-open, body)
 hosszupuskasub.com##+js(window.open-defuser.js)
+laptophardware.hu##+js(set, cookie_alert_overlay, noopFunc)
 lifestory.hu##+js(ra, oncontextmenu)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128532
 magyarorszag.hu##+js(rc, bottom-l, body, stay)
