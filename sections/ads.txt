@@ -542,7 +542,6 @@ hvg.hu##[class="articleitem clear smallimage imgleft"]
 hvg.hu##[class="site-scarab-bottom open"]
 hvg.hu##[id*="-ad-"]
 hvg.hu###webpushSelctorFormId
-hvo.hu##div[class*="ad_"]
 hwsw.hu##.billboard
 hwsw.hu##.cikkszovegaction
 hwsw.hu##.cikkszovegakcio
@@ -598,7 +597,6 @@ joy.hu##[class^="ad-"]
 joy.hu##[class^="adIn"]
 joy.hu##[class^="adPlace"]
 joy.hu###joylike
-kakukk.ro##[id*="banner"]
 kalohirek.hu##[class*="banner"]
 kalohirek.hu##[id*="banner"]
 kamaszpanasz.hu##[class*="banner"]
@@ -826,7 +824,6 @@ napiszar.hu##[class*="banner"]
 napiszex.hu##.banner
 napiszex.hu##.banner-bottom
 napiszex.hu##.list-item.has-banner
-napiuzlet.com##[class*="advertisement"]
 ncore.pro##.banner
 nemkutya.com##[class^="ad-"]
 nemkutya.com###text-3
@@ -972,8 +969,6 @@ sielok.hu##[id*="AdWrap"]
 sonline.hu##[class*="hirdetes"]
 sonline.hu##[id*="ctnet_ad_"]
 sonline.hu##div[class*="ad "]
-sorozataddict.hu###cboxOverlay
-sorozataddict.hu###colorbox
 sorozatwiki.hu##[class*="-ad-"]
 sorozatwiki.hu###fragment
 sporthirado.hu##[class*="banner"]
