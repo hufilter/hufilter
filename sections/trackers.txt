@@ -14,8 +14,6 @@
 !-------------------------------------------------------------------------------!
 /gemius.js^$script
 /gemius.min.js^$script
-/traffic.js$script
-/traffic.min.js$script
 /xgemius.js^$script
 /xgemius.min.js^$script
 
