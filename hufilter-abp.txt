@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: S3vzQj5bxuwnBp/crVZ2Lw
-! Version: 202503051443
+! Checksum: eLXC83bRKXxJ+rPTav/IlA
+! Version: 202503171013
 ! Title: Hufilter for ABP
-! Last modified: 05 Mar 2025 14:43 UTC
+! Last modified: 17 Mar 2025 10:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1847,8 +1847,6 @@ videa.hu,videaloop.hu##.top-video-container-banner
 !-------------------------------------------------------------------------------!
 /gemius.js^$script
 /gemius.min.js^$script
-/traffic.js$script
-/traffic.min.js$script
 /xgemius.js^$script
 /xgemius.min.js^$script
 ||*.hu/userip.php

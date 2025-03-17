@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: JROe7i9lPD2RHeMlRCct1A
-! Version: 202503061131
+! Checksum: E2x3zLG2nBI8bc/wpRTbDg
+! Version: 202503171013
 ! Title: Hufilter for uBO
-! Last modified: 06 Mar 2025 11:31 UTC
+! Last modified: 17 Mar 2025 10:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1847,8 +1847,6 @@ videa.hu,videaloop.hu##.top-video-container-banner
 !-------------------------------------------------------------------------------!
 /gemius.js^$script
 /gemius.min.js^$script
-/traffic.js$script
-/traffic.min.js$script
 /xgemius.js^$script
 /xgemius.min.js^$script
 ||*.hu/userip.php
