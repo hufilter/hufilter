@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: ylG0hD86ajAJ9lYtzoSMPg
-! Version: 202503171858
+! Checksum: kY/nwa3uFbiCaw/1xlkxiA
+! Version: 202503260956
 ! Title: Hufilter for uBO
-! Last modified: 17 Mar 2025 18:58 UTC
+! Last modified: 26 Mar 2025 09:56 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -115,6 +115,7 @@ hu##[class*="overlayBg"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+online-filmek.ac,online-filmek.me##div[align="center"] > div[style^="margin-top:"] > div > a[target="_blank"] > img
 online-filmek.ac,online-filmek.me#%#//scriptlet('set-constant', 'document.write', 'undefined')
 online-filmek.ac,online-filmek.me##a[onclick^="window.open"]
 online-filmek.ac,online-filmek.me##div[align="center"] > a[onclick]
