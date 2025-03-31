@@ -601,7 +601,6 @@ joy.hu##[class^="ad-"]
 joy.hu##[class^="adIn"]
 joy.hu##[class^="adPlace"]
 joy.hu###joylike
-kakukk.ro##[id*="banner"]
 kalohirek.hu##[class*="banner"]
 kalohirek.hu##[id*="banner"]
 kamaszpanasz.hu##[class*="banner"]
@@ -829,7 +828,6 @@ napiszar.hu##[class*="banner"]
 napiszex.hu##.banner
 napiszex.hu##.banner-bottom
 napiszex.hu##.list-item.has-banner
-napiuzlet.com##[class*="advertisement"]
 ncore.pro##.banner
 nemkutya.com##[class^="ad-"]
 nemkutya.com###text-3
@@ -975,8 +973,6 @@ sielok.hu##[id*="AdWrap"]
 sonline.hu##[class*="hirdetes"]
 sonline.hu##[id*="ctnet_ad_"]
 sonline.hu##div[class*="ad "]
-sorozataddict.hu###cboxOverlay
-sorozataddict.hu###colorbox
 sorozatwiki.hu##[class*="-ad-"]
 sorozatwiki.hu###fragment
 sporthirado.hu##[class*="banner"]
@@ -1350,7 +1346,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||pcwplus.hu/bannerek/$image
 ||performax.cz^$third-party
 ||piacesprofit.hu/files/skin/$image
-||pornolize.com/*?clickTAG=
 ||port-network.com/sponsoration_elements/
 ||portfolio.hu/img/partner/$image
 ||preissuchmaschine.de/banner/$image
