@@ -829,7 +829,6 @@ napiszar.hu##[class*="banner"]
 napiszex.hu##.banner
 napiszex.hu##.banner-bottom
 napiszex.hu##.list-item.has-banner
-napiuzlet.com##[class*="advertisement"]
 ncore.pro##.banner
 nemkutya.com##[class^="ad-"]
 nemkutya.com###text-3
@@ -975,8 +974,6 @@ sielok.hu##[id*="AdWrap"]
 sonline.hu##[class*="hirdetes"]
 sonline.hu##[id*="ctnet_ad_"]
 sonline.hu##div[class*="ad "]
-sorozataddict.hu###cboxOverlay
-sorozataddict.hu###colorbox
 sorozatwiki.hu##[class*="-ad-"]
 sorozatwiki.hu###fragment
 sporthirado.hu##[class*="banner"]
@@ -1350,7 +1347,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||pcwplus.hu/bannerek/$image
 ||performax.cz^$third-party
 ||piacesprofit.hu/files/skin/$image
-||pornolize.com/*?clickTAG=
 ||port-network.com/sponsoration_elements/
 ||portfolio.hu/img/partner/$image
 ||preissuchmaschine.de/banner/$image
@@ -1452,7 +1448,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ad4mat.net^$third-party
 ||adfox.ru^$third-party
 ||ads.sg.hu^$third-party
-||ads.ventivmedia.com^$third-party
 ||advantage.as^$third-party
 ||advertshot.ru^$third-party
 ||affiliate.hu^$third-party
