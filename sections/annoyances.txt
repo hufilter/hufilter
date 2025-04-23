@@ -54,6 +54,7 @@ bankmonitor.hu##main + .ok-prerender
 baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,nool.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##app-article-subscription-box
 baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,nool.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##app-newsletter-modal
 bebiztositva.hu##.pea_cook_wrapper
+bkk.hu##.szechenyi2020-wrapper
 blikk.hu###articleOfferFlag
 blikk.hu###pe_confirm
 blikk.hu###pe_confirm_optin_6
