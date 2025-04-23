@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: 9cGzC60dv+BWwnDbpNSWMg
-! Version: 202504231925
+! Checksum: 7fYnad5IcxuMj0qBuUdMqQ
+! Version: 202504231930
 ! Title: Hufilter for AdGuard
-! Last modified: 23 Apr 2025 19:25 UTC
+! Last modified: 23 Apr 2025 19:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -853,7 +853,6 @@ napiszar.hu##[class*="banner"]
 napiszex.hu##.banner
 napiszex.hu##.banner-bottom
 napiszex.hu##.list-item.has-banner
-napiuzlet.com##[class*="advertisement"]
 ncore.pro##.banner
 ncore.pro##:has(> .banner) + .hr_stuff, .hr_stuff:has(+ * > .banner)
 nemkutya.com##[class^="ad-"]
@@ -1000,8 +999,6 @@ sielok.hu##[id*="AdWrap"]
 sonline.hu##[class*="hirdetes"]
 sonline.hu##[id*="ctnet_ad_"]
 sonline.hu##div[class*="ad "]
-sorozataddict.hu###cboxOverlay
-sorozataddict.hu###colorbox
 sorozatwiki.hu##[class*="-ad-"]
 sorozatwiki.hu###fragment
 sporthirado.hu##[class*="banner"]
@@ -1372,7 +1369,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||pcwplus.hu/bannerek/$image
 ||performax.cz^$third-party
 ||piacesprofit.hu/files/skin/$image
-||pornolize.com/*?clickTAG=
 ||port-network.com/sponsoration_elements/
 ||portfolio.hu/img/partner/$image
 ||preissuchmaschine.de/banner/$image
