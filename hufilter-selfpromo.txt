@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OJGxpADmODskVuD8/8QpFg
-! Version: 202502242127
+! Checksum: Eu1wCxmEVUw3XmReEmAh+A
+! Version: 202504231913
 ! Title: Hufilter Self-promotions
-! Last modified: 24 Feb 2025 21:27 UTC
+! Last modified: 23 Apr 2025 19:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -40,10 +40,12 @@ alza.hu##.info-message
 alza.hu##.ear
 alza.hu##.private-labels
 alza.hu##.trust-bubble--hungary
+alza.hu##[class^="brandingEars"]
 automotor.hu##[data-foo="cikk_jobbhasab_"]
 automotor.hu##[data-foo="fooldali_jobbhasab_"]
 bestmarkt.hu##.ddModal
 blikk.hu##.google-news
+blikk.hu##.basicCreative.blockWrapper
 bookline.hu##.l-container--full
 bookline.hu##a.c-skin--left
 bookline.hu##a.c-skin--right
@@ -61,6 +63,7 @@ mandiner.hu##.subscription-box
 mandiner.hu##man-header-magazine
 mandiner.hu##man-newsletter-diverter-card
 napiszex.hu###logo + .partner
+ncore.pro###pager_top > .premium
 ! https://github.com/hufilter/hufilter/issues/254
 onroad.hu##a[href="https://onroad.hu/tamogatas"]
 origo.hu##app-article-page app-sidebar origo-branding-box
@@ -81,7 +84,11 @@ telex.hu##.kari
 telex.hu##.modal--overlay
 telex.hu##.support
 telex.hu##.support-box
+telex.hu##.support-link
+telex.hu##.tax-widget
+telex.hu##.telex-links
 telex.hu###article-endbox-campaign-content
+telex.hu##campaign-container
 totalcar.hu###bannerHeaderLink
 vezess.hu##.katalog
 vezess.hu##.wpb_wrapper > a
