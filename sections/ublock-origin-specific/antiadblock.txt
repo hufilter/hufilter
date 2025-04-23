@@ -19,8 +19,6 @@ szeretlekmagyarorszag.hu##^script:has-text(window.atob)
 24.hu##+js(acis, window._ceCTSData, hirdetések)
 angol-magyar-szotar.hu##+js(set, adblock, false)
 calculat.org##+js(nostif, adstest, 4000)
-! chp-ads-block-detector
-cinemo.hu##+js(aopr, adsBlocked)
 divany.hu,totalcar.hu,totalbike.hu##+js(acis, document.head, currentScript.remove)
 embed.indavideo.hu##+js(set, AdHandler.adblocked, 0)
 embed.indavideo.hu##+js(set, AdHandler.adBlockEnabled, 0)
@@ -47,8 +45,5 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
-! chp-ads-block-detector
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect=noop.txt,domain=cinemo.hu
-||sovrn.com$xhr,redirect=noop.txt,domain=cinemo.hu
 ! https://github.com/hufilter/hufilter/issues/427
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=myonlineradio.hu,redirect=noop.js
