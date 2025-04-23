@@ -1352,7 +1352,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||pcwplus.hu/bannerek/$image
 ||performax.cz^$third-party
 ||piacesprofit.hu/files/skin/$image
-||pornolize.com/*?clickTAG=
 ||port-network.com/sponsoration_elements/
 ||portfolio.hu/img/partner/$image
 ||preissuchmaschine.de/banner/$image
