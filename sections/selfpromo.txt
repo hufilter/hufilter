@@ -58,7 +58,11 @@ telex.hu##.kari
 telex.hu##.modal--overlay
 telex.hu##.support
 telex.hu##.support-box
+telex.hu##.support-link
+telex.hu##.tax-widget
+telex.hu##.telex-links
 telex.hu###article-endbox-campaign-content
+telex.hu##campaign-container
 totalcar.hu###bannerHeaderLink
 vezess.hu##.katalog
 vezess.hu##.wpb_wrapper > a
