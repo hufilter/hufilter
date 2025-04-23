@@ -1,9 +1,9 @@
 name: Dead Domains Check
 
 on:
-  schedule:
-    # Run the job on every Monday at 8:00 AM UTC
-    - cron: '0 8 * * 1'
+  # schedule:
+  #   # Run the job on every Monday at 8:00 AM UTC
+  #   - cron: '0 8 * * 1'
   push:
     branches:
       - master
