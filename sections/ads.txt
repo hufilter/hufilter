@@ -597,6 +597,7 @@ itmania.hu##.rckaexclude
 itmania.hu##[class*="hirdetes"]
 ize.hu##.banner
 jofogas.hu###roadblock-adcum-zone
+jofogas.hu##.r_above-placeholder
 jogiforum.hu##[class*="banner"]
 joy.hu##[class*="Adverticum"]
 joy.hu##[class^="ad-"]
