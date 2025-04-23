@@ -38,6 +38,7 @@ mandiner.hu##.subscription-box
 mandiner.hu##man-header-magazine
 mandiner.hu##man-newsletter-diverter-card
 napiszex.hu###logo + .partner
+ncore.pro###pager_top > .premium
 ! https://github.com/hufilter/hufilter/issues/254
 onroad.hu##a[href="https://onroad.hu/tamogatas"]
 origo.hu##app-article-page app-sidebar origo-branding-box

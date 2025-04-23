@@ -831,6 +831,7 @@ napiszex.hu##.banner-bottom
 napiszex.hu##.list-item.has-banner
 napiuzlet.com##[class*="advertisement"]
 ncore.pro##.banner
+ncore.pro##:has(> .banner) + .hr_stuff, .hr_stuff:has(+ * > .banner)
 nemkutya.com##[class^="ad-"]
 nemkutya.com###text-3
 nemzetisport.hu##.bet365_connect
