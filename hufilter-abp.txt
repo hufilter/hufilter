@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: X5ZLxwKdLGN0bReXPkCROg
-! Version: 202504231913
+! Checksum: ZpERFwxl9PNjX8qKQ8iXKA
+! Version: 202504231925
 ! Title: Hufilter for ABP
-! Last modified: 23 Apr 2025 19:13 UTC
+! Last modified: 23 Apr 2025 19:25 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1906,8 +1906,6 @@ videa.hu,videaloop.hu##.top-video-container-banner
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
 24.hu#$#abort-current-inline-script window._ceCTSData hirdetések
-! chp-ads-block-detector
-cinemo.hu#$#abort-on-property-read adsBlocked
 embed.indavideo.hu#$#override-property-read AdHandler.adblocked 0
 embed.indavideo.hu#$#override-property-read AdHandler.adBlockEnabled 0
 embed.indavideo.hu#$#override-property-read AdHandler.checkAdblock noopFunc
@@ -1917,9 +1915,6 @@ port.hu#$#abort-on-property-write document.body.style
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
-! chp-ads-block-detector
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu
-||sovrn.com$xmlhttprequest,rewrite=abp-resource:blank-text,domain=cinemo.hu
 ! https://github.com/uBlockOrigin/uAssets/issues/25482
 @@||js.srvtrck.com/v1/js?api_key$xmlhttprequest,domain=online-filmek.ac
 ! This section file contains rules for fixing breaking sites. For example:

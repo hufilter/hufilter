@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: YZKuBr072RsgE7H1Z0WDnw
-! Version: 202504231913
+! Checksum: 1yBCM0Vz0DdXOEYxlGKPSQ
+! Version: 202504231925
 ! Title: Hufilter for uBO
-! Last modified: 23 Apr 2025 19:13 UTC
+! Last modified: 23 Apr 2025 19:25 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1986,8 +1986,6 @@ szeretlekmagyarorszag.hu##^script:has-text(window.atob)
 24.hu##+js(acis, window._ceCTSData, hirdetések)
 angol-magyar-szotar.hu##+js(set, adblock, false)
 calculat.org##+js(nostif, adstest, 4000)
-! chp-ads-block-detector
-cinemo.hu##+js(aopr, adsBlocked)
 divany.hu,totalcar.hu,totalbike.hu##+js(acis, document.head, currentScript.remove)
 embed.indavideo.hu##+js(set, AdHandler.adblocked, 0)
 embed.indavideo.hu##+js(set, AdHandler.adBlockEnabled, 0)
@@ -2012,9 +2010,6 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
-! chp-ads-block-detector
-||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xhr,redirect=noop.txt,domain=cinemo.hu
-||sovrn.com$xhr,redirect=noop.txt,domain=cinemo.hu
 ! https://github.com/hufilter/hufilter/issues/427
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=myonlineradio.hu,redirect=noop.js
 ! This section file contains rules for fixing breaking sites. For example:
