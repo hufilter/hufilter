@@ -21,6 +21,7 @@ automotor.hu##[data-foo="cikk_jobbhasab_"]
 automotor.hu##[data-foo="fooldali_jobbhasab_"]
 bestmarkt.hu##.ddModal
 blikk.hu##.google-news
+blikk.hu##.basicCreative.blockWrapper
 bookline.hu##.l-container--full
 bookline.hu##a.c-skin--left
 bookline.hu##a.c-skin--right

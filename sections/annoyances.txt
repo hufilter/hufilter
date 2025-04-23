@@ -57,6 +57,7 @@ bebiztositva.hu##.pea_cook_wrapper
 blikk.hu###articleOfferFlag
 blikk.hu###pe_confirm
 blikk.hu###pe_confirm_optin_6
+blikk.hu##.leavingPopupLayer
 blikkruzs.blikk.hu###pe_confirm_optin_1
 blog.hu##[id*="cp_popup"]
 bonuszbrigad.hu###newASZFLayer
