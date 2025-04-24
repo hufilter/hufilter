@@ -149,6 +149,7 @@ itthonrolhaza.hu###cookie-law-info-bar
 kalohirek.hu###cookie_container
 kapu.hu###cookieSpan
 karpathir.com##[app="tibrr-cookie-consent"]
+kaveverzum.hu###overlay_cookie_alert, #overlay_cookie_alert[style*="display: flex"] ~ #exposeMaskOverlay
 kecskemet365.hu###check-also-box
 keol.hu###social
 keol.hu##div.subscribe_module
