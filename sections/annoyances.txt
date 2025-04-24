@@ -19,6 +19,12 @@ hu###cookie-bar
 hu###cookie-notice
 hu###cookie-window
 hu###cookiebar
+hu##.cookie-box
+hu##app-cookie-layer
+hu###szechenyi2020
+hu###szechenyi2020-wrapper
+hu###szechenyi
+hu###szechenyi-toggle
 ! hu###qc-cmp2-container
 
 !-------------------------------------------------------------------------------!
