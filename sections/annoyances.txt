@@ -60,6 +60,7 @@ bankmonitor.hu##main + .ok-prerender
 baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,nool.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##app-article-subscription-box
 baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,nool.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##app-newsletter-modal
 bebiztositva.hu##.pea_cook_wrapper
+bekeltetes.hu##.cdk-overlay-container:has(app-cookie-consent-dialog)
 bkk.hu##.szechenyi2020-wrapper
 blikk.hu###articleOfferFlag
 blikk.hu###pe_confirm
@@ -206,8 +207,10 @@ napi.hu##.cikkajanlo
 napiszex.hu##.ckwrap
 napjainkportal.hu##.cookie-notice-container
 nemzetisport.hu##.allow-cookie-stripe
+nemzetiszinhaz.hu##.cookie
 nice.hu##div.cookie-message
 nice.hu##div#show_news_box
+njt.hu###cld
 nlc.hu##.m-pcPromoArticlePointsLayer
 nlc.hu##.m-pcPromoFooterLayer
 nlc.hu##div.m-articleStickySocial
@@ -283,6 +286,7 @@ totalcar.hu##.header-tk-ajanlo
 travelo.hu##div.qc-cmp-ui-container
 tudtade.blogstar.hu###cookie_policy
 twn.hu###popunder_featured
+ugyeszseg.hu##.et_pb_fullwidth_image
 vg.hu##.newsletter-box
 ! https://github.com/hufilter/hufilter/issues/250
 vg.hu##[style^="bottom: 0px; left: 0px; position: fixed; width:"]
