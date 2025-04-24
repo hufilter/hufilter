@@ -59,10 +59,12 @@ telex.hu###minutes-campaign-container-mini
 telex.hu##.fb-box
 telex.hu##.kari
 telex.hu##.modal--overlay
+telex.hu##.modal--tax
 telex.hu##.support
 telex.hu##.support-box
 telex.hu##.support-link
 telex.hu##.tax-widget
+telex.hu##.telex-donate
 telex.hu##.telex-links
 telex.hu###article-endbox-campaign-content
 telex.hu##campaign-container

@@ -99,6 +99,7 @@ esport1.hu###article-recommend-popup
 f1vilag.hu###catapult-cookie-bar
 f1vilag.hu##div[id*="elementor-popup-modal-"]
 femina.hu###femina-shop-ajanlo-slider
+fermentor.hu###elementor-popup-modal-384
 forbes.hu##.crp_related
 forbes.hu###catapult-cookie-bar
 fressnapf.hu##.grey-popup-layer
@@ -149,6 +150,7 @@ itthonrolhaza.hu###cookie-law-info-bar
 kalohirek.hu###cookie_container
 kapu.hu###cookieSpan
 karpathir.com##[app="tibrr-cookie-consent"]
+kaveverzum.hu###overlay_cookie_alert, #overlay_cookie_alert[style*="display: flex"] ~ #exposeMaskOverlay
 kecskemet365.hu###check-also-box
 keol.hu###social
 keol.hu##div.subscribe_module
@@ -267,6 +269,7 @@ tarhely.eu###sutik
 telekom.hu###app-cookie-policy
 telex.hu###modal--umbrella
 telex.hu###modal--you
+textilbongesz.hu###consentModal
 thaimatrac.hu##.border-top.p-4.bg-8.cookie-alert__inner
 titkokszigete.hu##.spu-bg
 titkokszigete.hu##.spu-box
