@@ -269,6 +269,7 @@ tarhely.eu###sutik
 telekom.hu###app-cookie-policy
 telex.hu###modal--umbrella
 telex.hu###modal--you
+textilbongesz.hu###consentModal
 thaimatrac.hu##.border-top.p-4.bg-8.cookie-alert__inner
 titkokszigete.hu##.spu-bg
 titkokszigete.hu##.spu-box
