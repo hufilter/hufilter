@@ -1012,6 +1012,7 @@ storyonline.hu##[class*="hirdetes"]
 storyonline.hu##div[class*="adserver"]
 storyonline.hu##div[id*="kirakat"]
 storyonline.hu##div[id*="rightad"]
+streetkitchen.hu##.sponsor-container
 stylemagazin.hu##[class="wp-container wp-top"]
 stylemagazin.hu##[id*="banner"]
 superiorhirek.hu##[class*="-ad"]
