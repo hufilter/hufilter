@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: hlWo3B637v1Sfw+jFbsurg
-! Version: 202504231930
+! Checksum: 3WnCpyv2gOeA6sMklIzF6Q
+! Version: 202504251059
 ! Title: Hufilter Basic
-! Last modified: 23 Apr 2025 19:30 UTC
+! Last modified: 25 Apr 2025 10:59 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1033,6 +1033,7 @@ storyonline.hu##[class*="hirdetes"]
 storyonline.hu##div[class*="adserver"]
 storyonline.hu##div[id*="kirakat"]
 storyonline.hu##div[id*="rightad"]
+streetkitchen.hu##.sponsor-container
 stylemagazin.hu##[class="wp-container wp-top"]
 stylemagazin.hu##[id*="banner"]
 superiorhirek.hu##[class*="-ad"]

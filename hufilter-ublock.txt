@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 7LzFPChH70iFamQYNP/dhA
-! Version: 202504241609
+! Checksum: +KgvyrvTsX3NRT/5kPPbsA
+! Version: 202504251059
 ! Title: Hufilter for uBO
-! Last modified: 24 Apr 2025 16:09 UTC
+! Last modified: 25 Apr 2025 10:59 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1033,6 +1033,7 @@ storyonline.hu##[class*="hirdetes"]
 storyonline.hu##div[class*="adserver"]
 storyonline.hu##div[id*="kirakat"]
 storyonline.hu##div[id*="rightad"]
+streetkitchen.hu##.sponsor-container
 stylemagazin.hu##[class="wp-container wp-top"]
 stylemagazin.hu##[id*="banner"]
 superiorhirek.hu##[class*="-ad"]
@@ -1523,6 +1524,12 @@ hu###cookie-bar
 hu###cookie-notice
 hu###cookie-window
 hu###cookiebar
+hu##.cookie-box
+hu##app-cookie-layer
+hu###szechenyi2020
+hu###szechenyi2020-wrapper
+hu###szechenyi
+hu###szechenyi-toggle
 ! hu###qc-cmp2-container
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
@@ -1557,6 +1564,7 @@ bankmonitor.hu##main + .ok-prerender
 baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,nool.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##app-article-subscription-box
 baon.hu,bama.hu,beol.hu,boon.hu,delmagyar.hu,duol.hu,feol.hu,kisalfold.hu,haon.hu,heol.hu,szoljon.hu,kemma.hu,nool.hu,sonline.hu,szon.hu,teol.hu,vaol.hu,veol.hu,zaol.hu##app-newsletter-modal
 bebiztositva.hu##.pea_cook_wrapper
+bekeltetes.hu##.cdk-overlay-container:has(app-cookie-consent-dialog)
 bkk.hu##.szechenyi2020-wrapper
 blikk.hu###articleOfferFlag
 blikk.hu###pe_confirm
@@ -1703,8 +1711,10 @@ napi.hu##.cikkajanlo
 napiszex.hu##.ckwrap
 napjainkportal.hu##.cookie-notice-container
 nemzetisport.hu##.allow-cookie-stripe
+nemzetiszinhaz.hu##.cookie
 nice.hu##div.cookie-message
 nice.hu##div#show_news_box
+njt.hu###cld
 nlc.hu##.m-pcPromoArticlePointsLayer
 nlc.hu##.m-pcPromoFooterLayer
 nlc.hu##div.m-articleStickySocial
@@ -1780,6 +1790,7 @@ totalcar.hu##.header-tk-ajanlo
 travelo.hu##div.qc-cmp-ui-container
 tudtade.blogstar.hu###cookie_policy
 twn.hu###popunder_featured
+ugyeszseg.hu##.et_pb_fullwidth_image
 vg.hu##.newsletter-box
 ! https://github.com/hufilter/hufilter/issues/250
 vg.hu##[style^="bottom: 0px; left: 0px; position: fixed; width:"]
@@ -1953,6 +1964,8 @@ vezess.hu##+js(aeld, mouseleave, showFbPopup)
 vezess.hu##+js(nostif, FbExit, 3000)
 vezess.hu##+js(rc, blurry, body > :not(.m-fbPopup), stay)
 origo.hu##.oh-holder.open:style(z-index: 9999!important;)
+otpbank.hu##.cdk-overlay-container:has(ib-bs-recommended-analytics-consent)
+otpbank.hu##html:style(position: static !important;)
 myonlineradio.hu##.js-appAdv:style(display: none !important;)
 myonlineradio.hu##.cover-slider-cont:style(display: block !important;)
 noizz.hu##.leavingPopupLayer:style(display: none !important;)
