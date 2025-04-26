@@ -116,6 +116,7 @@ glamour.hu##.leavingPopupLayer
 glamour.hu###articleOfferFlag
 glamour.hu###pe_confirm_optin_6
 glamour.hu###qc-cmp2-container
+gov.hu###cookiesenabled
 gsplus.hu,pcwplus.hu###web-push-popup
 gumiszoba.com###eu-cookie-law
 gumiszoba.com###facebook-likebox-8
