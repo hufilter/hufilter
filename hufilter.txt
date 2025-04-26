@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: NJY+7b5uRnLXENqXP3kz+Q
-! Version: 202504260515
+! Checksum: APIleBS2f7T36qjJ634Nww
+! Version: 202504261425
 ! Title: Hufilter Basic
-! Last modified: 26 Apr 2025 05:15 UTC
+! Last modified: 26 Apr 2025 14:25 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -151,6 +151,7 @@ alfahir.hu###block-block-16
 alfahir.hu###block-block-22
 alfahir.hu###block-views-ajanlo-block
 alfahir.hu###sticky_footer
+allegro.hu##.opbox-sheet.card:has(div[data-box-name^="allegro.ads."])
 androbit.net###RedUserNotification
 androgeek.hu##div.cikk_zona
 androgeek.hu##div.rightside > iframe
