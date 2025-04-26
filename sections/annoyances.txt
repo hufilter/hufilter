@@ -22,6 +22,7 @@ hu###cookiebar
 hu##.cookie-box
 hu##.eu-cookie-compliance-banner
 hu###cookies-policy
+hu###cmplz-cookiebanner-container
 hu##app-cookie-layer
 hu###szechenyi2020
 hu###szechenyi2020-wrapper
@@ -329,3 +330,5 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||liked.hu/choice/*/cmp2*.js^$script
 ||*.hu/*eu_cookie_compliance.js$script
 ||*.hu/*eu_cookie_compliance.css$stylesheet
+||*.hu/*wp-content/plugins/complianz-gdpr/*.js$script
+||*.hu/*wp-content/plugins/complianz-gdpr/*.css$stylesheet
