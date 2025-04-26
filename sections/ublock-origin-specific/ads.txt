@@ -16,6 +16,7 @@ myonlineradio.hu##._bannerTop1:style(background-color: transparent !important;)
 startlap.hu##div.container.banner-container.wide:style(min-height: 0 !important; height: auto !important;)
 dehir.hu###popupFrontPageBanner-modal:style(display: none !important;)
 dehir.hu##body:style(overflow: auto !important;)
+prohardver.hu,fototrend.hu##main:style(background-image: none !important;)
 
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!

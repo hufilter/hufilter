@@ -14,6 +14,7 @@ myonlineradio.hu#$#.topHorizontalBanner { position: absolute !important; left: -
 startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; height: auto !important; }
 dehir.hu#$##popupFrontPageBanner-modal { display: none !important; }
 dehir.hu#$#body { overflow: auto !important; }
+prohardver.hu,fototrend.hu#$#main { background-image: none !important; }
 
 ! https://github.com/hufilter/hufilter/issues/440
 ! https://github.com/hufilter/hufilter/pulls/452
