@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: sUlEaDM3Sb8U6LukxEWTrg
-! Version: 202504260511
+! Checksum: fFGBr4JstG8v+1HqOmvsSw
+! Version: 202504260513
 ! Title: Hufilter for AdGuard
-! Last modified: 26 Apr 2025 05:11 UTC
+! Last modified: 26 Apr 2025 05:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -953,6 +953,8 @@ port.hu##.edgebox-widget.show
 port.hu##.port-adbd
 port.hu##[class*="_spon"]
 port.hu##[class="advert fix-advert"]
+port.hu##.advertisement__sticky
+port.hu##body .advert
 portfolio.hu##.footer--partners
 portfolio.hu##[data-qa="oil-full"]
 portfolio.hu##[data-qa="oil-Layer"]

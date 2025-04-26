@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: sXHoTvee32wnIGx9IvDytA
-! Version: 202504260511
+! Checksum: 9twtQwtwREkam7LxOoK/Gw
+! Version: 202504260513
 ! Title: Hufilter for uBO
-! Last modified: 26 Apr 2025 05:11 UTC
+! Last modified: 26 Apr 2025 05:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -953,6 +953,8 @@ port.hu##.edgebox-widget.show
 port.hu##.port-adbd
 port.hu##[class*="_spon"]
 port.hu##[class="advert fix-advert"]
+port.hu##.advertisement__sticky
+port.hu##body .advert
 portfolio.hu##.footer--partners
 portfolio.hu##[data-qa="oil-full"]
 portfolio.hu##[data-qa="oil-Layer"]
