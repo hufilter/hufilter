@@ -56,3 +56,10 @@ kektura.hu###cookie-consent-dialog
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)
 otpportalok.hu###pop_1:has(> .suti)
+szexshop.hu###overlay_cookie_alert
+szexshop.hu###exposeMaskOverlay
+szexshop.hu##body:style(overflow: auto !important;)
+szexshop.hu##body:style(position: static !important;)
+szexshop.hu##body.scroll-lock :is(.main, .footer, .partners):style(-webkit-filter: none !important;)
+szexshop.hu##body.scroll-lock :is(.main, .footer, .partners):style(filter: none !important;)
+szexshop.hu##body.scroll-lock .nav-list--0:style(pointer-events: auto !important;)
