@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 3WnCpyv2gOeA6sMklIzF6Q
-! Version: 202504251059
+! Checksum: 0Znm4ebZv89RmruUMTQt0Q
+! Version: 202504260511
 ! Title: Hufilter Basic
-! Last modified: 25 Apr 2025 10:59 UTC
+! Last modified: 26 Apr 2025 05:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -850,6 +850,7 @@ napinemszar.hu###sidebar
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##[style="width:300px;height:250px;"]
 napiszar.hu##[class*="banner"]
+napiszar.hu###top-banner
 napiszex.hu##.banner
 napiszex.hu##.banner-bottom
 napiszex.hu##.list-item.has-banner
