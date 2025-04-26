@@ -20,6 +20,9 @@ hu###cookie-notice
 hu###cookie-window
 hu###cookiebar
 hu##.cookie-box
+hu##.eu-cookie-compliance-banner
+hu###cookies-policy
+hu###cmplz-cookiebanner-container
 hu##app-cookie-layer
 hu###szechenyi2020
 hu###szechenyi2020-wrapper
@@ -116,6 +119,7 @@ glamour.hu##.leavingPopupLayer
 glamour.hu###articleOfferFlag
 glamour.hu###pe_confirm_optin_6
 glamour.hu###qc-cmp2-container
+gov.hu###cookiesenabled
 gsplus.hu,pcwplus.hu###web-push-popup
 gumiszoba.com###eu-cookie-law
 gumiszoba.com###facebook-likebox-8
@@ -328,3 +332,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||penzcentrum.hu/assets/js/bioep.min.js$script
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 ||liked.hu/choice/*/cmp2*.js^$script
+||*.hu/*eu_cookie_compliance.js$script
+||*.hu/*eu_cookie_compliance.css$stylesheet
+||*.hu/*wp-content/plugins/complianz-gdpr/*.js$script
+||*.hu/*wp-content/plugins/complianz-gdpr/*.css$stylesheet
