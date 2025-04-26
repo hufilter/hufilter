@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: G+gEmV/QdFw4Fp099G2IGg
-! Version: 202504260515
+! Checksum: rWmUCbQxvzuIDyBBSiUlqw
+! Version: 202504260605
 ! Title: Hufilter for AdGuard
-! Last modified: 26 Apr 2025 05:15 UTC
+! Last modified: 26 Apr 2025 06:05 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1633,6 +1633,7 @@ gyorihir.hu###cookie_bar
 gyorplusz.hu###cookie-law-info-bar
 harmonet.hu###ajanlo_box_ah
 hasznaltauto.hu###CybotCookiebotDialog
+hasznaltauto.hu##.local-content
 haziallat.hu##[id^="cookieconsent"]
 hazipatika.com##.fb-exit-popup-container
 hazipatika.com###facebook-sharebar
