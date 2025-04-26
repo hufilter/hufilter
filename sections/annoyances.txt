@@ -20,6 +20,7 @@ hu###cookie-notice
 hu###cookie-window
 hu###cookiebar
 hu##.cookie-box
+hu##.eu-cookie-compliance-banner
 hu###cookies-policy
 hu##app-cookie-layer
 hu###szechenyi2020
@@ -325,3 +326,5 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||penzcentrum.hu/assets/js/bioep.min.js$script
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 ||liked.hu/choice/*/cmp2*.js^$script
+||*.hu/*eu_cookie_compliance.js$script
+||*.hu/*eu_cookie_compliance.css$stylesheet
