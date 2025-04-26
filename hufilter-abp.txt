@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RKtDVGtrzBrSdWMhe4jwWw
-! Version: 202504260624
+! Checksum: xMN1OI4EnSDvFcgW42lmAA
+! Version: 202504261155
 ! Title: Hufilter for ABP
-! Last modified: 26 Apr 2025 06:24 UTC
+! Last modified: 26 Apr 2025 11:55 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1529,6 +1529,9 @@ hu###cookie-notice
 hu###cookie-window
 hu###cookiebar
 hu##.cookie-box
+hu##.eu-cookie-compliance-banner
+hu###cookies-policy
+hu###cmplz-cookiebanner-container
 hu##app-cookie-layer
 hu###szechenyi2020
 hu###szechenyi2020-wrapper
@@ -1624,6 +1627,7 @@ glamour.hu##.leavingPopupLayer
 glamour.hu###articleOfferFlag
 glamour.hu###pe_confirm_optin_6
 glamour.hu###qc-cmp2-container
+gov.hu###cookiesenabled
 gsplus.hu,pcwplus.hu###web-push-popup
 gumiszoba.com###eu-cookie-law
 gumiszoba.com###facebook-likebox-8
@@ -1833,6 +1837,10 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||penzcentrum.hu/assets/js/bioep.min.js$script
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 ||liked.hu/choice/*/cmp2*.js^$script
+||*.hu/*eu_cookie_compliance.js$script
+||*.hu/*eu_cookie_compliance.css$stylesheet
+||*.hu/*wp-content/plugins/complianz-gdpr/*.js$script
+||*.hu/*wp-content/plugins/complianz-gdpr/*.css$stylesheet
 ! This section file contains rules for bypassing anti-adblock protections.
 ! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
 !-------------------------------------------------------------------------------!
