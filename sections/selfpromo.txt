@@ -54,6 +54,8 @@ pestisracok.hu###head-wrap + .code-block
 pestisracok.hu##.wprt-container a[href="https://www.facebook.com/pestisracok.pstv"]
 ! Article recommender in the forum
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.msg-list > ul > div:not(.media)
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu#?#div:-abp-has(> h4:-abp-contains(/(Hirdetés|[Hh].*i.*r.*d.*e.*t.*é.*s)/)):-abp-has(a[href*="/fiok/premium.php"])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu###header-network > li:has(a[href*="/fiok/premium.php"])
 telex.hu###minutes-campaign-container
 telex.hu###minutes-campaign-container-mini
 telex.hu##.fb-box
