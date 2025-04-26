@@ -20,6 +20,7 @@ hu###cookie-notice
 hu###cookie-window
 hu###cookiebar
 hu##.cookie-box
+hu###cookies-policy
 hu##app-cookie-layer
 hu###szechenyi2020
 hu###szechenyi2020-wrapper
