@@ -219,6 +219,7 @@ nlc.hu##.m-pcPromoFooterLayer
 nlc.hu##div.m-articleStickySocial
 nlc.hu##div.m-breakingLayer
 noizz.hu###articleOfferFlag
+novekedes.hu##.main-cookie-bar
 nyest.hu###cookie-consent
 obi.hu##.colorbox-cookiepolicy
 offline.hu###catapult-cookie-bar
