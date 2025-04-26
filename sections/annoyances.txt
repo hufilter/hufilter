@@ -125,6 +125,7 @@ gyorihir.hu###cookie_bar
 gyorplusz.hu###cookie-law-info-bar
 harmonet.hu###ajanlo_box_ah
 hasznaltauto.hu###CybotCookiebotDialog
+hasznaltauto.hu##.local-content
 haziallat.hu##[id^="cookieconsent"]
 hazipatika.com##.fb-exit-popup-container
 hazipatika.com###facebook-sharebar
