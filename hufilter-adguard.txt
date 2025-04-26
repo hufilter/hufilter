@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: fFGBr4JstG8v+1HqOmvsSw
-! Version: 202504260513
+! Checksum: ZRHS0sejnsvXFMRcYNmNmQ
+! Version: 202504260514
 ! Title: Hufilter for AdGuard
-! Last modified: 26 Apr 2025 05:13 UTC
+! Last modified: 26 Apr 2025 05:14 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1533,6 +1533,7 @@ hu###szechenyi2020
 hu###szechenyi2020-wrapper
 hu###szechenyi
 hu###szechenyi-toggle
+hu###szechenyi_2020_logo
 ! hu###qc-cmp2-container
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
