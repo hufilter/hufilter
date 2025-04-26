@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EtbAN8wYAOJDJUKOBd3LbQ
-! Version: 202504241609
+! Checksum: jhVVCSMFpUo131qsU2IFmw
+! Version: 202504261428
 ! Title: Hufilter Self-promotions
-! Last modified: 24 Apr 2025 16:09 UTC
+! Last modified: 26 Apr 2025 14:28 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -77,6 +77,8 @@ pestisracok.hu###head-wrap + .code-block
 pestisracok.hu##.wprt-container a[href="https://www.facebook.com/pestisracok.pstv"]
 ! Article recommender in the forum
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.msg-list > ul > div:not(.media)
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu#?#div:-abp-has(> h4:-abp-contains(/(Hirdetés|[Hh].*i.*r.*d.*e.*t.*é.*s)/)):-abp-has(a[href*="/fiok/premium.php"])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu###header-network > li:has(a[href*="/fiok/premium.php"])
 telex.hu###minutes-campaign-container
 telex.hu###minutes-campaign-container-mini
 telex.hu##.fb-box

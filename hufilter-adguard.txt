@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: ObmywMPHCOBcCt3Nvldgew
-! Version: 202504261425
+! Checksum: nMLFSp106+AzCVFrJaN+7w
+! Version: 202504261428
 ! Title: Hufilter for AdGuard
-! Last modified: 26 Apr 2025 14:25 UTC
+! Last modified: 26 Apr 2025 14:28 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1248,7 +1248,8 @@ nlc.hu#?#.m-breakingLayer:-abp-has(a[href*="nlc.hu/balkonfanatik"])
 prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu#?#div:-abp-has(>[style*="calc"])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu#?#div:-abp-has(>h4 + div[style*="calc"])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu#?#div#center:-abp-has(div > div > p > a[style="color: #b42223;"])
-prohardver.hu,hardverapro.hu#?#div[class]:-abp-has(> h4:-abp-contains(/(Hirdetés|[Hh].*i.*r.*d.*e.*t.*é.*s)/) + div[class])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.adaptiveAd
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owner):-abp-has(> h4:-abp-contains(/(Hirdetés|[Hh].*i.*r.*d.*e.*t.*é.*s)/) + div[class])
 szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
 ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 !-------------------------------------------------------------------------------!
@@ -1939,6 +1940,7 @@ myonlineradio.hu#$#.topHorizontalBanner { position: absolute !important; left: -
 startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; height: auto !important; }
 dehir.hu#$##popupFrontPageBanner-modal { display: none !important; }
 dehir.hu#$#body { overflow: auto !important; }
+prohardver.hu,fototrend.hu#$#main { background-image: none !important; }
 ! https://github.com/hufilter/hufilter/issues/440
 ! https://github.com/hufilter/hufilter/pulls/452
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)

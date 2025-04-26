@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rVMhva5yLfbbLwBGwA1LQQ
-! Version: 202504261425
+! Checksum: HUEfmHbwTWxAeNIdsvzxFQ
+! Version: 202504261428
 ! Title: Hufilter for ABP
-! Last modified: 26 Apr 2025 14:25 UTC
+! Last modified: 26 Apr 2025 14:28 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1248,7 +1248,8 @@ nlc.hu#?#.m-breakingLayer:-abp-has(a[href*="nlc.hu/balkonfanatik"])
 prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,hardverapro.hu,fototrend.hu#?#div:-abp-has(>[style*="calc"])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu#?#div:-abp-has(>h4 + div[style*="calc"])
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu#?#div#center:-abp-has(div > div > p > a[style="color: #b42223;"])
-prohardver.hu,hardverapro.hu#?#div[class]:-abp-has(> h4:-abp-contains(/(Hirdetés|[Hh].*i.*r.*d.*e.*t.*é.*s)/) + div[class])
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##.adaptiveAd
+prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owner):-abp-has(> h4:-abp-contains(/(Hirdetés|[Hh].*i.*r.*d.*e.*t.*é.*s)/) + div[class])
 szeged365.hu#?#[id^="tie-block"]:-abp-has(.stream-title)
 ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 !-------------------------------------------------------------------------------!
