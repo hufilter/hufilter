@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: VhTru0B9HIOOPdxq0r+71w
-! Version: 202504261428
+! Checksum: seH9GSYu8OJcTqEo99asMg
+! Version: 202504271908
 ! Title: Hufilter for uBO
-! Last modified: 26 Apr 2025 14:28 UTC
+! Last modified: 27 Apr 2025 19:08 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1131,6 +1131,7 @@ vasarnap.hu##.banner-commercial
 vasarnap.hu##.reklamnagy
 vatera.hu##.page-rightside-advert
 vatera.hu##div[id*="advert-container"]
+vectraline.hu##.prod-banner
 vehir.hu##[class*="szovegkozi"]
 vehir.hu##[class^="ad_"]
 vehir.hu##[id*="reklam_"]
@@ -1406,6 +1407,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ultraweb.hu/ad*.php
 ||utcakereso.hu/hirdetes/
 ||vatera.hu/affiliate/images/banner/$image
+||vectraline.hu/*/hirdetesek/$image
 ||vezess.hu/data/files/bannerek/$image
 ||vezess.hu/data/files/kapcsolodo_anyagok/szponz_hatterek/$image
 ||vezess2.p3k.hu/app/uploads/*nyeremenyjatek$image
