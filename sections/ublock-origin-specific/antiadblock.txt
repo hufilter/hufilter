@@ -37,6 +37,7 @@ pcworld.hu##+js(rc, have-ad, body)
 port.hu##+js(aopw, document.body.style)
 ! https://github.com/uBlockOrigin/uAssets/issues/25482
 online-filmek.ac##+js(no-fetch-if, api)
+online-filmek.ac##+js(no-fetch-if, ads)
 ! https://github.com/uBlockOrigin/uAssets/issues/27256#issuecomment-2670818969
 rubyvidhub.com##+js(rmnt, script, undefined)
 
