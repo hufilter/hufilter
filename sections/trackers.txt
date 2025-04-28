@@ -26,6 +26,9 @@
 ! https://github.com/hufilter/hufilter/issues/305
 ||beam-tracker.telex.hu^
 ||beam.telex.hu^
+||campaign.telex.hu/*/remplib.js$script
+||campaign.telex.hu/*/banner.js$script
+||campaign.telex.hu/showtime.php
 ||counter.megagroup.ru^
 ||doubleclick.net^
 ||gemius.hu^
