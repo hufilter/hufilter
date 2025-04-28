@@ -1249,6 +1249,8 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||*/empty.json
 ||*/eu-banned-popup/
 
+||24.hu/*/sponsoredpost.css$stylesheet
+||24.hu/*/sponsoredpost.js$script
 ||444.hu/*/ease/
 ||ado.hu/banners/$image
 ||affiliate.hu$subdocument
