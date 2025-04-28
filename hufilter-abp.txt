@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: pat5hLTXjjwvsJzFw+3xGg
-! Version: 202504271908
+! Checksum: glR5wPzuqVUSPkv2qKRknw
+! Version: 202504280949
 ! Title: Hufilter for ABP
-! Last modified: 27 Apr 2025 19:08 UTC
+! Last modified: 28 Apr 2025 09:49 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1898,6 +1898,9 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ! https://github.com/hufilter/hufilter/issues/305
 ||beam-tracker.telex.hu^
 ||beam.telex.hu^
+||campaign.telex.hu/*/remplib.js$script
+||campaign.telex.hu/*/banner.js$script
+||campaign.telex.hu/showtime.php
 ||counter.megagroup.ru^
 ||doubleclick.net^
 ||gemius.hu^
