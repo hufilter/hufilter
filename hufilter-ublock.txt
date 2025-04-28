@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 1mv/zWkVaPB0+VfxWDNMLA
-! Version: 202504281012
+! Checksum: LpQGQzlgtw4IfiFa1RCChg
+! Version: 202504281353
 ! Title: Hufilter for uBO
-! Last modified: 28 Apr 2025 10:12 UTC
+! Last modified: 28 Apr 2025 13:53 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1840,6 +1840,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||hestore.hu/pic/cookie.png$image
 ||itthonrolhaza.hu/wp-content/plugins/wp-popups-lite/src/assets/js/wppopups.js^$script
 ||money.hu/assets-new/js/calculator-widget-init.js$script
+||widget.moneycdn.com/hitelintezo/moneycheckwidget.min.js$script,domain=ingatlan.com
 ||penzcentrum.hu/assets/js/bioep.min.js$script
 ||szepsegbroker.hu/items/jquery.floating_popup*.js^$script
 ||liked.hu/choice/*/cmp2*.js^$script
@@ -1847,6 +1848,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||*.hu/*eu_cookie_compliance.css$stylesheet
 ||*.hu/*wp-content/plugins/complianz-gdpr/*.js$script
 ||*.hu/*wp-content/plugins/complianz-gdpr/*.css$stylesheet
+||iccm.ingatlancdn.com/iccm-*.js$script
 ! This section file contains rules for bypassing anti-adblock protections.
 ! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
 !-------------------------------------------------------------------------------!
