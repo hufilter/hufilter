@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: b2i79ljTMrI9KF1zoij5wg
-! Version: 202504281353
+! Checksum: sYx4K//V9x8iQFMe1Z7u6Q
+! Version: 202504291759
 ! Title: Hufilter for ABP
-! Last modified: 28 Apr 2025 13:53 UTC
+! Last modified: 29 Apr 2025 17:59 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1544,6 +1544,7 @@ hu###szechenyi2020-wrapper
 hu###szechenyi
 hu###szechenyi-toggle
 hu###szechenyi_2020_logo
+hu##.sz2020-logo
 ! hu###qc-cmp2-container
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
@@ -1832,6 +1833,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu|blikk.hu
 ||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$script,domain=szeretlekmagyarorszag.hu
 ||cmp.inmobi.com^$third-party,script,domain=telex.hu|origo.hu|atlatszo.hu|rtl.hu|videa.hu|myonlineradio.hu|hvg.hu|femina.hu|prohardver.hu|itcafe.hu|mobilarena.hu|gamepod.hu|logout.hu|fototrend.hu|hardverapro.hu|vg.hu|portfolio.hu|noizz.hu|economx.hu|budapestkornyeke.hu|bpiautosok.hu|magyarnemzet.hu|blikk.hu|nepszava.hu|magyarnarancs.hu|hirtv.hu|pestisracok.hu|autoszektor.hu|penzcentrum.hu|index.hu|media1.hu|g7.hu
+||optimonk.com^$third-party,domain=mandiner.hu
 !-------------------------------------------------------------------------------!
 !------ Generic network filters ------------------------------------------------!
 !-------------------------------------------------------------------------------!
