@@ -46,6 +46,7 @@
 ||adat.life.hu^
 ||adat.magyarnemzet.hu^
 ||adat.mandiner.hu^
+||adat.metropol.hu^
 ||adat.mindmegette.hu^
 ||adat.nemzetisport.hu^
 ||adat.origo.hu^
