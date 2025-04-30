@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RxNtKe2/sA9d51D/OpnBjg
-! Version: 202504281012
+! Checksum: ODyVjgGCSUVixIDR779zYQ
+! Version: 202504301423
 ! Title: Hufilter Basic
-! Last modified: 28 Apr 2025 10:12 UTC
+! Last modified: 30 Apr 2025 14:23 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -881,6 +881,7 @@ nepszava.hu##.ad
 netbulvar.eu##[id*="advertisment"]
 nice.hu##[class*="banner"]
 nkmenergia.hu###tab-widget
+nlc.hu##.banner-container
 nlc.hu##.m-fbPopup
 nlc.hu##.rubAd
 noinetcafe.hu##[class*="banner"]
@@ -890,6 +891,7 @@ nol.hu##.noprint
 nol.hu##[class*="Banner"]
 nol.hu##div[class*="ad-container"]
 noplaza.hu##[class*="banner"]
+nosalty.hu##.ce_adocean_ad_slot
 novagyok.hu##[class*="banner"]
 novagyok.hu##[id*="banner"]
 nyest.hu##[class*="banner"]
