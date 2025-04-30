@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: iIQl7zFvsVN/lfRZG7rfIQ
-! Version: 202504301429
+! Checksum: 51BEMrUIawB2XOLV57vJug
+! Version: 202504301440
 ! Title: Hufilter for uBO
-! Last modified: 30 Apr 2025 14:29 UTC
+! Last modified: 30 Apr 2025 14:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1888,21 +1888,30 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ! This section file contains rules for blocking trackers and other privacy-invasive technologies.
 ! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
 !-------------------------------------------------------------------------------!
-!------ Specific network filters -----------------------------------------------!
+!------ Specific network filters - Tracking scripts ----------------------------!
 !-------------------------------------------------------------------------------!
 ||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||api.indidata.com^$third-party,domain=civishir.hu
 !-------------------------------------------------------------------------------!
-!------ Generic network filters ------------------------------------------------!
+!------ Generic network filters - Tracking scripts -----------------------------!
 !-------------------------------------------------------------------------------!
 /gemius.js^$script
 /gemius.min.js^$script
 /xgemius.js^$script
 /xgemius.min.js^$script
-||*.hu/userip.php
+||campaign.telex.hu/*/banner.js$script
+||campaign.telex.hu/*/remplib.js$script
 ||infostart.hu/js/ga.js$script
-||websas.hu/statistics/
 ||stat.p24.hu/*/measuring-codes/*.js$script
+!-------------------------------------------------------------------------------!
+!------ Generic network filters - Tracking endpoints ---------------------------!
+!-------------------------------------------------------------------------------!
+||*.hu/userip.php
+||campaign.telex.hu/showtime.php
+||websas.hu/statistics/
+!-------------------------------------------------------------------------------!
+!------ Generic network filters - Tracking domains -----------------------------!
+!-------------------------------------------------------------------------------!
 ||adat.freemail.hu^
 ||adat.life.hu^
 ||adat.nemzetisport.hu^
@@ -1911,9 +1920,6 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ! https://github.com/hufilter/hufilter/issues/305
 ||beam-tracker.telex.hu^
 ||beam.telex.hu^
-||campaign.telex.hu/*/remplib.js$script
-||campaign.telex.hu/*/banner.js$script
-||campaign.telex.hu/showtime.php
 ||campaign-remp.444.hu^
 ||counter.megagroup.ru^
 ||doubleclick.net^
@@ -1928,6 +1934,9 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ||trackerapi.ebxcdn.com^
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
+!-------------------------------------------------------------------------------!
+!------ Generic network filters - Tracking domains, third-party ----------------!
+!-------------------------------------------------------------------------------!
 ||analytics.yahoo.com^$third-party
 ||clarity.ms^$third-party
 ||counter.hitslink.com^$third-party
