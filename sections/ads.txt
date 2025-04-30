@@ -1417,6 +1417,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ad.szexneked.hu^
 ||adfair.hu^
 ||adfree-stat.p3g.hu^
+||admanager.magyarhirlap.hu^
 ||ads.geeks.hu^
 ||adv.forpsi.hu^
 ||adv.hu^
