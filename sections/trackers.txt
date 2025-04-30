@@ -35,6 +35,7 @@
 !------ Generic network filters - Tracking domains -----------------------------!
 !-------------------------------------------------------------------------------!
 ||adat.freemail.hu^
+||adat.kisalfold.hu^
 ||adat.koponyeg.hu^
 ||adat.life.hu^
 ||adat.magyarnemzet.hu^
