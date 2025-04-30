@@ -49,6 +49,7 @@
 ||tracking.tchibo.hu^
 
 ||analytics.yahoo.com^$third-party
+||clarity.ms^$third-party
 ||counter.hitslink.com^$third-party
 ||ebxcdn.com^$third-party
 ! https://github.com/hufilter/hufilter/issues/367
