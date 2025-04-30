@@ -50,6 +50,7 @@
 ||doubleclick.net^
 ||gemius.hu^
 ||gemius.pl^
+||indexstat.index.hu^
 ||mediaownerscloud.com^
 ! https://github.com/hufilter/hufilter/issues/480
 ||px.blog.hu^
