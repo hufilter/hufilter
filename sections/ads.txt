@@ -788,12 +788,6 @@ mlzphoto.hu##.widget_text.widget.widget_custom_html
 mlzphoto.hu###custom_html-3
 mme.hu##.om-holder
 mmonline.hu##[class*="banner"]
-mno.hu##[class*="ad_"]
-mno.hu##[class*="adbox"]
-mno.hu##[class*="banner"]
-mno.hu##[class*="box ajanlo"]
-mno.hu##[id*="Banner"]
-mno.hu##[id*="ctnet"]
 mobilarena.hu##.adbox
 mobilarena.hu##[class*="adtext"]
 moly.hu##[class*="banner"]
