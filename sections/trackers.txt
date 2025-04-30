@@ -46,6 +46,7 @@
 ||adat.mindmegette.hu^
 ||adat.nemzetisport.hu^
 ||adat.origo.hu^
+||adat.vg.hu^
 ||adform.net^
 ||adtrackeraa.com^
 ! https://github.com/hufilter/hufilter/issues/305
