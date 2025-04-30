@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: tHIb12rrkf8mON7Oquipkg
-! Version: 202504301947
+! Checksum: G7VQUoZIM/GARiDdhWBxXg
+! Version: 202504302005
 ! Title: Hufilter for uBO
-! Last modified: 30 Apr 2025 19:47 UTC
+! Last modified: 30 Apr 2025 20:05 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -116,8 +116,6 @@ hu##[class*="overlayBg"]
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
 online-filmek.ac,online-filmek.me##div[align="center"] > div[style^="margin-top:"] > div > a[target="_blank"] > img
-online-filmek.ac,online-filmek.me#%#//scriptlet('set-constant', 'document.write', 'undefined')
-online-filmek.ac,online-filmek.me##a[onclick^="window.open"]
 online-filmek.ac,online-filmek.me##div[align="center"] > a[onclick]
 online-filmek.ac,online-filmek.me##span[class^="adslot_"]
 hdmozi.hu##.asgdc
@@ -1969,7 +1967,7 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 @@||pro.hit.gemius.pl/gstream.js$script,domain=embed.rtl.hu
 ! This section file contains rules for blocking advertisements.
-! The rules in this section should be uBlock-specific, but cross-compabible rules are also allowed, if they are
+! The rules in this section should be uBlock-specific, but cross-compatible rules are also allowed, if they are
 ! not working properly without the uBlock-specific rules.
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
@@ -1984,13 +1982,15 @@ startlap.hu##div.container.banner-container.wide:style(min-height: 0 !important;
 dehir.hu###popupFrontPageBanner-modal:style(display: none !important;)
 dehir.hu##body:style(overflow: auto !important;)
 prohardver.hu,fototrend.hu##main:style(background-image: none !important;)
+online-filmek.ac,online-filmek.me##+js(set, document.write, undefined)
+online-filmek.ac,online-filmek.me##a[onclick^="window.open"]
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
 /inside-banner.mini.js$domain=myonlineradio.hu
 ! This section file contains rules for blocking annoying elements on websites, such as cookie notices, newsletter
 ! subscription prompts, floating elements and so on.
-! The rules in this section should be uBlock-specific, but cross-compabible rules are also allowed, if they are
+! The rules in this section should be uBlock-specific, but cross-compatible rules are also allowed, if they are
 ! not working properly without the uBlock-specific rules.
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
@@ -2043,7 +2043,7 @@ kektura.hu###cookie-consent-dialog
 filmvilag.me##[style]:has(.adslot_1)
 otpportalok.hu###pop_1:has(> .suti)
 ! This section file contains rules for bypassing anti-adblock protections.
-! The rules in this section should be uBlock-specific, but cross-compabible rules are also allowed, if they are
+! The rules in this section should be uBlock-specific, but cross-compatible rules are also allowed, if they are
 ! not working properly without the uBlock-specific rules.
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
@@ -2090,7 +2090,7 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 ! - Layout issues
 ! - Broken scripts
 ! - etc.
-! The rules in this section should be uBlock-specific, but cross-compabible rules are also allowed, if they are
+! The rules in this section should be uBlock-specific, but cross-compatible rules are also allowed, if they are
 ! not working properly without the uBlock-specific rules.
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!

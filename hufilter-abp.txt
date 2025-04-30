@@ -1,8 +1,8 @@
-[Adblock Plus 2.0]
-! Checksum: +xp4gjlVFQxaaojpbG3+ag
-! Version: 202504301947
+[Adblock Plus 3.9.4]
+! Checksum: hqnsRflULdEhUBShVXmhoQ
+! Version: 202504302005
 ! Title: Hufilter for ABP
-! Last modified: 30 Apr 2025 19:47 UTC
+! Last modified: 30 Apr 2025 20:05 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -116,8 +116,6 @@ hu##[class*="overlayBg"]
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
 online-filmek.ac,online-filmek.me##div[align="center"] > div[style^="margin-top:"] > div > a[target="_blank"] > img
-online-filmek.ac,online-filmek.me#%#//scriptlet('set-constant', 'document.write', 'undefined')
-online-filmek.ac,online-filmek.me##a[onclick^="window.open"]
 online-filmek.ac,online-filmek.me##div[align="center"] > a[onclick]
 online-filmek.ac,online-filmek.me##span[class^="adslot_"]
 hdmozi.hu##.asgdc
@@ -1969,7 +1967,7 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 @@||pro.hit.gemius.pl/gstream.js$script,domain=embed.rtl.hu
 ! This section file contains rules for bypassing anti-adblock protections.
-! The rules in this section should be Adblock Plus-specific, but cross-compabible rules are also allowed, if they are
+! The rules in this section should be Adblock Plus-specific, but cross-compatible rules are also allowed, if they are
 ! not working properly without the Adblock Plus-specific rules.
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
@@ -1981,6 +1979,8 @@ embed.indavideo.hu#$#override-property-read AdHandler.checkAdblock noopFunc
 huaweiblog.hu#$#override-property-read tie.ad_blocker_detector undefined
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu#$#abort-on-property-write document.body.style
+online-filmek.ac,online-filmek.me#$#override-property-read document.write undefined
+online-filmek.ac,online-filmek.me##a[onclick^="window.open"]
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
@@ -1990,7 +1990,7 @@ port.hu#$#abort-on-property-write document.body.style
 ! - Layout issues
 ! - Broken scripts
 ! - etc.
-! The rules in this section should be Adblock Plus-specific, but cross-compabible rules are also allowed, if they are
+! The rules in this section should be Adblock Plus-specific, but cross-compatible rules are also allowed, if they are
 ! not working properly without the Adblock Plus-specific rules.
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!

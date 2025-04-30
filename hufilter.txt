@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Y6WBEemUeWfppfokTLY5uA
-! Version: 202504301947
+! Checksum: 4yjr9/LrurAezb2mj3WV5A
+! Version: 202504302005
 ! Title: Hufilter Basic
-! Last modified: 30 Apr 2025 19:47 UTC
+! Last modified: 30 Apr 2025 20:05 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -116,8 +116,6 @@ hu##[class*="overlayBg"]
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
 online-filmek.ac,online-filmek.me##div[align="center"] > div[style^="margin-top:"] > div > a[target="_blank"] > img
-online-filmek.ac,online-filmek.me#%#//scriptlet('set-constant', 'document.write', 'undefined')
-online-filmek.ac,online-filmek.me##a[onclick^="window.open"]
 online-filmek.ac,online-filmek.me##div[align="center"] > a[onclick]
 online-filmek.ac,online-filmek.me##span[class^="adslot_"]
 hdmozi.hu##.asgdc
