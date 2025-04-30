@@ -19,9 +19,11 @@
 /wp-content/plugins/wp-analytify/assets/js/miscellaneous-tracking.js$script
 /xgemius.js^$script
 /xgemius.min.js^$script
+||api1.keytiles.com/api/v1/webhits-trackingscript^$script
 ||campaign.telex.hu/*/banner.js$script
 ||campaign.telex.hu/*/remplib.js$script
 ||infostart.hu/js/ga.js$script
+||scripts.keytiles.com/tracking/*.js^$script
 ||stat.p24.hu/*/measuring-codes/*.js$script
 
 !-------------------------------------------------------------------------------!
