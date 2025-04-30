@@ -33,11 +33,14 @@
 ||campaign-remp.444.hu^
 ||counter.megagroup.ru^
 ||doubleclick.net^
+||event-tracker-library.mediaownerscloud.com^
+||event-tracker-nu.mediaownerscloud.com^
 ||gemius.hu^
 ||gemius.pl^
 ! https://github.com/hufilter/hufilter/issues/480
 ||px.blog.hu^
 ||smartadserver.com^
+||tracker.24xtra.hu^
 ||tracker.azet.sk^
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
