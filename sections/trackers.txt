@@ -23,6 +23,7 @@
 
 ||adat.freemail.hu^
 ||adat.life.hu^
+||adat.origo.hu^
 ||adtrackeraa.com^
 ! https://github.com/hufilter/hufilter/issues/305
 ||beam-tracker.telex.hu^
@@ -41,11 +42,13 @@
 ||smartadserver.com^
 ||tracker.24xtra.hu^
 ||tracker.azet.sk^
+||trackerapi.ebxcdn.com^
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
 
 ||analytics.yahoo.com^$third-party
 ||counter.hitslink.com^$third-party
+||ebxcdn.com^$third-party
 ! https://github.com/hufilter/hufilter/issues/367
 ||ex1tp.com^$third-party
 ||google-analytics.com^$third-party
