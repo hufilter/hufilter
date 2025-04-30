@@ -14,6 +14,9 @@
 !-------------------------------------------------------------------------------!
 /gemius.js^$script
 /gemius.min.js^$script
+/wp-content/plugins/fatchilli-google-tag-manager/js/fc/analytics-talk-content-tracking.min.js$script
+/wp-content/plugins/fatchilli-google-tag-manager/js/fc/purchase-tracking.min.js$script
+/wp-content/plugins/wp-analytify/assets/js/miscellaneous-tracking.js$script
 /xgemius.js^$script
 /xgemius.min.js^$script
 ||campaign.telex.hu/*/banner.js$script
