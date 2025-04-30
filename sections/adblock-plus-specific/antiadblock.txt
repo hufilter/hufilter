@@ -14,6 +14,8 @@ embed.indavideo.hu#$#override-property-read AdHandler.checkAdblock noopFunc
 huaweiblog.hu#$#override-property-read tie.ad_blocker_detector undefined
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu#$#abort-on-property-write document.body.style
+online-filmek.ac,online-filmek.me#$#override-property-read document.write undefined
+online-filmek.ac,online-filmek.me##a[onclick^="window.open"]
 
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
