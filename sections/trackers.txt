@@ -49,6 +49,7 @@
 ||adat.mindmegette.hu^
 ||adat.nemzetisport.hu^
 ||adat.origo.hu^
+||adat.ripost.hu^
 ||adat.vg.hu^
 ||adform.net^
 ||adtrackeraa.com^
