@@ -869,6 +869,7 @@ nol.hu##.noprint
 nol.hu##[class*="Banner"]
 nol.hu##div[class*="ad-container"]
 noplaza.hu##[class*="banner"]
+nosalty.hu##.ce_adocean_ad_slot
 novagyok.hu##[class*="banner"]
 novagyok.hu##[id*="banner"]
 nyest.hu##[class*="banner"]
