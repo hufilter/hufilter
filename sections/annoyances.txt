@@ -211,7 +211,6 @@ myonlineradio.hu##[src^="/public/img/efi/"]
 ! https://github.com/hufilter/hufilter/issues/427
 myonlineradio.hu##.fb-page-cont
 najlepsie-clanky.com##[class*="pea_cook"]
-napi.hu##.cikkajanlo
 napiszex.hu##.ckwrap
 napjainkportal.hu##.cookie-notice-container
 nemzetisport.hu##.allow-cookie-stripe

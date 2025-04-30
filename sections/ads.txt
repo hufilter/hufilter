@@ -813,15 +813,6 @@ muhelynet.hu###header
 mult-kor.hu##[align="center"] > a[href*="banner"]
 mult-kor.hu##[class^="ui-dialog"]
 multiplay.hu##[id*="banner"]
-napi.hu##.totalcar
-napi.hu##[class*="banner"]
-napi.hu##[class*="hirdetes"]
-napi.hu##[id*="banner"]
-napi.hu##[id*="billboard"]
-napi.hu###interstitial
-napi.hu###mobilinstruments
-napi.hu###stickyfooter
-napi.hu##a[href^="https://bit.ly/"]
 napidroid.hu##.right
 napidroid.hu###custom_html-3
 napidroid.hu###custom_html-4
