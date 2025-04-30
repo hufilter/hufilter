@@ -1,7 +1,7 @@
-# Checksum: zx6jJWIzfsmyz578369zQQ
-# Version: 202504301429
+# Checksum: I1iNeHtAjyIVwUeOooZVhA
+# Version: 202504301611
 # Title: Hufilter Hosts file
-# Last modified: 30 Apr 2025 14:29 UTC
+# Last modified: 30 Apr 2025 16:11 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -23,7 +23,6 @@
 # GitHub issues: https://github.com/hufilter/hufilter/issues
 # GitHub pull requests: https://github.com/hufilter/hufilter/pulls
 #
-0.0.0.0 widget.block4d.com
 0.0.0.0 a.adnium.com
 0.0.0.0 ad.depo.hu
 0.0.0.0 ad.gyermekevek.hu
@@ -37,6 +36,7 @@
 0.0.0.0 ad.szexneked.hu
 0.0.0.0 adfair.hu
 0.0.0.0 adfree-stat.p3g.hu
+0.0.0.0 admanager.magyarhirlap.hu
 0.0.0.0 ads.geeks.hu
 0.0.0.0 adv.forpsi.hu
 0.0.0.0 adv.hu
@@ -71,11 +71,16 @@
 0.0.0.0 up-banner.wavecdn.de
 0.0.0.0 vid4u.org
 0.0.0.0 wdtyl.xyz
+0.0.0.0 widget.block4d.com
 0.0.0.0 wstat.ozon.ru
 0.0.0.0 chatrobot.mia.gov.hu
 0.0.0.0 chimpstatic.com
 0.0.0.0 adat.freemail.hu
+0.0.0.0 adat.koponyeg.hu
 0.0.0.0 adat.life.hu
+0.0.0.0 adat.magyarnemzet.hu
+0.0.0.0 adat.mandiner.hu
+0.0.0.0 adat.mindmegette.hu
 0.0.0.0 adat.nemzetisport.hu
 0.0.0.0 adat.origo.hu
 0.0.0.0 adtrackeraa.com
@@ -86,9 +91,11 @@
 0.0.0.0 doubleclick.net
 0.0.0.0 gemius.hu
 0.0.0.0 gemius.pl
+0.0.0.0 indexstat.index.hu
 0.0.0.0 mediaownerscloud.com
 0.0.0.0 px.blog.hu
 0.0.0.0 smartadserver.com
+0.0.0.0 tracker-remp.magyarnarancs.hu
 0.0.0.0 tracker.24xtra.hu
 0.0.0.0 tracker.azet.sk
 0.0.0.0 trackerapi.ebxcdn.com

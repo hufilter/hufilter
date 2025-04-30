@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rko81VDvcfWsCR+L/+HGww
-! Version: 202504301440
+! Checksum: Z4TDj0JjZ59p/+73YuEGWg
+! Version: 202504301611
 ! Title: Hufilter for ABP
-! Last modified: 30 Apr 2025 14:40 UTC
+! Last modified: 30 Apr 2025 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -809,18 +809,9 @@ mlzphoto.hu##.widget_text.widget.widget_custom_html
 mlzphoto.hu###custom_html-3
 mme.hu##.om-holder
 mmonline.hu##[class*="banner"]
-mno.hu##[class*="ad_"]
-mno.hu##[class*="adbox"]
-mno.hu##[class*="banner"]
-mno.hu##[class*="box ajanlo"]
-mno.hu##[id*="Banner"]
-mno.hu##[id*="ctnet"]
 mobilarena.hu##.adbox
 mobilarena.hu##[class*="adtext"]
 moly.hu##[class*="banner"]
-mon.hu##.Ad
-mon.hu##[id*="Ad_"]
-mon.hu##[id*="Banner"]
 motorrevu.hu##[class*="hirdetes"]
 ! https://github.com/hufilter/hufilter/issues/314
 mozinet.me###adserving-tag-hb
@@ -834,15 +825,6 @@ muhelynet.hu###header
 mult-kor.hu##[align="center"] > a[href*="banner"]
 mult-kor.hu##[class^="ui-dialog"]
 multiplay.hu##[id*="banner"]
-napi.hu##.totalcar
-napi.hu##[class*="banner"]
-napi.hu##[class*="hirdetes"]
-napi.hu##[id*="banner"]
-napi.hu##[id*="billboard"]
-napi.hu###interstitial
-napi.hu###mobilinstruments
-napi.hu###stickyfooter
-napi.hu##a[href^="https://bit.ly/"]
 napidroid.hu##.right
 napidroid.hu###custom_html-3
 napidroid.hu###custom_html-4
@@ -1418,8 +1400,9 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||vg.hu/banners/$image
 ||webminute.hu/bannerek/$image
 ||zeneszoveg.hu/gfx/skin-*/*.
-||widget.block4d.com^
 ||a.adnium.com^
+||ad*.gyaloglo.hu^
+||ad*.mellesleg.hu^
 ||ad.depo.hu^
 ||ad.gyermekevek.hu^
 ||ad.hirekmedia.hu^
@@ -1430,10 +1413,9 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ad.parom.hu^
 ||ad.pphungary.hu^
 ||ad.szexneked.hu^
-||ad*.gyaloglo.hu^
-||ad*.mellesleg.hu^
 ||adfair.hu^
 ||adfree-stat.p3g.hu^
+||admanager.magyarhirlap.hu^
 ||ads.geeks.hu^
 ||adv.forpsi.hu^
 ||adv.hu^
@@ -1475,6 +1457,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||up-banner.wavecdn.de^
 ||vid4u.org^
 ||wdtyl.xyz^
+||widget.block4d.com^
 ||wstat.ozon.ru^
 ||abmr.net^$third-party
 ||ad.hu^$third-party
@@ -1714,6 +1697,7 @@ mandiner.hu##app-facebook-popup
 mandiner.hu##app-newsletter-popup
 media1.hu##.elementor-popup-modal
 mediacenter.hu###cookie-msg
+medicalonline.hu###medical_newsletter
 medicalonline.hu##.accept-cookies
 merce.hu##.cookie-bar
 merce.hu##.popup-wrap
@@ -1727,7 +1711,6 @@ myonlineradio.hu##[src^="/public/img/efi/"]
 ! https://github.com/hufilter/hufilter/issues/427
 myonlineradio.hu##.fb-page-cont
 najlepsie-clanky.com##[class*="pea_cook"]
-napi.hu##.cikkajanlo
 napiszex.hu##.ckwrap
 napjainkportal.hu##.cookie-notice-container
 nemzetisport.hu##.allow-cookie-stripe
@@ -1830,12 +1813,12 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
 /js/push.js$script,domain=infostart.hu
-||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu|blikk.hu
+||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu|blikk.hu|medicalonline.hu
 ||consent.cookiebot.com^$third-party,script,domain=agroinform.hu
 ||medinfo.ocdn.eu/hu/consent_v2/choice.js^$script,domain=egeszsegkalauz.hu
 ||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu|blikk.hu
 ||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$script,domain=szeretlekmagyarorszag.hu
-||cmp.inmobi.com^$third-party,script,domain=telex.hu|origo.hu|atlatszo.hu|rtl.hu|videa.hu|myonlineradio.hu|hvg.hu|femina.hu|prohardver.hu|itcafe.hu|mobilarena.hu|gamepod.hu|logout.hu|fototrend.hu|hardverapro.hu|vg.hu|portfolio.hu|noizz.hu|economx.hu|budapestkornyeke.hu|bpiautosok.hu|magyarnemzet.hu|blikk.hu|nepszava.hu|magyarnarancs.hu|hirtv.hu|pestisracok.hu|autoszektor.hu|penzcentrum.hu|index.hu|media1.hu|g7.hu|444.hu|life.hu|wmn.hu|hirstart.hu|cafeblog.hu|nosalty.hu|hazipatika.com|startlap.hu|nlc.hu
+||cmp.inmobi.com^$third-party,script,domain=telex.hu|origo.hu|atlatszo.hu|rtl.hu|videa.hu|myonlineradio.hu|hvg.hu|femina.hu|prohardver.hu|itcafe.hu|mobilarena.hu|gamepod.hu|logout.hu|fototrend.hu|hardverapro.hu|vg.hu|portfolio.hu|noizz.hu|economx.hu|budapestkornyeke.hu|bpiautosok.hu|magyarnemzet.hu|blikk.hu|nepszava.hu|magyarnarancs.hu|hirtv.hu|pestisracok.hu|autoszektor.hu|penzcentrum.hu|index.hu|media1.hu|g7.hu|444.hu|life.hu|wmn.hu|hirstart.hu|cafeblog.hu|nosalty.hu|hazipatika.com|startlap.hu|nlc.hu|mindmegette.hu|koponyeg.hu
 ||optimonk.com^$third-party,domain=mandiner.hu
 ||widget.moneycdn.com/hitelintezo/moneycheckwidget.min.js$script,domain=ingatlan.com
 !-------------------------------------------------------------------------------!
@@ -1897,6 +1880,9 @@ videa.hu,videaloop.hu##.top-video-container-banner
 !-------------------------------------------------------------------------------!
 /gemius.js^$script
 /gemius.min.js^$script
+/wp-content/plugins/fatchilli-google-tag-manager/js/fc/analytics-talk-content-tracking.min.js$script
+/wp-content/plugins/fatchilli-google-tag-manager/js/fc/purchase-tracking.min.js$script
+/wp-content/plugins/wp-analytify/assets/js/miscellaneous-tracking.js$script
 /xgemius.js^$script
 /xgemius.min.js^$script
 ||campaign.telex.hu/*/banner.js$script
@@ -1913,7 +1899,11 @@ videa.hu,videaloop.hu##.top-video-container-banner
 !------ Generic network filters - Tracking domains -----------------------------!
 !-------------------------------------------------------------------------------!
 ||adat.freemail.hu^
+||adat.koponyeg.hu^
 ||adat.life.hu^
+||adat.magyarnemzet.hu^
+||adat.mandiner.hu^
+||adat.mindmegette.hu^
 ||adat.nemzetisport.hu^
 ||adat.origo.hu^
 ||adtrackeraa.com^
@@ -1925,10 +1915,12 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ||doubleclick.net^
 ||gemius.hu^
 ||gemius.pl^
+||indexstat.index.hu^
 ||mediaownerscloud.com^
 ! https://github.com/hufilter/hufilter/issues/480
 ||px.blog.hu^
 ||smartadserver.com^
+||tracker-remp.magyarnarancs.hu^
 ||tracker.24xtra.hu^
 ||tracker.azet.sk^
 ||trackerapi.ebxcdn.com^
@@ -1940,6 +1932,7 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ||analytics.yahoo.com^$third-party
 ||clarity.ms^$third-party
 ||counter.hitslink.com^$third-party
+||customer.io^$third-party
 ||ebxcdn.com^$third-party
 ! https://github.com/hufilter/hufilter/issues/367
 ||ex1tp.com^$third-party

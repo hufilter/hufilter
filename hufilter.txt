@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ODyVjgGCSUVixIDR779zYQ
-! Version: 202504301423
+! Checksum: qxWqQnk+3VmXcNHnDl1BTg
+! Version: 202504301611
 ! Title: Hufilter Basic
-! Last modified: 30 Apr 2025 14:23 UTC
+! Last modified: 30 Apr 2025 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -809,18 +809,9 @@ mlzphoto.hu##.widget_text.widget.widget_custom_html
 mlzphoto.hu###custom_html-3
 mme.hu##.om-holder
 mmonline.hu##[class*="banner"]
-mno.hu##[class*="ad_"]
-mno.hu##[class*="adbox"]
-mno.hu##[class*="banner"]
-mno.hu##[class*="box ajanlo"]
-mno.hu##[id*="Banner"]
-mno.hu##[id*="ctnet"]
 mobilarena.hu##.adbox
 mobilarena.hu##[class*="adtext"]
 moly.hu##[class*="banner"]
-mon.hu##.Ad
-mon.hu##[id*="Ad_"]
-mon.hu##[id*="Banner"]
 motorrevu.hu##[class*="hirdetes"]
 ! https://github.com/hufilter/hufilter/issues/314
 mozinet.me###adserving-tag-hb
@@ -834,15 +825,6 @@ muhelynet.hu###header
 mult-kor.hu##[align="center"] > a[href*="banner"]
 mult-kor.hu##[class^="ui-dialog"]
 multiplay.hu##[id*="banner"]
-napi.hu##.totalcar
-napi.hu##[class*="banner"]
-napi.hu##[class*="hirdetes"]
-napi.hu##[id*="banner"]
-napi.hu##[id*="billboard"]
-napi.hu###interstitial
-napi.hu###mobilinstruments
-napi.hu###stickyfooter
-napi.hu##a[href^="https://bit.ly/"]
 napidroid.hu##.right
 napidroid.hu###custom_html-3
 napidroid.hu###custom_html-4
@@ -1418,8 +1400,9 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||vg.hu/banners/$image
 ||webminute.hu/bannerek/$image
 ||zeneszoveg.hu/gfx/skin-*/*.
-||widget.block4d.com^
 ||a.adnium.com^
+||ad*.gyaloglo.hu^
+||ad*.mellesleg.hu^
 ||ad.depo.hu^
 ||ad.gyermekevek.hu^
 ||ad.hirekmedia.hu^
@@ -1430,10 +1413,9 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ad.parom.hu^
 ||ad.pphungary.hu^
 ||ad.szexneked.hu^
-||ad*.gyaloglo.hu^
-||ad*.mellesleg.hu^
 ||adfair.hu^
 ||adfree-stat.p3g.hu^
+||admanager.magyarhirlap.hu^
 ||ads.geeks.hu^
 ||adv.forpsi.hu^
 ||adv.hu^
@@ -1475,6 +1457,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||up-banner.wavecdn.de^
 ||vid4u.org^
 ||wdtyl.xyz^
+||widget.block4d.com^
 ||wstat.ozon.ru^
 ||abmr.net^$third-party
 ||ad.hu^$third-party

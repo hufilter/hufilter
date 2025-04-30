@@ -1,7 +1,7 @@
-# Checksum: BywyyrNvRGvSKxGWNxMUiw
-# Version: 202504301429
+# Checksum: DHsD2cQ61MGu1zSt77R9Yg
+# Version: 202504301611
 # Title: Hufilter Pi-hole
-# Last modified: 30 Apr 2025 14:29 UTC
+# Last modified: 30 Apr 2025 16:11 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -23,7 +23,6 @@
 # GitHub issues: https://github.com/hufilter/hufilter/issues
 # GitHub pull requests: https://github.com/hufilter/hufilter/pulls
 #
-widget.block4d.com
 a.adnium.com
 ad.depo.hu
 ad.gyermekevek.hu
@@ -37,6 +36,7 @@ ad.pphungary.hu
 ad.szexneked.hu
 adfair.hu
 adfree-stat.p3g.hu
+admanager.magyarhirlap.hu
 ads.geeks.hu
 adv.forpsi.hu
 adv.hu
@@ -71,11 +71,16 @@ syndication.trafficreps.com
 up-banner.wavecdn.de
 vid4u.org
 wdtyl.xyz
+widget.block4d.com
 wstat.ozon.ru
 chatrobot.mia.gov.hu
 chimpstatic.com
 adat.freemail.hu
+adat.koponyeg.hu
 adat.life.hu
+adat.magyarnemzet.hu
+adat.mandiner.hu
+adat.mindmegette.hu
 adat.nemzetisport.hu
 adat.origo.hu
 adtrackeraa.com
@@ -86,9 +91,11 @@ counter.megagroup.ru
 doubleclick.net
 gemius.hu
 gemius.pl
+indexstat.index.hu
 mediaownerscloud.com
 px.blog.hu
 smartadserver.com
+tracker-remp.magyarnarancs.hu
 tracker.24xtra.hu
 tracker.azet.sk
 trackerapi.ebxcdn.com
