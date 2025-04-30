@@ -20,6 +20,7 @@
 ||*.hu/userip.php
 ||infostart.hu/js/ga.js$script
 ||websas.hu/statistics/
+||stat.p24.hu/*/measuring-codes/*.js$script
 
 ||adat.freemail.hu^
 ||adat.life.hu^
