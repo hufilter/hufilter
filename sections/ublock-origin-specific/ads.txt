@@ -1,6 +1,6 @@
 !
 ! This section file contains rules for blocking advertisements.
-! The rules in this section should be uBlock-specific, but cross-compabible rules are also allowed, if they are
+! The rules in this section should be uBlock-specific, but cross-compatible rules are also allowed, if they are
 ! not working properly without the uBlock-specific rules.
 !
 

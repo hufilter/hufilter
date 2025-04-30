@@ -3,7 +3,7 @@
 ! - Layout issues
 ! - Broken scripts
 ! - etc.
-! The rules in this section should be Adblock Plus-specific, but cross-compabible rules are also allowed, if they are
+! The rules in this section should be Adblock Plus-specific, but cross-compatible rules are also allowed, if they are
 ! not working properly without the Adblock Plus-specific rules.
 !
 
