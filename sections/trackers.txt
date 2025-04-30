@@ -33,6 +33,7 @@
 !-------------------------------------------------------------------------------!
 ||adat.freemail.hu^
 ||adat.life.hu^
+||adat.magyarnemzet.hu^
 ||adat.nemzetisport.hu^
 ||adat.origo.hu^
 ||adtrackeraa.com^
