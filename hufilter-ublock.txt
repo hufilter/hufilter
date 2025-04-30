@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: vocKS2GynlRubdIXbGayOw
-! Version: 202504301649
+! Checksum: tHIb12rrkf8mON7Oquipkg
+! Version: 202504301947
 ! Title: Hufilter for uBO
-! Last modified: 30 Apr 2025 16:49 UTC
+! Last modified: 30 Apr 2025 19:47 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1315,6 +1315,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||hwsw.hu/images/bodybgs/$image
 ||hwsw.hu/images/bodybgs2/
 ||i.cdn29.hu/apix_collect/ads
+||iap.cdn.indexvas.hu/Scripts.js$script
 ||iho.hu/img/banner/
 ||image.arukereso.hu/ad$image
 ||img.hunbasket.webpont.com/kosarsport/art/*banner$image
