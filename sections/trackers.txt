@@ -49,6 +49,7 @@
 ! https://github.com/hufilter/hufilter/issues/480
 ||px.blog.hu^
 ||smartadserver.com^
+||tracker-remp.magyarnarancs.hu^
 ||tracker.24xtra.hu^
 ||tracker.azet.sk^
 ||trackerapi.ebxcdn.com^
