@@ -1,7 +1,7 @@
-# Checksum: ijGbOh/ha/qJGsmnS2ErlA
-# Version: 202502192042
+# Checksum: AN3CK50hegzLYMvpky3Pog
+# Version: 202504301351
 # Title: Hufilter Hosts file
-# Last modified: 19 Feb 2025 20:42 UTC
+# Last modified: 30 Apr 2025 13:51 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -78,6 +78,7 @@
 0.0.0.0 adtrackeraa.com
 0.0.0.0 beam-tracker.telex.hu
 0.0.0.0 beam.telex.hu
+0.0.0.0 campaign-remp.444.hu
 0.0.0.0 counter.megagroup.ru
 0.0.0.0 doubleclick.net
 0.0.0.0 gemius.hu

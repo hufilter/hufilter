@@ -1,7 +1,7 @@
-# Checksum: HxzuaiqHpUp+QvKoDotUyw
-# Version: 202502192042
+# Checksum: 97pf35Hs+CLz8ui06TQMmA
+# Version: 202504301351
 # Title: Hufilter Pi-hole
-# Last modified: 19 Feb 2025 20:42 UTC
+# Last modified: 30 Apr 2025 13:51 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -78,6 +78,7 @@ adat.freemail.hu
 adtrackeraa.com
 beam-tracker.telex.hu
 beam.telex.hu
+campaign-remp.444.hu
 counter.megagroup.ru
 doubleclick.net
 gemius.hu
