@@ -797,9 +797,6 @@ mno.hu##[id*="ctnet"]
 mobilarena.hu##.adbox
 mobilarena.hu##[class*="adtext"]
 moly.hu##[class*="banner"]
-mon.hu##.Ad
-mon.hu##[id*="Ad_"]
-mon.hu##[id*="Banner"]
 motorrevu.hu##[class*="hirdetes"]
 ! https://github.com/hufilter/hufilter/issues/314
 mozinet.me###adserving-tag-hb
