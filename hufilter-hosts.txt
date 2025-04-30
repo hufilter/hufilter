@@ -1,7 +1,7 @@
-# Checksum: ys25RU+y7EeAb2ImcXrV6g
-# Version: 202504301628
+# Checksum: BRMUXWxizqgK935UOh1Gxg
+# Version: 202504301649
 # Title: Hufilter Hosts file
-# Last modified: 30 Apr 2025 16:28 UTC
+# Last modified: 30 Apr 2025 16:49 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -75,15 +75,25 @@
 0.0.0.0 wstat.ozon.ru
 0.0.0.0 chatrobot.mia.gov.hu
 0.0.0.0 chimpstatic.com
+0.0.0.0 adat.agrokep.vg.hu
+0.0.0.0 adat.borsonline.hu
+0.0.0.0 adat.figyelo.hu
 0.0.0.0 adat.freemail.hu
+0.0.0.0 adat.hirtv.hu
+0.0.0.0 adat.ingatlanbazar.hu
 0.0.0.0 adat.kisalfold.hu
 0.0.0.0 adat.koponyeg.hu
 0.0.0.0 adat.life.hu
 0.0.0.0 adat.magyarnemzet.hu
 0.0.0.0 adat.mandiner.hu
+0.0.0.0 adat.metropol.hu
 0.0.0.0 adat.mindmegette.hu
 0.0.0.0 adat.nemzetisport.hu
 0.0.0.0 adat.origo.hu
+0.0.0.0 adat.ripost.hu
+0.0.0.0 adat.she.life.hu
+0.0.0.0 adat.vg.hu
+0.0.0.0 adat.videa.hu
 0.0.0.0 adform.net
 0.0.0.0 adtrackeraa.com
 0.0.0.0 beam-tracker.telex.hu
