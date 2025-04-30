@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: pkP7wisR+omkSH6ZEBEnIQ
-! Version: 202504301401
+! Checksum: CdBBxYSyNsG/AF9v9DepkA
+! Version: 202504301409
 ! Title: Hufilter for uBO
-! Last modified: 30 Apr 2025 14:01 UTC
+! Last modified: 30 Apr 2025 14:09 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1816,6 +1816,7 @@ vg.hu##[style^="bottom: 0px; left: 0px; position: fixed; width:"]
 wasabi.hu##.footprint_cookie
 webforditas.hu###cookie-consent
 widescreen.hu##div.penci-wrap-gprd-law
+wmn.hu##a[href="https://wmn.hu/hirlevel-feliratkozas/"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters (with Extended CSS) --------------------------!
 !-------------------------------------------------------------------------------!
@@ -1832,7 +1833,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||medinfo.ocdn.eu/hu/consent_v2/choice.js^$script,domain=egeszsegkalauz.hu
 ||quantcast.mgr.consensu.org^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu|blikk.hu
 ||static.quantcast.mgr.consensu.org/v30/cmpui-popup.js^$script,domain=szeretlekmagyarorszag.hu
-||cmp.inmobi.com^$third-party,script,domain=telex.hu|origo.hu|atlatszo.hu|rtl.hu|videa.hu|myonlineradio.hu|hvg.hu|femina.hu|prohardver.hu|itcafe.hu|mobilarena.hu|gamepod.hu|logout.hu|fototrend.hu|hardverapro.hu|vg.hu|portfolio.hu|noizz.hu|economx.hu|budapestkornyeke.hu|bpiautosok.hu|magyarnemzet.hu|blikk.hu|nepszava.hu|magyarnarancs.hu|hirtv.hu|pestisracok.hu|autoszektor.hu|penzcentrum.hu|index.hu|media1.hu|g7.hu|444.hu|life.hu
+||cmp.inmobi.com^$third-party,script,domain=telex.hu|origo.hu|atlatszo.hu|rtl.hu|videa.hu|myonlineradio.hu|hvg.hu|femina.hu|prohardver.hu|itcafe.hu|mobilarena.hu|gamepod.hu|logout.hu|fototrend.hu|hardverapro.hu|vg.hu|portfolio.hu|noizz.hu|economx.hu|budapestkornyeke.hu|bpiautosok.hu|magyarnemzet.hu|blikk.hu|nepszava.hu|magyarnarancs.hu|hirtv.hu|pestisracok.hu|autoszektor.hu|penzcentrum.hu|index.hu|media1.hu|g7.hu|444.hu|life.hu|wmn.hu
 ||optimonk.com^$third-party,domain=mandiner.hu
 ||widget.moneycdn.com/hitelintezo/moneycheckwidget.min.js$script,domain=ingatlan.com
 !-------------------------------------------------------------------------------!
@@ -1901,6 +1902,7 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ||websas.hu/statistics/
 ||adat.freemail.hu^
 ||adat.life.hu^
+||adat.origo.hu^
 ||adtrackeraa.com^
 ! https://github.com/hufilter/hufilter/issues/305
 ||beam-tracker.telex.hu^
@@ -1911,19 +1913,20 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ||campaign-remp.444.hu^
 ||counter.megagroup.ru^
 ||doubleclick.net^
-||event-tracker-library.mediaownerscloud.com^
-||event-tracker-nu.mediaownerscloud.com^
 ||gemius.hu^
 ||gemius.pl^
+||mediaownerscloud.com^
 ! https://github.com/hufilter/hufilter/issues/480
 ||px.blog.hu^
 ||smartadserver.com^
 ||tracker.24xtra.hu^
 ||tracker.azet.sk^
+||trackerapi.ebxcdn.com^
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
 ||analytics.yahoo.com^$third-party
 ||counter.hitslink.com^$third-party
+||ebxcdn.com^$third-party
 ! https://github.com/hufilter/hufilter/issues/367
 ||ex1tp.com^$third-party
 ||google-analytics.com^$third-party

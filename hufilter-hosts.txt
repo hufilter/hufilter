@@ -1,7 +1,7 @@
-# Checksum: h/gMFOIMMsF/kX7XIuw+cA
-# Version: 202504301401
+# Checksum: eSlcCnYKa0yJjJiq+U59KA
+# Version: 202504301409
 # Title: Hufilter Hosts file
-# Last modified: 30 Apr 2025 14:01 UTC
+# Last modified: 30 Apr 2025 14:09 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -76,19 +76,20 @@
 0.0.0.0 chimpstatic.com
 0.0.0.0 adat.freemail.hu
 0.0.0.0 adat.life.hu
+0.0.0.0 adat.origo.hu
 0.0.0.0 adtrackeraa.com
 0.0.0.0 beam-tracker.telex.hu
 0.0.0.0 beam.telex.hu
 0.0.0.0 campaign-remp.444.hu
 0.0.0.0 counter.megagroup.ru
 0.0.0.0 doubleclick.net
-0.0.0.0 event-tracker-library.mediaownerscloud.com
-0.0.0.0 event-tracker-nu.mediaownerscloud.com
 0.0.0.0 gemius.hu
 0.0.0.0 gemius.pl
+0.0.0.0 mediaownerscloud.com
 0.0.0.0 px.blog.hu
 0.0.0.0 smartadserver.com
 0.0.0.0 tracker.24xtra.hu
 0.0.0.0 tracker.azet.sk
+0.0.0.0 trackerapi.ebxcdn.com
 0.0.0.0 tracking.binarypromos.com
 0.0.0.0 tracking.tchibo.hu

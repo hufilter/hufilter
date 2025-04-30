@@ -1,7 +1,7 @@
-! Checksum: /Y2hSmWJsxeF4WXONE6spA
-! Version: 202504301401
+! Checksum: 52ysDtyqRjPKxiZBx1OytQ
+! Version: 202504301409
 ! Title: Hufilter DNS
-! Last modified: 30 Apr 2025 14:01 UTC
+! Last modified: 30 Apr 2025 14:09 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -76,19 +76,20 @@ chatrobot.mia.gov.hu
 chimpstatic.com
 adat.freemail.hu
 adat.life.hu
+adat.origo.hu
 adtrackeraa.com
 beam-tracker.telex.hu
 beam.telex.hu
 campaign-remp.444.hu
 counter.megagroup.ru
 doubleclick.net
-event-tracker-library.mediaownerscloud.com
-event-tracker-nu.mediaownerscloud.com
 gemius.hu
 gemius.pl
+mediaownerscloud.com
 px.blog.hu
 smartadserver.com
 tracker.24xtra.hu
 tracker.azet.sk
+trackerapi.ebxcdn.com
 tracking.binarypromos.com
 tracking.tchibo.hu
