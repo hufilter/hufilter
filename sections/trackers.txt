@@ -54,6 +54,7 @@
 ||adat.ripost.hu^
 ||adat.she.life.hu^
 ||adat.vg.hu^
+||adat.videa.hu^
 ||adform.net^
 ||adtrackeraa.com^
 ! https://github.com/hufilter/hufilter/issues/305
