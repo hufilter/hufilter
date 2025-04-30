@@ -1402,8 +1402,9 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||webminute.hu/bannerek/$image
 ||zeneszoveg.hu/gfx/skin-*/*.
 
-||widget.block4d.com^
 ||a.adnium.com^
+||ad*.gyaloglo.hu^
+||ad*.mellesleg.hu^
 ||ad.depo.hu^
 ||ad.gyermekevek.hu^
 ||ad.hirekmedia.hu^
@@ -1414,8 +1415,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||ad.parom.hu^
 ||ad.pphungary.hu^
 ||ad.szexneked.hu^
-||ad*.gyaloglo.hu^
-||ad*.mellesleg.hu^
 ||adfair.hu^
 ||adfree-stat.p3g.hu^
 ||ads.geeks.hu^
@@ -1459,6 +1458,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||up-banner.wavecdn.de^
 ||vid4u.org^
 ||wdtyl.xyz^
+||widget.block4d.com^
 ||wstat.ozon.ru^
 
 ||abmr.net^$third-party
