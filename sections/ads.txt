@@ -860,6 +860,7 @@ nepszava.hu##.ad
 netbulvar.eu##[id*="advertisment"]
 nice.hu##[class*="banner"]
 nkmenergia.hu###tab-widget
+nlc.hu##.banner-container
 nlc.hu##.m-fbPopup
 nlc.hu##.rubAd
 noinetcafe.hu##[class*="banner"]
