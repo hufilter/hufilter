@@ -37,6 +37,7 @@
 !------ Generic network filters - Tracking domains -----------------------------!
 !-------------------------------------------------------------------------------!
 ||adat.agrokep.vg.hu^
+||adat.borsonline.hu^
 ||adat.figyelo.hu^
 ||adat.freemail.hu^
 ||adat.hirtv.hu^
