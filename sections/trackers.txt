@@ -51,6 +51,7 @@
 ||adat.nemzetisport.hu^
 ||adat.origo.hu^
 ||adat.ripost.hu^
+||adat.she.life.hu^
 ||adat.vg.hu^
 ||adform.net^
 ||adtrackeraa.com^
