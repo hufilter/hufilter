@@ -1298,6 +1298,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||hwsw.hu/images/bodybgs/$image
 ||hwsw.hu/images/bodybgs2/
 ||i.cdn29.hu/apix_collect/ads
+||iap.cdn.indexvas.hu/Scripts.js$script
 ||iho.hu/img/banner/
 ||image.arukereso.hu/ad$image
 ||img.hunbasket.webpont.com/kosarsport/art/*banner$image
