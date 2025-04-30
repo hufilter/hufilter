@@ -22,6 +22,7 @@
 ||websas.hu/statistics/
 
 ||adat.freemail.hu^
+||adat.life.hu^
 ||adtrackeraa.com^
 ! https://github.com/hufilter/hufilter/issues/305
 ||beam-tracker.telex.hu^
