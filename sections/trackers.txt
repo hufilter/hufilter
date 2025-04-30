@@ -24,6 +24,7 @@
 
 ||adat.freemail.hu^
 ||adat.life.hu^
+||adat.nemzetisport.hu^
 ||adat.origo.hu^
 ||adtrackeraa.com^
 ! https://github.com/hufilter/hufilter/issues/305
