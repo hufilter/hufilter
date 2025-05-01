@@ -20,3 +20,4 @@ port.hu#$#abort-on-property-write document.body.style
 !-------------------------------------------------------------------------------!
 ! https://github.com/uBlockOrigin/uAssets/issues/25482
 @@||js.srvtrck.com/v1/js?api_key$xmlhttprequest,domain=online-filmek.ac
+||galaxypush.com/css/styles.min.css^$rewrite=abp-resource:blank-css,domain=online-filmek.ac|online-filmek.me
