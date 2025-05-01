@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: pxHgwDCKx5kmdzl7HGsDEg
-! Version: 202505011606
+! Checksum: BVh2IzSDPo5yibJpZoZJ6w
+! Version: 202505011739
 ! Title: Hufilter for uBO
-! Last modified: 01 May 2025 16:06 UTC
+! Last modified: 01 May 2025 17:39 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1859,7 +1859,6 @@ videa.hu,videaloop.hu##.top-video-container-banner
 !-------------------------------------------------------------------------------!
 !------ Generic network filters ------------------------------------------------!
 !-------------------------------------------------------------------------------!
-||galaxypush.com/css/styles.min.css^$redirect=noopcss,domain=online-filmek.ac|online-filmek.me,important
 @@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139716
 @@||bitepito.hu/rejtveny/data/ads/pagead/js/adsbygoogle.js^$script
@@ -2084,6 +2083,7 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 !-------------------------------------------------------------------------------!
 ! https://github.com/hufilter/hufilter/issues/427
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=myonlineradio.hu,redirect=noop.js
+||galaxypush.com/css/styles.min.css^$redirect=noop.css,domain=online-filmek.ac|online-filmek.me,important
 ! This section file contains rules for fixing breaking sites. For example:
 ! - Layout issues
 ! - Broken scripts

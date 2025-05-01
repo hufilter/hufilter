@@ -1,8 +1,8 @@
 [Adblock Plus 3.9.4]
-! Checksum: BQGh9jbRpt3lw91htl3nIg
-! Version: 202505011606
+! Checksum: T2D0jl72SJBspgcaKhLsDQ
+! Version: 202505011739
 ! Title: Hufilter for ABP
-! Last modified: 01 May 2025 16:06 UTC
+! Last modified: 01 May 2025 17:39 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1859,7 +1859,6 @@ videa.hu,videaloop.hu##.top-video-container-banner
 !-------------------------------------------------------------------------------!
 !------ Generic network filters ------------------------------------------------!
 !-------------------------------------------------------------------------------!
-||galaxypush.com/css/styles.min.css^$redirect=noopcss,domain=online-filmek.ac|online-filmek.me,important
 @@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139716
 @@||bitepito.hu/rejtveny/data/ads/pagead/js/adsbygoogle.js^$script
@@ -1984,6 +1983,7 @@ port.hu#$#abort-on-property-write document.body.style
 !-------------------------------------------------------------------------------!
 ! https://github.com/uBlockOrigin/uAssets/issues/25482
 @@||js.srvtrck.com/v1/js?api_key$xmlhttprequest,domain=online-filmek.ac
+||galaxypush.com/css/styles.min.css^$rewrite=abp-resource:blank-css,domain=online-filmek.ac|online-filmek.me
 ! This section file contains rules for fixing breaking sites. For example:
 ! - Layout issues
 ! - Broken scripts
