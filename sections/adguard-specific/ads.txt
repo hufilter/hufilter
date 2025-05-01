@@ -15,8 +15,6 @@ startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; he
 dehir.hu#$##popupFrontPageBanner-modal { display: none !important; }
 dehir.hu#$#body { overflow: auto !important; }
 prohardver.hu,fototrend.hu#$#main { background-image: none !important; }
-online-filmek.ac,online-filmek.me#%#//scriptlet('set-constant', 'document.write', 'undefined')
-online-filmek.ac,online-filmek.me##a[onclick^="window.open"]
 
 ! https://github.com/hufilter/hufilter/issues/440
 ! https://github.com/hufilter/hufilter/pulls/452

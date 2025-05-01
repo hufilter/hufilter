@@ -94,9 +94,6 @@ hu##[class*="overlayBg"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
-online-filmek.ac,online-filmek.me##div[align="center"] > div[style^="margin-top:"] > div > a[target="_blank"] > img
-online-filmek.ac,online-filmek.me##div[align="center"] > a[onclick]
-online-filmek.ac,online-filmek.me##span[class^="adslot_"]
 hdmozi.hu##.asgdc
 magyarorszagom.hu##.bannerContent
 112press.hu##.banner_middle
@@ -793,8 +790,9 @@ motorrevu.hu##[class*="hirdetes"]
 ! https://github.com/hufilter/hufilter/issues/314
 mozinet.me###adserving-tag-hb
 mozinet.me###pa_sticky_ad_box_middle_left
+mozinet.me##.abh
+mozinet.me##a[href="javascript:void(0);"][onclick^="window.open"]
 mozinet.me##iframe[id^="postbid_if_"]
-mozinet.me,online-filmek.ac##[href^="https://gamesspot.live/"]
 mozinezo.hu###header
 mozishop.hu##.om-holder
 muhelynet.hu###exposeMask
@@ -858,8 +856,9 @@ offline.hu##.ads
 olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]
 olcsobbat.hu###datasheetNavHelp
-online-filmek.ac##[href^="https://wdtyl.xyz/"]
-online-filmek.me##.hover_bkgr_fricc
+online-filmek.ac,online-filmek.me###azidodpazarlod
+online-filmek.ac,online-filmek.me##.ad_mrg
+online-filmek.ac,online-filmek.me##.details-main-panel + span
 onlinecegjegyzek.hu##[class*="hirdetes"]
 ! https://github.com/hufilter/hufilter/issues/254
 onroad.hu##.highlighted-banner
