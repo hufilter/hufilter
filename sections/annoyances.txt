@@ -273,6 +273,7 @@ sorozatwiki.hu###fhr-cookie-bar
 starity.hu###upprev_box
 startlap.hu###push-notification
 szabadfold.hu##div.fb_shares
+szallas.hu###onetrust-consent-sdk
 szatmar.ro##.cookie-consent
 szeged365.hu##.active.popup-screen
 szeged365.hu##.popup-box
@@ -341,3 +342,4 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||*.hu/*wp-content/plugins/complianz-gdpr/*.js$script
 ||*.hu/*wp-content/plugins/complianz-gdpr/*.css$stylesheet
 ||iccm.ingatlancdn.com/iccm-*.js$script
+||cookielaw.org^$third-party  
