@@ -95,3 +95,4 @@
 ||track306.info^$third-party
 ||trackingterrorism.org^$third-party
 ||va.v.liveperson.net^$third-party,script
+||track.segmentstream.com^$third-party  
