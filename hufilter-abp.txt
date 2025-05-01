@@ -1,8 +1,8 @@
 [Adblock Plus 3.9.4]
-! Checksum: T2D0jl72SJBspgcaKhLsDQ
-! Version: 202505011739
+! Checksum: BoiVMNhkwJDSXlywT3zHvQ
+! Version: 202505011903
 ! Title: Hufilter for ABP
-! Last modified: 01 May 2025 17:39 UTC
+! Last modified: 01 May 2025 19:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1770,6 +1770,7 @@ sorozatwiki.hu###fhr-cookie-bar
 starity.hu###upprev_box
 startlap.hu###push-notification
 szabadfold.hu##div.fb_shares
+szallas.hu###onetrust-consent-sdk
 szatmar.ro##.cookie-consent
 szeged365.hu##.active.popup-screen
 szeged365.hu##.popup-box
@@ -1835,6 +1836,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||*.hu/*wp-content/plugins/complianz-gdpr/*.js$script
 ||*.hu/*wp-content/plugins/complianz-gdpr/*.css$stylesheet
 ||iccm.ingatlancdn.com/iccm-*.js$script
+||cookielaw.org^$third-party
 ! This section file contains rules for bypassing anti-adblock protections.
 ! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
 !-------------------------------------------------------------------------------!
@@ -1956,6 +1958,7 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ||track306.info^$third-party
 ||trackingterrorism.org^$third-party
 ||va.v.liveperson.net^$third-party,script
+||track.segmentstream.com^$third-party
 ! This section file contains rules for fixing breaking sites. For example:
 ! - Layout issues
 ! - Broken scripts
