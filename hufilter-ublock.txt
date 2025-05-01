@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: G7VQUoZIM/GARiDdhWBxXg
-! Version: 202504302005
+! Checksum: pxHgwDCKx5kmdzl7HGsDEg
+! Version: 202505011606
 ! Title: Hufilter for uBO
-! Last modified: 30 Apr 2025 20:05 UTC
+! Last modified: 01 May 2025 16:06 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -115,9 +115,6 @@ hu##[class*="overlayBg"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
-online-filmek.ac,online-filmek.me##div[align="center"] > div[style^="margin-top:"] > div > a[target="_blank"] > img
-online-filmek.ac,online-filmek.me##div[align="center"] > a[onclick]
-online-filmek.ac,online-filmek.me##span[class^="adslot_"]
 hdmozi.hu##.asgdc
 magyarorszagom.hu##.bannerContent
 112press.hu##.banner_middle
@@ -814,8 +811,9 @@ motorrevu.hu##[class*="hirdetes"]
 ! https://github.com/hufilter/hufilter/issues/314
 mozinet.me###adserving-tag-hb
 mozinet.me###pa_sticky_ad_box_middle_left
+mozinet.me##.abh
+mozinet.me##a[href="javascript:void(0);"][onclick^="window.open"]
 mozinet.me##iframe[id^="postbid_if_"]
-mozinet.me,online-filmek.ac##[href^="https://gamesspot.live/"]
 mozinezo.hu###header
 mozishop.hu##.om-holder
 muhelynet.hu###exposeMask
@@ -879,8 +877,9 @@ offline.hu##.ads
 olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]
 olcsobbat.hu###datasheetNavHelp
-online-filmek.ac##[href^="https://wdtyl.xyz/"]
-online-filmek.me##.hover_bkgr_fricc
+online-filmek.ac,online-filmek.me###azidodpazarlod
+online-filmek.ac,online-filmek.me##.ad_mrg
+online-filmek.ac,online-filmek.me##.details-main-panel + span
 onlinecegjegyzek.hu##[class*="hirdetes"]
 ! https://github.com/hufilter/hufilter/issues/254
 onroad.hu##.highlighted-banner
@@ -1860,6 +1859,7 @@ videa.hu,videaloop.hu##.top-video-container-banner
 !-------------------------------------------------------------------------------!
 !------ Generic network filters ------------------------------------------------!
 !-------------------------------------------------------------------------------!
+||galaxypush.com/css/styles.min.css^$redirect=noopcss,domain=online-filmek.ac|online-filmek.me,important
 @@||777blog.hu/wp-content/themes/florence/js/dfp.min.js^$script
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139716
 @@||bitepito.hu/rejtveny/data/ads/pagead/js/adsbygoogle.js^$script
@@ -1982,8 +1982,6 @@ startlap.hu##div.container.banner-container.wide:style(min-height: 0 !important;
 dehir.hu###popupFrontPageBanner-modal:style(display: none !important;)
 dehir.hu##body:style(overflow: auto !important;)
 prohardver.hu,fototrend.hu##main:style(background-image: none !important;)
-online-filmek.ac,online-filmek.me##+js(set, document.write, undefined)
-online-filmek.ac,online-filmek.me##a[onclick^="window.open"]
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
