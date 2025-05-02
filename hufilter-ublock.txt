@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 6wf0iZC4VvftuY+Tk/rY8Q
-! Version: 202505011903
+! Checksum: 2Pi9WFBdXo6eFfX6HwGInQ
+! Version: 202505021916
 ! Title: Hufilter for uBO
-! Last modified: 01 May 2025 19:03 UTC
+! Last modified: 02 May 2025 19:16 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1517,6 +1517,7 @@ hu###cookie-bar
 hu###cookie-notice
 hu###cookie-window
 hu###cookiebar
+hu###EUCookiev2
 hu##.cookie-box
 hu##.eu-cookie-compliance-banner
 hu###cookies-policy
