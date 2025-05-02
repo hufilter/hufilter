@@ -19,6 +19,7 @@ hu###cookie-bar
 hu###cookie-notice
 hu###cookie-window
 hu###cookiebar
+hu###EUCookiev2
 hu##.cookie-box
 hu##.eu-cookie-compliance-banner
 hu###cookies-policy
