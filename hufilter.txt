@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +5J3hWUuiP9bNp2vSEx+cQ
-! Version: 202505011606
+! Checksum: 0Gj/NyyU7pPx2y1G/HHCCw
+! Version: 202505022022
 ! Title: Hufilter Basic
-! Last modified: 01 May 2025 16:06 UTC
+! Last modified: 02 May 2025 20:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1508,3 +1508,4 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mafab.hu
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 @@||pro.hit.gemius.pl/gstream.js$script,domain=embed.rtl.hu
+greendex.hu#@#.heateor_sss_sharing_container
