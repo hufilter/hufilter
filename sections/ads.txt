@@ -1253,7 +1253,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||blog.hu/pixel
 ||borsonline.hu/*hirdetes
 ||cegmarketing.hu/banner
-||cfusion-internet.com^$third-party
 ||chat.hu/Client/banner$image
 ||chat.hu/imgadverts$image
 ||cosmopolitan.hu/*/sponsor/
@@ -1454,6 +1453,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||betfair.com^$third-party
 ||bongacash.com^$third-party
 ||calivary.com^$third-party
+||cfusion-internet.com^$third-party
 ||clicksure.com^$third-party
 ||data.bookline.hu^$third-party
 ||head-clickfusion.com^$third-party
