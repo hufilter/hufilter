@@ -1289,7 +1289,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||hirek.sk/banner/$image
 ||hosszupuskasub.com/css/*skin.jpg$image
 ||hrportal.hu/images/banner/$image
-||hungariantop1000.com/cgi-bin/counter.cgi
 ||hupont.hu/hirdetes/
 ||hwsw.hu/images/bodybgs/$image
 ||hwsw.hu/images/bodybgs2/
@@ -1348,7 +1347,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||randihely.hu/adnews/
 ||revizoronline.com/*banner$image
 ||sg.hu/images/hirdetes.gif$image
-||sg.hu/sg.wgt
 ||sielok.hu/kampanybanner/$image
 ||sikerado.hu/banner/$image
 ||stat.profession.hu/static/assets/images/prize-game$image
