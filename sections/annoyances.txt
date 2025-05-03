@@ -21,6 +21,7 @@ hu###cookie-window
 hu###cookiebar
 hu###EUCookiev2
 hu##.cookie-box
+hu##.cookie-modal
 hu##.eu-cookie-compliance-banner
 hu###cookies-policy
 hu###cmplz-cookiebanner-container
