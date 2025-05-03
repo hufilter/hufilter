@@ -1326,7 +1326,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||medicalonline.hu/*hirdetes
 ||metropol.hu/*/images/sponsor_*.$image
 ||miabonyunk.hu/hirdetesek/
-||mindmegette.hu/images/294/O/nyerjagyulaival_2020_background_300x300.jpg$image
 ||mkbnetbankar.hu/banner
 ||mlzphoto.hu/bannerek/$image
 ||mobilarena.hu/ajanlo/lapcsalad.html
