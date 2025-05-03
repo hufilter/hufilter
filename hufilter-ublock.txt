@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: UsHTY1lvwHxtIDMj3UZVRQ
-! Version: 202505031008
+! Checksum: jeyBLW+365nMJZbrypmEZQ
+! Version: 202505031048
 ! Title: Hufilter for uBO
-! Last modified: 03 May 2025 10:08 UTC
+! Last modified: 03 May 2025 10:48 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1870,7 +1870,6 @@ videa.hu,videaloop.hu##.top-video-container-banner
 !-------------------------------------------------------------------------------!
 !------ Specific network filters - Tracking scripts ----------------------------!
 !-------------------------------------------------------------------------------!
-||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||api.indidata.com^$third-party,domain=civishir.hu
 !-------------------------------------------------------------------------------!
 !------ Generic network filters - Tracking paths -------------------------------!
@@ -2143,3 +2142,18 @@ pcwplus.hu,gsplus.hu##[class="container main single-article"]:matches-media((max
 !-------------------------------------------------------------------------------!
 ! https://github.com/hufilter/hufilter/issues/317
 @@||adocean.pl^$script,domain=menetrendek.hu
+! This section contains rules for blocking scam, phishing, malicious, and other security-threatening sites.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+! Rules should follow this format:
+! ||domain.com^$document
+! Imported from https://github.com/FakesiteListHUN/FakeWebshopListHUN/blob/50836b104948a76f4344270e8baa954bc562fca9/fakewebshoplist#L153C1-L162C11
+||aliexpress.hu^$document
+||aliexpressz.hu^$document
+||azsiacenter.hu^$document
+||azsiacentrum.hu^$document
+||kinaiwebaruhaz.hu^$document
+||maplin.hu^$document
+||microelectrónica.es^$document
+||mikroelektronik.hu^$document
+||petpoolalarm.com^$document
+||sexmeup.hu^$document

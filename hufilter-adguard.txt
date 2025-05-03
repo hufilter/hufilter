@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: pKkvxnkpw0tqH3VtvEca0w
-! Version: 202505031008
+! Checksum: qXN3Dqb1JApAozsXN+WHRg
+! Version: 202505031048
 ! Title: Hufilter for AdGuard
-! Last modified: 03 May 2025 10:08 UTC
+! Last modified: 03 May 2025 10:48 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1870,7 +1870,6 @@ videa.hu,videaloop.hu##.top-video-container-banner
 !-------------------------------------------------------------------------------!
 !------ Specific network filters - Tracking scripts ----------------------------!
 !-------------------------------------------------------------------------------!
-||cdn.performax.cz/acc/insert_rtb.js$script,domain=bpiautosok.hu
 ||api.indidata.com^$third-party,domain=civishir.hu
 !-------------------------------------------------------------------------------!
 !------ Generic network filters - Tracking paths -------------------------------!
@@ -1985,9 +1984,8 @@ startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; he
 dehir.hu#$##popupFrontPageBanner-modal { display: none !important; }
 dehir.hu#$#body { overflow: auto !important; }
 prohardver.hu,fototrend.hu#$#main { background-image: none !important; }
-! https://github.com/hufilter/hufilter/issues/440
-! https://github.com/hufilter/hufilter/pulls/452
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+! https://github.com/hufilter/hufilter/issues/440, https://github.com/hufilter/hufilter/pulls/452
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##div:has(> h4 + div[style*="calc"])
 !#endif
 !-------------------------------------------------------------------------------!
@@ -2093,6 +2091,9 @@ karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
 ||galaxypush.com/css/styles.min.css^$redirect=noopcss,domain=online-filmek.ac|online-filmek.me,important
+!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
+@@||galaxypush.com/css/styles.min.css^$domain=online-filmek.ac|online-filmek.me
+!#endif
 ! This section file contains rules for fixing breaking sites. For example:
 ! - Layout issues
 ! - Broken scripts
@@ -2149,3 +2150,18 @@ pcwplus.hu,gsplus.hu#$#@media (max-width: 768px) { [class="container main single
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 @@||adocean.pl^$script,domain=menetrendek.hu
 !#endif
+! This section contains rules for blocking scam, phishing, malicious, and other security-threatening sites.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+! Rules should follow this format:
+! ||domain.com^$document
+! Imported from https://github.com/FakesiteListHUN/FakeWebshopListHUN/blob/50836b104948a76f4344270e8baa954bc562fca9/fakewebshoplist#L153C1-L162C11
+||aliexpress.hu^$document
+||aliexpressz.hu^$document
+||azsiacenter.hu^$document
+||azsiacentrum.hu^$document
+||kinaiwebaruhaz.hu^$document
+||maplin.hu^$document
+||microelectrónica.es^$document
+||mikroelektronik.hu^$document
+||petpoolalarm.com^$document
+||sexmeup.hu^$document
