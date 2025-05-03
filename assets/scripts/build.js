@@ -56,7 +56,7 @@ const buildFilters = async () => {
       // Handle DNS / hosts filters
       if (filter.dns || filter.hosts) {
         // TODO: Switch to AGTree and extract domain from pattern with tldts
-        const regex = /^\|\|([a-z0-9]+([-.][a-z0-9]+)*\.[a-z]{2,})($|\^$)/gm;
+        const regex = /^\|\|([a-z0-9]+([-.][a-z0-9]+)*\.[a-z]{2,})\^?(?:\$document)?$/gm;
         const matches = content.matchAll(regex);
         const domains = Array.from(matches, ([_, domain]) => domain);
         content = (
