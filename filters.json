@@ -19,7 +19,8 @@
       "trackers.txt",
       "unbreak.txt",
       "adblock-plus-specific/antiadblock.txt",
-      "adblock-plus-specific/unbreak.txt"
+      "adblock-plus-specific/unbreak.txt",
+      "security.txt"
     ]
   },
   {
@@ -35,7 +36,8 @@
       "ublock-origin-specific/ads.txt",
       "ublock-origin-specific/annoyances.txt",
       "ublock-origin-specific/antiadblock.txt",
-      "ublock-origin-specific/unbreak.txt"
+      "ublock-origin-specific/unbreak.txt",
+      "security.txt"
     ]
   },
   {
@@ -51,7 +53,8 @@
       "adguard-specific/ads.txt",
       "adguard-specific/annoyances.txt",
       "adguard-specific/antiadblock.txt",
-      "adguard-specific/unbreak.txt"
+      "adguard-specific/unbreak.txt",
+      "security.txt"
     ]
   },
   {
@@ -71,7 +74,8 @@
       "ads.txt",
       "annoyances.txt",
       "trackers.txt",
-      "unbreak.txt"
+      "unbreak.txt",
+      "security.txt"
     ]
   },
   {
@@ -83,7 +87,8 @@
       "ads.txt",
       "annoyances.txt",
       "trackers.txt",
-      "unbreak.txt"
+      "unbreak.txt",
+      "security.txt"
     ]
   },
   {
@@ -95,7 +100,8 @@
       "ads.txt",
       "annoyances.txt",
       "trackers.txt",
-      "unbreak.txt"
+      "unbreak.txt",
+      "security.txt"
     ]
   }
 ]

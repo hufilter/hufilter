@@ -41,6 +41,8 @@ Hasonló fájlstruktúrát használunk minden szekciókönyvtárban:
 - `selfpromo.txt` - Szabályokat tartalmaz az önpromóció és adománykérések blokkolásához.
 - `trackers.txt` - Szabályokat tartalmaz a követők és egyéb adatvédelmet sértő technológiák blokkolásához.
 - `unbreak.txt` - Szabályokat tartalmaz a helytelen blokkolás okozta problémák megoldásához.
+- `security.txt` - Szabályokat tartalmaz a csalások, adathalász oldalak, rosszindulatú programok terjesztése
+  és egyéb biztonsági fenyegetések blokkolására.
 
 [abp-section]: https://github.com/hufilter/hufilter/tree/master/sections/adblock-plus-specific
 [abp-url]: https://adblockplus.org

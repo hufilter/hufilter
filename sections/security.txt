@@ -1,0 +1,6 @@
+!
+! This section contains rules for blocking scam, phishing, malicious, and other security-threatening sites.
+! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+! Rules should follow this format:
+! ||domain.com^$document
+!
