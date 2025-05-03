@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: J4+TzZygdd+ORceNizn90g
-! Version: 202505022022
+! Checksum: UsHTY1lvwHxtIDMj3UZVRQ
+! Version: 202505031008
 ! Title: Hufilter for uBO
-! Last modified: 02 May 2025 20:22 UTC
+! Last modified: 03 May 2025 10:08 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1254,8 +1254,8 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||affiliate.hu$subdocument
 ||affiliation.arukereso.hu/pbox/
 ||alfahir.hu^*/hirdetesfoto/$image
-||amiotthonunk.hu/images/banners/
-||aori.hu/banner
+||amiotthonunk.hu/images/banners/$image
+||aori.hu/banner$image
 ||asva.info/tmp/
 ||asva.info/wp-content/themes/branfordmagazine/images/banners/$image
 ||atv.hu/*reklam
@@ -1270,8 +1270,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||blog.hu/pixel
 ||borsonline.hu/*hirdetes
 ||cegmarketing.hu/banner
-||cfusion-internet.com^$third-party
-||chat.hu/Client/banner
+||chat.hu/Client/banner$image
 ||chat.hu/imgadverts$image
 ||cosmopolitan.hu/*/sponsor/
 ||csongradihirek.hu/portal/images/stories/_reklamok/$image
@@ -1283,16 +1282,16 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||est.hu/design/img/szponzoracio/$image
 ||eudomain.eu/ad
 ||eudomain.eu/affiliate
-||ezoterikus.hu/*banner*/
+||ezoterikus.hu/*banner*/$image
 ||femcafe.hu/*/spike_ad/
 ||femcafe.hu/*/sponsoration/
 ||femcafe.hu/*/szponzoracio/
 ||femcafe.hu/spike-ad/
 ||filmvilag.me/*.gif$image
 ||fototrend.hu/design/hatter.jpg$image
-||freeweb.hu/*_banner*.
-||gamepod.hu/ajanlo/lapcsalad.html
-||geeks.hu/*body-bg-*.
+||freeweb.hu/*_banner*.$image
+||gamepod.hu/ajanlo/lapcsalad.html$subdocument
+||geeks.hu/*body-bg-*.$image
 ||gigasex.hu/bannerek/$image
 ||glassdoor.com/app/static/js/gd-fj-ads-init$script
 ||gyakorikerdesek.hu/pic/bannerek/$image
@@ -1307,7 +1306,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||hirek.sk/banner/$image
 ||hosszupuskasub.com/css/*skin.jpg$image
 ||hrportal.hu/images/banner/$image
-||hungariantop1000.com/cgi-bin/counter.cgi
 ||hupont.hu/hirdetes/
 ||hwsw.hu/images/bodybgs/$image
 ||hwsw.hu/images/bodybgs2/
@@ -1316,10 +1314,10 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||iho.hu/img/banner/
 ||image.arukereso.hu/ad$image
 ||img.hunbasket.webpont.com/kosarsport/art/*banner$image
-||infogyor.hu/*_banners/
-||informed.hu/*banner
-||ingyenweb.hu/felso/*.
-||ingyenweb.hu/smsbanner/
+||infogyor.hu/*_banners/$image
+||informed.hu/*banner$image
+||ingyenweb.hu/felso/*.$image
+||ingyenweb.hu/smsbanner/$image
 ||jogiforum.hu/files/partner/
 ||kiszamolo.hu/wp-content/uploads/*banner*.png$image
 ||kiszamolo.hu/wp-content/uploads/2016/09/Hitel-290x200-blog-jobb.gif$image
@@ -1343,50 +1341,47 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||medicalonline.hu/*hirdetes
 ||metropol.hu/*/images/sponsor_*.$image
 ||miabonyunk.hu/hirdetesek/
-||mindmegette.hu/images/294/O/nyerjagyulaival_2020_background_300x300.jpg$image
-||mkbnetbankar.hu/banner
+||mkbnetbankar.hu/banner$image
 ||mlzphoto.hu/bannerek/$image
-||mobilarena.hu/ajanlo/lapcsalad.html
+||mobilarena.hu/ajanlo/lapcsalad.html$subdocument
 ||napidroid.hu/*/*hird
 ||napidroid.hu/*/*logo$image
 ||napocska.hu/images/*_advert*.$image
 ||net-solutions.hu/banner/$image
 ||noplaza.hu/banner/$image
 ||nso.hu/*/sponsoration/*.
-||okmanyiroda.hu/banner.html
+||okmanyiroda.hu/banner.html$subdocument
 ||p3k.hu/*_hatter*.$image
 ||p3k.hu/*szponz*.
 ||pcguru.hu/uploads/banners/*.jpg$image
 ||pcpult.hu/*/banner/$image
 ||pcwplus.hu/bannerek/$image
-||performax.cz^$third-party
 ||piacesprofit.hu/files/skin/$image
 ||port-network.com/sponsoration_elements/
 ||portfolio.hu/img/partner/$image
 ||preissuchmaschine.de/banner/$image
 ||prohardver.hu/dl/cnt/*/background.png$image
 ||randihely.hu/adnews/
-||revizoronline.com/*banner
+||revizoronline.com/*banner$image
 ||sg.hu/images/hirdetes.gif$image
-||sg.hu/sg.wgt
 ||sielok.hu/kampanybanner/$image
 ||sikerado.hu/banner/$image
 ||stat.profession.hu/static/assets/images/prize-game$image
 ||static.lhp.hu/lhp.hu/bannerek/$image
 ||static.love.hu/design/ad/
-||static.nemzetisport.hu//style/nso/i/*banner
+||static.nemzetisport.hu//style/nso/i/*banner$image
 ||static.nemzetisport.hu//style/nso/i/betclic.gif$image
 ||static.origos.hu/s/css/responsive-ads/hangar/hangar-investor-web.css$stylesheet
 ||stylemagazin.hu/static/template_settings/
 ||szegeder.hu/get-ads
 ||szegeder.hu/js/ads-prebid.js^$script
-||szegedma.hu/*banners/*.
+||szegedma.hu/*banners/*.$image
 ! https://github.com/hufilter/hufilter/issues/5
 ||szepsegbroker.hu/banner/$image
 ||szepsegbroker.hu/elements/bannerz.2019.js^$script
 ||talalka.hu/hirdetes/
 ||telefonguru.hu/banners/$image
-||telefonguru.hu/iframes/
+||telefonguru.hu/iframes/$subdocument
 ||tvn.hu/tvn/kepek/xpoker.hu/$image
 ||ultraweb.hu/ad*.php
 ||utcakereso.hu/hirdetes/
@@ -1471,6 +1466,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||betfair.com^$third-party
 ||bongacash.com^$third-party
 ||calivary.com^$third-party
+||cfusion-internet.com^$third-party
 ||clicksure.com^$third-party
 ||data.bookline.hu^$third-party
 ||head-clickfusion.com^$third-party
@@ -1959,6 +1955,7 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ||gravity.com^$third-party
 ||lo.v.liveperson.net^$third-party
 ||onesignal.com^$third-party
+||performax.cz^$third-party
 ||targetix.net^$third-party
 ||track306.info^$third-party
 ||trackingterrorism.org^$third-party
