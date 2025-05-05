@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yjnj2sWxBIQXo2qX2folvw
-! Version: 202505051601
+! Checksum: nXVu3gbkkEepVWQ1wtJmYw
+! Version: 202505051618
 ! Title: Hufilter Basic
-! Last modified: 05 May 2025 16:01 UTC
+! Last modified: 05 May 2025 16:18 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -411,6 +411,7 @@ fovarosi-hirhatar.hu##[href*="hirdetesek"]
 freemail.hu##.etarget
 freemail.hu##.facebook-layer-box
 freemail.hu##[class*="adbox"]
+freemail.hu##[class*="enabled-"]
 freemail.hu##[class*="magnum"]
 ! https://github.com/hufilter/hufilter/issues/263
 freemail.hu###content-container > div > a:not([class*="MailListItem-"])
