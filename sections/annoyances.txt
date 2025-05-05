@@ -269,6 +269,7 @@ retikul.hu###psCookieNotification
 ripost.hu###cookieconsent
 ripost.hu##.newsletter-box
 rtl.hu##.newsletter-modal
+semmelweis.hu###palyazat-float
 sielok.hu###gdprCookieWrap
 simple.hu###enableCookieDiv
 sorozatwiki.hu###fhr-cookie-bar
@@ -349,3 +350,4 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||*.hu/*wp-content/plugins/complianz-gdpr/*.css$stylesheet
 ||iccm.ingatlancdn.com/iccm-*.js$script
 ||cookielaw.org^$third-party  
+||semmelweis.hu/*/szechenyi_2020_infoblokk_float.png$image
