@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: rWOBROCfPDOlYFlJxIRZnQ
-! Version: 202505051336
+! Checksum: XqRdODSKKOdC1EuJzcKhpA
+! Version: 202505051601
 ! Title: Hufilter for AdGuard
-! Last modified: 05 May 2025 13:36 UTC
+! Last modified: 05 May 2025 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -564,16 +564,7 @@ hvg.hu##[class="site-scarab-bottom open"]
 hvg.hu##[id*="-ad-"]
 hvg.hu###webpushSelctorFormId
 hvo.hu##div[class*="ad_"]
-hwsw.hu##.billboard
-hwsw.hu##.cikkszovegaction
-hwsw.hu##.cikkszovegakcio
-hwsw.hu##.kommentadomany
-hwsw.hu##[class*="hirdetes"]
-hwsw.hu###announcement
-hwsw.hu###cikktoolbaradomany
-hwsw.hu###sidebar > table
-hwsw.hu##body > div > a[target="_blank"]
-hwsw.hu##div[id*="hirdetes"]
+hwsw.hu##.gate-banner-wrap
 iho.hu##.banner
 iho.hu##.footer-banner-row
 iho.hu##.iho-adzone
@@ -1307,8 +1298,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||hosszupuskasub.com/css/*skin.jpg$image
 ||hrportal.hu/images/banner/$image
 ||hupont.hu/hirdetes/
-||hwsw.hu/images/bodybgs/$image
-||hwsw.hu/images/bodybgs2/
+||hwsw.hu/kepek/hirek/2025/04/arm_final_5.jpg$image
 ||i.cdn29.hu/apix_collect/ads
 ||iap.cdn.indexvas.hu/Scripts.js$script
 ||iho.hu/img/banner/
@@ -1638,7 +1628,6 @@ hestore.hu###cookiewarnbar
 hiros.hu###cookieAlertBox
 hoxa.hu###cookiekezeles
 hvg.hu##.hvg_push
-hwsw.hu###cookiealert
 hellovidek.hu###ajanlo
 hellovidek.hu##.box_remote
 hellovidek.hu##.h-sideboard_2
@@ -2131,7 +2120,7 @@ automotor.hu#$#div.postContent { margin-top: 0 !important; }
 budapestkornyeke.hu#$#body { padding-top: 0 !important; }
 hosszupuskasub.com#$# * { cursor: auto !important; }
 hu.ign.com#$#div.article-headline { margin-top: 44px !important; }
-hwsw.hu#$#body[style*="padding-top"] { padding-top: 0px !important; background-color: #777 !important; }
+hwsw.hu#$#.has-gate-banner { top: 30px !important; }
 index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu#$#body { overflow: auto !important; }
 jofogas.hu#$##page-content { margin-top: 0px !important; }
 kektura.hu#$#body.modal-open { overflow: auto!important; }

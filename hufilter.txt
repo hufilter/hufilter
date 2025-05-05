@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rDcIDX1cN6dyeH0bQcYg/A
-! Version: 202505031008
+! Checksum: yjnj2sWxBIQXo2qX2folvw
+! Version: 202505051601
 ! Title: Hufilter Basic
-! Last modified: 03 May 2025 10:08 UTC
+! Last modified: 05 May 2025 16:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -564,16 +564,7 @@ hvg.hu##[class="site-scarab-bottom open"]
 hvg.hu##[id*="-ad-"]
 hvg.hu###webpushSelctorFormId
 hvo.hu##div[class*="ad_"]
-hwsw.hu##.billboard
-hwsw.hu##.cikkszovegaction
-hwsw.hu##.cikkszovegakcio
-hwsw.hu##.kommentadomany
-hwsw.hu##[class*="hirdetes"]
-hwsw.hu###announcement
-hwsw.hu###cikktoolbaradomany
-hwsw.hu###sidebar > table
-hwsw.hu##body > div > a[target="_blank"]
-hwsw.hu##div[id*="hirdetes"]
+hwsw.hu##.gate-banner-wrap
 iho.hu##.banner
 iho.hu##.footer-banner-row
 iho.hu##.iho-adzone
@@ -1307,8 +1298,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||hosszupuskasub.com/css/*skin.jpg$image
 ||hrportal.hu/images/banner/$image
 ||hupont.hu/hirdetes/
-||hwsw.hu/images/bodybgs/$image
-||hwsw.hu/images/bodybgs2/
+||hwsw.hu/kepek/hirek/2025/04/arm_final_5.jpg$image
 ||i.cdn29.hu/apix_collect/ads
 ||iap.cdn.indexvas.hu/Scripts.js$script
 ||iho.hu/img/banner/
