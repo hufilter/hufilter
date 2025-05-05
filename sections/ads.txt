@@ -390,8 +390,8 @@ fovarosi-hirhatar.hu##[href*="hirdetesek"]
 freemail.hu##.etarget
 freemail.hu##.facebook-layer-box
 freemail.hu##[class*="adbox"]
-freemail.hu##[class*="enabled-"]
 freemail.hu##[class*="magnum"]
+freemail.hu##a[href][rel="noopener noreferrer"][class*="enabled-"]
 ! https://github.com/hufilter/hufilter/issues/263
 freemail.hu###content-container > div > a:not([class*="MailListItem-"])
 galamus.hu##[class*="banner"]
