@@ -59,3 +59,5 @@ kektura.hu###cookie-consent-dialog
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)
 otpportalok.hu###pop_1:has(> .suti)
+bme.hu###floating-logo-container
+bme.hu##^style:has-text(eu-cookie-withdraw-banner)
