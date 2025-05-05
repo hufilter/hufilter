@@ -1,8 +1,8 @@
 [Adblock Plus 3.9.4]
-! Checksum: 8Sx+wvE0yoG2kHa+PSlORg
-! Version: 202505051618
+! Checksum: Jx9sEZF7uZrC+TuJfZAS+Q
+! Version: 202505052030
 ! Title: Hufilter for ABP
-! Last modified: 05 May 2025 16:18 UTC
+! Last modified: 05 May 2025 20:30 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -411,8 +411,8 @@ fovarosi-hirhatar.hu##[href*="hirdetesek"]
 freemail.hu##.etarget
 freemail.hu##.facebook-layer-box
 freemail.hu##[class*="adbox"]
-freemail.hu##[class*="enabled-"]
 freemail.hu##[class*="magnum"]
+freemail.hu##a[href][rel="noopener noreferrer"][class*="enabled-"]
 ! https://github.com/hufilter/hufilter/issues/263
 freemail.hu###content-container > div > a:not([class*="MailListItem-"])
 galamus.hu##[class*="banner"]
