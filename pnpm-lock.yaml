@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@adguard/aglint':
-        specifier: ^2.1.4
-        version: 2.1.4
+        specifier: ^2.1.5
+        version: 2.1.5
       '@adguard/dead-domains-linter':
         specifier: ^1.0.22
         version: 1.0.22
@@ -32,8 +32,8 @@ importers:
 
 packages:
 
-  '@adguard/aglint@2.1.4':
-    resolution: {integrity: sha512-ILnfKEPEc1GBqKSI00m08PSk2RY2Rt6ocHwUvE/uRFQ8BoF4EKaPrZEZzlGJuIG0YN+JB5U/Y95SqImwibmFng==}
+  '@adguard/aglint@2.1.5':
+    resolution: {integrity: sha512-a8C85p9j/HV+vXtdjhWl9TmdH+pPm0lOIbkmEfY5TXQCf5CDVpyEsFG0Si39wBNP9AqZSC3utmoopOwXcYXx1w==}
     engines: {node: '>=17'}
     hasBin: true
 
@@ -103,8 +103,8 @@ packages:
   '@types/mute-stream@0.0.4':
     resolution: {integrity: sha512-CPM9nzrCPPJHQNA9keH9CVkVI+WR5kMa+7XEs5jcGQ0VoAGnLv242w8lIVgwAEfmE4oufJRaTc9PNLQl0ioAow==}
 
-  '@types/node@20.17.28':
-    resolution: {integrity: sha512-DHlH/fNL6Mho38jTy7/JT7sn2wnXI+wULR6PV4gy4VHLVvnrV/d3pHAMQHhc4gjdLmK2ZiPoMxzp6B3yRajLSQ==}
+  '@types/node@20.17.32':
+    resolution: {integrity: sha512-zeMXFn8zQ+UkjK4ws0RiOC9EWByyW1CcVmLe+2rQocXRsGEDxUCwPEIVgpsGcLHS/P8JkT0oa3839BRABS0oPw==}
 
   '@types/unist@2.0.11':
     resolution: {integrity: sha512-CmBKiL6NNo/OqgmMn95Fk9Whlp2mtvIv+KNpQKN2F4SjvrEesubTRWGYSg+BnWZOnlCaSTU1sMpsBOzgbYhnsA==}
@@ -872,7 +872,7 @@ packages:
 
 snapshots:
 
-  '@adguard/aglint@2.1.4':
+  '@adguard/aglint@2.1.5':
     dependencies:
       '@adguard/agtree': 2.3.0
       '@adguard/ecss-tree': 1.1.0
@@ -956,7 +956,7 @@ snapshots:
     dependencies:
       '@inquirer/type': 1.5.5
       '@types/mute-stream': 0.0.4
-      '@types/node': 20.17.28
+      '@types/node': 20.17.32
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       chalk: 4.1.2
@@ -1003,9 +1003,9 @@ snapshots:
 
   '@types/mute-stream@0.0.4':
     dependencies:
-      '@types/node': 20.17.28
+      '@types/node': 20.17.32
 
-  '@types/node@20.17.28':
+  '@types/node@20.17.32':
     dependencies:
       undici-types: 6.19.8
 
