@@ -46,6 +46,7 @@ myonlineradio.hu#$#.js-appAdv { display: none !important; }
 myonlineradio.hu#$#.cover-slider-cont { display: block !important; }
 noizz.hu#$#.leavingPopupLayer { display: none !important; }
 noizz.hu#$#body { overflow: auto !important; }
+unideb.hu#?#style:contains(eu-cookie-withdraw-banner)
 
 ! https://github.com/hufilter/hufilter/issues/212
 totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
@@ -59,3 +60,4 @@ kektura.hu###cookie-consent-dialog
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)
 otpportalok.hu###pop_1:has(> .suti)
+unideb.hu##.sendi-banner-block-container
