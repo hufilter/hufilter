@@ -8,6 +8,7 @@
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+bme.hu,unideb.hu$$style[tag-content="eu-cookie-withdraw-banner"]
 egeszsegkalauz.hu$$script[tag-content="Quantcast Choice"]
 filmvilag.me$$script[tag-content="ShadowRoot"]
 gamer.hu$$script[tag-content="cli_cookiebar_"]
@@ -46,7 +47,7 @@ myonlineradio.hu#$#.js-appAdv { display: none !important; }
 myonlineradio.hu#$#.cover-slider-cont { display: block !important; }
 noizz.hu#$#.leavingPopupLayer { display: none !important; }
 noizz.hu#$#body { overflow: auto !important; }
-bme.hu#?#style:contains(eu-cookie-withdraw-banner):remove()
+
 ! https://github.com/hufilter/hufilter/issues/212
 totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
 traffihunter.hu##.ooono_promo
@@ -61,3 +62,4 @@ kektura.hu###cookie-consent-dialog
 filmvilag.me##[style]:has(.adslot_1)
 otpportalok.hu###pop_1:has(> .suti)
 bme.hu###floating-logo-container
+unideb.hu##.sendi-banner-block-container
