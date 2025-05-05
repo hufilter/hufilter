@@ -19,6 +19,7 @@ blikk.hu##+js(ra, style, body, stay)
 ! https://github.com/hufilter/hufilter/issues/520
 fizz.hu##+js(set-cookie, cookie.consent.finished, 1)
 fizz.hu##+js(set-cookie, gdpr_level, 1)
+help.semmelweis.hu#?#.modal:has(h3:has-text(Sütik használata)):has(button:has-text(Elfogadás))
 hetek.hu##+js(rc, modal-open, body)
 hosszupuskasub.com##+js(window.open-defuser.js)
 kaveverzum.hu##body:style(position: static !important;)
