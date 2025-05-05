@@ -144,7 +144,6 @@ hestore.hu###cookiewarnbar
 hiros.hu###cookieAlertBox
 hoxa.hu###cookiekezeles
 hvg.hu##.hvg_push
-hwsw.hu###cookiealert
 hellovidek.hu###ajanlo
 hellovidek.hu##.box_remote
 hellovidek.hu##.h-sideboard_2

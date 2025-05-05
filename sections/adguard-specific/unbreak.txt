@@ -33,7 +33,7 @@ automotor.hu#$#div.postContent { margin-top: 0 !important; }
 budapestkornyeke.hu#$#body { padding-top: 0 !important; }
 hosszupuskasub.com#$# * { cursor: auto !important; }
 hu.ign.com#$#div.article-headline { margin-top: 44px !important; }
-hwsw.hu#$#body[style*="padding-top"] { padding-top: 0px !important; background-color: #777 !important; }
+hwsw.hu#$#.has-gate-banner { top: 30px !important; }
 index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu#$#body { overflow: auto !important; }
 jofogas.hu#$##page-content { margin-top: 0px !important; }
 kektura.hu#$#body.modal-open { overflow: auto!important; }
