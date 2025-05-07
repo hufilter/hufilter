@@ -183,6 +183,7 @@ kitekinto.hu##.pea_cook_wrapper
 koponyeg.hu##.recommendationzone
 kosarsport.hu,hunbasket.hu##.gdpr-cookie-notice
 kreativ.hu##div.accept-cookies
+kre.hu##.infoblokszechenyi
 life.hu##.email-under-article
 life.hu##.facebook-layer-box
 life.hu##.newsletter-layer
@@ -350,3 +351,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||*.hu/*wp-content/plugins/complianz-gdpr/*.css$stylesheet
 ||iccm.ingatlancdn.com/iccm-*.js$script
 ||cookielaw.org^$third-party  
+||kre.hu/gdpr/kre_options.js$script
+||kre.hu/gdpr/kre_cookies.js$script
+||kre.hu/gdpr/kre_cookies.css$stylesheet
+||kre.hu/*/infoblok-szechenyi-2020.png$image
