@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: m9/dpj/LyEcT+bA4neqVVQ
-! Version: 202505121900
+! Checksum: RBCUPOE/V2QV/RRmdnLSXA
+! Version: 202505121910
 ! Title: Hufilter for AdGuard
-! Last modified: 12 May 2025 19:00 UTC
+! Last modified: 12 May 2025 19:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1747,6 +1747,7 @@ profitline.hu###fb_like_modal
 prog.hu,pcforum.hu###cookieconsentbar
 prog.hu,pcforum.hu###subscribepopuppanelalign
 prog.hu##.popup
+prohardver.hu###notif-modal
 prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,logout.hu,hardverapro.hu,fototrend.hu###accept-container
 propeller.hu##.popup
 raketa.hu##.ui-widget-overlay
