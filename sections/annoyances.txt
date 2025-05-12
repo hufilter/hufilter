@@ -263,6 +263,7 @@ profitline.hu###fb_like_modal
 prog.hu,pcforum.hu###cookieconsentbar
 prog.hu,pcforum.hu###subscribepopuppanelalign
 prog.hu##.popup
+prohardver.hu###notif-modal
 prohardver.hu,mobilarena.hu,gamepod.hu,itcafe.hu,logout.hu,hardverapro.hu,fototrend.hu###accept-container
 propeller.hu##.popup
 raketa.hu##.ui-widget-overlay
