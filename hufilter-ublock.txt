@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 8OKozgakXPHiNLJHiD6dpQ
-! Version: 202505121910
+! Checksum: iUyGarCydYMqDvqEfT7LTg
+! Version: 202505141715
 ! Title: Hufilter for uBO
-! Last modified: 12 May 2025 19:10 UTC
+! Last modified: 14 May 2025 17:15 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1648,6 +1648,7 @@ infostart.hu###ajanlo
 infostart.hu##div[data-qa="oil-Layer"]
 itthonrolhaza.hu###cookie-law-info-again
 itthonrolhaza.hu###cookie-law-info-bar
+jofogas.hu##.countdown-container
 kalohirek.hu###cookie_container
 kapu.hu###cookieSpan
 karpathir.com##[app="tibrr-cookie-consent"]
