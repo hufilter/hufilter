@@ -73,5 +73,9 @@ telex.hu##.telex-links
 telex.hu###article-endbox-campaign-content
 telex.hu##campaign-container
 totalcar.hu###bannerHeaderLink
+tudatosvasarlo.hu##.adlanes
+tudatosvasarlo.hu##.hi-ftamogass
+tudatosvasarlo.hu##.hi-header-tamogass
+tudatosvasarlo.hu##.hi-tamogass-banner
 vezess.hu##.katalog
 vezess.hu##.wpb_wrapper > a
