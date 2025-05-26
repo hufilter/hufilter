@@ -31,6 +31,7 @@ drogriporter.hu###custom_html-20
 hang.hu##.widget-tamogatas-box
 ! https://github.com/hufilter/hufilter/issues/252
 infostart.hu##.article>.live-wrapper
+ingatlan.com###estimate-promo
 leet.hu###article + #offer
 leet.hu###Leet_cikk_normal_content_1 + section > p:last-of-type
 leet.hu###Leet_cikk_rectangle_right_1 + .featured-product
