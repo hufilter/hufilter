@@ -1277,7 +1277,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||hirado.hu*/microsites/*wallpaper*.$image
 ||hirado.hu/Newsreel/*_bg_*.$image
 ||hircsarda.hu/ads/
-||hirdetes.ingatlan.com/banner/$image
 ||hirek.sk/banner/$image
 ||hosszupuskasub.com/css/*skin.jpg$image
 ||hrportal.hu/images/banner/$image
@@ -1421,7 +1420,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||stat.adultium.com^
 ||stats.badoostats.com^
 ||syndication.trafficreps.com^
-||szemezgeto*.ingatlan.com^
 ||up-banner.wavecdn.de^
 ||vid4u.org^
 ||wdtyl.xyz^
