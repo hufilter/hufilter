@@ -83,6 +83,7 @@ borsonline.hu##.subscription-box
 bpiautosok.hu###onesignal-bell-container
 bpiautosok.hu###onesignal-slidedown-container
 bpiautosok.hu##.extpp-container
+budapestikozmuvek.hu###banner
 budapestpark.hu###cooker_container
 calculat.org##.cookies
 cartourmagazin.hu###cadre_alert_cookies
