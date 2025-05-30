@@ -1,7 +1,7 @@
-# Checksum: tee8oU3L46Jvdv/DLHvNcA
-# Version: 202505031108
+# Checksum: DIlhMNqHOgiT9We+LnPsgw
+# Version: 202505301032
 # Title: Hufilter Pi-hole
-# Last modified: 03 May 2025 11:08 UTC
+# Last modified: 30 May 2025 10:32 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -23,6 +23,7 @@
 # GitHub issues: https://github.com/hufilter/hufilter/issues
 # GitHub pull requests: https://github.com/hufilter/hufilter/pulls
 #
+adserver.raceonline.hu
 a.adnium.com
 ad.depo.hu
 ad.gyermekevek.hu
