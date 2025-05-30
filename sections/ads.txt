@@ -1222,6 +1222,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||*/empty.json
 ||*/eu-banned-popup/
 
+||adserver.raceonline.hu^
 ||24.hu/*/sponsoredpost.css$stylesheet
 ||24.hu/*/sponsoredpost.js$script
 ||444.hu/*/ease/
