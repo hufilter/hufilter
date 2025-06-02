@@ -233,7 +233,6 @@ borsonline.hu##A[href="/jatek"]
 borsonline.hu##A[href="/nyarimagazin"]
 borsonline.hu##a[target="_blank"][class="videa-wrapper"]
 borsonline.hu##iframe[src*="koponyeg.hu"]
-bpiautosok.hu###wpgtr_stickyads_textcss_container
 bpiautosok.hu##body > br:first-child
 bpiautosok.hu##body > br:first-child + center
 bpiautosok.hu##body > br:first-child + center + br
@@ -365,7 +364,6 @@ femcafe.hu##[class*="hirdetes"]
 femcafe.hu##[id*="_ad-"]
 femcafe.hu###darklayer
 femcafe.hu###sliding-popup
-femina.hu#@#[class="goAdverticum"]
 femina.hu##.doboz_harmados
 femina.hu##[class*="banner"]
 femina.hu##[class*="hirdetes"]
@@ -1032,7 +1030,6 @@ telex.hu##.banner-bottom
 telex.hu##.recommendation.recommendation--out
 telex.hu##.recommendation.recommendation--pr
 telex.hu##.title-section__sponsored
-telex.hu##.gpt-ad-container
 teltlanyok.com##[id^="adchange"]
 terhesferfi.hu##div.banner
 termalfurdo.hu##.kiemelttartalombox_feher
@@ -1194,7 +1191,7 @@ lifestory.hu#?#div.widget:-abp-has(>div.textwidget>p>script)
 mafab.hu#?#div[class="container-full"][style="background:#fff"]:-abp-has(.topadv)
 magyarhang.org,hang.hu#?#.mc-modal:-abp-has(iframe)
 magyarhang.org,hang.hu#?#[id^="um-"]:-abp-has(.fb-page.fb_iframe_widget)
-mandiner.hu#?#.sub-text:contains(Hirdetés)
+mandiner.hu#?#.sub-text:-abp-contains(Hirdetés)
 najlepsie-clanky.com#?#.code-block:-abp-has(script + ins)
 napjainkportal.hu#?#.code-block:-abp-has(>div+ins.adsbygoogle+script)
 netmozi.com,megnezed.com#?#div[align="center"]:-abp-has(> a)
@@ -1423,7 +1420,6 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||syndication.trafficreps.com^
 ||up-banner.wavecdn.de^
 ||vid4u.org^
-||wdtyl.xyz^
 ||widget.block4d.com^
 ||wstat.ozon.ru^
 
