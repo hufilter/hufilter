@@ -1,7 +1,7 @@
-# Checksum: DX5scIfRKQXSZpkkeOZ7jw
-# Version: 202505301032
+# Checksum: f+r3wqVcxTbdi4Qr2yE9hg
+# Version: 202506020938
 # Title: Hufilter Hosts file
-# Last modified: 30 May 2025 10:32 UTC
+# Last modified: 02 Jun 2025 09:38 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -71,7 +71,6 @@
 0.0.0.0 syndication.trafficreps.com
 0.0.0.0 up-banner.wavecdn.de
 0.0.0.0 vid4u.org
-0.0.0.0 wdtyl.xyz
 0.0.0.0 widget.block4d.com
 0.0.0.0 wstat.ozon.ru
 0.0.0.0 chatrobot.mia.gov.hu
