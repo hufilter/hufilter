@@ -36,6 +36,7 @@
 ||*.hu/userip.php
 ||campaign.telex.hu/showtime.php
 ||websas.hu/statistics/
+||tesco.hu/*/update-fingerprint
 
 !-------------------------------------------------------------------------------!
 !------ Generic network filters - Tracking domains -----------------------------!
@@ -101,3 +102,5 @@
 ||trackingterrorism.org^$third-party
 ||va.v.liveperson.net^$third-party,script
 ||track.segmentstream.com^$third-party  
+||nr-data.net^$third-party
+||js-agent.newrelic.com^$third-party
