@@ -222,6 +222,8 @@ napiszex.hu##.ckwrap
 napjainkportal.hu##.cookie-notice-container
 nemzetisport.hu##.allow-cookie-stripe
 nemzetiszinhaz.hu##.cookie
+neuzer.hu###modPrivacySettings
+neuzer.hu###szechenyi-fix
 nice.hu##div.cookie-message
 nice.hu##div#show_news_box
 njt.hu###cld
