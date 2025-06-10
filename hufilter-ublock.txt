@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: NSiBWpKfOXqp2Pc55ASsQw
-! Version: 202506101346
+! Checksum: JHdunAy9JCUoP5/V5L4XYQ
+! Version: 202506101347
 ! Title: Hufilter for uBO
-! Last modified: 10 Jun 2025 13:46 UTC
+! Last modified: 10 Jun 2025 13:47 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1687,7 +1687,7 @@ medicalonline.hu###medical_newsletter
 medicalonline.hu##.accept-cookies
 merce.hu##.cookie-bar
 merce.hu##.popup-wrap
-milestone66.hu###hud
+milestone66.hu,reformsziget.hu###hud
 mindmegette.hu##.allow-cookie-stripe
 mindmegette.hu###portfolioEzekIsErdekelhetnek
 mindmegette.hu###recipeAndRelateds > h2.noprint
@@ -1827,7 +1827,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 /eu_rrf.jpg$image,domain=bme.hu
 /szechenyilogo.css$stylesheet,domain=bme.hu
 /eu_cookie_compliance.min.js$script,domain=bme.hu|unideb.hu
-/common_overlay.js$script,domain=milestone66.hu
+/common_overlay.js$script,domain=milestone66.hu|reformsziget.hu
 /subscribePopup.js$script,domain=roadster.hu
 /otSDKStub.js$script,domain=tesco.hu
 ||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu|blikk.hu|medicalonline.hu
