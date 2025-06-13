@@ -1,0 +1,74 @@
+# Docs: https://github.com/actions/labeler?tab=readme-ov-file#create-githublabeleryml
+
+infrastructure:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '.github/**'
+          - '.husky/**'
+          - '.aglintignore'
+          - '.aglintrc.yaml'
+          - '.editorconfig'
+          - '.markdownlintignore'
+          - '.markdownlint.yaml'
+          - 'cspell.yaml'
+          - 'filters.json'
+
+deploy:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '.github/workflows/deploy.yml'
+
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - '**/*.md'
+
+ads:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'sections/**/ads.txt'
+
+trackers:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'sections/**/trackers.txt'
+
+annoyances:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'sections/**/annoyances.txt'
+
+anti adblock:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'sections/**/antiadblock.txt'
+
+selfpromo:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'sections/**/selfpromo.txt'
+
+unbreak:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'sections/**/unbreak.txt'
+
+security:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'sections/**/security.txt'
+
+adblock plus specific:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'sections/adblock-plus-specific/**/*.txt'
+
+ublock origin specific:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'sections/ublock-origin-specific/**/*.txt'
+
+adguard specific:
+  - changed-files:
+      - any-glob-to-any-file:
+          - 'sections/adguard-specific/**/*.txt'
