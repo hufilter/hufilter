@@ -23,7 +23,7 @@ fizz.hu#%#//scriptlet('set-cookie', 'gdpr_level', '1')
 hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
 hosszupuskasub.com#%#//scriptlet('prevent-window-open')
 kaveverzum.hu#$#body { position: static !important; }
-laptophardware.hu#%#//scriptlet('set-constant', 'cookie_alert_overlay', 'noopFunc')
+laptophardware.hu,milestone66.hu,reformsziget.hu,paplanvilag.hu,foodker.hu#%#//scriptlet('set-constant', 'cookie_alert_overlay', 'noopFunc')
 lifestory.hu#%#//scriptlet('remove-attr', 'oncontextmenu')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128532
 magyarorszag.hu#%#//scriptlet('set-cookie', 'cookies_ok', '1')
