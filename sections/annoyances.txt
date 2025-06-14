@@ -356,7 +356,6 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 /eu_rrf.jpg$image,domain=bme.hu
 /szechenyilogo.css$stylesheet,domain=bme.hu
 /eu_cookie_compliance.min.js$script,domain=bme.hu|unideb.hu
-/common_overlay.js$script,domain=milestone66.hu|reformsziget.hu
 /subscribePopup.js$script,domain=roadster.hu
 /otSDKStub.js$script,domain=tesco.hu
 /megacookiesworker.js$script,domain=gabo.hu

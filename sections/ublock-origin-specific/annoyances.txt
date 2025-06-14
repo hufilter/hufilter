@@ -24,7 +24,7 @@ help.semmelweis.hu#?#.modal:has(h3:has-text(Sütik használata)):has(button:has-
 hetek.hu##+js(rc, modal-open, body)
 hosszupuskasub.com##+js(window.open-defuser.js)
 kaveverzum.hu##body:style(position: static !important;)
-laptophardware.hu##+js(set, cookie_alert_overlay, noopFunc)
+laptophardware.hu,milestone66.hu,reformsziget.hu,paplanvilag.hu,foodker.hu##+js(set, cookie_alert_overlay, noopFunc)
 lifestory.hu##+js(ra, oncontextmenu)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128532
 magyarorszag.hu##+js(rc, bottom-l, body, stay)
