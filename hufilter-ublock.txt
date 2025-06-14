@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: aCmph3GCtbWm1KRZ0fYnYg
-! Version: 202506141442
+! Checksum: nJmzyC1+zdMC1hPwPf6oog
+! Version: 202506141443
 ! Title: Hufilter for uBO
-! Last modified: 14 Jun 2025 14:42 UTC
+! Last modified: 14 Jun 2025 14:43 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1832,7 +1832,6 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 /eu_rrf.jpg$image,domain=bme.hu
 /szechenyilogo.css$stylesheet,domain=bme.hu
 /eu_cookie_compliance.min.js$script,domain=bme.hu|unideb.hu
-/common_overlay.js$script,domain=milestone66.hu|reformsziget.hu
 /subscribePopup.js$script,domain=roadster.hu
 /otSDKStub.js$script,domain=tesco.hu
 /megacookiesworker.js$script,domain=gabo.hu
@@ -2044,7 +2043,7 @@ help.semmelweis.hu#?#.modal:has(h3:has-text(Sütik használata)):has(button:has-
 hetek.hu##+js(rc, modal-open, body)
 hosszupuskasub.com##+js(window.open-defuser.js)
 kaveverzum.hu##body:style(position: static !important;)
-laptophardware.hu##+js(set, cookie_alert_overlay, noopFunc)
+laptophardware.hu,milestone66.hu,reformsziget.hu,paplanvilag.hu,foodker.hu##+js(set, cookie_alert_overlay, noopFunc)
 lifestory.hu##+js(ra, oncontextmenu)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/128532
 magyarorszag.hu##+js(rc, bottom-l, body, stay)

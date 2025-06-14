@@ -1,8 +1,8 @@
 [Adblock Plus 3.9.4]
-! Checksum: w5wMt8ZantnNLO4zDSiD2g
-! Version: 202506141442
+! Checksum: YrmPMLzzP5CeVDw+0Uq4iA
+! Version: 202506141443
 ! Title: Hufilter for ABP
-! Last modified: 14 Jun 2025 14:42 UTC
+! Last modified: 14 Jun 2025 14:43 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1832,7 +1832,6 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 /eu_rrf.jpg$image,domain=bme.hu
 /szechenyilogo.css$stylesheet,domain=bme.hu
 /eu_cookie_compliance.min.js$script,domain=bme.hu|unideb.hu
-/common_overlay.js$script,domain=milestone66.hu|reformsziget.hu
 /subscribePopup.js$script,domain=roadster.hu
 /otSDKStub.js$script,domain=tesco.hu
 /megacookiesworker.js$script,domain=gabo.hu
