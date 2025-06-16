@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 72HmdB9KK3YrOuNwwnqAUQ
-! Version: 202506120959
+! Checksum: KvRRRXisNncz+ZzkhMwj6w
+! Version: 202506160907
 ! Title: Hufilter Basic
-! Last modified: 12 Jun 2025 09:59 UTC
+! Last modified: 16 Jun 2025 09:07 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -867,7 +867,7 @@ offline.hu##.ads
 olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]
 olcsobbat.hu###datasheetNavHelp
-online-filmek.ac,online-filmek.me###azidodpazarlod
+online-filmek.ac,online-filmek.me###azidodpazarlod, #azidodpazarlod2
 online-filmek.ac,online-filmek.me##.ad_mrg
 online-filmek.ac,online-filmek.me##.details-main-panel + span
 onlinecegjegyzek.hu##[class*="hirdetes"]

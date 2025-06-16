@@ -1,8 +1,8 @@
 [Adblock Plus 3.9.4]
-! Checksum: YrmPMLzzP5CeVDw+0Uq4iA
-! Version: 202506141443
+! Checksum: D5pifhwJPJk/w30ELoBcXg
+! Version: 202506160907
 ! Title: Hufilter for ABP
-! Last modified: 14 Jun 2025 14:43 UTC
+! Last modified: 16 Jun 2025 09:07 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -867,7 +867,7 @@ offline.hu##.ads
 olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]
 olcsobbat.hu###datasheetNavHelp
-online-filmek.ac,online-filmek.me###azidodpazarlod
+online-filmek.ac,online-filmek.me###azidodpazarlod, #azidodpazarlod2
 online-filmek.ac,online-filmek.me##.ad_mrg
 online-filmek.ac,online-filmek.me##.details-main-panel + span
 onlinecegjegyzek.hu##[class*="hirdetes"]
