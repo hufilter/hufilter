@@ -36,10 +36,9 @@ pcworld.hu##+js(rc, have-ad, body)
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu##+js(aopw, document.body.style)
 ! https://github.com/uBlockOrigin/uAssets/issues/25482
-online-filmek.ac##+js(no-fetch-if, api)
-online-filmek.ac##+js(no-fetch-if, ads)
 ! https://github.com/uBlockOrigin/uAssets/issues/28850
-online-filmek.ac##+js(no-fetch-if, mode:cors)
+! https://github.com/uBlockOrigin/uAssets/issues/28850#issuecomment-2995469159
+online-filmek.ac##+js(no-fetch-if, .js)
 ! https://github.com/uBlockOrigin/uAssets/issues/27256#issuecomment-2670818969
 rubyvidhub.com##+js(rmnt, script, undefined)
 
