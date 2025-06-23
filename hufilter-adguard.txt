@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: TnXuS6Nl9t+5B4TR216/rQ
-! Version: 202506230933
+! Checksum: jol3Q3Erguq0ky0MfIey4g
+! Version: 202506230934
 ! Title: Hufilter for AdGuard
-! Last modified: 23 Jun 2025 09:33 UTC
+! Last modified: 23 Jun 2025 09:34 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1566,6 +1566,7 @@ bpiautosok.hu###onesignal-slidedown-container
 bpiautosok.hu##.extpp-container
 budapestikozmuvek.hu###banner
 budapestpark.hu###cooker_container
+budapest.hu###cc--main
 calculat.org##.cookies
 cartourmagazin.hu###cadre_alert_cookies
 cartourmagazin.hu###pa-push-notification-subscription
