@@ -163,6 +163,7 @@ iho.hu##.social-icon
 iho.hu##.newsletter-box
 ! adbook nagger
 iho.hu##.article-text > p
+index.hu###partner-site-popup
 infostart.hu##.am_targetvideo_container
 infostart.hu##.flyout
 infostart.hu##.notification-popup
