@@ -32,6 +32,8 @@ hu###szechenyi2020-wrapper
 hu###szechenyi
 hu###szechenyi-toggle
 hu###szechenyi_2020_logo
+hu###szechenyi-banner
+hu##.szechenyi2020-top-infoblokk
 hu##.sz2020-logo
 ! hu###qc-cmp2-container
 
