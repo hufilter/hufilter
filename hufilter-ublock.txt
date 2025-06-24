@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: gVurxC4wruYkvKWsvuGpnA
-! Version: 202506232051
+! Checksum: GeOJ/fpX464GA/2vKax9aw
+! Version: 202506241131
 ! Title: Hufilter for uBO
-! Last modified: 23 Jun 2025 20:51 UTC
+! Last modified: 24 Jun 2025 11:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1511,6 +1511,8 @@ hu###szechenyi2020-wrapper
 hu###szechenyi
 hu###szechenyi-toggle
 hu###szechenyi_2020_logo
+hu###szechenyi-banner
+hu##.szechenyi2020-top-infoblokk
 hu##.sz2020-logo
 ! hu###qc-cmp2-container
 !-------------------------------------------------------------------------------!
