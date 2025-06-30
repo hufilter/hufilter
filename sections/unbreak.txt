@@ -11,3 +11,5 @@
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
 @@||pro.hit.gemius.pl/gstream.js$script,domain=embed.rtl.hu
 greendex.hu#@#.heateor_sss_sharing_container
+! https://github.com/AdguardTeam/AdguardFilters/issues/208487#issuecomment-3019789994
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=hu.iqos.com
