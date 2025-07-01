@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: nkQxOg/Ou0JRGvBHiq8XYg
-! Version: 202507010744
+! Checksum: f+iisvgxJl/lLRwPkhPvQQ
+! Version: 202507011112
 ! Title: Hufilter for AdGuard
-! Last modified: 01 Jul 2025 07:44 UTC
+! Last modified: 01 Jul 2025 11:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2077,7 +2077,6 @@ myonlineradio.hu#$#.cover-slider-cont { display: block !important; }
 noizz.hu#$#.leavingPopupLayer { display: none !important; }
 noizz.hu#$#body { overflow: auto !important; }
 ! https://github.com/hufilter/hufilter/issues/212
-totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
 traffihunter.hu##.ooono_promo
 vezess.hu##.m-fbPopup
 mandiner.hu##.modal-backdrop
