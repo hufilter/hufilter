@@ -50,7 +50,6 @@ noizz.hu##.leavingPopupLayer:style(display: none !important;)
 noizz.hu##body:style(overflow: auto !important;)
 
 ! https://github.com/hufilter/hufilter/issues/212
-totalcar.hu,totalbike.hu,divany.hu##body > section:not(.site-header):not(#toreskar):last-of-type
 traffihunter.hu##.ooono_promo
 vezess.hu##.m-fbPopup
 mandiner.hu##.modal-backdrop
