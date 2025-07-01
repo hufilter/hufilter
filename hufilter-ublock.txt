@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: ndAgJ+i0ivJdSpbIKwuo/g
-! Version: 202506301614
+! Checksum: F9SrZUQkpJDWrjSgSCJgsA
+! Version: 202507010744
 ! Title: Hufilter for uBO
-! Last modified: 30 Jun 2025 16:14 UTC
+! Last modified: 01 Jul 2025 07:44 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2007,6 +2007,9 @@ videa.hu,videaloop.hu##.top-video-container-banner
 greendex.hu#@#.heateor_sss_sharing_container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/208487#issuecomment-3019789994
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=hu.iqos.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/208590
+@@||kollegium-neriszentfulop.chemin-neuf.hu/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js$domain=kollegium-neriszentfulop.chemin-neuf.hu
+@@||kollegium-neriszentfulop.chemin-neuf.hu/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css$domain=kollegium-neriszentfulop.chemin-neuf.hu
 ! This section file contains rules for blocking advertisements.
 ! The rules in this section should be uBlock-specific, but cross-compatible rules are also allowed, if they are
 ! not working properly without the uBlock-specific rules.
