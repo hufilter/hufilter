@@ -13,3 +13,6 @@
 greendex.hu#@#.heateor_sss_sharing_container
 ! https://github.com/AdguardTeam/AdguardFilters/issues/208487#issuecomment-3019789994
 @@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=hu.iqos.com
+! https://github.com/AdguardTeam/AdguardFilters/issues/208590
+@@||kollegium-neriszentfulop.chemin-neuf.hu/wp-content/plugins/complianz-gdpr/cookiebanner/js/complianz.min.js$domain=kollegium-neriszentfulop.chemin-neuf.hu
+@@||kollegium-neriszentfulop.chemin-neuf.hu/wp-content/plugins/complianz-gdpr/assets/css/cookieblocker.min.css$domain=kollegium-neriszentfulop.chemin-neuf.hu
