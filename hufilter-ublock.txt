@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 2yHPw76UyyRMZzHR8Mk7tw
-! Version: 202507011112
+! Checksum: hN82P9pUis+ZFJjeec9NYw
+! Version: 202507031328
 ! Title: Hufilter for uBO
-! Last modified: 01 Jul 2025 11:12 UTC
+! Last modified: 03 Jul 2025 13:28 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -867,7 +867,7 @@ offline.hu##.ads
 olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]
 olcsobbat.hu###datasheetNavHelp
-online-filmek.ac,online-filmek.me##[id^="azidodpazarlod"]
+online-filmek.ac,online-filmek.me###azidodetpazarlod
 online-filmek.ac,online-filmek.me##.ad_mrg
 online-filmek.ac,online-filmek.me##.details-main-panel + span
 onlinecegjegyzek.hu##[class*="hirdetes"]
@@ -1418,6 +1418,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||fourtwentytradingcompany.net^
 ||fruitflan.com^
 ||iofferphoto.com^
+||loader.nyitvatartas24.hu^
 ||loading-delivery2.com^
 ||media.netpositive.hu^
 ||netadclick.com^
@@ -2123,7 +2124,9 @@ port.hu##+js(aopw, document.body.style)
 ! https://github.com/uBlockOrigin/uAssets/issues/25482
 ! https://github.com/uBlockOrigin/uAssets/issues/28850
 ! https://github.com/uBlockOrigin/uAssets/issues/28850#issuecomment-2995469159
+! https://github.com/hufilter/hufilter/issues/614
 online-filmek.ac##+js(no-fetch-if, .js)
+online-filmek.ac##+js(no-fetch-if, mode:cors)
 ! https://github.com/uBlockOrigin/uAssets/issues/27256#issuecomment-2670818969
 rubyvidhub.com##+js(rmnt, script, undefined)
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]

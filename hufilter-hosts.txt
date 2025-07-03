@@ -1,7 +1,7 @@
-# Checksum: f+r3wqVcxTbdi4Qr2yE9hg
-# Version: 202506020938
+# Checksum: BoT32WOASq/18N0ROnv/jg
+# Version: 202507031328
 # Title: Hufilter Hosts file
-# Last modified: 02 Jun 2025 09:38 UTC
+# Last modified: 03 Jul 2025 13:28 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -55,6 +55,7 @@
 0.0.0.0 fourtwentytradingcompany.net
 0.0.0.0 fruitflan.com
 0.0.0.0 iofferphoto.com
+0.0.0.0 loader.nyitvatartas24.hu
 0.0.0.0 loading-delivery2.com
 0.0.0.0 media.netpositive.hu
 0.0.0.0 netadclick.com

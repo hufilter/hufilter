@@ -1,7 +1,7 @@
-# Checksum: 0Gtt3nD2GCCZN8ICa1h35A
-# Version: 202506020938
+# Checksum: Qn9Coysj+TV0ERkhkESw+w
+# Version: 202507031328
 # Title: Hufilter Pi-hole
-# Last modified: 02 Jun 2025 09:38 UTC
+# Last modified: 03 Jul 2025 13:28 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -55,6 +55,7 @@ et.twyn.com
 fourtwentytradingcompany.net
 fruitflan.com
 iofferphoto.com
+loader.nyitvatartas24.hu
 loading-delivery2.com
 media.netpositive.hu
 netadclick.com
