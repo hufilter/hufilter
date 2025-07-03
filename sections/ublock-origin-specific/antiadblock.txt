@@ -38,7 +38,9 @@ port.hu##+js(aopw, document.body.style)
 ! https://github.com/uBlockOrigin/uAssets/issues/25482
 ! https://github.com/uBlockOrigin/uAssets/issues/28850
 ! https://github.com/uBlockOrigin/uAssets/issues/28850#issuecomment-2995469159
+! https://github.com/hufilter/hufilter/issues/614
 online-filmek.ac##+js(no-fetch-if, .js)
+online-filmek.ac##+js(no-fetch-if, mode:cors)
 ! https://github.com/uBlockOrigin/uAssets/issues/27256#issuecomment-2670818969
 rubyvidhub.com##+js(rmnt, script, undefined)
 
