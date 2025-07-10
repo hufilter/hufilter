@@ -12,8 +12,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0
       '@adguard/dead-domains-linter':
-        specifier: ^1.0.22
-        version: 1.0.22
+        specifier: ^1.0.28
+        version: 1.0.28
       dateformat:
         specifier: ^5.0.3
         version: 5.0.3
@@ -52,8 +52,8 @@ packages:
   '@adguard/css-tokenizer@1.2.0':
     resolution: {integrity: sha512-cUj5j/AU5z/T4//5M6KnIJBpykAY4QbDsoiQ2DaWX/r2XkepMkTb8DhIbUHJD/QLGEyLeQLpi+nlxAgf4NTRRQ==}
 
-  '@adguard/dead-domains-linter@1.0.22':
-    resolution: {integrity: sha512-SuAayg6YG0zNNRKGe2dVv4l5zWyt1vYmp2hkSNSru1FsalvvWZrjzbwWBFzY5gv9pr7LyNEyrgpZLvRwmTzbFA==}
+  '@adguard/dead-domains-linter@1.0.28':
+    resolution: {integrity: sha512-r5+vd4FGRulby22j9sWFt25WE7hmtrKp4Xq2ya50mu7oluENCRhqPvbOSHXETSgVxTZGHHO6djuaqG0eZXD9hA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -63,12 +63,12 @@ packages:
   '@adguard/scriptlets@1.12.1':
     resolution: {integrity: sha512-luAGl8hHEjKZfTFqWG8PBsif2wAPWNi0uuT+xzyBTk+IllHDYOLPSwyMKh2ru7nKCQJEOgMVwNoIrPB4zuuX1w==}
 
-  '@babel/runtime-corejs3@7.27.1':
-    resolution: {integrity: sha512-909rVuj3phpjW6y0MCXAZ5iNeORePa6ldJvp2baWGcTjwqbBDDz6xoS5JHJ7lS88NlwLYj07ImL/8IUMtDZzTA==}
+  '@babel/runtime-corejs3@7.28.0':
+    resolution: {integrity: sha512-nlIXnSqLcBij8K8TtkxbBJgfzfvi75V1pAKSM7dUXejGw12vJAqez74jZrHTsJ3Z+Aczc5Q/6JgNjKRMsVU44g==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/runtime@7.27.1':
-    resolution: {integrity: sha512-1x3D2xEk2fRo3PAhwQwu5UubzgiVWSXTBfWpVd2Mx2AzRqJuDJCsgaDVZ7HB5iGzDW1Hl1sWN2mFyKjmR9uAog==}
+  '@babel/runtime@7.27.6':
+    resolution: {integrity: sha512-vbavdySgbTTrmFE+EsiqUTzlOr5bzlnJtUv9PynGCAKvfQqjIXbvFdumPM/GxMDfyuGMJaJAU6TO4zc1Jf1i8Q==}
     engines: {node: '>=6.9.0'}
 
   '@inquirer/checkbox@1.5.2':
@@ -151,6 +151,9 @@ packages:
 
   brace-expansion@2.0.1:
     resolution: {integrity: sha512-XnAIvQ8eM+kC6aULx6wuQiwVsnzsi9d3WxzV3FpWTGA19F621kwdbsAcFKXgKUHZWsy+mY6iL1sHTxWEFCytDA==}
+
+  brace-expansion@2.0.2:
+    resolution: {integrity: sha512-Jt0vHyM+jmUBqojB7E1NIYadt0vI0Qxjxd2TErW94wDz+E2LAm5vKMXXwg6ZZBTHPuUlDgQHKXvjGBdfcF1ZDQ==}
 
   braces@3.0.3:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==}
@@ -235,8 +238,8 @@ packages:
     resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
-  core-js-pure@3.42.0:
-    resolution: {integrity: sha512-007bM04u91fF4kMgwom2I5cQxAFIy8jVulgr9eozILl/SZE53QOqnW/+vviC+wQWLv+AunBG+8Q0TLoeSsSxRQ==}
+  core-js-pure@3.44.0:
+    resolution: {integrity: sha512-gvMQAGB4dfVUxpYD0k3Fq8J+n5bB6Ytl15lqlZrOIXFzxOhtPaObfkQGHtMRdyjIf7z2IeNULwi1jEwyS+ltKQ==}
 
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
@@ -688,8 +691,8 @@ packages:
     resolution: {integrity: sha512-CcfE+mYiTcKEzg0IqS08+efdnH0oJ3zV0wSUFBNrMHMuxCtXvBCLzCJHatwuXDcu/RlhjTziTo/a1ruQik6/Yg==}
     hasBin: true
 
-  semver@7.7.1:
-    resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
+  semver@7.7.2:
+    resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -898,7 +901,7 @@ snapshots:
       '@adguard/scriptlets': 1.12.1
       clone-deep: 4.0.1
       json5: 2.2.3
-      semver: 7.7.1
+      semver: 7.7.2
       tldts: 5.7.112
       xregexp: 5.1.2
 
@@ -908,7 +911,7 @@ snapshots:
       clone-deep: 4.0.1
       is-ip: 3.1.0
       json5: 2.2.3
-      semver: 7.7.1
+      semver: 7.7.2
       sprintf-js: 1.1.3
       tldts: 5.7.112
       zod: 3.21.4
@@ -927,7 +930,7 @@ snapshots:
 
   '@adguard/css-tokenizer@1.2.0': {}
 
-  '@adguard/dead-domains-linter@1.0.22':
+  '@adguard/dead-domains-linter@1.0.28':
     dependencies:
       '@adguard/agtree': 1.1.8
       consola: 3.2.3
@@ -945,14 +948,14 @@ snapshots:
   '@adguard/scriptlets@1.12.1':
     dependencies:
       '@adguard/agtree': 2.3.0
-      '@babel/runtime': 7.27.1
+      '@babel/runtime': 7.27.6
       js-yaml: 3.14.1
 
-  '@babel/runtime-corejs3@7.27.1':
+  '@babel/runtime-corejs3@7.28.0':
     dependencies:
-      core-js-pure: 3.42.0
+      core-js-pure: 3.44.0
 
-  '@babel/runtime@7.27.1': {}
+  '@babel/runtime@7.27.6': {}
 
   '@inquirer/checkbox@1.5.2':
     dependencies:
@@ -1053,6 +1056,10 @@ snapshots:
     dependencies:
       balanced-match: 1.0.2
 
+  brace-expansion@2.0.2:
+    dependencies:
+      balanced-match: 1.0.2
+
   braces@3.0.3:
     dependencies:
       fill-range: 7.1.1
@@ -1122,7 +1129,7 @@ snapshots:
 
   consola@3.2.3: {}
 
-  core-js-pure@3.42.0: {}
+  core-js-pure@3.44.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -1575,7 +1582,7 @@ snapshots:
 
   minimatch@9.0.5:
     dependencies:
-      brace-expansion: 2.0.1
+      brace-expansion: 2.0.2
 
   minimist@1.2.8: {}
 
@@ -1645,7 +1652,7 @@ snapshots:
       minimist: 1.2.8
       strip-json-comments: 3.1.1
 
-  semver@7.7.1: {}
+  semver@7.7.2: {}
 
   shallow-clone@3.0.1:
     dependencies:
@@ -1790,7 +1797,7 @@ snapshots:
 
   xregexp@5.1.2:
     dependencies:
-      '@babel/runtime-corejs3': 7.27.1
+      '@babel/runtime-corejs3': 7.28.0
 
   y18n@5.0.8: {}
 
