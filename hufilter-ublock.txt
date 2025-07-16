@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: hN82P9pUis+ZFJjeec9NYw
-! Version: 202507031328
+! Checksum: a+/5dAbJOMN0MeKfrQmVrA
+! Version: 202507160923
 ! Title: Hufilter for uBO
-! Last modified: 03 Jul 2025 13:28 UTC
+! Last modified: 16 Jul 2025 09:23 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1501,7 +1501,7 @@ hu###cookie-window
 hu###cookiebar
 hu###EUCookiev2
 hu##.cookie-box
-hu##.cookie-modal
+hu,~onlinepenztarca.hu##.cookie-modal
 hu##.cookie-notification
 hu##.eu-cookie-compliance-banner
 hu###cookies-policy
@@ -2046,6 +2046,7 @@ gamer.hu##^script:has-text(cli_cookiebar_)
 napiszar.com##^script[data-cfasync="false"]
 portfolio.hu##^script:has-text(fbmodal-title)
 blikk.hu##+js(ra, style, body, stay)
+onlinepenztarca.hu##+js(set-local-storage-item, felhasznalo_cookie_preferencia, 0)
 ! https://github.com/hufilter/hufilter/issues/520
 fizz.hu##+js(set-cookie, cookie.consent.finished, 1)
 fizz.hu##+js(set-cookie, gdpr_level, 1)
