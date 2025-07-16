@@ -17,6 +17,7 @@ napiszar.com##^script[data-cfasync="false"]
 portfolio.hu##^script:has-text(fbmodal-title)
 
 blikk.hu##+js(ra, style, body, stay)
+onlinepenztarca.hu##+js(set-local-storage-item, felhasznalo_cookie_preferencia, 0)
 ! https://github.com/hufilter/hufilter/issues/520
 fizz.hu##+js(set-cookie, cookie.consent.finished, 1)
 fizz.hu##+js(set-cookie, gdpr_level, 1)

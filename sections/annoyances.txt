@@ -21,7 +21,7 @@ hu###cookie-window
 hu###cookiebar
 hu###EUCookiev2
 hu##.cookie-box
-hu##.cookie-modal
+hu,~onlinepenztarca.hu##.cookie-modal
 hu##.cookie-notification
 hu##.eu-cookie-compliance-banner
 hu###cookies-policy
