@@ -102,6 +102,9 @@ csaladinet.hu###cikkajanlo
 csaladinet.hu###CookieAcceptLayer
 csupasport.hu##.enews-article-content .endless-shared-area
 cyberpress.hu###cookie-law-info-bar
+! https://github.com/hufilter/hufilter/issues/617
+dkv.hu###silktide-wrapper
+dkv.hu##[href="/ginop-palyazat"]
 drogriporter.hu###gform_widget-2
 ! https://github.com/hufilter/hufilter/issues/511
 e-cegjegyzek.hu###suti_uzenet
