@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: EQxj3OwnoiI9Zlkq2x2fuw
-! Version: 202507300929
+! Checksum: 4jVbZsu+EjVrVdK4LjWv3Q
+! Version: 202508011423
 ! Title: Hufilter for uBO
-! Last modified: 30 Jul 2025 09:29 UTC
+! Last modified: 01 Aug 2025 14:23 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2129,8 +2129,7 @@ port.hu##+js(aopw, document.body.style)
 ! https://github.com/uBlockOrigin/uAssets/issues/28850
 ! https://github.com/uBlockOrigin/uAssets/issues/28850#issuecomment-2995469159
 ! https://github.com/hufilter/hufilter/issues/614
-online-filmek.ac##+js(no-fetch-if, .js)
-online-filmek.ac##+js(no-fetch-if, mode:cors)
+online-filmek.ac,online-filmek.me##+js(acis, fetch, 'mode')
 ! https://github.com/uBlockOrigin/uAssets/issues/27256#issuecomment-2670818969
 rubyvidhub.com##+js(rmnt, script, undefined)
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
