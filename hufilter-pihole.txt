@@ -1,7 +1,7 @@
-# Checksum: Qn9Coysj+TV0ERkhkESw+w
-# Version: 202507031328
+# Checksum: C7g2xUtyeAnlbIHY/MYixw
+# Version: 202508111220
 # Title: Hufilter Pi-hole
-# Last modified: 03 Jul 2025 13:28 UTC
+# Last modified: 11 Aug 2025 12:20 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -68,6 +68,7 @@ redwolfmoon.com
 related.hu
 smartcj.com
 stat.adultium.com
+static.hvgrt.hu
 stats.badoostats.com
 syndication.trafficreps.com
 up-banner.wavecdn.de

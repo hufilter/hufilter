@@ -1,7 +1,7 @@
-# Checksum: BoT32WOASq/18N0ROnv/jg
-# Version: 202507031328
+# Checksum: mfGbSuMa4/jJW11ER7ypNQ
+# Version: 202508111220
 # Title: Hufilter Hosts file
-# Last modified: 03 Jul 2025 13:28 UTC
+# Last modified: 11 Aug 2025 12:20 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -68,6 +68,7 @@
 0.0.0.0 related.hu
 0.0.0.0 smartcj.com
 0.0.0.0 stat.adultium.com
+0.0.0.0 static.hvgrt.hu
 0.0.0.0 stats.badoostats.com
 0.0.0.0 syndication.trafficreps.com
 0.0.0.0 up-banner.wavecdn.de
