@@ -317,9 +317,10 @@ e-cars.hu##[class="td-a-rec td-a-rec-id-header  tdi_53 td_block_template_1"]
 ecoline.hu##[class^="ads"]
 ecoline.hu##[id*="_ad"]
 economx.hu##.hirdetes-block
+eduline.hu##.ad-with-picture-group
+eduline.hu##[class*="Advert"]
 eduline.hu##[class*="ad_"]
 eduline.hu##[class*="ads"]
-eduline.hu##[class*="Advert"]
 eduline.hu##[id*="_ad"]
 eduline.hu##[id*="ad_"]
 egeszsegkalauz.hu##.detailRightAds
@@ -1210,6 +1211,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ! https://github.com/hufilter/hufilter/issues/172
 /dl/cnt/20[^0]\d-\d{2}/\d{4}//$image,domain=prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu
 ||3monkey.lol/vilagunk_640.html$domain=vilagunk.hu
+||abo-widget.xyz^$domain=eduline.hu
 ||aghtag.tech/libs/projectagora.min.js^$script,domain=gyakorikerdesek.hu|hoxa.hu
 ||floweryoperation.com/v2/0/$domain=karpathir.com
 
@@ -1417,6 +1419,7 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ||sher.*.hu^
 ||smartcj.com^
 ||stat.adultium.com^
+||static.hvgrt.hu^
 ||stats.badoostats.com^
 ||syndication.trafficreps.com^
 ||up-banner.wavecdn.de^
