@@ -176,6 +176,7 @@ infostart.hu##.notification-popup
 infostart.hu###_ao-cmp-ui
 infostart.hu###ajanlo
 infostart.hu##div[data-qa="oil-Layer"]
+ingatlan.com###nps-form
 itthonrolhaza.hu###cookie-law-info-again
 itthonrolhaza.hu###cookie-law-info-bar
 jofogas.hu##.countdown-container
