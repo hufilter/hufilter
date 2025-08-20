@@ -91,7 +91,7 @@ bpiautosok.hu###onesignal-slidedown-container
 bpiautosok.hu##.extpp-container
 budapestikozmuvek.hu###banner
 budapestpark.hu###cooker_container
-budapest.hu###cc--main
+budapest.hu,beat.hu,szikm.hu###cc--main
 calculat.org##.cookies
 cartourmagazin.hu###cadre_alert_cookies
 cartourmagazin.hu###pa-push-notification-subscription
@@ -177,6 +177,7 @@ infostart.hu##.notification-popup
 infostart.hu###_ao-cmp-ui
 infostart.hu###ajanlo
 infostart.hu##div[data-qa="oil-Layer"]
+ingatlan.com###nps-form
 itthonrolhaza.hu###cookie-law-info-again
 itthonrolhaza.hu###cookie-law-info-bar
 jofogas.hu##.countdown-container
