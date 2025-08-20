@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 1+nYH1olaX5DKfnN62zFgQ
-! Version: 202507300929
+! Checksum: NeGdJ4rPTljpePBmxKjNfA
+! Version: 202508200800
 ! Title: Hufilter Self-promotions
-! Last modified: 30 Jul 2025 09:29 UTC
+! Last modified: 20 Aug 2025 08:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -54,6 +54,7 @@ drogriporter.hu###custom_html-20
 hang.hu##.widget-tamogatas-box
 ! https://github.com/hufilter/hufilter/issues/252
 infostart.hu##.article>.live-wrapper
+ingatlan.com##.estimate-promo-closable
 leet.hu###article + #offer
 leet.hu###Leet_cikk_normal_content_1 + section > p:last-of-type
 leet.hu###Leet_cikk_rectangle_right_1 + .featured-product
