@@ -216,7 +216,7 @@ magyarnemzet.hu##div.gdprBoxContainer
 mandiner.hu##app-calendar
 mandiner.hu##app-facebook-popup
 mandiner.hu##app-newsletter-popup
-mavcsoport.hu###ikop-logo
+mavcsoport.hu,police.hu###ikop-logo
 media1.hu##.elementor-popup-modal
 mediacenter.hu###cookie-msg
 medicalonline.hu###medical_newsletter
