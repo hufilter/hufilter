@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: j8rTErU+xGSgVWvTaWmneA
-! Version: 202508251905
+! Checksum: 39SYyITpG2YDIASLHg34iQ
+! Version: 202509041349
 ! Title: Hufilter for uBO
-! Last modified: 25 Aug 2025 19:05 UTC
+! Last modified: 04 Sep 2025 13:49 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2078,6 +2078,7 @@ mandiner.hu##+js(rc, modal-open, body, stay)
 mindmegette.hu##+js(remove-attr, href, [href*="ad.adverticum.net"])
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##+js(acis, document.createElement, setTimeout)
+skanzen.hu##+js(set-local-storage-item, skanzen-cookie-consent, false)
 traffihunter.hu##+js(rc, darken, body)
 otpportalok.hu##+js(rc, body, no_scroll, complete)
 vezess.hu##+js(aeld, mouseleave, showFbPopup)
