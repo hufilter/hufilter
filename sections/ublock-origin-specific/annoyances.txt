@@ -35,6 +35,7 @@ mandiner.hu##+js(rc, modal-open, body, stay)
 mindmegette.hu##+js(remove-attr, href, [href*="ad.adverticum.net"])
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##+js(acis, document.createElement, setTimeout)
+skanzen.hu##+js(set-local-storage-item, skanzen-cookie-consent, false)
 traffihunter.hu##+js(rc, darken, body)
 otpportalok.hu##+js(rc, body, no_scroll, complete)
 vezess.hu##+js(aeld, mouseleave, showFbPopup)

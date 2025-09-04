@@ -34,6 +34,7 @@ mindmegette.hu#%#//scriptlet('remove-attr', 'href', '[href*="ad.adverticum.net"]
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'setTimeout')
 otpportalok.hu#%#//scriptlet('remove-class', 'body', 'no_scroll', 'complete')
+skanzen.hu#%#//scriptlet('set-local-storage-item', 'skanzen-cookie-consent', 'false')
 traffihunter.hu#%#//scriptlet('remove-class', 'darken', 'body')
 vezess.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave', 'showFbPopup')
 vezess.hu#%#//scriptlet('prevent-setTimeout', 'FbExit', '3000')
