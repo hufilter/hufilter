@@ -23,7 +23,7 @@ jobs:
         uses: pnpm/action-setup@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           # Read the Node.js version from the package.json file
           # If you want to use a specific version, you can set it here by using the "node-version" input instead
