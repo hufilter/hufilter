@@ -165,7 +165,7 @@ jobs:
 
       - name: Generate file index for filter lists
         if: env.NO_FILTER_LIST_CHANGES != 'true'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const { readdir, stat, writeFile } = require('fs').promises;
@@ -253,7 +253,7 @@ jobs:
           fetch-depth: 2
 
       - name: Get changed filter lists
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const { data: commits } = await github.rest.repos.listCommits({
@@ -296,7 +296,7 @@ jobs:
 
       - name: Purge jsDelivr cache
         if: env.CHANGED_FILTER_LISTS != '[]'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const changedFilterLists = JSON.parse(process.env.CHANGED_FILTER_LISTS);
