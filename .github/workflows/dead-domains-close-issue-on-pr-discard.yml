@@ -16,7 +16,7 @@ jobs:
     steps:
       - name: Fetch linked issues
         id: fetch-linked-issues
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             // This workflow re-fetches the pull request data because the initial payload may contain outdated information.
@@ -70,7 +70,7 @@ jobs:
 
       - name: Close linked issues
         if: steps.fetch-linked-issues.outputs.linked_issues != '[]'
-        uses: actions/github-script@v7
+        uses: actions/github-script@v8
         with:
           script: |
             const linkedIssues = JSON.parse(${{ toJson(steps.fetch-linked-issues.outputs.linked_issues) }});
