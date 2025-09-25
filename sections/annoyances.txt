@@ -314,6 +314,7 @@ szeretlekmagyarorszag.hu###cookie-policy-bar
 szeretlekmagyarorszag.hu###rovatpromo
 szeretlekmagyarorszag.hu##iframe[class*="my-fbrecommend"]
 tarhely.eu###sutik
+||telekom.hu/static-tr-frame/json/cookie-consent/cookie-consent-hu.json
 telekom.hu###app-cookie-policy
 telex.hu###modal--umbrella
 telex.hu###modal--you
@@ -398,5 +399,5 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||*.hu/*eu_cookie_compliance.css$stylesheet
 ||*.hu/*wp-content/plugins/complianz-gdpr/*.js$script
 ||*.hu/*wp-content/plugins/complianz-gdpr/*.css$stylesheet
-||cookielaw.org^$third-party  
+||cookielaw.org^$third-party
 ||unideb.hu/*/szechenyi-2020-strukturalis-alap-logo.png$image
