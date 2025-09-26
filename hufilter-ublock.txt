@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: RfSAmPfoq4qsGDxc/3HVzw
-! Version: 202509251112
+! Checksum: exHT6NAnRXloZSeGmOljGA
+! Version: 202509261410
 ! Title: Hufilter for uBO
-! Last modified: 25 Sep 2025 11:12 UTC
+! Last modified: 26 Sep 2025 14:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2016,6 +2016,8 @@ videa.hu,videaloop.hu##.top-video-container-banner
 ! - Broken scripts
 ! - etc.
 ! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+! https://github.com/AdguardTeam/AdguardFilters/issues/214046
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=homedepot.ca
 ! https://github.com/hufilter/hufilter/issues/445
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mafab.hu
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139

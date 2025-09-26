@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: J5iCFoYJiTgz91EOp1UCOQ
-! Version: 202508200804
+! Checksum: XznS6J1Jj71W/2Iz6o6RVQ
+! Version: 202509261410
 ! Title: Hufilter Basic
-! Last modified: 20 Aug 2025 08:04 UTC
+! Last modified: 26 Sep 2025 14:10 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1491,6 +1491,8 @@ ugytudjuk.hu#?#.row:-abp-has(.mainTopBnr)
 ! - Broken scripts
 ! - etc.
 ! The rules in this section should be compatible with all popular adblockers (Adblock Plus, AdGuard, uBlock Origin).
+! https://github.com/AdguardTeam/AdguardFilters/issues/214046
+@@||cdn.cookielaw.org/scripttemplates/otSDKStub.js$domain=homedepot.ca
 ! https://github.com/hufilter/hufilter/issues/445
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js$domain=mafab.hu
 ! https://github.com/AdguardTeam/AdguardFilters/issues/139139
