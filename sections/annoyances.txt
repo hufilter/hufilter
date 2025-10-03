@@ -373,6 +373,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 /megacookies.js$script,domain=gabo.hu
 /megacookies.css$stylesheet,domain=gabo.hu
 /yett.min.js$script,domain=mavcsoport.hu
+/cookiesettings.min.js$script,domain=ittjartam.hu
 ||cmp.setupcmp.com^$third-party,domain=erettsegi.com
 ||gvl-dev.setupcmp.com^$third-party,domain=erettsegi.com
 ||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu|blikk.hu|medicalonline.hu
@@ -401,3 +402,4 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 ||*.hu/*wp-content/plugins/complianz-gdpr/*.css$stylesheet
 ||cookielaw.org^$third-party
 ||unideb.hu/*/szechenyi-2020-strukturalis-alap-logo.png$image
+||ittjartam.hu/ajax.php?action=offerblogcikk
