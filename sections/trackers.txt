@@ -37,6 +37,7 @@
 ||campaign.telex.hu/showtime.php
 ||websas.hu/statistics/
 ||tesco.hu/*/update-fingerprint
+||ittjartam.hu/ajax.php?action=LogSearchHistory
 
 !-------------------------------------------------------------------------------!
 !------ Generic network filters - Tracking domains -----------------------------!
