@@ -16,6 +16,7 @@ gamer.hu##^script:has-text(cli_cookiebar_)
 napiszar.com##^script[data-cfasync="false"]
 portfolio.hu##^script:has-text(fbmodal-title)
 
+arcanum.com##+js(set, show_modal, noopFunc)
 blikk.hu##+js(ra, style, body, stay)
 onlinepenztarca.hu##+js(set-local-storage-item, felhasznalo_cookie_preferencia, 0)
 ! https://github.com/hufilter/hufilter/issues/520
