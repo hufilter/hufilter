@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: QiId/EDHZiAwY2nuUXwAbQ
-! Version: 202510040700
+! Checksum: 76dtMI4t4mRnr7w2aYW+5A
+! Version: 202510041233
 ! Title: Hufilter for uBO
-! Last modified: 04 Oct 2025 07:00 UTC
+! Last modified: 04 Oct 2025 12:33 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2065,6 +2065,7 @@ gamer.hu##^script:has-text(cli_cookiebar_)
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##^script[data-cfasync="false"]
 portfolio.hu##^script:has-text(fbmodal-title)
+arcanum.com##+js(set, show_modal, noopFunc)
 blikk.hu##+js(ra, style, body, stay)
 onlinepenztarca.hu##+js(set-local-storage-item, felhasznalo_cookie_preferencia, 0)
 ! https://github.com/hufilter/hufilter/issues/520
