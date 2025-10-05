@@ -23,6 +23,7 @@ onlinepenztarca.hu#%#//scriptlet('set-local-storage-item', 'felhasznalo_cookie_p
 erzsebetvaros.hu#%#//scriptlet('set-session-storage-item', 'popupClosed', 'true')
 fizz.hu#%#//scriptlet('set-cookie', 'cookie.consent.finished', '1')
 fizz.hu#%#//scriptlet('set-cookie', 'gdpr_level', '1')
+help.semmelweis.hu#?#.modal:has(h3:contains(Sütik használata)):has(button:contains(Elfogadás))
 hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
 hosszupuskasub.com#%#//scriptlet('prevent-window-open')
 kaveverzum.hu#$#body { position: static !important; }
@@ -51,18 +52,3 @@ myonlineradio.hu#$#.js-appAdv { display: none !important; }
 myonlineradio.hu#$#.cover-slider-cont { display: block !important; }
 noizz.hu#$#.leavingPopupLayer { display: none !important; }
 noizz.hu#$#body { overflow: auto !important; }
-
-! https://github.com/hufilter/hufilter/issues/212
-traffihunter.hu##.ooono_promo
-vezess.hu##.m-fbPopup
-mandiner.hu##.modal-backdrop
-mandiner.hu##.modal[role="dialog"]
-help.semmelweis.hu#?#.modal:has(h3:contains(Sütik használata)):has(button:contains(Elfogadás))
-hetek.hu##[class="modal-backdrop fade show"]
-hetek.hu###nyeremenyModal
-kektura.hu###cookie-consent-dialog
-! https://github.com/hufilter/hufilter/issues/11
-filmvilag.me##[style]:has(.adslot_1)
-otpportalok.hu###pop_1:has(> .suti)
-bme.hu###floating-logo-container
-unideb.hu##.sendi-banner-block-container

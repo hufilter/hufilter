@@ -81,6 +81,7 @@ blikk.hu###pe_confirm_optin_6
 blikk.hu##.leavingPopupLayer
 blikkruzs.blikk.hu###pe_confirm_optin_1
 blog.hu##[id*="cp_popup"]
+bme.hu###floating-logo-container
 bonuszbrigad.hu###newASZFLayer
 bookline.hu###onetrust-consent-sdk
 borsonline.hu##.cookie__wrapper
@@ -127,6 +128,8 @@ f1vilag.hu###catapult-cookie-bar
 f1vilag.hu##div[id*="elementor-popup-modal-"]
 femina.hu###femina-shop-ajanlo-slider
 fermentor.hu###elementor-popup-modal-384
+! https://github.com/hufilter/hufilter/issues/11
+filmvilag.me##[style]:has(.adslot_1)
 forbes.hu##.crp_related
 forbes.hu###catapult-cookie-bar
 fressnapf.hu##.grey-popup-layer
@@ -166,6 +169,8 @@ hellovidek.hu##.h-sideboard_2
 hellovidek.hu##.fbfollow
 hellovidek.hu##.fbshare
 hellovidek.hu##.fbcont2
+hetek.hu##[class="modal-backdrop fade show"]
+hetek.hu###nyeremenyModal
 iho.hu##.social-icon
 iho.hu##.newsletter-box
 ! adbook nagger
@@ -190,6 +195,7 @@ kecskemet365.hu###check-also-box
 keol.hu###social
 keol.hu##div.subscribe_module
 keol.hu##div[class="fb-like fb_iframe_widget"]
+kektura.hu###cookie-consent-dialog
 kfc.hu##.cookies-message-container
 kh.hu###cookieAcceptanceContainer
 kisalfold.hu###nap_ajanlata
@@ -217,6 +223,8 @@ magyarnemzet.hu##div.gdprBoxContainer
 mandiner.hu##app-calendar
 mandiner.hu##app-facebook-popup
 mandiner.hu##app-newsletter-popup
+mandiner.hu##.modal-backdrop
+mandiner.hu##.modal[role="dialog"]
 mavcsoport.hu,police.hu###ikop-logo
 media1.hu##.elementor-popup-modal
 mediacenter.hu###cookie-msg
@@ -259,6 +267,7 @@ life.hu,reblog.hu,ok.hu,videa.hu###accept-cookie
 origo.hu##.mw-allow-notification-dialog
 origo.hu##.newsletter-layer
 origo.hu##div.facebook-layer-box
+otpportalok.hu###pop_1:has(> .suti)
 paleomedicina.com###kpopup
 pannonrtv.com###sliding-popup
 patika-akcio.hu##.patika-szechenyi-2020
@@ -326,10 +335,14 @@ thaimatrac.hu##.border-top.p-4.bg-8.cookie-alert__inner
 titkokszigete.hu##.spu-bg
 titkokszigete.hu##.spu-box
 totalcar.hu##.header-tk-ajanlo
+! https://github.com/hufilter/hufilter/issues/212
+traffihunter.hu##.ooono_promo
 travelo.hu##div.qc-cmp-ui-container
 tudtade.blogstar.hu###cookie_policy
 twn.hu###popunder_featured
+unideb.hu##.sendi-banner-block-container
 ugyeszseg.hu##.et_pb_fullwidth_image
+vezess.hu##.m-fbPopup
 vg.hu##.newsletter-box
 ! https://github.com/hufilter/hufilter/issues/250
 vg.hu##[style^="bottom: 0px; left: 0px; position: fixed; width:"]
