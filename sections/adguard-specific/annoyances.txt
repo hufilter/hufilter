@@ -20,6 +20,7 @@ arcanum.com#%#//scriptlet('set-constant', 'show_modal', 'noopFunc')
 blikk.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '3')
 onlinepenztarca.hu#%#//scriptlet('set-local-storage-item', 'felhasznalo_cookie_preferencia', '0')
 ! https://github.com/hufilter/hufilter/issues/520
+erzsebetvaros.hu#%#//scriptlet('set-session-storage-item', 'popupClosed', 'true')
 fizz.hu#%#//scriptlet('set-cookie', 'cookie.consent.finished', '1')
 fizz.hu#%#//scriptlet('set-cookie', 'gdpr_level', '1')
 hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')

@@ -119,6 +119,7 @@ elemi.hu##.sgpb-popup-overlay
 elemzeskozpont.hu###sliding-popup
 epiteszforum.hu##div.cookieLayer
 epiteszforum.hu##div.supportModal
+erzsebetvaros.hu###szechenyiImage
 esport1.hu##.cookie-popup
 esport1.hu##.overlay-popup
 esport1.hu###article-recommend-popup
