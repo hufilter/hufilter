@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 76dtMI4t4mRnr7w2aYW+5A
-! Version: 202510041233
+! Checksum: DH5Fs2tsqdgAZVJz0/Ru/w
+! Version: 202510171231
 ! Title: Hufilter for uBO
-! Last modified: 04 Oct 2025 12:33 UTC
+! Last modified: 17 Oct 2025 12:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -967,6 +967,7 @@ revizoronline.com##[class*="banner"]
 revizoronline.com##[id*="banner"]
 revizoronline.hu##[id*="banner"]
 ricsajok.hu##[class*="banner"]
+roadster.hu##.lead-ad-wrap
 romnet.hu##[class*="hirdetes"]
 romnet.hu##[id*="banner"]
 romnet.hu##[id*="hirdetes"]
@@ -1782,6 +1783,7 @@ rtl.hu##.newsletter-modal
 semmelweis.hu###palyazat-float
 sielok.hu###gdprCookieWrap
 simple.hu###enableCookieDiv
+smpixie.hu###cukieLayer
 sorozatwiki.hu###fhr-cookie-bar
 starity.hu###upprev_box
 startlap.hu###push-notification
