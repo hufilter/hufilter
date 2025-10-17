@@ -946,6 +946,7 @@ revizoronline.com##[class*="banner"]
 revizoronline.com##[id*="banner"]
 revizoronline.hu##[id*="banner"]
 ricsajok.hu##[class*="banner"]
+roadster.hu##.lead-ad-wrap
 romnet.hu##[class*="hirdetes"]
 romnet.hu##[id*="banner"]
 romnet.hu##[id*="hirdetes"]
