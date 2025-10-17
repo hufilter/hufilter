@@ -298,6 +298,7 @@ rtl.hu##.newsletter-modal
 semmelweis.hu###palyazat-float
 sielok.hu###gdprCookieWrap
 simple.hu###enableCookieDiv
+smpixie.hu###cukieLayer
 sorozatwiki.hu###fhr-cookie-bar
 starity.hu###upprev_box
 startlap.hu###push-notification
