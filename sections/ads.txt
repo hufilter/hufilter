@@ -94,6 +94,7 @@ hu##[class*="overlayBg"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+eredmenyek.com##div[data-zone-group]
 hdmozi.hu##.asgdc
 magyarorszagom.hu##.bannerContent
 112press.hu##.banner_middle
@@ -344,7 +345,7 @@ eletmod.hu##[id*="banner"]
 eletmod.hu##[id*="etarget"]
 epresso.hu##[class*="banner"]
 eredmenyek.com###onetrust-banner-sdk
-erettsegi.com##.code-block 
+erettsegi.com##.code-block
 eropolis.hu##[class*="banner"]
 es.hu##[class*="banner"]
 es.hu##[id*="banner"]
