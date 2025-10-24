@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: dkblJr+t7VTDjAaOZkjROQ
-! Version: 202510171233
+! Checksum: n38Hg+2fhf4itNhR2/P+og
+! Version: 202510241251
 ! Title: Hufilter for uBO
-! Last modified: 17 Oct 2025 12:33 UTC
+! Last modified: 24 Oct 2025 12:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -115,6 +115,7 @@ hu##[class*="overlayBg"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+eredmenyek.com##div[data-zone-group]
 hdmozi.hu##.asgdc
 magyarorszagom.hu##.bannerContent
 112press.hu##.banner_middle
@@ -365,7 +366,7 @@ eletmod.hu##[id*="banner"]
 eletmod.hu##[id*="etarget"]
 epresso.hu##[class*="banner"]
 eredmenyek.com###onetrust-banner-sdk
-erettsegi.com##.code-block 
+erettsegi.com##.code-block
 eropolis.hu##[class*="banner"]
 es.hu##[class*="banner"]
 es.hu##[id*="banner"]
