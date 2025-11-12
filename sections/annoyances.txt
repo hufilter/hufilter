@@ -229,6 +229,9 @@ mindmegette.hu###portfolioEzekIsErdekelhetnek
 mindmegette.hu###recipeAndRelateds > h2.noprint
 moly.hu###sticky
 moly.hu##.b336
+moly.hu###leftgate
+moly.hu###rightgate
+moly.hu##.skip_second
 ! https://github.com/hufilter/hufilter/issues/363
 myonlineradio.hu##[src^="/public/img/efi/"]
 ! https://github.com/hufilter/hufilter/issues/427
