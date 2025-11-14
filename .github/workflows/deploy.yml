@@ -77,7 +77,7 @@ jobs:
           fetch-depth: 0
 
       - name: Download build artifact
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v6
         with:
           name: build_artifact
           path: ./dist
