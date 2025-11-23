@@ -27,6 +27,8 @@ hu##.eu-cookie-compliance-banner
 hu###cookies-policy
 hu###cmplz-cookiebanner-container
 hu##app-cookie-layer
+hu###cookieConsent
+hu###overlay_cookie_alert
 hu###szechenyi2020
 hu###szechenyi2020-wrapper
 hu###szechenyi
