@@ -57,10 +57,8 @@ traffihunter.hu##.ooono_promo
 vezess.hu##.m-fbPopup
 mandiner.hu##.modal-backdrop
 mandiner.hu##.modal[role="dialog"]
-help.semmelweis.hu#?#.modal:has(h3:contains(Sütik használata)):has(button:contains(Elfogadás))
 hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
-kektura.hu###cookie-consent-dialog
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)
 otpportalok.hu###pop_1:has(> .suti)
