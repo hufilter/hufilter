@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: 7K4BuXiFSg+ho5Qh6HbQ8g
-! Version: 202511252035
+! Checksum: Er7d25vnxjp7XJr/y0Z9SQ
+! Version: 202511252049
 ! Title: Hufilter for AdGuard
-! Last modified: 25 Nov 2025 20:35 UTC
+! Last modified: 25 Nov 2025 20:49 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1865,7 +1865,7 @@ infostart.hu#?##sitemodal:-abp-has(.fb-button)
 /megacookies.css$stylesheet,domain=gabo.hu
 /yett.min.js$script,domain=mavcsoport.hu
 /cookiesettings.min.js$script,domain=ittjartam.hu
-||cmp.setupcmp.com^$third-party,domain=erettsegi.com
+||cmp.setupcmp.com^$third-party,domain=erettsegi.com|rimkereso.hu
 ||gvl-dev.setupcmp.com^$third-party,domain=erettsegi.com
 ||cmp.quantcast.com^$script,domain=agrarszektor.hu|autoszektor.hu|bpiautosok.hu|g7.hu|hazipatika.com|hellovidek.hu|hrportal.hu|magyarnarancs.hu|index.hu|pestisracok.hu|portfolio.hu|telex.hu|totalcar.hu|totalbike.hu|szeretlekmagyarorszag.hu|port.hu|player.hu|mandiner.hu|budapestkornyeke.hu|bacsmegye.hu|civishir.hu|baon.hu|bama.hu|beol.hu|boon.hu|delmagyar.hu|duol.hu|feol.hu|kisalfold.hu|haon.hu|heol.hu|szoljon.hu|kemma.hu|nool.hu|sonline.hu|szon.hu|teol.hu|vaol.hu|veol.hu|zaol.hu|twice.hu|sassy.hu|prohardver.hu|mobilarena.hu|itcafe.hu|gamepod.hu|logout.hu|hardverapro.hu|pcwplus.hu|gsplus.hu|myonlineradio.hu|blikk.hu|medicalonline.hu
 ||consent.cookiebot.com^$third-party,script,domain=agroinform.hu|ingatlan.com
@@ -2171,6 +2171,8 @@ port.hu#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window.ad
 online-filmek.ac,online-filmek.me#%#//scriptlet("abort-current-inline-script", "fetch", "'mode'")
 ! https://github.com/uBlockOrigin/uAssets/issues/27256#issuecomment-2670818969
 rubyvidhub.com#%#//scriptlet('remove-node-text', 'script', 'undefined')
+! https://github.com/hufilter/hufilter/issues/656
+rimkereso.hu#%#//scriptlet('set-constant', 'detect_adblock', 'falseFunc')
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
