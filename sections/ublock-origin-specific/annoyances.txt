@@ -19,6 +19,7 @@ portfolio.hu##^script:has-text(fbmodal-title)
 arcanum.com##+js(set, show_modal, noopFunc)
 blikk.hu##+js(ra, style, body, stay)
 onlinepenztarca.hu##+js(set-local-storage-item, felhasznalo_cookie_preferencia, 0)
+erzsebetvaros.hu##+js(set-session-storage-item, popupClosed, true)
 ! https://github.com/hufilter/hufilter/issues/520
 fizz.hu##+js(set-cookie, cookie.consent.finished, 1)
 fizz.hu##+js(set-cookie, gdpr_level, 1)
