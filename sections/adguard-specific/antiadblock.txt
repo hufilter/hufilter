@@ -50,6 +50,8 @@ port.hu#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window.ad
 online-filmek.ac,online-filmek.me#%#//scriptlet("abort-current-inline-script", "fetch", "'mode'")
 ! https://github.com/uBlockOrigin/uAssets/issues/27256#issuecomment-2670818969
 rubyvidhub.com#%#//scriptlet('remove-node-text', 'script', 'undefined')
+! https://github.com/hufilter/hufilter/issues/656
+rimkereso.hu#%#//scriptlet('set-constant', 'detect_adblock', 'falseFunc')
 
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 

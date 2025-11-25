@@ -42,6 +42,8 @@ port.hu##+js(aopw, document.body.style)
 online-filmek.ac,online-filmek.me##+js(acis, fetch, 'mode')
 ! https://github.com/uBlockOrigin/uAssets/issues/27256#issuecomment-2670818969
 rubyvidhub.com##+js(rmnt, script, undefined)
+! https://github.com/hufilter/hufilter/issues/656
+rimkereso.hu##+js(set, detect_adblock, falseFunc)
 
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 
