@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: q7hkS4I3BbkFsTXH0Zgnig
-! Version: 202510241251
+! Checksum: D1l4vftWyBFCmQswJLssvg
+! Version: 202511252035
 ! Title: Hufilter Basic
-! Last modified: 24 Oct 2025 12:51 UTC
+! Last modified: 25 Nov 2025 20:35 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -608,6 +608,7 @@ ite.hu##div[class="tl-state-root tve-leads-ribbon tve-trigger-hide tve-tl-anim t
 itmania.hu##.rckaexclude
 itmania.hu##[class*="hirdetes"]
 ize.hu##.banner
+jo.444.hu##div:has(> #ap-site-header-top)
 jofogas.hu###roadblock-adcum-zone
 jofogas.hu##.r_above-placeholder
 jogiforum.hu##[class*="banner"]
