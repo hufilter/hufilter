@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: Er7d25vnxjp7XJr/y0Z9SQ
-! Version: 202511252049
+! Checksum: wL98vVXtAppvKUutu8kIZA
+! Version: 202511252101
 ! Title: Hufilter for AdGuard
-! Last modified: 25 Nov 2025 20:49 UTC
+! Last modified: 25 Nov 2025 21:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1608,6 +1608,7 @@ elemi.hu##.sgpb-popup-overlay
 elemzeskozpont.hu###sliding-popup
 epiteszforum.hu##div.cookieLayer
 epiteszforum.hu##div.supportModal
+erzsebetvaros.hu###szechenyiImage
 esport1.hu##.cookie-popup
 esport1.hu##.overlay-popup
 esport1.hu###article-recommend-popup
@@ -1675,6 +1676,7 @@ kapu.hu###cookieSpan
 karpathir.com##[app="tibrr-cookie-consent"]
 kaveverzum.hu###overlay_cookie_alert, #overlay_cookie_alert[style*="display: flex"] ~ #exposeMaskOverlay
 kecskemet365.hu###check-also-box
+kektura.hu###cookie-consent-dialog
 keol.hu###social
 keol.hu##div.subscribe_module
 keol.hu##div[class="fb-like fb_iframe_widget"]
@@ -1834,6 +1836,7 @@ wmn.hu##a[href="https://wmn.hu/hirlevel-feliratkozas/"]
 !-------------------------------------------------------------------------------!
 autosjog.hu#?#p + center:-abp-has(iframe[data-src*="facebook"])
 femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
+help.semmelweis.hu#?#.modal:has(h3:contains(Sütik használata)):has(button:contains(Elfogadás))
 hirado.hu#?#.hover_bkgr_fricc:-abp-has(.facebookPopupCloseButton)
 infostart.hu#?##sitemodal:-abp-has(.fb-button)
 !-------------------------------------------------------------------------------!
@@ -2079,6 +2082,7 @@ portfolio.hu$$script[tag-content="fbmodal-title"]
 arcanum.com#%#//scriptlet('set-constant', 'show_modal', 'noopFunc')
 blikk.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '3')
 onlinepenztarca.hu#%#//scriptlet('set-local-storage-item', 'felhasznalo_cookie_preferencia', '0')
+erzsebetvaros.hu#%#//scriptlet('set-session-storage-item', 'popupClosed', 'true')
 ! https://github.com/hufilter/hufilter/issues/520
 fizz.hu#%#//scriptlet('set-cookie', 'cookie.consent.finished', '1')
 fizz.hu#%#//scriptlet('set-cookie', 'gdpr_level', '1')
@@ -2114,10 +2118,8 @@ traffihunter.hu##.ooono_promo
 vezess.hu##.m-fbPopup
 mandiner.hu##.modal-backdrop
 mandiner.hu##.modal[role="dialog"]
-help.semmelweis.hu#?#.modal:has(h3:contains(Sütik használata)):has(button:contains(Elfogadás))
 hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
-kektura.hu###cookie-consent-dialog
 ! https://github.com/hufilter/hufilter/issues/11
 filmvilag.me##[style]:has(.adslot_1)
 otpportalok.hu###pop_1:has(> .suti)
