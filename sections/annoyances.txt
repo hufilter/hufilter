@@ -103,6 +103,7 @@ civishir.hu##.cookie-box-cnt
 civishir.hu##.infobar-cnt
 csaladinet.hu###cikkajanlo
 csaladinet.hu###CookieAcceptLayer
+csodahelyek.hu###elementor-popup-modal-41687
 csupasport.hu##.enews-article-content .endless-shared-area
 cyberpress.hu###cookie-law-info-bar
 ! https://github.com/hufilter/hufilter/issues/617
