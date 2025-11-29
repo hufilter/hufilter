@@ -69,6 +69,7 @@ atv.hu###szechenyi-container
 autobazar.eu###cookieinfo
 autonavigator.hu###CybotCookiebotDialog
 autosjog.hu##.cookie-notice-container
+autosjog.hu##p + center:has(iframe[data-src*="facebook"])
 babanet.hu###cookie
 babanet.hu###popupajanlo
 bankmonitor.hu##main + .ok-prerender
@@ -129,6 +130,7 @@ esport1.hu###article-recommend-popup
 f1vilag.hu###catapult-cookie-bar
 f1vilag.hu##div[id*="elementor-popup-modal-"]
 femina.hu###femina-shop-ajanlo-slider
+femina.hu##.cikk-torzs [data-miniapp-id]:has(.lapozgato-ajanlo)
 fermentor.hu###elementor-popup-modal-384
 forbes.hu##.crp_related
 forbes.hu###catapult-cookie-bar
@@ -160,6 +162,7 @@ hazipatika.com###facebook-sharebar
 hazipatika.com###webaruhaz-ajanlo
 helyitipp.hu##.cookie-notice-container
 hestore.hu###cookiewarnbar
+hirado.hu##.hover_bkgr_fricc:has(.facebookPopupCloseButton)
 hiros.hu###cookieAlertBox
 hoxa.hu###cookiekezeles
 hvg.hu##.hvg_push
@@ -180,6 +183,7 @@ infostart.hu##.notification-popup
 ! https://github.com/hufilter/hufilter/issues/252
 infostart.hu###_ao-cmp-ui
 infostart.hu###ajanlo
+infostart.hu###sitemodal:has(.fb-button)
 infostart.hu##div[data-qa="oil-Layer"]
 ingatlan.com###nps-form
 itthonrolhaza.hu###cookie-law-info-again
@@ -349,11 +353,7 @@ wmn.hu##a[href="https://wmn.hu/hirlevel-feliratkozas/"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters (with Extended CSS) --------------------------!
 !-------------------------------------------------------------------------------!
-autosjog.hu#?#p + center:-abp-has(iframe[data-src*="facebook"])
-femina.hu#?#.cikk-torzs [data-miniapp-id]:-abp-has(.lapozgato-ajanlo)
 help.semmelweis.hu#?#.modal:has(h3:contains(Sütik használata)):has(button:contains(Elfogadás))
-hirado.hu#?#.hover_bkgr_fricc:-abp-has(.facebookPopupCloseButton)
-infostart.hu#?##sitemodal:-abp-has(.fb-button)
 
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
