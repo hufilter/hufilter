@@ -1,2 +1,4 @@
-syntax:
-    - UblockOrigin
+extends:
+    - ../../.aglintrc.yaml
+platforms:
+    - ubo_any

@@ -1,2 +1,4 @@
-syntax:
-    - AdblockPlus
+extends:
+    - ../../.aglintrc.yaml
+platforms:
+    - abp_any

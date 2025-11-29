@@ -1,2 +1,4 @@
-syntax:
-    - AdGuard
+extends:
+    - ../../.aglintrc.yaml
+platforms:
+    - adg_any

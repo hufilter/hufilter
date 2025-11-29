@@ -1,7 +1,5 @@
-# https://github.com/AdguardTeam/AGLint#configuration
+# AGLint config file
+# Documentation: https://github.com/AdguardTeam/AGLint/blob/master/docs/configuration.md
 root: true
-allowInlineConfig: true
 extends:
-    - aglint:recommended
-syntax:
-    - Common
+  - aglint:recommended

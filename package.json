@@ -51,7 +51,7 @@
   "scripts": {
     "build": "node assets/scripts/build.js",
     "lint": "pnpm lint:ab && pnpm lint:md",
-    "lint:ab": "aglint",
+    "lint:ab": "aglint --cache --cache-location .aglintcache sections/**/*.txt",
     "lint:md": "markdownlint .",
     "prepare": "node .husky/install.js"
   },
@@ -60,7 +60,7 @@
     "*.md": "markdownlint"
   },
   "devDependencies": {
-    "@adguard/aglint": "^3.0.0",
+    "@adguard/aglint": "4.0.0-beta.1",
     "@adguard/dead-domains-linter": "^1.0.33",
     "dateformat": "^5.0.3",
     "husky": "^9.1.7",
