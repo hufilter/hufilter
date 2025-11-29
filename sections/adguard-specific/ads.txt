@@ -19,6 +19,8 @@ prohardver.hu,fototrend.hu#$#main { background-image: none !important; }
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 ! https://github.com/hufilter/hufilter/issues/440, https://github.com/hufilter/hufilter/pulls/452
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##div:has(> h4 + div[style*="calc"])
+! https://github.com/hufilter/hufilter/issues/660
+444.hu##div[id^="444_nyito_"]
 !#endif
 
 !-------------------------------------------------------------------------------!
