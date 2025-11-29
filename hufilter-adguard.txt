@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: 77sIt0ruRYUuvG9um+HkrA
-! Version: 202511261230
+! Checksum: XSEJ0Zaqsy2P/goT6JgOBA
+! Version: 202511290802
 ! Title: Hufilter for AdGuard
-! Last modified: 26 Nov 2025 12:30 UTC
+! Last modified: 29 Nov 2025 08:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2061,6 +2061,8 @@ prohardver.hu,fototrend.hu#$#main { background-image: none !important; }
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
 ! https://github.com/hufilter/hufilter/issues/440, https://github.com/hufilter/hufilter/pulls/452
 prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu##div:has(> h4 + div[style*="calc"])
+! https://github.com/hufilter/hufilter/issues/660
+444.hu##div[id^="444_nyito_"]
 !#endif
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
