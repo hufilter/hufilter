@@ -76,7 +76,7 @@ jobs:
               '**/aglint.config.yaml',
               '**/aglint.config.yml',
               '**/package.json',
-              'package-lock.json'
+              'pnpm-lock.yaml'
             ) }}
           restore-keys: |
             ${{ runner.os }}-aglint-
