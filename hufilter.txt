@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: gLg05tF2wduTFT+FP2eRTg
-! Version: 202511301817
+! Checksum: WsaafRSw5o76cFEkBSbOTw
+! Version: 202512011904
 ! Title: Hufilter Basic
-! Last modified: 30 Nov 2025 18:17 UTC
+! Last modified: 01 Dec 2025 19:04 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -938,6 +938,7 @@ pcforum.hu,prog.hu###zone-titleheader
 pcforum.hu##.zone[data-zoneid]
 pcforum.hu###zone-titleheader
 pcforum.hu##.loaded[rel="swappable"]
+pcforum.hu##div[id][rel].loaded:has(> ins)
 pcguru.hu##.banner-content
 pcguru.hu##a[href*="banner_click"]
 pdafanclub.com##[id*="banner"]

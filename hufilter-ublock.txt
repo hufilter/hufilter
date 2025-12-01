@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: ekOYW8mPvd2odDAkKL81og
-! Version: 202511301817
+! Checksum: 4Lqym6RwDNmGq5DDCN/7OA
+! Version: 202512011904
 ! Title: Hufilter for uBO
-! Last modified: 30 Nov 2025 18:17 UTC
+! Last modified: 01 Dec 2025 19:04 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -938,6 +938,7 @@ pcforum.hu,prog.hu###zone-titleheader
 pcforum.hu##.zone[data-zoneid]
 pcforum.hu###zone-titleheader
 pcforum.hu##.loaded[rel="swappable"]
+pcforum.hu##div[id][rel].loaded:has(> ins)
 pcguru.hu##.banner-content
 pcguru.hu##a[href*="banner_click"]
 pdafanclub.com##[id*="banner"]
@@ -1765,6 +1766,7 @@ patika-akcio.hu##.patika-szechenyi-2020
 patika-akcio.hu##.patika-szechenyi-terv
 pcforum.hu##.slidein.popup.closeablenotification.scripted
 pcforum.hu###pushsubscriptionwnd
+pcforum.hu##div[class="fromtop shown"][data-clickhooked]
 pcguru.hu##.floating-box
 penzcentrum.hu###ajanlo
 penzcentrum.hu###recommend
@@ -2065,6 +2067,7 @@ prohardver.hu,fototrend.hu##main:style(background-image: none !important;)
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,domain=pcforum.hu
 /inside-banner.mini.js$domain=myonlineradio.hu
 ! This section file contains rules for blocking annoying elements on websites, such as cookie notices, newsletter
 ! subscription prompts, floating elements and so on.
