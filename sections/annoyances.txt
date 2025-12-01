@@ -276,6 +276,7 @@ patika-akcio.hu##.patika-szechenyi-2020
 patika-akcio.hu##.patika-szechenyi-terv
 pcforum.hu##.slidein.popup.closeablenotification.scripted
 pcforum.hu###pushsubscriptionwnd
+pcforum.hu##div[class="fromtop shown"][data-clickhooked]
 pcguru.hu##.floating-box
 penzcentrum.hu###ajanlo
 penzcentrum.hu###recommend

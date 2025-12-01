@@ -21,4 +21,5 @@ prohardver.hu,fototrend.hu##main:style(background-image: none !important;)
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
+||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$script,redirect=googlesyndication_adsbygoogle.js,domain=pcforum.hu
 /inside-banner.mini.js$domain=myonlineradio.hu
