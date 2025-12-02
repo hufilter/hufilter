@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@adguard/aglint':
-        specifier: 4.0.0-beta.1
-        version: 4.0.0-beta.1(@types/node@20.17.36)
+        specifier: 4.0.0-beta.2
+        version: 4.0.0-beta.2(@types/node@20.17.36)
       '@adguard/dead-domains-linter':
         specifier: ^1.0.33
         version: 1.0.33
@@ -32,8 +32,8 @@ importers:
 
 packages:
 
-  '@adguard/aglint@4.0.0-beta.1':
-    resolution: {integrity: sha512-PDjD3ydoHVPihpGLy56KYeT0pq/Ig5AdgpyTpWkmFjaVHXz2aEFB8vlOeK/QvGsGim4ikip52JxWsCmmJpB41g==}
+  '@adguard/aglint@4.0.0-beta.2':
+    resolution: {integrity: sha512-Yem1karPz3F7RsacixCjfCOynf4pe/SikgWVCgNfkoOCI8/iKCPltUSwZvAPFEbxpUYKd6DsVSam1SOw442GqQ==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -66,8 +66,8 @@ packages:
   '@adguard/scriptlets@1.12.1':
     resolution: {integrity: sha512-luAGl8hHEjKZfTFqWG8PBsif2wAPWNi0uuT+xzyBTk+IllHDYOLPSwyMKh2ru7nKCQJEOgMVwNoIrPB4zuuX1w==}
 
-  '@babel/runtime-corejs3@7.28.0':
-    resolution: {integrity: sha512-nlIXnSqLcBij8K8TtkxbBJgfzfvi75V1pAKSM7dUXejGw12vJAqez74jZrHTsJ3Z+Aczc5Q/6JgNjKRMsVU44g==}
+  '@babel/runtime-corejs3@7.28.4':
+    resolution: {integrity: sha512-h7iEYiW4HebClDEhtvFObtPmIvrd1SSfpI9EhOeKk4CtIK/ngBWFpuhCzhdmRKtg71ylcue+9I6dv54XYO1epQ==}
     engines: {node: '>=6.9.0'}
 
   '@babel/runtime@7.28.3':
@@ -414,8 +414,8 @@ packages:
     resolution: {integrity: sha512-I5qxpzLv+sJhTVEoLYNcTW+bThDCPsit0vLNKShZx6rLtpilNpmmeTPaeqJb9ZE9dV3DGaeby6Vuhrw38WjeyQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
 
-  core-js-pure@3.44.0:
-    resolution: {integrity: sha512-gvMQAGB4dfVUxpYD0k3Fq8J+n5bB6Ytl15lqlZrOIXFzxOhtPaObfkQGHtMRdyjIf7z2IeNULwi1jEwyS+ltKQ==}
+  core-js-pure@3.47.0:
+    resolution: {integrity: sha512-BcxeDbzUrRnXGYIVAGFtcGQVNpFcUhVjr6W7F8XktvQW2iJP9e66GP6xdKotCRFlrxBvNIBrhwKteRXqMV86Nw==}
 
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
@@ -839,6 +839,10 @@ packages:
       encoding:
         optional: true
 
+  object-inspect@1.13.4:
+    resolution: {integrity: sha512-W67iLl4J2EXEGTbfeHCffrjDfitvLANg0UlX3wFUUSTx92KXRFegMHUVgSqE+wvhAbi4WqjGg9czysTV2Epbew==}
+    engines: {node: '>= 0.4'}
+
   ohash@2.0.11:
     resolution: {integrity: sha512-RdR9FQrFwNBNXAr4GixM8YaRZRJ5PUWbKYbE5eOsrwAjJW0q2REGcf79oYPsLyskQCZG1PLN+S/K1V00joZAoQ==}
 
@@ -1091,6 +1095,11 @@ packages:
     engines: {node: '>= 14.6'}
     hasBin: true
 
+  yaml@2.8.2:
+    resolution: {integrity: sha512-mplynKqc1C2hTVYxd0PU2xQAc22TI1vShAYGksCCfxbn/dFwnHTNi1bvYsBTkhdUNtGIf5xNOg938rrSSYvS9A==}
+    engines: {node: '>= 14.6'}
+    hasBin: true
+
   yargs-parser@21.1.1:
     resolution: {integrity: sha512-tVpsJW7DdjecAiFpbIB1e3qxIQsE6NoPc5/eTdrbbIC4h0LVsWhnoa3g+m2HclBIujHzsxZ4VJVA+GUuc2/LBw==}
     engines: {node: '>=12'}
@@ -1111,7 +1120,7 @@ packages:
 
 snapshots:
 
-  '@adguard/aglint@4.0.0-beta.1(@types/node@20.17.36)':
+  '@adguard/aglint@4.0.0-beta.2(@types/node@20.17.36)':
     dependencies:
       '@adguard/agtree': 3.4.1
       '@adguard/ecss-tree': 2.0.1
@@ -1133,13 +1142,14 @@ snapshots:
       inflection: 2.0.1
       is-glob: 4.0.3
       micromustache: 8.0.3
+      object-inspect: 1.13.4
       ohash: 2.0.11
       piscina: 5.1.4
       strip-ansi: 6.0.1
       terminal-link: 2.1.1
       text-table: 0.2.0
       valibot: 1.2.0
-      yaml: 2.8.1
+      yaml: 2.8.2
     transitivePeerDependencies:
       - '@types/node'
       - typescript
@@ -1205,9 +1215,9 @@ snapshots:
       '@babel/runtime': 7.28.3
       js-yaml: 3.14.2
 
-  '@babel/runtime-corejs3@7.28.0':
+  '@babel/runtime-corejs3@7.28.4':
     dependencies:
-      core-js-pure: 3.44.0
+      core-js-pure: 3.47.0
 
   '@babel/runtime@7.28.3': {}
 
@@ -1493,7 +1503,7 @@ snapshots:
 
   consola@3.2.3: {}
 
-  core-js-pure@3.44.0: {}
+  core-js-pure@3.47.0: {}
 
   cross-spawn@7.0.6:
     dependencies:
@@ -1976,6 +1986,8 @@ snapshots:
     dependencies:
       whatwg-url: 5.0.0
 
+  object-inspect@1.13.4: {}
+
   ohash@2.0.11: {}
 
   onetime@7.0.0:
@@ -2197,11 +2209,13 @@ snapshots:
 
   xregexp@5.1.2:
     dependencies:
-      '@babel/runtime-corejs3': 7.28.0
+      '@babel/runtime-corejs3': 7.28.4
 
   y18n@5.0.8: {}
 
   yaml@2.8.1: {}
+
+  yaml@2.8.2: {}
 
   yargs-parser@21.1.1: {}
 
