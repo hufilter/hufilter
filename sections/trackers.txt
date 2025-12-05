@@ -29,6 +29,7 @@
 ||infostart.hu/js/ga.js$script
 ||scripts.keytiles.com/tracking/*.js^$script
 ||stat.p24.hu/*/measuring-codes/*.js$script
+||cdn.pmd.444.hu/assets/lib/js/heartbeat.js$script
 
 !-------------------------------------------------------------------------------!
 !------ Generic network filters - Tracking endpoints ---------------------------!
@@ -67,6 +68,7 @@
 ||beam-tracker.telex.hu^
 ||beam.telex.hu^
 ||campaign-remp.444.hu^
+||heartbeat.pmd.444.hu^
 ||counter.megagroup.ru^
 ||doubleclick.net^
 ||gemius.hu^
