@@ -3,3 +3,5 @@
 root: true
 extends:
   - aglint:recommended
+rules:
+  no-unsupported-css-pseudo-class: off
