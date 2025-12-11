@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 4Lqym6RwDNmGq5DDCN/7OA
-! Version: 202512011904
+! Checksum: /hcd6FXuacH8ZzrT1ieB7w
+! Version: 202512111308
 ! Title: Hufilter for uBO
-! Last modified: 01 Dec 2025 19:04 UTC
+! Last modified: 11 Dec 2025 13:08 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1246,6 +1246,7 @@ prohardver.hu,mobilarena.hu,itcafe.hu,gamepod.hu,logout.hu,hardverapro.hu#?#div:
 !-------------------------------------------------------------------------------!
 ||*/empty.json
 ||*/eu-banned-popup/
+||cdn.taboola.com^$domain=gyakorikerdesek.hu
 ||adserver.raceonline.hu^
 ||24.hu/*/sponsoredpost.css$stylesheet
 ||24.hu/*/sponsoredpost.js$script
