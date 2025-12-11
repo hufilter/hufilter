@@ -52,7 +52,7 @@
   "scripts": {
     "build": "node assets/scripts/build.js",
     "lint": "pnpm lint:ab && pnpm lint:md",
-    "lint:ab": "aglint --cache --cache-location .aglintcache --cache-strategy content sections/**/*.txt",
+    "lint:ab": "aglint --cache --cache-location .aglintcache --cache-strategy content 'sections/**/*.txt'",
     "lint:md": "markdownlint .",
     "prepare": "node .husky/install.js"
   },
