@@ -79,9 +79,35 @@
     ]
   },
   {
+    "output": "hufilter-dns-adblock.txt",
+    "title": "Hufilter DNS (Adblock-style format)",
+    "dnsAdblockStyle": true,
+    "header": "dns.txt",
+    "sections": [
+      "ads.txt",
+      "annoyances.txt",
+      "trackers.txt",
+      "unbreak.txt",
+      "security.txt"
+    ]
+  },
+  {
     "output": "hufilter-hosts.txt",
     "title": "Hufilter Hosts file",
     "hosts": true,
+    "header": "hosts.txt",
+    "sections": [
+      "ads.txt",
+      "annoyances.txt",
+      "trackers.txt",
+      "unbreak.txt",
+      "security.txt"
+    ]
+  },
+  {
+    "output": "hufilter-dnsmasq.txt",
+    "title": "Hufilter DNSMasq",
+    "dnsMasq": true,
     "header": "hosts.txt",
     "sections": [
       "ads.txt",
