@@ -22,6 +22,7 @@ const ADBLOCK_COMMENT_MARKER = '!';
 const HTTP_PROTOCOL = 'http://';
 const HTTPS_PROTOCOL = 'https://';
 const WILDCARD_PREFIX = '*.';
+const DOT = '.';
 const BASE64_PADDING = '==';
 const LF = '\n';
 
@@ -102,8 +103,8 @@ const getDnsCompatibleDomains = (content) => {
     let patternToCheckWithTldts = cleanedPattern;
 
     // remove leading `*.`, if present, because tldts cannot handle it
-    if (patternToCheckWithTldts.startsWith(WILDCARD_PREFIX)) {
-      patternToCheckWithTldts = patternToCheckWithTldts.slice(WILDCARD_PREFIX.length);
+    if (patternToCheckWithTldts.startsWith(WILDCARD_PREFIX + DOT)) {
+      patternToCheckWithTldts = patternToCheckWithTldts.slice((WILDCARD_PREFIX + DOT).length);
       isWildcard = true;
     }
 
@@ -115,9 +116,9 @@ const getDnsCompatibleDomains = (content) => {
       // maybe this case should be improved later
       patternToCheckWithTldts = patternToCheckWithTldts
         // e.g. `example.*.com`
-        .replaceAll(`.${WILDCARD}.`, EMPTY_STRING)
+        .replaceAll(`${DOT}${WILDCARD}${DOT}`, EMPTY_STRING)
         // e.g. `example.*`
-        .replaceAll(`.${WILDCARD}`, EMPTY_STRING)
+        .replaceAll(`${DOT}${WILDCARD}`, EMPTY_STRING)
         // e.g. `ad*.example.com`
         .replaceAll(WILDCARD, EMPTY_STRING);
       isAdblockWildcard = true;
