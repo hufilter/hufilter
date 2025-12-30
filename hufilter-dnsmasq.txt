@@ -1,0 +1,116 @@
+# Checksum: kwZFa2LZSm2PlaDKfvXRew
+# Version: 202512301030
+# Title: Hufilter DNSMasq
+# Last modified: 30 Dec 2025 10:30 UTC
+# Expires: 7 days (update frequency)
+# Homepage: https://hufilter.hu
+# Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
+#
+#---------------------------------------------------------------------------#
+#-------------- Description, Terms of use, Issue management ----------------#
+#---------------------------------------------------------------------------#
+# Hufilter - The Hungarian Adblock List
+# Author: Hufilter Contributors (https://github.com/hufilter/hufilter/graphs/contributors)
+#
+# Please report any unblocked adverts or problems in the GitHub issue tracker.
+# About filter policy and usage terms please see the homepage above.
+# By using the filter you automatically accept the terms of use.
+#
+# Kerjuk, jelentsd a nem blokkolt hirdeteseket vagy a hibakat a GitHub issue trackerben.
+# A szuresi iranyelveket, felhasznalasi felteteleket lasd a fenti honlapon.
+# A szuro hasznalataval automatikusan elfogadod a felhasznalasi felteteleket.
+#
+# GitHub issues: https://github.com/hufilter/hufilter/issues
+# GitHub pull requests: https://github.com/hufilter/hufilter/pulls
+#
+local=/adserver.raceonline.hu/
+local=/a.adnium.com/
+local=/ad.depo.hu/
+local=/ad.gyermekevek.hu/
+local=/ad.hirekmedia.hu/
+local=/ad.kapos.hu/
+local=/ad.love.hu/
+local=/ad.napilapcsoport.hu/
+local=/ad.onadozo.hu/
+local=/ad.parom.hu/
+local=/ad.pphungary.hu/
+local=/ad.szexneked.hu/
+local=/adfair.hu/
+local=/adfree-stat.p3g.hu/
+local=/admanager.magyarhirlap.hu/
+local=/ads.geeks.hu/
+local=/adv.forpsi.hu/
+local=/adv.hu/
+local=/adverbs.napilapcsoport.hu/
+local=/app.livechatoo.com/
+local=/audit.median.hu/
+local=/avatraffic.com/
+local=/banner.webtar.hu/
+local=/bannerzone.agroinform.hu/
+local=/brostraffic.com/
+local=/campaign-remp.444.hu/
+local=/cdn-dynamic.optimonk.com/
+local=/daserver.ultraweb.hu/
+local=/et.twyn.com/
+local=/fourtwentytradingcompany.net/
+local=/fruitflan.com/
+local=/iofferphoto.com/
+local=/loader.nyitvatartas24.hu/
+local=/loading-delivery2.com/
+local=/media.netpositive.hu/
+local=/netadclick.com/
+local=/netexs.com/
+local=/pixel.blog.hu/
+local=/pixel.sojern.com/
+local=/rc.rc.hu/
+local=/rc.rootclick.com/
+local=/redwolfmoon.com/
+local=/related.hu/
+local=/smartcj.com/
+local=/stat.adultium.com/
+local=/static.hvgrt.hu/
+local=/stats.badoostats.com/
+local=/syndication.trafficreps.com/
+local=/up-banner.wavecdn.de/
+local=/vid4u.org/
+local=/widget.block4d.com/
+local=/wstat.ozon.ru/
+local=/chatrobot.mia.gov.hu/
+local=/chimpstatic.com/
+local=/adat.agrokep.vg.hu/
+local=/adat.borsonline.hu/
+local=/adat.figyelo.hu/
+local=/adat.freemail.hu/
+local=/adat.hirtv.hu/
+local=/adat.ingatlanbazar.hu/
+local=/adat.kisalfold.hu/
+local=/adat.koponyeg.hu/
+local=/adat.life.hu/
+local=/adat.magyarnemzet.hu/
+local=/adat.mandiner.hu/
+local=/adat.metropol.hu/
+local=/adat.mindmegette.hu/
+local=/adat.nemzetisport.hu/
+local=/adat.origo.hu/
+local=/adat.ripost.hu/
+local=/adat.she.life.hu/
+local=/adat.vg.hu/
+local=/adat.videa.hu/
+local=/adform.net/
+local=/adtrackeraa.com/
+local=/beam-tracker.telex.hu/
+local=/beam.telex.hu/
+local=/counter.megagroup.ru/
+local=/doubleclick.net/
+local=/gemius.hu/
+local=/gemius.pl/
+local=/indexstat.index.hu/
+local=/mediaownerscloud.com/
+local=/px.blog.hu/
+local=/smartadserver.com/
+local=/tracker-remp.magyarnarancs.hu/
+local=/tracker.24xtra.hu/
+local=/tracker.azet.sk/
+local=/trackerapi.ebxcdn.com/
+local=/tracking.binarypromos.com/
+local=/tracking.tchibo.hu/
