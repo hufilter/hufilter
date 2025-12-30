@@ -69,7 +69,7 @@
     "output": "hufilter-dns.txt",
     "title": "Hufilter DNS",
     "dns": true,
-    "header": "dns.txt",
+    "header": "hosts.txt",
     "sections": [
       "ads.txt",
       "annoyances.txt",
