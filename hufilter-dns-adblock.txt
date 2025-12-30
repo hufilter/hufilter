@@ -1,7 +1,7 @@
-! Checksum: +MeZoTkIIUSzviXNhpeCJg
-! Version: 202512301030
+! Checksum: EKi3OUt49bjq4Y5+o1ZHEw
+! Version: 202512301037
 ! Title: Hufilter DNS (Adblock-style format)
-! Last modified: 30 Dec 2025 10:30 UTC
+! Last modified: 30 Dec 2025 10:37 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -114,6 +114,16 @@
 ||trackerapi.ebxcdn.com^
 ||tracking.binarypromos.com^
 ||tracking.tchibo.hu^
+||aliexpress.hu^
+||aliexpressz.hu^
+||azsiacenter.hu^
+||azsiacentrum.hu^
+||kinaiwebaruhaz.hu^
+||maplin.hu^
+||microelectrónica.es^
+||mikroelektronik.hu^
+||petpoolalarm.com^
+||sexmeup.hu^
 ||ad*.gyaloglo.hu^
 ||ad*.mellesleg.hu^
 ||advert*.ultraweb.hu^

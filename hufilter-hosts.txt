@@ -1,7 +1,7 @@
-# Checksum: ZX2vG5odTsBVSsxNockoSg
-# Version: 202512301030
+# Checksum: KnuaUqglpVRDtkPBGQo+Fg
+# Version: 202512301037
 # Title: Hufilter Hosts file
-# Last modified: 30 Dec 2025 10:30 UTC
+# Last modified: 30 Dec 2025 10:37 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -114,3 +114,13 @@
 0.0.0.0 trackerapi.ebxcdn.com
 0.0.0.0 tracking.binarypromos.com
 0.0.0.0 tracking.tchibo.hu
+0.0.0.0 aliexpress.hu
+0.0.0.0 aliexpressz.hu
+0.0.0.0 azsiacenter.hu
+0.0.0.0 azsiacentrum.hu
+0.0.0.0 kinaiwebaruhaz.hu
+0.0.0.0 maplin.hu
+0.0.0.0 microelectrónica.es
+0.0.0.0 mikroelektronik.hu
+0.0.0.0 petpoolalarm.com
+0.0.0.0 sexmeup.hu
