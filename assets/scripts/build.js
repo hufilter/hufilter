@@ -66,7 +66,7 @@ const getDnsCompatibleDomains = (content) => {
     // e.g. domain from `||example.com^$document` could be included in dns filters as well
     if (
       ruleNode.modifiers?.children.length > 0 &&
-      ruleNode.modifiers.children.some((modifier) => !dnsCompatibleModifiers.has(modifier.value))
+      ruleNode.modifiers.children.some((modifier) => !dnsCompatibleModifiers.has(modifier.name.value))
     ) {
       continue;
     }
