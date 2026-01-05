@@ -610,6 +610,7 @@ itmania.hu##.rckaexclude
 itmania.hu##[class*="hirdetes"]
 ize.hu##.banner
 jo.444.hu##div:has(> #ap-site-header-top)
+jofogas.hu##.adverticum-anchor-banner
 jofogas.hu###roadblock-adcum-zone
 jofogas.hu##.r_above-placeholder
 ! https://github.com/uBlockOrigin/uAssets/issues/23271
