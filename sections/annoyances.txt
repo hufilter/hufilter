@@ -29,6 +29,7 @@ hu###cmplz-cookiebanner-container
 hu##app-cookie-layer
 hu###cookieConsent
 hu###overlay_cookie_alert
+hu##.cookie_overlay
 hu###szechenyi2020
 hu###szechenyi2020-wrapper
 hu###szechenyi
