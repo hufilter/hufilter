@@ -16,6 +16,7 @@ openspeedtest.com##^script:has-text(testadblock)
 port.hu##^script:has-text(popUpBannerBox Ad300 hirdetes_box)
 szeretlekmagyarorszag.hu##^script:has-text(window.atob)
 
+naphire.hu##+js(aeld, load, reklám blokkolókat)
 24.hu##+js(acis, window._ceCTSData, hirdetések)
 angol-magyar-szotar.hu##+js(set, adblock, false)
 calculat.org##+js(nostif, adstest, 4000)

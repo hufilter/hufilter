@@ -94,6 +94,7 @@ hu##[class*="overlayBg"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+naphire.hu##.ad__cont
 eredmenyek.com##div[data-zone-group]
 hdmozi.hu##.asgdc
 magyarorszagom.hu##.bannerContent
@@ -610,7 +611,6 @@ itmania.hu##.rckaexclude
 itmania.hu##[class*="hirdetes"]
 ize.hu##.banner
 jo.444.hu##div:has(> #ap-site-header-top)
-jofogas.hu##.adverticum-anchor-banner
 jofogas.hu###roadblock-adcum-zone
 jofogas.hu##.r_above-placeholder
 ! https://github.com/uBlockOrigin/uAssets/issues/23271
@@ -918,7 +918,7 @@ pcforum.hu,prog.hu###zone-titleheader
 pcforum.hu##.zone[data-zoneid]
 pcforum.hu###zone-titleheader
 pcforum.hu##.loaded[rel="swappable"]
-pcforum.hu##div[id][rel].loaded:has(ins), div[id][rel].loaded:has(iframe)
+pcforum.hu##div[id][rel].loaded:has(> ins)
 pcguru.hu##.banner-content
 pcguru.hu##a[href*="banner_click"]
 pdafanclub.com##[id*="banner"]
