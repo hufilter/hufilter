@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: Zzx4pviE7huXVXGX7FIuXA
-! Version: 202601121115
+! Checksum: ugyUz4FzlZUxPzmJJfS4aA
+! Version: 202601121117
 ! Title: Hufilter for AdGuard
-! Last modified: 12 Jan 2026 11:15 UTC
+! Last modified: 12 Jan 2026 11:17 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2173,7 +2173,7 @@ naphire.hu#@#.adslot_1
 naphire.hu#@#.adslot
 naphire.hu#@#.ad_unit
 naphire.hu#@#.ad_slot
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=naphire.hu 1Code has comments. Press enter to view.
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=naphire.hu
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/215354
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
