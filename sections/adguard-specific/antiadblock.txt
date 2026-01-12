@@ -37,7 +37,7 @@ naphire.hu#@#.adslot_1
 naphire.hu#@#.adslot
 naphire.hu#@#.ad_unit
 naphire.hu#@#.ad_slot
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=naphire.hu 1Code has comments. Press enter to view.
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=naphire.hu
 !#endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/215354
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
