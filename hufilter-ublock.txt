@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 7RtYwqAa7Lhdn/2e9Zlnww
-! Version: 202601061544
+! Checksum: lbKOExXiENAksKc/XvH0AA
+! Version: 202601121115
 ! Title: Hufilter for uBO
-! Last modified: 06 Jan 2026 15:44 UTC
+! Last modified: 12 Jan 2026 11:15 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -115,6 +115,7 @@ hu##[class*="overlayBg"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+naphire.hu##.ad__cont
 eredmenyek.com##div[data-zone-group]
 hdmozi.hu##.asgdc
 magyarorszagom.hu##.bannerContent
@@ -631,7 +632,6 @@ itmania.hu##.rckaexclude
 itmania.hu##[class*="hirdetes"]
 ize.hu##.banner
 jo.444.hu##div:has(> #ap-site-header-top)
-jofogas.hu##.adverticum-anchor-banner
 jofogas.hu###roadblock-adcum-zone
 jofogas.hu##.r_above-placeholder
 ! https://github.com/uBlockOrigin/uAssets/issues/23271
@@ -939,7 +939,7 @@ pcforum.hu,prog.hu###zone-titleheader
 pcforum.hu##.zone[data-zoneid]
 pcforum.hu###zone-titleheader
 pcforum.hu##.loaded[rel="swappable"]
-pcforum.hu##div[id][rel].loaded:has(ins), div[id][rel].loaded:has(iframe)
+pcforum.hu##div[id][rel].loaded:has(> ins)
 pcguru.hu##.banner-content
 pcguru.hu##a[href*="banner_click"]
 pdafanclub.com##[id*="banner"]
@@ -2146,6 +2146,7 @@ magyarhang.org,hang.hu##^script:has-text(ai_run_)
 openspeedtest.com##^script:has-text(testadblock)
 port.hu##^script:has-text(popUpBannerBox Ad300 hirdetes_box)
 szeretlekmagyarorszag.hu##^script:has-text(window.atob)
+naphire.hu##+js(aeld, load, reklám blokkolókat)
 24.hu##+js(acis, window._ceCTSData, hirdetések)
 angol-magyar-szotar.hu##+js(set, adblock, false)
 calculat.org##+js(nostif, adstest, 4000)
