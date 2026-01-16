@@ -1,7 +1,7 @@
-# Checksum: KnuaUqglpVRDtkPBGQo+Fg
-# Version: 202512301037
+# Checksum: znMUjOq300V3TmgKWf0f7g
+# Version: 202601162226
 # Title: Hufilter Hosts file
-# Last modified: 30 Dec 2025 10:37 UTC
+# Last modified: 16 Jan 2026 22:26 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -120,7 +120,7 @@
 0.0.0.0 azsiacentrum.hu
 0.0.0.0 kinaiwebaruhaz.hu
 0.0.0.0 maplin.hu
-0.0.0.0 microelectrónica.es
+0.0.0.0 xn--microelectrnica-5rb.es
 0.0.0.0 mikroelektronik.hu
 0.0.0.0 petpoolalarm.com
 0.0.0.0 sexmeup.hu

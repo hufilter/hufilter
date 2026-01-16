@@ -1,7 +1,7 @@
-# Checksum: 0iy8KaHyaWpVZR0WuKTL4w
-# Version: 202512301041
+# Checksum: tsXK78kVsnWBGS4xCHSWAA
+# Version: 202601162226
 # Title: Hufilter DNS
-# Last modified: 30 Dec 2025 10:41 UTC
+# Last modified: 16 Jan 2026 22:26 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -120,7 +120,7 @@ azsiacenter.hu
 azsiacentrum.hu
 kinaiwebaruhaz.hu
 maplin.hu
-microelectrónica.es
+xn--microelectrnica-5rb.es
 mikroelektronik.hu
 petpoolalarm.com
 sexmeup.hu
