@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /RP7P+unEb4fT9oxDSCl0w
-! Version: 202601121115
+! Checksum: nr1X9JMi4B+H5p1H2leJZQ
+! Version: 202601161043
 ! Title: Hufilter Basic
-! Last modified: 12 Jan 2026 11:15 UTC
+! Last modified: 16 Jan 2026 10:43 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -386,7 +386,7 @@ eropolis.hu##[class*="banner"]
 es.hu##[class*="banner"]
 es.hu##[id*="banner"]
 es.hu##IFRAME
-esport1.hu##.adaptiveAd
+esport1.hu##.adaptiveStyle, [class^="cls-"]:has(> .adaptiveStyle)
 est.hu##[class*="_adv "]
 est.hu##[class*="banner"]
 eudomain.eu##div[id*="col_2"]
@@ -849,6 +849,8 @@ muhelynet.hu###header
 mult-kor.hu##[align="center"] > a[href*="banner"]
 mult-kor.hu##[class^="ui-dialog"]
 multiplay.hu##[id*="banner"]
+musicdaily.hu###articlead
+musicdaily.hu##.wp-block-embed:has(iframe)
 napidroid.hu##.right
 napidroid.hu###custom_html-3
 napidroid.hu###custom_html-4
@@ -939,7 +941,7 @@ pcforum.hu,prog.hu###zone-titleheader
 pcforum.hu##.zone[data-zoneid]
 pcforum.hu###zone-titleheader
 pcforum.hu##.loaded[rel="swappable"]
-pcforum.hu##div[id][rel].loaded:has(> ins)
+pcforum.hu,prog.hu##div[id][rel].loaded:has(> ins)
 pcguru.hu##.banner-content
 pcguru.hu##a[href*="banner_click"]
 pdafanclub.com##[id*="banner"]
