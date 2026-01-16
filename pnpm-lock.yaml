@@ -32,6 +32,9 @@ importers:
       markdownlint-cli:
         specifier: ^0.47.0
         version: 0.47.0
+      punycode:
+        specifier: ^2.3.1
+        version: 2.3.1
       tldts:
         specifier: ^7.0.19
         version: 7.0.19
@@ -892,6 +895,10 @@ packages:
 
   punycode.js@2.3.1:
     resolution: {integrity: sha512-uxFIHU0YlHYhDQtV4R9J6a52SLx28BCjT+4ieh7IGbgwVJWO+km431c4yRlREUAsAmt/uMjQUyQHNEPf0M39CA==}
+    engines: {node: '>=6'}
+
+  punycode@2.3.1:
+    resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
   queue-microtask@1.2.3:
@@ -2040,6 +2047,8 @@ snapshots:
       '@napi-rs/nice': 1.1.1
 
   punycode.js@2.3.1: {}
+
+  punycode@2.3.1: {}
 
   queue-microtask@1.2.3: {}
 

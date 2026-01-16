@@ -5,6 +5,7 @@ import { fileURLToPath } from 'node:url';
 
 import dateFormat from 'dateformat';
 import tldts from 'tldts';
+import punycode from 'punycode/punycode.js';
 import { FilterListParser, RuleCategory } from '@adguard/agtree';
 
 // Filters structure
@@ -136,7 +137,7 @@ const getDnsCompatibleDomains = (content) => {
     } else if (isAdblockWildcard) {
       adblockWildcardDomains.add(cleanedPattern);
     } else {
-      domains.add(cleanedPattern);
+      domains.add(punycode.toASCII(cleanedPattern));
     }
   }
 
