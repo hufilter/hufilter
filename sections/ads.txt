@@ -365,7 +365,7 @@ eropolis.hu##[class*="banner"]
 es.hu##[class*="banner"]
 es.hu##[id*="banner"]
 es.hu##IFRAME
-esport1.hu##.adaptiveAd
+esport1.hu##.adaptiveStyle, [class^="cls-"]:has(> .adaptiveStyle)
 est.hu##[class*="_adv "]
 est.hu##[class*="banner"]
 eudomain.eu##div[id*="col_2"]
