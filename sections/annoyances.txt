@@ -412,6 +412,7 @@ help.semmelweis.hu#?#.modal:has(h3:contains(Sütik használata)):has(button:cont
 ||*.hu/*eu_cookie_compliance.css$stylesheet
 ||*.hu/*wp-content/plugins/complianz-gdpr/*.js$script
 ||*.hu/*wp-content/plugins/complianz-gdpr/*.css$stylesheet
-||cookielaw.org^$third-party
+! https://github.com/uBlockOrigin/uAssets/issues/31377#issuecomment-3706804798
+! ||cookielaw.org^$third-party
 ||unideb.hu/*/szechenyi-2020-strukturalis-alap-logo.png$image
 ||ittjartam.hu/ajax.php?action=offerblogcikk
