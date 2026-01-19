@@ -869,7 +869,7 @@ nepszava.us##[id^="fancybox-"]
 nepszava.us##[id^="myftp"]
 nepszava.hu##.ad
 netbulvar.eu##[id*="advertisment"]
-netmozi.com,megnezed.com##div[align="center"]:has(> a)
+megnezed.com##div[align="center"]:has(> a)
 nice.hu##[class*="banner"]
 nkmenergia.hu###tab-widget
 nlc.hu##.banner-container
