@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nr1X9JMi4B+H5p1H2leJZQ
-! Version: 202601161043
+! Checksum: e7gsg4OxOGdGNv1TK4nFRg
+! Version: 202601191020
 ! Title: Hufilter Basic
-! Last modified: 16 Jan 2026 10:43 UTC
+! Last modified: 19 Jan 2026 10:20 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -563,7 +563,8 @@ humormagazin.com##i > .recommendation-holder:nth-of-type(2)
 hungliaonline.com##.tqWLsnEEqeEw-bg
 hungliaonline.com##[style="background: rgb(255, 255, 255); max-width: 720px; z-index: 9999999; opacity: 1; visibility: visible;"]
 hungliaonline.com##[style="z-index: 999999; background: rgba(0, 0, 0, 0.85098); display: block;"]
-hunhir.hu##[class*="_ad"]
+huntorrent.org##.ads-container
+huntorrent.org##.banner-center
 hupont.hu##[id*="-reklam"]
 hupont.hu##[id*="fancybox"]
 hupont.hu##[id^="hirdetes_jobb_2"] + div + div
