@@ -1263,7 +1263,6 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||lolmarkt.hu/banner/$image
 ||love.hu/design/*hirdetes*.
 ||magyar-elektronika.hu/images/banners/$image
-||magyarszo.com
 ||mandiner.hu/*/banner/$image
 ||mandiner.hu/images/design/*-bg.$image
 ||medicalonline.hu/*hirdetes
