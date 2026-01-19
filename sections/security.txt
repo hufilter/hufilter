@@ -16,3 +16,4 @@
 ||mikroelektronik.hu^$document
 ||petpoolalarm.com^$document
 ||sexmeup.hu^$document
+||magyarszo.com^$document
