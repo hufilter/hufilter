@@ -1235,7 +1235,6 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||hirado.hu/Newsreel/*_bg_*.$image
 ||hircsarda.hu/ads/
 ||hirek.sk/banner/$image
-||hosszupuskasub.com/css/*skin.jpg$image
 ||hrportal.hu/images/banner/$image
 ||hupont.hu/hirdetes/
 ||hwsw.hu/kepek/hirek/2025/04/arm_final_5.jpg$image
@@ -1276,7 +1275,6 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||napidroid.hu/*/*logo$image
 ||napocska.hu/images/*_advert*.$image
 ||net-solutions.hu/banner/$image
-||noplaza.hu/banner/$image
 ||nso.hu/*/sponsoration/*.
 ||okmanyiroda.hu/banner.html$subdocument
 ||p3k.hu/*_hatter*.$image

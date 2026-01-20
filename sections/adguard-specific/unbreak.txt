@@ -31,7 +31,6 @@ automotor.hu#$##_cikk_tartalom_rb1 { margin-top: 0 !important; }
 automotor.hu#$#div.layoutContent { margin-top: 0 !important; }
 automotor.hu#$#div.postContent { margin-top: 0 !important; }
 budapestkornyeke.hu#$#body { padding-top: 0 !important; }
-hosszupuskasub.com#$# * { cursor: auto !important; }
 hu.ign.com#$#div.article-headline { margin-top: 44px !important; }
 hwsw.hu#$#.has-gate-banner { top: 30px !important; }
 index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu#$#body { overflow: auto !important; }

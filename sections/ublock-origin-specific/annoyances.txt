@@ -10,7 +10,6 @@
 !-------------------------------------------------------------------------------!
 bme.hu,unideb.hu##^style:has-text(eu-cookie-withdraw-banner)
 egeszsegkalauz.hu##^script:has-text(Quantcast Choice)
-filmvilag.me##^script:has-text(ShadowRoot)
 gamer.hu##^script:has-text(cli_cookiebar_)
 ! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##^script[data-cfasync="false"]
@@ -25,7 +24,6 @@ fizz.hu##+js(set-cookie, cookie.consent.finished, 1)
 fizz.hu##+js(set-cookie, gdpr_level, 1)
 help.semmelweis.hu#?#.modal:has(h3:has-text(Sütik használata)):has(button:has-text(Elfogadás))
 hetek.hu##+js(rc, modal-open, body)
-hosszupuskasub.com##+js(window.open-defuser.js)
 kaveverzum.hu##body:style(position: static !important;)
 laptophardware.hu,milestone66.hu,reformsziget.hu,paplanvilag.hu,foodker.hu##+js(set, cookie_alert_overlay, noopFunc)
 lifestory.hu##+js(ra, oncontextmenu)
@@ -61,6 +59,5 @@ mandiner.hu##.modal[role="dialog"]
 hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
 ! https://github.com/hufilter/hufilter/issues/11
-filmvilag.me##[style]:has(.adslot_1)
 otpportalok.hu###pop_1:has(> .suti)
 unideb.hu##.sendi-banner-block-container
