@@ -283,6 +283,8 @@ computerworld.hu,pcwplus.hu,gsplus.hu,puliwood.hu,computertrends.hu##.share-arti
 csaladinet.hu##[class*="-adv"]
 csaladinet.hu##[class*="adv-"]
 csaladinet.hu###bdism1
+csongradihirek.hu##.art-sidebar1
+csongradihirek.hu##.art-sidebar2
 csupasport.hu###fadeandscale_background
 csupasport.hu###fadeandscale_wrapper
 cyberpress.hu##.sb-right > div:first-child
