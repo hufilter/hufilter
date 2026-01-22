@@ -11,6 +11,7 @@
 divany.hu,totalcar.hu,totalbike.hu$$script[tag-content="window.onload = window.onfocus"]
 hazipatika.com$$script[tag-content="a2blckLayer"]
 hungliaonline.com$$script[tag-content="adblocker"]
+magyarhang.org,hang.hu$$script[tag-content="ai_run_"]
 openspeedtest.com$$script[tag-content="testadblock"]
 port.hu$$script[tag-content="popUpBannerBox Ad300 hirdetes_box"]
 szeretlekmagyarorszag.hu$$script[tag-content="window.atob"]
