@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: 9pxXpcLLGinseYmgJ/G5Kw
-! Version: 202601230827
+! Checksum: JJVLm4sBmxwNOk3BK7kZsg
+! Version: 202601230829
 ! Title: Hufilter for AdGuard
-! Last modified: 23 Jan 2026 08:27 UTC
+! Last modified: 23 Jan 2026 08:29 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -754,8 +754,8 @@ ma.hu##[name*="banner"]
 mafab.hu##.goAds
 mafab.hu##.visible-lg.container
 mafab.hu##div[class="container-full"][style="background:#fff"]:has(.topadv)
-magyarhang.org,hang.hu##.mc-modal:has(iframe)
-magyarhang.org,hang.hu##[id^="um-"]:has(.fb-page.fb_iframe_widget)
+hang.hu##.mc-modal:has(iframe)
+hang.hu##[id^="um-"]:has(.fb-page.fb_iframe_widget)
 magyarhirlap.hu##.ad-magnum
 magyarhirlap.hu##.ad-verticalfull
 magyarhirlap.hu##.partners
@@ -1655,7 +1655,7 @@ life.hu##.newsletter-layer
 life.hu##[data-module-name="hirlevel"]
 life.hu###beuszoAjanlo
 life.hu###floating-recommendation
-magyarhang.org,hang.hu##[class^="moove-gdpr-"]
+hang.hu##[class^="moove-gdpr-"]
 magyarhirlap.hu###eucookielaw
 ! https://github.com/hufilter/hufilter/issues/251
 magyarnemzet.hu##.newsletter-box
@@ -2090,7 +2090,7 @@ unideb.hu##.sendi-banner-block-container
 divany.hu,totalcar.hu,totalbike.hu$$script[tag-content="window.onload = window.onfocus"]
 hazipatika.com$$script[tag-content="a2blckLayer"]
 hungliaonline.com$$script[tag-content="adblocker"]
-magyarhang.org,hang.hu$$script[tag-content="ai_run_"]
+hang.hu$$script[tag-content="ai_run_"]
 openspeedtest.com$$script[tag-content="testadblock"]
 port.hu$$script[tag-content="popUpBannerBox Ad300 hirdetes_box"]
 szeretlekmagyarorszag.hu$$script[tag-content="window.atob"]
@@ -2105,8 +2105,8 @@ embed.indavideo.hu#%#//scriptlet('set-constant', 'videodata.adBlockEnabled', '0'
 hazipatika.com#%#//scriptlet('abort-current-inline-script', 'window._ceCTSData', 'a2blckLayer')
 huaweiblog.hu#%#//scriptlet('set-constant', 'tie.ad_blocker_detector', 'undefined')
 karpathir.com#%#//scriptlet('abort-on-property-write', 'getComputedStyle')
-magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', 'ai_run_')
-magyarhang.org,hang.hu#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'ai_run_')
+hang.hu#%#//scriptlet('abort-current-inline-script', 'document.addEventListener', 'ai_run_')
+hang.hu#%#//scriptlet('abort-current-inline-script', 'document.getElementById', 'ai_run_')
 ! https://github.com/AdguardTeam/AdguardFilters/issues/222186
 naphire.hu#%#//scriptlet('prevent-addEventListener', 'load', 'reklám blokkolókat')
 !#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
