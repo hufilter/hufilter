@@ -885,6 +885,8 @@ pcforum.hu###zone-titleheader
 pcforum.hu##.loaded[rel="swappable"]
 pcforum.hu,prog.hu##div[id][rel].loaded:has(> ins)
 pcguru.hu##.banner-content
+pcguru.hu##.block.eset
+pcguru.hu##.bnr.bnr-holder-top, .bnr.bnr-holder
 pcguru.hu##a[href*="banner_click"]
 pdafanclub.com##[id*="banner"]
 pecsma.hu###kutu
