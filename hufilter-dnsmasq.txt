@@ -1,7 +1,7 @@
-# Checksum: dwmBIg0Vcbu+18+lVOpf3w
-# Version: 202601162226
+# Checksum: RaN8MmQiixlCUGI8GeHEoA
+# Version: 202601230827
 # Title: Hufilter DNSMasq
-# Last modified: 16 Jan 2026 22:26 UTC
+# Last modified: 23 Jan 2026 08:27 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -124,3 +124,4 @@ local=/xn--microelectrnica-5rb.es/
 local=/mikroelektronik.hu/
 local=/petpoolalarm.com/
 local=/sexmeup.hu/
+local=/magyarszo.com/

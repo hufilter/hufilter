@@ -1,7 +1,7 @@
-# Checksum: c/Is88tLnNTDADtKEiuUeg
-# Version: 202601162226
+# Checksum: 9V2iwHlypLPuMUAlGoBhpg
+# Version: 202601230827
 # Title: Hufilter Pi-hole
-# Last modified: 16 Jan 2026 22:26 UTC
+# Last modified: 23 Jan 2026 08:27 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -124,3 +124,4 @@ xn--microelectrnica-5rb.es
 mikroelektronik.hu
 petpoolalarm.com
 sexmeup.hu
+magyarszo.com
