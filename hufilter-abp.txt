@@ -1,8 +1,8 @@
 [Adblock Plus 3.9.4]
-! Checksum: 8GfWG3h1CgXPXgcBiDNoMg
-! Version: 202601290942
+! Checksum: TFnQiAeZCHWUjgpIns0YEQ
+! Version: 202601291002
 ! Title: Hufilter for ABP
-! Last modified: 29 Jan 2026 09:42 UTC
+! Last modified: 29 Jan 2026 10:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1867,6 +1867,8 @@ hazipatika.com##.a2blckLayer
 ! https://github.com/AdguardTeam/AdguardFilters/issues/126709
 videa.hu,videaloop.hu#@#.adBanner
 videa.hu,videaloop.hu##.top-video-container-banner
+! https://github.com/AdguardTeam/AdguardFilters/issues/223700
+media1.hu#@#.ad-box:not(#ad-banner):not(:empty)
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
