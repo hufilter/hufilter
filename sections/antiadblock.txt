@@ -20,6 +20,9 @@ hazipatika.com##.a2blckLayer
 videa.hu,videaloop.hu#@#.adBanner
 videa.hu,videaloop.hu##.top-video-container-banner
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/223700
+media1.hu#@#.ad-box:not(#ad-banner):not(:empty)
+
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!

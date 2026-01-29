@@ -65,6 +65,9 @@ rimkereso.hu#%#//scriptlet('set-constant', 'detect_adblock', 'falseFunc')
 
 karpathir.com##[class^="k"][class*="-container"][class*="-2"][class$="-hide"]
 
+! https://github.com/AdguardTeam/AdguardFilters/issues/223700
+media1.hu#$#[id^="elementor-adblock-detection-"][aria-hidden="true"] { display: block !important; }
+
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
