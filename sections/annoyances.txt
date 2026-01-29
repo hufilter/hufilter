@@ -167,6 +167,7 @@ hestore.hu###cookiewarnbar
 hirado.hu##.hover_bkgr_fricc:has(.facebookPopupCloseButton)
 hiros.hu###cookieAlertBox
 hoxa.hu###cookiekezeles
+hvg.hu##.election-popup
 hvg.hu##.hvg_push
 hellovidek.hu###ajanlo
 hellovidek.hu##.box_remote
