@@ -71,7 +71,7 @@
     "markdownlint": "^0.40.0",
     "markdownlint-cli": "^0.47.0",
     "punycode": "^2.3.1",
-    "tldts": "^7.0.21"
+    "tldts": "^7.0.22"
   },
   "engines": {
     "node": ">=20.0.0"
