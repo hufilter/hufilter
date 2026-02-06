@@ -1191,7 +1191,7 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||24.hu/*/sponsoredpost.css$stylesheet
 ||24.hu/*/sponsoredpost.js$script
 ||444.hu/*/ease/
-||abo-widget.xyz
+||abo-widget.xyz^$third-party,script,domain=gyakorikerdesek.hu
 ||ado.hu/banners/$image
 ||affiliate.hu$subdocument
 ||affiliation.arukereso.hu/pbox/
