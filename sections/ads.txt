@@ -430,6 +430,7 @@ gyakorikerdesek.hu##div.reklam_jobbra
 gyakorikerdesek.hu##div[style*="text-align"]:has(> a > img)
 gyakorikerdesek.hu##td[style="width: 10px;"]:empty
 gyakorikerdesek.hu##td.txtcenter:has(>script+ins)
+gyakorikerdesek.hu##div[style^="width: 729px"]
 gyaloglo.hu###banner
 gyaloglo.hu##div[class*="Advert"]
 gyartastrend.hu##[class*="contentBanner"]
@@ -1190,6 +1191,7 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||24.hu/*/sponsoredpost.css$stylesheet
 ||24.hu/*/sponsoredpost.js$script
 ||444.hu/*/ease/
+||abo-widget.xyz^$third-party,script,domain=gyakorikerdesek.hu
 ||ado.hu/banners/$image
 ||affiliate.hu$subdocument
 ||affiliation.arukereso.hu/pbox/
@@ -1321,7 +1323,6 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||vezess.hu/data/files/kapcsolodo_anyagok/szponz_hatterek/$image
 ||vezess2.p3k.hu/app/uploads/*nyeremenyjatek$image
 ||vg.hu/banners/$image
-||webminute.hu/bannerek/$image
 ||zeneszoveg.hu/gfx/skin-*/*.
 
 ||a.adnium.com^
@@ -1426,3 +1427,4 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||tripod.com^$third-party
 ||tripod.lycos.com^$third-party
 ||tulajdonostol.com^$third-party
+||webminute.hu^$third-party
