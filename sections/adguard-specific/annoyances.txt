@@ -1,5 +1,5 @@
 !
-! This section file contains rules for blocking annoying elements on websites, such as cookie notices, newsletter
+! This section file contains rules for blocking annoying elements on websites, such as newsletter
 ! subscription prompts, floating elements and so on.
 ! The rules in this section should be AdGuard-specific, but cross-compatible rules are also allowed, if they are
 ! not working properly without the AdGuard-specific rules.
@@ -8,43 +8,24 @@
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
-bme.hu,unideb.hu$$style[tag-content="eu-cookie-withdraw-banner"]
-egeszsegkalauz.hu$$script[tag-content="Quantcast Choice"]
-gamer.hu$$script[tag-content="cli_cookiebar_"]
-! https://github.com/hufilter/hufilter/issues/8
 napiszar.com$$script[data-cfasync="false"]
 portfolio.hu$$script[tag-content="fbmodal-title"]
 
 arcanum.com#%#//scriptlet('set-constant', 'show_modal', 'noopFunc')
 blikk.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '3')
-onlinepenztarca.hu#%#//scriptlet('set-local-storage-item', 'felhasznalo_cookie_preferencia', '0')
 erzsebetvaros.hu#%#//scriptlet('set-session-storage-item', 'popupClosed', 'true')
-! https://github.com/hufilter/hufilter/issues/520
-fizz.hu#%#//scriptlet('set-cookie', 'cookie.consent.finished', '1')
-fizz.hu#%#//scriptlet('set-cookie', 'gdpr_level', '1')
 hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
-kaveverzum.hu#$#body { position: static !important; }
-laptophardware.hu,milestone66.hu,reformsziget.hu,paplanvilag.hu,foodker.hu#%#//scriptlet('set-constant', 'cookie_alert_overlay', 'noopFunc')
 lifestory.hu#%#//scriptlet('remove-attr', 'oncontextmenu')
-! https://github.com/AdguardTeam/AdguardFilters/issues/128532
-magyarorszag.hu#%#//scriptlet('set-cookie', 'cookies_ok', '1')
 mandiner.hu#%#//scriptlet('remove-class', 'modal-open', 'body', 'stay')
 ! https://github.com/hufilter/hufilter/issues/312
 mindmegette.hu#%#//scriptlet('remove-attr', 'href', '[href*="ad.adverticum.net"]')
-! https://github.com/hufilter/hufilter/issues/8
 napiszar.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'setTimeout')
-otpportalok.hu#%#//scriptlet('remove-class', 'body', 'no_scroll', 'complete')
-skanzen.hu#%#//scriptlet('set-local-storage-item', 'skanzen-cookie-consent', 'false')
 traffihunter.hu#%#//scriptlet('remove-class', 'darken', 'body')
 vezess.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave', 'showFbPopup')
 vezess.hu#%#//scriptlet('prevent-setTimeout', 'FbExit', '3000')
 vezess.hu#%#//scriptlet('remove-class', 'blurry', 'body > :not(.m-fbPopup)', 'stay')
 
 origo.hu#$#.oh-holder.open { z-index: 9999 !important; }
-!#if (!adguard_app_ios && !adguard_ext_android_cb)
-otpbank.hu##.cdk-overlay-container:has(ib-bs-recommended-analytics-consent)
-otpbank.hu#$#html { position: static !important; }
-!#endif
 myonlineradio.hu#$#.js-appAdv { display: none !important; }
 myonlineradio.hu#$#.cover-slider-cont { display: block !important; }
 noizz.hu#$#.leavingPopupLayer { display: none !important; }

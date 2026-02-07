@@ -38,6 +38,7 @@ We use the same file structure in each section directory:
 - `ads.txt` - Contains rules for blocking advertisements.
 - `annoyances.txt` - Contains rules for blocking annoying elements on websites, such as cookie notices, newsletter
   subscription prompts, floating elements and so on.
+- `cookies.txt` - Contains rules for blocking cookie notices.
 - `antiadblock.txt` - Contains rules for bypassing anti-adblock protections.
 - `selfpromo.txt` - Contains rules for blocking self-promotion and donation requests.
 - `trackers.txt` - Contains rules for blocking trackers and other privacy-invasive technologies.

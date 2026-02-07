@@ -30,11 +30,13 @@
     "sections": [
       "ads.txt",
       "annoyances.txt",
+      "cookies.txt",
       "antiadblock.txt",
       "trackers.txt",
       "unbreak.txt",
       "ublock-origin-specific/ads.txt",
       "ublock-origin-specific/annoyances.txt",
+      "ublock-origin-specific/cookies.txt",
       "ublock-origin-specific/antiadblock.txt",
       "ublock-origin-specific/unbreak.txt",
       "security.txt"
@@ -47,11 +49,13 @@
     "sections": [
       "ads.txt",
       "annoyances.txt",
+      "cookies.txt",
       "antiadblock.txt",
       "trackers.txt",
       "unbreak.txt",
       "adguard-specific/ads.txt",
       "adguard-specific/annoyances.txt",
+      "adguard-specific/cookies.txt",
       "adguard-specific/antiadblock.txt",
       "adguard-specific/unbreak.txt",
       "security.txt"

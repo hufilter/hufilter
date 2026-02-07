@@ -1,0 +1,28 @@
+!
+! This section file contains rules for cookie notices.
+! The rules in this section should be uBlock-specific, but cross-compatible rules are also allowed, if they are
+! not working properly without the uBlock-specific rules.
+!
+
+!-------------------------------------------------------------------------------!
+!------ Specific cosmetic filters ----------------------------------------------!
+!-------------------------------------------------------------------------------!
+bme.hu,unideb.hu##^style:has-text(eu-cookie-withdraw-banner)
+egeszsegkalauz.hu##^script:has-text(Quantcast Choice)
+gamer.hu##^script:has-text(cli_cookiebar_)
+
+onlinepenztarca.hu##+js(set-local-storage-item, felhasznalo_cookie_preferencia, 0)
+! https://github.com/hufilter/hufilter/issues/520
+fizz.hu##+js(set-cookie, cookie.consent.finished, 1)
+fizz.hu##+js(set-cookie, gdpr_level, 1)
+! https://github.com/AdguardTeam/AdguardFilters/issues/128532
+magyarorszag.hu##+js(rc, bottom-l, body, stay)
+magyarorszag.hu##+js(rc, bottom-s, body, stay)
+laptophardware.hu,milestone66.hu,reformsziget.hu,paplanvilag.hu,foodker.hu##+js(set, cookie_alert_overlay, noopFunc)
+skanzen.hu##+js(set-local-storage-item, skanzen-cookie-consent, false)
+
+kaveverzum.hu##body:style(position: static !important;)
+otpbank.hu##html:style(position: static !important;)
+
+help.semmelweis.hu#?#.modal:has(h3:has-text(Sütik használata)):has(button:has-text(Elfogadás))
+otpbank.hu##.cdk-overlay-container:has(ib-bs-recommended-analytics-consent)

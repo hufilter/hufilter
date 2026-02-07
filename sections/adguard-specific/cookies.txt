@@ -1,0 +1,25 @@
+!
+! This section file contains rules for blocking cookie notices.
+! The rules in this section should be AdGuard-specific, but cross-compatible rules are also allowed, if they are
+! not working properly without the AdGuard-specific rules.
+!
+
+bme.hu,unideb.hu$$style[tag-content="eu-cookie-withdraw-banner"]
+egeszsegkalauz.hu$$script[tag-content="Quantcast Choice"]
+gamer.hu$$script[tag-content="cli_cookiebar_"]
+
+onlinepenztarca.hu#%#//scriptlet('set-local-storage-item', 'felhasznalo_cookie_preferencia', '0')
+! https://github.com/hufilter/hufilter/issues/520
+fizz.hu#%#//scriptlet('set-cookie', 'cookie.consent.finished', '1')
+fizz.hu#%#//scriptlet('set-cookie', 'gdpr_level', '1')
+kaveverzum.hu#$#body { position: static !important; }
+laptophardware.hu,milestone66.hu,reformsziget.hu,paplanvilag.hu,foodker.hu#%#//scriptlet('set-constant', 'cookie_alert_overlay', 'noopFunc')
+! https://github.com/AdguardTeam/AdguardFilters/issues/128532
+magyarorszag.hu#%#//scriptlet('set-cookie', 'cookies_ok', '1')
+skanzen.hu#%#//scriptlet('set-local-storage-item', 'skanzen-cookie-consent', 'false')
+otpportalok.hu#%#//scriptlet('remove-class', 'body', 'no_scroll', 'complete')
+
+!#if (!adguard_app_ios && !adguard_ext_android_cb)
+otpbank.hu##.cdk-overlay-container:has(ib-bs-recommended-analytics-consent)
+otpbank.hu#$#html { position: static !important; }
+!#endif

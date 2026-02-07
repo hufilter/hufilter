@@ -37,6 +37,7 @@ Hasonló fájlstruktúrát használunk minden szekciókönyvtárban:
 - `ads.txt` - Szabályokat tartalmaz a hirdetések blokkolásához.
 - `annoyances.txt` - Szabályokat tartalmaz a bosszantó elemek blokkolásához, például a sütikkel kapcsolatos értesítések,
   hírlevél-feliratkozásra ösztönző felugró ablakok, lebegő elemek stb.
+- `cookies.txt` - Szabályokat tartalmaz a cookie értesítések blokkolásához.
 - `antiadblock.txt` - Szabályokat tartalmaz az anti-adblock védelem kikerüléséhez.
 - `selfpromo.txt` - Szabályokat tartalmaz az önpromóció és adománykérések blokkolásához.
 - `trackers.txt` - Szabályokat tartalmaz a követők és egyéb adatvédelmet sértő technológiák blokkolásához.

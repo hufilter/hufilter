@@ -1,5 +1,5 @@
 !
-! This section file contains rules for blocking annoying elements on websites, such as cookie notices, newsletter
+! This section file contains rules for blocking annoying elements on websites, such as newsletter
 ! subscription prompts, floating elements and so on.
 ! The rules in this section should be uBlock-specific, but cross-compatible rules are also allowed, if they are
 ! not working properly without the uBlock-specific rules.
@@ -8,34 +8,18 @@
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
-bme.hu,unideb.hu##^style:has-text(eu-cookie-withdraw-banner)
-egeszsegkalauz.hu##^script:has-text(Quantcast Choice)
-gamer.hu##^script:has-text(cli_cookiebar_)
-! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##^script[data-cfasync="false"]
 portfolio.hu##^script:has-text(fbmodal-title)
 
 arcanum.com##+js(set, show_modal, noopFunc)
 blikk.hu##+js(ra, style, body, stay)
-onlinepenztarca.hu##+js(set-local-storage-item, felhasznalo_cookie_preferencia, 0)
 erzsebetvaros.hu##+js(set-session-storage-item, popupClosed, true)
-! https://github.com/hufilter/hufilter/issues/520
-fizz.hu##+js(set-cookie, cookie.consent.finished, 1)
-fizz.hu##+js(set-cookie, gdpr_level, 1)
-help.semmelweis.hu#?#.modal:has(h3:has-text(Sütik használata)):has(button:has-text(Elfogadás))
 hetek.hu##+js(rc, modal-open, body)
-kaveverzum.hu##body:style(position: static !important;)
-laptophardware.hu,milestone66.hu,reformsziget.hu,paplanvilag.hu,foodker.hu##+js(set, cookie_alert_overlay, noopFunc)
 lifestory.hu##+js(ra, oncontextmenu)
-! https://github.com/AdguardTeam/AdguardFilters/issues/128532
-magyarorszag.hu##+js(rc, bottom-l, body, stay)
-magyarorszag.hu##+js(rc, bottom-s, body, stay)
 mandiner.hu##+js(rc, modal-open, body, stay)
 ! https://github.com/hufilter/hufilter/issues/312
 mindmegette.hu##+js(remove-attr, href, [href*="ad.adverticum.net"])
-! https://github.com/hufilter/hufilter/issues/8
 napiszar.com##+js(acis, document.createElement, setTimeout)
-skanzen.hu##+js(set-local-storage-item, skanzen-cookie-consent, false)
 traffihunter.hu##+js(rc, darken, body)
 otpportalok.hu##+js(rc, body, no_scroll, complete)
 vezess.hu##+js(aeld, mouseleave, showFbPopup)
@@ -44,20 +28,16 @@ vezess.hu##+js(rc, blurry, body > :not(.m-fbPopup), stay)
 
 bme.hu###floating-logo-container
 origo.hu##.oh-holder.open:style(z-index: 9999!important;)
-otpbank.hu##.cdk-overlay-container:has(ib-bs-recommended-analytics-consent)
-otpbank.hu##html:style(position: static !important;)
 myonlineradio.hu##.js-appAdv:style(display: none !important;)
 myonlineradio.hu##.cover-slider-cont:style(display: block !important;)
 noizz.hu##.leavingPopupLayer:style(display: none !important;)
 noizz.hu##body:style(overflow: auto !important;)
 
-! https://github.com/hufilter/hufilter/issues/212
 traffihunter.hu##.ooono_promo
 vezess.hu##.m-fbPopup
 mandiner.hu##.modal-backdrop
 mandiner.hu##.modal[role="dialog"]
 hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
-! https://github.com/hufilter/hufilter/issues/11
 otpportalok.hu###pop_1:has(> .suti)
 unideb.hu##.sendi-banner-block-container
