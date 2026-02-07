@@ -1,7 +1,7 @@
-# Checksum: 9V2iwHlypLPuMUAlGoBhpg
-# Version: 202601230827
+# Checksum: qrnNdsA25i24IbCdxcT3Wg
+# Version: 202602070945
 # Title: Hufilter Pi-hole
-# Last modified: 23 Jan 2026 08:27 UTC
+# Last modified: 07 Feb 2026 09:45 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -76,7 +76,6 @@ vid4u.org
 widget.block4d.com
 wstat.ozon.ru
 chatrobot.mia.gov.hu
-chimpstatic.com
 adat.agrokep.vg.hu
 adat.borsonline.hu
 adat.figyelo.hu

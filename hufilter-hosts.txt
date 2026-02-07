@@ -1,7 +1,7 @@
-# Checksum: MmMDkpKU7IGRi+F6biw3dQ
-# Version: 202601230827
+# Checksum: uWZ2dbNHgH9scoX4n+2ihA
+# Version: 202602070945
 # Title: Hufilter Hosts file
-# Last modified: 23 Jan 2026 08:27 UTC
+# Last modified: 07 Feb 2026 09:45 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -76,7 +76,6 @@
 0.0.0.0 widget.block4d.com
 0.0.0.0 wstat.ozon.ru
 0.0.0.0 chatrobot.mia.gov.hu
-0.0.0.0 chimpstatic.com
 0.0.0.0 adat.agrokep.vg.hu
 0.0.0.0 adat.borsonline.hu
 0.0.0.0 adat.figyelo.hu

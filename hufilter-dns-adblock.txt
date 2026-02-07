@@ -1,7 +1,7 @@
-! Checksum: DKtMXlBiw9EKV29d88N6Pg
-! Version: 202601230827
+! Checksum: Ibivpimj0f5Hq3VsE/gCLg
+! Version: 202602070945
 ! Title: Hufilter DNS (Adblock-style format)
-! Last modified: 23 Jan 2026 08:27 UTC
+! Last modified: 07 Feb 2026 09:45 UTC
 ! Expires: 7 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -76,7 +76,6 @@
 ||widget.block4d.com^
 ||wstat.ozon.ru^
 ||chatrobot.mia.gov.hu^
-||chimpstatic.com^
 ||adat.agrokep.vg.hu^
 ||adat.borsonline.hu^
 ||adat.figyelo.hu^
