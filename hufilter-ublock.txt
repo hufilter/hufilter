@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: O7YEuIm5GqeFLIAlUv+dXA
-! Version: 202602131922
+! Checksum: lTvlkXKBp2ioI0vQK2YOwQ
+! Version: 202602131928
 ! Title: Hufilter for uBO
-! Last modified: 13 Feb 2026 19:22 UTC
+! Last modified: 13 Feb 2026 19:28 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -447,6 +447,8 @@ gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##IFRAME
 gyakorikerdesek.hu##[href^="https://www.webminute.hu"]
 gyakorikerdesek.hu##[id*="aswift"]
+gyakorikerdesek.hu##a[href="/majanlat"]
+gyakorikerdesek.hu##a[rel="nofollow"]:has(span > img)
 gyakorikerdesek.hu##div.reklam_jobbra
 gyakorikerdesek.hu##div[style*="text-align"]:has(> a > img)
 gyakorikerdesek.hu##td[style="width: 10px;"]:empty
