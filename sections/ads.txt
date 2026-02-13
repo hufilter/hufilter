@@ -1176,7 +1176,6 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ! https://github.com/hufilter/hufilter/issues/172
 /dl/cnt/20[^0]\d-\d{2}/\d{4}//$image,domain=prohardver.hu|mobilarena.hu|logout.hu|hardverapro.hu
 ||3monkey.lol/vilagunk_640.html$domain=vilagunk.hu
-||abo-widget.xyz^$domain=eduline.hu
 ||aghtag.tech/libs/projectagora.min.js^$script,domain=gyakorikerdesek.hu|hoxa.hu
 ||floweryoperation.com/v2/0/$domain=karpathir.com
 
@@ -1191,7 +1190,6 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||24.hu/*/sponsoredpost.css$stylesheet
 ||24.hu/*/sponsoredpost.js$script
 ||444.hu/*/ease/
-||abo-widget.xyz^$third-party,script,domain=gyakorikerdesek.hu
 ||ado.hu/banners/$image
 ||affiliate.hu$subdocument
 ||affiliation.arukereso.hu/pbox/
@@ -1386,6 +1384,7 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||wstat.ozon.ru^
 
 ||abmr.net^$third-party
+||abo-widget.xyz^$third-party
 ||ad.hu^$third-party
 ||ad4mat.net^$third-party
 ||adfox.ru^$third-party
