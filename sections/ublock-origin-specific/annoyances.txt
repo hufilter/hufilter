@@ -15,6 +15,7 @@ arcanum.com##+js(set, show_modal, noopFunc)
 blikk.hu##+js(ra, style, body, stay)
 erzsebetvaros.hu##+js(set-session-storage-item, popupClosed, true)
 hetek.hu##+js(rc, modal-open, body)
+hiros.hu##+js(aopw, oxyShowModal)
 lifestory.hu##+js(ra, oncontextmenu)
 mandiner.hu##+js(rc, modal-open, body, stay)
 ! https://github.com/hufilter/hufilter/issues/312

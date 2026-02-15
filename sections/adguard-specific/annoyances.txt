@@ -15,6 +15,7 @@ arcanum.com#%#//scriptlet('set-constant', 'show_modal', 'noopFunc')
 blikk.hu#%#//scriptlet('set-cookie', 'isLeavingPopUpReady', '3')
 erzsebetvaros.hu#%#//scriptlet('set-session-storage-item', 'popupClosed', 'true')
 hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
+hiros.hu#%#//scriptlet('abort-on-property-write', 'oxyShowModal')
 lifestory.hu#%#//scriptlet('remove-attr', 'oncontextmenu')
 mandiner.hu#%#//scriptlet('remove-class', 'modal-open', 'body', 'stay')
 ! https://github.com/hufilter/hufilter/issues/312
