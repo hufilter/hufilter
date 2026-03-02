@@ -1189,6 +1189,9 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 !-------------------------------------------------------------------------------!
 ||*/empty.json
 ||*/eu-banned-popup/
+
+! https://github.com/hufilter/hufilter/issues/688
+||rosszlanyok.hu/bannerek/$image
 ||partner.tippmixpro.hu/skins/tippmixpro/uploads/banners/
 ||adserver.raceonline.hu^
 ||24.hu/*/sponsoredpost.css$stylesheet
