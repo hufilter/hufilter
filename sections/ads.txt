@@ -427,8 +427,8 @@ gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##IFRAME
 gyakorikerdesek.hu##[href^="https://www.webminute.hu"]
 gyakorikerdesek.hu##[id*="aswift"]
-gyakorikerdesek.hu##div[style*="fit-content"] > div > a[target="_blank"]
-gyakorikerdesek.hu##a[rel*="nofollow"]:has(span > img)
+gyakorikerdesek.hu##div[style*="fit-content"] > div > span > a[target="_blank"]
+gyakorikerdesek.hu##a[rel*="nofollow"]:has(img)
 gyakorikerdesek.hu##div.reklam_jobbra
 gyakorikerdesek.hu##div[style*="text-align"]:has(> a > img)
 gyakorikerdesek.hu##td[style="width: 10px;"]:empty
