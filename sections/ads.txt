@@ -915,7 +915,7 @@ player.hu##[data-analytics-value]
 player.hu###pushpushgo-container
 politaktika.hu###popup
 port.hu##.articleMetadata
-port.hu##.container.css-table>div:not(.container)
+port.hu##.container.css-table>div:not(.container):not(#contact-modal)
 port.hu##.edgebox-widget.show
 port.hu##.port-adbd
 port.hu##[class*="_spon"]
