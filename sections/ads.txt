@@ -429,7 +429,6 @@ gyakorikerdesek.hu##[href^="https://www.webminute.hu"]
 gyakorikerdesek.hu##[id*="aswift"]
 gyakorikerdesek.hu##a[rel*="nofollow"][target="_blank"][href^="/"]
 gyakorikerdesek.hu##div[style*="text-align"]:has(> a > img)
-gyakorikerdesek.hu##td[style="width: 10px;"]:empty
 gyakorikerdesek.hu##td.txtcenter:has(>script+ins)
 gyaloglo.hu###banner
 gyaloglo.hu##div[class*="Advert"]
