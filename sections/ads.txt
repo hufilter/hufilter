@@ -501,6 +501,7 @@ holtankoljak.hu##div[class="module noheading"]
 holtankoljak.hu##EMBED
 hotdog.hu###tetszett
 hoxa.hu##[data-adblockonly]
+hoxa.hu##a[rel*="nofollow"][target="_blank"][href^="/"]
 hrportal.hu##.ui-widget-overlay
 hrportal.hu##[class*="banner"]
 hrportal.hu###cucc
