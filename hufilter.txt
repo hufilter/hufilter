@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qs9N0kAeRO4nOMk6KVRDoA
-! Version: 202603102039
+! Checksum: Ia9FmCFcIWhEBsKTWQ1b8w
+! Version: 202603110551
 ! Title: Hufilter Basic
-! Last modified: 10 Mar 2026 20:39 UTC
+! Last modified: 11 Mar 2026 05:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -454,7 +454,7 @@ gyakorikerdesek.hu##div.reklam_jobbra
 gyakorikerdesek.hu##div[style*="text-align"]:has(> a > img)
 gyakorikerdesek.hu##td[style="width: 10px;"]:empty
 gyakorikerdesek.hu##td.txtcenter:has(>script+ins)
-gyakorikerdesek.hu##a:empty
+gyakorikerdesek.hu##a:not([onclick]):empty
 gyaloglo.hu###banner
 gyaloglo.hu##div[class*="Advert"]
 gyartastrend.hu##[class*="contentBanner"]
