@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: SqH0PxNvQ9rzlpgYnXZ8hw
-! Version: 202603121929
+! Checksum: Tls8iRoWnuTsGirsdfi8Bw
+! Version: 202603121936
 ! Title: Hufilter for AdGuard
-! Last modified: 12 Mar 2026 19:29 UTC
+! Last modified: 12 Mar 2026 19:36 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -443,7 +443,7 @@ gportal.hu##[class*="banner"]
 gsplus.hu,pcwplus.hu##.ad
 gsplus.hu,pcwplus.hu##.box-wrapper > .box-actual-magazine + .box-html
 gumiszoba.com##.wpcnt
-gyakorikerdesek.hu##div[style="text-align: center; margin: 30px 0px;"]:has(> a)
+gyakorikerdesek.hu,hoxa.hu##div[style="text-align: center; margin: 30px 0px;"]:has(> a)
 gyakorikerdesek.hu###adryf
 gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##IFRAME
