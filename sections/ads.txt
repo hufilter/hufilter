@@ -422,12 +422,11 @@ gportal.hu##[class*="banner"]
 gsplus.hu,pcwplus.hu##.ad
 gsplus.hu,pcwplus.hu##.box-wrapper > .box-actual-magazine + .box-html
 gumiszoba.com##.wpcnt
+gyakorikerdesek.hu##div[style="text-align: center; margin: 30px 0px;"]:has(> a)
 gyakorikerdesek.hu###adryf
 gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##IFRAME
 gyakorikerdesek.hu##[id*="aswift"]
-gyakorikerdesek.hu##a[rel*="nofollow"][target="_blank"][href^="/"]
-gyakorikerdesek.hu##div[style*="text-align"]:has(> a > img)
 gyakorikerdesek.hu##td.txtcenter:has(>script+ins)
 gyaloglo.hu###banner
 gyaloglo.hu##div[class*="Advert"]
