@@ -426,11 +426,11 @@ gyakorikerdesek.hu###adryf
 gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##IFRAME
 gyakorikerdesek.hu##[id*="aswift"]
+gyakorikerdesek.hu##a:has(img):not(:has(img[src*="static.gyakorikerdesek.hu/p/"]))
 gyakorikerdesek.hu##div[id] > a:empty[href]
 gyakorikerdesek.hu##div[id] > a:has-text(/^[\s\u00A0]*$/)
 gyakorikerdesek.hu##div[style*="text-align"]:has(> a > img)
 gyakorikerdesek.hu##td.txtcenter:has(>script+ins)
-gyakorikerdesek.hu##a:has(img):not(:has(img[src*="static.gyakorikerdesek.hu/p/"]))
 gyaloglo.hu###banner
 gyaloglo.hu##div[class*="Advert"]
 gyartastrend.hu##[class*="contentBanner"]
