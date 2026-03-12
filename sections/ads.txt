@@ -1182,35 +1182,9 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 !-------------------------------------------------------------------------------!
 ||*/empty.json
 ||*/eu-banned-popup/
-
-!minden kép, gyakorikerdesek.hu
-||static.gyakorikerdesek.hu/*.png$image
-||static.gyakorikerdesek.hu/*.jpg$image
-||static.gyakorikerdesek.hu/*.jpeg$image
-||static.gyakorikerdesek.hu/*.bmp$image
-||static.gyakorikerdesek.hu/*.webp$image
-||static.gyakorikerdesek.hu/*.svg$image
-||static.gyakorikerdesek.hu/*.tiff$image
-||static.gyakorikerdesek.hu/*.tif$image
-||static.gyakorikerdesek.hu/*.gif$image
-||static.gyakorikerdesek.hu/*.tga$image
-||static.gyakorikerdesek.hu/*.ico$image
-||static.gyakorikerdesek.hu/*.avif$image
-
-!kivéve ikonok, gyakorikerdesek.hu
-@@||static.gyakorikerdesek.hu/p/*.png$image
-@@||static.gyakorikerdesek.hu/p/*.jpg$image
-@@||static.gyakorikerdesek.hu/p/*.jpeg$image
-@@||static.gyakorikerdesek.hu/p/*.bmp$image
-@@||static.gyakorikerdesek.hu/p/*.webp$image
-@@||static.gyakorikerdesek.hu/p/*.svg$image
-@@||static.gyakorikerdesek.hu/p/*.tiff$image
-@@||static.gyakorikerdesek.hu/p/*.tif$image
-@@||static.gyakorikerdesek.hu/p/*.gif$image
-@@||static.gyakorikerdesek.hu/p/*.tga$image
-@@||static.gyakorikerdesek.hu/p/*.ico$image
-@@||static.gyakorikerdesek.hu/p/*.avif$image
-
+||*$image,domain=gyakorikerdesek.hu
+||*$media,domain=gyakorikerdesek.hu
+@@||gyakorikerdesek.hu/p/$image
 ! https://github.com/hufilter/hufilter/issues/688
 ||rosszlanyok.hu/bannerek/$image
 ||partner.tippmixpro.hu/skins/tippmixpro/uploads/banners/
