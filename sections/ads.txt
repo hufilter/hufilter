@@ -426,7 +426,7 @@ gyakorikerdesek.hu###adryf
 gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##IFRAME
 gyakorikerdesek.hu##[id*="aswift"]
-gyakorikerdesek.hu##a[target="_blank"][href^="/"]:not([href*="facebook"]):not([href*="webminute"])
+gyakorikerdesek.hu##div[id] > a:empty[href]
 gyakorikerdesek.hu##div[style*="text-align"]:has(> a > img)
 gyakorikerdesek.hu##td.txtcenter:has(>script+ins)
 gyaloglo.hu###banner
@@ -501,7 +501,7 @@ holtankoljak.hu##div[class="module noheading"]
 holtankoljak.hu##EMBED
 hotdog.hu###tetszett
 hoxa.hu##[data-adblockonly]
-hoxa.hu##a[target="_blank"][href^="/"]
+hoxa.hu##div[id] > a:empty[href]
 hrportal.hu##.ui-widget-overlay
 hrportal.hu##[class*="banner"]
 hrportal.hu###cucc
