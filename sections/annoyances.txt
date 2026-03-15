@@ -20,6 +20,7 @@ hu##.sz2020-logo
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+hellomagyar.hu##.ct-popup
 24.hu##.a-hirstartRecommender
 24.hu##.fb-exit-popup-container
 24.hu##.m-donationBottomLine
