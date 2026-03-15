@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7GIe/FUvebsUe1VShjPlJg
-! Version: 202603151015
+! Checksum: cGBAll2LYfBaE5kcdrXx/Q
+! Version: 202603151023
 ! Title: Hufilter Basic
-! Last modified: 15 Mar 2026 10:15 UTC
+! Last modified: 15 Mar 2026 10:23 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1189,6 +1189,10 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
+! https://github.com/hufilter/hufilter/pull/704
+||*$image,domain=gyakorikerdesek.hu
+||*$media,domain=gyakorikerdesek.hu
+@@||gyakorikerdesek.hu/p/$image
 ! https://github.com/hufilter/hufilter/issues/172
 /dl/cnt/20[^0]\d-\d{2}/\d{4}//$image,domain=prohardver.hu|mobilarena.hu|logout.hu|hardverapro.hu
 ||3monkey.lol/vilagunk_640.html$domain=vilagunk.hu
