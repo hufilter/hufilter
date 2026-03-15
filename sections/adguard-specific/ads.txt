@@ -7,6 +7,8 @@
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+! https://github.com/uBlockOrigin/uAssets/issues/32204#issuecomment-4062542193
+gyakorikerdesek.hu,hoxa.hu#?#[href^="/"]:matches-css(background:/https/)
 ! https://github.com/uBlockOrigin/uAssets/issues/23271
 jofogas.hu#%#//scriptlet('prevent-setTimeout', 'E(!1)')
 myonlineradio.hu#$#._bannerTop1 { background-color: transparent !important; }
