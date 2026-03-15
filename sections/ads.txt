@@ -94,6 +94,7 @@ hu##[class*="overlayBg"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+jofogas.hu##.adverticum-anchor-banner
 hellomagyar.hu##.ban
 leetgaming.com##.banner_container_gtm
 naphire.hu##.ad__cont
