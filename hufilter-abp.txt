@@ -1,8 +1,8 @@
 [Adblock Plus 3.9.4]
-! Checksum: M5kz5hpQ1dpSZuA73fRbew
-! Version: 202603121936
+! Checksum: BPAXpu2yarOXme2M8IQCuQ
+! Version: 202603151015
 ! Title: Hufilter for ABP
-! Last modified: 12 Mar 2026 19:36 UTC
+! Last modified: 15 Mar 2026 10:15 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -443,7 +443,6 @@ gportal.hu##[class*="banner"]
 gsplus.hu,pcwplus.hu##.ad
 gsplus.hu,pcwplus.hu##.box-wrapper > .box-actual-magazine + .box-html
 gumiszoba.com##.wpcnt
-gyakorikerdesek.hu,hoxa.hu##div[style="text-align: center; margin: 30px 0px;"]:has(> a)
 gyakorikerdesek.hu###adryf
 gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##IFRAME
