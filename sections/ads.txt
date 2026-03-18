@@ -848,8 +848,6 @@ nol.hu##.noprint
 nol.hu##[class*="Banner"]
 nol.hu##div[class*="ad-container"]
 nosalty.hu##.ce_adocean_ad_slot
-novagyok.hu##[class*="banner"]
-novagyok.hu##[id*="banner"]
 nyest.hu##[class*="banner"]
 olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]
@@ -1335,7 +1333,6 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||ad*.mellesleg.hu^
 ||ad.depo.hu^
 ||ad.gyermekevek.hu^
-||ad.hirekmedia.hu^
 ||ad.kapos.hu^
 ||ad.love.hu^
 ||ad.napilapcsoport.hu^
@@ -1358,13 +1355,11 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||avatraffic.com^
 ||banner.webtar.hu^
 ||bannerzone.agroinform.hu^
-||brostraffic.com^
 ||campaign-remp.444.hu^
 ||cdn-dynamic.optimonk.com^
 ||daserver.ultraweb.hu^
 ||et.twyn.com^
 ||etargetnet.*.hu^
-||fourtwentytradingcompany.net^
 ||fruitflan.com^
 ||iofferphoto.com^
 ||loader.nyitvatartas24.hu^
