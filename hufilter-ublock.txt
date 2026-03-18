@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: uriMdL8UtWHzkC0jNrqM9g
-! Version: 202603151525
+! Checksum: 4sy4I9ietp7pKO7/L38qhQ
+! Version: 202603180813
 ! Title: Hufilter for uBO
-! Last modified: 15 Mar 2026 15:25 UTC
+! Last modified: 18 Mar 2026 08:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -836,6 +836,10 @@ ncore.pro##.banner
 ncore.pro##:has(> .banner) + .hr_stuff, .hr_stuff:has(+ * > .banner)
 nemkutya.com##[class^="ad-"]
 nemkutya.com###text-3
+nemzetisport.hu##nso-petition-popup
+nemzetisport.hu##app-strossle-advert
+nemzetisport.hu##div[class*="img_"]:has(> p + div[data-google-query-id])
+nemzetisport.hu##div[class*="img_"][style*="text-align: center;"]
 nemzetisport.hu##.bet365_connect
 nemzetisport.hu##[class*=" ad"]
 nemzetisport.hu##[class*="_szponzor_"]
