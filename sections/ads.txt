@@ -441,6 +441,8 @@ hajdupress.hu##.catch-click
 hajdupress.hu##[class*="hirdetes"]
 hajdupress.hu##[id*="banner"]
 hajokonyha.hu##[class*="hirdetes"]
+hang.hu##.banner-wrapper
+hang.hu##.sidebar > .widget:has(> h3 + picture)
 ! https://github.com/hufilter/hufilter/issues/249
 hang.hu##.banner-widget-container
 haon.hu##.Ad
