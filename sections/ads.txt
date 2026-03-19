@@ -390,6 +390,7 @@ figyelo.hu##[class*="adbox"]
 figyelo.hu##[class*="banner"]
 filmoldal.hu##div[class*="reklam"]
 foodora.hu##.partnership-ads
+foodora.hu##div[class*="video-container"]
 forbes.hu##div[id^="forbesad"]
 forbes.hu##p + [class*="-bekezdes-utan-"]
 forum.index.hu###ot2015
