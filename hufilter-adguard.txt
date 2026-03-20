@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: yDapyNkUQg4bpTLzbQWHRg
-! Version: 202603190752
+! Checksum: 7oTCQXY9FLD3sjbs88+s8A
+! Version: 202603201458
 ! Title: Hufilter for AdGuard
-! Last modified: 19 Mar 2026 07:52 UTC
+! Last modified: 20 Mar 2026 14:58 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -411,6 +411,7 @@ figyelo.hu##[class*="adbox"]
 figyelo.hu##[class*="banner"]
 filmoldal.hu##div[class*="reklam"]
 foodora.hu##.partnership-ads
+foodora.hu##div[class*="video-container"]
 forbes.hu##div[id^="forbesad"]
 forbes.hu##p + [class*="-bekezdes-utan-"]
 forum.index.hu###ot2015
