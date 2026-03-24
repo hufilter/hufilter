@@ -507,7 +507,7 @@ holtankoljak.hu##div[class*="banner"]
 holtankoljak.hu##div[class="module noheading"]
 holtankoljak.hu##EMBED
 hogymondom.hu##img[src*="ads"]
-hogymondom.hu##td>a>img[data-src]
+hogymondom.hu##td > a > img[data-src]
 hogymondom.hu##td>a[href*="utm_campaign"]
 hotdog.hu###tetszett
 hoxa.hu##[data-adblockonly]
