@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: wDBPG/GNwgzZOkW7gH/a8A
-! Version: 202603240734
+! Checksum: IheXfuVkd8EjZJTP7Sp8Hg
+! Version: 202603240737
 ! Title: Hufilter for AdGuard
-! Last modified: 24 Mar 2026 07:34 UTC
+! Last modified: 24 Mar 2026 07:37 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -528,6 +528,9 @@ hogyankell.hu##[id^="advert"]
 holtankoljak.hu##div[class*="banner"]
 holtankoljak.hu##div[class="module noheading"]
 holtankoljak.hu##EMBED
+hogymondom.hu##img[src*="ads"]
+hogymondom.hu##td > a > img[data-src]
+hogymondom.hu##td > a[href*="utm_campaign"]
 hotdog.hu###tetszett
 hoxa.hu##[data-adblockonly]
 hrportal.hu##.ui-widget-overlay
