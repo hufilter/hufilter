@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: HVqVdXiAtKF2TGDZuIAqUw
-! Version: 202603211055
+! Checksum: wDBPG/GNwgzZOkW7gH/a8A
+! Version: 202603240734
 ! Title: Hufilter for AdGuard
-! Last modified: 21 Mar 2026 10:55 UTC
+! Last modified: 24 Mar 2026 07:34 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -382,6 +382,7 @@ eletmod.hu##.super
 eletmod.hu##[class*="hirdetes"]
 eletmod.hu##[id*="banner"]
 eletmod.hu##[id*="etarget"]
+emag.hu##.js-banner-carousel
 epresso.hu##[class*="banner"]
 eredmenyek.com###onetrust-banner-sdk
 erettsegi.com##.code-block
