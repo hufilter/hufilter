@@ -361,6 +361,7 @@ eletmod.hu##.super
 eletmod.hu##[class*="hirdetes"]
 eletmod.hu##[id*="banner"]
 eletmod.hu##[id*="etarget"]
+emag.hu##.js-banner-carousel
 epresso.hu##[class*="banner"]
 eredmenyek.com###onetrust-banner-sdk
 erettsegi.com##.code-block
