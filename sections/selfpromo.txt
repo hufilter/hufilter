@@ -33,6 +33,8 @@ hvg.hu##.embedly-card
 ! https://github.com/hufilter/hufilter/issues/252
 infostart.hu##.article>.live-wrapper
 ingatlan.com##.estimate-promo-closable
+ingatlan.com###estimate-promo
+ingatlan.com###searcher-pro-banner
 magyarnarancs.hu##.d-lg-block.d-none.position-relative.ujsag-wrapper.container > .ujsag
 magyarnarancs.hu##.bg-yellow.text-left
 magyarnarancs.hu##[href^="https://magyarnarancs.us7.list-manage.com/subscribe"]
