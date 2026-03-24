@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0YApyNyZp3rkbVqaSAj84w
-! Version: 202601230827
+! Checksum: IUfLLcnXELAYUoDvHst9+w
+! Version: 202603240731
 ! Title: Hufilter Self-promotions
-! Last modified: 23 Jan 2026 08:27 UTC
+! Last modified: 24 Mar 2026 07:31 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -55,6 +55,8 @@ hang.hu##.widget-tamogatas-box
 ! https://github.com/hufilter/hufilter/issues/252
 infostart.hu##.article>.live-wrapper
 ingatlan.com##.estimate-promo-closable
+ingatlan.com###estimate-promo
+ingatlan.com###searcher-pro-banner
 magyarnarancs.hu##.d-lg-block.d-none.position-relative.ujsag-wrapper.container > .ujsag
 magyarnarancs.hu##.bg-yellow.text-left
 magyarnarancs.hu##[href^="https://magyarnarancs.us7.list-manage.com/subscribe"]
