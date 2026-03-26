@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wow2jdSbnI90i3WliC7ojQ
-! Version: 202603240737
+! Checksum: r/V6/JfKEC7Mkx9eTkKrOw
+! Version: 202603260438
 ! Title: Hufilter Basic
-! Last modified: 24 Mar 2026 07:37 UTC
+! Last modified: 26 Mar 2026 04:38 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -782,6 +782,9 @@ mandiner.hu##.real-estate-wrapper
 maszol.ro###article > section > div:not(.article_content)
 mavcsoport.hu###cboxOverlay
 mavcsoport.hu###colorbox
+mediamarkt.hu##article[data-cs-override-id^="mms-sponsored-product-card-"]
+mediamarkt.hu##aside[class="sc-a2fcee8-0 fmYGst"]:has(button[aria-label="Tudj meg többet a termékszponzorációról"])
+mediamarkt.hu##li[data-index-number]:has(button[aria-label="Tudj meg többet a termékszponzorációról"])
 medicalonline.hu##.ui-floating-message
 medicalonline.hu##.wsp-wrap
 medicalonline.hu##[class*="tBanner"]
