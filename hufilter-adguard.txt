@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: hTO/GjMGIHXbYLpKk89jjQ
-! Version: 202603260438
+! Checksum: OskV1pcWbxJXrEg94yrZKQ
+! Version: 202603300942
 ! Title: Hufilter for AdGuard
-! Last modified: 26 Mar 2026 04:38 UTC
+! Last modified: 30 Mar 2026 09:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1214,6 +1214,7 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||*$image,domain=gyakorikerdesek.hu
 ||*$media,domain=gyakorikerdesek.hu
 @@||gyakorikerdesek.hu/p/$image,domain=gyakorikerdesek.hu
+@@||static.gyakorikerdesek.hu/favicon.ico$image,domain=gyakorikerdesek.hu
 ! https://github.com/hufilter/hufilter/issues/172
 /dl/cnt/20[^0]\d-\d{2}/\d{4}//$image,domain=prohardver.hu|mobilarena.hu|logout.hu|hardverapro.hu
 ||3monkey.lol/vilagunk_640.html$domain=vilagunk.hu
