@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: tCiTlX3x/aJLjQ6CSZIObQ
-! Version: 202603301218
+! Checksum: b3hNpWeqfTro4amzhw0WdQ
+! Version: 202603310800
 ! Title: Hufilter Self-promotions
-! Last modified: 30 Mar 2026 12:18 UTC
+! Last modified: 31 Mar 2026 08:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -63,6 +63,10 @@ infostart.hu##.article>.live-wrapper
 ingatlan.com##.estimate-promo-closable
 ingatlan.com###estimate-promo
 ingatlan.com###searcher-pro-banner
+kifli.hu##div[data-test="tradeBanners_bannerSlider"]
+kifli.hu##div[class="absolute inset-0 z-0 transition-opacity duration-200"] > picture > img[src*="essentials/banner"]
+kifli.hu##article > div[class="u-flex-center m-200"]
+kifli.hu##div[data-gtm-section="app-promo"]
 magyarnarancs.hu##.d-lg-block.d-none.position-relative.ujsag-wrapper.container > .ujsag
 magyarnarancs.hu##.bg-yellow.text-left
 magyarnarancs.hu##[href^="https://magyarnarancs.us7.list-manage.com/subscribe"]
