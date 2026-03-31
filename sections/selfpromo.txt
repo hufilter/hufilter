@@ -40,6 +40,10 @@ infostart.hu##.article>.live-wrapper
 ingatlan.com##.estimate-promo-closable
 ingatlan.com###estimate-promo
 ingatlan.com###searcher-pro-banner
+kifli.hu##div[data-test="tradeBanners_bannerSlider"]
+kifli.hu##div[class="absolute inset-0 z-0 transition-opacity duration-200"] > picture > img[src*="essentials/banner"]
+kifli.hu##article > div[class="u-flex-center m-200"]
+kifli.hu##div[data-gtm-section="app-promo"]
 magyarnarancs.hu##.d-lg-block.d-none.position-relative.ujsag-wrapper.container > .ujsag
 magyarnarancs.hu##.bg-yellow.text-left
 magyarnarancs.hu##[href^="https://magyarnarancs.us7.list-manage.com/subscribe"]
