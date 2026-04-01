@@ -9,6 +9,12 @@
 !-------------------------------------------------------------------------------!
 ! https://github.com/uBlockOrigin/uAssets/issues/32204#issuecomment-4062542193
 gyakorikerdesek.hu,hoxa.hu#?#[href^="/"]:matches-css(background:/https/)
+hoxa.hu##a:-abp-contains("\u00A0")
+hoxa.hu##a:-abp-contains("\u200B")
+hoxa.hu##a:-abp-contains("\u200C")
+hoxa.hu##a:-abp-contains("\u200D")
+hoxa.hu##a:-abp-contains("\u2060")
+hoxa.hu##a:-abp-contains("\uFEFF")
 ! https://github.com/uBlockOrigin/uAssets/issues/23271
 jofogas.hu#%#//scriptlet('prevent-setTimeout', 'E(!1)')
 myonlineradio.hu#$#._bannerTop1 { background-color: transparent !important; }

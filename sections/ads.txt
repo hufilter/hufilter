@@ -103,6 +103,8 @@ leetgaming.com##.banner_container_gtm
 naphire.hu##.ad__cont
 eredmenyek.com##div[data-zone-group]
 hdmozi.hu##.asgdc
+hoxa.hu##a:empty[href]
+hoxa.hu##a:has-text(/^[\s\u00A0]*$/)
 magyarorszagom.hu##.bannerContent
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
@@ -428,8 +430,6 @@ gportal.hu##[class*="banner"]
 gsplus.hu,pcwplus.hu##.ad
 gsplus.hu,pcwplus.hu##.box-wrapper > .box-actual-magazine + .box-html
 gumiszoba.com##.wpcnt
-gyakorikerdesek.hu###adryf
-gyakorikerdesek.hu##.rltdwidget
 gyakorikerdesek.hu##IFRAME
 gyakorikerdesek.hu##[id*="aswift"]
 gyakorikerdesek.hu##td.txtcenter:has(>script+ins)
@@ -510,7 +510,6 @@ hogymondom.hu##img[src*="ads"]
 hogymondom.hu##td > a > img[data-src]
 hogymondom.hu##td > a[href*="utm_campaign"]
 hotdog.hu###tetszett
-hoxa.hu##[data-adblockonly]
 hrportal.hu##.ui-widget-overlay
 hrportal.hu##[class*="banner"]
 hrportal.hu###cucc
@@ -1255,7 +1254,6 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||geeks.hu/*body-bg-*.$image
 ||gigasex.hu/bannerek/$image
 ||glassdoor.com/app/static/js/gd-fj-ads-init$script
-||gyakorikerdesek.hu/pic/bannerek/$image
 ||harmonet.hu/*hirdetes
 ||hasznaltgsm.hu/gsm/iframes/
 ||hatarido-szamitas.hu/partnerek/
