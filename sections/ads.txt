@@ -103,8 +103,6 @@ leetgaming.com##.banner_container_gtm
 naphire.hu##.ad__cont
 eredmenyek.com##div[data-zone-group]
 hdmozi.hu##.asgdc
-hoxa.hu##a:empty[href]
-hoxa.hu##a:has-text(/^[\s\u00A0]*$/)
 magyarorszagom.hu##.bannerContent
 112press.hu##.banner_middle
 168.hu##.ads_show_ad_title
