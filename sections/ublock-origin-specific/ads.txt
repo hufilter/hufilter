@@ -7,7 +7,6 @@
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
-hoxa.hu##a[rel]:matches-css(background: /url.*static/)
 444.hu##article:has(a[href*="hirdetes"])
 444.hu##div.item:has(a[href*="hirdetes"])
 ! https://github.com/uBlockOrigin/uAssets/issues/23271
