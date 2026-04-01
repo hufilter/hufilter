@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: llHnFz7oQgXa81qK6IUhxQ
-! Version: 202603301218
+! Checksum: 6si9o+gTru1Rdd3i0nQ8Hw
+! Version: 202604011042
 ! Title: Hufilter for uBO
-! Last modified: 30 Mar 2026 12:18 UTC
+! Last modified: 01 Apr 2026 10:42 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2051,8 +2051,7 @@ greendex.hu#@#.heateor_sss_sharing_container
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
-! https://github.com/uBlockOrigin/uAssets/issues/32204#issuecomment-4062542193
-gyakorikerdesek.hu,hoxa.hu##[href^="/"]:matches-css(background:/https/)
+gyakorikerdesek.hu,hoxa.hu##a[rel]:matches-css(background: /url.*static/)
 444.hu##article:has(a[href*="hirdetes"])
 444.hu##div.item:has(a[href*="hirdetes"])
 ! https://github.com/uBlockOrigin/uAssets/issues/23271
