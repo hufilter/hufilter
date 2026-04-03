@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: b3hNpWeqfTro4amzhw0WdQ
-! Version: 202603310800
+! Checksum: 8wUpSEvpfx/KKM0F6kJVaA
+! Version: 202604031500
 ! Title: Hufilter Self-promotions
-! Last modified: 31 Mar 2026 08:00 UTC
+! Last modified: 03 Apr 2026 15:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -59,6 +59,7 @@ emag.hu##.download-app-container
 hang.hu##.widget-tamogatas-box
 hvg.hu##.embedly-card
 ! https://github.com/hufilter/hufilter/issues/252
+index.hu##.keretes-position-cimlap_mindekozben:has(> [id^="ado-"])
 infostart.hu##.article>.live-wrapper
 ingatlan.com##.estimate-promo-closable
 ingatlan.com###estimate-promo
