@@ -36,7 +36,7 @@ emag.hu##.download-app-container
 hang.hu##.widget-tamogatas-box
 hvg.hu##.embedly-card
 ! https://github.com/hufilter/hufilter/issues/252
-index.hu##.keretes-position-cimlap_mindekozben:has(> #ado-UdxcfR7unRtf3bRePJO2liVAbYD9dWenXH_o8wF0zAz\.Q7)
+index.hu##.keretes-position-cimlap_mindekozben:has(> [id^="ado-"])
 infostart.hu##.article>.live-wrapper
 ingatlan.com##.estimate-promo-closable
 ingatlan.com###estimate-promo
