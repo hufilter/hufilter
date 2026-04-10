@@ -35,7 +35,7 @@ jobs:
 
       - name: Get contributors
         id: get-contributors
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             const { owner, repo } = context.repo;
@@ -51,7 +51,7 @@ jobs:
             core.info(`Contributors: ${JSON.stringify(sortedContributors)}`);
 
       - name: Update contributors in package.json
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           script: |
             const fs = require('fs/promises');
