@@ -130,7 +130,7 @@ importers:
         specifier: ^2.3.1
         version: 2.3.1
       tldts:
-        specifier: ^7.0.27
+        specifier: ^7.0.28
         version: 7.0.28
 
 packages:
