@@ -33,6 +33,8 @@ emag.hu##.wd-banners
 emag.hu##.wd-banners-2
 emag.hu##.sell-with-emag
 emag.hu##.download-app-container
+foodora.hu##.joker-banner-top
+foodora.hu##.joker-swimlane
 hang.hu##.widget-tamogatas-box
 hvg.hu##.embedly-card
 ! https://github.com/hufilter/hufilter/issues/252
