@@ -1,7 +1,7 @@
-# Checksum: uWZ2dbNHgH9scoX4n+2ihA
-# Version: 202602070945
+# Checksum: T79dtrL+wJAXkTF8tUj8vA
+# Version: 202604150911
 # Title: Hufilter Hosts file
-# Last modified: 07 Feb 2026 09:45 UTC
+# Last modified: 15 Apr 2026 09:11 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -27,7 +27,6 @@
 0.0.0.0 a.adnium.com
 0.0.0.0 ad.depo.hu
 0.0.0.0 ad.gyermekevek.hu
-0.0.0.0 ad.hirekmedia.hu
 0.0.0.0 ad.kapos.hu
 0.0.0.0 ad.love.hu
 0.0.0.0 ad.napilapcsoport.hu
@@ -47,12 +46,10 @@
 0.0.0.0 avatraffic.com
 0.0.0.0 banner.webtar.hu
 0.0.0.0 bannerzone.agroinform.hu
-0.0.0.0 brostraffic.com
 0.0.0.0 campaign-remp.444.hu
 0.0.0.0 cdn-dynamic.optimonk.com
 0.0.0.0 daserver.ultraweb.hu
 0.0.0.0 et.twyn.com
-0.0.0.0 fourtwentytradingcompany.net
 0.0.0.0 fruitflan.com
 0.0.0.0 iofferphoto.com
 0.0.0.0 loader.nyitvatartas24.hu
@@ -115,11 +112,9 @@
 0.0.0.0 tracking.tchibo.hu
 0.0.0.0 aliexpress.hu
 0.0.0.0 aliexpressz.hu
-0.0.0.0 azsiacenter.hu
 0.0.0.0 azsiacentrum.hu
 0.0.0.0 kinaiwebaruhaz.hu
 0.0.0.0 maplin.hu
-0.0.0.0 xn--microelectrnica-5rb.es
 0.0.0.0 mikroelektronik.hu
 0.0.0.0 petpoolalarm.com
 0.0.0.0 sexmeup.hu

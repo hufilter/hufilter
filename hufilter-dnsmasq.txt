@@ -1,7 +1,7 @@
-# Checksum: ikkJGP6Jq4A6L7t2NFGNKw
-# Version: 202602070945
+# Checksum: 7Z47ECmORhsJYq+wkv4dpQ
+# Version: 202604150911
 # Title: Hufilter DNSMasq
-# Last modified: 07 Feb 2026 09:45 UTC
+# Last modified: 15 Apr 2026 09:11 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -27,7 +27,6 @@ local=/adserver.raceonline.hu/
 local=/a.adnium.com/
 local=/ad.depo.hu/
 local=/ad.gyermekevek.hu/
-local=/ad.hirekmedia.hu/
 local=/ad.kapos.hu/
 local=/ad.love.hu/
 local=/ad.napilapcsoport.hu/
@@ -47,12 +46,10 @@ local=/audit.median.hu/
 local=/avatraffic.com/
 local=/banner.webtar.hu/
 local=/bannerzone.agroinform.hu/
-local=/brostraffic.com/
 local=/campaign-remp.444.hu/
 local=/cdn-dynamic.optimonk.com/
 local=/daserver.ultraweb.hu/
 local=/et.twyn.com/
-local=/fourtwentytradingcompany.net/
 local=/fruitflan.com/
 local=/iofferphoto.com/
 local=/loader.nyitvatartas24.hu/
@@ -115,11 +112,9 @@ local=/tracking.binarypromos.com/
 local=/tracking.tchibo.hu/
 local=/aliexpress.hu/
 local=/aliexpressz.hu/
-local=/azsiacenter.hu/
 local=/azsiacentrum.hu/
 local=/kinaiwebaruhaz.hu/
 local=/maplin.hu/
-local=/xn--microelectrnica-5rb.es/
 local=/mikroelektronik.hu/
 local=/petpoolalarm.com/
 local=/sexmeup.hu/
