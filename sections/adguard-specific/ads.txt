@@ -7,7 +7,8 @@
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
-hoxa.hu#?#a[rel]:matches-css(background: /url.*static/)
+gyakorikerdesek.hu,hoxa.hu#?#a:matches-css(background: /url.*/)
+gyakorikerdesek.hu,hoxa.hu#?#a:matches-css(background-image: /url.*/)
 ! https://github.com/uBlockOrigin/uAssets/issues/23271
 jofogas.hu#%#//scriptlet('prevent-setTimeout', 'E(!1)')
 myonlineradio.hu#$#._bannerTop1 { background-color: transparent !important; }
