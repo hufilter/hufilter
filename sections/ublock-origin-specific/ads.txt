@@ -19,6 +19,7 @@ startlap.hu##div.container.banner-container.wide:style(min-height: 0 !important;
 dehir.hu###popupFrontPageBanner-modal:style(display: none !important;)
 dehir.hu##body:style(overflow: auto !important;)
 prohardver.hu,fototrend.hu##main:style(background-image: none !important;)
+indavideo.hu##.promo:style(background: none !important;)
 
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
