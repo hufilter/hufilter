@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ZnKWjnxvlgnJFiFbFKutng
-! Version: 202604150911
+! Checksum: QkSN9NTEgL17tC48cD6slw
+! Version: 202604180602
 ! Title: Hufilter Basic
-! Last modified: 15 Apr 2026 09:11 UTC
+! Last modified: 18 Apr 2026 06:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -590,6 +590,7 @@ idokep.hu##.panoContainer.position-relative.sideScroll30sInfinite
 ilovebalaton.hu##[class*=" ad"]
 indavideo.hu##.topAdv
 indavideo.hu##[class*="billboard"]
+indavideo.hu##a[id="fullscreen_sponz_ct"]
 index.hu,velvet.hu,divany.hu,totalbike.hu,totalcar.hu##.adbd-layer
 index.hu,velvet.hu,totalcar.hu##.shopline-box
 index.hu,velvet.hu,totalcar.hu##.travelo-box
