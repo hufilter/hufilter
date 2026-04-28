@@ -9,8 +9,8 @@
 !-------------------------------------------------------------------------------!
 hoxa.hu##a:matches-css(background: /url.*/)
 hoxa.hu##a:matches-css(background-image: /url.*/)
-gyakorikerdesek.hu##a:matches-css(background: /url.*/):not(:matches-css(background: /url.*/static\.gyakorikerdesek\.hu\/p\//))
-gyakorikerdesek.hu##a:matches-css(background-image: /url.*/):not(:matches-css(background-image: /url.*/static\.gyakorikerdesek\.hu\/p\//))
+gyakorikerdesek.hu##a:matches-css(background: /url(?!.*static\.gyakorikerdesek\.hu\/p\/).*/)
+gyakorikerdesek.hu##a:matches-css(background-image: /url(?!.*static\.gyakorikerdesek\.hu\/p\/).*/)
 444.hu##article:has(a[href*="hirdetes"])
 444.hu##div.item:has(a[href*="hirdetes"])
 ! https://github.com/uBlockOrigin/uAssets/issues/23271
