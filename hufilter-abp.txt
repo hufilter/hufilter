@@ -1,8 +1,8 @@
 [Adblock Plus 3.9.4]
-! Checksum: MzXeKlNjcZoLXgE7mCNRKA
-! Version: 202604280946
+! Checksum: hZ5DlUKcYfJLfPFyJyU2IA
+! Version: 202604280951
 ! Title: Hufilter for ABP
-! Last modified: 28 Apr 2026 09:46 UTC
+! Last modified: 28 Apr 2026 09:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -998,6 +998,11 @@ sg.hu##[class*="advert"]
 sg.hu##IMG[src="images/hirdetes.gif"]
 sielok.hu##[class*="AdWrap"]
 sielok.hu##[id*="AdWrap"]
+sielok.hu##[class^="summerBar"]
+sielok.hu##[class^="kiem22Box"]
+sielok.hu##[class^="szall22Ajanlo"]
+sielok.hu##.respImg
+sielok.hu##.d22RulerTitle
 sonline.hu##[class*="hirdetes"]
 sonline.hu##[id*="ctnet_ad_"]
 sonline.hu##div[class*="ad "]
