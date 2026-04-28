@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: XCb2YW31aSZqY6DiwWgClQ
-! Version: 202604200856
+! Checksum: 1YQCqdh7UTvx1Vdt35s8Ug
+! Version: 202604280946
 ! Title: Hufilter for uBO
-! Last modified: 20 Apr 2026 08:56 UTC
+! Last modified: 28 Apr 2026 09:46 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -166,6 +166,7 @@ angol-magyar-szotar.hu##[id^="hird_"]
 aranyoldalak.hu##.mask
 aranyoldalak.hu##.showLink.reveal
 aranyoldalak.hu##[class*=" adH"]
+arukereso.hu##.admanager-leaderboard
 arukereso.hu##.brandbox
 atlatszo.hu##.tamogatoi
 atv.hu##.ad__cont
