@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: DBLy7YEl9kfYDOKjeejohA
-! Version: 202604280951
+! Checksum: YHCS5k7fEPqJhZpPGlA38Q
+! Version: 202604281547
 ! Title: Hufilter for uBO
-! Last modified: 28 Apr 2026 09:51 UTC
+! Last modified: 28 Apr 2026 15:47 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -530,6 +530,8 @@ hogymondom.hu##img[src*="ads"]
 hogymondom.hu##td > a > img[data-src]
 hogymondom.hu##td > a[href*="utm_campaign"]
 hotdog.hu###tetszett
+hoxa.hu##img
+hoxa.hu##div>a:has(img)
 hrportal.hu##.ui-widget-overlay
 hrportal.hu##[class*="banner"]
 hrportal.hu###cucc
@@ -2054,6 +2056,8 @@ greendex.hu#@#.heateor_sss_sharing_container
 !-------------------------------------------------------------------------------!
 hoxa.hu##a:matches-css(background: /url.*/)
 hoxa.hu##a:matches-css(background-image: /url.*/)
+gyakorikerdesek.hu##a:matches-css(background: /url(?!.*static\.gyakorikerdesek\.hu\/p\/).*/)
+gyakorikerdesek.hu##a:matches-css(background-image: /url(?!.*static\.gyakorikerdesek\.hu\/p\/).*/)
 444.hu##article:has(a[href*="hirdetes"])
 444.hu##div.item:has(a[href*="hirdetes"])
 ! https://github.com/uBlockOrigin/uAssets/issues/23271
