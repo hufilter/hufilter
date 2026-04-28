@@ -145,6 +145,7 @@ angol-magyar-szotar.hu##[id^="hird_"]
 aranyoldalak.hu##.mask
 aranyoldalak.hu##.showLink.reveal
 aranyoldalak.hu##[class*=" adH"]
+arukereso.hu##.admanager-leaderboard
 arukereso.hu##.brandbox
 atlatszo.hu##.tamogatoi
 atv.hu##.ad__cont
