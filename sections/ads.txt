@@ -390,6 +390,7 @@ femina.hu##[class*="kepeslinkes"]
 femina.hu##[id*="etarget"]
 femina.hu##.cikk-torzs [data-miniapp-id]:has(.femina-shop-ajanlo-slider-hirdetes)
 femina.hu##.szelso-jobb > div:has(>a)
+filmezek.com##a[style*="inline-block"] > img
 figyelo.hu##[class*="adbox"]
 figyelo.hu##[class*="banner"]
 filmoldal.hu##div[class*="reklam"]
