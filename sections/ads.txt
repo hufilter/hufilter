@@ -802,6 +802,9 @@ mmonline.hu##[class*="banner"]
 mobilarena.hu##.adbox
 mobilarena.hu##[class*="adtext"]
 moly.hu##[class*="banner"]
+moly.hu##.bcontent
+moly.hu##.bonnet
+moly.hu###side
 motorrevu.hu##[class*="hirdetes"]
 mozinezo.hu###header
 mozishop.hu##.om-holder
