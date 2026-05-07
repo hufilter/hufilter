@@ -434,7 +434,6 @@ gyakorikerdesek.hu##IFRAME
 gyakorikerdesek.hu##[id*="aswift"]
 gyakorikerdesek.hu##td.txtcenter:has(>script+ins)
 gyakorikerdesek.hu##div:has(> a[href^="/"] + div[style*="background-color"])
-gyakorikerdesek.hu##a[rel][target="_blank"]
 gyaloglo.hu###banner
 gyaloglo.hu##div[class*="Advert"]
 gyartastrend.hu##[class*="contentBanner"]
