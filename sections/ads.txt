@@ -514,8 +514,8 @@ hoxa.hu##img
 hoxa.hu##div>a:has(img)
 hrportal.hu##.ui-widget-overlay
 hrportal.hu##[class*="banner"]
+hrportal.hu##[id*="banner"]
 hrportal.hu###cucc
-hrportal.hu###layerbanner
 hu.ign.com##[data-zadtype="billboard"]
 hu.ign.com##div.mobileArticleAds
 hu.ign.com##div.right-rail:has(div.ad-wrapper)
