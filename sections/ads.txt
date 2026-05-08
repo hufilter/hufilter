@@ -314,8 +314,8 @@ delmagyar.hu##[id*="banner"]
 delmagyar.hu##[id^="linkbox_article"]
 delmagyar.hu###billboard
 demokrata.hu##.region-header.region
-dictzone.com###a1
-dictzone.com###a2
+dictzone.com##.ad1
+dictzone.com##.ad3
 dijnet.hu##.jquery-modal.blocker.current
 dimo.hu##[class*="banner"]
 divany.hu##.cikk-halfpage.t-article-container_sidebar > div:first-child
