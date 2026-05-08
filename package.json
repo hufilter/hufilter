@@ -70,11 +70,11 @@
     "@adguard/dead-domains-linter": "^1.0.33",
     "dateformat": "^5.0.3",
     "husky": "^9.1.7",
-    "lint-staged": "^16.4.0",
+    "lint-staged": "^17.0.3",
     "markdownlint": "^0.40.0",
     "markdownlint-cli": "^0.48.0",
     "punycode": "^2.3.1",
-    "tldts": "^7.0.29"
+    "tldts": "^7.0.30"
   },
   "engines": {
     "node": ">=20.0.0"
