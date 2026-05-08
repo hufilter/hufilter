@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: BvMLL/b39yxzU06uWTCqPg
-! Version: 202605081823
+! Checksum: XhJizYGg2U6DR0rZ63OhgA
+! Version: 202605081824
 ! Title: Hufilter Basic
-! Last modified: 08 May 2026 18:23 UTC
+! Last modified: 08 May 2026 18:24 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -335,8 +335,8 @@ delmagyar.hu##[id*="banner"]
 delmagyar.hu##[id^="linkbox_article"]
 delmagyar.hu###billboard
 demokrata.hu##.region-header.region
-dictzone.com###a1
-dictzone.com###a2
+dictzone.com##.ad1
+dictzone.com##.ad3
 dijnet.hu##.jquery-modal.blocker.current
 dimo.hu##[class*="banner"]
 divany.hu##.cikk-halfpage.t-article-container_sidebar > div:first-child
@@ -535,8 +535,8 @@ hoxa.hu##img
 hoxa.hu##div>a:has(img)
 hrportal.hu##.ui-widget-overlay
 hrportal.hu##[class*="banner"]
+hrportal.hu##[id*="banner"]
 hrportal.hu###cucc
-hrportal.hu###layerbanner
 hu.ign.com##[data-zadtype="billboard"]
 hu.ign.com##div.mobileArticleAds
 hu.ign.com##div.right-rail:has(div.ad-wrapper)
