@@ -1,8 +1,8 @@
 [Adblock Plus 3.9.4]
-! Checksum: DFwK/eOr9pNcDjDe8u31FA
-! Version: 202605081822
+! Checksum: /eguSU8paBBluDJaMzyb4g
+! Version: 202605081823
 ! Title: Hufilter for ABP
-! Last modified: 08 May 2026 18:22 UTC
+! Last modified: 08 May 2026 18:23 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -825,6 +825,9 @@ mmonline.hu##[class*="banner"]
 mobilarena.hu##.adbox
 mobilarena.hu##[class*="adtext"]
 moly.hu##[class*="banner"]
+moly.hu##.bcontent
+moly.hu##.bonnet
+moly.hu###side
 motorrevu.hu##[class*="hirdetes"]
 mozinezo.hu###header
 mozishop.hu##.om-holder
