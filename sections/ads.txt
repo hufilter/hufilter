@@ -485,6 +485,7 @@ hir.ma##[id*="-bg"]
 hir.ma###sidebad
 hir.ma###spu-main
 hir.ma###text-html-widget-6
+hir.ma##.ad-kezdolap-fekvo
 hir6.hu##[class*="banner"]
 hirado.hu##div[id*="Banner"]
 hirado.hu##div[id*="zone-wallbanner-header"]
