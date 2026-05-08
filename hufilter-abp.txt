@@ -1,8 +1,8 @@
 [Adblock Plus 3.9.4]
-! Checksum: +llvwOhskEBhLkHgydbG/A
-! Version: 202604290937
+! Checksum: g3U7qYNVnkhw13/yjkxD/Q
+! Version: 202605081821
 ! Title: Hufilter for ABP
-! Last modified: 29 Apr 2026 09:37 UTC
+! Last modified: 08 May 2026 18:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -956,6 +956,7 @@ port.hu##[class*="_spon"]
 port.hu##[class="advert fix-advert"]
 port.hu##.advertisement__sticky
 port.hu##body .advert
+port.hu##.advertisement__fill
 portfolio.hu##.footer--partners
 portfolio.hu##[data-qa="oil-full"]
 portfolio.hu##[data-qa="oil-Layer"]
