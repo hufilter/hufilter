@@ -190,6 +190,7 @@ bacsmegye.hu###total
 ! https://github.com/hufilter/hufilter/issues/255
 baon.hu##iframe[src="https://tunderszepek.baon.hu/tunderszepek-banner"]
 bebiztositva.hu##.widget_media_image
+benu.hu##.advertisement
 beol.hu##[class*="adcikk"]
 betegvagyok.hu##[id*="banner"]
 bien.hu##.ads_show_ad_title
