@@ -111,6 +111,7 @@ infostart.hu###ajanlo
 infostart.hu###sitemodal:has(.fb-button)
 infostart.hu##div[data-qa="oil-Layer"]
 ingatlan.com###nps-form
+ipon.hu,notebook.hu,benu.hu,euronics.hu,decathlon.hu##molin-shop-ai
 keol.hu###social
 keol.hu##div.subscribe_module
 keol.hu##div[class="fb-like fb_iframe_widget"]

@@ -606,7 +606,6 @@ ipon.hu##.u-hide\@mobile.flag-wrapper--fill.flag-wrapper.grid-col-lg-1-4.grid-co
 ipon.hu##[id*="banner"]
 ipon.hu###leftPoszter-section
 ipon.hu###salePoszter
-ipon.hu,notebook.hu,benu.hu,euronics.hu,decathlon.hu##molin-shop-ai
 ite.hu##div[class="tl-state-root tve-leads-ribbon tve-trigger-hide tve-tl-anim tve-leads-track-ribbon-1 tl-anim-slide_top tve-leads-triggered"]
 itmania.hu##.rckaexclude
 itmania.hu##[class*="hirdetes"]
