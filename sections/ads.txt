@@ -694,6 +694,7 @@ kuruc.info##.overlay
 kuruc.info##.pupopadbox
 kuruc.info##[class="cikkbanner hirdbox mh40 listafriss"]
 kuruc.info##[style="margin-left:auto;margin-right:auto;width:980px;text-align:center"]
+laptapir.hu##.p-4.justify-content-center.d-flex.content
 lakberendezes.hu##.adbg
 libri.hu##.box-general.clearfix
 libri.hu##.discount.clearfix.nonLpk
