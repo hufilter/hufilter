@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: 1iOTHtCz6WPfQJ8aYmiSZg
-! Version: 202605120847
+! Checksum: W3vR6oIlKoWSZdvCyREmbQ
+! Version: 202605120848
 ! Title: Hufilter for AdGuard
-! Last modified: 12 May 2026 08:47 UTC
+! Last modified: 12 May 2026 08:48 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -538,8 +538,9 @@ hogymondom.hu##img[src*="ads"]
 hogymondom.hu##td > a > img[data-src]
 hogymondom.hu##td > a[href*="utm_campaign"]
 hotdog.hu###tetszett
-hoxa.hu##img
-hoxa.hu##div>a:has(img)
+hoxa.hu##.ntadbnnrszone
+hoxa.hu##a[target="_blank"] > img
+hoxa.hu##div:has(>a[target="_blank"] > img)
 hrportal.hu##.ui-widget-overlay
 hrportal.hu##[class*="banner"]
 hrportal.hu##[id*="banner"]
@@ -2071,6 +2072,7 @@ greendex.hu#@#.heateor_sss_sharing_container
 !-------------------------------------------------------------------------------!
 hoxa.hu#?#a:matches-css(background: /url.*/)
 hoxa.hu#?#a:matches-css(background-image: /url.*/)
+hoxa.hu#%#//scriptlet('abort-on-property-read', 'getComputedStyle')
 gyakorikerdesek.hu#?#a:matches-css(background: /url(?!.*static\.gyakorikerdesek\.hu\/p\/).*/)
 gyakorikerdesek.hu#?#a:matches-css(background-image: /url(?!.*static\.gyakorikerdesek\.hu\/p\/).*/)
 ! https://github.com/uBlockOrigin/uAssets/issues/23271
