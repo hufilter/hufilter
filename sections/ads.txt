@@ -251,10 +251,11 @@ bpiautosok.hu##body > br:first-child + center
 bpiautosok.hu##body > br:first-child + center + br
 bpiautosok.hu##footer + font, footer ~ br
 bpiautosok.hu##font + center
+budapestkornyeke.hu###custom_html-6
 budapestkornyeke.hu###custom_html-10
 budapestkornyeke.hu###custom_html-11
-budapestkornyeke.hu###custom_html-6
 budapestkornyeke.hu###media_image-17
+budapestkornyeke.hu###media_image-21
 budapestkornyeke.hu###upprev_box
 budapestkornyeke.hu##div.bpkad
 budapestkornyeke.hu##div[style="margin-top:20px;"]
