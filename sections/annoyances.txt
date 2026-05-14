@@ -17,6 +17,7 @@ hu###szechenyi-banner
 hu##.szechenyi2020-top-infoblokk
 hu##.sz2020-logo
 hu##molin-shop-ai
+hu###molin-chat-custom-button
 
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
