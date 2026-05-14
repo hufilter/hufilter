@@ -263,10 +263,11 @@ bpiautosok.hu##.wp-block-group-is-layout-flex.wp-container-core-group-is-layout-
 bpiautosok.hu##.wp-block-group-is-layout-constrained.wp-container-core-group-is-layout-fa525ba4.is-layout-constrained.has-global-padding.wp-block-group
 bpiautosok.hu##.wp-elements-b2a52eafbc721081b7f2502a4eaecea5.has-medium-font-size.has-platypi-font-family.has-link-color.has-background.has-text-color.has-base-color.is-style-default.a.tamogatokblokk.has-text-align-center
 bpiautosok.hu##.wp-block-group-is-layout-constrained.wp-container-core-group-is-layout-5ab78976.is-layout-constrained.has-global-padding.has-background.wp-block-group
+budapestkornyeke.hu###custom_html-6
 budapestkornyeke.hu###custom_html-10
 budapestkornyeke.hu###custom_html-11
-budapestkornyeke.hu###custom_html-6
 budapestkornyeke.hu###media_image-17
+budapestkornyeke.hu###media_image-21
 budapestkornyeke.hu###upprev_box
 budapestkornyeke.hu##div.bpkad
 budapestkornyeke.hu##div[style="margin-top:20px;"]
@@ -786,7 +787,7 @@ maszol.ro###article > section > div:not(.article_content)
 mavcsoport.hu###cboxOverlay
 mavcsoport.hu###colorbox
 mediamarkt.hu##article[data-cs-override-id^="mms-sponsored-product-card-"]
-mediamarkt.hu##aside[class="sc-a2fcee8-0 fmYGst"]:has(button[aria-label="Tudj meg többet a termékszponzorációról"])
+mediamarkt.hu##aside[class="sc-3e143820-0 erAlUN"]:has(button[aria-label="Tudj meg többet a termékszponzorációról"])
 mediamarkt.hu##li[data-index-number]:has(button[aria-label="Tudj meg többet a termékszponzorációról"])
 medicalonline.hu##.ui-floating-message
 medicalonline.hu##.wsp-wrap
