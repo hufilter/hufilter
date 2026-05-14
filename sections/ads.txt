@@ -397,6 +397,8 @@ filmezek.com##a[style*="inline-block"] > img
 figyelo.hu##[class*="adbox"]
 figyelo.hu##[class*="banner"]
 filmoldal.hu##div[class*="reklam"]
+focikatalogus.hu##a[target="_blank"] > img
+focikatalogus.hu##div:has(>a[target="_blank"] > img)
 foodora.hu##.partnership-ads
 foodora.hu##div[class*="video-container"]
 forbes.hu##div[id^="forbesad"]
