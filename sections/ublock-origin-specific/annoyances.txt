@@ -42,4 +42,4 @@ hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
 otpportalok.hu###pop_1:has(> .suti)
 unideb.hu##.sendi-banner-block-container
-divany.hu##+js(aeld, mouseout)
+divany.hu,femina.hu##+js(aeld, mouseout)
