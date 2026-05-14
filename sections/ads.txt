@@ -331,6 +331,7 @@ divany.hu##[id*="hirdetes"]
 divany.hu##[id*="szponzoracio"]
 divany.hu###interstitial
 divany.hu##iframe
+divany.hu##.bg-primary-button-bg
 donna.hu##[class*="banner"]
 donna.hu##[id*="banner"]
 duen.hu##[id*="banner"]
