@@ -672,6 +672,7 @@ kisalfold.hu##div[id*="linkbox"]
 kiskegyed.hu##.ibb-banner-decor
 kiskegyed.hu##[class*="ads"]
 kiskegyed.hu##[id*="banner"]
+kiskegyed.hu##[class*="banner"]
 kitekinto.hu##[class*="hirdetes"]
 kitekinto.hu##[id*="hirdetes"]
 klubradio.hu##div[id*="banner"]
