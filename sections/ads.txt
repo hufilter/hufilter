@@ -763,8 +763,8 @@ mafab.hu##div[class="container-full"][style="background:#fff"]:has(.topadv)
 hang.hu##.mc-modal:has(iframe)
 hang.hu##[id^="um-"]:has(.fb-page.fb_iframe_widget)
 magyarepitok.hu##.category-section:has(> div > div > h3[style*="color:#999"])
-magyarhirlap.hu##.ad-magnum
-magyarhirlap.hu##.ad-verticalfull
+magyarhirlap.hu##[class*="ad-"]
+magyarhirlap.hu##[id*="-ad-"]
 magyarhirlap.hu##.partners
 magyarhirlap.hu##[class*="banner"]
 magyarhirlap.hu##[class*="simpleads"]
