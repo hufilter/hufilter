@@ -1,8 +1,8 @@
 [Adblock Plus 3.9.4]
-! Checksum: qKi5bDxNX5u9QQdf2hTYlg
-! Version: 202605140618
+! Checksum: b/HkBpqmSzM7mmRnHmY1BQ
+! Version: 202605150512
 ! Title: Hufilter for ABP
-! Last modified: 14 May 2026 06:18 UTC
+! Last modified: 15 May 2026 05:12 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -418,6 +418,8 @@ filmezek.com##a[style*="inline-block"] > img
 figyelo.hu##[class*="adbox"]
 figyelo.hu##[class*="banner"]
 filmoldal.hu##div[class*="reklam"]
+focikatalogus.hu##a[target="_blank"] > img
+focikatalogus.hu##div:has(>a[target="_blank"] > img)
 foodora.hu##.partnership-ads
 foodora.hu##div[class*="video-container"]
 forbes.hu##div[id^="forbesad"]
