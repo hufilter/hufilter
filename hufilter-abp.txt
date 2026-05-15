@@ -1,5 +1,5 @@
 [Adblock Plus 3.9.4]
-! Checksum: b/HkBpqmSzM7mmRnHmY1BQ
+! Checksum: jsUmImbDp9nv/fwi1vgQvg
 ! Version: 202605150512
 ! Title: Hufilter for ABP
 ! Last modified: 15 May 2026 05:12 UTC
@@ -352,6 +352,7 @@ divany.hu##[id*="hirdetes"]
 divany.hu##[id*="szponzoracio"]
 divany.hu###interstitial
 divany.hu##iframe
+divany.hu##.bg-primary-button-bg
 donna.hu##[class*="banner"]
 donna.hu##[id*="banner"]
 duen.hu##[id*="banner"]

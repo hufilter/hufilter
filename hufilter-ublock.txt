@@ -1,5 +1,5 @@
 [uBlock Origin]
-! Checksum: mkihV9Gr1y7bL4iPZMXctw
+! Checksum: Vnsv3eZzndBQLmiEI7GKxQ
 ! Version: 202605150512
 ! Title: Hufilter for uBO
 ! Last modified: 15 May 2026 05:12 UTC
@@ -352,6 +352,7 @@ divany.hu##[id*="hirdetes"]
 divany.hu##[id*="szponzoracio"]
 divany.hu###interstitial
 divany.hu##iframe
+divany.hu##.bg-primary-button-bg
 donna.hu##[class*="banner"]
 donna.hu##[id*="banner"]
 duen.hu##[id*="banner"]
@@ -2133,6 +2134,7 @@ hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
 otpportalok.hu###pop_1:has(> .suti)
 unideb.hu##.sendi-banner-block-container
+divany.hu,femina.hu##+js(aeld, mouseout)
 ! This section file contains rules for cookie notices.
 ! The rules in this section should be uBlock-specific, but cross-compatible rules are also allowed, if they are
 ! not working properly without the uBlock-specific rules.

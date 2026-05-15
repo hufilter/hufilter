@@ -1,5 +1,5 @@
 [AdGuard]
-! Checksum: zBXVWkISBPwxU7wstWDC7w
+! Checksum: 5eoI0zKkKsyZvsoPblDh2g
 ! Version: 202605150512
 ! Title: Hufilter for AdGuard
 ! Last modified: 15 May 2026 05:12 UTC
@@ -352,6 +352,7 @@ divany.hu##[id*="hirdetes"]
 divany.hu##[id*="szponzoracio"]
 divany.hu###interstitial
 divany.hu##iframe
+divany.hu##.bg-primary-button-bg
 donna.hu##[class*="banner"]
 donna.hu##[id*="banner"]
 duen.hu##[id*="banner"]
@@ -2140,6 +2141,7 @@ hetek.hu###nyeremenyModal
 otpportalok.hu###pop_1:has(> .suti)
 bme.hu###floating-logo-container
 unideb.hu##.sendi-banner-block-container
+divany.hu,femina.hu#%#//scriptlet('prevent-addEventListener', 'mouseout')
 ! This section file contains rules for blocking cookie notices.
 ! The rules in this section should be AdGuard-specific, but cross-compatible rules are also allowed, if they are
 ! not working properly without the AdGuard-specific rules.
