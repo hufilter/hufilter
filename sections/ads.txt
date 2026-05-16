@@ -645,6 +645,7 @@ kekvillogo.hu,budapestkornyeke.hu###full-desktop
 kekvillogo.hu,budapestkornyeke.hu###full-mobile
 kekvillogo.hu,budapestkornyeke.hu##header + div[style^="margin:"]
 kekvillogo.hu##div.bpkad
+kekvillogo.hu##.post_below
 keol.hu##.article_banner
 keol.hu###above_article_banner
 keol.hu###advertisements
