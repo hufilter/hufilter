@@ -92,12 +92,6 @@ hazipatika.com###facebook-sharebar
 hazipatika.com###webaruhaz-ajanlo
 hirado.hu##.hover_bkgr_fricc:has(.facebookPopupCloseButton)
 hvg.hu##.hvg_push
-hellovidek.hu###ajanlo
-hellovidek.hu##.box_remote
-hellovidek.hu##.h-sideboard_2
-hellovidek.hu##.fbfollow
-hellovidek.hu##.fbshare
-hellovidek.hu##.fbcont2
 iho.hu##.social-icon
 iho.hu##.newsletter-box
 ! adbook nagger

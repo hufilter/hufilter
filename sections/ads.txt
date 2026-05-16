@@ -356,13 +356,6 @@ egeszsegkalauz.hu##[style="min-height: 300px;"]
 egeszsegkalauz.hu##a[title="Hirdetés"]
 egeszsegkalauz.hu##div.wrapAds
 egeszsegtukor.hu##[id^="ad_"]
-elelmiszer.hu##div[class*="contentBanner"]
-elelmiszer.hu##div[style="text-align: center; margin-bottom:10px; position: relative;"]
-eletmod.hu##.rckaexclude
-eletmod.hu##.super
-eletmod.hu##[class*="hirdetes"]
-eletmod.hu##[id*="banner"]
-eletmod.hu##[id*="etarget"]
 epresso.hu##[class*="banner"]
 eredmenyek.com###onetrust-banner-sdk
 erettsegi.com##.code-block
@@ -371,7 +364,6 @@ es.hu##[class*="banner"]
 es.hu##[id*="banner"]
 es.hu##IFRAME
 esport1.hu##[class*="cls-"]
-eudomain.eu##div[id*="col_2"]
 evamagazin.hu##.popupunderlay
 evamagazin.hu##[class*="adPlace"]
 evamagazin.hu##[class^="goAdverticum"]
@@ -482,7 +474,6 @@ helyitipp.hu##[id*="hirdet"]
 heol.hu##[class*="hirdetes"]
 hetek.hu##[id*="popup"]
 hetek.hu##div.row:has(>div.ads)
-hellovidek.hu##.kalkulator
 hir.ma##[class*="PostAd"]
 hir.ma##[class^="ad"]
 hir.ma##[class="e3lan e3lan-top"]
@@ -1239,8 +1230,6 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||dijnet.hu/ekonto/images/szolg_logo/hu/adomany_logo.jpg$image
 ||duen.hu/*ad
 ||esport1.hu/banner/$image
-||eudomain.eu/ad
-||eudomain.eu/affiliate
 ||ezoterikus.hu/*banner*/$image
 ||femcafe.hu/*/spike_ad/
 ||femcafe.hu/*/sponsoration/
