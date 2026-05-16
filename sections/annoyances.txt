@@ -61,7 +61,6 @@ civishir.hu##.cookie-box-cnt
 civishir.hu##.infobar-cnt
 csaladinet.hu###cikkajanlo
 csodahelyek.hu###elementor-popup-modal-41687
-csupasport.hu##.enews-article-content .endless-shared-area
 ! https://github.com/hufilter/hufilter/issues/617
 dkv.hu###silktide-wrapper
 dkv.hu##[href="/ginop-palyazat"]
