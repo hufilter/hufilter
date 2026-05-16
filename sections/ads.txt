@@ -1324,6 +1324,7 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 ||stylemagazin.hu/static/template_settings/
 ||szegeder.hu/get-ads
 ||szegeder.hu/js/ads-prebid.js^$script
+||szegedma.hu/*banners/*.$image
 ! https://github.com/hufilter/hufilter/issues/5
 ||szepsegbroker.hu/banner/$image
 ||szepsegbroker.hu/elements/bannerz.2019.js^$script
