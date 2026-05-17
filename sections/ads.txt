@@ -664,6 +664,9 @@ koponyeg.hu##[id*="adsense"]
 koponyeg.hu###vshu-box
 koponyeg.hu##div[class*="banner"]
 koroshircentrum.hu##div:has(>a+h6)
+hunbasket.hu###euro-event
+hunbasket.hu###league-selector+.row+.row:has(.banner)
+hunbasket.hu###sponsors
 kossuth.hu##.kapu
 kossuth.hu##.mini_slider_div0
 kreativ.hu##[class*="Banner"]
