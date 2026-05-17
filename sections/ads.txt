@@ -685,6 +685,8 @@ koponyeg.hu##[id*="adsense"]
 koponyeg.hu###vshu-box
 koponyeg.hu##div[class*="banner"]
 koroshircentrum.hu##div:has(>a+h6)
+koroshircentrum.hu##div:has(> a > img):has(+ div > h6)
+koroshircentrum.hu##div:has(> a > img) + div:has(h6)
 kosarsport.hu,hunbasket.hu###euro-event
 kosarsport.hu,hunbasket.hu###league-selector+.row+.row:has(.banner)
 kosarsport.hu,hunbasket.hu###sponsors
@@ -1033,6 +1035,7 @@ startlap.hu##[id*="peelgame"]
 startlap.hu##div.container.banner-container.left
 startlap.hu##div.container.banner-container.right
 startlap.hu##div.container.banner-container.wide > *
+story.hu##.banner-container
 storyonline.hu##.cikk-hir
 storyonline.hu##[class*="googlebox"]
 storyonline.hu##[class*="hirdetes"]
@@ -1051,6 +1054,7 @@ szatmar.ro##[class*="banner"]
 szatmar.ro###st-2
 szatmar.ro##div[id*="banner"]
 szeged.hu##[src^="/uploads/images/banners/"]
+szeged.hu##.banner-container
 szeged365.hu##.stream-item
 szeged365.hu##[id^="stream-item-"]
 szeged365.hu##[id^="tie-block"]:has(.stream-title)
@@ -1129,7 +1133,7 @@ vehir.hu##[class*="szovegkozi"]
 vehir.hu##[class^="ad_"]
 vehir.hu##[id*="reklam_"]
 vehir.hu##[id^="ad_"]
-
+vehir.hu##[class*="container-items"]
 velvet.hu##.adszoveg
 velvet.hu##[class*="ad_container"]
 velvet.hu##[class*="ad-container"]
