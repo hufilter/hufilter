@@ -1055,6 +1055,7 @@ szatmar.ro###st-2
 szatmar.ro##div[id*="banner"]
 szeged.hu##[src^="/uploads/images/banners/"]
 szeged.hu##.banner-container
+szegeder.hu#?#div:has(>div>span:-abp-contains(Hirdetés))
 szeged365.hu##.stream-item
 szeged365.hu##[id^="stream-item-"]
 szeged365.hu##[id^="tie-block"]:has(.stream-title)
