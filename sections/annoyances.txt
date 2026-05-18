@@ -202,6 +202,7 @@ szeretlekmagyarorszag.hu###rovatpromo
 szeretlekmagyarorszag.hu##iframe[class*="my-fbrecommend"]
 telex.hu###modal--umbrella
 telex.hu###modal--you
+telex.hu###modal--tax26--bottom
 totalcar.hu##.header-tk-ajanlo
 twn.hu###popunder_featured
 ugyeszseg.hu##.et_pb_fullwidth_image
