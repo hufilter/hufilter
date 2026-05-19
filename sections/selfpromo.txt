@@ -92,3 +92,4 @@ tudatosvasarlo.hu##.hi-header-tamogass
 tudatosvasarlo.hu##.hi-tamogass-banner
 vezess.hu##.katalog
 vezess.hu##.wpb_wrapper > a
+szegeder.hu##.szegeder-tax1-wrap
