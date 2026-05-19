@@ -1009,6 +1009,7 @@ startlap.hu##[id*="peelgame"]
 startlap.hu##div.container.banner-container.left
 startlap.hu##div.container.banner-container.right
 startlap.hu##div.container.banner-container.wide > *
+story.hu##.banner-container
 streetkitchen.hu##.sponsor-container
 stylemagazin.hu##[class="wp-container wp-top"]
 stylemagazin.hu##[id*="banner"]
