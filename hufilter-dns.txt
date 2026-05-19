@@ -1,7 +1,7 @@
-# Checksum: i7utSDSz+rLGwKDq8YCReQ
-# Version: 202604150911
+# Checksum: uehwwu8VFJzqHtvyAzrHNQ
+# Version: 202605190927
 # Title: Hufilter DNS
-# Last modified: 15 Apr 2026 09:11 UTC
+# Last modified: 19 May 2026 09:27 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -75,9 +75,7 @@ wstat.ozon.ru
 chatrobot.mia.gov.hu
 adat.agrokep.vg.hu
 adat.borsonline.hu
-adat.figyelo.hu
 adat.freemail.hu
-adat.hirtv.hu
 adat.ingatlanbazar.hu
 adat.kisalfold.hu
 adat.koponyeg.hu
