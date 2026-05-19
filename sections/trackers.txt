@@ -44,9 +44,7 @@
 !-------------------------------------------------------------------------------!
 ||adat.agrokep.vg.hu^
 ||adat.borsonline.hu^
-||adat.figyelo.hu^
 ||adat.freemail.hu^
-||adat.hirtv.hu^
 ||adat.ingatlanbazar.hu^
 ||adat.kisalfold.hu^
 ||adat.koponyeg.hu^
