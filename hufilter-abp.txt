@@ -1,8 +1,8 @@
 [Adblock Plus 3.9.4]
-! Checksum: oa5gj2lbD577SeF6shUXxA
-! Version: 202605191837
+! Checksum: 4oqYS3hYlRSOY5W2RQaC1g
+! Version: 202605191838
 ! Title: Hufilter for ABP
-! Last modified: 19 May 2026 18:37 UTC
+! Last modified: 19 May 2026 18:38 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1030,6 +1030,7 @@ startlap.hu##[id*="peelgame"]
 startlap.hu##div.container.banner-container.left
 startlap.hu##div.container.banner-container.right
 startlap.hu##div.container.banner-container.wide > *
+story.hu##.banner-container
 streetkitchen.hu##.sponsor-container
 stylemagazin.hu##[class="wp-container wp-top"]
 stylemagazin.hu##[id*="banner"]

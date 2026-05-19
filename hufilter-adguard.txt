@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: MqIz5Ox91CtEno+1hp+Ugw
-! Version: 202605191837
+! Checksum: /39jExzbj72kHvdMeJgbfQ
+! Version: 202605191838
 ! Title: Hufilter for AdGuard
-! Last modified: 19 May 2026 18:37 UTC
+! Last modified: 19 May 2026 18:38 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1030,6 +1030,7 @@ startlap.hu##[id*="peelgame"]
 startlap.hu##div.container.banner-container.left
 startlap.hu##div.container.banner-container.right
 startlap.hu##div.container.banner-container.wide > *
+story.hu##.banner-container
 streetkitchen.hu##.sponsor-container
 stylemagazin.hu##[class="wp-container wp-top"]
 stylemagazin.hu##[id*="banner"]
