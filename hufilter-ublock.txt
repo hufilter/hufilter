@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: UP9vpjiVUt5p0I8dAF2itg
-! Version: 202605191836
+! Checksum: jAubVxB2PR2Z0dfSodh/rA
+! Version: 202605191837
 ! Title: Hufilter for uBO
-! Last modified: 19 May 2026 18:36 UTC
+! Last modified: 19 May 2026 18:37 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1646,6 +1646,7 @@ szeretlekmagyarorszag.hu###rovatpromo
 szeretlekmagyarorszag.hu##iframe[class*="my-fbrecommend"]
 telex.hu###modal--umbrella
 telex.hu###modal--you
+telex.hu###modal--tax26--bottom
 totalcar.hu##.header-tk-ajanlo
 twn.hu###popunder_featured
 ugyeszseg.hu##.et_pb_fullwidth_image
