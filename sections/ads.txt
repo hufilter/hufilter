@@ -1019,6 +1019,7 @@ szatmar.ro##[class*="banner"]
 szatmar.ro###st-2
 szatmar.ro##div[id*="banner"]
 szeged.hu##[src^="/uploads/images/banners/"]
+szeged.hu##.banner-container
 szeged365.hu##.stream-item
 szeged365.hu##[id^="stream-item-"]
 szeged365.hu##[id^="tie-block"]:has(.stream-title)
