@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qHv2YJG6dZUm8nnCGT3XWA
-! Version: 202605191840
+! Checksum: Aeah25h5Ax/CqHR09k/yqw
+! Version: 202605191844
 ! Title: Hufilter Basic
-! Last modified: 19 May 2026 18:40 UTC
+! Last modified: 19 May 2026 18:44 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -272,6 +272,18 @@ bpiautosok.hu##body > br:first-child + center
 bpiautosok.hu##body > br:first-child + center + br
 bpiautosok.hu##footer + font, footer ~ br
 bpiautosok.hu##font + center
+bpiautosok.hu##.wp-block-group-is-layout-flow.is-layout-flow.has-background.alignfull.wp-block-group
+bpiautosok.hu##.wp-block-group-is-layout-constrained.wp-container-core-group-is-layout-21b780dc.is-layout-constrained.has-global-padding.wp-block-group
+bpiautosok.hu##.wp-block-group-is-layout-flex.wp-container-core-group-is-layout-749d63b9.is-layout-flex.is-content-justification-center.is-vertical.has-background.wp-block-group
+bpiautosok.hu##.wp-elements-426a5844dfe5c308d74ff8b6b2a414d5.has-small-font-size.has-link-color.has-background.has-text-color.has-base-color.is-style-default.a.tamogatokblokk.has-text-align-center
+bpiautosok.hu##.wp-block-group-is-layout-flex.wp-container-core-group-is-layout-e6cf3442.is-layout-flex.is-nowrap.is-content-justification-left.is-horizontal.has-background.wp-block-group
+bpiautosok.hu##.wp-site-blocks > .has-link-color.has-text-color.has-accent-4-color.has-text-align-center
+bpiautosok.hu##.wp-block-group-is-layout-constrained.wp-container-core-group-is-layout-7c9e52ef.is-layout-constrained.has-global-padding.wp-block-group
+bpiautosok.hu##.wp-elements-da62e3fae9a54999b930a749becc7b60.has-link-color.has-text-color.has-accent-4-color.has-text-align-center
+bpiautosok.hu##.wp-block-group-is-layout-flex.wp-container-core-group-is-layout-d14a9e93.is-layout-flex.is-nowrap.is-content-justification-center.is-horizontal.has-background.wp-block-group
+bpiautosok.hu##.wp-block-group-is-layout-constrained.wp-container-core-group-is-layout-fa525ba4.is-layout-constrained.has-global-padding.wp-block-group
+bpiautosok.hu##.wp-elements-b2a52eafbc721081b7f2502a4eaecea5.has-medium-font-size.has-platypi-font-family.has-link-color.has-background.has-text-color.has-base-color.is-style-default.a.tamogatokblokk.has-text-align-center
+bpiautosok.hu##.wp-block-group-is-layout-constrained.wp-container-core-group-is-layout-5ab78976.is-layout-constrained.has-global-padding.has-background.wp-block-group
 budapestkornyeke.hu###custom_html-6
 budapestkornyeke.hu###custom_html-10
 budapestkornyeke.hu###custom_html-11
