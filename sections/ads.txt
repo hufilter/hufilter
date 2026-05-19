@@ -1096,6 +1096,7 @@ vehir.hu##[class*="szovegkozi"]
 vehir.hu##[class^="ad_"]
 vehir.hu##[id*="reklam_"]
 vehir.hu##[id^="ad_"]
+vehir.hu##[class*="container-items"]
 velvet.hu##.adszoveg
 velvet.hu##[class*="ad_container"]
 velvet.hu##[class*="ad-container"]
