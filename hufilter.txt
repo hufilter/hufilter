@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WP1w28IBaHT4mJqD4+DeNg
-! Version: 202605191839
+! Checksum: qHv2YJG6dZUm8nnCGT3XWA
+! Version: 202605191840
 ! Title: Hufilter Basic
-! Last modified: 19 May 2026 18:39 UTC
+! Last modified: 19 May 2026 18:40 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -687,6 +687,8 @@ koponyeg.hu##[id*="adsense"]
 koponyeg.hu###vshu-box
 koponyeg.hu##div[class*="banner"]
 koroshircentrum.hu##div:has(>a+h6)
+koroshircentrum.hu##div:has(> a > img):has(+ div > h6)
+koroshircentrum.hu##div:has(> a > img) + div:has(h6)
 hunbasket.hu###euro-event
 hunbasket.hu###league-selector+.row+.row:has(.banner)
 hunbasket.hu###sponsors
