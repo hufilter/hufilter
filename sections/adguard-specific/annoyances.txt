@@ -43,4 +43,5 @@ hetek.hu###nyeremenyModal
 otpportalok.hu###pop_1:has(> .suti)
 bme.hu###floating-logo-container
 unideb.hu##.sendi-banner-block-container
+stylemagazin.hu#%#//scriptlet('prevent-addEventListener', 'mouseleave')
 divany.hu,femina.hu#%#//scriptlet('prevent-addEventListener', 'mouseout')
