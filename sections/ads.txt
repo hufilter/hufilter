@@ -1038,7 +1038,6 @@ szeged.hu##.banner-container
 szeged365.hu##.stream-item
 szeged365.hu##[id^="stream-item-"]
 szeged365.hu##[id^="tie-block"]:has(.stream-title)
-szegeder.hu#?#div:has(>div>span:-abp-contains(Hirdetés))
 szekelyfold.ma##div[id^="ga_g"]
 szepsegbroker.hu##.rightContent + [style]
 szeretlekmagyarorszag.hu##.adslabel
@@ -1172,6 +1171,7 @@ zene.hu##.etarget
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters (with Extended CSS) --------------------------!
 !-------------------------------------------------------------------------------!
+szegeder.hu#?#div:has(> div > span:-abp-contains(Hirdetés))
 bpiautosok.hu#?#.widget:-abp-has(h3w:-abp-contains(Támogatóink))
 bpiautosok.hu#?#[class*="item_container"]:-abp-has([class*="_tag"]:-abp-contains(hirdetés))
 bpiautosok.hu#?#center:-abp-has(>font)
