@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: bEsiIAVe9C3akFysKi2Apg
-! Version: 202605191907
+! Checksum: y+lrSizlSlNSTxu4UUYJyQ
+! Version: 202605200546
 ! Title: Hufilter Basic
-! Last modified: 19 May 2026 19:07 UTC
+! Last modified: 20 May 2026 05:46 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1191,6 +1191,7 @@ zene.hu##.etarget
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters (with Extended CSS) --------------------------!
 !-------------------------------------------------------------------------------!
+aranyoldalak.hu#?#p:has(span:-abp-contains(hirdetés) ~ a img)
 szegeder.hu#?#div:has(> div > span:-abp-contains(Hirdetés))
 bpiautosok.hu#?#.widget:-abp-has(h3w:-abp-contains(Támogatóink))
 bpiautosok.hu#?#[class*="item_container"]:-abp-has([class*="_tag"]:-abp-contains(hirdetés))
