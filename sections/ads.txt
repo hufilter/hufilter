@@ -824,6 +824,7 @@ mult-kor.hu##[align="center"] > a[href*="banner"]
 mult-kor.hu##[class^="ui-dialog"]
 musicdaily.hu###articlead
 musicdaily.hu##.wp-block-embed:has(iframe)
+musor.tv##.topad
 napidroid.hu##.right
 napidroid.hu###custom_html-3
 napidroid.hu###custom_html-4
