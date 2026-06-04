@@ -1170,6 +1170,7 @@ zene.hu##.etarget
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters (with Extended CSS) --------------------------!
 !-------------------------------------------------------------------------------!
+kepernyoido.hu#?#div:has(> a > img):has(> small:-abp-contains(Hirdetés))
 aranyoldalak.hu#?#p:has(span:-abp-contains(hirdetés) ~ a img)
 szegeder.hu#?#div:has(> div > span:-abp-contains(Hirdetés))
 bpiautosok.hu#?#.widget:-abp-has(h3w:-abp-contains(Támogatóink))
