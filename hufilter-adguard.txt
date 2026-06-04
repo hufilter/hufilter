@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: +DspEDMtZAFXwmJJ2cM0vg
-! Version: 202606040634
+! Checksum: 7mqhGMghmXfBTbg35c9qCw
+! Version: 202606040813
 ! Title: Hufilter for AdGuard
-! Last modified: 04 Jun 2026 06:34 UTC
+! Last modified: 04 Jun 2026 08:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2047,14 +2047,16 @@ greendex.hu#@#.heateor_sss_sharing_container
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+liked.hu$$#liked-ad-systems-script
+liked.hu#%#//scriptlet('set-constant', 'showVignette', 'falseFunc')
+hoxa.hu#%#//scriptlet('abort-on-property-read', 'getComputedStyle')
+! https://github.com/uBlockOrigin/uAssets/issues/23271
+jofogas.hu#%#//scriptlet('prevent-setTimeout', 'E(!1)')
 rejtvenyjatek.hu,90naposdieta.hu,fogyokurak.hu,focisjatek.hu,onlinesakk.hu,webminute.hu,kvizlabirintus.hu,hoxa.hu,focikatalogus.hu#?#a:matches-css(background: /url.*/)
 rejtvenyjatek.hu,90naposdieta.hu,fogyokurak.hu,focisjatek.hu,onlinesakk.hu,webminute.hu,kvizlabirintus.hu,hoxa.hu,focikatalogus.hu#?#a:matches-css(background-image: /url.*/)
-hoxa.hu#%#//scriptlet('abort-on-property-read', 'getComputedStyle')
 hoxa.hu#$#HTML,#main1 { background: none !important; }
 gyakorikerdesek.hu#?#a:matches-css(background: /url(?!.*static\.gyakorikerdesek\.hu\/p\/).*/)
 gyakorikerdesek.hu#?#a:matches-css(background-image: /url(?!.*static\.gyakorikerdesek\.hu\/p\/).*/)
-! https://github.com/uBlockOrigin/uAssets/issues/23271
-jofogas.hu#%#//scriptlet('prevent-setTimeout', 'E(!1)')
 myonlineradio.hu#$#._bannerTop1 { background-color: transparent !important; }
 myonlineradio.hu#$#.topHorizontalBanner { position: absolute !important; left: -3000px !important; }
 startlap.hu#$#div.container.banner-container.wide { min-height: 0 !important; height: auto !important; }
