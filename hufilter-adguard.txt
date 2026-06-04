@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: 7mqhGMghmXfBTbg35c9qCw
-! Version: 202606040813
+! Checksum: cywW1aPMxeM3e/QV5VPCyg
+! Version: 202606042000
 ! Title: Hufilter for AdGuard
-! Last modified: 04 Jun 2026 08:13 UTC
+! Last modified: 04 Jun 2026 20:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1190,6 +1190,7 @@ zene.hu##.etarget
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters (with Extended CSS) --------------------------!
 !-------------------------------------------------------------------------------!
+kepernyoido.hu#?#div:has(> a > img):has(> small:-abp-contains(Hirdetés))
 aranyoldalak.hu#?#p:has(span:-abp-contains(hirdetés) ~ a img)
 szegeder.hu#?#div:has(> div > span:-abp-contains(Hirdetés))
 bpiautosok.hu#?#.widget:-abp-has(h3w:-abp-contains(Támogatóink))
