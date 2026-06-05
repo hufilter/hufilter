@@ -1023,6 +1023,7 @@ startlap.hu##div.container.banner-container.left
 startlap.hu##div.container.banner-container.right
 startlap.hu##div.container.banner-container.wide > *
 story.hu##.banner-container
+story.hu##.m-recommendation.mb-6.py-4
 streetkitchen.hu##.sponsor-container
 stylemagazin.hu##[class="wp-container wp-top"]
 stylemagazin.hu##[id*="banner"]
@@ -1170,6 +1171,7 @@ zene.hu##.etarget
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters (with Extended CSS) --------------------------!
 !-------------------------------------------------------------------------------!
+story.hu##h2:has(+ .m-recommendation.mb-6.py-4)
 kepernyoido.hu#?#div:has(> a > img):has(> small:-abp-contains(Hirdetés))
 aranyoldalak.hu#?#p:has(span:-abp-contains(hirdetés) ~ a img)
 szegeder.hu#?#div:has(> div > span:-abp-contains(Hirdetés))
