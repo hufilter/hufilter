@@ -93,3 +93,5 @@ tudatosvasarlo.hu##.hi-tamogass-banner
 vezess.hu##.katalog
 vezess.hu##.wpb_wrapper > a
 szegeder.hu##.szegeder-tax1-wrap
+glamour.hu##.magazine.position-relative.d-none.d-md-flex.my-5
+glamour.hu##.newsletterImage
