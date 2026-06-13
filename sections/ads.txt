@@ -544,6 +544,7 @@ hungliaonline.com##[style="background: rgb(255, 255, 255); max-width: 720px; z-i
 hungliaonline.com##[style="z-index: 999999; background: rgba(0, 0, 0, 0.85098); display: block;"]
 huntorrent.org##.ads-container
 huntorrent.org##.banner-center
+huntorrent.org##.ads-container-lightweight
 hupont.hu##[id*="-reklam"]
 hupont.hu##[id*="fancybox"]
 hupont.hu##[id^="hirdetes_jobb_2"] + div + div
