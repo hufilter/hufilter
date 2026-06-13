@@ -984,6 +984,8 @@ roadster.hu##.lead-ad-wrap
 romnet.hu##[class*="hirdetes"]
 romnet.hu##[id*="banner"]
 romnet.hu##[id*="hirdetes"]
+speedshop.hu###page_PopupContainer
+speedshop.hu###exposeMaskExitpopup
 sg.hu##.std0
 sg.hu##[class*="advert"]
 sg.hu##IMG[src="images/hirdetes.gif"]
