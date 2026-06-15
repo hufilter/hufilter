@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: /brLE1yGXpATFcxXg3YqLg
-! Version: 202606151003
+! Checksum: UoG6VoYCBCw3qCIJd5TO/A
+! Version: 202606151757
 ! Title: Hufilter for uBO
-! Last modified: 15 Jun 2026 10:03 UTC
+! Last modified: 15 Jun 2026 17:57 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2052,6 +2052,7 @@ greendex.hu#@#.heateor_sss_sharing_container
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+speedshop.hu##+js(set, exitpopup_overlay, noopFunc)
 liked.hu##^#liked-ad-systems-script
 liked.hu##+js(set, showVignette, falseFunc)
 hoxa.hu##+js(set, getComputedStyle, undefined)
