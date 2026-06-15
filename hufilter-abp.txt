@@ -1,8 +1,8 @@
 [Adblock Plus 3.9.4]
-! Checksum: 86j6Oqb5mrEVddR9mgPkFQ
-! Version: 202606102141
+! Checksum: Awu+TSLR+g9L1B3d0U8aXw
+! Version: 202606150929
 ! Title: Hufilter for ABP
-! Last modified: 10 Jun 2026 21:41 UTC
+! Last modified: 15 Jun 2026 09:29 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -565,6 +565,7 @@ hungliaonline.com##[style="background: rgb(255, 255, 255); max-width: 720px; z-i
 hungliaonline.com##[style="z-index: 999999; background: rgba(0, 0, 0, 0.85098); display: block;"]
 huntorrent.org##.ads-container
 huntorrent.org##.banner-center
+huntorrent.org##.ads-container-lightweight
 hupont.hu##[id*="-reklam"]
 hupont.hu##[id*="fancybox"]
 hupont.hu##[id^="hirdetes_jobb_2"] + div + div
