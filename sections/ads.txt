@@ -518,8 +518,8 @@ hogymondom.hu##td > a[href*="utm_campaign"]
 hotdog.hu###tetszett
 hoxa.hu##.ntadbnnrszone
 webminute.hu##a[target="_blank"][rel] > img
-rejtvenyjatek.hu,focikatalogus.hu,90naposdieta.hu,fogyokurak.hu,focisjatek.hu,onlinesakk.hu,kvizlabirintus.hu,hoxa.hu##a[target="_blank"] > img
-focikatalogus.hu,90naposdieta.hu,fogyokurak.hu,focisjatek.hu,onlinesakk.hu,kvizlabirintus.hu,hoxa.hu##div:has(>a[target="_blank"] > img)
+tutifilmek.hu,anyaleszek.hu,anyalettem.hu,egeszsegtipp.hu,testunklelkunk.hu,rejtvenyjatek.hu,focikatalogus.hu,90naposdieta.hu,fogyokurak.hu,focisjatek.hu,onlinesakk.hu,kvizlabirintus.hu,hoxa.hu##a[target="_blank"] > img
+tutifilmek.hu,anyaleszek.hu,anyalettem.hu,egeszsegtipp.hu,testunklelkunk.hu,focikatalogus.hu,90naposdieta.hu,fogyokurak.hu,focisjatek.hu,onlinesakk.hu,kvizlabirintus.hu,hoxa.hu##div:has(>a[target="_blank"] > img)
 hrportal.hu##.ui-widget-overlay
 hrportal.hu##[class*="banner"]
 hrportal.hu##[id*="banner"]
