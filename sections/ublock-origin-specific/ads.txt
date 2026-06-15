@@ -7,6 +7,7 @@
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+speedshop.hu##+js(set, exitpopup_overlay, noopFunc)
 liked.hu##^#liked-ad-systems-script
 
 liked.hu##+js(set, showVignette, falseFunc)
