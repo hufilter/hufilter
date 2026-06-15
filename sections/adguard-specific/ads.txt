@@ -7,9 +7,9 @@
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
-speedshop.hu#%#//scriptlet('set-constant', 'exitpopup_overlay', 'noopFunc')
 liked.hu$$#liked-ad-systems-script
 
+speedshop.hu#%#//scriptlet('set-constant', 'exitpopup_overlay', 'noopFunc')
 liked.hu#%#//scriptlet('set-constant', 'showVignette', 'falseFunc')
 hoxa.hu#%#//scriptlet('abort-on-property-read', 'getComputedStyle')
 ! https://github.com/uBlockOrigin/uAssets/issues/23271
