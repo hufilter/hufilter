@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: I3HZh9vNKpcrJoTboqcDSA
-! Version: 202606150929
+! Checksum: Ef8iViO+6HtjwPP92njaDA
+! Version: 202606151003
 ! Title: Hufilter Basic
-! Last modified: 15 Jun 2026 09:29 UTC
+! Last modified: 15 Jun 2026 10:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -539,8 +539,8 @@ hogymondom.hu##td > a[href*="utm_campaign"]
 hotdog.hu###tetszett
 hoxa.hu##.ntadbnnrszone
 webminute.hu##a[target="_blank"][rel] > img
-rejtvenyjatek.hu,focikatalogus.hu,90naposdieta.hu,fogyokurak.hu,focisjatek.hu,onlinesakk.hu,kvizlabirintus.hu,hoxa.hu##a[target="_blank"] > img
-focikatalogus.hu,90naposdieta.hu,fogyokurak.hu,focisjatek.hu,onlinesakk.hu,kvizlabirintus.hu,hoxa.hu##div:has(>a[target="_blank"] > img)
+tutifilmek.hu,anyaleszek.hu,anyalettem.hu,egeszsegtipp.hu,testunklelkunk.hu,rejtvenyjatek.hu,focikatalogus.hu,90naposdieta.hu,fogyokurak.hu,focisjatek.hu,onlinesakk.hu,kvizlabirintus.hu,hoxa.hu##a[target="_blank"] > img
+tutifilmek.hu,anyaleszek.hu,anyalettem.hu,egeszsegtipp.hu,testunklelkunk.hu,focikatalogus.hu,90naposdieta.hu,fogyokurak.hu,focisjatek.hu,onlinesakk.hu,kvizlabirintus.hu,hoxa.hu##div:has(>a[target="_blank"] > img)
 hrportal.hu##.ui-widget-overlay
 hrportal.hu##[class*="banner"]
 hrportal.hu##[id*="banner"]
