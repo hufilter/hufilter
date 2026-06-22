@@ -1418,6 +1418,7 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 
 ||abmr.net^$third-party
 ||abo-widget.xyz^$third-party
+||apiv2.indidata.com^$third-party
 ||ad.hu^$third-party
 ||ad4mat.net^$third-party
 ||adfox.ru^$third-party
