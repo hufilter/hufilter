@@ -1154,6 +1154,7 @@ vilagszam.hu##[id*="-ad-"]
 vilagszammagazin.hu##[class^="adv"]
 vilagunk.hu##[style="background: rgb(255, 255, 255); max-width: 720px; z-index: 9999999; opacity: 1; visibility: visible;"]
 vilagunk.hu##[style="z-index: 999999; background: rgba(0, 0, 0, 0.901961); display: block;"]
+vilagunk.hu##.vilagunk-ad-container
 webbeteg.hu##[id*="_ajanlatunk_"]
 webbeteg.hu##[id^="hirdetes"]
 webbeteg.hu##div.floating_share
