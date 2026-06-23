@@ -518,8 +518,8 @@ hogymondom.hu##td > a[href*="utm_campaign"]
 hotdog.hu###tetszett
 hoxa.hu##.ntadbnnrszone
 webminute.hu##a[target="_blank"][rel] img
-gyakorikerdesek.hu,tutifilmek.hu,anyaleszek.hu,anyalettem.hu,egeszsegtipp.hu,testunklelkunk.hu,rejtvenyjatek.hu,focikatalogus.hu,90naposdieta.hu,fogyokurak.hu,focisjatek.hu,onlinesakk.hu,kvizlabirintus.hu,hoxa.hu##a[target="_blank"] img
-tutifilmek.hu,anyaleszek.hu,anyalettem.hu,egeszsegtipp.hu,testunklelkunk.hu,focikatalogus.hu,90naposdieta.hu,fogyokurak.hu,focisjatek.hu,onlinesakk.hu,kvizlabirintus.hu,hoxa.hu##div:has(>a[target="_blank"] > img)
+forma1eredmenyek.hu,gyakorikerdesek.hu,tutifilmek.hu,anyaleszek.hu,anyalettem.hu,egeszsegtipp.hu,testunklelkunk.hu,rejtvenyjatek.hu,focikatalogus.hu,90naposdieta.hu,fogyokurak.hu,focisjatek.hu,onlinesakk.hu,kvizlabirintus.hu,hoxa.hu##a[target="_blank"] img
+forma1eredmenyek.hu,tutifilmek.hu,anyaleszek.hu,anyalettem.hu,egeszsegtipp.hu,testunklelkunk.hu,focikatalogus.hu,90naposdieta.hu,fogyokurak.hu,focisjatek.hu,onlinesakk.hu,kvizlabirintus.hu,hoxa.hu##div:has(>a[target="_blank"] > img)
 hrportal.hu##.ui-widget-overlay
 hrportal.hu##[class*="banner"]
 hrportal.hu##[id*="banner"]
@@ -1418,6 +1418,7 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owne
 
 ||abmr.net^$third-party
 ||abo-widget.xyz^$third-party
+||apiv2.indidata.com^$third-party
 ||ad.hu^$third-party
 ||ad4mat.net^$third-party
 ||adfox.ru^$third-party
