@@ -1144,7 +1144,6 @@ videa.hu###sitemessage
 videa.hu###videa-video-overlay
 videa.hu##.ad-manager-container
 videoklinika.hu##div[id*="Banner"]
-vidget.hu##[class*="banner"]
 vilagszam.hu##[class^="adv"]
 vilagszam.hu##[id*="-ad-"]
 vilagszammagazin.hu##[class^="adv"]
