@@ -473,6 +473,7 @@ haziallat.hu##.slotLeaderboardWrapper
 haziallat.hu##.slotRoadblockWrapper
 haziallat.hu##.slotLeadWrapper
 haziallat.hu##.slotArticleEndWrapper
+hazipatika.com##.ce_adocean_ad_slot
 hazipatika.com##.-contentTop
 hazipatika.com##.ctsGadx
 hazipatika.com##.hashtags
