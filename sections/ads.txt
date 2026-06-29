@@ -237,7 +237,6 @@ blog.hu##div[class*="adv"]
 blog.hu##div[class*="blh-billboard-ad"]
 blog.hu##div[class*="etarget"]
 blog.hu##div[id*="wAdBox"]
-blogspot.hu###fbox-background
 bookline.hu##.o-banner--hirdetes
 borsonline.hu##.real-estate-wrapper
 borsonline.hu##[class*="__ad"]
