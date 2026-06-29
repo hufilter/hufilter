@@ -433,9 +433,7 @@ gportal.hu##[class*="banner"]
 gsplus.hu,pcwplus.hu##.ad
 gsplus.hu,pcwplus.hu##.box-wrapper > .box-actual-magazine + .box-html
 gumiszoba.com##.wpcnt
-gyakorikerdesek.hu##style+div
-gyakorikerdesek.hu##style+span
-gyakorikerdesek.hu##style+p
+gyakorikerdesek.hu##a[style*="color"]
 gyakorikerdesek.hu##IFRAME
 gyakorikerdesek.hu##[id*="aswift"]
 gyakorikerdesek.hu##td.txtcenter:has(>script+ins)
