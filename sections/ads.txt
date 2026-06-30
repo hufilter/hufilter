@@ -868,7 +868,6 @@ nepszava.hu##.ad
 netbulvar.eu##[id*="advertisment"]
 megnezed.com##div[align="center"]:has(> a)
 nice.hu##[class*="banner"]
-nkmenergia.hu###tab-widget
 nlc.hu##.banner-container
 nlc.hu##.m-breakingLayer:has(a[href*="nlc.hu/balkonfanatik"])
 nlc.hu##.m-fbPopup
@@ -883,9 +882,6 @@ nyest.hu##[class*="banner"]
 olcsobbat.hu##[class*="Advert"]
 olcsobbat.hu##[id*="hirdetes"]
 olcsobbat.hu###datasheetNavHelp
-online-filmek.ac,online-filmek.me###azidodetpazarlod
-online-filmek.ac,online-filmek.me##.ad_mrg
-online-filmek.ac,online-filmek.me##.details-main-panel + span
 onlinecegjegyzek.hu##[class*="hirdetes"]
 ! https://github.com/hufilter/hufilter/issues/254
 onroad.hu##.highlighted-banner
