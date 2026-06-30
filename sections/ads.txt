@@ -659,7 +659,6 @@ kisalfold.hu##.tamogatott
 kisalfold.hu##.vippr
 kisalfold.hu##[class*="advert"]
 kisalfold.hu##[class*="banner-"]
-kisalfold.hu##[class*="hirdetes"]
 kisalfold.hu##[class*="offer prbox"]
 kisalfold.hu##[class*="pr--"]
 kisalfold.hu##[class^="pr-"]
