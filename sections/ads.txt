@@ -94,6 +94,8 @@ hu##[class*="overlayBg"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+! https://github.com/hufilter/hufilter/issues/833
+friss.ro##.banner-item
 ! https://github.com/uBlockOrigin/uAssets/issues/32274
 ipolyinfo.com##[style]:has(.ipoly-adlabel)
 ipolyinfo.com##figure.size-large
