@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4xo1SNhhoTkLQLC22rMo7Q
-! Version: 202607101008
+! Checksum: zbM5DzQ3nAKSUJSBl+cvbg
+! Version: 202607101013
 ! Title: Hufilter Basic
-! Last modified: 10 Jul 2026 10:08 UTC
+! Last modified: 10 Jul 2026 10:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -115,6 +115,10 @@ hu##[class*="overlayBg"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+! https://github.com/hufilter/hufilter/issues/834
+maszol.ro##.abox.google
+! https://github.com/hufilter/hufilter/issues/833
+friss.ro##.banner-item
 ! https://github.com/uBlockOrigin/uAssets/issues/32274
 ipolyinfo.com##[style]:has(.ipoly-adlabel)
 ipolyinfo.com##figure.size-large

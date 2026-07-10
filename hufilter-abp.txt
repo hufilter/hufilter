@@ -1,8 +1,8 @@
 [Adblock Plus 3.9.4]
-! Checksum: /8NWwuTu7m4QG4oEwgiUvw
-! Version: 202607101008
+! Checksum: vW8DmSLEe7JeYkLAFDGo8w
+! Version: 202607101013
 ! Title: Hufilter for ABP
-! Last modified: 10 Jul 2026 10:08 UTC
+! Last modified: 10 Jul 2026 10:13 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -115,6 +115,10 @@ hu##[class*="overlayBg"]
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+! https://github.com/hufilter/hufilter/issues/834
+maszol.ro##.abox.google
+! https://github.com/hufilter/hufilter/issues/833
+friss.ro##.banner-item
 ! https://github.com/uBlockOrigin/uAssets/issues/32274
 ipolyinfo.com##[style]:has(.ipoly-adlabel)
 ipolyinfo.com##figure.size-large
@@ -1489,6 +1493,7 @@ hu##.sz2020-logo
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+maszol.ro###app_banner
 ! https://github.com/hufilter/hufilter/issues/737
 telekom.hu###frame-modals
 hellomagyar.hu##.ct-popup
