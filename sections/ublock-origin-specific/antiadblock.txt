@@ -36,11 +36,6 @@ myonlineradio.hu##+js(cookie-remover, adblock)
 pcworld.hu##+js(rc, have-ad, body)
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu##+js(aopw, document.body.style)
-! https://github.com/uBlockOrigin/uAssets/issues/25482
-! https://github.com/uBlockOrigin/uAssets/issues/28850
-! https://github.com/uBlockOrigin/uAssets/issues/28850#issuecomment-2995469159
-! https://github.com/hufilter/hufilter/issues/614
-online-filmek.ac,online-filmek.me##+js(acis, fetch, 'mode')
 ! https://github.com/uBlockOrigin/uAssets/issues/27256#issuecomment-2670818969
 rubyvidhub.com##+js(rmnt, script, undefined)
 ! https://github.com/hufilter/hufilter/issues/656
@@ -56,4 +51,3 @@ media1.hu##[id^="elementor-adblock-detection-"][aria-hidden="true"]:style(displa
 !-------------------------------------------------------------------------------!
 ! https://github.com/hufilter/hufilter/issues/427
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js^$script,domain=myonlineradio.hu,redirect=noop.js
-||galaxypush.com/css/styles.min.css^$redirect=noop.css,domain=online-filmek.ac|online-filmek.me,important

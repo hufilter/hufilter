@@ -53,11 +53,6 @@ $cookie=adblock,domain=myonlineradio.hu
 pcworld.hu#%#//scriptlet('remove-class', 'have-ad', 'body')
 ! https://github.com/hufilter/hufilter/issues/15
 port.hu#%#//scriptlet('prevent-addEventListener', 'DOMContentLoaded', 'window.ado.blocked')
-! https://github.com/uBlockOrigin/uAssets/issues/25482
-! https://github.com/uBlockOrigin/uAssets/issues/28850
-! https://github.com/uBlockOrigin/uAssets/issues/28850#issuecomment-2995469159
-! https://github.com/hufilter/hufilter/issues/614
-online-filmek.ac,online-filmek.me#%#//scriptlet("abort-current-inline-script", "fetch", "'mode'")
 ! https://github.com/uBlockOrigin/uAssets/issues/27256#issuecomment-2670818969
 rubyvidhub.com#%#//scriptlet('remove-node-text', 'script', 'undefined')
 ! https://github.com/hufilter/hufilter/issues/656
@@ -71,7 +66,3 @@ media1.hu#$#[id^="elementor-adblock-detection-"][aria-hidden="true"] { display: 
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
-||galaxypush.com/css/styles.min.css^$redirect=noopcss,domain=online-filmek.ac|online-filmek.me,important
-!#if (adguard_ext_safari || adguard_app_ios || adguard_ext_android_cb)
-@@||galaxypush.com/css/styles.min.css^$domain=online-filmek.ac|online-filmek.me
-!#endif
