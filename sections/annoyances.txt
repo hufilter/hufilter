@@ -20,6 +20,7 @@ hu##.sz2020-logo
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
+maszol.ro###app_banner
 ! https://github.com/hufilter/hufilter/issues/737
 telekom.hu###frame-modals
 hellomagyar.hu##.ct-popup
