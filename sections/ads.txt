@@ -417,7 +417,6 @@ freemail.hu##[class*="magnum"]
 freemail.hu##a[href][rel="noopener noreferrer"][class*="enabled-"]
 ! https://github.com/hufilter/hufilter/issues/263
 freemail.hu###content-container > div > a:not([class*="MailListItem-"])
-flip.hu##dialog[open]:has(.cookie-modal):remove()
 galamus.hu##[class*="banner"]
 gamekapocs.hu###background_ad_top
 geeks.hu##[id*="banner"]
