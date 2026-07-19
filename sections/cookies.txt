@@ -71,6 +71,7 @@ f1vilag.hu###catapult-cookie-bar
 f1vilag.hu##div[id*="elementor-popup-modal-"]
 fermentor.hu###elementor-popup-modal-384
 forbes.hu###catapult-cookie-bar
+flip.hu##dialog[open]:has(.cookie-modal):remove()
 gabo.hu###megacookieeu-window
 gabo.hu###megacookieeu-little
 gabo.hu###megacookieeu

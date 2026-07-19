@@ -78,7 +78,6 @@ femina.hu###femina-shop-ajanlo-slider
 femina.hu##.cikk-torzs [data-miniapp-id]:has(.lapozgato-ajanlo)
 forbes.hu##.crp_related
 fressnapf.hu##.grey-popup-layer
-flip.hu##dialog[open]:has(.cookie-modal):remove()
 g7.hu###box-footer-newsletter
 glamour.hu##.leavingPopupLayer
 glamour.hu###articleOfferFlag
