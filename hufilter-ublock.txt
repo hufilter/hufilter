@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: D1UyawdN7+LyUBnu2js6Bw
-! Version: 202607201804
+! Checksum: V4FP0bqEixy+oLVqmwT72A
+! Version: 202607201806
 ! Title: Hufilter for uBO
-! Last modified: 20 Jul 2026 18:04 UTC
+! Last modified: 20 Jul 2026 18:06 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1863,7 +1863,6 @@ help.semmelweis.hu#?#.modal:has(h3:contains(Sütik használata)):has(button:cont
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
-/static/json/cookie-consent-$domain=flip.hu
 /choice/*/cmp2*.js^$script,domain=liked.hu
 /cookie-box.css$stylesheet,domain=posta.hu
 /cookie-information-modal.css$stylesheet,domain=posta.hu
