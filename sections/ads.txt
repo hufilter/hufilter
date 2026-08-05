@@ -380,6 +380,7 @@ esport1.hu##[class*="cls-"]
 evamagazin.hu##.popupunderlay
 evamagazin.hu##[class*="adPlace"]
 evamagazin.hu##[class^="goAdverticum"]
+evamagazin.hu##.cms-reservable-ad-box
 f1vilag.hu##[class*="adzone"]
 feliratok.org##.wrapper>.slider
 femcafe.hu##.views-field-nothing
