@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: Vw8BkIQBJvc8vIHsC7RLTQ
-! Version: 202608050803
+! Checksum: rFknhi7EyhqNJrS9WvFt7g
+! Version: 202608060653
 ! Title: Hufilter for uBO
-! Last modified: 05 Aug 2026 08:03 UTC
+! Last modified: 06 Aug 2026 06:53 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -505,6 +505,7 @@ hazipatika.com##TD[id*="l_sponsor"]
 hazipatika.com##[class*="adtext"]
 hazipatika.com##[class*="adv_"]
 hazipatika.com##[class*="advert"]
+hazipatika.com##.m-recommendedVideo
 helyitipp.hu##[id*="hirdet"]
 heol.hu##[class*="hirdetes"]
 hetek.hu##[id*="popup"]
@@ -603,6 +604,8 @@ idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]
 idokep.hu##a[data-bs-content*="(hirdetés)"]
 idokep.hu##.panoContainer.position-relative.sideScroll30sInfinite
+idokep.hu##video.w-100
+idokep.hu##.sidebar
 indavideo.hu##.topAdv
 indavideo.hu##[class*="billboard"]
 indavideo.hu##a[id="fullscreen_sponz_ct"]
