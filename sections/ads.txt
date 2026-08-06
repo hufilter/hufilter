@@ -484,6 +484,7 @@ hazipatika.com##TD[id*="l_sponsor"]
 hazipatika.com##[class*="adtext"]
 hazipatika.com##[class*="adv_"]
 hazipatika.com##[class*="advert"]
+hazipatika.com##.m-recommendedVideo
 helyitipp.hu##[id*="hirdet"]
 heol.hu##[class*="hirdetes"]
 hetek.hu##[id*="popup"]
