@@ -583,8 +583,8 @@ idokep.hu##[class*="hird_"]
 idokep.hu##[class*="hird-"]
 idokep.hu##a[data-bs-content*="(hirdetés)"]
 idokep.hu##.panoContainer.position-relative.sideScroll30sInfinite
-idokep.hu##video.w-100
-idokep.hu##.sidebar
+idokep.hu##[class*="Lockup"].sticky
+idokep.hu##.bottomDtTopNavigationPaneRightCol
 indavideo.hu##.topAdv
 indavideo.hu##[class*="billboard"]
 indavideo.hu##a[id="fullscreen_sponz_ct"]

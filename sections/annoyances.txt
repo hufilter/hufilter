@@ -204,6 +204,7 @@ vg.hu##.newsletter-box
 ! https://github.com/hufilter/hufilter/issues/250
 vg.hu##[style^="bottom: 0px; left: 0px; position: fixed; width:"]
 wmn.hu##a[href="https://wmn.hu/hirlevel-feliratkozas/"]
+idokep.hu##.mitVegyekFelBox > .haute-couture
 
 !-------------------------------------------------------------------------------!
 !------ Specific cosmetic filters (with Extended CSS) --------------------------!
