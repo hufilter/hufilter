@@ -1206,6 +1206,7 @@ prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:-abp-has(>h4 + div[st
 prohardver.hu,mobilarena.hu,logout.hu#?#div#center:-abp-has(div > div > p > a[style="color: #b42223;"])
 prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu##.adaptiveAd
 prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:not(.priv-thread-owner):-abp-has(> h4:-abp-contains(/(Hirdetés|[Hh].*i.*r.*d.*e.*t.*é.*s)/) + div[class])
+mysoft.hu#?#[class*="product-gallery"]:-abp-contains(/^[Hh]irdetés$/)
 
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
