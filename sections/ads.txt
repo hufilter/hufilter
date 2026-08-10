@@ -154,6 +154,8 @@ arukereso.hu##.brandbox
 atlatszo.hu##.tamogatoi
 atv.hu##.ad__cont
 atv.hu##.plus-wrapper
+autoalkatresz.hu##.adatlap_left.noprint
+autoalkatresz.hu###billboard
 automotor.hu###_cikk_jobbhasab_2
 automotor.hu###_cikk_jobbhasab_3
 automotor.hu###_fooldali_header_alatti_banner
