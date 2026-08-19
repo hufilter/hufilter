@@ -214,6 +214,7 @@ bkv.hu##.modal
 bkv.hu##.modal-backdrop
 bkv.hu##.modal-dialog
 bkv.hu###karrier
+blikk.hu##div[class*="banner"]
 blikk.hu##[id*="-ad-"][data-x="1"]
 blikk.hu##[id^="div-gpt-ad-"]
 blikk.hu##[id^="div-gpt-ad-"] + [class$="widget"]
