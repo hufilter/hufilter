@@ -68,7 +68,7 @@
   "devDependencies": {
     "@adguard/aglint": "4.0.0-beta.5",
     "@adguard/agtree": "^3.4.3",
-    "@adguard/dead-domains-linter": "^1.0.33",
+    "@adguard/dead-domains-linter": "^1.0.38",
     "dateformat": "^5.0.3",
     "husky": "^9.1.7",
     "lint-staged": "^17.3.0",
