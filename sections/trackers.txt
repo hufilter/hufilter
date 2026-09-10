@@ -46,7 +46,6 @@
 ||adat.freemail.hu^
 ||adat.ingatlanbazar.hu^
 ||adat.kisalfold.hu^
-||adat.koponyeg.hu^
 ||adat.life.hu^
 ||adat.magyarnemzet.hu^
 ||adat.metropol.hu^

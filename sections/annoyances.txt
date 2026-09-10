@@ -109,7 +109,6 @@ keol.hu##div[class="fb-like fb_iframe_widget"]
 kisalfold.hu###nap_ajanlata
 kisalfold.hu##div.endless-shared-area
 kiskegyed.hu###articleOfferFlag
-koponyeg.hu##.recommendationzone
 kre.hu##.infoblokszechenyi
 life.hu##.email-under-article
 life.hu##.facebook-layer-box

@@ -675,12 +675,6 @@ kiskegyed.hu##[class*="banner"]
 kitekinto.hu##[class*="hirdetes"]
 kitekinto.hu##[id*="hirdetes"]
 klubradio.hu##div[id*="banner"]
-koponyeg.hu##.integralt_felso_zona
-koponyeg.hu##[class*="adsense"]
-koponyeg.hu##[class*="hirdetes"]
-koponyeg.hu##[id*="adsense"]
-koponyeg.hu###vshu-box
-koponyeg.hu##div[class*="banner"]
 koroshircentrum.hu##div:has(>a+h6)
 koroshircentrum.hu##div:has(> a > img):has(+ div > h6)
 koroshircentrum.hu##div:has(> a > img) + div:has(h6)
@@ -1297,7 +1291,6 @@ mysoft.hu#?#[class*="product-gallery"]:-abp-contains(/^[Hh]irdetés$/)
 ||klasszikradio.hu/uploads/banner/$image
 ||klubradio.hu/data/files/banner$image
 ||konkretkonyvek.hu/data/banners/$image
-||koponyeg.hu/skins/k4/hirdetes/
 ||kuruc.info/galeriaN/banner/$image
 ||lapok.hu/felso/felso.php
 ||libri.hu/export/prodBann/
