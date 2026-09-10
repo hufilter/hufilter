@@ -17,7 +17,6 @@ erzsebetvaros.hu##+js(set-session-storage-item, popupClosed, true)
 hetek.hu##+js(rc, modal-open, body)
 hiros.hu##+js(aopw, oxyShowModal)
 lifestory.hu##+js(ra, oncontextmenu)
-mandiner.hu##+js(rc, modal-open, body, stay)
 ! https://github.com/hufilter/hufilter/issues/312
 mindmegette.hu##+js(remove-attr, href, [href*="ad.adverticum.net"])
 napiszar.com##+js(acis, document.createElement, setTimeout)
@@ -36,8 +35,6 @@ noizz.hu##body:style(overflow: auto !important;)
 
 traffihunter.hu##.ooono_promo
 vezess.hu##.m-fbPopup
-mandiner.hu##.modal-backdrop
-mandiner.hu##.modal[role="dialog"]
 hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
 otpportalok.hu###pop_1:has(> .suti)

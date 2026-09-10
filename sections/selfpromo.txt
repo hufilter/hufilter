@@ -51,9 +51,6 @@ magyarnarancs.hu##.d-lg-block.d-none.position-relative.ujsag-wrapper.container >
 magyarnarancs.hu##.bg-yellow.text-left
 magyarnarancs.hu##[href^="https://magyarnarancs.us7.list-manage.com/subscribe"]
 magyarnarancs.hu##.text-box
-mandiner.hu##.subscription-box
-mandiner.hu##man-header-magazine
-mandiner.hu##man-newsletter-diverter-card
 napiszex.hu###logo + .partner
 ncore.pro###pager_top > .premium
 ! https://github.com/hufilter/hufilter/issues/254

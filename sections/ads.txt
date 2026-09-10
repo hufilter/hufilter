@@ -245,13 +245,6 @@ blog.hu##div[class*="blh-billboard-ad"]
 blog.hu##div[class*="etarget"]
 blog.hu##div[id*="wAdBox"]
 bookline.hu##.o-banner--hirdetes
-borsonline.hu##.real-estate-wrapper
-borsonline.hu##[class*="__ad"]
-borsonline.hu##[class*="adContainer"]
-borsonline.hu##A[href="/jatek"]
-borsonline.hu##A[href="/nyarimagazin"]
-borsonline.hu##a[target="_blank"][class="videa-wrapper"]
-borsonline.hu##iframe[src*="koponyeg.hu"]
 bpiautosok.hu##body > br:first-child
 bpiautosok.hu##body > br:first-child + center
 bpiautosok.hu##body > br:first-child + center + br
@@ -779,7 +772,6 @@ magyarnarancs.hu##[id*="_ad"]
 magyarnemzet.hu###block-block-12
 magyarnemzet.hu###block-block-19
 magyarnemzet.hu##div.promo-bar
-mandiner.hu##.real-estate-wrapper
 maszol.ro###article > section > div:not(.article_content)
 mavcsoport.hu###cboxOverlay
 mavcsoport.hu###colorbox
@@ -1205,7 +1197,6 @@ egeszsegkalauz.hu#?#div.wrapRectangle:-abp-has(#ad-cikk)
 idokep.hu#?#.ik:-abp-contains(/^[Hh]irdetés$/)
 kezilabda.hu#?#div[style*="margin-bottom:10px"]:-abp-has(>div:-abp-contains(HIRDETÉS))
 kiszamolo.hu#?#div.ct-div-block:-abp-has(> div.ct-div-block > div.ct-text-block:-abp-contains(Hirdetés))
-mandiner.hu#?#.sub-text:-abp-contains(Hirdetés)
 prohardver.hu,mobilarena.hu,hardverapro.hu,fototrend.hu#?#div:-abp-has(>[style*="calc"])
 prohardver.hu,mobilarena.hu,logout.hu,hardverapro.hu#?#div:-abp-has(>h4 + div[style*="calc"])
 prohardver.hu,mobilarena.hu,logout.hu#?#div#center:-abp-has(div > div > p > a[style="color: #b42223;"])
@@ -1259,7 +1250,6 @@ mysoft.hu#?#[class*="product-gallery"]:-abp-contains(/^[Hh]irdetés$/)
 ||blog.hu/ad/
 ||blog.hu/media/image/hird/$image
 ||blog.hu/pixel
-||borsonline.hu/*hirdetes
 ||cegmarketing.hu/banner
 ||chat.hu/Client/banner$image
 ||chat.hu/imgadverts$image
@@ -1315,8 +1305,6 @@ mysoft.hu#?#[class*="product-gallery"]:-abp-contains(/^[Hh]irdetés$/)
 ||lolmarkt.hu/banner/$image
 ||love.hu/design/*hirdetes*.
 ||magyar-elektronika.hu/images/banners/$image
-||mandiner.hu/*/banner/$image
-||mandiner.hu/images/design/*-bg.$image
 ||medicalonline.hu/*hirdetes
 ||metropol.hu/*/images/sponsor_*.$image
 ||miabonyunk.hu/hirdetesek/

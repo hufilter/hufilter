@@ -17,7 +17,6 @@ erzsebetvaros.hu#%#//scriptlet('set-session-storage-item', 'popupClosed', 'true'
 hetek.hu#%#//scriptlet('remove-class', 'modal-open', 'body')
 hiros.hu#%#//scriptlet('abort-on-property-write', 'oxyShowModal')
 lifestory.hu#%#//scriptlet('remove-attr', 'oncontextmenu')
-mandiner.hu#%#//scriptlet('remove-class', 'modal-open', 'body', 'stay')
 ! https://github.com/hufilter/hufilter/issues/312
 mindmegette.hu#%#//scriptlet('remove-attr', 'href', '[href*="ad.adverticum.net"]')
 napiszar.com#%#//scriptlet('abort-current-inline-script', 'document.createElement', 'setTimeout')
@@ -35,8 +34,6 @@ noizz.hu#$#body { overflow: auto !important; }
 ! https://github.com/hufilter/hufilter/issues/212
 traffihunter.hu##.ooono_promo
 vezess.hu##.m-fbPopup
-mandiner.hu##.modal-backdrop
-mandiner.hu##.modal[role="dialog"]
 hetek.hu##[class="modal-backdrop fade show"]
 hetek.hu###nyeremenyModal
 ! https://github.com/hufilter/hufilter/issues/11

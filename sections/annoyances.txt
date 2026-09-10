@@ -50,8 +50,6 @@ blikk.hu##.leavingPopupLayer
 blikkruzs.blikk.hu###pe_confirm_optin_1
 blog.hu##[id*="cp_popup"]
 bonuszbrigad.hu###newASZFLayer
-borsonline.hu##.newsletter-box
-borsonline.hu##.subscription-box
 bpiautosok.hu###onesignal-bell-container
 bpiautosok.hu###onesignal-slidedown-container
 bpiautosok.hu##.extpp-container
@@ -121,9 +119,6 @@ life.hu###beuszoAjanlo
 life.hu###floating-recommendation
 magyarnemzet.hu##.newsletter-box
 ! annyoing large popup after opening the page
-mandiner.hu##app-calendar
-mandiner.hu##app-facebook-popup
-mandiner.hu##app-newsletter-popup
 mavcsoport.hu,police.hu###ikop-logo
 media1.hu##.elementor-popup-modal
 medicalonline.hu###medical_newsletter
