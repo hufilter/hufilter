@@ -1378,7 +1378,6 @@ mysoft.hu#?#[class*="product-gallery"]:-abp-contains(/^[Hh]irdetés$/)
 ||ad.gyermekevek.hu^
 ||ad.kapos.hu^
 ||ad.love.hu^
-||ad.napilapcsoport.hu^
 ||ad.onadozo.hu^
 ||ad.parom.hu^
 ||ad.pphungary.hu^
@@ -1389,7 +1388,6 @@ mysoft.hu#?#[class*="product-gallery"]:-abp-contains(/^[Hh]irdetés$/)
 ||ads.geeks.hu^
 ||adv.forpsi.hu^
 ||adv.hu^
-||adverbs.napilapcsoport.hu^
 ||advert*.ultraweb.hu^
 ||adverticum.*.hu^
 ||app.livechatoo.com^
@@ -1460,7 +1458,6 @@ mysoft.hu#?#[class*="product-gallery"]:-abp-contains(/^[Hh]irdetés$/)
 ||out.pladform.ru^$third-party
 ||po.st^$third-party
 ||pornedup.com^$third-party
-||premads.info^$third-party
 ||salesmanago.pl^$third-party
 ||seedr.com^$third-party
 ||seedr.ru^$third-party
