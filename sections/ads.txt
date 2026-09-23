@@ -199,6 +199,7 @@ bebiztositva.hu##.widget_media_image
 benu.hu##.advertisement
 beol.hu##[class*="adcikk"]
 betegvagyok.hu##[id*="banner"]
+bien.hu###bien_fekvo_1
 bien.hu##.ads_show_ad_title
 bien.hu##.hidden-xs:has(>.lablec_alatt)
 bien.hu##.hidden-xs:has(>.weboldal_felett)
