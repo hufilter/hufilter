@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: f0gkrY9Y6VeDRWmYnIpMZA
-! Version: 202609081912
+! Checksum: AdM6uHRpAOpq3KpnBgkGnQ
+! Version: 202609231927
 ! Title: Hufilter Basic
-! Last modified: 08 Sep 2026 19:12 UTC
+! Last modified: 23 Sep 2026 19:27 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -220,6 +220,7 @@ bebiztositva.hu##.widget_media_image
 benu.hu##.advertisement
 beol.hu##[class*="adcikk"]
 betegvagyok.hu##[id*="banner"]
+bien.hu###bien_fekvo_1
 bien.hu##.ads_show_ad_title
 bien.hu##.hidden-xs:has(>.lablec_alatt)
 bien.hu##.hidden-xs:has(>.weboldal_felett)
