@@ -1,7 +1,7 @@
-# Checksum: pVq6RQxAYRnkHonBoZpKSg
-# Version: 202605190927
+# Checksum: Yvo6pBJF2eR8l/JRO0Wrcw
+# Version: 202610020517
 # Title: Hufilter DNSMasq
-# Last modified: 19 May 2026 09:27 UTC
+# Last modified: 02 Oct 2026 05:17 UTC
 # Expires: 7 days (update frequency)
 # Homepage: https://hufilter.hu
 # Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -74,11 +74,9 @@ local=/widget.block4d.com/
 local=/wstat.ozon.ru/
 local=/chatrobot.mia.gov.hu/
 local=/adat.agrokep.vg.hu/
-local=/adat.borsonline.hu/
 local=/adat.freemail.hu/
 local=/adat.ingatlanbazar.hu/
 local=/adat.kisalfold.hu/
-local=/adat.koponyeg.hu/
 local=/adat.life.hu/
 local=/adat.magyarnemzet.hu/
 local=/adat.mandiner.hu/
