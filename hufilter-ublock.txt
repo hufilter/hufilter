@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: DPCmVY8hzq+7iRt84iaT3Q
-! Version: 202610020517
+! Checksum: AP6NlN6pAcMdm95BiVBFcg
+! Version: 202610120951
 ! Title: Hufilter for uBO
-! Last modified: 02 Oct 2026 05:17 UTC
+! Last modified: 12 Oct 2026 09:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2145,6 +2145,8 @@ hang.hu##^script:has-text(ai_run_)
 openspeedtest.com##^script:has-text(testadblock)
 port.hu##^script:has-text(popUpBannerBox Ad300 hirdetes_box)
 szeretlekmagyarorszag.hu##^script:has-text(window.atob)
+! https://github.com/uBlockOrigin/uAssets/issues/34815#issuecomment-6105290674
+hdfilmek.net##+js(acs, Math.random, _0x)
 naphire.hu##+js(aeld, load, reklám blokkolókat)
 24.hu##+js(acis, window._ceCTSData, hirdetések)
 angol-magyar-szotar.hu##+js(set, adblock, false)
