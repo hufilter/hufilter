@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iDmkQVlRWBUVOyhn9Oj4Kw
-! Version: 202610120952
+! Checksum: hWX+82apgk9blnaT3dXL5w
+! Version: 202610121027
 ! Title: Hufilter Basic
-! Last modified: 12 Oct 2026 09:52 UTC
+! Last modified: 12 Oct 2026 10:27 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1234,7 +1234,7 @@ mysoft.hu#?#[class*="product-gallery"]:-abp-contains(/^[Hh]irdetés$/)
 ||aghtag.tech/libs/projectagora.min.js^$script,domain=gyakorikerdesek.hu|hoxa.hu
 ||floweryoperation.com/v2/0/$domain=karpathir.com
 ||cdn.taboola.com^$domain=gyakorikerdesek.hu
-||html-load.com^$script,xhr,important,domain=hang.hu|idokep.hu|mafab.hu|nemzetisport.hu|nyitvatartas24.hu|profitline.hu|szamoldki.hu|twn.hu
+||html-load.com^$script,xmlhttprequest,important,domain=hang.hu|idokep.hu|mafab.hu|nemzetisport.hu|nyitvatartas24.hu|profitline.hu|szamoldki.hu|twn.hu
 !-------------------------------------------------------------------------------!
 !------ Generic network filters ------------------------------------------------!
 !-------------------------------------------------------------------------------!
