@@ -1215,7 +1215,7 @@ mysoft.hu#?#[class*="product-gallery"]:-abp-contains(/^[Hh]irdetés$/)
 ||aghtag.tech/libs/projectagora.min.js^$script,domain=gyakorikerdesek.hu|hoxa.hu
 ||floweryoperation.com/v2/0/$domain=karpathir.com
 ||cdn.taboola.com^$domain=gyakorikerdesek.hu
-||html-load.com^$script,xhr,important,domain=hang.hu|idokep.hu|mafab.hu|nemzetisport.hu|nyitvatartas24.hu|profitline.hu|szamoldki.hu|twn.hu
+||html-load.com^$script,xmlhttprequest,important,domain=hang.hu|idokep.hu|mafab.hu|nemzetisport.hu|nyitvatartas24.hu|profitline.hu|szamoldki.hu|twn.hu
 
 !-------------------------------------------------------------------------------!
 !------ Generic network filters ------------------------------------------------!
