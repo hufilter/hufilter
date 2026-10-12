@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: AP6NlN6pAcMdm95BiVBFcg
-! Version: 202610120951
+! Checksum: rGyEs4XtBDqKUgIB0QkyqA
+! Version: 202610120952
 ! Title: Hufilter for uBO
-! Last modified: 12 Oct 2026 09:51 UTC
+! Last modified: 12 Oct 2026 09:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1234,6 +1234,7 @@ mysoft.hu#?#[class*="product-gallery"]:-abp-contains(/^[Hh]irdetés$/)
 ||aghtag.tech/libs/projectagora.min.js^$script,domain=gyakorikerdesek.hu|hoxa.hu
 ||floweryoperation.com/v2/0/$domain=karpathir.com
 ||cdn.taboola.com^$domain=gyakorikerdesek.hu
+||html-load.com^$script,xhr,important,domain=hang.hu|idokep.hu|mafab.hu|nemzetisport.hu|nyitvatartas24.hu|profitline.hu|szamoldki.hu|twn.hu
 !-------------------------------------------------------------------------------!
 !------ Generic network filters ------------------------------------------------!
 !-------------------------------------------------------------------------------!
