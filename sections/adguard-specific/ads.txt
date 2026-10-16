@@ -8,6 +8,7 @@
 !------ Specific cosmetic filters ----------------------------------------------!
 !-------------------------------------------------------------------------------!
 liked.hu$$#liked-ad-systems-script
+hang.hu,idokep.hu,mafab.hu,nemzetisport.hu,szamoldki.hu,twn.hu,profitline.hu$$script[nowprocket]
 
 speedshop.hu#%#//scriptlet('set-constant', 'exitpopup_overlay', 'noopFunc')
 liked.hu#%#//scriptlet('set-constant', 'showVignette', 'falseFunc')
