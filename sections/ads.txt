@@ -912,6 +912,7 @@ pcforum.hu##.zone[data-zoneid]
 pcforum.hu###zone-titleheader
 pcforum.hu##.loaded[rel="swappable"]
 pcforum.hu,prog.hu##div[id][rel].loaded:has(> ins)
+prog.hu##[class*="adsbygoogle"]
 pcguru.hu##.banner-content
 pcguru.hu##.block.eset
 pcguru.hu##.bnr.bnr-holder-top, .bnr.bnr-holder
