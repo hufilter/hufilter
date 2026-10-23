@@ -1,8 +1,8 @@
 [AdGuard]
-! Checksum: DUlR1/7pIElLMGh9/SilZQ
-! Version: 202610231859
+! Checksum: mnK9XsZy3fgnSMVGs07vaQ
+! Version: 202610231900
 ! Title: Hufilter for AdGuard
-! Last modified: 23 Oct 2026 18:59 UTC
+! Last modified: 23 Oct 2026 19:00 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1667,6 +1667,7 @@ szeretlekmagyarorszag.hu##iframe[class*="my-fbrecommend"]
 telex.hu###modal--umbrella
 telex.hu###modal--you
 telex.hu###modal--tax26--bottom
+telex.hu##.modal--3000__container
 totalcar.hu##.header-tk-ajanlo
 twn.hu###popunder_featured
 ugyeszseg.hu##.et_pb_fullwidth_image
