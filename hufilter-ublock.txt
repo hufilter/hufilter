@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: 1Co502gRxQHdlwUI5wwFlQ
-! Version: 202610230533
+! Checksum: mxDNNTdmId1f6hioC4H64Q
+! Version: 202610231859
 ! Title: Hufilter for uBO
-! Last modified: 23 Oct 2026 05:33 UTC
+! Last modified: 23 Oct 2026 18:59 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -1647,6 +1647,7 @@ privatbankar.hu##.news-page > div[style*="background: #FFF900;"]:first-child
 profitline.hu###fb_like_modal
 prog.hu,pcforum.hu###subscribepopuppanelalign
 prog.hu##.popup
+prog.hu##.frame
 prohardver.hu###notif-modal
 propeller.hu##.popup
 raketa.hu##.ui-widget-overlay
@@ -2059,7 +2060,7 @@ forma1eredmenyek.hu,tutifilmek.hu,anyaleszek.hu,anyalettem.hu,egeszsegtipp.hu,te
 hoxa.hu##HTML,#main1:style(background: none !important;)
 gyakorikerdesek.hu##a:matches-css(background: /url(?!.*static\.gyakorikerdesek\.hu\/p\/).*/)
 gyakorikerdesek.hu##a:matches-css(background-image: /url(?!.*static\.gyakorikerdesek\.hu\/p\/).*/)
-pcforum.hu##div:matches-css-after(content: /hirdetés/)
+pcforum.hu,prog.hu##div:matches-css-after(content: /hirdetés/)
 myonlineradio.hu##.topHorizontalBanner
 myonlineradio.hu##._bannerTop1:style(background-color: transparent !important;)
 startlap.hu##div.container.banner-container.wide:style(min-height: 0 !important; height: auto !important;)
