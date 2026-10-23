@@ -175,6 +175,7 @@ privatbankar.hu##.news-page > div[style*="background: #FFF900;"]:first-child
 profitline.hu###fb_like_modal
 prog.hu,pcforum.hu###subscribepopuppanelalign
 prog.hu##.popup
+prog.hu##.frame
 prohardver.hu###notif-modal
 propeller.hu##.popup
 raketa.hu##.ui-widget-overlay
