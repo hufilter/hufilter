@@ -21,6 +21,7 @@ forma1eredmenyek.hu,tutifilmek.hu,anyaleszek.hu,anyalettem.hu,egeszsegtipp.hu,te
 hoxa.hu##HTML,#main1:style(background: none !important;)
 gyakorikerdesek.hu##a:matches-css(background: /url(?!.*static\.gyakorikerdesek\.hu\/p\/).*/)
 gyakorikerdesek.hu##a:matches-css(background-image: /url(?!.*static\.gyakorikerdesek\.hu\/p\/).*/)
+pcforum.hu##div:matches-css-after(content: /hirdetés/)
 myonlineradio.hu##.topHorizontalBanner
 myonlineradio.hu##._bannerTop1:style(background-color: transparent !important;)
 startlap.hu##div.container.banner-container.wide:style(min-height: 0 !important; height: auto !important;)
