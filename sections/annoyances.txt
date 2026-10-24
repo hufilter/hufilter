@@ -196,6 +196,7 @@ telex.hu###modal--umbrella
 telex.hu###modal--you
 telex.hu###modal--tax26--bottom
 telex.hu##.modal--3000__container
+telex.hu##.tax-widget__container
 totalcar.hu##.header-tk-ajanlo
 twn.hu###popunder_featured
 ugyeszseg.hu##.et_pb_fullwidth_image
