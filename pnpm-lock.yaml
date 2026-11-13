@@ -12,8 +12,8 @@ importers:
         specifier: 4.0.0-beta.5
         version: 4.0.0-beta.5(@types/node@20.17.36)
       '@adguard/agtree':
-        specifier: ^3.4.3
-        version: 3.4.3
+        specifier: ^4.4.0
+        version: 4.4.0
       '@adguard/dead-domains-linter':
         specifier: ^1.0.38
         version: 1.0.38
@@ -58,8 +58,12 @@ packages:
     resolution: {integrity: sha512-T838KvYtWu3K6whQ46YLaIXYA7PbszX9QRp4dvNfF8iWdp98tcKHxXWslBwUN1DkcBOqqj4rrkarLmcwT2iAbg==}
     engines: {node: '>=22'}
 
-  '@adguard/css-tokenizer@1.2.0':
-    resolution: {integrity: sha512-cUj5j/AU5z/T4//5M6KnIJBpykAY4QbDsoiQ2DaWX/r2XkepMkTb8DhIbUHJD/QLGEyLeQLpi+nlxAgf4NTRRQ==}
+  '@adguard/agtree@4.4.0':
+    resolution: {integrity: sha512-AohAFfgkPlbvFKif0x3UQJDOM5CmnBgL6lDX/OTDuWqDWnDM0oa4i54lINq4omO9dsXOtySkc1fogyVTQYCS8w==}
+    engines: {node: '>=22'}
+
+  '@adguard/css-tokenizer@1.3.0':
+    resolution: {integrity: sha512-0i5TNN4P34KbJGtPg5+ul9JNnw+MuOwd2oCjqFaQydaxzNpTr8dbMIS4fVTZNcvMgb6/GN/y/7/wmWRdcjo/7A==}
 
   '@adguard/dead-domains-linter@1.0.38':
     resolution: {integrity: sha512-tbmTZZBqFipHCMRBr6/vXbk/WYhwNpvj+lvjFyB4DEeNbkx47x6wkuE5nTdKmM/xjZzp35u3HFtXWIf+XhV1Pg==}
@@ -545,6 +549,9 @@ packages:
     resolution: {integrity: sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==}
     engines: {node: '>=10.13.0'}
 
+  glob-to-regexp@0.4.1:
+    resolution: {integrity: sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==}
+
   glob@10.5.0:
     resolution: {integrity: sha512-DfXN8DfhJ7NH3Oe7cFmu3NCu1wKbkReJ8TorzSAFbSKrlNaQSKfIzqYqVY8zlbs2NLBbWpRiU52GX2PbaBVNkg==}
     deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
@@ -1013,12 +1020,19 @@ packages:
   tldts-core@7.4.18:
     resolution: {integrity: sha512-KI2PKvCmvQI/xD6ypPqkU0i7oxNXR/O58RLRaHR4svsgVUQ2JE/XC8BtMbG6PSehD27I8sZJRcC1ASnCy6lp3g==}
 
+  tldts-core@7.4.19:
+    resolution: {integrity: sha512-goNXV6Ho9TIOfpJZanTd6CKG5DyYgYAL+k+22T0SLh8l6+KHIfBUPFuePuSZv05UttIaaLmI9tb7TmGIdK5AkQ==}
+
   tldts@5.7.112:
     resolution: {integrity: sha512-6VSJ/C0uBtc2PQlLsp4IT8MIk2UUh6qVeXB1HZtK+0HiXlAPzNcfF3p2WM9RqCO/2X1PIa4danlBLPoC2/Tc7A==}
     hasBin: true
 
   tldts@6.1.86:
     resolution: {integrity: sha512-WMi/OQ2axVTf/ykqCQgXiIct+mSQDFdH2fkwhPwgEwvJ1kSzZRiinb0zF2Xb8u4+OqPChmyI6MEu4EezNJz+FQ==}
+    hasBin: true
+
+  tldts@7.0.32:
+    resolution: {integrity: sha512-5eDV0tK2NhLAAqBeXDAQ36+EwuStd1HbsSOnGsp+JbExITnExcALLL5M1kTH8gjDYN5QvwmUWimE3GoMZ2A7xQ==}
     hasBin: true
 
   tldts@7.4.18:
@@ -1167,7 +1181,7 @@ snapshots:
 
   '@adguard/agtree@2.3.0':
     dependencies:
-      '@adguard/css-tokenizer': 1.2.0
+      '@adguard/css-tokenizer': 1.3.0
       clone-deep: 4.0.1
       is-ip: 3.1.0
       json5: 2.2.3
@@ -1178,7 +1192,7 @@ snapshots:
 
   '@adguard/agtree@3.4.3':
     dependencies:
-      '@adguard/css-tokenizer': 1.2.0
+      '@adguard/css-tokenizer': 1.3.0
       camelcase-keys: 7.0.2
       clone-deep: 4.0.1
       is-ip: 3.1.0
@@ -1188,7 +1202,19 @@ snapshots:
       xregexp: 5.1.2
       zod: 3.24.4
 
-  '@adguard/css-tokenizer@1.2.0': {}
+  '@adguard/agtree@4.4.0':
+    dependencies:
+      '@adguard/css-tokenizer': 1.3.0
+      camelcase-keys: 7.0.2
+      clone-deep: 4.0.1
+      glob-to-regexp: 0.4.1
+      is-ip: 3.1.0
+      json5: 2.2.3
+      sprintf-js: 1.1.3
+      tldts: 7.0.32
+      zod: 3.24.4
+
+  '@adguard/css-tokenizer@1.3.0': {}
 
   '@adguard/dead-domains-linter@1.0.38':
     dependencies:
@@ -1207,7 +1233,7 @@ snapshots:
 
   '@adguard/ecss-tree@2.0.1':
     dependencies:
-      '@adguard/css-tokenizer': 1.2.0
+      '@adguard/css-tokenizer': 1.3.0
       '@eslint/css-tree': 3.6.6
 
   '@adguard/scriptlets@1.12.1':
@@ -1588,6 +1614,8 @@ snapshots:
   glob-parent@6.0.2:
     dependencies:
       is-glob: 4.0.3
+
+  glob-to-regexp@0.4.1: {}
 
   glob@10.5.0:
     dependencies:
@@ -2167,6 +2195,8 @@ snapshots:
 
   tldts-core@7.4.18: {}
 
+  tldts-core@7.4.19: {}
+
   tldts@5.7.112:
     dependencies:
       tldts-core: 5.7.112
@@ -2174,6 +2204,10 @@ snapshots:
   tldts@6.1.86:
     dependencies:
       tldts-core: 6.1.86
+
+  tldts@7.0.32:
+    dependencies:
+      tldts-core: 7.4.19
 
   tldts@7.4.18:
     dependencies:
