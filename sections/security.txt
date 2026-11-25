@@ -12,6 +12,5 @@
 ||kinaiwebaruhaz.hu^$document
 ||maplin.hu^$document
 ||mikroelektronik.hu^$document
-||petpoolalarm.com^$document
 ||sexmeup.hu^$document
 ||magyarszo.com^$document
