@@ -33,6 +33,7 @@ hellomagyar.hu##.ct-popup
 24.hu###webPushPopup
 adozona.hu##.floating-help-wrapper
 alza.hu##.mailingActionC
+alza.hu##.category-banner-wrapper
 agrarszektor.hu##.flyout
 antikvarium.hu###subscribe-modal
 antikvarium.hu##.competition
