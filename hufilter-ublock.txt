@@ -1,8 +1,8 @@
 [uBlock Origin]
-! Checksum: URG20JlVjQOG9xcvMGPMKA
-! Version: 202611251442
+! Checksum: M+Zmf2Pu4uWoCokwQscUwg
+! Version: 202611251443
 ! Title: Hufilter for uBO
-! Last modified: 25 Nov 2026 14:42 UTC
+! Last modified: 25 Nov 2026 14:43 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://hufilter.hu
 ! Licence: CC-BY, see https://creativecommons.org/licenses/by/4.0/
@@ -2237,6 +2237,8 @@ myonlineradio.hu##.isSubPage._bannerTop1:matches-media((min-width: 1200px)):styl
 origo.hu##.first-section:style(margin-top: 0 !important;)
 ! On mobile devices, the navigation partially covers the article title.
 pcwplus.hu,gsplus.hu##[class="container main single-article"]:matches-media((max-width: 768px)):style(margin-top: 65px !important;)
+! szonyietterem.hu unbreak (necessary if using easylist cookie notice blocking)
+szonyietterem.hu##body:style(filter: none !important; pointer-events: auto !important)
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
 !-------------------------------------------------------------------------------!
