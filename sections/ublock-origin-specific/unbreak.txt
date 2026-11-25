@@ -49,6 +49,8 @@ myonlineradio.hu##.isSubPage._bannerTop1:matches-media((min-width: 1200px)):styl
 origo.hu##.first-section:style(margin-top: 0 !important;)
 ! On mobile devices, the navigation partially covers the article title.
 pcwplus.hu,gsplus.hu##[class="container main single-article"]:matches-media((max-width: 768px)):style(margin-top: 65px !important;)
+! szonyietterem.hu unbreak (necessary if using easylist cookie notice blocking)
+szonyietterem.hu##body:style(filter: none !important; pointer-events: auto !important)
 
 !-------------------------------------------------------------------------------!
 !------ Specific network filters -----------------------------------------------!
